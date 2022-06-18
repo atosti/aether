@@ -993,9 +993,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "                     Ye whose bones \n                     belong in dust\n                     and ash...",
-                            "                     The Living scream\n                     your horrid name\n                     into the void...",
-                            "                     Ease their burden.\n                     Silence the voice.\n                     And then...",
+                            "Ye whose bones belong as dust and ash.\nThe living scream your wretched name \ninto this miserable void...",
+                            "Bestowed with flesh, seek out their\nburdens and silence their voices. Only\nthen can you return to the fold...",
+                            "Fulfill your duty as you walk this \npath, or be forced back unto us: \nA horrid creature unable to...",
                             "\n                          ....A R I S E....\n"
                         ],
                         "avatarId": "",
@@ -3917,7 +3917,7 @@
                                                         "text": [
                                                             "The *Two* of us? I thought the plan\nwas to have Alexandros join us on\nthe expedition."
                                                         ],
-                                                        "avatarId": "3e0d0051-76ee-481b-ad25-aa051f916ba2",
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": true
                                                     },
                                                     "id": "49f5bba3-0ba5-4a0d-ac87-28b97b20e562"
@@ -3939,7 +3939,7 @@
                                                         "text": [
                                                             "That wasn't our agreement, your\nMajesty. The plan was for a team of\nthree. It's difficult enough to-"
                                                         ],
-                                                        "avatarId": "3e0d0051-76ee-481b-ad25-aa051f916ba2",
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": true
                                                     },
                                                     "id": "45156c0a-7077-4ea2-b75f-51a079e84ebc"
@@ -3972,7 +3972,7 @@
                                                         "text": [
                                                             "As you wish, your majesty..."
                                                         ],
-                                                        "avatarId": "3e0d0051-76ee-481b-ad25-aa051f916ba2",
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": true
                                                     },
                                                     "id": "c7d3a61b-bb8a-4b41-82c6-15c74ac87aea"
@@ -4044,7 +4044,8 @@
                                                 {
                                                     "command": "EVENT_SET_TRUE",
                                                     "args": {
-                                                        "variable": "L3"
+                                                        "variable": "L3",
+                                                        "__collapse": true
                                                     },
                                                     "id": "e434107a-30c3-4559-a26f-05ef9e10a594"
                                                 }
@@ -28897,7 +28898,7 @@
     ],
     "avatars": [
         {
-            "id": "3e0d0051-76ee-481b-ad25-aa051f916ba2",
+            "id": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
             "name": "jester",
             "width": 16,
             "height": 16,
@@ -28918,7 +28919,7 @@
             "filename": "unknown.png"
         },
         {
-            "id": "592afd46-2e11-46c1-8310-fb51c0e860ea",
+            "id": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
             "name": "wizard",
             "width": 16,
             "height": 16,
@@ -29174,8 +29175,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 345,
-        "worldScrollY": 86,
+        "worldScrollX": 505,
+        "worldScrollY": 58,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -29204,8 +29205,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            411,
-            506,
+            410,
+            507,
             30
         ],
         "showNavigator": true,

@@ -993,9 +993,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "                     Ye whose bones \n                     belong in dust\n                     and ash...",
-                            "                     The Living scream\n                     your horrid name\n                     into the void...",
-                            "                     Ease their burden.\n                     Silence the voice.\n                     And then...",
+                            "Ye whose bones belong as dust and ash.\nThe living scream your wretched name \ninto this miserable void...",
+                            "Bestowed with flesh, seek out their\nburdens and silence their voices. Only\nthen can you return to the fold...",
+                            "Fulfill your duty as you walk this \npath, or be forced back unto us: \nA horrid creature unable to...",
                             "\n                          ....A R I S E....\n"
                         ],
                         "avatarId": "",
@@ -2775,8 +2775,7 @@
                                         "args": {
                                             "text": [
                                                 "A slender black cat sits alone. It's too\nbusy cleaning itself to notice you.",
-                                                "You're not sure why, but this cat feels \noddly familiar to you.",
-                                                "1234567890123456789012345678901234567890"
+                                                "You're not sure why, but this cat feels \noddly familiar to you."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -29175,8 +29174,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 345,
-        "worldScrollY": 86,
+        "worldScrollX": 161,
+        "worldScrollY": 40,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -29205,8 +29204,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            411,
-            506,
+            410,
+            507,
             30
         ],
         "showNavigator": true,
