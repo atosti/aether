@@ -1,0 +1,915 @@
+Simple things to Work On:
+==========================
+2. Design 16x16 avatars for all of the main cast
+	- Player?
+		- Will need one for at least the battle screen next to an HP bar.
+	- Paladin (Maybe not a party member, but a key character)
+	- One-eyed Priestess
+3. Name the player character and their fabled weapon (sword?).
+	- Hero = Aylmera: Slayer of the Damned and Martyr of Antiquity
+		~ The Hero was known for slaying heathens, the undead, and for ultimately sacrificing themselves to protect a catacombs from being lost to necromancers.
+		~ In a last ditch effort, she sealed himself inside to seal the enemy out. This worked, but they died and their body was excavated many months later.
+	- Sword = ???
+11. Design the full 12 tile sprites for the King.
+	- Also design a 4 tile sprite for him.
+17. Build out the actual menu options.
+	- Design an inventory system that can hold gold, basic healing items, key items, and equippables (e.g. swords).
+	- The player should start with Charon's Obol in their inventory.
+		~ Examining it could give a gold coin.
+18. Design a landscape scene with panning and parallax
+19. Draw a cutaway scene for a roaring fireplace.
+	- Also design the tile sprite for this fireplace.
+21. Add a balcony to the War Room.
+	- Have a ceiling the player passes under to walk outside.
+		~ Feature a cutaway scene to a POV vista showing the city beyond the castle.
+		~ Also needs a vista to be shown in the background of the surrounding landscape.
+22. Design the Battle scene. And test swapping in different enemies to the encounter.
+23. Design trinkets for the tables.
+	- Battle maps, figurines, pots full of scrolls, potted plants.
+	- Also design a Grandfather clock.
+24. Implement the journal menu option. It records core details for the player, so they know their objective.
+	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
+26. Handle either skipping the King's dialogue, or force talking to him before gaining entry to the Jester.
+29. Store the Key Items separate from regular items.
+	- This way a player knows the difference, and they'll always have room for Key Items.
+34. Finish the book in the East Hallway detailing a history of the Realm.
+	- Describe the bitter war fought with the Mad Wizard.
+	- Only mention details up to the conflict, but not mentioning the Great Explosion or the Aether Ruins.
+	- Instead focus on the betrayal of the King, the Prince's attempted assassination, and the practice of necromancy.
+	- Also mention how the Wizards took to the Great Tower, while raiding the catacombs for undead soldiers.
+35. Come up with a name for the King.
+	- Reginald? Octavian?
+36. Design a neutral soldier sprite.
+	- And assign it to the NPC in the War Room.
+37. Design a Chapel in the city or castle.
+41. Design the Armory which will give you some starting gear for free if you stop by.
+	- This is optional.
+42. Figure out how to draw Text to the Screen for the start menu options.
+43. Add a cutaway scene to examining the sacred blade on the wall behind the King.
+	- Consider making it a different weapon. Maybe a polearm?
+	- Also redesign the tile for it when you do update it.
+44. Finish the King's dialogue for when you have the Jester in your party.
+46. Make an initial copy of the game to Git for safekeeping.
+47. Flesh out Alexandros' backstory somewhere
+	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
+48. Add a health item that can be looted off the Dining Hall's table.
+	- Like a shank of meat or something.
+50. Design sideways facing chairs for the dining hall.
+51. Add crates and old things (leaning portraits, etc) to the Hidden Alcove.
+	- Make it seem like a room cluttered with old junk.
+52. Design medieval torture devices to fill the Oubliette with
+	- Stretching table
+54. Add notes describing an ancient revival ritual to a table in the Oubliette.
+	- Obviously, this is to give backstory on how Aylmera is revived.
+56. Design tiles for the kitchen
+	- Cheese, barrels, kegs (on their sides), wine racks, cupboards, ladle, knives.
+57. Design a pile of bones tile for the Oubliette.
+	- Look at the LoZ botw fan art. Also look at oracle of ages/seasons for reference.
+58. Figure out how to draw tiles in front of the player.
+	- Do this for the pillars in the throne room.
+59. Remember to untoggle the hard-coded JesterRecruited variable in the Battle scene.
+	- It's only on right now for testing.
+60. I'd love for there to be a neutral actor in the middle part of the battle screen (showing who's turn it being selected).
+	- It'd be even cooler if when the attacks are played out, they walked Left/Right to their target, then played a simple animation of attacking in front of them (at the NPC).
+61. Design a few different Battle scene backgrounds (behind the enemy actor tiles).
+	- These can be used for a few different environments.
+		~ E.g. In a Cavern vs. On a beach vs. In a forest vs. In a castle.
+		~ Nothing too complex, just a general vibe. The sprite limits will be close on these screens.
+62. Design NPC sprites for the nobles in the Royal Court
+63. Item ideas
+	a. Wine: A Healing item
+		~ Potentially temporarily lowers accuracy if used in combat.
+65. Draw a jug of wine as a table-compatible sprite.
+66. Update the oubliette to be slightly different upon returning after having the jester in your party.
+	- Hide Alexandros
+	- Have the wizards say different things.
+67. Incorporate Lepers somewhere.
+	- Perhaps a small village living in the remains of the abandoned settlement to the North-east?
+68. Design additional rooms in the castle.
+	- Off the doorways in the halls and throne room.
+69. Draw beds for the Barracks and bedchambers
+70. Design a basic drawbridge texture for the player to cross as they leave the Castle.
+72. Design a flower pot that can be placed on the table tiles.
+74. Design Pews for the Chapel.
+	- Also design an altar and candles.
+75. Draw a Monk sprite.
+	- 4 tiles is fine for now.
+	- Just needs to be a basic with the skirted egg hair and the classic brown robes with the rope belt.
+76. Begin drawing the Prince's undead form
+	- He can likely be a special enemy with a 32x32 sprite.
+	- Make him hulking and massive. I'd love for him to hold his weapon off to the side.
+		~ A la Saturos. Or even Pyramid head in some ways.
+		~ It should seem a bit unwieldy and burdensome.
+	- He should just be a hulking knight with big armor.
+77. Draw an armor stand
+78. Draw a weapon stand with spears and swords
+79. Have the Bandit leader (one-eye) reveal that the Prince was not as noble as initially we were led to believe.
+	- Though admirable and fearless, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
+	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have a force leftover to fight the undead.
+	- Therefore, many of them are joining forces with the bandits to attempt a rebellion.
+80. Require talking to the King (with the Jester recruited) before leaving the Castle
+81. Add a location with a full-scale cathedral.
+	- The castle should only have a tiny chapel instead.
+82. As the player and their party approaches the Aether Ruins toward the end of the game, Alexandros accidentally lets slip that he's never been inside.
+	- This causes the Jester to question what his "preparation for the realignment" (why he didn't immediately join you) really was.
+	- If pressed, Alexandros reveals that he believes the King is unfit to rule and can only bring about more ruin.
+		~ As such, he took the opportunity to coordinate a coup with some of the remaining wizards.
+		~ He urges the party to take his side and agree to dethrone the King once the realignment is complete.
+83. Adjust the Jester avatar to have one pixel of empty space on its right-hand side.
+	- Currently it lines right up with text, making it clash.
+
+
+* What if the final battle was between whichever characters you're aligned with?
+	- Could be all of your party against the King.
+	- Or the Jester + King against the rest of the party.
+	- Or the rest of the party against Alexandros and his wizards + bandits.
+* Regardless, the final climactic events should occur after the realignment, once you return to the castle itself.
+
+
+Core Gameplay Loop:
+====================
+1. Exploring the world and learning lore via:
+	- Dialogue with NPCs
+	- Reading notes/books/engravings
+2. Deciding what factions you agree with and want to support
+	- Answering dialogue choices to pledge loyalty, or wage war
+	- Discussing with your party the rationale behind your choices
+3. Encountering enemies
+	- They patrol around the zone, catching their attention triggers combat
+	- Think a mix of pokemon trainers and enemy patrols
+	- Could also just have zones (like Tall grass in Pkmn) where encounters can randomly occur
+4. Combat
+	- JRPG style combat
+	- Party encounters enemy parties and fights with a mixture of single target and multi-target attacks.
+		~ Easiest way to do multi is to have an attack with a center and adjacent tiles
+		~ Or it damages center and one to EITHER the left or right, etc.
+All of this builds to the Climax:
+	- Player stabilizes the Realm and returns to the King. Based on faction decisions, you fight the King
+	and either spare or kill him. 
+	- Enstating whichever group/groups you've aligned with previously.
+		~ I hate this. I don't want a "you pick the winner" type thing. It's so boring.
+		~ I want the player to kill or align with groups throughout the game to get different trade-offs or
+		advantages in completing their overall goal (saving the Realm).
+		~ Then I want them to return to the King, and either submit (accepting that a King is better than no King) or to kill him (either out of revenge, or through finding him unfit to rule).
+		~ Then the game ends, the player does NOT takeover as the new ruler.
+
+"Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient. I fear you, as I know I should. Do you fear for us?" - A medical priestess who patches you up partway through the game.
+
+
+Main Antagonists:
+=================
+1. Former Realm Ranger (now bandit leader)
+	- A grassroots leader who rallied disenfranchised soldiers and bandits under one banner.
+	- Harasses the local population for supplies to support his otherwise noble goals. Believes it's a justifiable cost for a better future.
+2. One-armed warrior?
+	- Acquires a second arm made of magic?
+3. Undead Prince
+	- Filled with Aetherial rage. Uses a massive 2 handed sword and wears bulky armor.
+4. Leper leader
+	- Sickly and weak, but very astute and philosophical. Acknowledges the need for change in the Realm's leadership.
+	- Accelerationist. Perhaps sees no future for themselves, and by extension wants the same for the rest of the Realm.
+5. 
+
+
+Writing Dialogue:
+==================
+*** It appears to be 37 characters of length. Also aim for 3 lines high per box.
+	- Double check that it doesn't change length based on specific characters. And that it's a universal 37.
+
+Intro:
+-------
+Ye whose bones belong as dust and 
+ash. The living scream your wretched
+name into the miserable void...
+
+Enrobed in flesh, seek out their
+burdens and silence the voices.
+Only then can you return to the fold.
+
+
+		   ...A R I S E...
+
+
+Oubliette:
+-----------
+Jester: (Surprised)
+Ah ha! You're finally awake! If I
+hadn't known any better, I would've
+woken you from your slumber sooner. 
+
+But it's best not to rush awakening
+during revival rituals such as this.
+Wait, you can hear me, right?
+	Decision:
+[Yes]
+Jester:
+Good. I had begun to doubt myself
+after so many failed attempts. I'm
+glad to see my efforts paying off.
+[No]
+Jester:
+Clever, but there's really not time
+for games. Your revival came at an
+opportune moment, we can't waste it.
+
+Jester:
+Oh, right! You're probably brimming
+with questions about all sorts of 
+things. Where to even begin...
+
+Look, I don't know what you remember,
+but you're the hero Aylmera. Slayer
+of evil and 'Protector of Antiquity'.
+
+It was over a thousand years ago, but
+you DID serve this Realm. And you
+saved it from the precipice of ruin.
+
+The King will explain more upstairs.
+But were the situation any different,
+I wouldn't have even considered it.
+
+It's a lot to take in, but just know
+that we're all in this together. And
+we've all been through a lot.
+
+
+Character Names/Titles:
+=============================
+* Denotes personality traits to assist with writing dialogue.
+
+1. Aylmera, Esteemed Warrior
+	- Elise? Elyce?
+	- Protector of Antiquity
+2. ???, Court Jester
+	- Famous jesters seemed to have nicknames (e.g. Gaska, meaning Goose)
+	- Toad? Hugo? Drake? 
+	* Outgoing, enthusiastic, jovial. A literal jokester.
+3. Alexandros, Magical Prodigy
+	- Apprentice of the Mad Wizard
+	* Sheltered, young, energetic, contemplative. 
+4. Vivian, Hivemind Cleric
+	- Enlightened Priestess?
+5. ???, King of the Realm
+	* Prideful, bull-headed, tired.
+6. Marshall, Prince of the Realm
+	- Defender of the Realm
+7. ???, Mad Wizard
+	- Ignacio?
+	- Bringer of Chaos?
+8. ???, Ruthless Lord
+	- Cruel order-bringer, Slayer of the Weak
+	- Velasquez? (check spelling)
+9. ???, Traveling Apothecary
+	- Healer of wounds
+	- Leader of the Lepers
+10. ???, Bloodhound Hermit
+	- Jackson?
+11. Margot, Witch
+	- Treacherous Witch, Decrepit Gypsy
+12. Neera, Royal Ranger
+	- (What is the ethnicity of Neera?)
+	- One-armed Scout, Bandit Queen
+	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
+13. ???, Traveling Bard
+	- A traveling Bard that is encountered periodically throughout the world.
+14. ???, Squire
+	- An unused character, but a Squire could be an interesting component.
+
+
+Order of Zones:
+===============
+Follow the main events outlined below. This is just for general reference of the core zones needing to be built.
+1. Oubliette
+	- Although the term "revival" is used, the books and scrolls all over the Oubliette should outline that it was in fact NECROMANCY that was used to bring you back. Dark, dangerous magic.
+2. Castle
+3. 
+
+
+Order of Main Events:
+======================
+Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4Z4an1CBWQPi_UNDdgNDDNU&index=4
+
+1. The player is revived in the oubliette and told they're the great warrior Aylmera. Unbeknownst to them, this is not their identity.
+	- She wakes up (make animations for this). Alexandros is there and explains a bit of how she got there.
+	- He prides himself on being able to revive her to the glory of her youth.
+	- Alexnadros mentions it was an experimental ritual, but he's pleased with the result.
+2. The King and Jester are introduced. Aylmera is ordered to accompany the Jester in acquiring the lost elemental stones.
+	- The King and the Jester have a bit of a goofy relationship. But they are shown to be critical of one another. (Think of two pals busting each other's balls.)
+	- Nobility is only concerned with the prior war (anti-mage sentiment) and the minor inconveniences of their lives now (food rations and getting wine)
+	- The King tells them both that early in the war, his soldiers hid one of the stones in a city to the far North. It's now a city in ruins, but the stone was hidden in the catacombs, and he believes it remains hidden.
+		~ Was specifically hidden at a certain alongside the remains of one of his ancestors.
+	- Alexandros will join the player and their party at a city to the North-east whose army is still intact.
+		~ He is to begin negotiations with their leader for their elemental stone and rendezvous with Aylmera and the Jester after they've acquired their stone at the ruined city.
+		~ It's a region ruled by a Lord loyal to the Realm. The King is confident in the Lord's cooperation.
+3. Aylmera and the Jester leave the castle and enter into the larger city ruins.
+	- People are fearful of the roving undead and wish the castle would open its gates to them.
+	- Soldiers are spread thin and acknowledge they can't protect everyone. Just focus on defending the castle itself. Not the whole city.
+4. Begin heading through the surrounding farmland looking for the bandits. Soldiers (and their Realm spies) believe the bandits have acquired one of the stones.
+5. Find many farmsteads destroyed and those that remain are powerless to protect themselves. They just live day-to-day and hope neither the undead nor the bandits kill them.
+	- "I fear the undead most of all. A bandit can be negotiated with."
+6. Aylmera and crew make their way through the farmland outskirts into the Forest. This is bandit territory and they fight their way deep inside.
+	- Encounter traveling merchants and minstrels on their way. Perhaps a bard that's recurring periodically through the plot.
+7. At the heart of the forest (in a clearing) is the bandit camp. A circle of caravan wagons. Aylmera encounters the bandit leader.
+	- The leader is a former ranger of the Realm who was present at the Great Explosion. He wishes to overthrow the king and is using the elemental stone as leverage.
+8. Aylmera kills the Ranger and steal the first of the elemental stones.
+	- The leader mentions how he heard stories of Aylmera's heroism. He doesn't see any of it now. Must've been lies.
+	- Out of fear, the other bandits flee.
+9. Aylmera and crew continue out the other side of the forest toward the ruins of a nearby city. Where they know the Crown hid one of the stones.
+10. The typical path is blocked by debris from a landslide. As such, they're forced to go through a lesser-traveled tunnel.
+	- Inside, a hermitish Nomad is encountered at their fire. They can be talked with to reveal some of their story.
+	- He reveals that in his youth he could smell the "presence of death, the mark of a killer" on travelers.
+	- He used it to save his village as a child, and was revered for this skill. A skill which he is (presumed) to no longer possess as an old man.
+	- He bids them well as they part ways with him.
+11. Aylmera and crew make it through the tunnel and arrive at the ruined city. To their surprise, there's a small colony of people living in its outskirts: Lepers.
+	- Asking around for directions and info, the locals reveal that they knew of Aylmera's arrival. A visiting Priestess told them so.
+	- Ultimately, they want nothing to do with the Crown or the Realm. They've been abandoned and have problems of their own.
+	- They do have a de-facto leader who they admire for his empathy and strong will.
+		~ Aylmera and crew meet him and he attempts to stress the importance of empathy. They don't really have time for his ramblings/teachings.
+12. Aylmera and crew venture further into the heart of the ruined city (in search of the catacombs entrance). Instead, they find the Priestess.
+	- She informs Aylmera and crew of their Divine journey and her need to accompany them.
+	- The Jester doubts her ability to commune with God (after she explains the hivemind that speaks to her in many, varied tongues).
+	- She proves her connection to the Divine by mentioning that she knows of Alexandros' mission to the Lord.
+		~ Moreover, she reveals that he will soon be in danger. She convinces them to let her join, as she's vital to their success.
+		~ "I've seen visions of your journey a thousand different ways. Only when I'm alongside you do you even make it to the end."
+13. Aylmera and crew eventually make their way through the city and into the catacombs.
+	- At the entrance is a statue to Aylmera, recognizing her commitment to protecting 'antiquity' from when she defended a catacomb from pillaging during her lifetime.
+	- The entire party acknowledges that it looks nothing like the player character. They shrug it off as some sort of error by historians.
+14. Fighting through the catacombs, they defeat a large monster and then search the catacombs where the King specified. They find nothing and decide to search the Leper encampment for it.	
+15. At the entrance of the catacombs (as they're leaving), Aylmera and crew are approached by the Leper Leader.
+	- He reveals that he has the elemental stone and urges the group to stop assisting the Crown.
+	- "I thought the creatures below would be enough of a deterrent. Can't you see your success will only spell ruin for the rest of us?"
+16. Returning to the Leper encampment, Aylmera and crew are surrounded by the Lepers.
+	- "He warned us it would come to this. That you might not listen to reason. We swore to him we'd stop you if he couldn't."
+	- They are weak and easily defeated, but must be killed enmasse.
+	- The Priestess notes how her God thanks them for easing the suffering of the Lepers (through death).
+		~ This creeps out the Jester who still has qualms about killing so many sick people.
+	- Only the shopkeeper remains alive (as he decides not to fight). "They died. And for what? Ideals which will be buried alongside them... Show me your gold."
+17. Aylmera and crew proceed along the mountaintops toward the North-eastern city belonging to the Lord and his army.
+	- They once again encounter the hermit. He once again invites them to chat alongside him at the fire.
+	- He reveals that despite his gift, he was unable to save his village. A killer infiltrated them under the guise of a victim, and wiped most of them out.
+		~ He blames himself for ignoring the stench of death that was so potent. Because he believed so wholly in the young man's innocence and appearance.
+	- Apologizes for troubling Aylmera and crew, then goes silent.
+18. Aylmera and crew get up to leave, but as they walk away the Hermit rises and throws a dagger in their direction.
+	- "I'm sorry. But I can't let myself make that mistake again. Your scent... it's identical. When you approached, all my memories rushed to me so VIVIDLY!
+		~ He charges them and engages in a battle.
+19. Upon defeating the Hermit, he exclaims, "I didn't last... but the stench... will." before collapsing and dying.
+	- The Jester is disturbed by this encounter. The Priestess doesn't seem to mind. The Jester urges you to meet up with Alexandros ASAP, as things are quickly unraveling out of control.
+20. Continuing through the mountaintops, Aylmera and crew eventually arrive at a valley in the highlands and reach the outskirts of the Lord's lands.
+21. They make their way through the farmland toward the Lord's castle/keep.
+	- Due to its distance from the Aether Ruins, things here are more peaceful. Farmers go about their days, and soldiers periodically roam.
+	- The crew is not immediately recognized as serving the Crown, and are instead briefly interrogated at the castle's wall about who they are and why they're there.
+22. Aylmera and crew accidentally reveal too much about who they are (serving the Crown alongside the mages) and are met with battle.
+	- Can be done in a few ways, either mentioning that Aylmera was necromanced, saying Alexandros' name, or revealing they're with the Crown.
+23. One of the guards runs away, screaming for help. The crew's cover is blown.
+24. Aylmera and crew fight their way through waves of soldiers as they make their way to the throne room of the Lord.
+25. Arriving in the Throne Room, the crew finds a beaten Alexandros and the Lord himself.
+26. Now aware of who they are, the Lord taunts them.
+	- "Well now, the Crown sent rats to do his dirty work. You must prefer his Chaos to my Order."
+	- "I've already spent plenty of time with your friend here." *smiles* "Wasn't much of a conversationalist at first. These magicians boast of their strength, but many are so fragile."
+	- He discusses with the player how the Crown can only lead them again to ruin, as he did in the war. Moreover, he displays his disgust for Alexandros and all mages like him.
+	- "The Great Hero Aylmera... What wretched misery they've subjugated upon your flesh. If you weren't an undead abomination, I'd pity you. Your existence is nothing short of sin itself..."
+27. The Lord reveals he has one of the stones, but refuses to give it to the party as long as the serve the Crown.
+	- The Lord kicks Alexandros' shackled body down the stairs of his throne, toward Aylmera and crew.
+	- Aylmera and crew catch his rolling body and unbind his hands/mouth.
+		~ Aylmera: "Are you alright?"
+		  Alexandros: "... *eyes closed* ..."
+		  Priestess: "He's covered in cuts and bruises..."
+		  Alexandros: "... Help me... Help me..." "Kill. That. BASTARD!!!"
+	- Alexandros immediately jumps up and charges up the stairs toward the Lord, beginning an engagement.
+		~ The engagement starts with Alexandros immediately getting a free hit onto the Lord.
+		~ Immediately after his hite, have a prompt stating: "Alexandros looks beyond furious. His palms are enveloped in white-hot flames."
+		~ If possible, have his anger translate into some Double damage or something for the engagement.
+		~ Alexandros also starts the fight at half health.
+28. Once the Lord is killed, Aylmera and crew pick up his stone (the 3rd stone). And begin walking out of the castle.
+	- The few remaining soldiers they encounter back away and run.
+	- Most lie bloodied and beaten, huddle in piles as they attempt triage.
+29. Aylmera and crew follow the nearby river downhill (descending the mountain) toward the East.
+	- Along the way, they encounter one of the Lord's soldiers contemplating a stretch of the riverbank with thousands of flowers of either side.
+	- He tells them how he remembers the Wizard Wars, how he lost many friends at this very spot. How the river ran red with the blood of so many soldiers.
+	- He laments that it was all in vain. That in the end, leaders only wish to rule over ashes. How these beautiful flowers aren't ruled by anyone, and they're the most precious thing of all.
+		~ He refuses to fight Aylmera and crew.
+	- "How far down this path must you travel, before you know where it leads?" "If you don't see it now, then certainly you must be blind."
+	- Perhaps he ambiently wishes/prays for death, but when engaged in combat he fights to the bitter end.
+30. Aylmera and crew cross through a foggy marshland, where much of the land has, recently, sunk into the earth.
+	- As such, the undead are thinner here than elsewhere. The area feels eerie and devoid of life.
+31. They encounter a witch's hut deep in the heart of the swamp. She invites them inside and is hospitable.
+	- Player progression is blocked by something (perhaps she has an animal in the way outside her hut?) until speaking with her.
+	- Through discussions she reveals that she knows the player is undead. She then offers a spiritual reading.
+	- Perhaps she even drugs the protagonist without their knowledge, and uses their dazed state to extract information.
+	- Ultimately, what she reveals is that the player is does not have hero's blood. That they have a dark history. That they carry the weight of many ruthless kills from their previous life.
+32. Aylmera and crew arrive at the Ramparts leading to the Aether Ruins
+	- It's a patchwork of booby-trapped zones. It's dangerous and full of numerous traps, which act as landmines.
+	- After the Wizards blew a hole in it, and the Realm lacked enough soldiers to defend it in its entirety, the Realm simply booby-trapped the whole thing and fell back.
+33. Finding their way through, they arrive at the Ruins of Aether and make their way to the wreckage of the Tower.
+	- Lots of powerful soldiers (now dead and/or possessed by aether) wander around as hostile husks.
+34. At the base of the Tower Ruins, they encounter the Undead Prince. An aether-husked corpse wandering aimlessly.
+	- The Jester immediately recognizes him and is horrified. His memories of the explosion rush back to him all at once.
+	- The Jester is frozen by both shock and fear. He simulatenously wants to call out to the Prince, and knows to fear him for the monster he has become.
+	- The Prince notices the party and approaches. He's slightly more lucid than other undead. Muttering to himself as he engages the party.
+35. After a brutal fight, the party slays the Prince.
+	- The Jester is distraught, he breaks down into tears. The player and party console him.
+	- The Priestess offers to say a few words, his last rites, as they stand before his hulking corpse.
+36. Picking themselves up, the party readies themselves and goes into the basement ruins of the Tower.
+	- Inside is a maze of magical traps, old and new. They must replace each of the 4 stones into their appropriate slots.
+	- Something like one in each cardinal direction, or 3 in cardinal directions and the last at the center of them all.
+	- The whole time, the party feels that something is off. As though they're being watched. As though a spirit is present.
+	- There is also, notably, an ancient skeleton dead in the main chamber? (the real Aylmera's body)
+		~ Might be a bit TOO much detail. Does it even make sense that no one has been here for like a thousand years to clean up her body?
+37. Once all stones are placed, they must go into the main chamber and perform a ritual that Alexandros has studied.
+	- As they begin the rebalancing ritual, they are disrupted by a spirit. The spirit of the real Aylmera.
+	- She shouts at them, as a banshee would screech, halting their progress. She states who she is, and demands to know what they are trying to accomplish.
+	- Upon hearing the name 'Aylmera' the whole party (protagonist included) are astounded.
+		~ They tell Aylmera that their party leader is the reincarnation of Aylmera.
+		~ "You bear neither my soul nor my flesh, and yet you use my name." "Strange. You reek of death and yet have an air of nobility." - Spirit of Aylmera
+		~ "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?" - Spirit of Aylmera
+	- Alexandros realizes he must have retrieved the incorrect corpse from the royal catacombs. But is perplexed, because the body they took was buried alongside her unique armor.
+	- The spirit of Aylmera reveals that she didn't die as the "hero of antiquity" like people thought.
+		~ She was cornered in the royal catacombs by a rival army (seeking to pillage the catacombs). After slaying some soldiers, she swapped into their armor and fled through their ranks.
+		~ Realizing (or knowing) that the goals of that army were to destabilize the natural balance of elements, Aylmera decided to travel undercover to the Tower's Basement.
+	- The player Aylmera is simply a nameless soldier. Revived without any memories of who they once were. But they've proven themselves, and the real Aylmera is impressed.
+38. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will destroy ALL of the stones, unleashing even more chaotic energies into the land.
+	- Alexandros realizes the evil nature of the ritual, and that it was always the Mad Wizard who had trained the mages in it.
+	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
+	- Instead, she guides them on how to restore the Aether crystal. She thanks them, and
+		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. you carry yourself with great nobility." - the Spirit of Aylmera
+39. Having stopped the Aether madness, the party begins returning to the Castle (this time from the East).
+
+
+XX. Aylmera and crew arrive at the Queen's grave.
+	- What is significant here? Perhaps she died in childbirth. Her gravestone could read: "She sacrificed all she had for the continuation of the Realm. May her soul rest easy knowing we'll protect her dream, just as she protected ours."
+XX. How did the King come to power?
+	- Did he ascend the Throne by blood, or did he steal it from someone else? This could add more depth to his character.
+XX. The player can kill the King.
+	- *Smiles* "My kingdom died well before you dealt the deathknell..." "If I might have... one request... protect the Realm..." - The King's dying words
+
+The more I think on it, it's non-sensical for the King to be revealed as evil. But he is someone that needs to step down, even by death if necessary. He's a tragic sort.
+
+
+Ideas for Conflict/Intrigue:
+=============================
+1. What if toward the end of the game you lost party members one at a time (making fights harder) until only the protagonist was left?
+2. What if each faction was someone that could be aligned with via dialogue? Avoiding a fight, but then also making a trade-off to ignore their treachery.
+	- Having optional bossfights works better with a skill-based combat system (for balancing EXP levels at certain points)
+	a. Bandit Leader holds the area's peasants as hostages and serfs. Forced to farm in order to feed his army. Has an interest in ultimately freeing them, but by force.
+	b. The Lord/Liege is extremely cruel and uses torture against his enemies, but maintains order in his lands.
+		~ Could perhaps employ a Miniboss ("The Butcher") who is truly monstrous. But kept around for his loyalty and the order he creates, despite his immoral and despicable tendencies.
+	c. The leader of the lepers (a snake-oil salesman) enjoys his position of authority and wealth/luxury from their loyalty. Acknowledges he sells them lies and placebo, but it does truly put their minds at rest their burdens.
+		~ They admire him, but when cornered one-on-one he admits that he knows his recipes and 
+		~ Perhaps he's an Apothecary selling them "healing" potions and ointments? Could use poisons/flasks against the player in battle.
+	d. The Witch seeks to enlighten the player to things they don't know (and she suspects), but does so by drugging and entrancing them. Has no regard for the will of others.
+		~ Perhaps she should even have skeletal (or undead) slaves that tend to her needs. Disregarding the people whose souls used to inhabit their flesh.
+	e. The Undead Prince. An unreasonable beast, driven mad with the Aether flowing through him. He rambles to himself, and fails to recognize anyone he once knew.
+		~ He should maintain an odd level of lucidity. Rather than a Frankenstein's monster, he's a mindless, perfectionist killer. Like a fencer perfecting each strike, but no longer able to understand the meaning/cost of death.
+	f. The King wishes for a strong kingdom, but is unable to create it during his entire life. Instead he is driven by revenge and a lust for power. This comes at the cost of everyone in the Realm, his enemies and allies alike.
+
+
+Concepts:
+==========
+1. "Don't fear what you don't know."
+2. "Humility above all else."
+3. "Treachery breeds treachery."
+4. "Cowardice reveals one's innermost doubts."
+5. "Never engage in a fair fight."
+6. "Few wars, if any, are just."
+7. "I feel dead inside and I am alone anyway."
+8. "I am a product of my environment."
+9. Player party has assassins sent after them, and is opposed by almost all other governing bodies (aside from the King).
+10. Player must kill the Leper colony in order to take their elemental orb.
+	- Literally kill them ALL. (Some directly, others are assumed to die in the wake left behind.)
+	- They're peaceful and just off on their own, trying to survive. Wanting nothing to do with the politics of the Realm (which has long abandoned them).
+11. "Old World ideas cannot flourish or succeed in the harsh reality of the New World."
+12. "When killing everyone, does it even make sense to spare anyone?"
+13. Swearing fealty to the King or not.
+14. What if it had a Synthwave chiptune soundtrack?
+	https://watchoutforsnakestheband.bandcamp.com/album/dis-integrate
+		- Whole album is good, but Time (Never Enough) is esp. good energy
+	https://samaleums.bandcamp.com/album/enter-the-megadungeon
+15. Player is ambushed by a bossfight by a boss riding in on horseback out of nowhere and triggering the fight.
+16. "Hope is the only form of survival"
+17. "Workers yearning to build"
+18. Lightning starting fires at unprecedented rates
+19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers.
+20. Deciding whether to slay or spare enemies after fighting them in a JRPG battle.
+	- Could have some characters ask for death. For honor, or because their armies are already decimated by you.
+	- Others could beg for life.
+	- Options could be "Converse" or "Kill" when interacting with them post battle.
+		~ Or "Slay" vs "Spare"
+21. The Jester and the King should have a goofy dynamic.
+	- "This is my funny little emotional support guy."
+22. How historians are unable to know of the intricate social details of people during their actual lives.
+23. "People become resistant to predation when they feel safe." (The opposite is also true.)
+	- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
+24. A "Check-in" system for periodically talking to your party members. Allows you to talk with them and learn more about who they are and their histories.
+	- Could occur manually in menus. Could occur auotmatically at savepoints?
+25. "There are no heroes. Everyone has a skeleton... or two."
+26. What if there were simulated "loading screens" of doors opening like in Resident evil for major zones?
+	- Could easily just destroy the pace and feel sluggish, but could be worth the experimentation.
+27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble."
+28. Near the end of the game, you fight the spirit of the real Aylmera?
+	- Maybe that's too complicated. But being visited by the voice of, or visions of, Aylmera might be cool.
+	- "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?"
+29. Quotes from the Priestess on her God: "God comes to me in many forms. Sometimes as the wind, or as a voice. Rather, as many voices. Sometimes all at once."
+	- "There are times when I hear nothing from him for days. And others where he talks nonstop for hours on end."
+	- "It's rare for him to hear me, but I'm content listening to him. He has so much to share. I'm privileged by his enlightenment."
+30. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
+	- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
+31. 
+
+Misc Dialogue for encounters:
+===============================
+1.  Player: "I heard your enemies called you 'The Butcher'.
+	Butcher: "Not quite. It's my friends who call Butcher. My enemies know me as cannibal, killer, and rapist."
+	Butcher: "I wonder which title you'll choose for me." *Smiling*
+	* Engages the player, triggering a battle *
+2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
+	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
+	Unknown: "In truth... I envy them. No concerns, no "
+	Player: "Certainly you don't consider the present situation an improvement for the Realm."
+	Unknown: "Why shouldn't I? You and I are in no position to judge the will of nature, and no King has ever established such uniform peace. You know they never fight amongst themselves? They don't even feast on the dead. They simply hunt the living."
+	Player: "So you wish to join them? Take part in their uniform peace?"
+	Unknown: "I wish to observe them. Perhaps the truth of their world will be revealed to me."
+	* You leave the man to his ravings. *
+3.  Lord: "Have you ever felt certainty about your role in restoring so-called order to the Realm? What does that even mean to you? Is it about serving a single King, or serving the many inhabitants of the region?"
+	Lord: "My father spent his life serving a King, your King, and his reward was swift death on a suicide mission. The fate of his men was the same, the few survivors were either maimed or traumatized."
+	Lord: "I often wonder how much more he could've accomplished serving his people."
+	Lord: *Pauses* "Do you think there's such a thing as a 'justified' war?"
+	Player: 
+		[Absolutely.]
+		Lord: "You would have liked my father. He'd have led you to a glorious death."
+		[Absolutely not.]
+		Lord: "Then perhaps you are not as much a fool as your companion." (referring to the Jester)
+4.  (This occurs shortly after the player has slaughtered the Leper colony.)
+	*Party passes a hermit sitting alone, in a tunnel by a campfire*
+	Hermit: "You seem tired, please come sit by the fire and rest for a moment."
+	Player:
+		[Accept.] (Rework this slightly, FORCE the player to Accept the invitation.)
+			Hermit: "It's not oft that travelers venture this close to my seclusion. Truthfully, I miss their companionship."
+			Alexandros: "Are you not here to be alone? To be isolated, with peace of mind?"
+			Hermit: "...Yes, I am. Yet sometimes what we need isn't what we desire. Tell me, which guides you more, your needs or your wants?"
+			Player:
+			[My Needs.]
+				Hermit: "Practical and admirable. To deny one's desires is a true strength."
+			[My Wants.]
+				Hermit: "Understandable. What are we if not creatures guided by our comforts?"
+			Hermit: "So then, do you know what lies ahead for you?"
+			[Yes.]
+				Hermit: "And yet you still accompany me? I suppose it's easy to feel dead in such a lonely world. Perhaps I'm not the only one who desires compassion..."
+			[No.]
+				Hermit: *Smiles* "That's alright. I know well enough for the both of us."
+			Hermit: "I want to tell you a story. When I was younger, I was known for my keen sense of smell. So much so, that I earned the nickname Bloodhound in my village."
+			Hermit: "You see, I could pick up the stench of death on a traveler long before they reached our village. I protected us from lots of violence this way..."
+			Hermit: "But one day, a young man approached. His body and eyes were tired, as though he'd been walking for days. And though, to me, he reeked, he was so timid and frail that no one thought him any threat."
+			Hermit: "He told us his family had been slaughtered by bandits, their blood still staining his clothes, as he threw himself at our feet and begged for our assistance in seeking revenge."
+			Hermit: "It must have been pity that led us to believe him, but we diligently formed a searchparty that followed him to his family's farmstead. It wasn't until we arrived that we were ambushed by his creations."
+			Hermit: "He was an unholy magician, a necromancer, and the entire property had undead beneath its soil. As we searched the house, they rose from the earth and surrounded us."
+			Hermit: "By some miracle, we were able to escape. But with our dead and injured, we were slow to return home. Our abscence from the village allowed his minions to easily overrun it. The bodies were all cold by the time we made it back."
+			Hermit: "Truthfully, I've forgotten the faces of many of his victims. But that stench... that sickly, sweet aroma... It sticks with me in an unnatural way."
+			Hermit: "But nevermind all that. Us old-timers have plenty of time to reminisce on our pasts."
+			Hermit: "Thanks for keeping me company."
+	*As the player goes to leave (back-turned), the Hermit throws a knife at them and lunges, triggering combat.*
+	[If Accept., Needs., and Yes.]
+		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
+	[Elif Accept.]
+		Hermit: "I know you're not him, yet... you carry his stench."
+5. Ranger: "You can't imagine the volume of death that I saw. That WE saw. We followed that fool and his son into a brutal war. And what was our prize? My arm still lies on that battlefield. Accompanying the bones of my brethren."
+   Ranger: "There's nothing you can say to change my mind. The King's wishes will only bring us further ruin. As long as you serve him, you must be stopped."
+6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something better. A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure. Even the King could see it. And it filled him with immense pride. But the King's hubris led him astray."
+Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that exploded the Tower. I saw the destruction it wrought, not just on the surrounding lands, but on the King himself. He's tried to reassembled the crumbled pieces, but he lacks the skill to do it. If only the Prince were here in his place... The Aether robbed our Realm of a deserving King."
+	- The Jester coming to terms with how the King is unfit to rule.
+
+
+Combat System:
+==============
+New:
+-----
+1. What if there are different damage types for enemies (a la space station 13)
+	- And 100% of an enemy's HP type in ONE area must be depleted in order to kill them.
+	- Enemies would have different HP levels
+		~ E.g. Slimes would have LOTS of brute protection, but less burn and toxin protections
+	- Enemies could be examined via abilities to learn of potential weaknesses.
+		~ This information could even be explained via lore books found throughout the world.
+	- A way to know ROUGHLY how much of a damage type you've done would be helpful
+2. Still have traditional JRPG style battles, but now with different damage type attacks.
+	- And each character could have specialties (e.g. Aylmera can deal the most direct Brute of anyone)
+3. It would be cool to have these same damage types for the Player's party, but that UI would be difficult to implement, especially given limitations. Definitely sleep on it.
+
+
+Old:
+-----
+1. Lanes of Combat
+	- Each character can attack a lane (even empty ones).
+	- Enemies move, or take up space in different lanes.
+	- They also position themselves where certain lanes are defended, while others might not be. 
+		~ E.g. Shield covering right-side, not the other.
+	- Player has to adapt to enemy movements and defensive adjustments.
+	- Player and enemy attacks can hit multiple lanes of combat.
+	- Player can swap the order of their team around as well.
+		~ Enemies tend to attack in front of themselves.
+	- Combat options:
+		a. Attack
+			~ Branches into a typical physical hit vs a selection of skills.
+		b. Move (Swap)
+		c. Items
+		d. Run
+
+	Expanding the idea:
+		What if there was no move option?
+			- Just put skills in the 2nd slot directly.
+		Could ignore MP altogether. Instead just have skills with tradeoffs.
+			- Some skills fatigue you for your next attack.
+			- Others lower your defense, or offense, etc.
+
+	Can I combine the avatar into part of the healthbar sprite?
+		- Have it be the first 16x16. (Hidden if the member hasn't joined)
+			~ Hide the HP bar as well. (Just set the tiles to be all black).
+		- Otherwise, the other 2 tiles serve as the HP bar.
+			~ Visual only, it won't include a number at all, just a percentage reputation w/ descriptor.
+			~ Could also have a color that changes as you get more beat up (Green/Yellow/Red).
+	
+	COULD assemble multiple different battle screens (with the avatars drawn on the background).
+		- And just call the appropriate one.
+		- Then you could attach HP and MP together.
+			~ But honestly, MP kinda sucks. Not having it could be cool.
+
+	Imagine if you had 2 frame animations that could flip the HP card over and reveal "DEAD" on the back.
+	
+	The center area can hold the actor whose action is currently being decided.
+		- Maybe add the text above it saying 'Attacker' or something.
+	
+	-----------------
+	Just design a simple Fight only system where you can select Enemy 1, 2, 3, or 4 to attack (depending on how many on-screen).
+		- Also add in an EScape mechanic
+
+
+Main plot:
+(Optional)
+	A. Find the Catacombs where you originally died, and retrieve your fabled Sword.
+		- This should be a later game, optional dungeon.
+	B. Party members should have to be earned, by giving them a key item.
+		- Jester should be the first possible.
+			~ 
+
+Story
+	A. Retrieve all 5 orbs and bring them to the Aether Ruins to realign the elements.
+	
+	X. Players become trapped in
+
+
+
+
+Vocabulary/Phrases to Incorporate:
+===================================
+Ye, Thee, Shall, Antiquity, Anguish, Tyranny, Aether, Realm, Distraught
+
+
+GB Studio:
+===========
+1. Palette Swapping
+	https://gbstudiocentral.com/tips/palette-swapping/
+2. Animations and Palette Swapping
+	https://gbstudiocentral.com/tips/putting-together-a-flashy-scene/
+3. Cutscene portraits
+	https://twitter.com/CRTOGRPHR/status/1506974143102824450
+4. High-quality Pixel art on GBC
+	https://twitter.com/CRTOGRPHR/status/1507056549356781582
+5. More high-quality Pixel art
+	- Anything from Star Ocean: Blue Sphere (GBC)
+	- An incredible Enix game from 2001 at the end of the Gameboy Color's lifecycle.
+6. Gameboy Hardware Limitations
+	- https://itch.io/jam/gbjam-5/topic/41384/the-actual-gb-limits
+7. Each scene can have 8 palettes (4 colors each).
+	- Start assembling some combinations to add more richness to environments.
+8. The 8th Palette controls the color of menus. The first controls the color of actor sprites.
+	- So you really only have 6 different palettes to freely use.
+9. Positional text menus tutorial
+	https://gbstudiocentral.com/tips/basics-trigger-positional-menus/
+10. Animated background tiles
+	https://github.com/phinioxGlade/gbstudio-3-animated-tile-tutorial
+
+
+Soundtrack:
+============
+0. Introduction/Prologue
+	https://en.wikipedia.org/wiki/Charon%27s_obol
+	- Draw a few third-person images of the player's body into a scene, then show dialogue and a black screen to the player.
+	- Play a wooshing noise as the player awakens.
+	- Or try a heartbeat-like noise as the player begins to awaken.
+	- Similar to what's done in Link's Awakening after the lightning strike (I think).
+	- "Be thrust once more into the plague of the living!"
+
+1. The Aether Ruins
+	- The wreck of the great tower and its library of knowledge. Should have a feeling similar to Unnatural City from Pat Labor 2.
+		https://www.youtube.com/watch?v=FEK6l02Rl5U
+		
+2. The Oubliette
+	- General unease. Distrust of everyone around you. Confusion. Eeriee environment (why am I here?).
+	
+Misc Items:
+	https://www.youtube.com/watch?v=T3XQ3EWdKkM
+
+
+Core Plot:
+===========
+1. When the Mad Wizard blew up his tower, he was casting magic centered around the banished element: Aether. As a result, the balance of all the elements is misaligned.
+	- Normally there are 5 orbs (one for each base element + Aether) in the Tower which could be used to realign the elements (as was done thousands of years ago, before even the Hero's time).
+	- But the blast shattered the 5th orb, and the other 4 were scavenged years ago during the growing conflict with the Wizards.
+		~ The Kingdom knows the 5th lies shattered in the Ruins, and the whereabouts of 3 of the 4. (The 4th eludes them?)
+	- As such, the player must:
+		1. Recover/Assemble all 4 base orbs
+			~ Including finding the 4th lost one
+		2. Bring them all to the Aether Ruins. Find the shattered 5th orb in the surrounding landscape.
+		3. Enter the basement of the tower and bring all 5 orbs to the alignment altar which lies somewhere underneath.
+			~ Might even need to blast their way in past the rubble.
+			~ Even the Allied Wizard is uncertain of just how deep the network beneath the tower is.
+		4. Once at the altar, they have to realign the elements.
+			~ They'll know they've succeeded, because the undead should all crumple dead (as the Aether leaves their bodies).
+		5. Return to the King and complete their quest.
+			~ Could have a party thrown afterwards.
+			~ Could optionally assassinate the King (as a final conflict) if he's found unworthy or evil.
+
+2. Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
+	- As such, opporunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
+
+
+Antagonists:
+=============
+1. Abandoned Ranger
+	- A (now) hermitic Ranger who lost one of his eyes during the explosion. Formerly a member of the castle's army he now raids them in the night. Feels the Kingdom is undeserving of rule after it poisoned the landscape so wholly.
+	- Was absolutely traumatized by being left for dead, then having to slay his fellow comrades to survive.
+	- Controls a tiny band of raiders who seek to usurp and overthrow the King.
+	- Still a hell of a shot even when down an eye.
+	- "I had to lose an eye before the hidden truths revealed themselves to me. How much do you think you'll have to lose before YOU see clearly?"
+
+2. The Player (kinda)
+	- Over the course of the story, the player learns that they are indeed NOT the fabled hero whose stories are littered across the region.
+	- The Wizards mistakenly resurrected you, a cousin of that hero (a simple mixup in the many bones of the catacombs).
+	- As such, the player learns they were a rebel warlord that broke from the Kingdom and 
+	- The Player is not forced to be evil as a result of this, but IS directly playing as someone who once was cruel and bitter.
+	- These details are revealed overtime as more lore is learned:
+		a. Hero has a birth mark or tattoo that the protagonist doesn't share.
+		b. Player has no memory of any of their heroics.
+		c. Player should have an anti-affinity to something that the Hero was known for.
+			~ e.g. Hero was always known to be physically warm, thought to have fire inside them. Meanwhile, the Player character gets cold in various regions and is freezing at once point.
+		d. When given the Hero's fabled sword, it should feel slightly too heavy for you.
+		
+3. Vampire Lord
+	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly live him alone, and he's a recluse after all.
+	- The party could be forced to enter his manor as a means to escape a growing undead horde they'd attracted.
+		~ Then they must navigate the inside and escape.
+	- He's inhospitable, though not opening hostile initially.
+		~ Has no interesting in feeding on the party, but wouldn't mind them simply being dead (less long-term enemies that way).
+	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
+	- Although very old, he should still (technically) be younger than the Hero. He makes remarks about this, and how unusual it is.
+
+
+Jester General
+===============
+Wears his motley attire which has also been reinforced with armor plates and hardened bits of leather.
+
+Following the abrupt assassination of the Prince and many of the royal guard, the Jester was forced to take up more duties than usual. His prowess at political strategy and loyalty to the King led him to spycraft, which he excelled at. After the war subsided, he was awarded the title of General (as few others remained who were worthy of the title). He is respected by the soldiers for the way he led the defense of the castle, personally taking up arms.
+
+He's incredibly clever, but recognizes that he is out of his depths. Especially with limited resources, amidst this new era which more closely resembles peace. He understands that he's fighting a losing battle, but searches for any advantage he can get.
+
+Ultimately, he blames the Sorcerers for kicking off the entire encounter and its cataclysmic climax.
+
+Initial Briefing with the Jester
+---------------------------------
+Player: "How did the Great War come to an end?"
+Jester: "We cornered them, the sorcerers, took...
+	They blew up their tower when they had no escape. The Head Wizard leveled the building, killing himself, many remaining sorcerers and lots of the soldiers/paladins who were sieging it.
+	We had heard rumors the Head Wizard was unstable, but no one thought he would, or even could, destroy the entire tower.
+
+Player: "And now they're your allies?"
+Jester: "No King can rule ashes. Even our enemies recognize that."
+		"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
+		"I personally slew dozens of my men before I was again safe inside our city's walls."
+Player: "You were present at the explosion?"
+Jester: "Unfortunately. But I was fortunate enough to be outside the initial blast."
+		"Not a soul remains that hasn't seen horror. You'd be wise to remember that."
+Player: "So how do you plan to stop it all?"
+Jester: "Discussions with the sorcerers have proved fruitful. Just as they learned of your resurrection, they too found writing describing beacons to the basic elements."
+		"The sorcerers are convinced that 
+
+
+One-eyed Priestess
+===================
+Encountered around a third or half through the story. She has only one eye, the other socket containing a fake eyeball made of gold. She believes herself to be in commune with God, but further investigation reveals she communicates with a sort of hivemind of entities which counsel her. Although her condition could be attributed to something more akin to Schizophrenia, it does allow her pre-cognition in a number of instances. She acts as the party's healer. Perhaps she is a priestess of death. Granting assisted suicide to the most ailing. Using dark magic for good.
+
+Combat Attacks:
+1. Dark Embrace
+	- A warming darkness surrounds the target, healing them for some HP.
+
+
+First Encounter:
+-----------------
+Priestess: "Excuse me traveler, I'd like a word with you..."
+*Player approaches the Priestess*
+Priestess: "I've known of your arrival for some time now. About the undead horde, and your plans to stop it."
+Jester: "One of the bandits must have come here after fleeing us. They're trying to turn the Realm against us."
+Priestess: "You would be wrong. It was God who told me of your arrival."
+Jester: "Excuse me?"
+Priestess: "God speaks with me often and shares his wisdom. He takes many forms. Sometimes he'll take them all at once. The conversations can be... hard to follow. But his message is always clear."
+Jester:	"Let's get out of here. She sounds unwell."
+Player: [Prove it.] [I believe you.]
+Priestess: *smiles*
+Priestess: "I assure you I'm as lucid as you are. How else would I know her name to be Aylmera. Or that your companion, Alexandros is responsible for her revival."
+Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old."
+Alexandros: *Shocked exclamation mark* "How did she...?"
+Priestess: "And you, Aylmera. Where do you stand on all this? Who is fit to rule the Realm?"
+Player:
+	[The King.]
+	Priestess: "We'll see if that resolve holds strong for the remainder of your journey."
+	[I don't know.]
+	Priestess: "You certainly are of this realm. It's unease permeates even your ancient being."
+Priestess: "I understand that my methods are... unusual, but I must insist I join you from here forward. Not only is it the will of God, but..."
+Priestess: *Frowns sorrowfully*
+Priestess: "In the visions bestowed upon me, I've seen you die a thousand deaths. All 3 of you. Long before your journey is complete. The only outcomes where any of you survive are when I am alongside you."
+Priestess: "Take me with you, and see your journey to completion."
+Player:
+	[Ok.]
+	[If you insist.]
+
+
+Necromancers/Sorcerers:
+========================
+Sorcerers ruled the nearby library and its Tower, practicing all manner of magic. With full access to the royal catacombs for soldiers, they practiced necromancy to assist in their assault on the castle. They now live in a tense peace with the kingdom, as each one knows further war would bring about the destruction of both groups. They use skeletons and zombies as slave labor for menial tasks while they reside up high in their towers. The kingdom hates this in principle (since it desecrates their ancestors), but allows it to continue as they rely on the manpower it provides.
+
+Player: 	"Why did you follow a Mad Wizard?"
+Sorcerer: 	"Why? Because of all that he knew, and all that he would bestow. The secrets we unlocked in that tower put any incantation you know of to shame."
+			"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the crown had its doubts, but he truly envisioned a utopia for us all."
+Player: 	"And no one kept him in check?"
+Sorcerer:	"His skill was unrivaled. And we dare not interrupt his process when the fruits he provided were so bountiful."
+			"As his pupil, I once saw him birth a tree with his bare hands. Twisting the seed to sapling, to branches, and then back again into seed."
+			"He understood things that you and I simply aren't meant to know."
+Player: 	"You seem to still be enamored, despite the obvious casualties."
+Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
+
+
+Paladins and Soldiers:
+======================
+Paladins were scarce before the war (as holy magic was a bit dated), but especially now with most of them killed in the battle against the sorcerers a few years ago. Neither group has had a chance to fully recover.
+
+The castle's ramparts lie battered and broken, with large holes in them from where the Necromancers used suicide bombing undead. Many sections lie dormant, booby-trapped, and abandoned as the castle lacks enough manpower to man it all. No one knows where all of the traps remain, and as such they're mutual no-mans-land between the two groups.
+
+The Paladins now work alongside the sorcerers in restoring peace to the world.
+
+
+The Prince:
+============
+By all accounts he was a smart, caring leader. Even some of the Sorcerers admired him as an individual. However he was loyal to his father (and thus opposed the sorcerers and the Mad Wizard). As such, he led the charge into The Tower during the final siege and was felled during the explosion that followed his standoff with the Mad Wizard.
+
+His body was never recovered, and he's assumed dead (vaporized in the blast), but in reality his body roams as a maniacal zombie which the player will have to eventually fight.
+
+
+The King:
+==========
+A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war, but his son and many of his Royal Guard were slain during the siege of the Great Tower. This was an outcome the King did not desire, as the Prince was his only heir. He understands that he's too old to lead much longer. Without a proper heir and the tension of pending war, he fears he might be the last of his royal line.
+
+Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
+
+
+First encounter with the player:
+---------------------------------
+King: 	*Jovial Laughter* "Praise the heavens! You're just as magnificent as the statues they carved of you!"
+		"I am his majesty Rvass. King and protector of... well..."
+		(The old man suddenly seems disturbed.)
+		"I... have no right to ask this of you. That you share in my burden. Yet here we are."
+		
+		TBD TBD TBD TBD
+		"Since your death, many kings have lived and died ruling these sacred lands.
+		
+		I have led my kingdom to ruin. My only heir lies slain amidst the rubble of war, his body unburied."
+		"My 
+		"I know the stories of your legend, how you conquered the bandit horde and helped rally the Seven Tribes under a single flag."
+		*Gets out of his throne and collapses in front of you, his forehead touching the floor*
+		"I ask that you save this kingdom from collapse. That you protect the realm once more."
+Player: <Yes, it would be an honor to serve you.><No, such affairs are not meant for the dead.>
+		
+
+
+Head Wizard (or Mad Wizard)
+============================
+
+
+
+The Player:
+===========
+An ancestral spirit of an ancient warrior. You've been revived by the kingdom and the sorcerers as a last-ditch-effort to secure peace and save the region. Only the King truly has faith in this plan, but with limited options everyone goes along with it. You're the result of an ancient protection 
+	- There should be a choice of 3 characters at the start (3 different types of ancient warriors from the Kingdom)
+	- As such, the player is infused with magic and combat prowess, but has no memory of who they were nor any knowledge of recent events.
+
+Misc Details
+--------------
+1. The player should wake up with coins on their eyes (as part of the ritual to revive them).
+2. There should be a statue in the City of the Player, detailing a bit more about who they were and that they were influential.
+3. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
+4. Have on character that talks only in Rhyme. A Minstrel-type person.
+
+
+General Ideas and Quotes:
+==========================
+Random enemy: "My tears couldn't wash away the guilt... but your blood might!"
+
+
+
