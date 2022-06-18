@@ -171,24 +171,9 @@ Main Antagonists:
 5. 
 
 
-Writing Dialogue:
-==================
-*** It appears to be 37 characters of length. Also aim for 3 lines high per box.
-	- Double check that it doesn't change length based on specific characters. And that it's a universal 37.
-
-Intro:
--------
-Ye whose bones belong as dust and 
-ash. The living scream your wretched
-name into the miserable void...
-
-Enrobed in flesh, seek out their
-burdens and silence the voices.
-Only then can you return to the fold.
-
-
-		   ...A R I S E...
-
+Dialogue:
+==========
+Max line length is 39 characters.
 
 Oubliette:
 -----------
@@ -251,6 +236,7 @@ Character Names/Titles:
 4. Vivian, Hivemind Cleric
 	- Enlightened Priestess?
 5. ???, King of the Realm
+	- The Crown, His Majesty
 	* Prideful, bull-headed, tired.
 6. Marshall, Prince of the Realm
 	- Defender of the Realm
@@ -268,7 +254,7 @@ Character Names/Titles:
 11. Margot, Witch
 	- Treacherous Witch, Decrepit Gypsy
 12. Neera, Royal Ranger
-	- (What is the ethnicity of Neera?)
+	- (What is the ethnicity of the name `Neera`?)
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
 13. ???, Traveling Bard
@@ -282,6 +268,7 @@ Order of Zones:
 Follow the main events outlined below. This is just for general reference of the core zones needing to be built.
 1. Oubliette
 	- Although the term "revival" is used, the books and scrolls all over the Oubliette should outline that it was in fact NECROMANCY that was used to bring you back. Dark, dangerous magic.
+	- Include clues that the mages were eager to perform the necromancy. Others in the castle are not as keen on it.
 2. Castle
 3. 
 
