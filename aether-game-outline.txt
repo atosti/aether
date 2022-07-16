@@ -115,8 +115,20 @@ Simple things to Work On:
 	- If pressed, Alexandros reveals that he believes the King is unfit to rule and can only bring about more ruin.
 		~ As such, he took the opportunity to coordinate a coup with some of the remaining wizards.
 		~ He urges the party to take his side and agree to dethrone the King once the realignment is complete.
-83. Adjust the Jester avatar to have one pixel of empty space on its right-hand side.
-	- Currently it lines right up with text, making it clash.
+83. Create a wall sprite for behind the throne.
+	- Make it be a shield and/or crest with two crossed spears behind it.
+84. Oubliette sprites needed
+	- Stacked books, from the floor
+	- Piles of scrolls on tabletops
+	- Tables, chairs
+	- Candles/Candelabras
+	- Wall-mounted lanterns
+	- Grates to drain blood
+	- Torture devices (iron maiden, stretching rack)
+	- Coffin with its lid ajar (the origin of the player's body)
+	- Blood stained walls/floors
+	- Dirt stained walls/floors
+	- Wizard sprites
 
 
 * What if the final battle was between whichever characters you're aligned with?
@@ -163,6 +175,7 @@ Main Antagonists:
 	- Harasses the local population for supplies to support his otherwise noble goals. Believes it's a justifiable cost for a better future.
 2. One-armed warrior?
 	- Acquires a second arm made of magic?
+	- Could have multiple battles. First time is against them with one arm, second time is once they've acquired a second.
 3. Undead Prince
 	- Filled with Aetherial rage. Uses a massive 2 handed sword and wears bulky armor.
 4. Leper leader
@@ -224,43 +237,48 @@ Character Names/Titles:
 * Denotes personality traits to assist with writing dialogue.
 
 1. Aylmera, Esteemed Warrior
-	- Elise? Elyce?
 	- Protector of Antiquity
-2. ???, Court Jester
+	* Stoic, a blank slate for the player to project themselves
+2. Sigmund, Court Jester
 	- Famous jesters seemed to have nicknames (e.g. Gaska, meaning Goose)
-	- Toad? Hugo? Drake? 
-	* Outgoing, enthusiastic, jovial. A literal jokester.
+	- Possible names: Toad? Hugo? Drake?
+	* Outgoing, Enthusiastic, jovial. A literal jokester.
 3. Alexandros, Magical Prodigy
 	- Apprentice of the Mad Wizard
 	* Sheltered, young, energetic, contemplative. 
-4. Vivian, Hivemind Cleric
+4. Neera, Hivemind Cleric
 	- Enlightened Priestess?
+	* Zen, faithful, relaxed, trusts in her fate to work out
 5. ???, King of the Realm
 	- The Crown, His Majesty
 	* Prideful, bull-headed, tired.
 6. Marshall, Prince of the Realm
 	- Defender of the Realm
+	* (Undead) = Unhinged, angry, hateful, confused, longing (for a long-lost purpose)
 7. ???, Mad Wizard
 	- Ignacio?
 	- Bringer of Chaos?
+	* Uncaring, self-centered, enthralled by his work
 8. ???, Ruthless Lord
 	- Cruel order-bringer, Slayer of the Weak
-	- Velasquez? (check spelling)
+	- Velazquez? A strong Spanish Knight would be a good influence.
+	* Harsh, follows established rules, strict, dedicated to his sense of "order"
 9. ???, Traveling Apothecary
 	- Healer of wounds
-	- Leader of the Lepers
+	- Leader of the Lepers? Guide of the Forgotten?
+	* Sly, cunning, a conman, charismatic, very amicable, likeable
 10. ???, Bloodhound Hermit
-	- Jackson?
+	- Jackson? 
 11. Margot, Witch
 	- Treacherous Witch, Decrepit Gypsy
-12. Neera, Royal Ranger
-	- (What is the ethnicity of the name `Neera`?)
+12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
 13. ???, Traveling Bard
 	- A traveling Bard that is encountered periodically throughout the world.
+	- Speaks in rhymes. Travels the land seeking inspiration and to bring joy to a joyless world.
 14. ???, Squire
-	- An unused character, but a Squire could be an interesting component.
+	- Presently an unused character, but a Squire could be an interesting component.
 
 
 Order of Zones:
@@ -270,6 +288,17 @@ Follow the main events outlined below. This is just for general reference of the
 	- Although the term "revival" is used, the books and scrolls all over the Oubliette should outline that it was in fact NECROMANCY that was used to bring you back. Dark, dangerous magic.
 	- Include clues that the mages were eager to perform the necromancy. Others in the castle are not as keen on it.
 2. Castle
+	a. Great Hall
+		-
+	b. King/Queen's Bedroom
+	c. Prince's Bedroom
+	d. War Room
+	e. Dining Hall
+	f. Kitchen/Pantry
+	g. Library
+	h. Hallway (w/Oubliette passage)
+	i. Oubliette Passage (hidden behind bookshelf)
+	j. Chapel
 3. 
 
 
@@ -415,7 +444,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ She was cornered in the royal catacombs by a rival army (seeking to pillage the catacombs). After slaying some soldiers, she swapped into their armor and fled through their ranks.
 		~ Realizing (or knowing) that the goals of that army were to destabilize the natural balance of elements, Aylmera decided to travel undercover to the Tower's Basement.
 	- The player Aylmera is simply a nameless soldier. Revived without any memories of who they once were. But they've proven themselves, and the real Aylmera is impressed.
-38. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will destroy ALL of the stones, unleashing even more chaotic energies into the land.
+38. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will shatter ALL of the stones, unleashing even more chaotic energies into the land.
 	- Alexandros realizes the evil nature of the ritual, and that it was always the Mad Wizard who had trained the mages in it.
 	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
 	- Instead, she guides them on how to restore the Aether crystal. She thanks them, and
@@ -429,6 +458,9 @@ XX. How did the King come to power?
 	- Did he ascend the Throne by blood, or did he steal it from someone else? This could add more depth to his character.
 XX. The player can kill the King.
 	- *Smiles* "My kingdom died well before you dealt the deathknell..." "If I might have... one request... protect the Realm..." - The King's dying words
+XX. Player enters a mansion that is overrun by undead (or they're barricaded outside at the door)
+	- Must race against time to get reprieve from them.
+	- Perhaps after slaying the armies of the Lord, the undead flood in to the now weakened zone.
 
 The more I think on it, it's non-sensical for the King to be revealed as evil. But he is someone that needs to step down, even by death if necessary. He's a tragic sort.
 
