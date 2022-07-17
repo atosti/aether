@@ -261,11 +261,11 @@ Character Names/Titles:
 	* Outgoing, Enthusiastic, jovial. A literal jokester.
 3. Alexandros, Magical Prodigy
 	- Apprentice of the Mad Wizard
-	* Sheltered, self-centered, calculating, wishes for better times (his past).
+	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric
 	- Enlightened Priestess?
 	* Zen, wise, faithful, relaxed, trusts in her fate to work out. Duty-bound.
-	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God)
+	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
 5. ???, King of the Realm
 	- The Crown, His Majesty
 	* Prideful, bull-headed, tired, impatient, emotionally cold.
@@ -287,7 +287,8 @@ Character Names/Titles:
 10. ???, Bloodhound Hermit
 	- Jackson? 
 11. Margot, Witch
-	- Treacherous Witch, Decrepit Gypsy
+	- Treacherous Witch, Decrepit Gypsy, Mystic
+	* Untrusting of strangers, mystical, 
 12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
@@ -584,7 +585,22 @@ Concepts:
 		"If he killed all those soldiers... all of us wizards... maybe he saw something we didn't?"
 		"I can only guess what other world would have instead awaited us. But who's to say it's a better one than this?"
 34. Asking the Jester about his relationship with the King
-	- 
+	- TBD. They are friends, he truly cares about the King.
+35. Asking the Priestess about what precisely she sees in the future
+	- Neera, curtly:
+	"I don't see the future all at once, God does not make me privy to such things."
+	"I wonder if even he has such powers himself..."
+	"No, instead he offers me guidance. His voices tell me things, and each one shows a different path."
+	[Do they ever lie?]
+	Neera, laughing:
+	"Certainly, some are real troublemakers. God has a beautiful sense of humor."
+	"But I've learned to understand his humor, and know which of his voices are sincere."
+	[Voices? Plural?]
+	Neera:
+	"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
+	"Many times they speak all at once. I've trained myself to selectively listen to the voices behind his words."
+	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, than I am happily his beekeeper."
+	"The honeys he produces for me are bountiful. They have yet to lead me astray."
 
 
 Misc Dialogue for encounters:
