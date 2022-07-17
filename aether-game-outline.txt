@@ -599,8 +599,14 @@ Concepts:
 	Neera:
 	"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
 	"Many times they speak all at once. I've trained myself to selectively listen to the voices behind his words."
-	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his beekeeper."
+	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his keeper."
 	"The honeys he produces for me are bountiful. They have yet to lead me astray."
+	[More than bees live in hives...]	(Available after her beekeeper line)
+	Neera, lightly rebuffed:
+	"You mean to imply he works as a wasp? Or perhaps a colony of molerats?"
+	"Though you mean to besmirch his methods, they are sound."
+	"A hive knows the value of community and working toward a collective goal."
+	"Perhaps our discussion is meant as something for you to ponder."
 
 
 Misc Dialogue for encounters:
