@@ -297,6 +297,9 @@ Character Names/Titles:
 	- Speaks in rhymes. Travels the land seeking inspiration and to bring joy to a joyless world.
 14. ???, Squire
 	- Presently an unused character, but a Squire could be an interesting component.
+15. Ol' Scratch, Devil Incarnate
+	- A character that appears at crossroads (in-between main zones) and converses with the party
+	- Black Snow vibes.
 
 
 Order of Zones:
@@ -607,23 +610,46 @@ Concepts:
 	"Though you mean to besmirch his methods, they are sound."
 	"A hive knows the value of community and working toward a collective goal."
 	"Perhaps our discussion is meant as something for you to ponder."
+36. The player should walk past Old Scratch (ignoring him) after a while, but he still poses questions that (can) force a response from the player.
+	- Alternately, give the player the option to ignore him (repeatedly).
+	- Would love if I could animate him leaning and smoking.
+37. Attempting to attack Old Scratch after he asks an incredibly rude question about your morality
+	- Old Scratch, with a devilish grin:
+	"Easy, pal. It was only a question. Forget I even brought it up."
+38. Invasive questions from Old Scratch
+	- Old Scratch (earlier on in the story):
+	"Forgive me, but my memory's not as good as it used to be. How many dead is that now? Are we past double-digits?"
+	- Old Scratch (after slaying the lepers):
+	"Lepers. Even I didn't have the heart to do what you did. Is that why you did it? For the heroics?"
+	- Old Scratch (after killing the King)
+	"Heh. You don't disappoint, you know that?"
+	[It wasn't for you.]
+		"Fair enough. I still admire your handiwork."
+	[You're welcome.]
+		""
+	"But. There's something eating away at me, I'd be remiss if I didn't ask..."
+	"Why not take the throne? It's waiting for you. A seat ready to be warmed."
+	[It's not for me.]
+		"Maybe one day you'll recognize your mistake."
+	[Then sit your scrawny ass in it.]
+		"..."
 
 
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies called you 'The Butcher'.
-	Butcher: "Not quite. It's my friends who call Butcher. My enemies know me as cannibal, killer, and rapist."
+	Butcher: "Not quite. It's my friends who call me Butcher. My enemies know me by other names: Cannibal. Killer. Rapist."
 	Butcher: "I wonder which title you'll choose for me." *Smiling*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
 	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
-	Unknown: "In truth... I envy them. No concerns, no "
-	Player: "Certainly you don't consider the present situation an improvement for the Realm."
+	Unknown: "In truth... I envy them. They're the only ones at peace in the aftermath."
+	Player: "Certainly you don't consider the present situation an improvement for the Realm?"
 	Unknown: "Why shouldn't I? You and I are in no position to judge the will of nature, and no King has ever established such uniform peace. You know they never fight amongst themselves? They don't even feast on the dead. They simply hunt the living."
 	Player: "So you wish to join them? Take part in their uniform peace?"
-	Unknown: "I wish to observe them. Perhaps the truth of their world will be revealed to me."
+	Unknown: "No. I wish to observe them. Perhaps the truth of their world will reveal a path forward for us all."
 	* You leave the man to his ravings. *
-3.  Lord: "Have you ever felt certainty about your role in restoring so-called order to the Realm? What does that even mean to you? Is it about serving a single King, or serving the many inhabitants of the region?"
+3.  Lord: "Have you ever felt certainty about your role in restoring so-called order to the Realm? What does that even mean to you? Is it about serving a single King, or serving the many inhabitants of the Realm?"
 	Lord: "My father spent his life serving a King, your King, and his reward was swift death on a suicide mission. The fate of his men was the same, the few survivors were either maimed or traumatized."
 	Lord: "I often wonder how much more he could've accomplished serving his people."
 	Lord: *Pauses* "Do you think there's such a thing as a 'justified' war?"
@@ -631,10 +657,10 @@ Misc Dialogue for encounters:
 		[Absolutely.]
 		Lord: "You would have liked my father. He'd have led you to a glorious death."
 		[Absolutely not.]
-		Lord: "Then perhaps you are not as much a fool as your companion." (referring to the Jester)
+		Lord: "Then perhaps you are not as much a fool as your King." (referring to the Jester)
 4.  (This occurs shortly after the player has slaughtered the Leper colony.)
 	*Party passes a hermit sitting alone, in a tunnel by a campfire*
-	Hermit: "You seem tired, please come sit by the fire and rest for a moment."
+	Hermit: "You seem tired, please come sit by the fire and rest a moment."
 	Player:
 		[Accept.] (Rework this slightly, FORCE the player to Accept the invitation.)
 			Hermit: "It's not oft that travelers venture this close to my seclusion. Truthfully, I miss their companionship."
@@ -733,22 +759,6 @@ Old:
 	-----------------
 	Just design a simple Fight only system where you can select Enemy 1, 2, 3, or 4 to attack (depending on how many on-screen).
 		- Also add in an EScape mechanic
-
-
-Main plot:
-(Optional)
-	A. Find the Catacombs where you originally died, and retrieve your fabled Sword.
-		- This should be a later game, optional dungeon.
-	B. Party members should have to be earned, by giving them a key item.
-		- Jester should be the first possible.
-			~ 
-
-Story
-	A. Retrieve all 5 orbs and bring them to the Aether Ruins to realign the elements.
-	
-	X. Players become trapped in
-
-
 
 
 Vocabulary/Phrases to Incorporate:
