@@ -167,12 +167,17 @@ All of this builds to the Climax:
 		~ Then I want them to return to the King, and either submit (accepting that a King is better than no King) or to kill him (either out of revenge, or through finding him unfit to rule).
 		~ Then the game ends, the player does NOT takeover as the new ruler.
 
-"Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient. I fear you, as I know I should. Do you fear for us?" - A medical priestess who patches you up partway through the game.
-
 
 Main Antagonists:
 =================
-1. Former Realm Ranger (now bandit leader)
+1. Abandoned Realm Ranger
+	- An archer who was present at the siege of the Great Tower.
+	- Having lost faith in the Kingdom's ability to rule the Realm, she now raids their supply lines. 
+	- She Feels the Kingdom is undeserving of rule after it poisoned the landscape so wholly.
+	- Was absolutely traumatized by her unit fleeing and, then having to slay undead versions of her allies to survive.
+	- Controls a tiny band of raiders who seek to usurp and overthrow the King.
+	- Lost one of her arms since the Great Explosion.
+
 	- A grassroots leader who rallied disenfranchised soldiers and bandits under one banner.
 	- Harasses the local population for supplies to support his otherwise noble goals. Believes it's a justifiable cost for a better future.
 2. One-armed warrior?
@@ -183,7 +188,26 @@ Main Antagonists:
 4. Leper leader
 	- Sickly and weak, but very astute and philosophical. Acknowledges the need for change in the Realm's leadership.
 	- Accelerationist. Perhaps sees no future for themselves, and by extension wants the same for the rest of the Realm.
-5. 
+5. The Player (kind of)
+	- Over the course of the story, the player learns that they are indeed NOT the fabled hero whose stories are littered across the region.
+	- The Wizards mistakenly resurrected you, a cousin of that hero (a simple mixup in the many bones of the catacombs).
+	- As such, the player learns they were a rebel warlord that broke from the Kingdom and 
+	- The Player is not forced to be evil as a result of this, but IS directly playing as someone who once was cruel and bitter.
+	- These details are revealed overtime as more lore is learned:
+		a. Hero has a birth mark or tattoo that the protagonist doesn't share.
+		b. Player has no memory of any of their heroics.
+		c. Player should have an anti-affinity to something that the Hero was known for.
+			~ e.g. Hero was always known to be physically warm, thought to have fire inside them. Meanwhile, the Player character gets cold in various regions and is freezing at once point.
+		d. When given the Hero's fabled sword, it should feel slightly too heavy for you.
+6. Vampire Lord
+	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly live him alone, and he's a recluse after all.
+	- The party could be forced to enter his manor as a means to escape a growing undead horde they'd attracted.
+		~ Then they must navigate the inside and escape.
+	- He's inhospitable, though not opening hostile initially.
+		~ Has no interesting in feeding on the party, but wouldn't mind them simply being dead (less long-term enemies that way).
+	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
+	- Although very old, he should still (technically) be younger than the Hero. He makes remarks about this, and how unusual it is.
+
 
 
 Dialogue:
@@ -259,19 +283,39 @@ Character Names/Titles:
 	- Famous jesters seemed to have nicknames (e.g. Gaska, meaning Goose)
 	- Possible names: Toad? Hugo? Drake?
 	* Outgoing, Enthusiastic, jovial. A literal jokester.
+	* Wears his motley attire which has also been reinforced with armor plates and hardened bits of leather.
+		- Following the heavy losses in the war, the Jester was forced to take up more duties than usual.
+		- His prowess at political strategy and loyalty to the King led him to spycraft, which he excelled at.
+		- He is respected by the soldiers for the way he led them during the siege of the Tower, personally taking up arms.
+		- He's incredibly clever, but recognizes that he is out of his depths. 
+		- He understands that he's fighting a losing battle, but searches for any advantage he can get.
 3. Alexandros, Magical Prodigy
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric
-	- Enlightened Priestess?
+	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind?
 	* Zen, wise, faithful, relaxed, trusts in her fate to work out. Duty-bound.
 	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
+	* She has only one eye, the other socket containing a fake eyeball Fashioned of pure gold. 
+		- She believes she communes with God.
+		- Further investigation reveals she communicates with a hivemind of entities which counsel her.
+		- Although her condition could be attributed to something more akin to Schizophrenia, it does allow her pre-cognition of key events. 
+		- She acts as the party's healer. Perhaps she is a priestess of death. Granting assisted suicide to the most ailing. Using dark magic for good.
 5. ???, King of the Realm
 	- The Crown, His Majesty
 	* Prideful, bull-headed, tired, impatient, emotionally cold.
+	* A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war.
+		- But his son and most of his Royal Guards were slain during the siege of the Great Tower. 
+		- This was an outcome the King did not desire, as the Prince was his only heir. He understands that he's too old to lead much longer. Without a proper heir and the tension of pending war, he fears he might be the last of his royal line.
+		- Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
 6. Marshall, Prince of the Realm
 	- Defender of the Realm
 	* (Undead) = Unhinged, angry, hateful, confused, longing (for a long-lost purpose of his former self)
+	* In life, by all accounts, he was a smart, caring, competent leader.
+		- Even some of the Sorcerers admired him as an individual.
+		- However he was loyal to his father (opposing the sorcerers and the Mad Wizard) and led the charge into The Tower during the final siege and was felled during the explosion that followed his standoff with the Mad Wizard.
+		- His body was never recovered, and he's assumed dead from the blast.
+		- In reality, his body roams the Tower's ruins as a maniacal zombie which the player eventually fights.
 7. ???, Mad Wizard
 	- Ignacio?
 	- Bringer of Chaos?
@@ -292,7 +336,7 @@ Character Names/Titles:
 12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
-13. ???, Traveling Bard
+13. ???, Traveling Minstrel/Bard
 	- A traveling Bard that is encountered periodically throughout the world.
 	- Speaks in rhymes. Travels the land seeking inspiration and to bring joy to a joyless world.
 14. ???, Squire
@@ -300,7 +344,11 @@ Character Names/Titles:
 15. Ol' Scratch, Devil Incarnate
 	- A character that appears at crossroads (in-between main zones) and converses with the party
 	- Black Snow vibes.
-
+16. ???, Lost Paladin
+	- Battered Paladin, Broken Bruiser, Old Dog
+	* Paladins were scarce before the war (as holy magic was outdated), but especially now since many of them died in the war with the sorcerers.
+		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
+		- Once revered as beacons of morality and the will of God, they're now seen as idealogues who threw away their traditional ideals for false hopes.
 
 Order of Zones:
 ===============
@@ -448,7 +496,8 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Ultimately, what she reveals is that the player is does not have hero's blood. That they have a dark history. That they carry the weight of many ruthless kills from their previous life.
 32. Aylmera and crew arrive at the Ramparts leading to the Aether Ruins
 	- It's a patchwork of booby-trapped zones. It's dangerous and full of numerous traps, which act as landmines.
-	- After the Wizards blew a hole in it, and the Realm lacked enough soldiers to defend it in its entirety, the Realm simply booby-trapped the whole thing and fell back.
+	- After the Wizards blew a hole in it, and the Realm lacked enough soldiers to defend it in its entirety, both sides booby-trapped it and its surrounding areas.
+	- As such, it's long been regarded as a no-man's land. One perk is it prevents the undead horde from easily spilling through the hole.
 33. Finding their way through, they arrive at the Ruins of Aether and make their way to the wreckage of the Tower.
 	- Lots of powerful soldiers (now dead and/or possessed by aether) wander around as hostile husks.
 34. At the base of the Tower Ruins, they encounter the Undead Prince. An aether-husked corpse wandering aimlessly.
@@ -633,6 +682,62 @@ Concepts:
 		"Maybe one day you'll recognize your mistake."
 	[Then sit your scrawny ass in it.]
 		"..."
+39. Generic line for an enemy:
+	"My tears couldn't wash away the guilt... but your blood might!"
+40. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
+41. The player should wake up with coins on their eyes (as part of the ritual to revive them).
+42. More conversations with wizards about their leader:
+	Player: 	"Why did you follow a Mad Wizard?"
+	Sorcerer: 	"Why? Because of all that he knew, and all that he would bestow. The secrets we unlocked in that tower put any incantation you know of to shame."
+				"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the crown had its doubts, but he truly envisioned a utopia for us all."
+	Player: 	"And no one kept him in check?"
+	Sorcerer:	"His skill was unrivaled. And we dare not interrupt his process when the fruits he provided were so bountiful."
+				"As his pupil, I once saw him birth a tree with his bare hands. Twisting the seed to sapling, to branches, and then back again into seed."
+				"He understood things that you and I simply aren't meant to know."
+	Player: 	"You seem to still be enamored, despite the obvious casualties."
+	Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
+43. Discussions/Concepts for first encounter with the Hivemind Priestess
+	Priestess: "Excuse me traveler, I'd like a word with you..."
+	*Player approaches the Priestess*
+	Priestess: "I've known of your arrival for some time now. About the undead horde, and your plans to stop it."
+	Jester: "One of the bandits must have come here after fleeing us. They're trying to turn the Realm against us."
+	Priestess: "You would be wrong. It was God who told me of your arrival."
+	Jester: "Excuse me?"
+	Priestess: "God speaks with me often and shares his wisdom. He takes many forms. Sometimes he'll take them all at once. The conversations can be... hard to follow. But his message is always clear."
+	Jester:	"Let's get out of here. She sounds unwell."
+	Player: [Prove it.] [I believe you.]
+	Priestess: *smiles*
+	Priestess: "I assure you I'm as lucid as you are. How else would I know her name to be Aylmera. Or that your companion, Alexandros is responsible for her revival."
+	Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old."
+	Alexandros: *Shocked exclamation mark* "How did she...?"
+	Priestess: "And you, Aylmera. Where do you stand on all this? Who is fit to rule the Realm?"
+	Player:
+		[The King.]
+		Priestess: "We'll see if that resolve holds strong for the remainder of your journey."
+		[I don't know.]
+		Priestess: "You certainly are of this realm. It's unease permeates even your ancient being."
+	Priestess: "I understand that my methods are... unusual, but I must insist I join you from here forward. Not only is it the will of God, but..."
+	Priestess: *Frowns sorrowfully*
+	Priestess: "In the visions bestowed upon me, I've seen you die a thousand deaths. All 3 of you. Long before your journey is complete. The only outcomes where any of you survive are when I am alongside you."
+	Priestess: "Take me with you, and see your journey to completion."
+	Player:
+		[Ok.]
+		[If you insist.]
+44. Conversation with soldiers from the War
+	Soldier: "No King can rule ashes. Even our enemies recognize that."
+	"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
+	"I personally slew dozens of my men before I was again safe inside our city's walls."
+	Player: "You were present at the explosion?"
+	Soldier: "Unfortunately. But I was fortunate enough to be outside the initial blast."
+	"Not a soul remains that hasn't seen horror. You'd be wise to remember that."
+45. General comment from Neera, the Hivemind cleric:
+	"I had to lose an eye before the hidden truths revealed themselves to me. How much do you think you'll have to lose before YOU see clearly?"
+46. A medical priestess who patches you up partway through the game:
+	"Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient. I fear you, as I know I should. Do you fear for us?"
+47. General note on the impact of the characters
+	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
+		- As such, opporunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
+
 
 
 Misc Dialogue for encounters:
@@ -808,211 +913,5 @@ Soundtrack:
 2. The Oubliette
 	- General unease. Distrust of everyone around you. Confusion. Eeriee environment (why am I here?).
 	
-Misc Items:
+X. Misc Songs/Vibes:
 	https://www.youtube.com/watch?v=T3XQ3EWdKkM
-
-
-Core Plot:
-===========
-1. When the Mad Wizard blew up his tower, he was casting magic centered around the banished element: Aether. As a result, the balance of all the elements is misaligned.
-	- Normally there are 5 orbs (one for each base element + Aether) in the Tower which could be used to realign the elements (as was done thousands of years ago, before even the Hero's time).
-	- But the blast shattered the 5th orb, and the other 4 were scavenged years ago during the growing conflict with the Wizards.
-		~ The Kingdom knows the 5th lies shattered in the Ruins, and the whereabouts of 3 of the 4. (The 4th eludes them?)
-	- As such, the player must:
-		1. Recover/Assemble all 4 base orbs
-			~ Including finding the 4th lost one
-		2. Bring them all to the Aether Ruins. Find the shattered 5th orb in the surrounding landscape.
-		3. Enter the basement of the tower and bring all 5 orbs to the alignment altar which lies somewhere underneath.
-			~ Might even need to blast their way in past the rubble.
-			~ Even the Allied Wizard is uncertain of just how deep the network beneath the tower is.
-		4. Once at the altar, they have to realign the elements.
-			~ They'll know they've succeeded, because the undead should all crumple dead (as the Aether leaves their bodies).
-		5. Return to the King and complete their quest.
-			~ Could have a party thrown afterwards.
-			~ Could optionally assassinate the King (as a final conflict) if he's found unworthy or evil.
-
-2. Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
-	- As such, opporunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
-
-
-Antagonists:
-=============
-1. Abandoned Ranger
-	- A (now) hermitic Ranger who lost one of his eyes during the explosion. Formerly a member of the castle's army he now raids them in the night. Feels the Kingdom is undeserving of rule after it poisoned the landscape so wholly.
-	- Was absolutely traumatized by being left for dead, then having to slay his fellow comrades to survive.
-	- Controls a tiny band of raiders who seek to usurp and overthrow the King.
-	- Still a hell of a shot even when down an eye.
-	- "I had to lose an eye before the hidden truths revealed themselves to me. How much do you think you'll have to lose before YOU see clearly?"
-
-2. The Player (kinda)
-	- Over the course of the story, the player learns that they are indeed NOT the fabled hero whose stories are littered across the region.
-	- The Wizards mistakenly resurrected you, a cousin of that hero (a simple mixup in the many bones of the catacombs).
-	- As such, the player learns they were a rebel warlord that broke from the Kingdom and 
-	- The Player is not forced to be evil as a result of this, but IS directly playing as someone who once was cruel and bitter.
-	- These details are revealed overtime as more lore is learned:
-		a. Hero has a birth mark or tattoo that the protagonist doesn't share.
-		b. Player has no memory of any of their heroics.
-		c. Player should have an anti-affinity to something that the Hero was known for.
-			~ e.g. Hero was always known to be physically warm, thought to have fire inside them. Meanwhile, the Player character gets cold in various regions and is freezing at once point.
-		d. When given the Hero's fabled sword, it should feel slightly too heavy for you.
-		
-3. Vampire Lord
-	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly live him alone, and he's a recluse after all.
-	- The party could be forced to enter his manor as a means to escape a growing undead horde they'd attracted.
-		~ Then they must navigate the inside and escape.
-	- He's inhospitable, though not opening hostile initially.
-		~ Has no interesting in feeding on the party, but wouldn't mind them simply being dead (less long-term enemies that way).
-	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
-	- Although very old, he should still (technically) be younger than the Hero. He makes remarks about this, and how unusual it is.
-
-
-Jester General
-===============
-Wears his motley attire which has also been reinforced with armor plates and hardened bits of leather.
-
-Following the abrupt assassination of the Prince and many of the royal guard, the Jester was forced to take up more duties than usual. His prowess at political strategy and loyalty to the King led him to spycraft, which he excelled at. After the war subsided, he was awarded the title of General (as few others remained who were worthy of the title). He is respected by the soldiers for the way he led the defense of the castle, personally taking up arms.
-
-He's incredibly clever, but recognizes that he is out of his depths. Especially with limited resources, amidst this new era which more closely resembles peace. He understands that he's fighting a losing battle, but searches for any advantage he can get.
-
-Ultimately, he blames the Sorcerers for kicking off the entire encounter and its cataclysmic climax.
-
-Initial Briefing with the Jester
----------------------------------
-Player: "How did the Great War come to an end?"
-Jester: "We cornered them, the sorcerers, took...
-	They blew up their tower when they had no escape. The Head Wizard leveled the building, killing himself, many remaining sorcerers and lots of the soldiers/paladins who were sieging it.
-	We had heard rumors the Head Wizard was unstable, but no one thought he would, or even could, destroy the entire tower.
-
-Player: "And now they're your allies?"
-Jester: "No King can rule ashes. Even our enemies recognize that."
-		"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
-		"I personally slew dozens of my men before I was again safe inside our city's walls."
-Player: "You were present at the explosion?"
-Jester: "Unfortunately. But I was fortunate enough to be outside the initial blast."
-		"Not a soul remains that hasn't seen horror. You'd be wise to remember that."
-Player: "So how do you plan to stop it all?"
-Jester: "Discussions with the sorcerers have proved fruitful. Just as they learned of your resurrection, they too found writing describing beacons to the basic elements."
-		"The sorcerers are convinced that 
-
-
-One-eyed Priestess
-===================
-Encountered around a third or half through the story. She has only one eye, the other socket containing a fake eyeball made of gold. She believes herself to be in commune with God, but further investigation reveals she communicates with a sort of hivemind of entities which counsel her. Although her condition could be attributed to something more akin to Schizophrenia, it does allow her pre-cognition in a number of instances. She acts as the party's healer. Perhaps she is a priestess of death. Granting assisted suicide to the most ailing. Using dark magic for good.
-
-Combat Attacks:
-1. Dark Embrace
-	- A warming darkness surrounds the target, healing them for some HP.
-
-
-First Encounter:
------------------
-Priestess: "Excuse me traveler, I'd like a word with you..."
-*Player approaches the Priestess*
-Priestess: "I've known of your arrival for some time now. About the undead horde, and your plans to stop it."
-Jester: "One of the bandits must have come here after fleeing us. They're trying to turn the Realm against us."
-Priestess: "You would be wrong. It was God who told me of your arrival."
-Jester: "Excuse me?"
-Priestess: "God speaks with me often and shares his wisdom. He takes many forms. Sometimes he'll take them all at once. The conversations can be... hard to follow. But his message is always clear."
-Jester:	"Let's get out of here. She sounds unwell."
-Player: [Prove it.] [I believe you.]
-Priestess: *smiles*
-Priestess: "I assure you I'm as lucid as you are. How else would I know her name to be Aylmera. Or that your companion, Alexandros is responsible for her revival."
-Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old."
-Alexandros: *Shocked exclamation mark* "How did she...?"
-Priestess: "And you, Aylmera. Where do you stand on all this? Who is fit to rule the Realm?"
-Player:
-	[The King.]
-	Priestess: "We'll see if that resolve holds strong for the remainder of your journey."
-	[I don't know.]
-	Priestess: "You certainly are of this realm. It's unease permeates even your ancient being."
-Priestess: "I understand that my methods are... unusual, but I must insist I join you from here forward. Not only is it the will of God, but..."
-Priestess: *Frowns sorrowfully*
-Priestess: "In the visions bestowed upon me, I've seen you die a thousand deaths. All 3 of you. Long before your journey is complete. The only outcomes where any of you survive are when I am alongside you."
-Priestess: "Take me with you, and see your journey to completion."
-Player:
-	[Ok.]
-	[If you insist.]
-
-
-Necromancers/Sorcerers:
-========================
-Sorcerers ruled the nearby library and its Tower, practicing all manner of magic. With full access to the royal catacombs for soldiers, they practiced necromancy to assist in their assault on the castle. They now live in a tense peace with the kingdom, as each one knows further war would bring about the destruction of both groups. They use skeletons and zombies as slave labor for menial tasks while they reside up high in their towers. The kingdom hates this in principle (since it desecrates their ancestors), but allows it to continue as they rely on the manpower it provides.
-
-Player: 	"Why did you follow a Mad Wizard?"
-Sorcerer: 	"Why? Because of all that he knew, and all that he would bestow. The secrets we unlocked in that tower put any incantation you know of to shame."
-			"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the crown had its doubts, but he truly envisioned a utopia for us all."
-Player: 	"And no one kept him in check?"
-Sorcerer:	"His skill was unrivaled. And we dare not interrupt his process when the fruits he provided were so bountiful."
-			"As his pupil, I once saw him birth a tree with his bare hands. Twisting the seed to sapling, to branches, and then back again into seed."
-			"He understood things that you and I simply aren't meant to know."
-Player: 	"You seem to still be enamored, despite the obvious casualties."
-Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
-
-
-Paladins and Soldiers:
-======================
-Paladins were scarce before the war (as holy magic was a bit dated), but especially now with most of them killed in the battle against the sorcerers a few years ago. Neither group has had a chance to fully recover.
-
-The castle's ramparts lie battered and broken, with large holes in them from where the Necromancers used suicide bombing undead. Many sections lie dormant, booby-trapped, and abandoned as the castle lacks enough manpower to man it all. No one knows where all of the traps remain, and as such they're mutual no-mans-land between the two groups.
-
-The Paladins now work alongside the sorcerers in restoring peace to the world.
-
-
-The Prince:
-============
-By all accounts he was a smart, caring leader. Even some of the Sorcerers admired him as an individual. However he was loyal to his father (and thus opposed the sorcerers and the Mad Wizard). As such, he led the charge into The Tower during the final siege and was felled during the explosion that followed his standoff with the Mad Wizard.
-
-His body was never recovered, and he's assumed dead (vaporized in the blast), but in reality his body roams as a maniacal zombie which the player will have to eventually fight.
-
-
-The King:
-==========
-A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war, but his son and many of his Royal Guard were slain during the siege of the Great Tower. This was an outcome the King did not desire, as the Prince was his only heir. He understands that he's too old to lead much longer. Without a proper heir and the tension of pending war, he fears he might be the last of his royal line.
-
-Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
-
-
-First encounter with the player:
----------------------------------
-King: 	*Jovial Laughter* "Praise the heavens! You're just as magnificent as the statues they carved of you!"
-		"I am his majesty Rvass. King and protector of... well..."
-		(The old man suddenly seems disturbed.)
-		"I... have no right to ask this of you. That you share in my burden. Yet here we are."
-		
-		TBD TBD TBD TBD
-		"Since your death, many kings have lived and died ruling these sacred lands.
-		
-		I have led my kingdom to ruin. My only heir lies slain amidst the rubble of war, his body unburied."
-		"My 
-		"I know the stories of your legend, how you conquered the bandit horde and helped rally the Seven Tribes under a single flag."
-		*Gets out of his throne and collapses in front of you, his forehead touching the floor*
-		"I ask that you save this kingdom from collapse. That you protect the realm once more."
-Player: <Yes, it would be an honor to serve you.><No, such affairs are not meant for the dead.>
-		
-
-
-Head Wizard (or Mad Wizard)
-============================
-
-
-
-The Player:
-===========
-An ancestral spirit of an ancient warrior. You've been revived by the kingdom and the sorcerers as a last-ditch-effort to secure peace and save the region. Only the King truly has faith in this plan, but with limited options everyone goes along with it. You're the result of an ancient protection 
-	- There should be a choice of 3 characters at the start (3 different types of ancient warriors from the Kingdom)
-	- As such, the player is infused with magic and combat prowess, but has no memory of who they were nor any knowledge of recent events.
-
-Misc Details
---------------
-1. The player should wake up with coins on their eyes (as part of the ritual to revive them).
-2. There should be a statue in the City of the Player, detailing a bit more about who they were and that they were influential.
-3. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
-4. Have on character that talks only in Rhyme. A Minstrel-type person.
-
-
-General Ideas and Quotes:
-==========================
-Random enemy: "My tears couldn't wash away the guilt... but your blood might!"
-
-
-
