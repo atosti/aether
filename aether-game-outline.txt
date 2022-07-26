@@ -131,6 +131,7 @@ Simple things to Work On:
 	- Wizard sprites
 85. Design a Logo and the logo screen
 	- Allow it to be skipped by pressing A in the case of rapidly restarting the game. It's a Quality of Life thing.
+86. Create a gif to the README that demonstrates some of the basic gameplay and/or screens in the game.
 
 
 * What if the final battle was between whichever characters you're aligned with?
