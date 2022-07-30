@@ -322,11 +322,11 @@ Character Names/Titles:
 	- Bringer of Chaos?
 	* Uncaring, self-centered, enthralled by his work
 8. ???, Ruthless Lord
-	- Cruel order-bringer, Slayer of the Weak
+	- Cruel order-bringer, Slayer of the Weak, His Liege
 	- Velazquez? A strong Spanish Knight would be a good influence.
 	* Harsh, follows established rules, strict, dedicated to his sense of "order"
 9. ???, Traveling Apothecary
-	- Healer of wounds
+	- Healer of wounds, Salesman, Con Artist
 	- Leader of the Lepers? Guide of the Forgotten?
 	* Sly, cunning, a conman, charismatic, very amicable, likeable
 10. ???, Bloodhound Hermit
@@ -350,6 +350,7 @@ Character Names/Titles:
 	* Paladins were scarce before the war (as holy magic was outdated), but especially now since many of them died in the war with the sorcerers.
 		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
 		- Once revered as beacons of morality and the will of God, they're now seen as idealogues who threw away their traditional ideals for false hopes.
+
 
 Order of Zones:
 ===============
@@ -399,7 +400,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Alexandros will join the player and their party at a city to the North-east whose army is still intact.
 		~ He is to begin negotiations with their leader for their elemental stone and rendezvous with Aylmera and the Jester after they've acquired their stone at the ruined city.
 		~ It's a region ruled by a Lord loyal to the Realm. The King is confident in the Lord's cooperation.
-3. Aylmera and the Jester leave the castle and enter into the larger city ruins.
+3. Aylmera and the Jester leave the castle and enter into the surrounding city's ruins.
 	- People are fearful of the roving undead and wish the castle would open its gates to them.
 	- Soldiers are spread thin and acknowledge they can't protect everyone. Just focus on defending the castle itself. Not the whole city.
 4. Begin heading through the surrounding farmland looking for the bandits. Soldiers (and their Realm spies) believe the bandits have acquired one of the stones.
@@ -409,7 +410,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Encounter traveling merchants and minstrels on their way. Perhaps a bard that's recurring periodically through the plot.
 7. At the heart of the forest (in a clearing) is the bandit camp. A circle of caravan wagons. Aylmera encounters the bandit leader.
 	- The leader is a former ranger of the Realm who was present at the Great Explosion. He wishes to overthrow the king and is using the elemental stone as leverage.
-8. Aylmera kills the Ranger and steal the first of the elemental stones.
+8. Aylmera defeats the One-armed Ranger and steals the first of the elemental stones. The Ranger is able to escape with a smokebomb.
 	- The leader mentions how he heard stories of Aylmera's heroism. He doesn't see any of it now. Must've been lies.
 	- Out of fear, the other bandits flee.
 9. Aylmera and crew continue out the other side of the forest toward the ruins of a nearby city. Where they know the Crown hid one of the stones.
@@ -422,118 +423,169 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Asking around for directions and info, the locals reveal that they knew of Aylmera's arrival. A visiting Priestess told them so.
 	- Ultimately, they want nothing to do with the Crown or the Realm. They've been abandoned and have problems of their own.
 	- They do have a de-facto leader who they admire for his empathy and strong will.
-		~ Aylmera and crew meet him and he attempts to stress the importance of empathy. They don't really have time for his ramblings/teachings.
-12. Aylmera and crew venture further into the heart of the ruined city (in search of the catacombs entrance). Instead, they find the Priestess.
+		~ They mention how he's an Apothecary who makes potions to ease their burden and pain.
+12. Within the encampment, they find Neera (the priestess)
 	- She informs Aylmera and crew of their Divine journey and her need to accompany them.
 	- The Jester doubts her ability to commune with God (after she explains the hivemind that speaks to her in many, varied tongues).
-	- She proves her connection to the Divine by mentioning that she knows of Alexandros' mission to the Lord.
+	- She proves her connection to the Divine by mentioning that she knows of Alexandros' mission to reach the Lord.
 		~ Moreover, she reveals that he will soon be in danger. She convinces them to let her join, as she's vital to their success.
 		~ "I've seen visions of your journey a thousand different ways. Only when I'm alongside you do you even make it to the end."
-13. Aylmera and crew eventually make their way through the city and into the catacombs.
-	- At the entrance is a statue to Aylmera, recognizing her commitment to protecting 'antiquity' from when she defended a catacomb from pillaging during her lifetime.
+13. Aylmera and crew venture further into the heart of the ruined city (in search of the catacombs entrance). Instead, they find the Apothecary.
+	- Aylmera and crew meet him and he attempts to stress the importance of empathy.
+		~ They don't really have time for his ramblings/teachings. And largely ignore him.
+	- He seems like a Salesman, a con artist.
+	- When they mention their purpose, he says he's been to the catacombs himself.
+		~ Gets defensive, says he's seen nothing worth taking inside and advises they leave it be.
+14. Aylmera and crew eventually make their way through the remnants of the city and into its old catacombs.
+	- At the entrance is a statue to Aylmera, recognizing her commitment to protecting 'antiquity' from when she defended similar catacombs from necromancer pillaging during her lifetime.
 	- The entire party acknowledges that it looks nothing like the player character. They shrug it off as some sort of error by historians.
-14. Fighting through the catacombs, they defeat a large monster and then search the catacombs where the King specified. They find nothing and decide to search the Leper encampment for it.	
-15. At the entrance of the catacombs (as they're leaving), Aylmera and crew are approached by the Leper Leader.
-	- He reveals that he has the elemental stone and urges the group to stop assisting the Crown.
+15. Fighting through the catacombs, they defeat a large monster and then search the tombs where the King specified. However they find nothing.
+	- They decide to search the Leper encampment for any clue of its whereabouts.
+		~ They also suspect foul play from the Apothecary since he said he'd been inside before.
+16. At the outskirts of the Leper encampment (toward the catacombs), Aylmera and crew are again approached by the Apothecary.
+	- He reveals that he took the elemental stone a while ago, and gave it to the lepers for safekeeping. 
+	- He urges the group to stop assisting the Crown.
 	- "I thought the creatures below would be enough of a deterrent. Can't you see your success will only spell ruin for the rest of us?"
-16. Returning to the Leper encampment, Aylmera and crew are surrounded by the Lepers.
+	- "Look at how that 'leader' treats his people. This city was forgotten and its people cursed. He's unfit to rule."
+17. The Apothecary blocks their path and forces them to fight him in order to proceed.
+18. Returning to the Leper encampment, Aylmera and crew are surrounded by the townsfolk.
+	- They seem to know that the Apothecary is dead, since he isn't alongside your party.
 	- "He warned us it would come to this. That you might not listen to reason. We swore to him we'd stop you if he couldn't."
-	- They are weak and easily defeated, but must be killed enmasse.
+	- They are weak and easily defeated, but must be killed enmasse to proceed.
 	- The Priestess notes how her God thanks them for easing the suffering of the Lepers (through death).
-		~ This creeps out the Jester who still has qualms about killing so many sick people.
-	- Only the shopkeeper remains alive (as he decides not to fight). "They died. And for what? Ideals which will be buried alongside them... Show me your gold."
-17. Aylmera and crew proceed along the mountaintops toward the North-eastern city belonging to the Lord and his army.
-	- They once again encounter the hermit. He once again invites them to chat alongside him at the fire.
+		~ This creeps out the Jester who still has qualms about killing so many sickly people.
+	- Only the shopkeeper remains alive (as he decides not to fight).
+		~ "They died. And for what? Ideals which will be buried alongside them... Show me your gold."
+19. Aylmera and crew proceed along the mountaintops toward the North-eastern city belonging to the Lord and his army.
+	- They once again encounter the hermit along the way.
+	- Yet again he invites them to chat beside him at his campfire.
 	- He reveals that despite his gift, he was unable to save his village. A killer infiltrated them under the guise of a victim, and wiped most of them out.
-		~ He blames himself for ignoring the stench of death that was so potent. Because he believed so wholly in the young man's innocence and appearance.
+		~ He blames himself for ignoring the stench of death that was so potent. Because he believed so wholly in the young man's innocent appearance.
 	- Apologizes for troubling Aylmera and crew, then goes silent.
-18. Aylmera and crew get up to leave, but as they walk away the Hermit rises and throws a dagger in their direction.
-	- "I'm sorry. But I can't let myself make that mistake again. Your scent... it's identical. When you approached, all my memories rushed to me so VIVIDLY!
+20. Aylmera and crew get up to leave, but as they walk away the Hermit rises and throws a dagger in their direction.
+	- "I'm sorry. But I can't let myself make that mistake again. Your scent... it's identical. When you approached, all the memories rushed to me so VIVIDLY!
 		~ He charges them and engages in a battle.
-19. Upon defeating the Hermit, he exclaims, "I didn't last... but the stench... will." before collapsing and dying.
-	- The Jester is disturbed by this encounter. The Priestess doesn't seem to mind. The Jester urges you to meet up with Alexandros ASAP, as things are quickly unraveling out of control.
-20. Continuing through the mountaintops, Aylmera and crew eventually arrive at a valley in the highlands and reach the outskirts of the Lord's lands.
-21. They make their way through the farmland toward the Lord's castle/keep.
-	- Due to its distance from the Aether Ruins, things here are more peaceful. Farmers go about their days, and soldiers periodically roam.
+21. Upon defeating the Hermit, he exclaims, "I didn't last... but your foul odor will..." before collapsing and dying.
+	- The Jester is again disturbed by this encounter. 
+	- The Priestess doesn't seem to mind.
+	- Worrying that things are getting more and more out of hand, the Jester urges you to meet up with Alexandros ASAP.
+22. Continuing through the mountaintops, Aylmera and crew eventually arrive at a valley in the highlands and reach the outskirts of the Lord's lands.
+23. They make their way through the farmland toward the Lord's castle/keep.
+	- Due to its distance from the Aether Ruins, things here are more peaceful. Farmers go about their days, and soldiers periodically roam the outskirts actually patrolling the entire area.
 	- The crew is not immediately recognized as serving the Crown, and are instead briefly interrogated at the castle's wall about who they are and why they're there.
-22. Aylmera and crew accidentally reveal too much about who they are (serving the Crown alongside the mages) and are met with battle.
-	- Can be done in a few ways, either mentioning that Aylmera was necromanced, saying Alexandros' name, or revealing they're with the Crown.
-23. One of the guards runs away, screaming for help. The crew's cover is blown.
-24. Aylmera and crew fight their way through waves of soldiers as they make their way to the throne room of the Lord.
-25. Arriving in the Throne Room, the crew finds a beaten Alexandros and the Lord himself.
-26. Now aware of who they are, the Lord taunts them.
-	- "Well now, the Crown sent rats to do his dirty work. You must prefer his Chaos to my Order."
+24. Aylmera and crew accidentally reveal too much about who they are (serving the Crown alongside the mages) and are met with battle.
+	- Can be done in a few ways, either mentioning that Aylmera was necromanced, saying Alexandros' name, or intentionally revealing they're with the Crown.
+		~ Note that up to this point the King said the Lord was on his side. Whereas Neera hinted that Alexandros is in danger.
+25. One of the guards runs away, screaming for help. The crew's cover is blown.
+	- While most of the guards fight, one of them runs off (either before or after the encounter).
+26. Aylmera and crew must fight their way through waves of soldiers as they cut a path to the throne room of the Lord.
+	- "A thousand gold for whoever puts that bitch's head on a spike!"
+27. Arriving in the Throne Room, the crew finds Alexandros bound and beaten, alongside the Lord himself.
+28. Now aware of who they are, the Lord taunts them.
+	- "Well now, the Crown sent you rats to do his dirty work. You must prefer his Chaos to my Order."
 	- "I've already spent plenty of time with your friend here." *smiles* "Wasn't much of a conversationalist at first. These magicians boast of their strength, but many are so fragile."
-	- He discusses with the player how the Crown can only lead them again to ruin, as he did in the war. Moreover, he displays his disgust for Alexandros and all mages like him.
-	- "The Great Hero Aylmera... What wretched misery they've subjugated upon your flesh. If you weren't an undead abomination, I'd pity you. Your existence is nothing short of sin itself..."
-27. The Lord reveals he has one of the stones, but refuses to give it to the party as long as the serve the Crown.
+	- He discusses with the player how the Crown can only lead them to further ruin, as he did in the war.
+		~ Moreover, he displays his disgust for Alexandros and all mages like him. He views necromancers and their sympathizers as having revoked their humanity.
+	- "The Great Hero Aylmera... What wretched misery they've subjugated your flesh. If you weren't an undead abomination, I'd pity you. Your existence is nothing short of sin itself."
+29. The Lord reveals he has one of the stones, but refuses to give it to the party as long as they serve the Crown.
 	- The Lord kicks Alexandros' shackled body down the stairs of his throne, toward Aylmera and crew.
 	- Aylmera and crew catch his rolling body and unbind his hands/mouth.
 		~ Aylmera: "Are you alright?"
 		  Alexandros: "... *eyes closed* ..."
 		  Priestess: "He's covered in cuts and bruises..."
 		  Alexandros: "... Help me... Help me..." "Kill. That. BASTARD!!!"
-	- Alexandros immediately jumps up and charges up the stairs toward the Lord, beginning an engagement.
+	- Alexandros immediately jumps up, charging up the stairs toward the Lord, beginning an engagement.
 		~ The engagement starts with Alexandros immediately getting a free hit onto the Lord.
-		~ Immediately after his hite, have a prompt stating: "Alexandros looks beyond furious. His palms are enveloped in white-hot flames."
+		~ Immediately after his hit, have a prompt stating: "Alexandros looks beyond furious. His palms are enveloped in white-hot flames."
 		~ If possible, have his anger translate into some Double damage or something for the engagement.
 		~ Alexandros also starts the fight at half health.
-28. Once the Lord is killed, Aylmera and crew pick up his stone (the 3rd stone). And begin walking out of the castle.
+30. Once the Lord is killed, Aylmera and crew pick up his stone (the 3rd stone). And begin walking out of the castle.
 	- The few remaining soldiers they encounter back away and run.
-	- Most lie bloodied and beaten, huddle in piles as they attempt triage.
-29. Aylmera and crew follow the nearby river downhill (descending the mountain) toward the East.
-	- Along the way, they encounter one of the Lord's soldiers contemplating a stretch of the riverbank with thousands of flowers of either side.
-	- He tells them how he remembers the Wizard Wars, how he lost many friends at this very spot. How the river ran red with the blood of so many soldiers.
-	- He laments that it was all in vain. That in the end, leaders only wish to rule over ashes. How these beautiful flowers aren't ruled by anyone, and they're the most precious thing of all.
+	- Even the townsfolk fear them. Some plead for their lives, despite not being in any danger.
+	- Most lie bloodied and beaten, huddled in piles as they attempt triage.
+31. Leaving the city, Aylmera and crew follow the nearby river downhill (descending the mountain) toward the East.
+	- Along the way, they encounter one of the Lord's soldiers contemplating a stretch of the riverbank with thousands of flowers on either side.
+	- He tells them how he remembers the War with the wizards.
+		~ How he lost many friends at this very spot.
+		~ How the river ran red with the blood of so many soldiers.
+	- He laments that it was all in vain. That in the end, leaders only wish to rule, even if its over ashes.
+		~ He notes that these beautiful flowers aren't ruled by anyone, and they're the most precious thing of all.
 		~ He refuses to fight Aylmera and crew.
-	- "How far down this path must you travel, before you know where it leads?" "If you don't see it now, then certainly you must be blind."
-	- Perhaps he ambiently wishes/prays for death, but when engaged in combat he fights to the bitter end.
-30. Aylmera and crew cross through a foggy marshland, where much of the land has, recently, sunk into the earth.
+	- "How far down this path must you travel, before you know where it leads?"
+	- "If you don't see it now, then certainly you must be blind."
+	- (Optional) Perhaps he ambiently wishes/prays for death, but if engaged in combat he fights to the bitter end.
+		~ This is because he's still holding on to something. You aren't meant to know what.
+32. Aylmera and crew cross through a foggy marshland, where much of the land has, recently, sunk into the earth.
 	- As such, the undead are thinner here than elsewhere. The area feels eerie and devoid of life.
-31. They encounter a witch's hut deep in the heart of the swamp. She invites them inside and is hospitable.
+33. They encounter a witch's hut deep in the heart of the swamp. She invites them inside and is hospitable.
 	- Player progression is blocked by something (perhaps she has an animal in the way outside her hut?) until speaking with her.
 	- Through discussions she reveals that she knows the player is undead. She then offers a spiritual reading.
-	- Perhaps she even drugs the protagonist without their knowledge, and uses their dazed state to extract information.
-	- Ultimately, what she reveals is that the player is does not have hero's blood. That they have a dark history. That they carry the weight of many ruthless kills from their previous life.
-32. Aylmera and crew arrive at the Ramparts leading to the Aether Ruins
-	- It's a patchwork of booby-trapped zones. It's dangerous and full of numerous traps, which act as landmines.
+	- She drugs the protagonist without their knowledge (lacing other food/drink), and uses their dazed state to extract information.
+	- Ultimately, what she reveals is that the player does not have hero's blood. 
+		~ That they have a dark history. That they carry the weight of many ruthless kills from their previous life.
+34. Aylmera and crew arrive at the Ramparts leading to the Aether Ruins
+	- It's a patchwork of booby-traps. It's dangerous and full of numerous traps, which effectively act as landmines.
 	- After the Wizards blew a hole in it, and the Realm lacked enough soldiers to defend it in its entirety, both sides booby-trapped it and its surrounding areas.
 	- As such, it's long been regarded as a no-man's land. One perk is it prevents the undead horde from easily spilling through the hole.
-33. Finding their way through, they arrive at the Ruins of Aether and make their way to the wreckage of the Tower.
+35. Finding their way through, they arrive at the Ruins of Aether and make their way to the wreckage of the Tower.
 	- Lots of powerful soldiers (now dead and/or possessed by aether) wander around as hostile husks.
-34. At the base of the Tower Ruins, they encounter the Undead Prince. An aether-husked corpse wandering aimlessly.
+	- A mixture of both undead wizards and undead realm soldiers are encountered here.
+36. At the base of the Tower Ruins, they encounter the Undead Prince. An aether-husked corpse wandering aimlessly.
+	- Note: Hardly a single floor of the Tower remains. It has almost been completely leveled.
 	- The Jester immediately recognizes him and is horrified. His memories of the explosion rush back to him all at once.
-	- The Jester is frozen by both shock and fear. He simulatenously wants to call out to the Prince, and knows to fear him for the monster he has become.
+	- The Jester is frozen by both shock and fear. He simulatenously wants to call out to the Prince, but also knows to fear him for the monster he has become.
 	- The Prince notices the party and approaches. He's slightly more lucid than other undead. Muttering to himself as he engages the party.
-35. After a brutal fight, the party slays the Prince.
+		~ "Bastards..."
+		~ "Can't run now..."
+		~ "For the King..."
+37. After a brutal fight, the party slays the Prince.
 	- The Jester is distraught, he breaks down into tears. The player and party console him.
 	- The Priestess offers to say a few words, his last rites, as they stand before his hulking corpse.
-36. Picking themselves up, the party readies themselves and goes into the basement ruins of the Tower.
-	- Inside is a maze of magical traps, old and new. They must replace each of the 4 stones into their appropriate slots.
-	- Something like one in each cardinal direction, or 3 in cardinal directions and the last at the center of them all.
+		~ "You fought valiantly, both in life and undeath. May your soul return to the peace of the unknown. Just as your bones will turn to dust."
+38. Collecting themselves for a moment, the party readies to enter the basement ruins of the Tower.
+	- Inside is a maze of magical traps, old and new.
+	- Examining the design of the rooms and the symbols carved into the walls, they determine their goal:
+		~ They must replace each of the 4 stones into its appropriate elemental slot.
+		~ Something like one in each cardinal direction, or 3 in cardinal directions and the last at the center of them all.
 	- The whole time, the party feels that something is off. As though they're being watched. As though a spirit is present.
-	- There is also, notably, an ancient skeleton dead in the main chamber? (the real Aylmera's body)
+	- There is also, notably, an ancient skeleton dead in the main chamber. The only one. (the real Aylmera's body)
 		~ Might be a bit TOO much detail. Does it even make sense that no one has been here for like a thousand years to clean up her body?
-37. Once all stones are placed, they must go into the main chamber and perform a ritual that Alexandros has studied.
+39. Once all the stones are placed, they must go into the main chamber and perform a ritual that Alexandros has studied prior.
 	- As they begin the rebalancing ritual, they are disrupted by a spirit. The spirit of the real Aylmera.
-	- She shouts at them, as a banshee would screech, halting their progress. She states who she is, and demands to know what they are trying to accomplish.
+	- She shouts at them, as a banshee would screech, halting their progress.
+		~ She states who she is, and demands to know what they are trying to accomplish.
 	- Upon hearing the name 'Aylmera' the whole party (protagonist included) are astounded.
-		~ They tell Aylmera that their party leader is the reincarnation of Aylmera.
-		~ "You bear neither my soul nor my flesh, and yet you use my name." "Strange. You reek of death and yet have an air of nobility." - Spirit of Aylmera
+		~ They tell Aylmera (the spirit) that their party leader is the reincarnation of her.
+		~ "You bear neither my soul nor my flesh, and yet you use my name. Who are you?" (the player does not know)
+		~ "Strange. You reek of death and yet have an air of nobility." - Spirit of Aylmera
 		~ "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?" - Spirit of Aylmera
 	- Alexandros realizes he must have retrieved the incorrect corpse from the royal catacombs. But is perplexed, because the body they took was buried alongside her unique armor.
+		~ The tomb even bore her name.
+		~ "This was the body labeled 'The hero of antiquity', the one who died protecting the catacombs from raiders."
 	- The spirit of Aylmera reveals that she didn't die as the "hero of antiquity" like people thought.
-		~ She was cornered in the royal catacombs by a rival army (seeking to pillage the catacombs). After slaying some soldiers, she swapped into their armor and fled through their ranks.
+		~ She was cornered in the royal catacombs by a rival army (seeking to pillage the catacombs).
+		~ Finding herself cornered inside, she slayed some soldiers, swapped into their armor and then fled through their lines.
 		~ Realizing (or knowing) that the goals of that army were to destabilize the natural balance of elements, Aylmera decided to travel undercover to the Tower's Basement.
-	- The player Aylmera is simply a nameless soldier. Revived without any memories of who they once were. But they've proven themselves, and the real Aylmera is impressed.
-38. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will shatter ALL of the stones, unleashing even more chaotic energies into the land.
-	- Alexandros realizes the evil nature of the ritual, and that it was always the Mad Wizard who had trained the mages in it.
+		~ Stealth being so key to her success, and time not being on her side, she neglected to inform the Kingdom of her plans.
+	- She succeeded in her mission, making it to the basement, but was sealed inside when she triggered a trap.
+		~ As such, her soul (and corpse) have remained trapped inside.
+	- As such, the player Aylmera is simply a nameless soldier. Revived without any memories of who they once were.
+		~ But they've proven themselves, and the real Aylmera is impressed by their commitment to save the Realm.
+		~ "If you truly wish to save the Realm, let me guide you."
+40. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will shatter ALL of the stones, unleashing even more chaotic energies into the land.
+	- Alexandros realizes the evil nature of the ritual.
+		~ He also notes that his notes on the matter came from the Mad Wizard, who had begun training the mages in it.
+		~ He wonders whether the Mad Wizard knew of its destructive nature all along.
 	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
-	- Instead, she guides them on how to restore the Aether crystal. She thanks them, and
-		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. you carry yourself with great nobility." - the Spirit of Aylmera
-39. Having stopped the Aether madness, the party begins returning to the Castle (this time from the East).
+	- Instead, she guides them on how to restore the Aether crystal.
+		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great nobility." - the Spirit of Aylmera
+41. The Spirit is disappointed to find that the Aether crystal has been shattered.
+	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
+
+XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
 
 
+XX. Still need a way to get the 4th elemental stone (which isn't Aether)
 XX. Aylmera and crew arrive at the Queen's grave.
 	- What is significant here? Perhaps she died in childbirth. Her gravestone could read: "She sacrificed all she had for the continuation of the Realm. May her soul rest easy knowing we'll protect her dream, just as she protected ours."
 XX. How did the King come to power?
@@ -547,6 +599,9 @@ XX. (Alternate) Killing the King.
 XX. Player enters a mansion that is overrun by undead (or they're barricaded outside at the door)
 	- Must race against time to get reprieve from them.
 	- Perhaps after slaying the armies of the Lord, the undead flood in to the now weakened zone.
+XX. At some point, the Leper Leader should be revealed to be largely a con artist and huckster.
+	- Although he does believe in providing them peace-of-mind, he's 100% aware that his medicines are placebo.
+	- He also uses them to accumulate wealth and luxuries for himself.
 
 The more I think on it, it's non-sensical for the King to be revealed as evil. But he is someone that needs to step down, even by death if necessary. He's a tragic sort.
 
