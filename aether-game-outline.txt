@@ -153,6 +153,7 @@ Core Gameplay Loop:
 1. Exploring the world and learning lore via:
 	- Dialogue with NPCs
 	- Reading notes/books/engravings
+	- Noting the history of areas and what events led to their current states
 2. Deciding what factions you agree with and want to support
 	- Answering dialogue choices to pledge loyalty, or wage war
 	- Discussing with your party the rationale behind your choices
@@ -250,16 +251,16 @@ of questions about all this. I don't
 even know where to begin...
 
 I don't know what you remember, but 
-you're the famous hero Aylmera. 'Slayer
+you're the fabled hero Aylmera. 'Slayer
 of Evil' and 'Protector of Antiquity'.
 
 You lived more than a thousand years 
 ago, but you DID serve this Realm. You
-saved it from falling into ruin.
+even saved it from falling into ruin.
 
 I hesitate to say more, but the King
 will gladly elaborate further. He
-awaits you upstairs, in his throne.
+awaits you upstairs. In his throne.
 
 [Talk to Alexandros again]
 I'm sure it's a lot to take in, but
@@ -310,6 +311,7 @@ Character Names/Titles:
 		- Although her condition could be attributed to something more akin to Schizophrenia, it does allow her pre-cognition of key events. 
 		- She acts as the party's healer. Perhaps she is a priestess of death. Granting assisted suicide to the most ailing. Using dark magic for good.
 5. ???, King of the Realm
+	- Reginald (too dweeby)? 
 	- The Crown, His Majesty
 	* Prideful, bull-headed, tired, impatient, emotionally cold.
 	* A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war.
@@ -830,6 +832,9 @@ Concepts:
 	- They comment on your actions, with a sinister flair.
 	- They play a melancholy tune that makes it immediately evident when they're in the area.
 	- They judge the player for their violent actions, in a teasing manner.
+52. The Lord discussing his doubts about the King
+	- "He tries to maintain control of the entire Realm. But at his age... I wonder if he even controls his own bowels."
+	- "Following such a man can only bring disaster. Not just to my keep, but to all the peasantry it serves."
 
 Misc Dialogue for encounters:
 ===============================
@@ -907,6 +912,11 @@ However! The twist is that you only ever play as a single character at a time, b
 	- Whoever you're currently swapped in to is who takes damage.
 		~ Maybe just bind Select to character swap. It could just cycle between them.
 		~ Unless I could do button combos, then "Button + Left" vs "Button + Right" could cycle directions.
+Having different characters have different ways to mitigate getting hit might be interesting (but too much difference would just be annoying)
+	- E.g. One character JUMPS over projectiles
+	- Another can just hold a BLOCK button
+	- A third can PARRY attacks (or maybe ALL characters can parry)
+	- The real limit here is going to be the amount of buttons you have, and how much interaction with projectiles you can add in.
 
 New:
 -----
