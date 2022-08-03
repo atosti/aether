@@ -1986,6 +1986,38 @@
                             "id": "1a804efc-4071-4bbc-835d-0cdd6e98ab6c"
                         }
                     ]
+                },
+                {
+                    "name": "Experimentation - Delete later",
+                    "id": "3dfa1779-ae33-4f7a-9f38-fdeb3d4a38f9",
+                    "x": 18,
+                    "y": 8,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_ENGINE_FIELD_SET",
+                            "args": {
+                                "engineFieldKey": "fade_style",
+                                "value": {
+                                    "value": 1
+                                }
+                            },
+                            "id": "095f647f-0316-46ee-b1bd-bd36e3be7778"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "236415cd-aca0-4e39-9351-818c95b2a205",
+                                "x": 5,
+                                "y": 9,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "f27b47bf-6292-409e-9c9d-b5ce7511a7c1"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -28872,6 +28904,13 @@
     ],
     "music": [
         {
+            "id": "101a55ea-3161-46a3-a0db-188ec9d971c6",
+            "name": "song_template 1",
+            "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f58712cb-3690-4083-af0e-064d574c978f",
             "name": "song_template",
             "filename": "song_template.uge",
@@ -29195,9 +29234,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 797,
-        "worldScrollY": 575,
-        "zoom": 325,
+        "worldScrollX": 423,
+        "worldScrollY": 203,
+        "zoom": 256.96958965808153,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -29225,8 +29264,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            415,
-            511,
+            414,
+            509,
             30
         ],
         "showNavigator": true,
