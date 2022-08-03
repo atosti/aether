@@ -132,7 +132,14 @@ Simple things to Work On:
 85. Design a Logo and the logo screen
 	- Allow it to be skipped by pressing A in the case of rapidly restarting the game. It's a Quality of Life thing.
 86. Create a gif to the README that demonstrates some of the basic gameplay and/or screens in the game.
-
+87. Figure out how to do scene transitions where the screen blacks out in different ways
+	- E.g. when trainer battles would start in Pokemon Blue
+88. Design the music that plays during the intro (pre-awakening)
+	- Inspiration: https://www.youtube.com/watch?v=UEWCCSuHsuQ
+	- Incorporate ominous vibes and have the instruments fade in/out
+89. To begin learning the GB Studio music software just straight up create a copy of a song you know.
+	- This doesn't have to be included in the final game, just listen to something and reverse engineer it for the skill.
+	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -465,6 +472,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 20. Aylmera and crew get up to leave, but as they walk away the Hermit rises and throws a dagger in their direction.
 	- "I'm sorry. But I can't let myself make that mistake again. Your scent... it's identical. When you approached, all the memories rushed to me so VIVIDLY!
 		~ He charges them and engages in a battle.
+		~ Music Inspiration: https://www.youtube.com/watch?v=jeANouMyfnQ (the way this begins)
 21. Upon defeating the Hermit, he exclaims, "I didn't last... but your foul odor will..." before collapsing and dying.
 	- The Jester is again disturbed by this encounter. 
 	- The Priestess doesn't seem to mind.
@@ -494,6 +502,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		  Alexandros: "... *eyes closed* ..."
 		  Priestess: "He's covered in cuts and bruises..."
 		  Alexandros: "... Help me... Help me..." "Kill. That. BASTARD!!!"
+		~ Music Inspiration: https://www.youtube.com/watch?v=C6cnKWFaAOM (Just the introduction, the high notes)
 	- Alexandros immediately jumps up, charging up the stairs toward the Lord, beginning an engagement.
 		~ The engagement starts with Alexandros immediately getting a free hit onto the Lord.
 		~ Immediately after his hit, have a prompt stating: "Alexandros looks beyond furious. His palms are enveloped in white-hot flames."
@@ -581,11 +590,24 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great nobility." - the Spirit of Aylmera
 41. The Spirit is disappointed to find that the Aether crystal has been shattered.
 	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
+	- "You. Cannot. Fail. Too much lies at stake. And far too many have died for you to perish at the last step."
+	- "You will need to combine the shattered stone with the bones of the blessed."
+	- "It will be difficult, since most these catacombs have been defiled. You'll need to find consecrated ground beneath which someone is buried."
+	- "I'm afraid that's as much as I can offer. I know not where you can find such a place."
+42. The party leaves the Basement Ruins and talks amongst themselves above-ground about possible leads.
+	a. Return to the field of Red flowers
+		- Attempting to dig up any of the bodies will anger the grieving soldier, triggering combat.
+			~ But he does drop a strong weapon for the party to wield.
+		- Moreover, you'll find that combining these bones fails to restore the stone.
+
 
 XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
-
+	- How about having to fuse it with the bones of a pure, innocent person.
+	- Basically, they have to dig up the Queen and defile her corpse in order to restore the stone.
+	- *Everyone disliked that*. The party should HATE that they have to do this.
 
 XX. Still need a way to get the 4th elemental stone (which isn't Aether)
+	- Perhaps the King has been safeguarding it himself, and personally hands it to you?
 XX. Aylmera and crew arrive at the Queen's grave.
 	- What is significant here? Perhaps she died in childbirth. Her gravestone could read: "She sacrificed all she had for the continuation of the Realm. May her soul rest easy knowing we'll protect her dream, just as she protected ours."
 XX. How did the King come to power?
@@ -628,13 +650,14 @@ Concepts:
 ==========
 1. "Don't fear what you don't know."
 2. "Humility above all else."
-3. "Treachery breeds treachery."
+3. "Treachery begets treachery."
 4. "Cowardice reveals one's innermost doubts."
 5. "Never engage in a fair fight."
 6. "Few wars, if any, are just."
 7. "I feel dead inside and I am alone anyway."
 8. "I am a product of my environment."
 9. Player party has assassins sent after them, and is opposed by almost all other governing bodies (aside from the King).
+	- A scene where the party is rolled up on by mounted assassins who just immediately attack could be very cool.
 10. Player must kill the Leper colony in order to take their elemental orb.
 	- Literally kill them ALL. (Some directly, others are assumed to die in the wake left behind.)
 	- They're peaceful and just off on their own, trying to survive. Wanting nothing to do with the politics of the Realm (which has long abandoned them).
@@ -725,19 +748,20 @@ Concepts:
 	- Old Scratch (earlier on in the story):
 	"Forgive me, but my memory's not as good as it used to be. How many dead is that now? Are we past double-digits?"
 	- Old Scratch (after slaying the lepers):
-	"Lepers. Even I didn't have the heart to do what you did. Is that why you did it? For the heroics?"
+	"Lepers. Even I didn't have the heart to do what you did. Is that why you did it? To feel heroic?"
 	- Old Scratch (after killing the King)
 	"Heh. You don't disappoint, you know that?"
 	[It wasn't for you.]
-		"Fair enough. I still admire your handiwork."
+		"Nevertheless, I still admire your handiwork."
 	[You're welcome.]
-		""
+		"You're quite the splendid one."
 	"But. There's something eating away at me, I'd be remiss if I didn't ask..."
 	"Why not take the throne? It's waiting for you. A seat ready to be warmed."
 	[It's not for me.]
 		"Maybe one day you'll recognize your mistake."
 	[Then sit your scrawny ass in it.]
 		"..."
+		"I knew I liked you."
 39. Generic line for an enemy:
 	"My tears couldn't wash away the guilt... but your blood might!"
 40. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
@@ -764,7 +788,7 @@ Concepts:
 	Player: [Prove it.] [I believe you.]
 	Priestess: *smiles*
 	Priestess: "I assure you I'm as lucid as you are. How else would I know her name to be Aylmera. Or that your companion, Alexandros is responsible for her revival."
-	Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old."
+	Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old guard."
 	Alexandros: *Shocked exclamation mark* "How did she...?"
 	Priestess: "And you, Aylmera. Where do you stand on all this? Who is fit to rule the Realm?"
 	Player:
@@ -793,8 +817,19 @@ Concepts:
 47. General note on the impact of the characters
 	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
 		- As such, opporunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
-
-
+48. A scene where the player falls into deep water and has a dream/hallucination while unconscious.
+49. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
+	- Based on Rufus from Twitter.
+	- Just a cute illustration of a happy pig.
+	- Maybe give the option to pet him, where he gives an "eager oink" as thanks.
+50. "Only the dead can purge the sins of the living."
+	- Does this really match what I'm trying to say overall? Does it even add up with the player's actions?
+51. "Lotta blood flows in your wake. 'Course that makes it safer to travel after you..." - The Bard
+52. Perhaps combine the Bard and Ol' Scratch into a hybrid character of sorts.
+	- One who perfects their craft as they travel in your wake.
+	- They comment on your actions, with a sinister flair.
+	- They play a melancholy tune that makes it immediately evident when they're in the area.
+	- They judge the player for their violent actions, in a teasing manner.
 
 Misc Dialogue for encounters:
 ===============================
@@ -852,7 +887,7 @@ Misc Dialogue for encounters:
 		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
 	[Elif Accept.]
 		Hermit: "I know you're not him, yet... you carry his stench."
-5. Ranger: "You can't imagine the volume of death that I saw. That WE saw. We followed that fool and his son into a brutal war. And what was our prize? My arm still lies on that battlefield. Accompanying the bones of my brethren."
+5. Ranger: "You can't imagine the volume of death that I saw. That WE saw. We followed that fool and his son into a brutal war. And what was our prize? My arm still lies on that battlefield. Accompanied by the bones of my brethren."
    Ranger: "There's nothing you can say to change my mind. The King's wishes will only bring us further ruin. As long as you serve him, you must be stopped."
 6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something better. A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure. Even the King could see it. And it filled him with immense pride. But the King's hubris led him astray."
 Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that exploded the Tower. I saw the destruction it wrought, not just on the surrounding lands, but on the King himself. He's tried to reassembled the crumbled pieces, but he lacks the skill to do it. If only the Prince were here in his place... The Aether robbed our Realm of a deserving King."
@@ -861,6 +896,18 @@ Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager 
 
 Combat System:
 ==============
+Aug 2, 2022:
+-------------
+What if it was a top-down fighter style bullet hell, where you can attack, block, parry, etc. Against enemies and projectiles.
+	- This would take place in a battle scenario, so it's not in the overworld.
+However! The twist is that you only ever play as a single character at a time, but you can Swap between characters at will.
+	- Allowing you to combo different moves and elements together.
+	- This would be very Genshin Impact-esque, though adapted for top-down GBC combat.
+	- It would also be reminiscent of Legend of Zelda boss fights. Though with more intrigue.
+	- Whoever you're currently swapped in to is who takes damage.
+		~ Maybe just bind Select to character swap. It could just cycle between them.
+		~ Unless I could do button combos, then "Button + Left" vs "Button + Right" could cycle directions.
+
 New:
 -----
 1. What if there are different damage types for enemies (a la space station 13)
@@ -969,5 +1016,8 @@ Soundtrack:
 2. The Oubliette
 	- General unease. Distrust of everyone around you. Confusion. Eeriee environment (why am I here?).
 	
-X. Misc Songs/Vibes:
+X. Misc Music/Songs/Vibes:
 	https://www.youtube.com/watch?v=T3XQ3EWdKkM
+
+XX. Battle trigger music (for scene transition)
+	https://www.youtube.com/watch?v=8gJ3HzBbdxI (The intro that plays with a progression of notes)
