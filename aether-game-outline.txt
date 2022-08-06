@@ -835,6 +835,13 @@ Concepts:
 52. The Lord discussing his doubts about the King
 	- "He tries to maintain control of the entire Realm. But at his age... I wonder if he even controls his own bowels."
 	- "Following such a man can only bring disaster. Not just to my keep, but to all the peasantry it serves."
+53. Early on, when getting gear from the King's armory, the soldiers there should express doubts about your skills.
+	- Despite her fabled weapon being a Greatsword, the player doesn't know how to properly wield one.
+	- This serves as a way for them to teach you the basics of combat. (Though make this sequence optional for replays)
+		~ Could mention real facts about Greatswords. E.g. On the grip: The top hand pushes, while the bottom hand pulls
+54. Have an option to kill the wounded as you leave the Lord's castle.
+	- Just straight up the option to do warcrimes despite the medics pleading for you not to.
+
 
 Misc Dialogue for encounters:
 ===============================
