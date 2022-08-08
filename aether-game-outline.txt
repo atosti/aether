@@ -853,6 +853,11 @@ Concepts:
 		~ Could mention real facts about Greatswords. E.g. On the grip: The top hand pushes, while the bottom hand pulls
 54. Have an option to kill the wounded as you leave the Lord's castle.
 	- Just straight up the option to do warcrimes despite the medics pleading for you not to.
+55. Have a scene of undead sailors rising from the waves on the beach coming to attack the player
+56. Add in a zone (possibly the 4th stone location?) of the Royal catacombs
+	- These were raided by the wizards prior to the Great Explosion
+	- Due to its proximity to the Great Tower, and its abundance of bodies, it's rife with undead.
+	- It has an awful omen to it. Even Alexandros doesn't wish to enter it.
 
 
 Misc Dialogue for encounters:
