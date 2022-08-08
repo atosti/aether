@@ -140,6 +140,18 @@ Simple things to Work On:
 89. To begin learning the GB Studio music software just straight up create a copy of a song you know.
 	- This doesn't have to be included in the final game, just listen to something and reverse engineer it for the skill.
 	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
+91. Select roughly how many screens you want the game to be.
+	- This will help determine the overall size of the world and the distance between locations.
+92. Color the avatar sprites with different pallettes to separate them from one another even more. Color the characters' sprites to match.
+93. Create sprites to handle parrying and dodge rolling?
+	- Jumping?
+94. Create a logo for yourself
+	- Come up with a name for it
+95. Add cycling through the logos on game launch
+	- One for yourself, one for GB Studio
+	- Allow skipping them one-by-one with any button press (for QoL)
+96. Pan to the Game's title (have the text enter the screen from the top)
+	- Then fade in, or slide in the text "Press any button"
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -924,6 +936,12 @@ Having different characters have different ways to mitigate getting hit might be
 	- Another can just hold a BLOCK button
 	- A third can PARRY attacks (or maybe ALL characters can parry)
 	- The real limit here is going to be the amount of buttons you have, and how much interaction with projectiles you can add in.
+If one character dies, it needs to immediately toggle to the next available character.
+	- If no characters are left (who are alive) then send to a Game Over screen.
+	- I'd love a graphic similar to Fallout and Fallout 2, where is shows the player's bones rotting away somewhere.
+		~ Could attach to it a dialogue note about how they returned to the ashes and nothing they once were.
+		~ Additionally, consider using RNG to pull a variety of quotes out whenever you die.
+
 
 New:
 -----
