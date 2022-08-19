@@ -869,6 +869,8 @@ Concepts:
 	- The party splits to discuss the obvious discrepancy between you and "your" statue.
 		~ Two main responses could be: [Flattered.] or [Confused.]
 59. "I would kill you all if only to free myself."
+60. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
+
 
 Misc Dialogue for encounters:
 ===============================
