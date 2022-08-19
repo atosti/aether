@@ -868,6 +868,7 @@ Concepts:
 		~ Perhaps this should be revealed somehow BEFORE seeing the statue, so that the final line can be "And she looks nothing like you."
 	- The party splits to discuss the obvious discrepancy between you and "your" statue.
 		~ Two main responses could be: [Flattered.] or [Confused.]
+59. "I would kill you all if only to free myself."
 
 Misc Dialogue for encounters:
 ===============================
