@@ -858,6 +858,14 @@ Concepts:
 	- These were raided by the wizards prior to the Great Explosion
 	- Due to its proximity to the Great Tower, and its abundance of bodies, it's rife with undead.
 	- It has an awful omen to it. Even Alexandros doesn't wish to enter it.
+57. As the game progresses the non-human enemies should become more grotesque (flesh golems, etc.)
+	- Meanwhile the humans encountered become more beautiful and/or "civil" on the surface in how they behave.
+		~ This is to underline how their actions are so grotesque and awful, but they are seeming unaffected by their own treachery.
+58. Encountering the statue of Aylmera should trigger a cutaway to a full screen view of the statue along with a text description.
+	- "Before you stands a statue of a woman adorned in decorative armor. It's comprised of intricately woven armored scales, and it drapes over her body beautifully."
+	- "Her posture is that of an elegant fighter, with a face that is fierce yet soft. She is the most beautiful woman you have ever seen. And she looks nothing like you."
+	- "The inscription reads: 'In memory of Aylmera, Martyr of Antiquity and Hero to the Realm.'"
+	- The party splits to discuss the obvious discrepancy between you and "your" statue.
 
 
 Misc Dialogue for encounters:
