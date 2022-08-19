@@ -870,6 +870,10 @@ Concepts:
 		~ Two main responses could be: [Flattered.] or [Confused.]
 59. "I would kill you all if only to free myself."
 60. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
+61. Instead of HP use "Morale".
+62. Instead of player "Death" have party "Dishonor".
+	- Perhaps even a defeat screen that says "Dishonored".
+	- Also have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
 
 
 Misc Dialogue for encounters:
