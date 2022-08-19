@@ -874,6 +874,13 @@ Concepts:
 62. Instead of player "Death" have party "Dishonor".
 	- Perhaps even a defeat screen that says "Dishonored".
 	- Also have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
+63. Design a Title Screen
+	- "Ruins of Aether"
+	- Stylize it after Medieval Manuscripts
+	- Have the wreckage of the Great Tower shown in the distance.
+	- Perhaps have an eagle-eyed view of the the map
+		~ Castle, forest to the west, ruins to the east, Mountains to the North
+	- Use color, black and white isn't enough.
 
 
 Misc Dialogue for encounters:
