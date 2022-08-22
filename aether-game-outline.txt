@@ -909,6 +909,13 @@ Concepts:
 		~ Throughout the game, the player learns there isn't a single person deserving enough to rule the Realm.
 			~ But at the end, they realize they've killed everyone CAPABLE of even ruling it.
 			~ The only thing left is "To return it to dust and ash."
+64. Design a Title Screen
+	- "Ruins of Aether"
+	- Stylize it after Medieval Manuscripts
+	- Have the wreckage of the Great Tower shown in the distance.
+	- Perhaps have an eagle-eyed view of the the map
+		~ Castle, forest to the west, ruins to the east, Mountains to the North
+	- Use color, black and white isn't enough.
 
 
 Misc Dialogue for encounters:
