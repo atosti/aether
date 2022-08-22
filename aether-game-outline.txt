@@ -867,20 +867,55 @@ Concepts:
 	- "The inscription reads: 'In memory of Aylmera, Martyr of Antiquity and Hero to the Realm.'"
 		~ Perhaps this should be revealed somehow BEFORE seeing the statue, so that the final line can be "And she looks nothing like you."
 	- The party splits to discuss the obvious discrepancy between you and "your" statue.
-		~ Two main responses could be: [Flattered.] or [Confused.]
+		~ Two main responses could be: [Flattered.] or [Confused.]/[Concerned.]
 59. "I would kill you all if only to free myself."
 60. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
 61. Instead of HP use "Morale".
 62. Instead of player "Death" have party "Dishonor".
 	- Perhaps even a defeat screen that says "Dishonored".
 	- Also have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
+63. Each of the main areas (dictated by having a unique Boss) should have an overall theme to the plot.
+	- Castle = Ruin/Ruination
+		~ Everything should have an aire of falling apart.
+		~ Soldiers stretched thin. Nobles entirely unprepared for and unaware of the imminent danger that looms.
+	- Forest = Opportunism
+		~ They claim to want to uplift the peasantry, but have yet to do it. There seriousness of their pursuit can be questioned.
+	- Lepers = Hope/Trickery
+		~ Despite the hope of all these people, they ultiamtely want to indoctrinate you.
+		~ They wish to manipulate you into abandoning your mission. (Which represents abandoning everyone else in favor of a selfish minority.)
+		~ The irony is that they themselves have been abandoned by the whole (the Realm).
+			~ The player should mention how the Crown "never mentioned anyone living all the way out here".
+	- Mountain Caves = Judgement
+		~ Despite the Bloodhound pursuing his own form of Justice, it is blind and unjust. It tries to Moralize a very Grey world.
+	- Highlands = Oppression
+		~ Consider having chain-gangs present in some form.
+	- Swamp = Mystery/The Unknown
+		~ This is also where the player begins to LEARN of their own mystery (their identity).
+	- Aether Ruins = Chaos/Savagery
+		~ Pure, unfiltered violence and aggression. A wasteland of raw violence and war.
+	- Royal Catacombs = Peace
+		~ Perhaps the only peaceful zone in the game.
+		~ Only the dead may know peace.
+		~ Even then, there is evidence of the Wizards' attempts to disrupt that by stealing corpses.
+			~ Long abandoned undead should still work in the catacombs and nearby mines, etc. Extracting goods from the earth.
+			~ Despite the fact that their masters long abandoned them (or died).
+			~ The undead continue tirelessly as a reminder of the now broken empire the Wizards attempted to build. (And its great moral cost).
+		~ Witnessing the undead still at work should offend the Jester (and perhaps the player) at Alexandros.
+			~ "You observed all this happening and did nothing? This is consecrated earth, all these skeletons earned their peace."
+	- Castle Finale = Ruination Realized
+		~ The King is dead or hostaged. Most of the soldiers and nobles are slain.
+		~ The castle itself is now damaged, unable to be defended properly.
+		~ An usurper sits on the throne.
+		~ Throughout the game, the player learns there isn't a single person deserving enough to rule the Realm.
+			~ But at the end, they realize they've killed everyone CAPABLE of even ruling it.
+			~ The only thing left is "To return it to dust and ash."
 
 
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies called you 'The Butcher'.
-	Butcher: "Not quite. It's my friends who call me Butcher. My enemies know me by other names: Cannibal. Killer. Rapist."
-	Butcher: "I wonder which title you'll choose for me." *Smiling*
+	Butcher: "No. My friends call me Butcher. My enemies know me by many other names: Killer. Cannibal. Rapist."
+	Butcher: "I wonder which title you'll choose for me." *Smiles*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
 	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
