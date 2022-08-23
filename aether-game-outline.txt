@@ -916,6 +916,9 @@ Concepts:
 	- Perhaps have an eagle-eyed view of the the map
 		~ Castle, forest to the west, ruins to the east, Mountains to the North
 	- Use color, black and white isn't enough.
+65. For some key fights use a unique battle scene, one that's larger or has obstacles inside of it.
+	~ Perhaps even use different ones for different world environments.
+	~ This will change things up AND can be used to throw off the player to create a more pressing fight.
 
 
 Misc Dialogue for encounters:
@@ -983,6 +986,36 @@ Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager 
 
 Combat System:
 ==============
+Aug 22, 2022:
+--------------
+Ran into issues with the sprite being too large now and causing issues when placing it in the world.
+	- Could be mitigated by having 2 different player sprites. One that's 16x16 for the main world. One that's larger (to include the sword) for inside the battle scene.
+
+Now all that's necessary is to figure out how to get lots of projectiles on screen.
+As well as what each of the characters' abilities are, and how they'll synergize with one another.
+	- Can I implement attaching DoT affects to enemies? (Neera moveset)
+		~ E.g. make it so attacks deal double damage for a period of time (or 'X' number of hits) after landing a blow with a particular character?
+		~ What is her dodge mechanic?
+	- Can I implement a LoZ style Roc's Feather jump for leaping over projectiles? (Aylmera moveset)
+	- Can I implement a Dashing mechanic with associated "blurred" graphics added? (Jester moveset)
+		~ Can I make the player immune to damage while mid-dash?
+	- Can I implement firing projectiles from the player on a short cooldown? (Alexandros moveset)
+		~ Instead of a sword, he'll fire out attacks.
+		~ What is his dodge mechanic?
+
+Overall, the goal is to have 8 unique mechanics for combat. 2 per character.
+	~ One offensive (A button attack)
+		a. Sword
+		b. Throwing knives?
+		c. Beam attack + debuff? (a straight-line attack that applies a debuff)
+		d. Magic orb projectiles (3 shot out)
+	~ One defensive (B button dodge/roll/jump/etc.)
+		a. Aerial jump
+		b. Dash
+		c. HP heal on a decent cooldown (20s? Also heals only a bit?)
+			~ Would need to avoid damage with NO dodge mechanic in order to spam heal as well.
+		d. Temporary shield wall? (would need to be painted over the background)
+	
 Aug 2, 2022:
 -------------
 What if it was a top-down fighter style bullet hell, where you can attack, block, parry, etc. Against enemies and projectiles.
