@@ -152,6 +152,16 @@ Simple things to Work On:
 	- Allow skipping them one-by-one with any button press (for QoL)
 96. Pan to the Game's title (have the text enter the screen from the top)
 	- Then fade in, or slide in the text "Press any button"
+97. Decide on some color schemes for the entire game
+	- Mainly design a number of reusable palletes for various entities
+	- Select core colors that you want for things
+	- What tint should the UI be?
+	- What colors should each of the 4 main characters be?
+		~ Aylmera = Orange?
+		~ Jester = Purple?
+		~ Neera = Yellow?
+		~ Alexandros = Blue?
+	- What is the main color of each core story zone?
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
