@@ -929,6 +929,10 @@ Concepts:
 65. For some key fights use a unique battle scene, one that's larger or has obstacles inside of it.
 	~ Perhaps even use different ones for different world environments.
 	~ This will change things up AND can be used to throw off the player to create a more pressing fight.
+66. The Lord has weaponized the Church.
+	- And in turn the Church has allowed itself to be weaponized.
+	- The main religious leader (a cardinal-esque figure?) stands at odds to Neera.
+		~ Neera to them: "God speaks ill of you. He even agrees with himself on that."
 
 
 Misc Dialogue for encounters:
