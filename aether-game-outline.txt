@@ -933,6 +933,10 @@ Concepts:
 	- And in turn the Church has allowed itself to be weaponized.
 	- The main religious leader (a cardinal-esque figure?) stands at odds to Neera.
 		~ Neera to them: "God speaks ill of you. He even agrees with himself on that."
+67. Change the color of enemies (their pallettes) to show they're vulnerable in combat.
+	- E.g. a character could swap to a different color when exhausted, or when there's an opening in their pattern.
+	- Otherwise, have them be invulnerable.
+	- Explain this mechanic via the combat tutorial. (And make that whole thing brief.)
 
 
 Misc Dialogue for encounters:
