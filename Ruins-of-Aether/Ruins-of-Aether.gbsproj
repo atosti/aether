@@ -1,8 +1,8 @@
 {
     "name": "Ruins-of-Aether",
     "author": "Antonio Tosti",
-    "_version": "3.0.0",
-    "_release": "1",
+    "_version": "3.1.0",
+    "_release": "3",
     "scenes": [
         {
             "name": "Title",
@@ -398,7 +398,7 @@
                     "id": "f9d8dfe5-f07f-4cdf-b823-6ba1d4943153"
                 },
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
                         "__collapse": true
@@ -577,7 +577,8 @@
             "playerHit3Script": [],
             "labelColor": "",
             "autoFadeEventCollapse": true,
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_title"
         },
         {
             "name": "Introduction",
@@ -957,7 +958,7 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
                         "__collapse": true
@@ -1003,7 +1004,7 @@
                     "args": {
                         "text": [
                             "Ye whose bones belong as dust and ash.\nThe living scream your wretched name \ninto this miserable void...",
-                            "Bestowed with flesh, seek out their\nburdens and silence their voices. Only\nthen can you return to the fold...",
+                            "Adorned with flesh, seek out their\nvoices and silence their burdens. Only\nthen can you return to the fold...",
                             "Fulfill your duty as you walk this \npath, or be forced back unto us: \nA horrid creature unable to...",
                             "\n                          ....A R I S E....\n"
                         ],
@@ -1122,7 +1123,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "labelColor": "yellow",
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_introduction"
         },
         {
             "name": "Oubliette",
@@ -1307,106 +1309,6 @@
                 15,
                 15,
                 0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                15,
-                15,
-                0,
                 0,
                 0,
                 0,
@@ -1463,6 +1365,106 @@
                 0,
                 0,
                 0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                15,
+                15,
+                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
                 0,
                 15,
                 15,
@@ -1566,7 +1568,8 @@
                     "hit3Script": [],
                     "id": "1b76ea3f-0698-41eb-b49e-45b15b4e36a4",
                     "x": 14,
-                    "y": 10
+                    "y": 10,
+                    "symbol": "actor_0"
                 },
                 {
                     "name": "",
@@ -1716,7 +1719,7 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
                                         "args": {
                                             "actorId": "$self$"
                                         },
@@ -1741,79 +1744,8 @@
                     "hit3Script": [],
                     "id": "e8916db7-436d-47aa-9497-ddba55b113e6",
                     "x": 6,
-                    "y": 6
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eba3aa86-837b-4dc4-84f1-e6c600897029",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "2035e02d-f4d1-4261-8d85-cff006c27dc3"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "47357f63-671b-40df-87be-f6c5aedbef10",
-                    "x": 8,
-                    "y": 14
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "eba3aa86-837b-4dc4-84f1-e6c600897029",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_SET_FRAME",
-                            "args": {
-                                "actorId": "$self$",
-                                "frame": {
-                                    "type": "number",
-                                    "value": 2
-                                },
-                                "__collapse": true
-                            },
-                            "id": "6095009f-54bd-4272-b271-1f0e717d0176"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "eaeee165-6eba-4430-9924-9a4cb72a168b"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "2034660e-5eaa-4ff5-87d5-4e3c5fa1cecd",
-                    "x": 16,
-                    "y": 14
+                    "y": 6,
+                    "symbol": "actor_1"
                 },
                 {
                     "name": "",
@@ -1869,7 +1801,8 @@
                     "hit3Script": [],
                     "id": "bc67f177-c830-4721-8331-bbc5c64345fe",
                     "x": 12,
-                    "y": 13
+                    "y": 13,
+                    "symbol": "actor_4"
                 }
             ],
             "triggers": [
@@ -1893,7 +1826,8 @@
                             "id": "a9068dd9-985d-4d91-ad06-b784cecf4fa6"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_0"
                 },
                 {
                     "name": "",
@@ -1907,7 +1841,6 @@
                             "command": "EVENT_SET_INPUT_SCRIPT",
                             "args": {
                                 "input": [
-                                    "b",
                                     "a"
                                 ],
                                 "override": true,
@@ -1919,7 +1852,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A decrepit iron maiden stands before you.\nIt's door is rusted shut. You dread to\nthink if someone is still trapped inside..."
+                                                "Unlike its counterpart, this contraption\nbears a wicked smile. With its door rusted\nshut, you wonder if someone is inside..."
                                             ],
                                             "avatarId": ""
                                         },
@@ -1940,15 +1873,17 @@
                             },
                             "id": "7b3c7fb8-112d-4d5b-a064-ab981bcc45dc"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_1"
                 },
                 {
                     "name": "",
-                    "id": "036ec6b4-7f88-4136-8871-7a3a76493fa5",
-                    "x": 2,
-                    "y": 7,
-                    "width": 3,
-                    "height": 5,
+                    "id": "a7cc6137-2e00-4d41-a237-07c6ecf9a54a",
+                    "x": 1,
+                    "y": 13,
+                    "symbol": "trigger_2",
+                    "width": 4,
+                    "height": 3,
                     "script": [
                         {
                             "command": "EVENT_SET_INPUT_SCRIPT",
@@ -1965,15 +1900,78 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "An old coffin. It seems as though it was\nrepurposed to transport a collection of\nremains. Scattered bones still lie inside."
+                                                "An ancient, splintering coffin lies before \nyou. It feels out of place."
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "0d3d8f0c-a315-4c80-beff-12974bc82502"
+                                        "id": "e3677ec2-b885-4d5c-81fa-ea42cdc3534c"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_FALSE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapseElse": true,
+                                            "__disableElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Peek inside?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e48d2bf6-4928-4473-827a-d17ed03c3ebe"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "trueText": "Absolutely.",
+                                                        "falseText": "Absolutely not.",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "8e1176ac-622f-4e13-95e9-82f8742191fb"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapseElse": true,
+                                                        "__disableElse": true,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "The lid opens with a long, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
+                                                                        "TBD - Add Charon's Obol to the player's \ninventory."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "f95c7885-3758-4c9f-aa42-49b8c69a9746"
+                                                            }
+                                                        ],
+                                                        "false": []
+                                                    },
+                                                    "id": "b21b49c1-0b19-4d42-9e89-2004ca123326"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "d18beb81-b54f-446b-b35e-72d1a08358ae"
                                     }
                                 ]
                             },
-                            "id": "9a5b16ef-d636-4acf-9ce3-459335fda3de"
+                            "id": "a666f14f-dd5f-4d56-a605-341dc53ace84"
                         }
                     ],
                     "leaveScript": [
@@ -1985,41 +1983,56 @@
                                 ],
                                 "__collapse": true
                             },
-                            "id": "1a804efc-4071-4bbc-835d-0cdd6e98ab6c"
+                            "id": "7706120d-09c9-4e2a-871b-201cd83f4b21"
                         }
                     ]
                 },
                 {
-                    "name": "Experimentation - Delete later",
-                    "id": "3dfa1779-ae33-4f7a-9f38-fdeb3d4a38f9",
-                    "x": 18,
-                    "y": 8,
-                    "width": 1,
-                    "height": 2,
+                    "name": "",
+                    "id": "37b782b4-8a0f-4adb-93a7-c1b7260250e7",
+                    "x": 2,
+                    "y": 3,
+                    "width": 2,
+                    "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_ENGINE_FIELD_SET",
+                            "command": "EVENT_SET_INPUT_SCRIPT",
                             "args": {
-                                "engineFieldKey": "fade_style",
-                                "value": {
-                                    "value": 1
-                                }
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
                             },
-                            "id": "095f647f-0316-46ee-b1bd-bd36e3be7778"
-                        },
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
-                                "x": 9,
-                                "y": 14,
-                                "direction": "",
-                                "fadeSpeed": "2"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A decrepit iron maiden stands before you.\nIts face looks oddly remorseful."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "edd8d364-4cc7-4945-89b6-0fc7918a3432"
+                                    }
+                                ]
                             },
-                            "id": "f27b47bf-6292-409e-9c9d-b5ce7511a7c1"
+                            "id": "ab0302d9-f8df-4868-a6df-f363da17b0ec"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "57c52efd-9a2d-4d84-b944-be4d5a153460"
+                        }
+                    ],
+                    "symbol": "trigger_26"
                 }
             ],
             "script": [
@@ -2027,7 +2040,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "d9528c35-7286-44f9-9e0f-6c41144ff0fa"
                 },
@@ -2044,7 +2061,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_oubliette"
         },
         {
             "name": "West Hallway",
@@ -2903,7 +2921,8 @@
                     "hit3Script": [],
                     "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e",
                     "x": 19,
-                    "y": 13
+                    "y": 13,
+                    "symbol": "actor_black_cat"
                 },
                 {
                     "name": "",
@@ -2936,7 +2955,8 @@
                     "hit3Script": [],
                     "id": "016a386f-daf3-4721-8bfc-4f272fc0ac13",
                     "x": 26,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_5"
                 },
                 {
                     "name": "",
@@ -2957,7 +2977,8 @@
                     "hit3Script": [],
                     "id": "ac3f1bd4-f969-42fd-a977-38b172ac89e8",
                     "x": 12,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_6"
                 },
                 {
                     "name": "",
@@ -2990,7 +3011,8 @@
                     "hit3Script": [],
                     "id": "7667b083-6567-401b-bb13-eeb46b547dc6",
                     "x": 2,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_7"
                 },
                 {
                     "name": "",
@@ -3011,7 +3033,8 @@
                     "hit3Script": [],
                     "id": "5bb786cb-1c0e-444d-b4b7-2023675fb465",
                     "x": 36,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_8"
                 }
             ],
             "triggers": [
@@ -3035,7 +3058,8 @@
                             "id": "1a6d8945-46b9-41e8-bd19-df7a631e818b"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_3"
                 },
                 {
                     "name": "",
@@ -3057,7 +3081,8 @@
                             "id": "283362df-1bc1-4882-b6b7-a2050085c757"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_4"
                 },
                 {
                     "name": "",
@@ -3103,7 +3128,8 @@
                             },
                             "id": "0cfa4ad6-c2bf-4c7c-ade5-9cdaf6d463c7"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_5"
                 },
                 {
                     "name": "",
@@ -3125,7 +3151,8 @@
                             "id": "c62d9e80-45e5-4233-8b0d-290fc1d58229"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_6"
                 }
             ],
             "script": [
@@ -3133,7 +3160,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "6ba84afc-3907-48de-865b-bce552b532b9"
                 }
@@ -3142,7 +3173,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_west_hallway"
         },
         {
             "name": "Throne Room",
@@ -3926,8 +3958,14 @@
                                                         "customEventId": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
                                                         "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
                                                         "__collapse": false,
-                                                        "$variable[0]$": "T0",
-                                                        "$variable[1]$": "T1"
+                                                        "$variable[V0]$": {
+                                                            "type": "variable",
+                                                            "value": "T0"
+                                                        },
+                                                        "$variable[V1]$": {
+                                                            "type": "variable",
+                                                            "value": "T1"
+                                                        }
                                                     },
                                                     "id": "bf597aee-2c94-49d6-a1ea-93e9427d7a18"
                                                 },
@@ -4263,7 +4301,8 @@
                     "hit3Script": [],
                     "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182",
                     "x": 8,
-                    "y": 5
+                    "y": 5,
+                    "symbol": "actor_king"
                 },
                 {
                     "name": "",
@@ -4300,7 +4339,7 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
                                         "args": {
                                             "actorId": "$self$",
                                             "__collapse": true
@@ -4327,7 +4366,8 @@
                     "hit3Script": [],
                     "id": "00bdc192-361c-4272-8fea-29288a5b8889",
                     "x": 8,
-                    "y": 34
+                    "y": 34,
+                    "symbol": "actor_9"
                 },
                 {
                     "name": "",
@@ -4364,7 +4404,7 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
                                         "args": {
                                             "actorId": "$self$",
                                             "__collapse": true
@@ -4391,7 +4431,8 @@
                     "hit3Script": [],
                     "id": "5e6f3be6-faee-4383-aa6c-851b774abd67",
                     "x": 10,
-                    "y": 34
+                    "y": 34,
+                    "symbol": "actor_10"
                 },
                 {
                     "name": "",
@@ -4412,7 +4453,8 @@
                     "hit3Script": [],
                     "id": "e3bf98d3-a59e-4780-9387-f8fb6508c988",
                     "x": 17,
-                    "y": 6
+                    "y": 6,
+                    "symbol": "actor_11"
                 },
                 {
                     "name": "",
@@ -4433,7 +4475,8 @@
                     "hit3Script": [],
                     "id": "985cd8f4-bc7d-4a2a-8a9e-39aa4000b412",
                     "x": 1,
-                    "y": 6
+                    "y": 6,
+                    "symbol": "actor_12"
                 },
                 {
                     "name": "Jester",
@@ -4449,7 +4492,7 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_HIDE",
+                            "command": "EVENT_ACTOR_DEACTIVATE",
                             "args": {
                                 "actorId": "$self$",
                                 "__collapse": true
@@ -4471,7 +4514,8 @@
                     "hit3Script": [],
                     "id": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
                     "x": 18,
-                    "y": 1
+                    "y": 1,
+                    "symbol": "actor_jester"
                 }
             ],
             "triggers": [
@@ -4495,7 +4539,8 @@
                             "id": "5f5f9745-93ab-43e6-bc34-b07b3444ed57"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_7"
                 },
                 {
                     "name": "",
@@ -4517,7 +4562,8 @@
                             "id": "62a78e22-cb00-4999-b0a2-a0fc187d1154"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_8"
                 },
                 {
                     "name": "",
@@ -4539,7 +4585,8 @@
                             "id": "69a70c8d-c2d0-4373-9307-4b08fb058db5"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_9"
                 },
                 {
                     "name": "",
@@ -4586,7 +4633,8 @@
                             },
                             "id": "e8a0b81f-de46-4b8b-acbf-6e5e2aa0a3b9"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_10"
                 },
                 {
                     "name": "",
@@ -4608,7 +4656,8 @@
                             "id": "077c5e89-c1ce-4010-8586-3c30205077c6"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_11"
                 }
             ],
             "script": [
@@ -4616,7 +4665,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "1026d12f-15bb-4cab-a6a3-5de23c47dac5"
                 }
@@ -4625,7 +4678,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_throne_room"
         },
         {
             "name": "Portrait 1",
@@ -5005,7 +5059,7 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
                         "__collapse": true
@@ -5049,7 +5103,8 @@
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
             "labelColor": "purple",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_portrait_1"
         },
         {
             "name": "Royal Courtyard",
@@ -6536,7 +6591,8 @@
                     "hit3Script": [],
                     "id": "04e34671-21a8-4051-89d5-8aca0ca8def1",
                     "x": 22,
-                    "y": 4
+                    "y": 4,
+                    "symbol": "actor_13"
                 },
                 {
                     "name": "",
@@ -6569,7 +6625,8 @@
                     "hit3Script": [],
                     "id": "21bf293e-3c25-4ccf-8fbb-1f42b0afe320",
                     "x": 8,
-                    "y": 13
+                    "y": 13,
+                    "symbol": "actor_14"
                 },
                 {
                     "name": "",
@@ -6615,7 +6672,8 @@
                     "hit3Script": [],
                     "id": "6059cb52-6d07-4ae8-9605-dbce43ada1d9",
                     "x": 26,
-                    "y": 18
+                    "y": 18,
+                    "symbol": "actor_15"
                 },
                 {
                     "name": "",
@@ -6759,7 +6817,8 @@
                     "hit3Script": [],
                     "id": "2abe3744-accf-470a-b352-7c766789bc0d",
                     "x": 28,
-                    "y": 18
+                    "y": 18,
+                    "symbol": "actor_16"
                 }
             ],
             "triggers": [
@@ -6783,7 +6842,8 @@
                             "id": "6559382b-34c4-44ba-bf04-506a44a55b7b"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_12"
                 }
             ],
             "script": [
@@ -6791,7 +6851,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "6bc6f97c-467b-4f70-9ff7-4b62c08ebead"
                 }
@@ -6800,7 +6864,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_royal_courtyard"
         },
         {
             "name": "East Hallway",
@@ -7556,7 +7621,8 @@
                     "hit3Script": [],
                     "id": "b821f008-264e-44c3-9e9e-c6782dac52c7",
                     "x": 2,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_17"
                 },
                 {
                     "name": "",
@@ -7589,7 +7655,8 @@
                     "hit3Script": [],
                     "id": "41783451-dc1d-40a6-8bbf-503db6040060",
                     "x": 12,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_18"
                 },
                 {
                     "name": "",
@@ -7622,7 +7689,8 @@
                     "hit3Script": [],
                     "id": "e3b870cb-e177-473e-89ce-e8d656d142da",
                     "x": 26,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_19"
                 },
                 {
                     "name": "",
@@ -7643,7 +7711,8 @@
                     "hit3Script": [],
                     "id": "37ebfc72-20d3-42e3-9ae6-38f82f94e53e",
                     "x": 36,
-                    "y": 15
+                    "y": 15,
+                    "symbol": "actor_20"
                 }
             ],
             "triggers": [
@@ -7667,7 +7736,8 @@
                             "id": "e60f4ec7-67f9-4a36-9ec6-bf427d87da45"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_13"
                 },
                 {
                     "name": "",
@@ -7689,7 +7759,8 @@
                             "id": "3177e6dd-cae7-4928-ac10-d0bb9572cf5e"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_14"
                 },
                 {
                     "name": "",
@@ -7769,7 +7840,8 @@
                             },
                             "id": "48a9294d-d1f4-4aa0-97ed-7bfe8f5e13d7"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_15"
                 }
             ],
             "script": [
@@ -7777,7 +7849,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "dec4c194-c8ff-4fee-b8d2-569d2f6bde5c"
                 }
@@ -7786,7 +7862,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_east_hallway"
         },
         {
             "name": "War Room",
@@ -8442,7 +8519,7 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
                                         "args": {
                                             "actorId": "$self$",
                                             "__collapse": true
@@ -8469,7 +8546,8 @@
                     "hit3Script": [],
                     "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c",
                     "x": 10,
-                    "y": 7
+                    "y": 7,
+                    "symbol": "actor_jester_0"
                 },
                 {
                     "name": "Commander",
@@ -8578,7 +8656,8 @@
                     "hit3Script": [],
                     "id": "41eb99a2-cc1b-40e9-bf4c-3f05d7af9a1d",
                     "x": 6,
-                    "y": 11
+                    "y": 11,
+                    "symbol": "actor_commander"
                 }
             ],
             "triggers": [
@@ -8602,7 +8681,8 @@
                             "id": "9330874d-1161-420c-9dfd-e4d84039b4f4"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_16"
                 },
                 {
                     "name": "",
@@ -8685,7 +8765,8 @@
                             },
                             "id": "b32373d6-0bd0-4269-81fa-467be2696869"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_17"
                 },
                 {
                     "name": "",
@@ -8771,7 +8852,8 @@
                             },
                             "id": "e62534ca-07a6-4258-ab22-bd95acdc3799"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_18"
                 }
             ],
             "script": [
@@ -8779,7 +8861,11 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
-                        "__collapse": true
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "0"
+                        }
                     },
                     "id": "678c3f70-7e8f-4039-b789-8af42c4e012c"
                 }
@@ -8787,7 +8873,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_war_room"
         },
         {
             "name": "Party",
@@ -8806,7 +8893,7 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
                         "__collapse": true
@@ -8852,7 +8939,8 @@
             "playerHit3Script": [],
             "autoFadeEventCollapse": true,
             "labelColor": "red",
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_party"
         },
         {
             "name": "Inventory",
@@ -8875,7 +8963,8 @@
             "playerHit3Script": [],
             "autoFadeEventCollapse": true,
             "labelColor": "red",
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_inventory"
         },
         {
             "name": "Dining Hall",
@@ -9655,7 +9744,8 @@
                     "hit3Script": [],
                     "id": "61d612e4-5851-4505-8a36-894dbbfe6a2d",
                     "x": 9,
-                    "y": 35
+                    "y": 35,
+                    "symbol": "actor_21"
                 }
             ],
             "triggers": [
@@ -9679,7 +9769,8 @@
                             "id": "9f878215-c1a8-47f2-827f-f864b483f46d"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_19"
                 },
                 {
                     "name": "",
@@ -9701,14 +9792,16 @@
                             "id": "4c329a86-5153-4421-bf12-8b95420d81ee"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_20"
                 }
             ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_dining_hall"
         },
         {
             "name": "Kitchen",
@@ -10118,7 +10211,8 @@
                     "hit3Script": [],
                     "id": "948b2b05-f56e-4029-86c6-cbd487811479",
                     "x": 9,
-                    "y": 8
+                    "y": 8,
+                    "symbol": "actor_22"
                 }
             ],
             "triggers": [
@@ -10142,14 +10236,16 @@
                             "id": "e7770527-c2d0-4487-8b63-de521a34c4e3"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_21"
                 }
             ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_kitchen"
         },
         {
             "name": "Hidden Alcove",
@@ -10555,7 +10651,8 @@
                             "id": "a5499401-9716-4629-8a19-65f5ba538923"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_22"
                 },
                 {
                     "name": "",
@@ -10577,14 +10674,16 @@
                             "id": "b9b53637-1ff2-4570-a33b-1c51ca5d5719"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_23"
                 }
             ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_hidden_alcove"
         },
         {
             "name": "Battle",
@@ -10621,7 +10720,8 @@
                     "hit3Script": [],
                     "id": "a507f3bb-a0b2-4d39-bf21-e14f7d260019",
                     "x": 3,
-                    "y": 3
+                    "y": 3,
+                    "symbol": "actor_23"
                 },
                 {
                     "name": "",
@@ -10642,7 +10742,8 @@
                     "hit3Script": [],
                     "id": "6eb8c314-1cc4-4564-904e-8abbb8884f9c",
                     "x": 7,
-                    "y": 3
+                    "y": 3,
+                    "symbol": "actor_24"
                 },
                 {
                     "name": "",
@@ -10663,7 +10764,8 @@
                     "hit3Script": [],
                     "id": "3cd78393-62c4-491b-bb7b-6d8e570a8ad5",
                     "x": 11,
-                    "y": 3
+                    "y": 3,
+                    "symbol": "actor_25"
                 },
                 {
                     "name": "",
@@ -10684,7 +10786,8 @@
                     "hit3Script": [],
                     "id": "ea957403-22d5-4a5f-8242-a01807b740cd",
                     "x": 15,
-                    "y": 3
+                    "y": 3,
+                    "symbol": "actor_26"
                 },
                 {
                     "name": "",
@@ -10718,7 +10821,7 @@
                                 "true": [],
                                 "false": [
                                     {
-                                        "command": "EVENT_ACTOR_HIDE",
+                                        "command": "EVENT_ACTOR_DEACTIVATE",
                                         "args": {
                                             "actorId": "$self$",
                                             "__collapse": true
@@ -10736,7 +10839,8 @@
                     "hit3Script": [],
                     "id": "356d6cb7-2527-4e65-ab6d-eb6ad9eadc17",
                     "x": 9,
-                    "y": 17
+                    "y": 17,
+                    "symbol": "actor_27"
                 }
             ],
             "triggers": [],
@@ -10770,7 +10874,8 @@
             "playerHit3Script": [],
             "autoFadeEventCollapse": true,
             "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
-            "labelColor": "red"
+            "labelColor": "red",
+            "symbol": "scene_battle"
         },
         {
             "name": "King's Chambers",
@@ -11168,7 +11273,8 @@
                             "id": "eef7278f-eeb4-4e0e-b9be-4e8650cf11a0"
                         }
                     ],
-                    "leaveScript": []
+                    "leaveScript": [],
+                    "symbol": "trigger_24"
                 },
                 {
                     "name": "",
@@ -11255,14 +11361,16 @@
                             },
                             "id": "836459f9-fc85-4551-9bb5-0c8bf8c83456"
                         }
-                    ]
+                    ],
+                    "symbol": "trigger_25"
                 }
             ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "symbol": "scene_king_s_chambers"
         },
         {
             "name": "Death Screen",
@@ -11281,7 +11389,7 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
                         "__collapse": true
@@ -11356,13 +11464,15 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "symbol": "scene_death_screen"
         }
     ],
     "backgrounds": [
         {
             "id": "32900e3f-4d9b-4a63-b0ef-780abb634439",
             "name": "black",
+            "symbol": "bg_black",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -11373,6 +11483,7 @@
         {
             "id": "43d9f9c0-7013-42f9-ad19-21c5b2f078c5",
             "name": "dining-hall",
+            "symbol": "bg_dining_hall",
             "width": 20,
             "height": 36,
             "imageWidth": 160,
@@ -12104,6 +12215,7 @@
         {
             "id": "124778fe-36ac-423e-93e1-a7f44f146539",
             "name": "east-hallway",
+            "symbol": "bg_east_hallway",
             "width": 40,
             "height": 18,
             "imageWidth": 320,
@@ -12835,6 +12947,7 @@
         {
             "id": "4f8f9952-c885-4d1a-89b8-2492b5441026",
             "name": "hidden-alcove",
+            "symbol": "bg_hidden_alcove",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -13206,6 +13319,7 @@
         {
             "id": "a987284d-f6a8-42ca-9242-a79c9e4f8679",
             "name": "kings-chambers",
+            "symbol": "bg_kings_chambers",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -13577,6 +13691,7 @@
         {
             "id": "c40d633b-fdb2-4a3e-9696-ef3490db34a4",
             "name": "kitchen",
+            "symbol": "bg_kitchen",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -13948,6 +14063,7 @@
         {
             "id": "8babce70-e3bf-4260-99a9-e3cbd4fef521",
             "name": "oubliette",
+            "symbol": "bg_oubliette",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -14319,6 +14435,7 @@
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
             "name": "portraits\\lords-portrait",
+            "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -14690,6 +14807,7 @@
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
             "name": "premades\\placeholder",
+            "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -14700,6 +14818,7 @@
         {
             "id": "264fbe39-603f-46ed-bfab-7870aaf7d5e7",
             "name": "royal-courtyard",
+            "symbol": "bg_royal_courtyard",
             "width": 40,
             "height": 36,
             "imageWidth": 320,
@@ -16151,6 +16270,7 @@
         {
             "id": "c66a580d-bdd8-4ae5-9515-65900f2f40a8",
             "name": "side-chamber",
+            "symbol": "bg_side_chamber",
             "width": 40,
             "height": 18,
             "imageWidth": 320,
@@ -16882,6 +17002,7 @@
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
             "name": "startup\\intro-eyes",
+            "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -16892,6 +17013,7 @@
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
             "name": "startup\\title",
+            "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -16902,6 +17024,7 @@
         {
             "id": "2911d21b-698f-43b0-af8c-a9765f48f51e",
             "name": "throne-room",
+            "symbol": "bg_throne_room",
             "width": 20,
             "height": 36,
             "imageWidth": 160,
@@ -17633,6 +17756,7 @@
         {
             "id": "43155b1e-b465-4e0d-a57b-729ba49835cf",
             "name": "war-room",
+            "symbol": "bg_war_room",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -18004,6 +18128,7 @@
         {
             "id": "e769d8d7-b808-4836-a154-e48b6e0af974",
             "name": "west-hallway",
+            "symbol": "bg_west_hallway",
             "width": 40,
             "height": 18,
             "imageWidth": 320,
@@ -18735,6 +18860,7 @@
         {
             "id": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
             "name": "white",
+            "symbol": "bg_white",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
@@ -18747,6 +18873,7 @@
         {
             "id": "b1e0a6e1-d092-4fed-855b-12563faad575",
             "name": "characters\\alexandros",
+            "symbol": "sprite_characters_alexandro",
             "numFrames": 3,
             "type": "actor",
             "filename": "characters\\alexandros.png",
@@ -19435,6 +19562,7 @@
         {
             "id": "032bbe25-685e-4696-a78e-2d3a1da41208",
             "name": "characters\\chef-4tile",
+            "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
             "filename": "characters\\chef-4tile.png",
@@ -19643,6 +19771,7 @@
         {
             "id": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
             "name": "characters\\jester",
+            "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
             "filename": "characters\\jester.png",
@@ -20331,6 +20460,7 @@
         {
             "id": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
             "name": "characters\\player",
+            "symbol": "sprite_characters_player",
             "numFrames": 3,
             "type": "actor",
             "filename": "characters\\player.png",
@@ -21125,6 +21255,7 @@
         {
             "id": "3892a2c6-d8e5-4abe-bdc3-e4733c886fbf",
             "name": "hp-bars\\hero-hp",
+            "symbol": "sprite_hp_bars_hero_hp",
             "numFrames": 3,
             "type": "actor",
             "filename": "hp-bars\\hero-hp.png",
@@ -21636,6 +21767,7 @@
         {
             "id": "3c5bc3c1-fa59-4c9f-83bc-21491c13e089",
             "name": "hp-bars\\jester-hp",
+            "symbol": "sprite_hp_bars_jester_hp",
             "numFrames": 3,
             "type": "actor",
             "filename": "hp-bars\\jester-hp.png",
@@ -22186,6 +22318,7 @@
         {
             "id": "62d6914b-0b1d-4979-be37-c7ada2f9a3a3",
             "name": "hp-bars\\priestess-hp",
+            "symbol": "sprite_hp_bars_priestess_hp",
             "numFrames": 3,
             "type": "actor",
             "filename": "hp-bars\\priestess-hp.png",
@@ -22697,6 +22830,7 @@
         {
             "id": "9fc71cee-0de6-4fd5-ba9c-59d9a9cdd2d3",
             "name": "hp-bars\\wizard-hp",
+            "symbol": "sprite_hp_bars_wizard_hp",
             "numFrames": 3,
             "type": "actor",
             "filename": "hp-bars\\wizard-hp.png",
@@ -23286,6 +23420,7 @@
         {
             "id": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
             "name": "premades\\actor",
+            "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
             "filename": "premades\\actor.png",
@@ -23467,6 +23602,7 @@
         {
             "id": "132ac350-82ed-4c34-bfb2-5d718fbe2d58",
             "name": "premades\\actor_animated",
+            "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "premades\\actor_animated.png",
@@ -23822,6 +23958,7 @@
         {
             "id": "18f646bb-0d3f-4962-85b6-b4efb4f03734",
             "name": "premades\\cat",
+            "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\cat.png",
@@ -23949,6 +24086,7 @@
         {
             "id": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
             "name": "premades\\character0",
+            "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\character0.png",
@@ -24076,6 +24214,7 @@
         {
             "id": "c66d6813-bcbb-4789-af37-7bd1d2cb3147",
             "name": "premades\\character1",
+            "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\character1.png",
@@ -24203,6 +24342,7 @@
         {
             "id": "3ef3463d-723d-4c0a-b485-e7c8f3ccfdb2",
             "name": "premades\\character2",
+            "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\character2.png",
@@ -24330,6 +24470,7 @@
         {
             "id": "f6352084-4033-49ad-8b28-a50eb5b83f5c",
             "name": "premades\\character3",
+            "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\character3.png",
@@ -24457,6 +24598,7 @@
         {
             "id": "9391b43d-f92c-4092-afc2-d79e3ca7e828",
             "name": "premades\\enemy0",
+            "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\enemy0.png",
@@ -24584,6 +24726,7 @@
         {
             "id": "a821939c-0ecb-4657-8588-db6f1883d047",
             "name": "premades\\enemy1",
+            "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\enemy1.png",
@@ -24711,6 +24854,7 @@
         {
             "id": "8efa7939-8b1b-48c4-9470-89416b9c6bfb",
             "name": "premades\\enemy2",
+            "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\enemy2.png",
@@ -24838,6 +24982,7 @@
         {
             "id": "eba3aa86-837b-4dc4-84f1-e6c600897029",
             "name": "premades\\fire",
+            "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
             "filename": "premades\\fire.png",
@@ -25058,6 +25203,7 @@
         {
             "id": "c86ff44c-b649-4364-be4a-095bc25b3654",
             "name": "premades\\heart0",
+            "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\heart0.png",
@@ -25185,6 +25331,7 @@
         {
             "id": "1ffa0d1e-cd5b-4953-a35c-3b6c7a85b0b2",
             "name": "premades\\heart1",
+            "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\heart1.png",
@@ -25312,6 +25459,7 @@
         {
             "id": "44d5dea8-142f-4b1b-b8f6-45d654d17b8a",
             "name": "premades\\heart2",
+            "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\heart2.png",
@@ -25439,6 +25587,7 @@
         {
             "id": "c151fb0b-076b-49ba-92a5-5c8b9cb3ed67",
             "name": "premades\\item0",
+            "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\item0.png",
@@ -25566,6 +25715,7 @@
         {
             "id": "fa193c38-952c-43ea-b327-fb43ef6f6723",
             "name": "premades\\npc001",
+            "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
             "filename": "premades\\npc001.png",
@@ -25747,6 +25897,7 @@
         {
             "id": "0f876287-4b0a-4295-9970-021f9f4db445",
             "name": "premades\\static",
+            "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
             "filename": "premades\\static.png",
@@ -26096,9 +26247,10 @@
             "name": "Start Menu",
             "description": "A script for initializing the Start Menu.",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "Selection"
+                "V0": {
+                    "id": "V0",
+                    "name": "Selection",
+                    "passByReference": true
                 }
             },
             "actors": {},
@@ -26118,7 +26270,7 @@
                             {
                                 "command": "EVENT_MENU",
                                 "args": {
-                                    "variable": "0",
+                                    "variable": "V0",
                                     "items": 6,
                                     "option1": "Party",
                                     "option2": "Inventory",
@@ -26138,7 +26290,7 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "0",
+                                    "variable": "V0",
                                     "operator": "==",
                                     "comparator": 1,
                                     "__collapseElse": true,
@@ -26174,7 +26326,7 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "0",
+                                    "variable": "V0",
                                     "operator": "==",
                                     "comparator": 2,
                                     "__collapseElse": true,
@@ -26190,7 +26342,7 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "0",
+                                    "variable": "V0",
                                     "operator": "==",
                                     "comparator": 5,
                                     "__collapseElse": true,
@@ -26203,8 +26355,11 @@
                                             "command": "EVENT_CALL_CUSTOM_EVENT",
                                             "args": {
                                                 "customEventId": "5c2109d7-5201-470f-b202-b19b8e40492e",
-                                                "$variable[0]$": "0",
-                                                "__collapse": false
+                                                "__collapse": false,
+                                                "$variable[V0]$": {
+                                                    "type": "variable",
+                                                    "value": "V0"
+                                                }
                                             },
                                             "id": "31eba52d-2712-41da-87ae-6616703b7a2c"
                                         }
@@ -26217,16 +26372,18 @@
                     },
                     "id": "08b4cfba-afab-4a31-b164-73738f375457"
                 }
-            ]
+            ],
+            "symbol": "script_start_menu"
         },
         {
             "id": "e8a572ad-bdfe-452d-9535-ac18190f9623",
             "name": "Title Screen",
             "description": "Controls whether or not to show the new game menu.",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "Variable A"
+                "V0": {
+                    "id": "V0",
+                    "name": "Variable A",
+                    "passByReference": true
                 }
             },
             "actors": {},
@@ -26261,7 +26418,7 @@
                                         {
                                             "command": "EVENT_CHOICE",
                                             "args": {
-                                                "variable": "0",
+                                                "variable": "V0",
                                                 "trueText": "New Game",
                                                 "falseText": "Continue",
                                                 "__collapse": true
@@ -26271,7 +26428,7 @@
                                         {
                                             "command": "EVENT_IF_TRUE",
                                             "args": {
-                                                "variable": "0",
+                                                "variable": "V0",
                                                 "__collapseElse": false,
                                                 "__collapse": false
                                             },
@@ -26323,16 +26480,18 @@
                     },
                     "id": "9b6c4fee-c6dc-49ad-ae6d-70fda4674ed4"
                 }
-            ]
+            ],
+            "symbol": "script_title_screen"
         },
         {
             "id": "5c2109d7-5201-470f-b202-b19b8e40492e",
             "name": "Save Data",
             "description": "Saves the game's data.",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "Variable A"
+                "V0": {
+                    "id": "V0",
+                    "name": "Variable A",
+                    "passByReference": true
                 }
             },
             "actors": {},
@@ -26351,7 +26510,7 @@
                 {
                     "command": "EVENT_CHOICE",
                     "args": {
-                        "variable": "0",
+                        "variable": "V0",
                         "trueText": "Yes.",
                         "falseText": "No.",
                         "__collapse": true
@@ -26361,7 +26520,7 @@
                 {
                     "command": "EVENT_IF_TRUE",
                     "args": {
-                        "variable": "0",
+                        "variable": "V0",
                         "__collapseElse": true,
                         "__collapse": true
                     },
@@ -26396,7 +26555,8 @@
                     },
                     "id": "4643a383-9f8e-4058-83f3-a3b4085c13ed"
                 }
-            ]
+            ],
+            "symbol": "script_save_data"
         },
         {
             "id": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
@@ -26541,27 +26701,30 @@
                     "id": "b4f527da-5f18-4f9e-a4de-c52a114e4904"
                 },
                 {
-                    "command": "EVENT_ACTOR_HIDE",
+                    "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "0",
                         "__collapse": true
                     },
                     "id": "6f7bb9d7-4994-433d-80c4-66198231ac56"
                 }
-            ]
+            ],
+            "symbol": "script_join_player_party"
         },
         {
             "id": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
             "name": "Split Party Member 1",
             "description": "Allows a Party member to walk out from the Player for cutscenes. Follows the sequence: (2, P, 1, 3). Requires a hidden actor whose collisions are disabled.",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "Variable A"
+                "V0": {
+                    "id": "V0",
+                    "name": "Variable A",
+                    "passByReference": true
                 },
-                "1": {
-                    "id": "1",
-                    "name": "Variable B"
+                "V1": {
+                    "id": "V1",
+                    "name": "Variable B",
+                    "passByReference": true
                 }
             },
             "actors": {
@@ -26575,8 +26738,8 @@
                     "command": "EVENT_ACTOR_GET_POSITION",
                     "args": {
                         "actorId": "$self$",
-                        "vectorX": "0",
-                        "vectorY": "1"
+                        "vectorX": "V0",
+                        "vectorY": "V1"
                     },
                     "id": "817d443a-c5f2-4bd6-b689-228e73bca1a1"
                 },
@@ -26586,18 +26749,18 @@
                         "actorId": "0",
                         "x": {
                             "type": "variable",
-                            "value": "0"
+                            "value": "V0"
                         },
                         "y": {
                             "type": "variable",
-                            "value": "1"
+                            "value": "V1"
                         },
                         "__collapse": false
                     },
                     "id": "5f77967c-9974-4730-a78d-787823cc68bd"
                 },
                 {
-                    "command": "EVENT_ACTOR_SHOW",
+                    "command": "EVENT_ACTOR_ACTIVATE",
                     "args": {
                         "actorId": "0",
                         "__collapse": true
@@ -26728,7 +26891,8 @@
                     },
                     "id": "145ccbc6-2a02-436c-9f42-9555fa475c09"
                 }
-            ]
+            ],
+            "symbol": "script_split_party_member_1"
         },
         {
             "id": "ee267672-3b5e-44cf-b5fc-3d3ba31db5d1",
@@ -26736,16 +26900,18 @@
             "description": "A script for targeting an enemy Lane.",
             "variables": {},
             "actors": {},
-            "script": []
+            "script": [],
+            "symbol": "script_select_battle_target"
         },
         {
             "id": "273be393-b04a-42b4-ac36-772f60fd45d5",
             "name": "Battle IntrDialogue",
             "description": "",
             "variables": {
-                "0": {
-                    "id": "0",
-                    "name": "Variable A"
+                "V0": {
+                    "id": "V0",
+                    "name": "Variable A",
+                    "passByReference": true
                 }
             },
             "actors": {},
@@ -26753,7 +26919,7 @@
                 {
                     "command": "EVENT_IF_VALUE",
                     "args": {
-                        "variable": "0",
+                        "variable": "V0",
                         "operator": "==",
                         "comparator": "0",
                         "__collapseElse": false,
@@ -26777,7 +26943,8 @@
                     },
                     "id": "67f1290a-37d0-45e4-b7e5-f03a1fdfa8fc"
                 }
-            ]
+            ],
+            "symbol": "script_battle_intrdialogue"
         },
         {
             "id": "e4370536-cb91-47c6-be21-60fff7ce1ac4",
@@ -26903,20 +27070,39 @@
                     },
                     "id": "be19423a-34ec-4175-8ee2-13dd732ced13"
                 }
-            ]
+            ],
+            "symbol": "script_look_at_player"
         }
     ],
     "music": [
         {
             "id": "101a55ea-3161-46a3-a0db-188ec9d971c6",
             "name": "song_template 1",
+            "symbol": "song_song_template_1",
             "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "8d50f016-5770-4977-b8e6-15b129c67e87",
+            "name": "song_template 2",
+            "symbol": "song_song_template_2",
+            "filename": "song_template 2.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "669a611a-62e6-43a0-b587-4bb392865d3c",
+            "name": "song_template 3",
+            "symbol": "song_song_template_3",
+            "filename": "song_template 3.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "f58712cb-3690-4083-af0e-064d574c978f",
             "name": "song_template",
+            "symbol": "song_song_template",
             "filename": "song_template.uge",
             "settings": {},
             "type": "uge"
@@ -26924,15 +27110,18 @@
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
+            "symbol": "song_template",
             "filename": "template.mod",
             "settings": {},
             "type": "mod"
         }
     ],
+    "sounds": [],
     "fonts": [
         {
             "id": "6cdfb218-1b00-4c52-894a-6e7c00d4c27b",
             "name": "Condensed Mini",
+            "symbol": "font_condensed_mini",
             "width": 128,
             "height": 112,
             "filename": "condensed-mini.png"
@@ -26940,6 +27129,7 @@
         {
             "id": "8a40a88a-0edc-4bcf-a6a6-755fff4fd5bf",
             "name": "Condensed",
+            "symbol": "font_condensed",
             "width": 128,
             "height": 112,
             "filename": "condensed.png"
@@ -26947,6 +27137,7 @@
         {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
             "name": "GBS Mono",
+            "symbol": "font_gbs_mono",
             "width": 128,
             "height": 112,
             "filename": "gbs-mono.png"
@@ -26954,6 +27145,7 @@
         {
             "id": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
             "name": "GBS Variable Width",
+            "symbol": "font_gbs_variable_width",
             "width": 128,
             "height": 112,
             "filename": "gbs-var.png"
@@ -26993,6 +27185,7 @@
         {
             "id": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
             "name": "anger",
+            "symbol": "emote_anger",
             "width": 16,
             "height": 16,
             "filename": "anger.png"
@@ -27000,6 +27193,7 @@
         {
             "id": "48f68915-20b4-410d-a1a5-985133dff6a3",
             "name": "cat-smile",
+            "symbol": "emote_cat_smile",
             "width": 16,
             "height": 16,
             "filename": "cat-smile.png"
@@ -27007,6 +27201,7 @@
         {
             "id": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
             "name": "crying",
+            "symbol": "emote_crying",
             "width": 16,
             "height": 16,
             "filename": "crying.png"
@@ -27014,6 +27209,7 @@
         {
             "id": "590a848f-e826-4966-a034-63475be3a2c7",
             "name": "dead",
+            "symbol": "emote_dead",
             "width": 16,
             "height": 16,
             "filename": "dead.png"
@@ -27021,6 +27217,7 @@
         {
             "id": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
             "name": "frown",
+            "symbol": "emote_frown",
             "width": 16,
             "height": 16,
             "filename": "frown.png"
@@ -27028,6 +27225,7 @@
         {
             "id": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
             "name": "grin",
+            "symbol": "emote_grin",
             "width": 16,
             "height": 16,
             "filename": "grin.png"
@@ -27035,6 +27233,7 @@
         {
             "id": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
             "name": "love",
+            "symbol": "emote_love",
             "width": 16,
             "height": 16,
             "filename": "love.png"
@@ -27042,6 +27241,7 @@
         {
             "id": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
             "name": "music",
+            "symbol": "emote_music",
             "width": 16,
             "height": 16,
             "filename": "music.png"
@@ -27049,6 +27249,7 @@
         {
             "id": "3ade54c8-f621-496e-a488-d969fff02494",
             "name": "neutral",
+            "symbol": "emote_neutral",
             "width": 16,
             "height": 16,
             "filename": "neutral.png"
@@ -27056,6 +27257,7 @@
         {
             "id": "d508e529-57eb-458b-9782-66f318243c32",
             "name": "pause",
+            "symbol": "emote_pause",
             "width": 16,
             "height": 16,
             "filename": "pause.png"
@@ -27063,6 +27265,7 @@
         {
             "id": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
             "name": "question",
+            "symbol": "emote_question",
             "width": 16,
             "height": 16,
             "filename": "question.png"
@@ -27070,6 +27273,7 @@
         {
             "id": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
             "name": "shock",
+            "symbol": "emote_shock",
             "width": 16,
             "height": 16,
             "filename": "shock.png"
@@ -27077,6 +27281,7 @@
         {
             "id": "301f3e48-ad25-4509-9a09-b67daf6728cd",
             "name": "silence",
+            "symbol": "emote_silence",
             "width": 16,
             "height": 16,
             "filename": "silence.png"
@@ -27084,6 +27289,7 @@
         {
             "id": "2d4b251d-0241-40eb-98e1-e396b236772c",
             "name": "sleep",
+            "symbol": "emote_sleep",
             "width": 16,
             "height": 16,
             "filename": "sleep.png"
@@ -27091,6 +27297,7 @@
         {
             "id": "7f3650de-b852-4356-a0b8-b7b68109927b",
             "name": "smile",
+            "symbol": "emote_smile",
             "width": 16,
             "height": 16,
             "filename": "smile.png"
@@ -27098,6 +27305,7 @@
         {
             "id": "3c769dca-51f3-426c-942f-71c4d3af6202",
             "name": "sweat",
+            "symbol": "emote_sweat",
             "width": 16,
             "height": 16,
             "filename": "sweat.png"
@@ -27105,6 +27313,7 @@
         {
             "id": "32d256bf-033a-4bce-a446-ba862fd119a7",
             "name": "tiny-smile",
+            "symbol": "emote_tiny_smile",
             "width": 16,
             "height": 16,
             "filename": "tiny-smile.png"
@@ -27112,6 +27321,7 @@
         {
             "id": "ebe1c14f-d989-48e9-99f6-da5961f04720",
             "name": "wide-smile",
+            "symbol": "emote_wide_smile",
             "width": 16,
             "height": 16,
             "filename": "wide-smile.png"
@@ -27120,111 +27330,143 @@
     "variables": [
         {
             "id": "0",
-            "name": "JesterRecruited"
+            "name": "JesterRecruited",
+            "symbol": "var_jesterrecruited"
         },
         {
             "id": "1",
-            "name": "WizardRecruited"
+            "name": "WizardRecruited",
+            "symbol": "var_wizardrecruited"
         },
         {
             "id": "2",
-            "name": "PriestessRecruited"
+            "name": "PriestessRecruited",
+            "symbol": "var_priestessrecruited"
         },
         {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L0",
-            "name": "New Game"
+            "name": "New Game",
+            "symbol": "var_new_game"
         },
         {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
-            "name": "Local 1"
+            "name": "Local 1",
+            "symbol": "var_local_1"
         },
         {
             "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L0",
-            "name": "SpokenWith"
+            "name": "SpokenWith",
+            "symbol": "var_spokenwith"
         },
         {
             "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L1",
-            "name": "Response"
+            "name": "Response",
+            "symbol": "var_response"
         },
         {
             "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L1",
-            "name": "Response"
+            "name": "Response",
+            "symbol": "var_response_0"
         },
         {
             "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L0",
-            "name": "SpokenWith"
+            "name": "SpokenWith",
+            "symbol": "var_spokenwith_0"
         },
         {
             "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L0",
-            "name": "Pet"
+            "name": "Pet",
+            "symbol": "var_pet"
         },
         {
             "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L1",
-            "name": "Local 1"
+            "name": "Local 1",
+            "symbol": "var_local_0"
         },
         {
             "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L0",
-            "name": "Response"
+            "name": "Response",
+            "symbol": "var_response_1"
         },
         {
             "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L1",
-            "name": "Response 2"
+            "name": "Response 2",
+            "symbol": "var_response_2"
         },
         {
             "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L2",
-            "name": "SpokenWith"
+            "name": "SpokenWith",
+            "symbol": "var_spokenwith_1"
         },
         {
             "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L3",
-            "name": "Response 3"
+            "name": "Response 3",
+            "symbol": "var_response_3"
         },
         {
             "id": "9236618d-98dd-4749-b395-78713f8ed69f__L0",
-            "name": "Local 0"
+            "name": "Local 0",
+            "symbol": "var_local_2"
         },
         {
             "id": "7cf252df-0c9a-4e0a-b2c9-95a4575bd13d__L0",
-            "name": "Local 0"
+            "name": "Local 0",
+            "symbol": "var_local_3"
         },
         {
             "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L0",
-            "name": "Response"
+            "name": "Response",
+            "symbol": "var_response_4"
         },
         {
             "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L1",
-            "name": "Response 2"
+            "name": "Response 2",
+            "symbol": "var_response_5"
         },
         {
             "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L2",
-            "name": "SpokenWith"
+            "name": "SpokenWith",
+            "symbol": "var_spokenwith_2"
         },
         {
             "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L3",
-            "name": "Response 3"
+            "name": "Response 3",
+            "symbol": "var_response_6"
         },
         {
             "id": "2abe3744-accf-470a-b352-7c766789bc0d__L0",
-            "name": "Eavesdropping"
+            "name": "Eavesdropping",
+            "symbol": "var_eavesdropping"
         },
         {
             "id": "2abe3744-accf-470a-b352-7c766789bc0d__L1",
-            "name": "SpokenWithGossiper"
+            "name": "SpokenWithGossiper",
+            "symbol": "var_spokenwithgossiper"
         },
         {
             "id": "7214118e-17e7-426b-a213-c6c5266bf74e__L0",
-            "name": "Local 0"
+            "name": "Local 0",
+            "symbol": "var_local_4"
         },
         {
             "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L2",
-            "name": "Response2"
+            "name": "Response2",
+            "symbol": "var_response2"
         },
         {
             "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L3",
-            "name": "SpokenWith2"
+            "name": "SpokenWith2",
+            "symbol": "var_spokenwith2"
         },
         {
             "id": "94ebeb0f-db97-4fbd-be91-7059aa564bec__L0",
-            "name": "Local 0"
+            "name": "Local 0",
+            "symbol": "var_local_5"
+        },
+        {
+            "id": "a7cc6137-2e00-4d41-a237-07c6ecf9a54a__L0",
+            "name": "CoffinOpened",
+            "symbol": "var_coffinopened"
         }
     ],
     "engineFieldValues": [
@@ -27242,9 +27484,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 615,
-        "worldScrollY": 0,
-        "zoom": 125,
+        "worldScrollX": 0,
+        "worldScrollY": 407,
+        "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
