@@ -1,11 +1,6 @@
 Simple things to Work On:
 ==========================
-2. Design 16x16 avatars for all of the main cast
-	- Player?
-		- Will need one for at least the battle screen next to an HP bar.
-	- Paladin (Maybe not a party member, but a key character)
-	- One-eyed Priestess
-3. Name the player character and their fabled weapon (sword?).
+3. Name Aylmera's fabled Greatsword.
 	- Hero = Aylmera: Slayer of the Damned and Martyr of Antiquity
 		~ The Hero was known for slaying heathens, the undead, and for ultimately sacrificing themselves to protect a catacombs from being lost to necromancers.
 		~ In a last ditch effort, she sealed himself inside to seal the enemy out. This worked, but they died and their body was excavated many months later.
@@ -14,8 +9,6 @@ Simple things to Work On:
 	- Also design a 4 tile sprite for him.
 17. Build out the actual menu options.
 	- Design an inventory system that can hold gold, basic healing items, key items, and equippables (e.g. swords).
-	- The player should start with Charon's Obol in their inventory.
-		~ Examining it could give a gold coin.
 18. Design a landscape scene with panning and parallax
 19. Draw a cutaway scene for a roaring fireplace.
 	- Also design the tile sprite for this fireplace.
@@ -29,7 +22,7 @@ Simple things to Work On:
 	- Also design a Grandfather clock.
 24. Implement the journal menu option. It records core details for the player, so they know their objective.
 	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
-26. Handle either skipping the King's dialogue, or force talking to him before gaining entry to the Jester.
+	- Would love it to look like pages in a book which you can turn through. (Perhaps a static # of pages that get filled in as you complete core objectives.)
 29. Store the Key Items separate from regular items.
 	- This way a player knows the difference, and they'll always have room for Key Items.
 34. Finish the book in the East Hallway detailing a history of the Realm.
