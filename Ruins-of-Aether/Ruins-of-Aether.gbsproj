@@ -4323,7 +4323,7 @@
                                     "We can't let you through, Milady. We're\nunder strict orders from the King."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "3896a9ee-0f57-42e8-9e94-f6e74a04ef44"
                         }
@@ -8792,7 +8792,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Notes are scattered across the table's\nsurface. Would you like to read one?"
+                                                "Several notes are scattered across the\ntable's surface. One is carefully set aside\nfrom the others. Would you like to read it?"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -8813,7 +8813,8 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": true
+                                            "__collapseElse": true,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -8822,10 +8823,10 @@
                                                     "args": {
                                                         "text": [
                                                             "\"To his Majesty's Royal Council: The\nsituation at the frontline grows dire, as \nthe wizards refuse to surrender.",
-                                                            "Lacking the supplies to starve them out,\nwe've begun to consider immediate action,\nbecause the tower is so greatly fortified.",
-                                                            "On the surface, the wizards seem resiliant,\nbut our interrogations reveal their central\nloyalty to their maddened leader.",
-                                                            "As such, we believe a direct assault is our\nonly chance of success. Eliminating the\nMad Wizard will force their obedience.",
-                                                            "My soldiers and I stand ready for battle,\nand eagerly await your orders. May \nvictory bless the Realm. - Prince Morcant\""
+                                                            "Lacking the supplies to starve them out,\nwe've begun to consider immediate action\nto combat the tower's fortifications.",
+                                                            "Our interrogations revealed them to be\nremarkably loyal to their maddened leader.\nThus, mutiny is an unlikely outcome.",
+                                                            "As such, we believe a direct assassination\nis our only chance of success. Eliminating\nthe Mad Wizard will force their obedience.",
+                                                            "My soldiers and I stand ready for battle,\neagerly awaiting your commands. Victory\nbless the Crown. - Prince Morcant\""
                                                         ],
                                                         "avatarId": ""
                                                     },
@@ -28173,9 +28174,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 200,
-        "zoom": 325,
+        "worldScrollX": 513,
+        "worldScrollY": 354,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

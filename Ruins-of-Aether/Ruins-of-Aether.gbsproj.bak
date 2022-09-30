@@ -2060,7 +2060,7 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d",
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
             "autoFadeEventCollapse": true,
             "symbol": "scene_oubliette"
         },
@@ -8792,7 +8792,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Notes are scattered across the table's\nsurface. Would you like to read one?"
+                                                "Several notes are scattered across the\ntable's surface. One is carefully set aside\nfrom the others. Would you like to read it?"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -8813,7 +8813,8 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "L0",
-                                            "__collapseElse": true
+                                            "__collapseElse": true,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -8822,10 +8823,10 @@
                                                     "args": {
                                                         "text": [
                                                             "\"To his Majesty's Royal Council: The\nsituation at the frontline grows dire, as \nthe wizards refuse to surrender.",
-                                                            "Lacking the supplies to starve them out,\nwe've begun to consider immediate action,\nbecause the tower is so greatly fortified.",
-                                                            "On the surface, the wizards seem resiliant,\nbut our interrogations reveal their central\nloyalty to their maddened leader.",
-                                                            "As such, we believe a direct assault is our\nonly chance of success. Eliminating the\nMad Wizard will force their obedience.",
-                                                            "My soldiers and I stand ready for battle,\nand eagerly await your orders. May \nvictory bless the Realm. - Prince Morcant\""
+                                                            "Lacking the supplies to starve them out,\nwe've begun to consider immediate action\nto combat the tower's fortifications.",
+                                                            "Our interrogations revealed them to be\nremarkably loyal to their maddened leader.\nThus, mutiny is an unlikely outcome.",
+                                                            "As such, we believe a direct assassination\nis our only chance of success. Eliminating\nthe Mad Wizard will force their obedience.",
+                                                            "My soldiers and I stand ready for battle,\neagerly awaiting your commands. Victory\nbless the Crown. - Prince Morcant\""
                                                         ],
                                                         "avatarId": ""
                                                     },
@@ -21137,7 +21138,7 @@
                     ]
                 }
             ],
-            "numTiles": 19,
+            "numTiles": 21,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -28173,9 +28174,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 407,
-        "zoom": 325,
+        "worldScrollX": 1827,
+        "worldScrollY": 465,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
