@@ -155,6 +155,9 @@ Simple things to Work On:
 		~ Neera = Yellow?
 		~ Alexandros = Blue?
 	- What is the main color of each core story zone?
+98. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
+99. Make a door sprite for a spiral staircase (a la Golden Sun)
+	- Can give the illusion of moving vertically in space between maps
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1139,6 +1142,8 @@ GB Studio:
 	https://gbstudiocentral.com/tips/basics-trigger-positional-menus/
 10. Animated background tiles
 	https://github.com/phinioxGlade/gbstudio-3-animated-tile-tutorial
+11. 2 Bit Character Generator
+	https://0x72.itch.io/2bitcharactergenerator
 
 
 Soundtrack:

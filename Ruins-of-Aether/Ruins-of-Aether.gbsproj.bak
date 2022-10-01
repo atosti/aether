@@ -1123,7 +1123,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "labelColor": "yellow",
-            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+            "playerSpriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d",
             "symbol": "scene_introduction"
         },
         {
@@ -1192,16 +1192,16 @@
                 15,
                 15,
                 15,
+                0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -1933,7 +1933,7 @@
                                                         "variable": "L0",
                                                         "trueText": "Absolutely.",
                                                         "falseText": "Absolutely not.",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "8e1176ac-622f-4e13-95e9-82f8742191fb"
                                                 },
@@ -4323,7 +4323,7 @@
                                     "We can't let you through, Milady. We're\nunder strict orders from the King."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "3896a9ee-0f57-42e8-9e94-f6e74a04ef44"
                         }
@@ -10667,7 +10667,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "3b1c6d4a-f11b-48be-8cdc-e6e05ada23f2",
-                                "x": 14,
+                                "x": 16,
                                 "y": 7,
                                 "direction": "left",
                                 "fadeSpeed": "2"
@@ -28174,8 +28174,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1827,
-        "worldScrollY": 465,
+        "worldScrollX": 245,
+        "worldScrollY": 257,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
