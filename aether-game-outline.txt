@@ -415,29 +415,100 @@ Order of Main Events:
 ======================
 Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4Z4an1CBWQPi_UNDdgNDDNU&index=4
 
-1. The player is revived in the oubliette and told they're the great warrior Aylmera. Unbeknownst to them, this is not their identity.
+1-A. The player is revived in the oubliette and told they're the great warrior Aylmera. Unbeknownst to them, this is not their identity.
 	- She wakes up (make animations for this). Alexandros is there and explains a bit of how she got there.
-	- He prides himself on being able to revive her to the glory of her youth.
-	- Alexnadros mentions it was an experimental ritual, but he's pleased with the result.
-2. The King and Jester are introduced. Aylmera is ordered to accompany the Jester in acquiring the lost elemental stones.
-	- The King and the Jester have a bit of a goofy relationship. But they are shown to be critical of one another. (Think of two pals busting each other's balls.)
-	- Nobility is only concerned with the prior war (anti-mage sentiment) and the minor inconveniences of their lives now (food rations and getting wine)
-	- The King tells them both that early in the war, his soldiers hid one of the stones in a city to the far North. It's now a city in ruins, but the stone was hidden in the catacombs, and he believes it remains hidden.
-		~ Was specifically hidden at a certain place alongside the remains of one of his ancestors.
-	- Alexandros will join the player and their party at a city to the North-east whose army is still intact.
-		~ He is to begin negotiations with their leader for their elemental stone and rendezvous with Aylmera and the Jester after they've acquired their stone at the ruined city.
-		~ It's a region ruled by a Lord loyal to the Realm. The King is confident in the Lord's cooperation.
-3. Aylmera and the Jester leave the castle and enter into the surrounding city's ruins.
-	- People are fearful of the roving undead and wish the castle would open its gates to them.
-	- Soldiers are spread thin and acknowledge they can't protect everyone. Just focus on defending the castle itself. Not the whole city.
-4. Begin heading through the surrounding farmland looking for the bandits. Soldiers (and their Realm spies) believe the bandits have acquired one of the stones.
-5. Find many farmsteads destroyed and those that remain are powerless to protect themselves. They just live day-to-day and hope neither the undead nor the bandits kill them.
-	- "I fear the undead most of all. A bandit can be negotiated with."
-6. Aylmera and crew make their way through the farmland outskirts into the Forest. This is bandit territory and they fight their way deep inside.
-	- Encounter traveling merchants and minstrels on their way. Perhaps a bard that's recurring periodically through the plot.
-7. At the heart of the forest (in a clearing) is the bandit camp. A circle of caravan wagons. Aylmera encounters the bandit leader.
-	- The leader is a former ranger of the Realm who was present at the Great Explosion. He wishes to overthrow the king and is using the elemental stone as leverage.
-8. Aylmera defeats the One-armed Ranger and steals the first of the elemental stones. The Ranger is able to escape with a smokebomb.
+	- He is mostly concerned with himself, and not the player.
+		~ He prides himself on being able to revive her to the glory of her youth.
+	- Alexandros mentions offhand that it was an experimental ritual.
+		~ Though disappointed you don't have your memories, he is unconcerned.
+	- Urges the player to bring any questions they have to the King, who is upstairs.
+1-B. Aylmera meets with the King upstairs.
+	- He warmly greets her. And describes his need of a "legendary hero" for an important quest.
+		~ Says its important to the stability of the entire Realm.
+		~ Note that he is one of the few non-party characters who accurately sees the significance of the Aether.
+	- Prying in just the right way can reveal a moment of humility from him, where he admits he wished he didn't have to revive her.
+		~ Poking through his bedroom and notes reveals bits of internal doubt.
+		~ It points to a man who understands he's at the end of his life. He's out of time and options. His bloodline can continue, but his kingdom MIGHT be able to.
+	- He tells Aylmera to find the Jester in the castle and return to him for the details of her pending journey.
+2-A. Searching the castle, Aylmera finds the Jester in the War Room.
+	- He greets her warmly as well, but is cynical of the King as his plans.
+	- Returning to the King, Aylmera + the Jester are told of their mission to recover the elemental stones.
+	- He describes the plan as follows (leaving out many key details the player learns later):
+		a. There exist 5 elemental stones which control the balance of elemental energies in the Realm.
+		b. Things in the Realm were fine until recently, following conflict in the far East, one of these stones was shattered, upsetting the balance.
+			~ (He doesn't elaborate as to why this happened. Or in what capacity.)
+		c. You are to find the 4 remaining stones, take them to a ritual site in the East, and shatter them to release (and restore balance) to the elements.
+		d. He knows of 2 leads for the locations of these stones:
+			~ The first was hidden by his soldiers several decades ago in a now-ruined city's catacombs (to the far Northwest).
+				~ It was specifically hidden alongside the remains of one of his ancestors. It should still be there now.
+			~ The second is in possession of an allied Kingdom to the North.
+		e. He has just sent Alexandros, alone, to fetch the one in the North and expects Aylmera and the Jester to get the one from the Catacombs of Antiquity.
+			~ The Northern region is ruled by a Lord loyal to the Realm. The King is confident in the Lord's cooperation.
+		f. Once you have fetched the first stone, you are to rendezvous with Alexandros and continue locating the other stones.
+	- This is much different from the plan the Jester thought they were doing.
+		~ The Jester is taken aback, he didn't know he was going to personally carry out the mission.
+		~ Moreover, he thought that Alexandros would be accompanying Aylmera, not going on such a long journey alone.
+		~ Despite his disagreements and protests, the King insists on this plan, souring things for them both.
+			~ It should seem apparent that they're not being fully honest with you. But neither volunteer more information.
+	- The Jester slyly criticizes the King's wishes before heading off.
+		~ The King and the Jester have a close relationship, but are often critical of one another. (Think of two old best friends or rivals.)
+	- The King also notes that they should get geared at the Armory before leaving (an optional task).
+2-B. (Optional) Aylmera visits the Armory/Barracks for some initial gear.
+	- Inside, a Commander greets her coldly, but outfits her with the best sword he can (a meager one).
+	- It's a greatsword, her staple weapon, and she has no idea how to wield it. He stops her from swining it so as to not hurt herself.
+	- "What the hell are you doing? Haven't you swung a greatsword before?"
+	- He points out that (as in real life) When gripping a greatsword: The top hand pushes, while the bottom hand pulls.
+		~ Could tie this into a simple tutorial for the player about how to use their skills.
+		~ Regardless, make this quick and painless for the player, don't drone on and on about controls.
+3. Aylmera and the Jester leave the castle and enter into the surrounding city's ruins. It's full of scared peasantry.
+	- Soldiers are spread thin and acknowledge they can't protect much more than the castle itself. Much of the city is left to its own devices.
+	- Inside the castle, nobility is only concerned with the prior war (anti-mage sentiment) and the minor inconveniences of their lives.
+		~ Chiefly, they complain about food and wine rations.
+		~ And they feel all safety measures about the castle are overreactions by the soldiers.
+		~ This is because many of the soldiers (at least those in command) saw the Aether frenzy, whereas the nobles have not.
+	- Commoners are fearful of the roving banditry and wish the castle would open its gates to them.
+		~ There are also whispers of undead creatures stalking in the night, but there isn't much concrete evidence.
+			~ Aylmera can ask the Jester about these roving undead.
+			~ The peasantry believes it to be divine punishment for the King's pride. And the sacrifice of his son.
+		~ People who insult the King often face verbal backlash from the Jester. Despite their differences, the two are good friends.
+4. Begin heading West through the surrounding farmland, sticking to the main road, while being mindful of the bandits.
+	- Begin hearing rumors about the banditry planning something big.
+5. Find many farmsteads destroyed or abandoned. Those that remain are powerless to protect themselves.
+	- Some live day-to-day and hope neither the undead nor the bandits kill them.
+		~ "I fear the undead most of all. A bandit can be negotiated with."
+	- Others have given up, spending their days drinking as they feel the end is near, so what's the point any more?
+	- The pubs are full, but hardly jovial. They have a more depressed aire to them.
+6. Aylmera and crew make their way through the farmland outskirts and into the Forest. This is bandit territory and they fight their way deep inside.
+	- Forced to take this route, as other pathways (e.g. bridges) have been sabotaged by the bandits.
+	- Encounter some traveling merchants and minstrels (circus) stuck on the way. Perhaps a bard that's recurring periodically through the plot.
+	- Some of the bandits can be conversed with, to reveal that they (at least claim) to want to support the peasantry.
+		~ They oppose the Crown and seek a regime change, but steal from the peasants for resources.
+		~ Though they claim to wish to uplift everyone when in power, they have yet to do any of it. No praxis, eh?
+7. At the heart of the forest (in a clearing) is the bandit camp. A circle of caravan wagons. It's here they encounter the bandit leader.
+	- She wears a hood and has long, shoulder length hair. Notably, she has only one arm. Her right arm. Vivian, the one-armed ranger.
+	- Before engaging the party in battle, she just has a large poncho over herself, only after conversing does she open it up, revealing that she only has one arm.
+		~ "It's rare for someone to enter our camp uninvited. Judging by the amount of trouble you've been causing, I was certain there were more than two of you." Vivian sneers.
+		~ "We only want to pass through. We're here on behalf of the Realm." Aylmera replies.
+		~ "And which Realm is it that you serve? The one that's out in the fields working themselves to death. Or the one who sits idly atop a throne?" - Vivian
+		~ "The Realm encompasses everyone. Even the poor saps you rip off daily." the Jester chimes in.
+		~ "As if the Crown doesn't pillage this land for his own benefit. Only when he does it, the law is on his side. You're Aether-maddened if you can't see that." - Vivian
+	- Vivian is a former ranger of the Realm who was present at the Great Explosion. She wishes to overthrow the king and is using the elemental stone as leverage.
+		~ "Jester, you intrigue me. You know what my comrades told me? That you were at the explosion. Same as many of us. You saw the chaos, the death... the pain. And yet you still ran back to that wretched King for protection." - Vivian
+		~ "I admit, I snorted when I first heard it. Couldn't believe it. Even for a fool, that's pretty dumb." - Vivian laughs
+		~ The Jester gets visible frustrated. (Angry or nervous or sad emote)
+		~ "As if you could have foretold what would happen! And what are you doing to remedy it? Warring with the peasantry?!" - The Jester
+		~ "How do you know these people? What explosion is she talking about?" - Aylmera
+		~ "Huh? What goddamn rock have you been living under? THE explosion. The Great one! The one that sent shockwaves out across the entire realm?!" - Vivian
+		~ Aylmera is visibly confused (''...'' emote)
+		~ "I hate you fucking nobles. Bet you were too drunk to even notice the earth rumbling beneath your feet. Well. I'll never forget it. I'm not allowed to." - Vivian
+		~ Vivian throws her poncho open, revealing her lack of an arm.
+		~ "Look at me! A world-class ranger, reduced to a cripple in an instant. And for what? Some royal's pursuit of ego." - Vivian shouts, sighing.
+		~ "But in the aftermath of that explosion, I found my true companions. Those who stayed behind, rescuing survivors and fending off the damned." - Vivian
+		~ "So, after returning home, when the Crown closed his gates to us, I knew where things stood." - Vivian
+		~ "Though he sits atop a throne, its foundation is built on ash and blood. Even Morcant couldn't rectify such a thing." - Vivian
+	- Vivian suddenly fires the first shot (a bolt) that collides with the player sprite, triggering the battle scene.
+	- Vivian should use a crossbow (one-handed) during her fight.
+8. Aylmera defeats Vivian, but Vivian is able to escape with a smokebomb. Due to her quick getaway, she drops the first of the elemental stones (Fire).
 	- The leader mentions how he heard stories of Aylmera's heroism. He doesn't see any of it now. Must've been lies.
 	- Out of fear, the other bandits flee.
 9. Aylmera and crew continue out the other side of the forest toward the ruins of a nearby city. Where they know the Crown hid one of the stones.
@@ -933,6 +1004,8 @@ Concepts:
 	- E.g. a character could swap to a different color when exhausted, or when there's an opening in their pattern.
 	- Otherwise, have them be invulnerable.
 	- Explain this mechanic via the combat tutorial. (And make that whole thing brief.)
+68. "Better to bend than to break."
+69. "I have no quarrel with you."
 
 
 Misc Dialogue for encounters:
@@ -1172,5 +1245,12 @@ II. Battle trigger music (for scene transition)
 III. Battle Music Inspiration
 	https://twitter.com/robotmeadow/status/1573696802548858882
 
-IV: General Ambience and Battle Music Inspiration
+IV. General Ambience and Battle Music Inspiration
 	https://soundcloud.com/acloudyskye/when-there-were-others
+
+V. Old Chain Gang Songs
+	https://www.youtube.com/watch?v=cvEnkoSBPmY
+		- Could be used to introduce the Lord's territory as the player encounters actual chaingang members.
+		- Could be a character on horseback overlooking them, who is a minor antagonist.
+	https://www.youtube.com/watch?v=e8HSSvvN230
+
