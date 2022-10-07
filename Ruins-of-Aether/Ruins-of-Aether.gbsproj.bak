@@ -1188,13 +1188,13 @@
                 15,
                 15,
                 15,
-                15,
-                15,
+                0,
                 15,
                 15,
                 0,
                 0,
-                15,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -1202,10 +1202,10 @@
                 15,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
@@ -1423,15 +1423,16 @@
                 15,
                 0,
                 0,
-                15,
-                15,
                 0,
+                0,
+                0,
                 15,
                 15,
                 15,
                 15,
                 15,
                 15,
+                0,
                 0,
                 0,
                 0,
@@ -1445,7 +1446,6 @@
                 0,
                 15,
                 15,
-                0,
                 15,
                 15,
                 15,
@@ -1463,9 +1463,9 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
-                0,
                 15,
                 15,
                 15,
@@ -1588,7 +1588,7 @@
                             "args": {
                                 "variable": "L0",
                                 "__collapseElse": true,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true
                             },
                             "children": {
@@ -2033,6 +2033,147 @@
                         }
                     ],
                     "symbol": "trigger_26"
+                },
+                {
+                    "name": "",
+                    "id": "1ea30fdb-83b0-409e-9e79-1d574a680522",
+                    "x": 5,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The drainage tunnel is caked with dried\nblood. It's walls are stained with a reddish\nand brown hue."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d15d2b21-d700-4fb1-b360-6418ae09a570"
+                                    }
+                                ]
+                            },
+                            "id": "10e83892-720c-4505-ace7-e3fed59c5dff"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "deef6d19-fc7c-4b03-8877-f1b83330e2bf"
+                        }
+                    ],
+                    "symbol": "trigger_27"
+                },
+                {
+                    "name": "",
+                    "id": "5d3ec5d9-fbb3-445f-8701-dc5e0f3c7ed4",
+                    "x": 13,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "There is a slight breeze coming from the\nmouth of this tunnel. Listening closely you\nhear the distant scurrying of rats."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "bd8117d0-429a-40ae-8648-3da048656a9b"
+                                    }
+                                ]
+                            },
+                            "id": "4bda9164-fa50-4525-ac74-fa6a2d1f9db3"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "50aa548d-2bfb-4fa8-b391-5c1fd80a7be5"
+                        }
+                    ],
+                    "symbol": "trigger_28"
+                },
+                {
+                    "name": "",
+                    "id": "3b4e2a95-34e8-42a9-a4c1-34e3f8645ef7",
+                    "x": 10,
+                    "y": 3,
+                    "width": 3,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A collection of dusty books and scrolls.\nMany are falling apart from frequent use.\nThey seem to detail magical rituals."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "04a2272b-a892-4d29-ae5b-d8083ccdde09"
+                                    }
+                                ]
+                            },
+                            "id": "6026fd8e-23ca-4908-8a1c-dc4c36e6afc6"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "c8d7214e-6553-48d8-94d4-092b3a37250d"
+                        }
+                    ],
+                    "symbol": "trigger_29"
                 }
             ],
             "script": [
@@ -28174,9 +28315,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 245,
-        "worldScrollY": 257,
-        "zoom": 225,
+        "worldScrollX": 667,
+        "worldScrollY": 687,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
