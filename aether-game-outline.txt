@@ -480,6 +480,9 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- The pubs are full, but hardly jovial. They have a more depressed aire to them.
 6. Aylmera and crew make their way through the farmland outskirts and into the Forest. This is bandit territory and they fight their way deep inside.
 	- Forced to take this route, as other pathways (e.g. bridges) have been sabotaged by the bandits.
+		~ Perhaps a bridge is kept raised by people on the other side of the river for fear of the bandits.
+		~ As such, when the bandits are defeated, this bridge can be lowered (for faster travel to older zones).
+		~ And this allows, narratively, other characters to more easily move around the world (e.g. the Bard and his circus).
 	- Encounter some traveling merchants and minstrels (circus) stuck on the way. Perhaps a bard that's recurring periodically through the plot.
 	- Some of the bandits can be conversed with, to reveal that they (at least claim) to want to support the peasantry.
 		~ They oppose the Crown and seek a regime change, but steal from the peasants for resources.
@@ -506,12 +509,34 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ "But in the aftermath of that explosion, I found my true companions. Those who stayed behind, rescuing survivors and fending off the damned." - Vivian
 		~ "So, after returning home, when the Crown closed his gates to us, I knew where things stood." - Vivian
 		~ "Though he sits atop a throne, its foundation is built on ash and blood. Even Morcant couldn't rectify such a thing." - Vivian
-	- Vivian suddenly fires the first shot (a bolt) that collides with the player sprite, triggering the battle scene.
+	- Vivian suddenly fires the first shot (a crossbow bolt) that collides with the player sprite, triggering the battle scene.
 	- Vivian should use a crossbow (one-handed) during her fight.
-8. Aylmera defeats Vivian, but Vivian is able to escape with a smokebomb. Due to her quick getaway, she drops the first of the elemental stones (Fire).
-	- The leader mentions how he heard stories of Aylmera's heroism. He doesn't see any of it now. Must've been lies.
-	- Out of fear, the other bandits flee.
-9. Aylmera and crew continue out the other side of the forest toward the ruins of a nearby city. Where they know the Crown hid one of the stones.
+		~ She should also summon bandits to assist her in some way during the fight.
+8-A. Aylmera defeats Vivian, but Vivian is able to escape in a smokescreen (from a smokebomb) before she is defeated.
+	- Due to her quick getaway, Vivian drops the first of the elemental stones (Fire).
+	- Most of the bandits clear out, through fear. Maybe a few on the outskirts are left? Bitter toward you, but non-violent.
+	- The stray bandits can mention how they heard stories of Aylmera's heroism. But that they don't see any of that now. It must've been lies.
+8-B. The player is given a chance to ask the Jester about what Vivian mentioned. (Notably, he leaves OUT any details of himself having seen the undead and knowing they're real.)
+	- [You wanna fill me in on what she was talking about?] - Aylmera
+	- "No. There's not much to say." - the Jester
+	- "I sincerely doubt that." - Aylmera
+	- "The King decided it best to not smother you in details. It's important you recognize the importance of your, OUR mission." - the Jester
+	- "You're still keeping me in the dark." - Aylmera
+	- The jester frowns reluctantly.
+	- "Alright. I suppose the Crown isn't here to protest anyhow. Where to even begin..." - the Jester thinks for a moment. ('...' emote)
+		~ Have the Jester pace off from Aylmera during this, narrating his account of the war so far.
+	- "Before your revival, conflict broke out in the Kingdom. A civil war about autonomy and leadership. On one side was the Crown with his royal armies. And on the other was the bulk of the royal wizardry, led by a... Mad Wizard."
+	- 1. [Wizards? Like Alexandros?] or 2. [Mad Wizard? You mean he was insane?] - Aylmera
+		1. "Yes, Alexandros himself even fought against us during the final months of the conflict. Though that was some years ago. Things were much different then. More volatile." - the Jester
+			~ "For what it's worth, he's received a royal pardon now. And you'd be wise to remember that without him, you'd only be a pile of bones." - the Jester
+		2. "Oh absolutely. Most wizards even agree on that point. I can't speak to his charisma, but their loyalties were sincere. A handful still believe in his cause." - the Jester
+	- "Well, by the looks of things I'm guessing the Crown emerged victorious." - Aylmera
+	- "Hahaha! Hardly a victory. Thousands dead, his armies destroyed and his throne... heirless." the Jester laughs to himself before getting quiet.
+	- "Look, I'm a fool. I've made a life out of seeing humor where there is often only sadness. But make no mistake: That war brought us NOTHING but ruination." - the Jester trails off. ('...' emote?)
+	- "And the 'explosion' that Vivian mentioned? You witnessed it?" - Aylmera
+	- "Yes. I was at the forward base camp when it happened. Just outside the blast. I distinctly remember the swirl of blue flames erupting from the Tower, illuminating the night." - the Jester
+	- "And then just as suddenly, it all came crashing down. A hail of stone and suffocating ash. Everyone inside was killed almost instantly. As were many outside." - the Jester
+9. Aylmera and the Jester continue out the other side of the forest toward the ruins of a nearby city. Where they know the Crown hid one of the stones.
 10. The typical path is blocked by debris from a landslide. As such, they're forced to go through a lesser-traveled tunnel.
 	- Inside, a hermitish Nomad is encountered at their fire. They can be talked with to reveal some of their story.
 	- He reveals that in his youth he could smell the "presence of death, the mark of a killer" on travelers.
@@ -634,6 +659,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Note: Hardly a single floor of the Tower remains. It has almost been completely leveled.
 	- The Jester immediately recognizes him and is horrified. His memories of the explosion rush back to him all at once.
 	- The Jester is frozen by both shock and fear. He simulatenously wants to call out to the Prince, but also knows to fear him for the monster he has become.
+		~ Perhaps the other party members are trying to run, and encourage the others to do so, but the Jester's shock forces them to stay and fight. (as Morcant closes the distance)
 	- The Prince notices the party and approaches. He's slightly more lucid than other undead. Muttering to himself as he engages the party.
 		~ "Bastards..."
 		~ "Can't run now..."
@@ -1006,6 +1032,7 @@ Concepts:
 	- Explain this mechanic via the combat tutorial. (And make that whole thing brief.)
 68. "Better to bend than to break."
 69. "I have no quarrel with you."
+70. Living through a time that is the calm before the storm. After having already lived through a brutal storm.
 
 
 Misc Dialogue for encounters:
