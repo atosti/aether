@@ -517,7 +517,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- Most of the bandits clear out, through fear. Maybe a few on the outskirts are left? Bitter toward you, but non-violent.
 	- The stray bandits can mention how they heard stories of Aylmera's heroism. But that they don't see any of that now. It must've been lies.
 8-B. The player is given a chance to ask the Jester about what Vivian mentioned. (Notably, he leaves OUT any details of himself having seen the undead and knowing they're real.)
-	- [You wanna fill me in on what she was talking about?] - Aylmera
+	- "You wanna fill me in on what she was talking about?" - Aylmera
 	- "No. There's not much to say." - the Jester
 	- "I sincerely doubt that." - Aylmera
 	- "The King decided it best to not smother you in details. It's important you recognize the importance of your, OUR mission." - the Jester
