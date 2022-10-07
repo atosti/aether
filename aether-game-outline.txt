@@ -1221,6 +1221,12 @@ Vocabulary/Phrases to Incorporate:
 Ye, Thee, Shall, Antiquity, Anguish, Tyranny, Aether, Realm, Distraught
 
 
+History:
+========
+1. Historical context for how a kingdom is run, and the chaos that ensues.
+	https://en.wikipedia.org/wiki/A_Distant_Mirror
+
+
 GB Studio:
 ===========
 1. Palette Swapping
