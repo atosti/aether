@@ -664,6 +664,8 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ "Bastards..."
 		~ "Can't run now..."
 		~ "For the King..."
+	- The Prince could mutter the Jester's name, Sigmund, (most people only refer to him by his title, "Jester")
+		~ This would take the Jester off guard, as he realizes the creature recognizes him.
 37. After a brutal fight, the party slays the Prince.
 	- The Jester is distraught, he breaks down into tears. The player and party console him.
 	- The Priestess offers to say a few words, his last rites, as they stand before his hulking corpse.
@@ -704,7 +706,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ He wonders whether the Mad Wizard knew of its destructive nature all along.
 	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
 	- Instead, she guides them on how to restore the Aether crystal.
-		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great nobility." - the Spirit of Aylmera
+		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great distinction." - the Spirit of Aylmera
 41. The Spirit is disappointed to find that the Aether crystal has been shattered.
 	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
 	- "You. Cannot. Fail. Too much lies at stake. And far too many have died for you to perish at the last step."
