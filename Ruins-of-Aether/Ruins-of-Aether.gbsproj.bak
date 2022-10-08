@@ -2162,7 +2162,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Peering into the drainage tunnel, you can\nalmost make out an object in the \ndarkness. You cannot reach it."
+                                                "Peering into the drainage tunnel, you can\nalmost make out an object in the \ndarkness. Your arms cannot reach it."
                                             ],
                                             "avatarId": ""
                                         },
