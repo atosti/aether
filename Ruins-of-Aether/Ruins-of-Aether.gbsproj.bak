@@ -14,11 +14,11 @@
                 null,
                 null,
                 null,
+                "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
                 null,
                 null,
                 null,
-                null,
-                ""
+                "default-ui"
             ],
             "spritePaletteIds": [],
             "collisions": [
@@ -586,7 +586,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 0,
@@ -1109,7 +1118,7 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "3b1c6d4a-f11b-48be-8cdc-e6e05ada23f2",
-                        "x": 6,
+                        "x": 5,
                         "y": 10,
                         "direction": "down",
                         "fadeSpeed": "2",
@@ -1123,7 +1132,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "labelColor": "yellow",
-            "playerSpriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d",
+            "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
             "symbol": "scene_introduction"
         },
         {
@@ -1135,10 +1144,10 @@
             "paletteIds": [
                 "default-sprite",
                 null,
+                "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
+                "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
                 null,
-                null,
-                null,
-                "4f531b46-4c12-4323-b619-1d22ecabb9c8",
+                "c40cd630-7ea9-4009-9809-bdd192a12e86",
                 "9a15102b-dafa-4cc9-871b-fe4e6e091b09",
                 "default-ui"
             ],
@@ -1197,29 +1206,9 @@
                 0,
                 15,
                 15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 15,
                 15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -1379,6 +1368,26 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -1419,8 +1428,6 @@
                 0,
                 0,
                 0,
-                15,
-                15,
                 0,
                 0,
                 0,
@@ -1430,25 +1437,27 @@
                 15,
                 15,
                 15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 15,
                 15,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
+                15,
+                15,
+                0,
                 15,
                 15,
                 15,
@@ -1588,7 +1597,7 @@
                             "args": {
                                 "variable": "L0",
                                 "__collapseElse": true,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__disableElse": true
                             },
                             "children": {
@@ -1743,7 +1752,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "e8916db7-436d-47aa-9497-ddba55b113e6",
-                    "x": 6,
+                    "x": 5,
                     "y": 6,
                     "symbol": "actor_1"
                 },
@@ -1852,7 +1861,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Unlike its counterpart, this contraption\nbears a wicked smile. With its door rusted\nshut, you wonder if someone is inside..."
+                                                "Unlike its counterpart, this contraption\nbears a wicked smile. Its door is rusted\nshut. You wonder if someone is inside..."
                                             ],
                                             "avatarId": ""
                                         },
@@ -1875,117 +1884,6 @@
                         }
                     ],
                     "symbol": "trigger_1"
-                },
-                {
-                    "name": "",
-                    "id": "a7cc6137-2e00-4d41-a237-07c6ecf9a54a",
-                    "x": 1,
-                    "y": 13,
-                    "symbol": "trigger_2",
-                    "width": 4,
-                    "height": 3,
-                    "script": [
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "An ancient, splintering coffin lies before \nyou. It feels out of place."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "e3677ec2-b885-4d5c-81fa-ea42cdc3534c"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_FALSE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "__collapseElse": true,
-                                            "__disableElse": true,
-                                            "__collapse": false
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Peek inside?"
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "e48d2bf6-4928-4473-827a-d17ed03c3ebe"
-                                                },
-                                                {
-                                                    "command": "EVENT_CHOICE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "trueText": "Absolutely.",
-                                                        "falseText": "Absolutely not.",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "8e1176ac-622f-4e13-95e9-82f8742191fb"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_TRUE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "__collapseElse": true,
-                                                        "__disableElse": true,
-                                                        "__collapse": false
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "The lid opens with a long, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
-                                                                        "TBD - Add Charon's Obol to the player's \ninventory."
-                                                                    ],
-                                                                    "avatarId": "",
-                                                                    "__collapse": false
-                                                                },
-                                                                "id": "f95c7885-3758-4c9f-aa42-49b8c69a9746"
-                                                            }
-                                                        ],
-                                                        "false": []
-                                                    },
-                                                    "id": "b21b49c1-0b19-4d42-9e89-2004ca123326"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "d18beb81-b54f-446b-b35e-72d1a08358ae"
-                                    }
-                                ]
-                            },
-                            "id": "a666f14f-dd5f-4d56-a605-341dc53ace84"
-                        }
-                    ],
-                    "leaveScript": [
-                        {
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ],
-                                "__collapse": true
-                            },
-                            "id": "7706120d-09c9-4e2a-871b-201cd83f4b21"
-                        }
-                    ]
                 },
                 {
                     "name": "",
@@ -2036,55 +1934,8 @@
                 },
                 {
                     "name": "",
-                    "id": "1ea30fdb-83b0-409e-9e79-1d574a680522",
-                    "x": 5,
-                    "y": 2,
-                    "width": 2,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "The drainage tunnel is caked with dried\nblood. It's walls are stained with a reddish\nand brown hue."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "d15d2b21-d700-4fb1-b360-6418ae09a570"
-                                    }
-                                ]
-                            },
-                            "id": "10e83892-720c-4505-ace7-e3fed59c5dff"
-                        }
-                    ],
-                    "leaveScript": [
-                        {
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ]
-                            },
-                            "id": "deef6d19-fc7c-4b03-8877-f1b83330e2bf"
-                        }
-                    ],
-                    "symbol": "trigger_27"
-                },
-                {
-                    "name": "",
                     "id": "5d3ec5d9-fbb3-445f-8701-dc5e0f3c7ed4",
-                    "x": 13,
+                    "x": 14,
                     "y": 2,
                     "width": 2,
                     "height": 1,
@@ -2130,10 +1981,121 @@
                 },
                 {
                     "name": "",
-                    "id": "3b4e2a95-34e8-42a9-a4c1-34e3f8645ef7",
-                    "x": 10,
+                    "id": "3f9dab08-fb94-4940-9e16-2d371a0ec2b3",
+                    "x": 1,
+                    "y": 13,
+                    "symbol": "trigger_30",
+                    "width": 5,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "An ancient, splintering coffin lies before \nyou. It feels out of place."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "69452681-37dc-46b3-bcb0-169da3721bea"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_FALSE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapseElse": true,
+                                            "__disableElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Peek inside?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "8e3dc3f6-4594-4864-846a-26f9a4ab6537"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "trueText": "Absolutely.",
+                                                        "falseText": "Absolutely not.",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "82e77eb2-bd8c-4fd0-9359-8336e7e0582b"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapseElse": true,
+                                                        "__disableElse": true,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "The lid opens with a long, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
+                                                                        "TBD - Add Charon's Obol to the player's \ninventory."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "39527d0a-e894-4caf-9df7-8f5c00911dc9"
+                                                            }
+                                                        ],
+                                                        "false": []
+                                                    },
+                                                    "id": "2bb7b339-a0b5-49a5-afd7-66b157bc3cb1"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "0322a9ff-d64a-46cb-9c79-e77eb83e9d7a"
+                                    }
+                                ]
+                            },
+                            "id": "a7ea1392-5d2a-4112-a307-65dc5ebda27b"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "__collapse": true
+                            },
+                            "id": "39cf1d8f-12c6-46ea-a5f8-b8bcc5147c70"
+                        }
+                    ]
+                },
+                {
+                    "name": "",
+                    "id": "d6b3008d-dade-4075-a440-12f246f477a9",
+                    "x": 11,
                     "y": 3,
-                    "width": 3,
+                    "width": 2,
                     "height": 1,
                     "script": [
                         {
@@ -2155,11 +2117,11 @@
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "04a2272b-a892-4d29-ae5b-d8083ccdde09"
+                                        "id": "56bc88a2-464e-4850-b206-c1c712f5223a"
                                     }
                                 ]
                             },
-                            "id": "6026fd8e-23ca-4908-8a1c-dc4c36e6afc6"
+                            "id": "b682b5ba-b525-440a-9a21-96d4440d7235"
                         }
                     ],
                     "leaveScript": [
@@ -2170,10 +2132,151 @@
                                     "a"
                                 ]
                             },
-                            "id": "c8d7214e-6553-48d8-94d4-092b3a37250d"
+                            "id": "03176a57-7a99-4674-8eef-b6f5c5803e75"
+                        }
+                    ],
+                    "symbol": "trigger_2"
+                },
+                {
+                    "name": "",
+                    "id": "58a05fae-b65f-4c95-b7eb-0c368ba3c618",
+                    "x": 5,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Peering into the drainage tunnel, you can\nalmost make out an object in the \ndarkness. You cannot reach it."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3c6a38e5-995c-43e5-b2be-df06fd7e22f7"
+                                    }
+                                ]
+                            },
+                            "id": "cb8b7378-4258-4b38-b59a-0498ef772793"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "184de193-2ab6-47b4-854e-56594c3b6df6"
+                        }
+                    ],
+                    "symbol": "trigger_27"
+                },
+                {
+                    "name": "",
+                    "id": "be1c6f62-f368-4f9a-a92d-9b6d7b407d07",
+                    "x": 5,
+                    "y": 9,
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "There are complex runes engravings\ndrawn into the stone floor. Many of the\nlines converge at a central point."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2af51b77-9be2-40eb-a985-20fea9942497"
+                                    }
+                                ]
+                            },
+                            "id": "7b3b1756-4ea9-4db3-8272-4bf6a6c4c58d"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "429c3071-0d58-48b7-825d-a4ea49bc7ce6"
                         }
                     ],
                     "symbol": "trigger_29"
+                },
+                {
+                    "name": "",
+                    "id": "7cc399b8-b410-4b1e-b4ea-e3c6276d6379",
+                    "x": 16,
+                    "y": 12,
+                    "width": 3,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A man-sized cage. Though primitive in its\ndesign, this one has seen significant use."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "87ea8797-4269-48b2-979a-a365426abd14"
+                                    }
+                                ]
+                            },
+                            "id": "72475520-cc83-4fb5-b411-3985c13bd022"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "e12ac389-0eb9-4b33-bec7-7a9cc2f094b8"
+                        }
+                    ],
+                    "symbol": "trigger_31"
                 }
             ],
             "script": [
@@ -2217,7 +2320,9 @@
                 null,
                 null,
                 null,
-                "default-bg-6"
+                "default-bg-6",
+                null,
+                "default-ui"
             ],
             "spritePaletteIds": [
                 null,
@@ -4828,7 +4933,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 0,
@@ -5253,7 +5367,16 @@
             "width": 40,
             "height": 36,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -7014,7 +7137,16 @@
             "width": 40,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -8012,7 +8144,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -9024,7 +9165,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
@@ -9090,7 +9240,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
@@ -9114,7 +9273,16 @@
             "width": 20,
             "height": 36,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -9951,7 +10119,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -10402,7 +10579,8 @@
                 "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
                 null,
                 "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
-                "default-bg-6"
+                "default-bg-6",
+                "default-ui"
             ],
             "spritePaletteIds": [],
             "collisions": [
@@ -10833,7 +11011,16 @@
             "width": 20,
             "height": 18,
             "type": "ADVENTURE",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [
                 "default-bg-1"
             ],
@@ -11025,7 +11212,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [
                 15,
@@ -11520,7 +11716,16 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "default-ui"
+            ],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
@@ -14212,18 +14417,87 @@
             "imageHeight": 144,
             "filename": "oubliette.png",
             "tileColors": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
                 5,
+                3,
+                3,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
@@ -14239,64 +14513,138 @@
                 5,
                 5,
                 5,
+                2,
+                2,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
+                2,
                 5,
+                3,
+                3,
+                2,
                 5,
+                2,
                 5,
                 5,
                 5,
                 5,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
                 5,
                 5,
+                3,
+                3,
+                2,
                 5,
+                2,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 5,
+                2,
+                3,
+                3,
+                2,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 5,
+                2,
+                3,
+                3,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 5,
+                2,
+                3,
+                3,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                3,
+                3,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
@@ -14307,34 +14655,49 @@
                 5,
                 5,
                 5,
+                2,
+                3,
+                3,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
                 5,
                 5,
+                3,
+                3,
                 5,
                 5,
+                2,
                 5,
                 5,
                 5,
                 5,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
                 5,
+                2,
+                2,
                 5,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
@@ -14353,6 +14716,8 @@
                 5,
                 5,
                 5,
+                3,
+                3,
                 5,
                 5,
                 5,
@@ -14361,197 +14726,37 @@
                 5,
                 5,
                 5,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
                 5,
                 5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
                 5,
                 5,
                 5,
@@ -17161,7 +17366,368 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "startup\\title.png",
-            "tileColors": []
+            "tileColors": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+            ]
         },
         {
             "id": "2911d21b-698f-43b0-af8c-a9765f48f51e",
@@ -27043,7 +27609,7 @@
         },
         {
             "id": "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
-            "name": "Wooden",
+            "name": "Wooden Crate",
             "colors": [
                 "B8A008",
                 "988810",
@@ -27062,13 +27628,43 @@
             ]
         },
         {
-            "id": "48c5c27d-0916-42f9-aded-07b0fcd40fed",
-            "name": "New UI",
+            "id": "7011f76f-3e61-49d6-aa9c-0677bedff5e6",
+            "name": "Grayscale Bookshelf",
             "colors": [
-                "F8F8F8",
-                "B0F0F8",
-                "5098D0",
-                "002868"
+                "889010",
+                "889098",
+                "484810",
+                "000000"
+            ]
+        },
+        {
+            "id": "c40cd630-7ea9-4009-9809-bdd192a12e86",
+            "name": "Dark Blue",
+            "colors": [
+                "A8B8D8",
+                "707898",
+                "384060",
+                "081048"
+            ]
+        },
+        {
+            "id": "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
+            "name": "Dark Blue (Red highlight)",
+            "colors": [
+                "A8B8D8",
+                "707898",
+                "802808",
+                "081048"
+            ]
+        },
+        {
+            "id": "eb1eee61-f2c8-48cd-bfab-18ebae886399",
+            "name": "Purple (Jester)",
+            "colors": [
+                "E8D0E0",
+                "D080C8",
+                "B040A8",
+                "701068"
             ]
         }
     ],
@@ -28298,6 +28894,11 @@
             "id": "a7cc6137-2e00-4d41-a237-07c6ecf9a54a__L0",
             "name": "CoffinOpened",
             "symbol": "var_coffinopened"
+        },
+        {
+            "id": "3f9dab08-fb94-4940-9e16-2d371a0ec2b3__L0",
+            "name": "CoffinOpened",
+            "symbol": "var_coffinopened_0"
         }
     ],
     "engineFieldValues": [
@@ -28315,9 +28916,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 667,
-        "worldScrollY": 687,
-        "zoom": 400,
+        "worldScrollX": 397,
+        "worldScrollY": 443,
+        "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
