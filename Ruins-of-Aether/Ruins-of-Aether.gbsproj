@@ -596,7 +596,9 @@
                 null,
                 "default-ui"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                ""
+            ],
             "collisions": [
                 0,
                 0,
@@ -1152,7 +1154,7 @@
                 "default-ui"
             ],
             "spritePaletteIds": [
-                "",
+                "default-sprite",
                 ""
             ],
             "collisions": [
@@ -2160,7 +2162,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Peering into the drainage tunnel, you can\nalmost make out an object in the \ndarkness. You cannot reach it."
+                                                "Peering into the drainage tunnel, you can\nalmost make out an object in the \ndarkness. Your arms cannot reach it."
                                             ],
                                             "avatarId": ""
                                         },
@@ -21891,19 +21893,6 @@
                                             "priority": false
                                         },
                                         {
-                                            "id": "5f2cf433-32df-4275-a0a2-39763421d949",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 16,
-                                            "sliceY": 32,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        },
-                                        {
                                             "id": "f58b01e0-8930-4531-a9fc-13329752db4d",
                                             "x": 8,
                                             "y": 0,
@@ -27665,6 +27654,16 @@
                 "D080C8",
                 "B040A8",
                 "701068"
+            ]
+        },
+        {
+            "id": "83606c17-ffaf-4905-aba1-bbc839a25917",
+            "name": "Orange (Aylmera)",
+            "colors": [
+                "F8F0E0",
+                "F8D890",
+                "F8C050",
+                "F8A800"
             ]
         }
     ],
