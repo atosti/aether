@@ -481,6 +481,7 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 5. Find many farmsteads destroyed or abandoned. Those that remain are powerless to protect themselves.
 	- Some live day-to-day and hope neither the undead nor the bandits kill them.
 		~ "I fear the undead most of all. A bandit can be negotiated with."
+		~ "My great great grandfather built this farmstead. It's been in our family for generations. Don't see any reason why that should change now. Bandits are nothing new."
 	- Others have given up, spending their days drinking as they feel the end is near, so what's the point any more?
 	- The pubs are full, but hardly jovial. They have a more depressed aire to them.
 6. Aylmera and crew make their way through the farmland outskirts and into the Forest. This is bandit territory and they fight their way deep inside.
