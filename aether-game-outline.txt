@@ -433,6 +433,8 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- He warmly greets her. And describes his need of a "legendary hero" for an important quest.
 		~ Says its important to the stability of the entire Realm.
 		~ Note that he is one of the few non-party characters who accurately sees the significance of the Aether.
+		~ Have him EXPLICITLY mention Alexandros by name, and that he was the one who revived the player.
+			~ This will help prevent confusion if the player decides not to speak with Alexandros immediately after waking.
 	- Prying in just the right way can reveal a moment of humility from him, where he admits he wished he didn't have to revive her.
 		~ Poking through his bedroom and notes reveals bits of internal doubt.
 		~ It points to a man who understands he's at the end of his life. He's out of time and options. His bloodline can continue, but his kingdom MIGHT be able to.
@@ -1043,6 +1045,13 @@ Concepts:
 68. "Better to bend than to break."
 69. "I have no quarrel with you."
 70. Living through a time that is the calm before the storm. After having already lived through a brutal storm.
+71. Adjust the palette of the party depending on the lighting of the scene they're currently in.
+	- Is it a dark cavern? Maybe use darker blacks/grays/blues.
+	- Is it well light and outdoors? Use warmer reds and oranges.
+	- Is it a spooky or alien area? Color them in strange, luminscent greens.
+72. What if there were multiple different battle scenes? In that the background changed.
+	- This would allow different fights to have totally different arenas which match the Boss or enemies being fought.
+	- Could also add in ways for the environment being used to defeat opponents (if that's a desired gameplay route).
 
 
 Misc Dialogue for encounters:
