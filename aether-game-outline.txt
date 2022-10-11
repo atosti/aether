@@ -1052,6 +1052,9 @@ Concepts:
 72. What if there were multiple different battle scenes? In that the background changed.
 	- This would allow different fights to have totally different arenas which match the Boss or enemies being fought.
 	- Could also add in ways for the environment being used to defeat opponents (if that's a desired gameplay route).
+73. As the player moves further away from the main castle (and the story progresses) the built structures should be more worn down.
+	- So adjust tilemaps to have floor tiles missing pieces, or fenceposts broken, etc. etc.
+	- The one exception should be in the Lord's land, where everything is well-maintained.
 
 
 Misc Dialogue for encounters:
