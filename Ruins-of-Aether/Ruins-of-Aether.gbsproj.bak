@@ -2420,11 +2420,11 @@
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
@@ -2433,31 +2433,31 @@
                 15,
                 15,
                 15,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
@@ -3135,9 +3135,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "The floor is covered in scratch marks.\nThey seem pretty recent."
+                                                "The floor is covered in scratch marks, and\nthe bookshelf has been hastily shoved to\nthe side."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         },
                                         "id": "b20665a7-d6df-4bfb-9510-5c42ddf62021"
                                     }
@@ -3181,6 +3182,54 @@
                     ],
                     "leaveScript": [],
                     "symbol": "trigger_6"
+                },
+                {
+                    "name": "",
+                    "id": "ee11834d-99ee-41ad-b491-aef40a94227e",
+                    "x": 29,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
+                                            "x": 0,
+                                            "y": 0,
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "366744da-d7cf-4e62-864f-63b9f0c94657"
+                                    }
+                                ]
+                            },
+                            "id": "7b0c68f8-d461-424c-8586-b27baf1e3013"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "44549742-d7db-4ad3-9a9f-3e605eeb6ba2"
+                        }
+                    ],
+                    "symbol": "trigger_34"
                 }
             ],
             "script": [
@@ -5090,8 +5139,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
-            "x": 60,
-            "y": 707.6598290598287,
+            "x": 306.4,
+            "y": 558.8598290598287,
             "actors": [],
             "triggers": [],
             "script": [
@@ -5121,9 +5170,9 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "ae03d3db-80b5-4fdd-a11d-0e40fbdbdd53",
-                                    "x": 9,
-                                    "y": 33,
+                                    "sceneId": "8f207906-efe2-499f-95d7-58d29d1036d8",
+                                    "x": 29,
+                                    "y": 3,
                                     "direction": "up",
                                     "fadeSpeed": "2",
                                     "__collapse": true
@@ -5178,11 +5227,12 @@
                 15,
                 15,
                 15,
-                15,
+                4,
                 0,
                 0,
                 0,
                 0,
+                8,
                 15,
                 15,
                 15,
@@ -5217,12 +5267,12 @@
                 15,
                 15,
                 15,
-                15,
-                15,
+                4,
                 0,
                 0,
                 0,
                 0,
+                8,
                 15,
                 15,
                 15,
@@ -5243,41 +5293,40 @@
                 15,
                 15,
                 15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 15,
                 15,
                 15,
@@ -9792,54 +9841,7 @@
             "id": "ae03d3db-80b5-4fdd-a11d-0e40fbdbdd53",
             "x": 63.05882352941177,
             "y": 390.9084967320259,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "f91aef63-3a51-4844-b364-7d0e7c3e3e4b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "A portrait of a strong knight. He has an \nair of nobility to him."
-                                ],
-                                "avatarId": "",
-                                "__collapse": true
-                            },
-                            "id": "7b983606-43c9-4c76-9c7e-fd68e1f3eceb"
-                        },
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
-                                "x": 9,
-                                "y": 0,
-                                "direction": "",
-                                "fadeSpeed": "2",
-                                "__collapse": true
-                            },
-                            "id": "7d64c079-c54e-42cb-b9ed-65b4d2bf10cf"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "61d612e4-5851-4505-8a36-894dbbfe6a2d",
-                    "x": 9,
-                    "y": 35,
-                    "symbol": "actor_21"
-                }
-            ],
+            "actors": [],
             "triggers": [
                 {
                     "name": "",
@@ -31320,8 +31322,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 499,
-        "worldScrollY": 1173,
+        "worldScrollX": 518,
+        "worldScrollY": 376,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
