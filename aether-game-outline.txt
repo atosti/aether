@@ -163,8 +163,8 @@ Simple things to Work On:
 	- Wall torches
 	- Tiki-torch style standalone torches	
 	- Braziers
-101. Create a wall fabric sprite hanging on a wall
-	- Use the hanging fabric in Star Ocean for reference.
+102. Create a sprite for a painting hanging on a wall.
+	- Place them around the castle
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1278,6 +1278,8 @@ GB Studio:
 	https://www.gbstudio.dev/docs/scripting/gbvm/gbvm-operations/
 14. Understanding GBVM
 	https://gbstudiocentral.com/tips/understanding-gbvm/
+15. Fantastic Pixel Art and Spritework
+	https://twitter.com/zaebucca/status/1579928319839338497
 
 Soundtrack:
 ============
