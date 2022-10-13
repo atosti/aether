@@ -5174,7 +5174,8 @@
                                         "A strikingly large tower sits atop a hill,\noverlooking an expansive valley below.",
                                         "The tower feels out of place, its presence\nsimultaneously somber and comforting."
                                     ],
-                                    "avatarId": ""
+                                    "avatarId": "",
+                                    "__collapse": true
                                 },
                                 "id": "2cccc808-153b-43bb-969d-5481b536e976"
                             },
@@ -19597,8 +19598,8 @@
                 1,
                 1,
                 1,
-                1,
-                1,
+                3,
+                3,
                 1,
                 1,
                 1,
@@ -31725,8 +31726,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1259,
-        "worldScrollY": 2409,
+        "worldScrollX": 1179,
+        "worldScrollY": 1617,
         "zoom": 425,
         "customColorsEnabled": true,
         "sgbEnabled": false,
