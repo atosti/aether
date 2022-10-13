@@ -10,6 +10,7 @@ Simple things to Work On:
 17. Build out the actual menu options.
 	- Design an inventory system that can hold gold, basic healing items, key items, and equippables (e.g. swords).
 18. Design a landscape scene with panning and parallax
+	- Just do it as a proof of concept for now, then incorporate it into zone transitions later as the map is fleshed out.
 19. Draw a cutaway scene for a roaring fireplace.
 	- Also design the tile sprite for this fireplace.
 21. Add a balcony to the War Room.
@@ -23,13 +24,6 @@ Simple things to Work On:
 24. Implement the journal menu option. It records core details for the player, so they know their objective.
 	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
 	- Would love it to look like pages in a book which you can turn through. (Perhaps a static # of pages that get filled in as you complete core objectives.)
-29. Store the Key Items separate from regular items.
-	- This way a player knows the difference, and they'll always have room for Key Items.
-34. Finish the book in the East Hallway detailing a history of the Realm.
-	- Describe the bitter war fought with the Mad Wizard.
-	- Only mention details up to the conflict, but not mentioning the Great Explosion or the Aether Ruins.
-	- Instead focus on the betrayal of the King, the Prince's attempted assassination, and the practice of necromancy.
-	- Also mention how the Wizards took to the Great Tower, while raiding the catacombs for undead soldiers.
 35. Come up with a name for the King.
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
@@ -48,15 +42,13 @@ Simple things to Work On:
 48. Add a health item that can be looted off the Dining Hall's table.
 	- Like a shank of meat or something.
 50. Design sideways facing chairs for the dining hall.
-51. Add crates and old things (leaning portraits, etc) to the Hidden Alcove.
+51. Add leaning portraits and rolled up scrolls to the Hidden Alcove.
 	- Make it seem like a room cluttered with old junk.
-52. Design medieval torture devices to fill the Oubliette with
-	- Stretching table
 54. Add notes describing an ancient revival ritual to a table in the Oubliette.
 	- Obviously, this is to give backstory on how Aylmera is revived.
 56. Design tiles for the kitchen
 	- Cheese, barrels, kegs (on their sides), wine racks, cupboards, ladle, knives.
-57. Design a pile of bones tile for the Oubliette.
+57. Design a pile of bones tile for misc catacomb floors.
 	- Look at the LoZ botw fan art. Also look at oracle of ages/seasons for reference.
 58. Figure out how to draw tiles in front of the player.
 	- Do this for the pillars in the throne room.
@@ -76,8 +68,6 @@ Simple things to Work On:
 66. Update the oubliette to be slightly different upon returning after having the jester in your party.
 	- Hide Alexandros
 	- Have the wizards say different things.
-67. Incorporate Lepers somewhere.
-	- Perhaps a small village living in the remains of the abandoned settlement to the North-east?
 68. Design additional rooms in the castle.
 	- Off the doorways in the halls and throne room.
 69. Draw beds for the Barracks and bedchambers
@@ -96,11 +86,10 @@ Simple things to Work On:
 	- He should just be a hulking knight with big armor.
 77. Draw an armor stand
 78. Draw a weapon stand with spears and swords
-79. Have the Bandit leader (one-eye) reveal that the Prince was not as noble as initially we were led to believe.
+79. Have the Bandit leader (one-arm) reveal that the Prince was not as noble as initially we were led to believe.
 	- Though admirable and fearless, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
 	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have a force leftover to fight the undead.
 	- Therefore, many of them are joining forces with the bandits to attempt a rebellion.
-80. Require talking to the King (with the Jester recruited) before leaving the Castle
 81. Add a location with a full-scale cathedral.
 	- The castle should only have a tiny chapel instead.
 82. As the player and their party approaches the Aether Ruins toward the end of the game, Alexandros accidentally lets slip that he's never been inside.
@@ -113,14 +102,9 @@ Simple things to Work On:
 84. Oubliette sprites needed
 	- Stacked books, from the floor
 	- Piles of scrolls on tabletops
-	- Tables, chairs
 	- Candles/Candelabras
-	- Wall-mounted lanterns
 	- Grates to drain blood
-	- Torture devices (iron maiden, stretching rack)
-	- Coffin with its lid ajar (the origin of the player's body)
-	- Blood stained walls/floors
-	- Dirt stained walls/floors
+	- Torture devices (stretching rack)
 	- Wizard sprites
 85. Design a Logo and the logo screen
 	- Allow it to be skipped by pressing A in the case of rapidly restarting the game. It's a Quality of Life thing.
@@ -135,11 +119,8 @@ Simple things to Work On:
 	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
 91. Select roughly how many screens you want the game to be.
 	- This will help determine the overall size of the world and the distance between locations.
-92. Color the avatar sprites with different pallettes to separate them from one another even more. Color the characters' sprites to match.
 93. Create sprites to handle parrying and dodge rolling?
 	- Jumping?
-94. Create a logo for yourself
-	- Come up with a name for it
 95. Add cycling through the logos on game launch
 	- One for yourself, one for GB Studio
 	- Allow skipping them one-by-one with any button press (for QoL)
@@ -155,7 +136,8 @@ Simple things to Work On:
 		~ Neera = Yellow?
 		~ Alexandros = Blue?
 	- What is the main color of each core story zone?
-98. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
+		~ I like underground/cavernous areas being cooler, and well-light areas being warmer.
+		~ I want the Aether ruins to be windswept and green. A beautiful area, but with ominous stillness.
 99. Make a door sprite for a spiral staircase (a la Golden Sun)
 	- Can give the illusion of moving vertically in space between maps
 100. Created animated background tiles for lights in the castle.
@@ -163,8 +145,12 @@ Simple things to Work On:
 	- Wall torches
 	- Tiki-torch style standalone torches	
 	- Braziers
-102. Create a sprite for a painting hanging on a wall.
-	- Place them around the castle
+103. Create a sprite for a Portrait hanging on a wall.
+	- Place one somewhere significant in the castle.
+104. Design the inventory system.
+	- It should be able to hold a lot of different items
+		~ Like 32ish?
+		~ At first just get Key Items and Useable items built in, and listed separately.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1055,7 +1041,7 @@ Concepts:
 73. As the player moves further away from the main castle (and the story progresses) the built structures should be more worn down.
 	- So adjust tilemaps to have floor tiles missing pieces, or fenceposts broken, etc. etc.
 	- The one exception should be in the Lord's land, where everything is well-maintained.
-
+74. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
 
 Misc Dialogue for encounters:
 ===============================
