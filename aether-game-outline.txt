@@ -151,6 +151,7 @@ Simple things to Work On:
 	- It should be able to hold a lot of different items
 		~ Like 32ish?
 		~ At first just get Key Items and Useable items built in, and listed separately.
+105. Edit the title screen so that 'Continue' is only an option if a saved game exists.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1092,6 +1093,7 @@ Concepts:
 		~ Basically, he thought the Healing referred to what he was doing, and not to an exchange expected of the sacrifice (Aylmera).
 	- The player needs to reasonably be able to interpret that Silencing the living's burden means bringing peace to the Realm.
 	- This allows the player to die near the end of the game and bring the story some solid closure.
+77. "I am still a beast whose actions are dictated by stimuli."
 
 
 Misc Dialogue for encounters:
