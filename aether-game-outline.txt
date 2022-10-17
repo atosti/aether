@@ -10,6 +10,7 @@ Simple things to Work On:
 17. Build out the actual menu options.
 	- Design an inventory system that can hold gold, basic healing items, key items, and equippables (e.g. swords).
 18. Design a landscape scene with panning and parallax
+	- Just do it as a proof of concept for now, then incorporate it into zone transitions later as the map is fleshed out.
 19. Draw a cutaway scene for a roaring fireplace.
 	- Also design the tile sprite for this fireplace.
 21. Add a balcony to the War Room.
@@ -23,13 +24,6 @@ Simple things to Work On:
 24. Implement the journal menu option. It records core details for the player, so they know their objective.
 	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
 	- Would love it to look like pages in a book which you can turn through. (Perhaps a static # of pages that get filled in as you complete core objectives.)
-29. Store the Key Items separate from regular items.
-	- This way a player knows the difference, and they'll always have room for Key Items.
-34. Finish the book in the East Hallway detailing a history of the Realm.
-	- Describe the bitter war fought with the Mad Wizard.
-	- Only mention details up to the conflict, but not mentioning the Great Explosion or the Aether Ruins.
-	- Instead focus on the betrayal of the King, the Prince's attempted assassination, and the practice of necromancy.
-	- Also mention how the Wizards took to the Great Tower, while raiding the catacombs for undead soldiers.
 35. Come up with a name for the King.
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
@@ -48,15 +42,13 @@ Simple things to Work On:
 48. Add a health item that can be looted off the Dining Hall's table.
 	- Like a shank of meat or something.
 50. Design sideways facing chairs for the dining hall.
-51. Add crates and old things (leaning portraits, etc) to the Hidden Alcove.
+51. Add leaning portraits and rolled up scrolls to the Hidden Alcove.
 	- Make it seem like a room cluttered with old junk.
-52. Design medieval torture devices to fill the Oubliette with
-	- Stretching table
 54. Add notes describing an ancient revival ritual to a table in the Oubliette.
 	- Obviously, this is to give backstory on how Aylmera is revived.
 56. Design tiles for the kitchen
 	- Cheese, barrels, kegs (on their sides), wine racks, cupboards, ladle, knives.
-57. Design a pile of bones tile for the Oubliette.
+57. Design a pile of bones tile for misc catacomb floors.
 	- Look at the LoZ botw fan art. Also look at oracle of ages/seasons for reference.
 58. Figure out how to draw tiles in front of the player.
 	- Do this for the pillars in the throne room.
@@ -76,8 +68,6 @@ Simple things to Work On:
 66. Update the oubliette to be slightly different upon returning after having the jester in your party.
 	- Hide Alexandros
 	- Have the wizards say different things.
-67. Incorporate Lepers somewhere.
-	- Perhaps a small village living in the remains of the abandoned settlement to the North-east?
 68. Design additional rooms in the castle.
 	- Off the doorways in the halls and throne room.
 69. Draw beds for the Barracks and bedchambers
@@ -96,11 +86,10 @@ Simple things to Work On:
 	- He should just be a hulking knight with big armor.
 77. Draw an armor stand
 78. Draw a weapon stand with spears and swords
-79. Have the Bandit leader (one-eye) reveal that the Prince was not as noble as initially we were led to believe.
+79. Have the Bandit leader (one-arm) reveal that the Prince was not as noble as initially we were led to believe.
 	- Though admirable and fearless, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
 	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have a force leftover to fight the undead.
 	- Therefore, many of them are joining forces with the bandits to attempt a rebellion.
-80. Require talking to the King (with the Jester recruited) before leaving the Castle
 81. Add a location with a full-scale cathedral.
 	- The castle should only have a tiny chapel instead.
 82. As the player and their party approaches the Aether Ruins toward the end of the game, Alexandros accidentally lets slip that he's never been inside.
@@ -113,14 +102,9 @@ Simple things to Work On:
 84. Oubliette sprites needed
 	- Stacked books, from the floor
 	- Piles of scrolls on tabletops
-	- Tables, chairs
 	- Candles/Candelabras
-	- Wall-mounted lanterns
 	- Grates to drain blood
-	- Torture devices (iron maiden, stretching rack)
-	- Coffin with its lid ajar (the origin of the player's body)
-	- Blood stained walls/floors
-	- Dirt stained walls/floors
+	- Torture devices (stretching rack)
 	- Wizard sprites
 85. Design a Logo and the logo screen
 	- Allow it to be skipped by pressing A in the case of rapidly restarting the game. It's a Quality of Life thing.
@@ -135,11 +119,8 @@ Simple things to Work On:
 	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
 91. Select roughly how many screens you want the game to be.
 	- This will help determine the overall size of the world and the distance between locations.
-92. Color the avatar sprites with different pallettes to separate them from one another even more. Color the characters' sprites to match.
 93. Create sprites to handle parrying and dodge rolling?
 	- Jumping?
-94. Create a logo for yourself
-	- Come up with a name for it
 95. Add cycling through the logos on game launch
 	- One for yourself, one for GB Studio
 	- Allow skipping them one-by-one with any button press (for QoL)
@@ -155,7 +136,8 @@ Simple things to Work On:
 		~ Neera = Yellow?
 		~ Alexandros = Blue?
 	- What is the main color of each core story zone?
-98. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
+		~ I like underground/cavernous areas being cooler, and well-light areas being warmer.
+		~ I want the Aether ruins to be windswept and green. A beautiful area, but with ominous stillness.
 99. Make a door sprite for a spiral staircase (a la Golden Sun)
 	- Can give the illusion of moving vertically in space between maps
 100. Created animated background tiles for lights in the castle.
@@ -163,8 +145,13 @@ Simple things to Work On:
 	- Wall torches
 	- Tiki-torch style standalone torches	
 	- Braziers
-101. Create a wall fabric sprite hanging on a wall
-	- Use the hanging fabric in Star Ocean for reference.
+103. Create a sprite for a Portrait hanging on a wall.
+	- Place one somewhere significant in the castle.
+104. Design the inventory system.
+	- It should be able to hold a lot of different items
+		~ Like 32ish?
+		~ At first just get Key Items and Useable items built in, and listed separately.
+105. Edit the title screen so that 'Continue' is only an option if a saved game exists.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -200,6 +187,9 @@ All of this builds to the Climax:
 		advantages in completing their overall goal (saving the Realm).
 		~ Then I want them to return to the King, and either submit (accepting that a King is better than no King) or to kill him (either out of revenge, or through finding him unfit to rule).
 		~ Then the game ends, the player does NOT takeover as the new ruler.
+	- I think I prefer an ending where the player further disrupts the balance of power, killing anyone left who could possibly rule, and then abandoning it completely.
+		~ Leaving it to rot, or perhaps rebuild, or anything. But that they're finished. The effort by Aylmera and her team should be grueling and tiresome.
+		~ But what is the POINT of such a story or ending? And how do I communicate these feelings to the player?
 
 
 Main Antagonists:
@@ -433,6 +423,8 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- He warmly greets her. And describes his need of a "legendary hero" for an important quest.
 		~ Says its important to the stability of the entire Realm.
 		~ Note that he is one of the few non-party characters who accurately sees the significance of the Aether.
+		~ Have him EXPLICITLY mention Alexandros by name, and that he was the one who revived the player.
+			~ This will help prevent confusion if the player decides not to speak with Alexandros immediately after waking.
 	- Prying in just the right way can reveal a moment of humility from him, where he admits he wished he didn't have to revive her.
 		~ Poking through his bedroom and notes reveals bits of internal doubt.
 		~ It points to a man who understands he's at the end of his life. He's out of time and options. His bloodline can continue, but his kingdom MIGHT be able to.
@@ -726,15 +718,43 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		- Attempting to dig up any of the bodies will anger the grieving soldier, triggering combat.
 			~ But he does drop a strong weapon for the party to wield.
 		- Moreover, you'll find that combining these bones fails to restore the stone.
+	b. The Queen's holy grave (located directly north of the castle, but inaccessible from it).
 
 
 XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
 	- How about having to fuse it with the bones of a pure, innocent person.
 	- Basically, they have to dig up the Queen and defile her corpse in order to restore the stone.
 	- *Everyone disliked that*. The party should HATE that they have to do this.
+XX. After rebalancing the elements, the party leaves the Aether ruins and begins the final trek back to the castle.
+	- They acknowledge the foolishness of the King.
+		~ His inability to prevent the Bandit scourge.
+		~ His inability to protect any of his lands or peasantry.
+		~ His inability to protect any of the stones.
+		~ His inability to see the danger posed to Alexandros by the Lord.
+		~ His willingness to use dark magic (reviving Aylmera)
+		~ His willingness to shatter more of the stones, without understanding them.
+		~ His eagerness to wage war against the wizards, leading to the release of Aether and the death of his heir.
+		~ His unwillingness to lead, instead sitting in the safety of his castle.
+	- The team agrees to kill him for the betterment of the Realm.
+	- On the journey back, also make it clear that the Aether-frenzied creatures are now dormant. Returned to corpses.
+XX. Making their way to the city ruins, they're surprised to find no one guarding the perimeter.
+	- The theme of eerie stillness should return and be omnipresent during this stage of the game.
+	- Returning to the castle courtyard, they find it in ruins. Soldiers and nobles lie dead.
+		~ Consider forcing them to walk a different route to the throne room, in many ways retracing the steps of the introduction.
+		~ As opposed to walking straight in to the Throne room, go through side passages and wind your way to the Great Hall.
+	- All along the way to the throne, there is death and chaos. Furniture moved and smashed, smoldering rooms, etc.
+XX. Reaching the throne room, the player sees the King's crumpled body lying at the foot of his throne.
+	- The Bandit Queen (Vivian) now sits atop it, with a handful of bandits at her side.
+		~ The Jester approaches the King's body and closes its eyes. Showing the King mercy and respect.
+	- Vivian: "You're too late. You couldn't save him."
+	- Aylmera: "Had no intention of it."
+	- Vivian: "Ah. Then you're more of a sellsword than I'd pegged you for."
+
+
+
 
 XX. Still need a way to get the 4th elemental stone (which isn't Aether)
-	- Perhaps the King has been safeguarding it himself, and personally hands it to you?
+	- Perhaps the King has been safeguarding it himself, and personally hands it to you upon beginning your journey?
 XX. Aylmera and crew arrive at the Queen's grave.
 	- What is significant here? Perhaps she died in childbirth. Her gravestone could read: "She sacrificed all she had for the continuation of the Realm. May her soul rest easy knowing we'll protect her dream, just as she protected ours."
 XX. How did the King come to power?
@@ -1043,12 +1063,43 @@ Concepts:
 68. "Better to bend than to break."
 69. "I have no quarrel with you."
 70. Living through a time that is the calm before the storm. After having already lived through a brutal storm.
+71. Adjust the palette of the party depending on the lighting of the scene they're currently in.
+	- Is it a dark cavern? Maybe use darker blacks/grays/blues.
+	- Is it well light and outdoors? Use warmer reds and oranges.
+	- Is it a spooky or alien area? Color them in strange, luminscent greens.
+72. What if there were multiple different battle scenes? In that the background changed.
+	- This would allow different fights to have totally different arenas which match the Boss or enemies being fought.
+	- Could also add in ways for the environment being used to defeat opponents (if that's a desired gameplay route).
+73. As the player moves further away from the main castle (and the story progresses) the built structures should be more worn down.
+	- So adjust tilemaps to have floor tiles missing pieces, or fenceposts broken, etc. etc.
+	- The one exception should be in the Lord's land, where everything is well-maintained.
+74. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
+75. "Peace cannot stem from an occupied throne. May its seat remain empty forever."
+76. What if Aylmera's body began to deteriorate over the course of the story.
+	- This would force urgency, and a feeling of despair.
+	- Could start with things like minor bleeding, and end with limb paralysis and similar things.
+		~ Bleeding from forehead, eyes, ears, nose.
+		~ Coughing up blood.
+		~ Stiffness in limbs.
+		~ Blacking out.
+	- But she'd still need to be able-bodied enough to engage in combat up until the very end.
+	- Maybe she could be forced to rest for a day or so at one point.
+	- This helps tie the plot in to the Intro and her reawakening.
+	- Alexandros can theorize that the ritual was unstable, and he can tell you don't have many days left.
+	- Overall, the player should be urged to fulfill the mission set out in the prologue: Silence the living's burdens, return to the fold, and then Arise.
+		~ There needs to be a way that the player learns more about this "prophecy" of sorts. Or rather, about how this afterlife seems to work.
+		~ Alexandros could learn that he mistook it for a "Healing" ritual, but it's a "Morality Healing" ritual. (Need better phrasing on that long-term)
+			~ It's meant to give someone an opportunity to repent and remedy the harm done in their lifetime.
+		~ Basically, he thought the Healing referred to what he was doing, and not to an exchange expected of the sacrifice (Aylmera).
+	- The player needs to reasonably be able to interpret that Silencing the living's burden means bringing peace to the Realm.
+	- This allows the player to die near the end of the game and bring the story some solid closure.
+77. "I am still a beast whose actions are dictated by stimuli."
 
 
 Misc Dialogue for encounters:
 ===============================
-1.  Player: "I heard your enemies called you 'The Butcher'.
-	Butcher: "No. My friends call me Butcher. My enemies know me by many other names: Killer. Cannibal. Rapist."
+1.  Player: "I heard your enemies call you 'The Butcher'.
+	Butcher: "No. It's my my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
 	Butcher: "I wonder which title you'll choose for me." *Smiles*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
@@ -1067,7 +1118,7 @@ Misc Dialogue for encounters:
 		[Absolutely.]
 		Lord: "You would have liked my father. He'd have led you to a glorious death."
 		[Absolutely not.]
-		Lord: "Then perhaps you are not as much a fool as your King." (referring to the Jester)
+		Lord: "Then perhaps you are not as much a fool as his King." (referring to the Jester)
 4.  (This occurs shortly after the player has slaughtered the Leper colony.)
 	*Party passes a hermit sitting alone, in a tunnel by a campfire*
 	Hermit: "You seem tired, please come sit by the fire and rest a moment."
@@ -1075,7 +1126,7 @@ Misc Dialogue for encounters:
 		[Accept.] (Rework this slightly, FORCE the player to Accept the invitation.)
 			Hermit: "It's not oft that travelers venture this close to my seclusion. Truthfully, I miss their companionship."
 			Alexandros: "Are you not here to be alone? To be isolated, with peace of mind?"
-			Hermit: "...Yes, I am. Yet sometimes what we need isn't what we desire. Tell me, which guides you more, your needs or your wants?"
+			Hermit: "...Yes, I am. Yet sometimes what we need isn't what we desire. Tell me. Which guides you more, your needs or your wants?"
 			Player:
 			[My Needs.]
 				Hermit: "Practical and admirable. To deny one's desires is a true strength."
@@ -1083,28 +1134,32 @@ Misc Dialogue for encounters:
 				Hermit: "Understandable. What are we if not creatures guided by our comforts?"
 			Hermit: "So then, do you know what lies ahead for you?"
 			[Yes.]
-				Hermit: "And yet you still accompany me? I suppose it's easy to feel dead in such a lonely world. Perhaps I'm not the only one who desires compassion..."
+				Hermit: "And yet you still choose to accompany me? I suppose it's easy to feel dead in such a lonely world. Perhaps I'm not the only one who desires compassion..."
 			[No.]
 				Hermit: *Smiles* "That's alright. I know well enough for the both of us."
 			Hermit: "I want to tell you a story. When I was younger, I was known for my keen sense of smell. So much so, that I earned the nickname Bloodhound in my village."
 			Hermit: "You see, I could pick up the stench of death on a traveler long before they reached our village. I protected us from lots of violence this way..."
 			Hermit: "But one day, a young man approached. His body and eyes were tired, as though he'd been walking for days. And though, to me, he reeked, he was so timid and frail that no one thought him any threat."
 			Hermit: "He told us his family had been slaughtered by bandits, their blood still staining his clothes, as he threw himself at our feet and begged for our assistance in seeking revenge."
-			Hermit: "It must have been pity that led us to believe him, but we diligently formed a searchparty that followed him to his family's farmstead. It wasn't until we arrived that we were ambushed by his creations."
-			Hermit: "He was an unholy magician, a necromancer, and the entire property had undead beneath its soil. As we searched the house, they rose from the earth and surrounded us."
-			Hermit: "By some miracle, we were able to escape. But with our dead and injured, we were slow to return home. Our abscence from the village allowed his minions to easily overrun it. The bodies were all cold by the time we made it back."
-			Hermit: "Truthfully, I've forgotten the faces of many of his victims. But that stench... that sickly, sweet aroma... It sticks with me in an unnatural way."
-			Hermit: "But nevermind all that. Us old-timers have plenty of time to reminisce on our pasts."
-			Hermit: "Thanks for keeping me company."
+			Hermit: "It must have been pity that led us to believe him, but we diligently formed a search party and followed him to his family's farmstead. And it wasn't until we were inside that we were ambushed by his creations."
+			Hermit: "He was an unholy magician, a necromancer, and the entire property had undead buried beneath its soil. As we searched the house, they rose from the earth and surrounded us."
+			Hermit: "By some miracle, we were able to escape. Though with our dead and injured, we were slow in our return home. Our prolonged abscence had left the village vulnerable to his minions, and he easily overran it. The bodies were all cold by the time we made it back."
+			Hermit: "Truthfully, I've forgotten the faces of his victims. But that stench... that sickly, sweet aroma... It sticks with me in an unnatural way."
+			Hermit: "I've carried that story inside me a long time..."
+			*The Hermit pauses* (... emote)
+			Hermit: "But nevermind all that. Us old-timers have plenty of time to reminisce on our past mistakes."
+			Hermit: "I appreciate you for keeping me company."
 	*As the player goes to leave (back-turned), the Hermit throws a knife at them and lunges, triggering combat.*
 	[If Accept., Needs., and Yes.]
 		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
 	[Elif Accept.]
-		Hermit: "I know you're not him, yet... you carry his stench."
+		Hermit: "I know you can't possibly be him, yet... you bear his remarkable stench."
 5. Ranger: "You can't imagine the volume of death that I saw. That WE saw. We followed that fool and his son into a brutal war. And what was our prize? My arm still lies on that battlefield. Accompanied by the bones of my brethren."
-   Ranger: "There's nothing you can say to change my mind. The King's wishes will only bring us further ruin. As long as you serve him, you must be stopped."
+   Ranger: "There's nothing you can say to change my mind. The King's wishes will only bring us further ruin. As long as you serve him, you must. be. stopped."
 6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something better. A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure. Even the King could see it. And it filled him with immense pride. But the King's hubris led him astray."
-Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that exploded the Tower. I saw the destruction it wrought, not just on the surrounding lands, but on the King himself. He's tried to reassembled the crumbled pieces, but he lacks the skill to do it. If only the Prince were here in his place... The Aether robbed our Realm of a deserving King."
+Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that exploded the Tower."
+Jester: "I saw the destruction it wrought, not just on the Realm, but on the King himself. He tried to reassemble the crumbling pieces, but it's like they say: A mirror can't be mended with glue."
+Jester: "It's clear he lacks the prowess to remedy the situation. If only the Prince were here in his stead... The Aether robbed us of a deserving King."
 	- The Jester coming to terms with how the King is unfit to rule.
 
 
@@ -1277,6 +1332,8 @@ GB Studio:
 	https://www.gbstudio.dev/docs/scripting/gbvm/gbvm-operations/
 14. Understanding GBVM
 	https://gbstudiocentral.com/tips/understanding-gbvm/
+15. Fantastic Pixel Art and Spritework
+	https://twitter.com/zaebucca/status/1579928319839338497
 
 Soundtrack:
 ============
