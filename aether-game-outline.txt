@@ -1110,6 +1110,17 @@ Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager 
 
 Combat System:
 ==============
+Oct 16, 2022:
+--------------
+Design a combat system that borrows from Mike Tyson's Punch Out in some ways. Imagine enemies having real-time attacks with weakpoints mixed in.
+	- The player has to close the distance appropriately to capitalize on these openings.
+	- Could also have controlling the player (e.g. knocking them away) impact the fight.
+Another idea is having multiple phases where enemies are totally exposed and not.
+	1. Full exposure would mean you deal damage to them, or full damage to them.
+	2. Otherwise, they're in a defensive stance, meaning you have to shred armor before dealing damage (e.g. 5 shield icons that must be removed first)
+		- This would reward learning the patterns, but allow players to attack however they please.
+
+
 Aug 22, 2022:
 --------------
 Ran into issues with the sprite being too large now and causing issues when placing it in the world.
