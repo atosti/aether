@@ -316,8 +316,8 @@ Character Names/Titles:
 3. Alexandros, Magical Prodigy
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
-4. Neera, Hivemind Cleric
-	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind?
+4. Neera, Hivemind Cleric (Diviner?)
+	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind? Hivemind Diviner?
 	* Zen, wise, faithful, relaxed, trusts in her fate to work out. Duty-bound.
 	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
 	* She has only one eye, the other socket containing a fake eyeball Fashioned of pure gold. 
@@ -1165,6 +1165,17 @@ Jester: "It's clear he lacks the prowess to remedy the situation. If only the Pr
 
 Combat System:
 ==============
+Oct 16, 2022:
+--------------
+Design a combat system that borrows from Mike Tyson's Punch Out in some ways. Imagine enemies having real-time attacks with weakpoints mixed in.
+	- The player has to close the distance appropriately to capitalize on these openings.
+	- Could also have controlling the player (e.g. knocking them away) impact the fight.
+Another idea is having multiple phases where enemies are totally exposed and not.
+	1. Full exposure would mean you deal damage to them, or full damage to them.
+	2. Otherwise, they're in a defensive stance, meaning you have to shred armor before dealing damage (e.g. 5 shield icons that must be removed first)
+		- This would reward learning the patterns, but allow players to attack however they please.
+
+
 Aug 22, 2022:
 --------------
 Ran into issues with the sprite being too large now and causing issues when placing it in the world.
@@ -1325,6 +1336,13 @@ GB Studio:
 	https://twitter.com/zaebucca/status/1579928319839338497
 16. Very well-drawn landscape with light rays
 	https://twitter.com/Trixelized/status/1582381668261715969
+17. A list of medieval jokes
+	https://twitter.com/WeirdMedieval/status/1582420889400135680
+	https://archive.org/details/facetiaeorjocos00bracgoog/page/n7/mode/2up
+		- A good one on page 199 to page 200. A moral lesson on actions vs words.
+			https://archive.org/details/facetiaeorjocos00bracgoog/page/n205/mode/2up
+		- Page 50 has a good quip about the cold
+			https://archive.org/details/facetiaeorjocos00bracgoog/page/n59/mode/2up
 
 Soundtrack:
 ============
