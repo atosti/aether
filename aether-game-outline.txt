@@ -1094,6 +1094,7 @@ Concepts:
 	- The player needs to reasonably be able to interpret that Silencing the living's burden means bringing peace to the Realm.
 	- This allows the player to die near the end of the game and bring the story some solid closure.
 77. "I am still a beast whose actions are dictated by stimuli."
+78. "Killers make poor leaders."
 
 
 Misc Dialogue for encounters:
