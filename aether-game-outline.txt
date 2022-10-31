@@ -170,27 +170,58 @@ Core Gameplay Loop:
 	- Answering dialogue choices to pledge loyalty, or wage war
 	- Discussing with your party the rationale behind your choices
 3. Encountering enemies
-	- They patrol around the zone, catching their attention triggers combat
+	- They patrol around the zone, catching their attention triggers combat?
 	- Think a mix of pokemon trainers and enemy patrols
 	- Could also just have zones (like Tall grass in Pkmn) where encounters can randomly occur
 4. Combat
-	- JRPG style combat
-	- Party encounters enemy parties and fights with a mixture of single target and multi-target attacks.
-		~ Easiest way to do multi is to have an attack with a center and adjacent tiles
-		~ Or it damages center and one to EITHER the left or right, etc.
-All of this builds to the Climax:
-	- Player stabilizes the Realm and returns to the King. Based on faction decisions, you fight the King
-	and either spare or kill him. 
-	- Enstating whichever group/groups you've aligned with previously.
-		~ I hate this. I don't want a "you pick the winner" type thing. It's so boring.
-		~ I want the player to kill or align with groups throughout the game to get different trade-offs or
-		advantages in completing their overall goal (saving the Realm).
-		~ Then I want them to return to the King, and either submit (accepting that a King is better than no King) or to kill him (either out of revenge, or through finding him unfit to rule).
-		~ Then the game ends, the player does NOT takeover as the new ruler.
-	- I think I prefer an ending where the player further disrupts the balance of power, killing anyone left who could possibly rule, and then abandoning it completely.
-		~ Leaving it to rot, or perhaps rebuild, or anything. But that they're finished. The effort by Aylmera and her team should be grueling and tiresome.
-		~ But what is the POINT of such a story or ending? And how do I communicate these feelings to the player?
-
+	- Combat takes place in instanced arenas, customized to each zone of the map.
+		~ Perhaps even unique to bossfights as well.
+	- It involves fighting large enemies (or groups of enemies) in a combat style a little similar to LoZ.
+	- Each enemy will have bullet hell attacks, and patterns, which the player must combat via positioning and selecting when to strike.
+	- Enemies will also have attach phases, allowing for openings where extra damage is dealt to them.
+	- If possible, showing enemy healthbars on-screen somewhere (even just always as a footer/header) 
+		~ Could change it to show the last enemy hit.
+	- Additionally, the player is able to cycle between their party members in order to change what abilities they have in battle.
+		~ Would LOVE for each character to have their own HP. And when they're KO'd, then you can't use them.
+		~ But a shared total HP bar would suffice.
+	
+		Now all that's necessary is to figure out how to get lots of projectiles on screen.
+		As well as what each of the characters' abilities are, and how they'll synergize with one another.
+			- Can I implement attaching DoT affects to enemies? (Neera moveset)
+				~ E.g. make it so attacks deal double damage for a period of time (or 'X' number of hits) after landing a blow with a particular character?
+				~ What is her dodge mechanic?
+			- Can I implement a LoZ style Roc's Feather jump for leaping over projectiles? (Aylmera moveset)
+			- Can I implement a Dashing mechanic with associated "blurred" graphics added? (Jester moveset)
+				~ Can I make the player immune to damage while mid-dash?
+			- Can I implement firing projectiles from the player on a short cooldown? (Alexandros moveset)
+				~ Instead of a sword, he'll fire out attacks.
+				~ Or his attack could be ranged, but at a fixed distance in front of him, with a gap between him and his target where NO damage is dealt.
+					~ Like placing a whirlwind a few tiles away.
+					~ This would require very exact placement of the player when fighting.
+				~ What is his dodge mechanic?
+			- What about poison damage on a character with a shorter range weapon?
+				~ e.g. Jester with a poisoned dagger
+			- What about an AoE damage ability, that has a shortish range, but allows multi-hitting?
+				~ Could force the player to hold still while using it, similar to the cross in Faith.
+		
+		Overall, the goal is to have 8 unique mechanics for combat. 2 per character.
+			~ One offensive (A button attack)
+				a. Sword
+				b. Throwing knives?
+				c. Beam attack + debuff? (a straight-line attack that applies a debuff)
+				d. Magic orb projectiles (3 shot out)
+			~ One defensive (B button dodge/roll/jump/etc.)
+				a. Aerial jump
+				b. Dash
+				c. HP heal on a decent cooldown (20s? Also heals only a bit?)
+					~ Would need to avoid damage with NO dodge mechanic in order to spam heal as well.
+				d. Temporary shield wall? (would need to be painted over the background)
+				e. A self-buff to deal more damage for a short amount of time? (Could affect all characters, even after swapping)
+			~ Select -> Changes character
+			~ OR Select + B cycles forward through the party, and Select + A cycles backwards.
+				a. This would allow plain Select to also be used as a second ability for each of the characters.
+					~ Need to experiment with hand placement on a Gameboy to make sure these feel natural enough when facing lots of projectiles.
+		Regardless: The goal is to have 4 UNIQUE ways to fight, that all feel very different. They should also have elements that are complementary to encourage switching.
 
 Main Antagonists:
 =================
@@ -207,7 +238,7 @@ Main Antagonists:
 2. One-armed warrior?
 	- Acquires a second arm made of magic?
 	- Could have multiple battles. First time is against them with one arm, second time is once they've acquired a second.
-3. Undead Prince
+3. Undead Prince (Morcant)
 	- Filled with Aetherial rage. Uses a massive 2 handed sword and wears bulky armor.
 4. Leper leader
 	- Sickly and weak, but very astute and philosophical. Acknowledges the need for change in the Realm's leadership.
@@ -224,13 +255,13 @@ Main Antagonists:
 			~ e.g. Hero was always known to be physically warm, thought to have fire inside them. Meanwhile, the Player character gets cold in various regions and is freezing at once point.
 		d. When given the Hero's fabled sword, it should feel slightly too heavy for you.
 6. Vampire Lord
-	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly live him alone, and he's a recluse after all.
-	- The party could be forced to enter his manor as a means to escape a growing undead horde they'd attracted.
+	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly leave him alone, and he's a recluse after all.
+	- The party could be forced to enter his manor as a means to escape a growing undead horde they've attracted.
 		~ Then they must navigate the inside and escape.
 	- He's inhospitable, though not opening hostile initially.
 		~ Has no interesting in feeding on the party, but wouldn't mind them simply being dead (less long-term enemies that way).
 	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
-	- Although very old, he should still (technically) be younger than the Hero. He makes remarks about this, and how unusual it is.
+	- Although very old, he should still (technically) be younger than Aylmera. He makes remarks about this, and how unusual it is.
 
 
 
@@ -302,7 +333,8 @@ Character Names/Titles:
 
 1. Aylmera, Esteemed Warrior
 	- Protector of Antiquity
-	* Stoic, a blank slate for the player to project themselves
+	* Stoic, a bit of a blank slate for the player to project themselves
+	* Dutiful, headstrong, skeptical
 2. Sigmund, Court Jester
 	- Famous jesters seemed to have nicknames (e.g. Gaska, meaning Goose)
 	- Possible names: Toad? Hugo? Drake?
@@ -318,7 +350,7 @@ Character Names/Titles:
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric (Diviner?)
 	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind? Hivemind Diviner?
-	* Zen, wise, faithful, relaxed, trusts in her fate to work out. Duty-bound.
+	* Zen, wise, faithful, relaxed, trusting (believes her fate will work out), Duty-bound.
 	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
 	* She has only one eye, the other socket containing a fake eyeball Fashioned of pure gold. 
 		- She believes she communes with God.
@@ -328,13 +360,14 @@ Character Names/Titles:
 5. ???, King of the Realm
 	- Reginald (too dweeby)? 
 	- The Crown, His Majesty
-	* Prideful, bull-headed, tired, impatient, emotionally cold.
+	* Prideful, bull-headed, tired, impatient, emotionally cold, dying (at the end of his life and he knows it).
 	* A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war.
 		- But his son and most of his Royal Guards were slain during the siege of the Great Tower. 
 		- This was an outcome the King did not desire, as the Prince was his only heir. He understands that he's too old to lead much longer. Without a proper heir and the tension of pending war, he fears he might be the last of his royal line.
 		- Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
-6. Marshall, Prince of the Realm
+6. Morcant, Prince of the Realm
 	- Defender of the Realm
+	- Alternative name for him: Marshall/?
 	* (Undead) = Unhinged, angry, hateful, confused, longing (for a long-lost purpose of his former self)
 	* In life, by all accounts, he was a smart, caring, competent leader.
 		- Even some of the Sorcerers admired him as an individual.
@@ -344,17 +377,17 @@ Character Names/Titles:
 7. ???, Mad Wizard
 	- Ignacio?
 	- Bringer of Chaos?
-	* Uncaring, self-centered, enthralled by his work
+	* Self-centered, enthralled by his work/studies, brilliant, kept to himself, 
 8. ???, Ruthless Lord
-	- Cruel order-bringer, Slayer of the Weak, His Liege
+	- Cruel order-bringer, Lawbringer, Slayer of the Weak, His Liege
 	- Velazquez? A strong Spanish Knight would be a good influence.
 	* Harsh, follows established rules, strict, dedicated to his sense of "order"
 9. ???, Traveling Apothecary
 	- Healer of wounds, Salesman, Con Artist
 	- Leader of the Lepers? Guide of the Forgotten?
 	* Sly, cunning, a conman, charismatic, very amicable, likeable
-10. ???, Bloodhound Hermit
-	- Jackson? 
+10. , Bloodhound Hermit
+	- Known simply as "The Bloodhound".
 11. Margot, Witch
 	- Treacherous Witch, Decrepit Gypsy, Mystic
 	* Untrusting of strangers, mystical, 
@@ -371,7 +404,7 @@ Character Names/Titles:
 	- Black Snow vibes.
 16. ???, Lost Paladin
 	- Battered Paladin, Broken Bruiser, Old Dog
-	* Paladins were scarce before the war (as holy magic was outdated), but especially now since many of them died in the war with the sorcerers.
+	* Paladins were scarce before the war (as holy magic was outdated vs. geomancy), but especially now since many of them died in the war with the sorcerers.
 		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
 		- Once revered as beacons of morality and the will of God, they're now seen as idealogues who threw away their traditional ideals for false hopes.
 
@@ -735,7 +768,7 @@ XX. After rebalancing the elements, the party leaves the Aether ruins and begins
 		~ His willingness to shatter more of the stones, without understanding them.
 		~ His eagerness to wage war against the wizards, leading to the release of Aether and the death of his heir.
 		~ His unwillingness to lead, instead sitting in the safety of his castle.
-	- The team agrees to kill him for the betterment of the Realm.
+	- The team agrees to dethrone him (killing only if necessary) for the betterment of the Realm.
 	- On the journey back, also make it clear that the Aether-frenzied creatures are now dormant. Returned to corpses.
 XX. Making their way to the city ruins, they're surprised to find no one guarding the perimeter.
 	- The theme of eerie stillness should return and be omnipresent during this stage of the game.
@@ -749,10 +782,9 @@ XX. Reaching the throne room, the player sees the King's crumpled body lying at 
 	- Vivian: "You're too late. You couldn't save him."
 	- Aylmera: "Had no intention of it."
 	- Vivian: "Ah. Then you're more of a sellsword than I'd pegged you for."
-
-
-
-
+XX. Misc notes on the Finale
+	- I think I prefer an ending where the player further disrupts the balance of power, killing anyone left who could possibly rule, and then abandoning it completely.
+		~ Leaving it to rot, or perhaps rebuild, or anything. But that they're finished. The effort by Aylmera and her team should be grueling and tiresome.
 XX. Still need a way to get the 4th elemental stone (which isn't Aether)
 	- Perhaps the King has been safeguarding it himself, and personally hands it to you upon beginning your journey?
 XX. Aylmera and crew arrive at the Queen's grave.
@@ -1026,7 +1058,7 @@ Concepts:
 		~ This is also where the player begins to LEARN of their own mystery (their identity).
 	- Aether Ruins = Chaos/Savagery
 		~ Pure, unfiltered violence and aggression. A wasteland of raw violence and war.
-	- Royal Catacombs = Peace
+	- Royal Catacombs = Peace/The Past
 		~ Perhaps the only peaceful zone in the game.
 		~ Only the dead may know peace.
 		~ Even then, there is evidence of the Wizards' attempts to disrupt that by stealing corpses.
@@ -1035,17 +1067,20 @@ Concepts:
 			~ The undead continue tirelessly as a reminder of the now broken empire the Wizards attempted to build. (And its great moral cost).
 		~ Witnessing the undead still at work should offend the Jester (and perhaps the player) at Alexandros.
 			~ "You observed all this happening and did nothing? This is consecrated earth, all these skeletons earned their peace."
-	- Castle Finale = Ruination Realized
+		~ These catacombs could have caverns that weave in and out of the mines. New paths, which the wizards forged for faster material extraction.
+	- Castle Finale = Ruination Realized/Opportunity for something new/Rebirth
 		~ The King is dead or hostaged. Most of the soldiers and nobles are slain.
-		~ The castle itself is now damaged, unable to be defended properly.
+		~ The castle itself is now seriously damaged, unable to be defended properly.
 		~ An usurper sits on the throne.
+		~ The castle is in flames. The nobles have all died or fled.
 		~ Throughout the game, the player learns there isn't a single person deserving enough to rule the Realm.
 			~ But at the end, they realize they've killed everyone CAPABLE of even ruling it.
-			~ The only thing left is "To return it to dust and ash."
-64. Design a Title Screen
+			~ The only thing left is "To return it to dust and ash." ("Ye whose bones belong as DUST and ASH.")
+64. Design a Title Screen background
 	- "Ruins of Aether"
-	- Stylize it after Medieval Manuscripts
-	- Have the wreckage of the Great Tower shown in the distance.
+	- Stylize it after Medieval Manuscripts?
+	- Have the wreckage of the Great Tower shown in the distance?
+	- Maybe have the ruined castle (where you spawn) in the background.
 	- Perhaps have an eagle-eyed view of the the map
 		~ Castle, forest to the west, ruins to the east, Mountains to the North
 	- Use color, black and white isn't enough.
@@ -1180,37 +1215,6 @@ Another idea is having multiple phases where enemies are totally exposed and not
 	2. Otherwise, they're in a defensive stance, meaning you have to shred armor before dealing damage (e.g. 5 shield icons that must be removed first)
 		- This would reward learning the patterns, but allow players to attack however they please.
 
-
-Aug 22, 2022:
---------------
-Ran into issues with the sprite being too large now and causing issues when placing it in the world.
-	- Could be mitigated by having 2 different player sprites. One that's 16x16 for the main world. One that's larger (to include the sword) for inside the battle scene.
-
-Now all that's necessary is to figure out how to get lots of projectiles on screen.
-As well as what each of the characters' abilities are, and how they'll synergize with one another.
-	- Can I implement attaching DoT affects to enemies? (Neera moveset)
-		~ E.g. make it so attacks deal double damage for a period of time (or 'X' number of hits) after landing a blow with a particular character?
-		~ What is her dodge mechanic?
-	- Can I implement a LoZ style Roc's Feather jump for leaping over projectiles? (Aylmera moveset)
-	- Can I implement a Dashing mechanic with associated "blurred" graphics added? (Jester moveset)
-		~ Can I make the player immune to damage while mid-dash?
-	- Can I implement firing projectiles from the player on a short cooldown? (Alexandros moveset)
-		~ Instead of a sword, he'll fire out attacks.
-		~ What is his dodge mechanic?
-
-Overall, the goal is to have 8 unique mechanics for combat. 2 per character.
-	~ One offensive (A button attack)
-		a. Sword
-		b. Throwing knives?
-		c. Beam attack + debuff? (a straight-line attack that applies a debuff)
-		d. Magic orb projectiles (3 shot out)
-	~ One defensive (B button dodge/roll/jump/etc.)
-		a. Aerial jump
-		b. Dash
-		c. HP heal on a decent cooldown (20s? Also heals only a bit?)
-			~ Would need to avoid damage with NO dodge mechanic in order to spam heal as well.
-		d. Temporary shield wall? (would need to be painted over the background)
-	
 Aug 2, 2022:
 -------------
 What if it was a top-down fighter style bullet hell, where you can attack, block, parry, etc. Against enemies and projectiles.
