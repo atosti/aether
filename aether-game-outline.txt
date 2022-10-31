@@ -1095,6 +1095,10 @@ Concepts:
 	- This allows the player to die near the end of the game and bring the story some solid closure.
 77. "I am still a beast whose actions are dictated by stimuli."
 78. "Killers make poor leaders."
+79. Add a "Book of the Dead" to the castle chapel, which has its most recent entries in the current year.
+	- Notably, it includes "Morcant", the prince of the realm.
+80. Add stained glass windows to the chapel, each detailing a piece of the Realm's history.
+	- Have at least one relate to the escapades of Aylmera in her past life.
 
 
 Misc Dialogue for encounters:
