@@ -394,6 +394,7 @@ Character Names/Titles:
 12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
+	- "Kneel when you speak to her." - One of her loyal followers.
 13. ???, Traveling Minstrel/Bard
 	- A traveling Bard that is encountered periodically throughout the world.
 	- Speaks in rhymes. Travels the land seeking inspiration and to bring joy to a joyless world.
@@ -740,6 +741,9 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
 	- Instead, she guides them on how to restore the Aether crystal.
 		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great distinction." - the Spirit of Aylmera
+		~ Aylmera should bless the party, and use her magic to heal some of the player's wounds, prolonging (for a bit) their eventual demise.
+		~ The player's body should be something of a wreck at this point. So this allows them a chance to finish their task. Aylmera's mercy.
+	- I want the player to feel proud of their accomplishments, but utterly lost. They now have no name. They have no past. Only a shrinking future.
 41. The Spirit is disappointed to find that the Aether crystal has been shattered.
 	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
 	- "You. Cannot. Fail. Too much lies at stake. And far too many have died for you to perish at the last step."
@@ -752,6 +756,36 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 			~ But he does drop a strong weapon for the party to wield.
 		- Moreover, you'll find that combining these bones fails to restore the stone.
 	b. The Queen's holy grave (located directly north of the castle, but inaccessible from it).
+43. Reaching the Queen's grave, they find a strange man praying at the gravesite.
+	- He wears armor similar to that of Aylmera.
+	- He seems totally in his thoughts, not hearing the party as they approach.
+	- Upon noticing them, he's polite, but also taken aback.
+	* Note: The core of this character is that although he has lost everything (similar to all other characters), he has also lost his PURPOSE.
+	* 		Most of the other characters at least have some driving force, goal, or ideology. He has nothing. He clings to a past that no longer exists or makes sense.
+		~ He recognizes the player's armor as that worn by Paladins.
+		~ Suspiciously, he asks who the player and their party are. Not drawing his weapon, but placing his hands on it defensively.
+		~ Lost Paladin: "You bear the armor of a Paladin... Just who are you?"
+		~ Player: "I don't know. I have no name..."
+		~ Lost Paladin: "What? What are you saying? You there, Jester! Is this some kind of trick? Shame on you for pulling such antics in a graveyard!"
+		~ Jester: "No, sir. There's no trickery here. She speaks the truth, it's just that she's..." *he trails off*
+		~ Neera: "The last of her kind."
+		~ Alexandros: "As much antiquity as she is its protector."
+		~ Lost Paladin: *Bursts out laughing* "You're as right as you are wrong. She is a dying breed, but she is not alone."
+		~ Lost Paladin: "You may not know your name, stranger, but your armor tells me we are kin. Paladins in arms. Though certainly the last of our lineage."
+		~ Neera: "I didn't know any holy warriors still remained. All the monasteries I know of are long abandoned."
+		~ Lost Paladin: "Yes. I was my master's last disciple. And his youngest... With whom did you train?"
+		~ Player: "I am a corpse. Given purpose for a chance at redemption."
+		~ Lost Paladin: *Looking over at the party* "Which of them put you up to this?" (I like that this can be read as him still thinking it's a prank OR him believing it, and knowing they each have coerced her to some degree.)
+		~ Player: "You misunderstand me. Though they have all put me up to it, none are capable of creating the chains to which I am bound."
+		~ Lost Paladin: "What you speak is truth?"
+		~ Player: "Unfortunately. I have but a singular master, and they control my soul."
+		~ Lost Paladin: "I pray you get it back." (This is notably one of the few moments of empathy from a non-party, non-Aylmera character.)
+		~ Neera: "Forgive me, Paladin. But I must know: Why are you here? At her majesty's grave."
+		~ Lost Paladin: "Amidst all this chaos, I sought clarity. Sometimes old friends can enlighten us." (He's here praying to the Queen, seeking guidance.)
+		~ Lost Paladin: "And you all? Why are you here?"
+		~ *The party looks visibly uncomfortable, as they look to one another to respond.*
+		~ TBD - They need to explain that they must take something (the skull?) from the Queen's grave.
+			~ Potentially they could also just need like consecrated earth from above her grave? I need to think about/flesh this out more.
 
 
 XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
