@@ -160,6 +160,8 @@ Simple things to Work On:
 		~ They'll need the size of their sprites adjusted to account for the new height/width of weaponry.
 	c. Check if different sprites can have different shaped hitboxes to match unique character attacks.
 		~ E.g. Could I have a long hitbox for a sword on one character, but a shorter, stubbier hitbox on a dagger for another? 
+107. Add in a randomized death message on the death screen. Use the Fallout 1/2 messages for reference.
+	- https://fallout.fandom.com/wiki/Death_messages
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
