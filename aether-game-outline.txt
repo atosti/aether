@@ -152,6 +152,14 @@ Simple things to Work On:
 		~ Like 32ish?
 		~ At first just get Key Items and Useable items built in, and listed separately.
 105. Edit the title screen so that 'Continue' is only an option if a saved game exists.
+106. When designing combat
+	a. Add a pause in between switching characters (so that you're penalized, briefly, for switching)
+	b. New spritesheets will need to be assembled for these battle screens
+		~ They need animation frames for switching between players, such as a Smokecloud effect
+		~ They'll need attacking animation frames
+		~ They'll need the size of their sprites adjusted to account for the new height/width of weaponry.
+	c. Check if different sprites can have different shaped hitboxes to match unique character attacks.
+		~ E.g. Could I have a long hitbox for a sword on one character, but a shorter, stubbier hitbox on a dagger for another? 
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
