@@ -162,6 +162,12 @@ Simple things to Work On:
 		~ E.g. Could I have a long hitbox for a sword on one character, but a shorter, stubbier hitbox on a dagger for another? 
 107. Add in a randomized death message on the death screen. Use the Fallout 1/2 messages for reference.
 	- https://fallout.fandom.com/wiki/Death_messages
+	- Refine the below to be more robust and elegant, but these are general ideas to implement initially.
+	- How to get true random?
+		~ What if the screen fades in, and waits for user input. ON input, then get a random number and generate the text accordingly.
+	a. "Just as quickly as you were reborn, you find your life again snuffed."
+	b. "As the last of your energy fades from your body, a voice enters your mind: 'Ye. Have. Failed.' "
+	c. "You collapse into a despicable pile of flesh and bone. At least you'll be spared from the agonizing undeath of the Aether."
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
