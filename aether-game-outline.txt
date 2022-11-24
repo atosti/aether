@@ -163,6 +163,9 @@ Simple things to Work On:
 107. Continue writing randomized death messages to display on the Game Over screen.
 	- Use the Fallout 1/2 death messages for inspiration.
 		~ https://fallout.fandom.com/wiki/Death_messages
+108. Draw an image of the player's dead body for the Game Over screen.
+	- Again, reference the Fallout 1/2 death screens for reference.
+		~ http://vignette4.wikia.nocookie.net/fallout/images/0/02/Death.jpg/revision/latest?cb=20050330070537
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
