@@ -391,13 +391,6 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_RNG_SEED",
-                    "args": {
-                        "__collapse": true
-                    },
-                    "id": "f9d8dfe5-f07f-4cdf-b823-6ba1d4943153"
-                },
-                {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
@@ -421,7 +414,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -524,7 +517,7 @@
                                     "comparator": 2,
                                     "__collapseElse": false,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -2287,29 +2280,6 @@
                         }
                     ],
                     "symbol": "trigger_32"
-                },
-                {
-                    "name": "FIXME - Temp, remove me later",
-                    "id": "29ad515f-a2e9-4cfa-82b9-3265b626aca0",
-                    "x": 17,
-                    "y": 8,
-                    "symbol": "trigger_35",
-                    "width": 2,
-                    "height": 2,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "94ebeb0f-db97-4fbd-be91-7059aa564bec",
-                                "x": 0,
-                                "y": 0,
-                                "direction": "right",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "b794d52c-7b2e-4610-90fc-3dec567d8088"
-                        }
-                    ],
-                    "leaveScript": []
                 }
             ],
             "script": [
@@ -2358,7 +2328,7 @@
                 "default-ui"
             ],
             "spritePaletteIds": [
-                null,
+                "56fc328b-1a5d-4ad3-b307-535010a19717",
                 ""
             ],
             "collisions": [
@@ -3158,10 +3128,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "The floor is covered in scratch marks, and\nthe bookshelf has been hastily shoved to\nthe side."
+                                                "It looks like the bookshelves were hastily\nshoved aside, leaving the floor marred\nwith numerous nicks and scratches."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "b20665a7-d6df-4bfb-9510-5c42ddf62021"
                                     }
@@ -3293,7 +3263,7 @@
                 "default-ui"
             ],
             "spritePaletteIds": [
-                ""
+                "56fc328b-1a5d-4ad3-b307-535010a19717"
             ],
             "collisions": [
                 15,
@@ -10890,7 +10860,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A dusty, canvas cloth hangs from the wall.\nYour nose itches just by looking at it."
+                                                "A dusty, canvas cloth hangs from the wall.\nYour nose itches from just looking at it."
                                             ],
                                             "avatarId": ""
                                         },
@@ -30669,7 +30639,7 @@
         },
         {
             "id": "83606c17-ffaf-4905-aba1-bbc839a25917",
-            "name": "Orange (Aylmera)",
+            "name": "Orange (Neera)",
             "colors": [
                 "F8F0E0",
                 "F8D890",
@@ -31883,6 +31853,14 @@
             "filename": "cat-smile.png"
         },
         {
+            "id": "dfaad0c3-5d0e-4d0f-b4c8-6ff3de4a6640",
+            "name": "confusion",
+            "symbol": "emote_confusion",
+            "width": 16,
+            "height": 16,
+            "filename": "confusion.png"
+        },
+        {
             "id": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
             "name": "crying",
             "symbol": "emote_crying",
@@ -32001,6 +31979,14 @@
             "width": 16,
             "height": 16,
             "filename": "tiny-smile.png"
+        },
+        {
+            "id": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
+            "name": "warm-smile",
+            "symbol": "emote_warm_smile",
+            "width": 16,
+            "height": 16,
+            "filename": "warm-smile.png"
         },
         {
             "id": "ebe1c14f-d989-48e9-99f6-da5961f04720",
@@ -32173,9 +32159,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 827,
+        "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 125,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -32190,7 +32176,7 @@
             "48c5c27d-0916-42f9-aded-07b0fcd40fed"
         ],
         "defaultSpritePaletteIds": [
-            "default-sprite",
+            "56fc328b-1a5d-4ad3-b307-535010a19717",
             "default-ui",
             "default-sprite",
             "default-sprite",

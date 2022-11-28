@@ -145,13 +145,14 @@ Simple things to Work On:
 	- Wall torches
 	- Tiki-torch style standalone torches	
 	- Braziers
-103. Create a sprite for a Portrait hanging on a wall.
-	- Place one somewhere significant in the castle.
 104. Design the inventory system.
 	- It should be able to hold a lot of different items
 		~ Like 32ish?
 		~ At first just get Key Items and Useable items built in, and listed separately.
 105. Edit the title screen so that 'Continue' is only an option if a saved game exists.
+	- The logic should be:
+		Check for game save data, if none exists: only offer ONE menu option.
+			~ But allow for the player to 'cancel' out of the dialogue, back to just viewing the title image.
 106. When designing combat
 	a. Add a pause in between switching characters (so that you're penalized, briefly, for switching)
 	b. New spritesheets will need to be assembled for these battle screens
@@ -166,6 +167,16 @@ Simple things to Work On:
 108. Draw an image of the player's dead body for the Game Over screen.
 	- Again, reference the Fallout 1/2 death screens for reference.
 		~ http://vignette4.wikia.nocookie.net/fallout/images/0/02/Death.jpg/revision/latest?cb=20050330070537
+109. Draw new tiles for a new dialogue box.
+	- Perhaps plain black background with white border.
+	- Would also love something that looks like an old scroll.
+110. Also create a cursor that's like a feather ink quill
+	- This will help set the atmosphere.
+111. Design a slight intro segment, where the player actually sees themselves wake up on the floor of the Oubliette.
+	- Create animation frames of Aylmera lying on her back or the ground.
+	- Add some dialogue, perhaps of the wizards chanting an incantation? ("Arise... Arise... Arise...")
+112. Design an animated screen for the title. Some clouds, or something moving across the screen.
+	- Would be a great way to practice using animated tiles.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1182,7 +1193,9 @@ Concepts:
 	- Notably, it includes "Morcant", the prince of the realm.
 80. Add stained glass windows to the chapel, each detailing a piece of the Realm's history.
 	- Have at least one relate to the escapades of Aylmera in her past life.
-
+81. Thoughts to hear/experience from the void:
+	- "When the curtain finally falls on your forlorn existence. I wonder, for whom will you cry?"
+	- "How will death find you in your final moments? Steadfast?"
 
 Misc Dialogue for encounters:
 ===============================
