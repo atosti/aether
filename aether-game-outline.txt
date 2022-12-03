@@ -1465,5 +1465,6 @@ V. Old Chain Gang Songs
 			~				 "Only advice I can give is to be wary of the Aether Ruins. The stories I hear are... unsettling."
 			~				 "Folks say the Divines can't hear your prayers out that way. It's why the wizards built that tower in the first place. Gave them enough silence to focus."
 			~				 "Anyhow. Thanks again, stranger. We won't forget your kindness."
+			"There's nothing more to say." (Text when attempting to converse further.)
 	https://www.youtube.com/watch?v=e8HSSvvN230
 
