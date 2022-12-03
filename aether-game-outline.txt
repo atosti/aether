@@ -1447,5 +1447,23 @@ V. Old Chain Gang Songs
 	https://www.youtube.com/watch?v=cvEnkoSBPmY
 		- Could be used to introduce the Lord's territory as the player encounters actual chaingang members.
 		- Could be a character on horseback overlooking them, who is a minor antagonist.
+			~ Aylmera: "Sir? Who are these laborers? Why are they in chains?"
+			~ Antag: "They're dissenters. Working off their debts to the Realm."
+			~ Neera: "The Realm? Funny. I thought the Crown had banned slavery in all its forms." (this is sarcastically a dig at the Jester, as this was a key point of contention with necromancy in the Great War)
+			~ Antag: "I don't recall mentioning the Crown."
+			~ Aylmera: "Seems a rather large group to dissent. How can you be sure you're not opposing the will of the people?"
+			~ Antag: "Their chains are evidence enough of their crimes. Certainly your understanding is as clear?"
+			~ Jester: *whispered* "We've no need to make an enemy of this man. Needless bloodshed will only delay us from reaching Alexandros."
+			~ Aylmera: *whispered* "You're wrong. It is HE who has made an enemy of us."
+			~ Jester: "..." (this is him beginning to experiment with understanding a different set of beliefs about what's best for the Realm)
+			~ Aylmera: "My understanding is crystal clear."
+			[Combat triggers.]
+
+			(The music should cease after the battle, and instead perhaps just an ambient windy noise? Or nothing at all? It should feel eerie.)
+			(After the battle is won, an NPC will be near the edge of the screen who can be conversed with.)
+			~ Freed laborer: "We appreciate what you've done for us, truly. Shame we don't have anything to offer you."
+			~				 "Only advice I can give is to be wary of the Aether Ruins. The stories I hear are... unsettling."
+			~				 "Folks say the Divines can't hear your prayers out that way. It's why the wizards built that tower in the first place. Gave them enough silence to focus."
+			~				 "Anyhow. Thanks again, stranger. We won't forget your kindness."
 	https://www.youtube.com/watch?v=e8HSSvvN230
 
