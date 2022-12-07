@@ -177,12 +177,27 @@ Simple things to Work On:
 	- Add some dialogue, perhaps of the wizards chanting an incantation? ("Arise... Arise... Arise...")
 112. Design an animated screen for the title. Some clouds, or something moving across the screen.
 	- Would be a great way to practice using animated tiles.
+113. Create more sprite animations for weapon swings with each of the main cast
+	- Will need OFFENSIVE animations. (32x32)
+	a. Aylmera = Swing a 2-handed sword
+	b. Jester = A short knife stab? Or maybe a rapier?
+	c. Neera = Holding an open holy book (or cross?) up and shouting a passage.
+		~ Ideally attacks as an AoE
+	d. Alexandros = Fire a magic missile type projectile?
+		~ Could also just fire a beam directly infront for as long as the attack is held.
+		~ Or it can just be repeatedly cast if that's significantly easier to implement.
+	- Will also need DEFENSIVE animations. These tiles will need to be like 32x32.
+	a. Aylmera = Dash in a direction
+	b. Jester = Aerial jump (similar to Roc's feather)
+	c. Neera = Heal?
+	d. Alexandros = Magical stationary shield wall in-front of the player?
+		~ Or maybe a shield that follows the player somehow?
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
 	- Or the Jester + King against the rest of the party.
 	- Or the rest of the party against Alexandros and his wizards + bandits.
-* Regardless, the final climactic events should occur after the realignment, once you return to the castle itself.
+* Regardless, the final climatic events should occur after the realignment, once you return to the castle itself.
 
 
 Core Gameplay Loop:
@@ -1196,6 +1211,17 @@ Concepts:
 81. Thoughts to hear/experience from the void:
 	- "When the curtain finally falls on your forlorn existence. I wonder, for whom will you cry?"
 	- "How will death find you in your final moments? Steadfast?"
+82. Have a character that just insults you offhand, and then give the options:
+	- [Kill him.] or [I'm not a psycho.]
+	- To be clear, there should be no real reason to kill this person. It's a gross over-escalation.
+		~ It's meant to be a bit of a funny interaction.
+83. "You ever heard the story of the Great Phoenix? A mythical bird that burned to a crisp, yet birthed anew from the ashes."
+	- "Though miraculous, it was the last of its kind. People say it went mad searching for a mate."
+	- "It would sing its mating call deep into the night, awaiting a reply that never came."
+	- "Such is the fate of those who outlive their kin. They are doomed to wander an aimless path alone."
+	- "Are we any more found than the Great Phoenix...?"
+	- This is all based on the idea of the The Last Kauai ‘Ō’Ō Bird In 1987
+		~ https://www.youtube.com/watch?v=45csJ9IO0v4
 
 Misc Dialogue for encounters:
 ===============================
