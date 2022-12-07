@@ -1222,6 +1222,8 @@ Concepts:
 	- "Are we any more found than the Great Phoenix...?"
 	- This is all based on the idea of the The Last Kauai ‘Ō’Ō Bird In 1987
 		~ https://www.youtube.com/watch?v=45csJ9IO0v4
+84. Have certain equippable weapons have different elemental affinities.
+	- And have these deal different levels of damage to different opponents based on triangles of super effectiveness.
 
 Misc Dialogue for encounters:
 ===============================
