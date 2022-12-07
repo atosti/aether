@@ -2280,6 +2280,29 @@
                         }
                     ],
                     "symbol": "trigger_32"
+                },
+                {
+                    "name": "",
+                    "id": "034ddd39-fdd3-4ee5-9012-3652610aec14",
+                    "x": 17,
+                    "y": 7,
+                    "symbol": "trigger_35",
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
+                                "x": 0,
+                                "y": 5,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "95293579-9714-4b9b-b424-edc30e73119c"
+                        }
+                    ],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -11166,7 +11189,7 @@
                                             "args": {
                                                 "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
                                                 "persist": false,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "fd80cd1c-e909-4eee-a5a3-05ebd41d62d8"
                                         }
@@ -11793,6 +11816,19 @@
                                     "__collapse": true
                                 },
                                 "id": "66a752d7-15f9-493a-8089-d109c28a6a92"
+                            },
+                            {
+                                "command": "EVENT_IF_EXPRESSION",
+                                "args": {
+                                    "expression": "$Local0 % 4 == 0",
+                                    "__collapseElse": true,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [],
+                                    "false": []
+                                },
+                                "id": "1f7c4bfe-7506-4478-8f08-2e0c779602f6"
                             },
                             {
                                 "command": "EVENT_IF_VALUE",
@@ -14895,13 +14931,13 @@
         },
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
-            "name": "portraits/lords-portrait",
+            "name": "portraits\\lords-portrait",
             "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/lords-portrait.png",
+            "filename": "portraits\\lords-portrait.png",
             "tileColors": [
                 0,
                 0,
@@ -15267,13 +15303,13 @@
         },
         {
             "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
-            "name": "portraits/tower-landscape",
+            "name": "portraits\\tower-landscape",
             "symbol": "bg_portraits_tower_landscap",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/tower-landscape.png",
+            "filename": "portraits\\tower-landscape.png",
             "tileColors": [
                 5,
                 5,
@@ -15639,13 +15675,13 @@
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "premades/placeholder",
+            "name": "premades\\placeholder",
             "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "premades/placeholder.png",
+            "filename": "premades\\placeholder.png",
             "tileColors": []
         },
         {
@@ -17834,13 +17870,13 @@
         },
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
-            "name": "startup/intro-eyes",
+            "name": "startup\\intro-eyes",
             "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/intro-eyes.png",
+            "filename": "startup\\intro-eyes.png",
             "tileColors": [
                 0,
                 0,
@@ -18206,13 +18242,13 @@
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
-            "name": "startup/title",
+            "name": "startup\\title",
             "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/title.png",
+            "filename": "startup\\title.png",
             "tileColors": [
                 0,
                 0,
@@ -20431,7 +20467,7 @@
             "symbol": "sprite_characters_alexandro",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/alexandros.png",
+            "filename": "characters\\alexandros.png",
             "checksum": "667625c4af12cf0eae4fce8dc502fbd2b70c356c",
             "width": 48,
             "height": 64,
@@ -21120,7 +21156,7 @@
             "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/chef-4t.png",
+            "filename": "characters\\chef-4t.png",
             "checksum": "1ed5808b3a56464b6a9801e1737f97f7655c1522",
             "width": 64,
             "height": 16,
@@ -21329,7 +21365,7 @@
             "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/jester.png",
+            "filename": "characters\\jester.png",
             "checksum": "b19be410dc59dd54ecfd1a806e2ede17d0c865a9",
             "width": 48,
             "height": 64,
@@ -22018,7 +22054,7 @@
             "symbol": "sprite_characters_neera",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/neera.png",
+            "filename": "characters\\neera.png",
             "checksum": "0f50fb73cb326d0cf1d2ad72d9efb5da0cc7f8ab",
             "width": 48,
             "height": 64,
@@ -22702,12 +22738,220 @@
             "animSpeed": 15
         },
         {
+            "id": "376d8dfd-5fae-4e0f-a03e-529c91c793be",
+            "name": "characters\\party-battle",
+            "symbol": "sprite_characters_party_bat",
+            "numFrames": 13,
+            "type": "animated",
+            "filename": "characters\\party-battle.png",
+            "checksum": "cd46aeb695fea9082bc49e9fd40a17fc5575d11c",
+            "width": 208,
+            "height": 64,
+            "states": [
+                {
+                    "id": "e4d13219-9da0-4949-898a-fc92b182c403",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "60abbca3-d030-4bee-96d3-74d502d68f05",
+                            "frames": [
+                                {
+                                    "id": "48e1bcaa-bc30-4532-85fd-4320f2179149",
+                                    "tiles": [
+                                        {
+                                            "id": "6051e280-cba7-446b-8cef-18cdefc6eb00",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "e2c35579-2cae-44c5-97f0-4f170b981b62",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "43c0d61b-989b-44d0-a5ba-635f0318da50",
+                            "frames": [
+                                {
+                                    "id": "e4223ff6-e11a-4d04-96ec-3d24f3faa7ce",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a45a2f07-18dc-4c0a-9c0a-1f57d18058e6",
+                            "frames": [
+                                {
+                                    "id": "1a4e49b1-14de-4147-886c-501467f2f584",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7b8d7efe-44a6-428a-a05f-05bf335737dc",
+                            "frames": [
+                                {
+                                    "id": "4054ec5e-22ac-4f91-a7ef-11935d510a78",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "33eb3e9b-6273-4214-9997-8e2e62835f37",
+                            "frames": [
+                                {
+                                    "id": "4a7fba25-f94f-4961-b921-17308145ccdd",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "02e8ca6d-661c-49ae-9757-df43eb2aaadd",
+                            "frames": [
+                                {
+                                    "id": "af71bc65-6529-4df8-8b70-414945d33b3d",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "87be44cc-1b57-4bf2-a30c-98c1da75087a",
+                            "frames": [
+                                {
+                                    "id": "9d964d52-2e03-4550-9c63-fa5adde98e38",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "35bdfe3c-ed66-4339-92a3-f1337e420439",
+                            "frames": [
+                                {
+                                    "id": "a81d65ef-8d99-40c0-a466-03e86d53ea78",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "4ce9d754-a9c5-46d9-b4ab-4f6805f1aebe",
+                    "name": "Aylmera",
+                    "animations": [
+                        {
+                            "id": "69b98ec7-9833-435c-a562-15d2675d1f45",
+                            "frames": [
+                                {
+                                    "id": "3c7ec019-36c0-492a-911a-4791ffca0678",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5efbccdf-0b95-491e-a6bf-ad90c7b084cc",
+                            "frames": [
+                                {
+                                    "id": "56aef6e4-d424-4c76-b5f2-a547c78d9d6f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "37a01612-1644-4c7b-86f2-6ebe16c22854",
+                            "frames": [
+                                {
+                                    "id": "59710c5e-e35c-4d61-9e1b-7b177830a789",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f015c904-d376-4dad-8437-c80c5e42fc4b",
+                            "frames": [
+                                {
+                                    "id": "6c21472a-0552-466a-82d5-73e949e0dea7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "79c4f899-ac8d-43e0-9efa-2665a8c2148e",
+                            "frames": [
+                                {
+                                    "id": "bc1a44b4-e666-44f6-9ad6-c2205dea6a4a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "741badee-8464-47f7-b125-e5284b11f8ff",
+                            "frames": [
+                                {
+                                    "id": "382ed928-dbf0-462e-a864-bd17752cc187",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4204c32c-f9bf-4d9d-92a2-d66dab1c1d1d",
+                            "frames": [
+                                {
+                                    "id": "79b81bb9-3b1a-4cac-be00-cea44d62c88c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b1cf75a7-42e6-49c5-9c2d-842730877171",
+                            "frames": [
+                                {
+                                    "id": "132ef4ab-8ac7-47b2-8323-cfa6f3cdc745",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ],
+                    "animationType": "multi_movement",
+                    "flipLeft": true
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
             "name": "characters\\player",
             "symbol": "sprite_characters_player",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/player.png",
+            "filename": "characters\\player.png",
             "checksum": "173b64feaaef4577b33becfd56605e0cc84beb7f",
             "width": 48,
             "height": 64,
@@ -23489,7 +23733,7 @@
             "symbol": "sprite_hp_bars_hero_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/hero-hp.png",
+            "filename": "hp-bars\\hero-hp.png",
             "checksum": "e71c6a0ee90c60a95aa72a72712b59158bedf3ae",
             "width": 48,
             "height": 80,
@@ -24001,7 +24245,7 @@
             "symbol": "sprite_hp_bars_jester_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/jester-hp.png",
+            "filename": "hp-bars\\jester-hp.png",
             "checksum": "15a7018055c2e5378181b02b422848fbfa7f3429",
             "width": 48,
             "height": 80,
@@ -24552,7 +24796,7 @@
             "symbol": "sprite_hp_bars_priestess_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/priestess-hp.png",
+            "filename": "hp-bars\\priestess-hp.png",
             "checksum": "feb53405cf5f9621d7e25327d4144fe64a6f6f75",
             "width": 48,
             "height": 80,
@@ -25064,7 +25308,7 @@
             "symbol": "sprite_hp_bars_wizard_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/wizard-hp.png",
+            "filename": "hp-bars\\wizard-hp.png",
             "checksum": "088513e9f07c12efa11c747214fdb32f2991661c",
             "width": 48,
             "height": 80,
@@ -25654,7 +25898,7 @@
             "symbol": "sprite_premades_2bit_cone_h",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-cone-head-cultist.png",
+            "filename": "premades\\2bit-cone-head-cultist.png",
             "checksum": "23222491e0a747028b327ce5e327a88186b2ea44",
             "width": 96,
             "height": 16,
@@ -26010,7 +26254,7 @@
             "symbol": "sprite_premades_2bit_old_ma",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-old-man-glasses.png",
+            "filename": "premades\\2bit-old-man-glasses.png",
             "checksum": "48224efd6b75aa1c4529e901aba422b195481fb3",
             "width": 96,
             "height": 16,
@@ -26366,7 +26610,7 @@
             "symbol": "sprite_premades_2bit_pigtai",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-pigtailed-woman-long-hair.png",
+            "filename": "premades\\2bit-pigtailed-woman-long-hair.png",
             "checksum": "3101959b96795c4cd1454406e385fe9af316c04c",
             "width": 96,
             "height": 16,
@@ -26722,7 +26966,7 @@
             "symbol": "sprite_premades_2bit_robed_",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-robed-npc.png",
+            "filename": "premades\\2bit-robed-npc.png",
             "checksum": "b3d1a13eb208600b6d5c105b1ccc83cdc1fee76f",
             "width": 96,
             "height": 16,
@@ -27078,7 +27322,7 @@
             "symbol": "sprite_premades_2bit_royal_",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-royal-butler.png",
+            "filename": "premades\\2bit-royal-butler.png",
             "checksum": "cdbcbc1fe800f3d4b68a8f3541c17ec0ccb2e616",
             "width": 96,
             "height": 16,
@@ -27434,7 +27678,7 @@
             "symbol": "sprite_premades_2bit_very_o",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit-very-old-man.png",
+            "filename": "premades\\2bit-very-old-man.png",
             "checksum": "4061af068ff6e3f73e85ab5d7aa26b6378196c53",
             "width": 96,
             "height": 16,
@@ -27790,7 +28034,7 @@
             "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/actor.png",
+            "filename": "premades\\actor.png",
             "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
             "width": 48,
             "height": 16,
@@ -27972,7 +28216,7 @@
             "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/actor_animated.png",
+            "filename": "premades\\actor_animated.png",
             "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
             "width": 96,
             "height": 16,
@@ -28328,7 +28572,7 @@
             "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/cat.png",
+            "filename": "premades\\cat.png",
             "checksum": "b043d62597e5be563b43a54be9d29deebbb165c1",
             "width": 16,
             "height": 16,
@@ -28456,7 +28700,7 @@
             "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character0.png",
+            "filename": "premades\\character0.png",
             "checksum": "e3cb9c3af37cabae26cebf61cc347f869012122b",
             "width": 16,
             "height": 16,
@@ -28584,7 +28828,7 @@
             "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character1.png",
+            "filename": "premades\\character1.png",
             "checksum": "49131ef5b2d20d5432572c4053ffc2b0a536f08d",
             "width": 16,
             "height": 16,
@@ -28712,7 +28956,7 @@
             "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character2.png",
+            "filename": "premades\\character2.png",
             "checksum": "65136775c01ebcb8a90392a236314a398e74fb17",
             "width": 16,
             "height": 16,
@@ -28840,7 +29084,7 @@
             "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character3.png",
+            "filename": "premades\\character3.png",
             "checksum": "aaa8f06f105b27e744a6d6ef946f84ad815d75a8",
             "width": 16,
             "height": 16,
@@ -28968,7 +29212,7 @@
             "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy0.png",
+            "filename": "premades\\enemy0.png",
             "checksum": "bfa9cb107e9f1d58ab9896b49bd93145b4a1f385",
             "width": 16,
             "height": 16,
@@ -29096,7 +29340,7 @@
             "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy1.png",
+            "filename": "premades\\enemy1.png",
             "checksum": "7c045dc66819f9590918b7f12447b5b38496591e",
             "width": 16,
             "height": 16,
@@ -29224,7 +29468,7 @@
             "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy2.png",
+            "filename": "premades\\enemy2.png",
             "checksum": "dad68b4af478d5bfe2a731c4a4e0800e369120d7",
             "width": 16,
             "height": 16,
@@ -29352,7 +29596,7 @@
             "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
-            "filename": "premades/fire.png",
+            "filename": "premades\\fire.png",
             "checksum": "da92212c3c424721b2535a2e85e0f6f5ed010f74",
             "width": 64,
             "height": 16,
@@ -29573,7 +29817,7 @@
             "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart0.png",
+            "filename": "premades\\heart0.png",
             "checksum": "7656680fbd3e7d49ec127260e3aa61bd0c881872",
             "width": 16,
             "height": 16,
@@ -29701,7 +29945,7 @@
             "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart1.png",
+            "filename": "premades\\heart1.png",
             "checksum": "042388ba8b04f51ea9881672317e39ca52508853",
             "width": 16,
             "height": 16,
@@ -29829,7 +30073,7 @@
             "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart2.png",
+            "filename": "premades\\heart2.png",
             "checksum": "b917659130116c7bef29dba42e486b1a5ee05640",
             "width": 16,
             "height": 16,
@@ -29957,7 +30201,7 @@
             "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/item0.png",
+            "filename": "premades\\item0.png",
             "checksum": "e418a68b729e26a82de13a110d9aee240a03472e",
             "width": 16,
             "height": 16,
@@ -30085,7 +30329,7 @@
             "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/npc001.png",
+            "filename": "premades\\npc001.png",
             "checksum": "41238f54ad45b3503b77c7b126916ae0a30420be",
             "width": 48,
             "height": 16,
@@ -30267,7 +30511,7 @@
             "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/static.png",
+            "filename": "premades\\static.png",
             "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8",
             "width": 16,
             "height": 16,
@@ -32159,9 +32403,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 171,
-        "worldScrollY": 129,
-        "zoom": 200,
+        "worldScrollX": 1153,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -32190,7 +32434,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            894,
+            888,
             30
         ],
         "showNavigator": true,
