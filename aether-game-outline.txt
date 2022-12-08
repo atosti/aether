@@ -177,6 +177,8 @@ Simple things to Work On:
 	- Add some dialogue, perhaps of the wizards chanting an incantation? ("Arise... Arise... Arise...")
 112. Design an animated screen for the title. Some clouds, or something moving across the screen.
 	- Would be a great way to practice using animated tiles.
+	- Perhaps a flag blowing in the wind?
+		~ A "flag" as in the cloth attached to a halberd or similar weapon amidst the ruins.
 113. Create more sprite animations for weapon swings with each of the main cast
 	- Will need OFFENSIVE animations. (32x32)
 	a. Aylmera = Swing a 2-handed sword
