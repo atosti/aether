@@ -11,16 +11,25 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                null,
-                null,
-                "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
+                "73ffde98-ebbe-4d9c-896a-5a012265fb77",
+                "",
+                "",
                 "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
                 null,
                 null,
                 null,
-                "default-ui"
+                "13ae18df-1d50-410f-b623-55cbb654a8a0"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                "",
+                null,
+                null,
+                null,
+                null,
+                null,
+                ""
+            ],
             "collisions": [
                 0,
                 0,
@@ -414,7 +423,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -580,16 +589,23 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
+                "d9361714-77c0-45be-aa31-2e90a89d0b99",
                 null,
                 null,
                 null,
                 null,
                 null,
-                null,
-                null,
-                "default-ui"
+                "",
+                ""
             ],
             "spritePaletteIds": [
+                "",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 ""
             ],
             "collisions": [
@@ -970,28 +986,13 @@
                     "id": "8f96dba1-6274-48a6-b880-bf9979e210e9"
                 },
                 {
-                    "command": "EVENT_PALETTE_SET_BACKGROUND",
-                    "args": {
-                        "palette0": "d9361714-77c0-45be-aa31-2e90a89d0b99",
-                        "palette1": "keep",
-                        "palette2": "keep",
-                        "palette3": "keep",
-                        "palette4": "keep",
-                        "palette5": "keep",
-                        "palette6": "keep",
-                        "palette7": "keep",
-                        "__collapse": true
-                    },
-                    "id": "1df7736c-b2a8-4513-b40e-27637d6a25a7"
-                },
-                {
                     "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
                     "args": {
                         "speedIn": 1,
                         "speedOut": 1,
                         "speed": 1,
                         "allowFastForward": true,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "ac31209d-5bf3-4f63-850c-4e7324b8495d"
                 },
@@ -1013,7 +1014,7 @@
                             "\n                          ....A R I S E....\n"
                         ],
                         "avatarId": "",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "60b2cc05-84a9-4f73-bfbb-7a17c2a0483d"
                 },
@@ -1138,21 +1139,23 @@
             "type": "TOPDOWN",
             "paletteIds": [
                 "",
-                "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
-                "c40cd630-7ea9-4009-9809-bdd192a12e86",
-                "919ea008-eb04-45cb-8b86-df2cd8ebaed0",
-                "b4f94f8d-2ccc-4b1d-8af9-5fb7eb7398bd",
-                "7011f76f-3e61-49d6-aa9c-0677bedff5e6",
-                "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
-                "default-ui"
+                "",
+                "22b6a428-d602-487a-9d0a-646dc0cb5405",
+                "",
+                "",
+                "",
+                "",
+                ""
             ],
             "spritePaletteIds": [
-                "56fc328b-1a5d-4ad3-b307-535010a19717",
                 "",
-                "3438e7f9-855f-4d00-9278-ed02a76d5bd6",
-                "73ffde98-ebbe-4d9c-896a-5a012265fb77",
-                "83606c17-ffaf-4905-aba1-bbc839a25917",
-                "e624a14a-ca6a-4d15-885d-b4f144aecc2f"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
             ],
             "collisions": [
                 15,
@@ -1604,14 +1607,6 @@
                                     {
                                         "command": "EVENT_TEXT",
                                         "args": {
-                                            "text": "",
-                                            "avatarId": ""
-                                        },
-                                        "id": "e6a4d6ec-14e3-41c3-87d6-2c56271c93e8"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
                                             "text": [
                                                 "Welcome back to the land of the Living, \nHero. Apologies for such a... pitiful\nwelcome. It's all we could muster.",
                                                 "My name is Alexandros, my colleagues \nand I conducted your revival. At the \nbehest of the Crown, of course.",
@@ -1915,7 +1910,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A decrepit iron maiden stands before you.\nIts face looks oddly remorseful."
+                                                "A decrepit iron maiden stands before you.\nDespite its remorseful face, it feels\nremarkably eerie."
                                             ],
                                             "avatarId": ""
                                         },
@@ -1962,7 +1957,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "There is a slight breeze coming from the\nmouth of this tunnel. Listening closely you\nhear the distant scurrying of rats."
+                                                "There is a light breeze coming from the\nmouth of this tunnel. Listening closely you\nhear the distant scurrying of rats."
                                             ],
                                             "avatarId": ""
                                         },
@@ -2010,9 +2005,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "An ancient, splintering coffin lies before \nyou. It feels out of place."
+                                                "An old, splintered coffin lies before you.\nLooking at it fills you with an immense\nfeeling of comfort and warmth."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": false
                                         },
                                         "id": "69452681-37dc-46b3-bcb0-169da3721bea"
                                     },
@@ -2022,7 +2018,7 @@
                                             "variable": "L0",
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -2053,7 +2049,7 @@
                                                         "variable": "L0",
                                                         "__collapseElse": true,
                                                         "__disableElse": true,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -2061,7 +2057,7 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "The lid opens with a long, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
+                                                                        "The lid opens with a low, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
                                                                         "TBD - Add Charon's Obol to the player's \ninventory."
                                                                     ],
                                                                     "avatarId": "",
@@ -2120,7 +2116,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A collection of dusty books and scrolls.\nMany are falling apart from frequent use.\nThey seem to detail magical rituals."
+                                                "A collection of dusty books and scrolls fill\nthe shelves. Many are falling apart due to\nfrequent use."
                                             ],
                                             "avatarId": ""
                                         },
@@ -2167,7 +2163,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Peering into the drainage tunnel, you can \nbarely make out an object gleaming in the \ndarkness. Unfortunately, it's out of reach."
+                                                "A tight drainage tunnel filled with decades\nof dried blood. It's too dark to see where\nit leads."
                                             ],
                                             "avatarId": ""
                                         },
@@ -2240,10 +2236,34 @@
                 },
                 {
                     "name": "",
-                    "id": "da4aebc9-8b63-4d69-81f4-acfabe70fada",
-                    "x": 3,
-                    "y": 9,
-                    "width": 6,
+                    "id": "034ddd39-fdd3-4ee5-9012-3652610aec14",
+                    "x": 17,
+                    "y": 7,
+                    "symbol": "trigger_35",
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
+                                "x": 9,
+                                "y": 15,
+                                "direction": "up",
+                                "fadeSpeed": "2",
+                                "__collapse": true
+                            },
+                            "id": "95293579-9714-4b9b-b424-edc30e73119c"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "46a40c33-7e81-4445-bed4-0410997102c6",
+                    "x": 4,
+                    "y": 8,
+                    "width": 4,
                     "height": 4,
                     "script": [
                         {
@@ -2261,15 +2281,15 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "There are complex runes engravings\ndrawn into the stone floor. Many of the\nlines converge at a central point."
+                                                "A large, bloodied rune is carved into the\nfloor. It's a complicated web of markings,\nwhich all converge at a central point. "
                                             ],
                                             "avatarId": ""
                                         },
-                                        "id": "16cb4ef8-8a9b-4143-8f3b-911c3a233ff6"
+                                        "id": "51519acf-b280-43f1-bffb-cb7517a2418c"
                                     }
                                 ]
                             },
-                            "id": "b6be32b3-28b3-4477-8d67-37d3bac6f98d"
+                            "id": "f01753c1-5f44-44da-9042-516d65d0bbf4"
                         }
                     ],
                     "leaveScript": [
@@ -2280,33 +2300,10 @@
                                     "a"
                                 ]
                             },
-                            "id": "8e30e8da-24e1-43c9-b70e-69ad4a809760"
+                            "id": "58926b6c-59c7-427c-a4bd-a285c2f973bf"
                         }
                     ],
-                    "symbol": "trigger_32"
-                },
-                {
-                    "name": "",
-                    "id": "034ddd39-fdd3-4ee5-9012-3652610aec14",
-                    "x": 17,
-                    "y": 7,
-                    "symbol": "trigger_35",
-                    "width": 2,
-                    "height": 2,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
-                                "x": 0,
-                                "y": 5,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "95293579-9714-4b9b-b424-edc30e73119c"
-                        }
-                    ],
-                    "leaveScript": []
+                    "symbol": "trigger_36"
                 }
             ],
             "script": [
@@ -2346,13 +2343,13 @@
             "type": "TOPDOWN",
             "paletteIds": [
                 null,
-                "c40cd630-7ea9-4009-9809-bdd192a12e86",
-                "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
-                "919ea008-eb04-45cb-8b86-df2cd8ebaed0",
+                "",
+                "22b6a428-d602-487a-9d0a-646dc0cb5405",
+                "",
                 null,
-                "default-bg-6",
-                null,
-                "default-ui"
+                "",
+                "",
+                ""
             ],
             "spritePaletteIds": [
                 "56fc328b-1a5d-4ad3-b307-535010a19717",
@@ -4785,14 +4782,14 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                "fb1b7084-30db-49a4-8167-f082eabaae55",
-                "c40cd630-7ea9-4009-9809-bdd192a12e86",
-                "919ea008-eb04-45cb-8b86-df2cd8ebaed0",
-                "b4f94f8d-2ccc-4b1d-8af9-5fb7eb7398bd",
-                "7011f76f-3e61-49d6-aa9c-0677bedff5e6",
-                "6c7e0e72-0106-4456-89aa-e89697b2d8d1",
-                "default-bg-5",
-                "default-ui"
+                "",
+                "",
+                "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
+                "",
+                "",
+                "",
+                "",
+                ""
             ],
             "spritePaletteIds": [],
             "collisions": [
@@ -10389,14 +10386,14 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                null,
-                "c40cd630-7ea9-4009-9809-bdd192a12e86",
-                "919ea008-eb04-45cb-8b86-df2cd8ebaed0",
-                "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
-                null,
+                "",
+                "",
                 "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
-                "default-bg-6",
-                "default-ui"
+                "",
+                "",
+                "",
+                "",
+                ""
             ],
             "spritePaletteIds": [
                 "56fc328b-1a5d-4ad3-b307-535010a19717"
@@ -10565,26 +10562,6 @@
                 0,
                 15,
                 15,
-                2,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                0,
-                15,
-                15,
                 15,
                 15,
                 0,
@@ -10605,37 +10582,57 @@
                 0,
                 15,
                 15,
-                0,
-                15,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 15,
                 15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 15,
                 15,
                 0,
+                0,
                 15,
                 15,
-                2,
-                2,
+                0,
+                15,
+                15,
                 0,
                 0,
                 0,
                 0,
-                2,
-                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
+                0,
+                0,
+                15,
+                15,
+                0,
+                15,
+                15,
+                15,
+                15,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -10924,7 +10921,7 @@
             "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
             "width": 20,
             "height": 18,
-            "type": "ADVENTURE",
+            "type": "TOPDOWN",
             "paletteIds": [
                 null,
                 null,
@@ -10965,6 +10962,75 @@
                     "x": 9,
                     "y": 3,
                     "symbol": "actor_26"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_2",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bb955610-4021-4631-8c53-e493dbbe6f56",
+                    "x": 5,
+                    "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_3",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "952d7da3-4bf6-431b-9896-0d476ddce786",
+                    "x": 9,
+                    "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b1e0a6e1-d092-4fed-855b-12563faad575",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_5",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c52f7bb4-00f8-4774-8343-6cf1ea95bf3b",
+                    "x": 13,
+                    "y": 11
                 }
             ],
             "triggers": [],
@@ -11093,7 +11159,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -11709,10 +11775,10 @@
                                                     "args": {
                                                         "text": [
                                                             "\"Morcant was a remarkable man. Strong,\nnoble, and driven. All who knew him were\nimpressed by his honesty and conviction.",
-                                                            "Fathers are not meant to bury sons, just\nas Kingdoms are not meant to bury their\nPrinces. Yet the horror of reality persists.",
-                                                            "But we must draw from his death the \nmany lessons which he would bestow upon \nus, were he still here. and find the strength to persevere.",
-                                                            "We must find the strength to persevere.\nTo rise as never before, stronger and\nwith the conviction to never give up.",
-                                                            "The enemy we now face is unlike anything\nwe've ever known. But we will persevere. \nFor ourselves and for Prince Morcant.\"",
+                                                            "Fathers are not meant to bury sons, just\nas Kingdoms are not meant to bury their\nproblems. Thus, our reality persists.",
+                                                            "We must draw from his death the lessons\nwhich he would bestow upon us, were he\nstill here.",
+                                                            "We must find the strength to persevere.\nTo rise as never before, unifed and\nwith the conviction to never give up.",
+                                                            "The enemy we now face is unlike anything\nwe've ever known. But we will persevere. \nFor ourselves. And for Prince Morcant.\"",
                                                             "The whole thing reads more like a rousing\nspeech than a euology..."
                                                         ],
                                                         "avatarId": ""
@@ -11822,19 +11888,6 @@
                                 "id": "66a752d7-15f9-493a-8089-d109c28a6a92"
                             },
                             {
-                                "command": "EVENT_IF_EXPRESSION",
-                                "args": {
-                                    "expression": "$Local0 % 4 == 0",
-                                    "__collapseElse": true,
-                                    "__disableElse": true
-                                },
-                                "children": {
-                                    "true": [],
-                                    "false": []
-                                },
-                                "id": "1f7c4bfe-7506-4478-8f08-2e0c779602f6"
-                            },
-                            {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
                                     "variable": "L0",
@@ -11926,7 +11979,7 @@
                                     "comparator": 3,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -13518,200 +13571,44 @@
                 1,
                 1,
                 1,
-                2,
-                2,
-                1,
-                1,
-                2,
-                2,
-                1,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                2,
-                2,
-                1,
-                1,
-                2,
-                2,
-                1,
-                1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                5,
-                5,
-                2,
-                2,
-                5,
-                5,
-                2,
-                2,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                3,
-                3,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 1,
                 1,
-                1,
-                1,
-                1,
-                1,
-                3,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                3,
-                5,
-                5,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
-                5,
-                5,
-                3,
-                3,
-                3,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                3,
-                3,
-                3,
-                5,
-                5,
-                3,
-                3,
-                3,
-                3,
-                5,
-                5,
-                3,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -13721,6 +13618,11 @@
                 1,
                 1,
                 2,
+                2,
+                1,
+                1,
+                2,
+                2,
                 1,
                 1,
                 1,
@@ -13728,6 +13630,15 @@
                 1,
                 1,
                 1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
                 2,
                 2,
                 2,
@@ -13750,8 +13661,150 @@
                 1,
                 2,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1,
                 1,
                 1,
@@ -14571,25 +14624,6 @@
             "imageHeight": 144,
             "filename": "oubliette.png",
             "tileColors": [
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -14602,8 +14636,6 @@
                 1,
                 1,
                 1,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -14622,8 +14654,6 @@
                 1,
                 1,
                 1,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -14632,264 +14662,296 @@
                 1,
                 1,
                 1,
-                2,
                 1,
                 1,
-                2,
-                3,
-                3,
-                2,
                 1,
                 1,
-                2,
-                3,
-                3,
-                2,
-                3,
-                3,
-                2,
-                3,
-                3,
                 1,
                 1,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3,
-                3,
-                2,
                 1,
                 1,
-                2,
-                2,
-                2,
-                6,
-                6,
-                6,
-                2,
-                2,
-                2,
-                6,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3,
-                3,
-                2,
                 1,
                 1,
-                6,
-                2,
-                2,
-                2,
-                6,
-                2,
-                2,
-                2,
-                2,
-                6,
-                6,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
                 1,
                 1,
-                6,
-                2,
-                2,
-                2,
-                6,
-                6,
-                2,
-                2,
-                2,
-                2,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                2,
-                6,
                 1,
                 1,
-                6,
-                2,
-                6,
-                2,
-                6,
-                6,
-                6,
-                2,
-                2,
-                2,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                2,
-                6,
                 1,
                 1,
-                2,
-                2,
-                6,
-                6,
-                6,
-                6,
-                6,
-                2,
-                2,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                6,
-                2,
-                6,
                 1,
                 1,
-                2,
-                2,
-                2,
-                6,
-                6,
-                6,
-                6,
-                2,
-                2,
-                2,
-                6,
-                2,
-                2,
-                2,
-                6,
-                2,
-                2,
-                6,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1,
                 1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
                 2,
-                6,
-                6,
-                6,
-                6,
+                1,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
                 2,
-                3,
-                3,
-                3,
-                3,
-                6,
                 2,
-                6,
                 1,
                 1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
                 2,
-                6,
                 2,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 2,
-                6,
-                6,
+                1,
+                1,
                 2,
+                1,
                 2,
+                1,
                 2,
-                6,
-                3,
-                3,
-                3,
-                3,
-                6,
                 2,
                 2,
                 1,
                 1,
-                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
                 2,
-                3,
-                6,
-                6,
                 2,
                 2,
+                1,
+                1,
                 2,
-                5,
-                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
                 2,
                 2,
                 1,
                 1,
-                2,
-                5,
-                5,
-                5,
-                2,
-                2,
+                1,
                 2,
                 2,
                 2,
                 2,
                 2,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
                 2,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
+                1,
                 2,
+                1,
                 1,
                 1,
+                1,
                 2,
-                5,
-                5,
-                5,
+                1,
+                1,
                 2,
                 2,
+                1,
+                1,
+                1,
                 2,
+                1,
+                1,
+                1,
+                1,
                 2,
-                6,
-                6,
-                6,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
+                1,
+                1,
+                1,
                 2,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 2,
                 2,
                 2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1,
                 1,
                 1,
@@ -14912,8 +14974,6 @@
                 1,
                 1,
                 1,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -14923,14 +14983,7 @@
                 1,
                 1,
                 1,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3,
-                3
+                1
             ]
         },
         {
@@ -15334,31 +15387,7 @@
                 5,
                 5,
                 5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
+                1,
                 5,
                 5,
                 5,
@@ -15379,261 +15408,285 @@
                 5,
                 1,
                 1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
                 5,
-                5,
-                5,
-                5,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                3,
-                3,
-                3,
-                1,
-                5,
-                5,
-                5,
-                5,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                1,
-                3,
-                3,
-                3,
-                1,
-                5,
-                5,
-                5,
-                5,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                2,
-                3,
-                2,
-                4,
-                5,
-                5,
-                5,
-                5,
-                4,
                 2,
                 2,
                 2,
                 2,
                 2,
-                4,
-                4,
-                4,
-                4,
-                4,
-                4,
-                2,
-                3,
-                2,
-                2,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 2,
                 2,
                 2,
                 2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                5,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                1,
+                5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 5,
                 5,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
                 5,
                 5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
-                5,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 5,
                 5,
                 5,
@@ -18436,7 +18489,7 @@
                 0,
                 0,
                 0,
-                3,
+                0,
                 0,
                 0,
                 0,
@@ -18634,10 +18687,6 @@
                 1,
                 1,
                 1,
-                0,
-                0,
-                0,
-                0,
                 1,
                 1,
                 1,
@@ -18654,10 +18703,6 @@
                 1,
                 1,
                 1,
-                0,
-                0,
-                0,
-                0,
                 1,
                 1,
                 1,
@@ -18674,10 +18719,18 @@
                 1,
                 1,
                 1,
-                0,
-                0,
-                0,
-                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1,
                 1,
                 1,
@@ -19799,8 +19852,6 @@
                 1,
                 1,
                 1,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -19839,8 +19890,6 @@
                 1,
                 1,
                 1,
-                3,
-                3,
                 1,
                 1,
                 1,
@@ -19858,7 +19907,11 @@
                 1,
                 1,
                 1,
-                3,
+                1,
+                1,
+                1,
+                1,
+                1,
                 1,
                 1,
                 1,
@@ -20498,7 +20551,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20511,7 +20564,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20534,7 +20587,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20547,7 +20600,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20570,7 +20623,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20583,7 +20636,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20606,7 +20659,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20619,7 +20672,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20642,7 +20695,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20655,7 +20708,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20673,7 +20726,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20686,7 +20739,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20704,7 +20757,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20717,7 +20770,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20735,7 +20788,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20748,7 +20801,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20771,7 +20824,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20784,7 +20837,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20802,7 +20855,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20815,7 +20868,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20833,7 +20886,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20846,7 +20899,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20864,7 +20917,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20877,7 +20930,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20900,7 +20953,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20913,7 +20966,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20931,7 +20984,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20944,7 +20997,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20962,7 +21015,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -20975,7 +21028,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -20993,7 +21046,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -21006,7 +21059,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -21029,7 +21082,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -21042,7 +21095,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -21060,7 +21113,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -21073,7 +21126,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -21091,7 +21144,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -21104,7 +21157,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -21122,7 +21175,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         },
                                         {
@@ -21135,7 +21188,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 5,
+                                            "paletteIndex": 6,
                                             "priority": false
                                         }
                                     ]
@@ -21396,7 +21449,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21409,7 +21462,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21432,7 +21485,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21445,7 +21498,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21468,7 +21521,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21481,7 +21534,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21504,7 +21557,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21517,7 +21570,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21540,7 +21593,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21553,7 +21606,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21571,7 +21624,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21584,7 +21637,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21602,7 +21655,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21615,7 +21668,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21633,7 +21686,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21646,7 +21699,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21669,7 +21722,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21682,7 +21735,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21700,7 +21753,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21713,7 +21766,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21731,7 +21784,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21744,7 +21797,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21762,7 +21815,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21775,7 +21828,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21798,7 +21851,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21811,7 +21864,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21829,7 +21882,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21842,7 +21895,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21860,7 +21913,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21873,7 +21926,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21891,7 +21944,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21904,7 +21957,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21927,7 +21980,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21940,7 +21993,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21958,7 +22011,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -21971,7 +22024,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -21989,7 +22042,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -22002,7 +22055,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -22020,7 +22073,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         },
                                         {
@@ -22033,7 +22086,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 3,
+                                            "paletteIndex": 4,
                                             "priority": false
                                         }
                                     ]
@@ -22085,7 +22138,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22098,7 +22151,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22121,7 +22174,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22134,7 +22187,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22157,7 +22210,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22170,7 +22223,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22193,7 +22246,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22206,7 +22259,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22229,7 +22282,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22242,7 +22295,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22260,7 +22313,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22273,7 +22326,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22291,7 +22344,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22304,7 +22357,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22322,7 +22375,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22335,7 +22388,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22358,7 +22411,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22371,7 +22424,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22389,7 +22442,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22402,7 +22455,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22420,7 +22473,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22433,7 +22486,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22451,7 +22504,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22464,7 +22517,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22487,7 +22540,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22500,7 +22553,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22518,7 +22571,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22531,7 +22584,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22549,7 +22602,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22562,7 +22615,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22580,7 +22633,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22593,7 +22646,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22616,7 +22669,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22629,7 +22682,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22647,7 +22700,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22660,7 +22713,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22678,7 +22731,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22691,7 +22744,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22709,7 +22762,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         },
                                         {
@@ -22722,7 +22775,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 4,
+                                            "paletteIndex": 5,
                                             "priority": false
                                         }
                                     ]
@@ -22982,7 +23035,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -22995,7 +23048,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23018,7 +23071,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23031,7 +23084,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23054,7 +23107,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23067,7 +23120,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23090,7 +23143,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23103,7 +23156,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23126,7 +23179,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23139,7 +23192,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23157,7 +23210,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23170,7 +23223,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23183,7 +23236,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23201,7 +23254,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23214,7 +23267,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23232,7 +23285,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23245,7 +23298,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23268,7 +23321,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23281,7 +23334,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23299,7 +23352,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23312,7 +23365,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23330,7 +23383,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23343,7 +23396,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23361,7 +23414,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23374,7 +23427,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23397,7 +23450,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23410,7 +23463,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23428,7 +23481,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23441,7 +23494,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23459,7 +23512,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23472,7 +23525,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23490,7 +23543,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23503,7 +23556,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23526,7 +23579,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23539,7 +23592,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23557,7 +23610,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23570,7 +23623,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23588,7 +23641,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23601,7 +23654,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23619,7 +23672,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         },
                                         {
@@ -23632,7 +23685,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 2,
+                                            "paletteIndex": 3,
                                             "priority": false
                                         }
                                     ]
@@ -23640,86 +23693,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "id": "607c72fb-8a8e-4bb3-92c7-fcef19b3468e",
-                    "name": "Sword",
-                    "animations": [
-                        {
-                            "id": "1cbb952a-0757-4f6c-9b3b-dac683c4f885",
-                            "frames": [
-                                {
-                                    "id": "6e110335-fd71-4b16-b572-95de1b74bd70",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "db9b97e3-f6e7-48dd-9920-6a2d281cce86",
-                            "frames": [
-                                {
-                                    "id": "a21545fb-ccb3-4181-ac1e-f9dc466d293d",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "0959f0c3-2715-4ded-8a5b-00f07b4eb9a6",
-                            "frames": [
-                                {
-                                    "id": "9779f525-27d1-4255-a07b-b1a8d4035d0d",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "ea5c528f-17df-4efa-9018-1c7bfa1fac25",
-                            "frames": [
-                                {
-                                    "id": "86285b9a-593a-4785-922b-45608fb32a90",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "6ce94129-357c-4496-a934-30a346e5948d",
-                            "frames": [
-                                {
-                                    "id": "88c1e739-dde6-40ff-b9a2-6e5f88a55aab",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "75f45130-4874-4f66-a895-21e3a815cb70",
-                            "frames": [
-                                {
-                                    "id": "3e176d07-898f-4cc0-b04c-a633cc6f7b58",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "4ad695a1-cc87-4747-96ca-8d83ad58de24",
-                            "frames": [
-                                {
-                                    "id": "468dbde5-0757-4bc8-b118-1d4fbb8bca77",
-                                    "tiles": []
-                                }
-                            ]
-                        },
-                        {
-                            "id": "636a457c-f4ff-42f4-8a9c-c81d7b0414e8",
-                            "frames": [
-                                {
-                                    "id": "d485e6d4-f7ca-4e8f-bc2f-5cd4e4fd3dac",
-                                    "tiles": []
-                                }
-                            ]
-                        }
-                    ],
-                    "animationType": "fixed",
-                    "flipLeft": true
                 }
             ],
             "numTiles": 18,
@@ -30777,7 +30750,7 @@
         },
         {
             "id": "3b01d62e-4f79-47f3-b87c-9d8090470578",
-            "name": "Introduction Eyes 1",
+            "name": "Introduction 1",
             "colors": [
                 "E8F8E0",
                 "202850",
@@ -30787,7 +30760,7 @@
         },
         {
             "id": "00dbb63a-43d5-475c-b92a-2c91cd78fadb",
-            "name": "Introduction Eyes 2",
+            "name": "Introduction 2",
             "colors": [
                 "E8F8E0",
                 "E8F8E0",
@@ -30817,7 +30790,7 @@
         },
         {
             "id": "6ebfab5f-7aba-4a0c-a38e-0e4742ea931a",
-            "name": "Introduction Eyes 3",
+            "name": "Introduction 3",
             "colors": [
                 "E8F8E0",
                 "E8F8E0",
@@ -30827,12 +30800,12 @@
         },
         {
             "id": "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
-            "name": "Wooden Crate",
+            "name": "Brown (Wooden)",
             "colors": [
-                "B8A008",
-                "988810",
+                "B8A850",
+                "988820",
                 "585008",
-                "002030"
+                "000000"
             ]
         },
         {
@@ -30847,87 +30820,37 @@
         },
         {
             "id": "7011f76f-3e61-49d6-aa9c-0677bedff5e6",
-            "name": "DarkBlue(White)",
+            "name": "Dark Blue",
             "colors": [
                 "F8F8F8",
                 "707898",
                 "384060",
-                "081048"
-            ]
-        },
-        {
-            "id": "c40cd630-7ea9-4009-9809-bdd192a12e86",
-            "name": "DarkBlue",
-            "colors": [
-                "A8B8D8",
-                "707898",
-                "384060",
-                "081048"
-            ]
-        },
-        {
-            "id": "c25a1675-1dd9-42ec-89a5-ad1a5f0d8ec9",
-            "name": "DarkBlue(Red)",
-            "colors": [
-                "A8B8D8",
-                "707898",
-                "802808",
-                "081048"
+                "000000"
             ]
         },
         {
             "id": "83606c17-ffaf-4905-aba1-bbc839a25917",
-            "name": "Orange (Alexandros)",
+            "name": "Orange",
             "colors": [
-                "F8E0B8",
-                "F89000",
-                "A05800",
-                "000000"
-            ]
-        },
-        {
-            "id": "b4f94f8d-2ccc-4b1d-8af9-5fb7eb7398bd",
-            "name": "DarkBlue(Black)",
-            "colors": [
-                "A8B8D8",
-                "707898",
-                "384060",
-                "000000"
-            ]
-        },
-        {
-            "id": "919ea008-eb04-45cb-8b86-df2cd8ebaed0",
-            "name": "DarkBlue(B/W)",
-            "colors": [
-                "F8F8F8",
-                "707898",
-                "384060",
+                "F0E8E8",
+                "F8B000",
+                "D09000",
                 "000000"
             ]
         },
         {
             "id": "56fc328b-1a5d-4ad3-b307-535010a19717",
-            "name": "Base Sprites",
+            "name": "Blue (Alexandros)",
             "colors": [
-                "E8D8D8",
+                "F8F0F0",
                 "0068D8",
                 "003870",
                 "000000"
             ]
         },
         {
-            "id": "6c7e0e72-0106-4456-89aa-e89697b2d8d1",
-            "name": "Golds",
-            "colors": [
-                "F8F8E0",
-                "E0F088",
-                "D8F828",
-                "686840"
-            ]
-        },
-        {
             "id": "fb1b7084-30db-49a4-8167-f082eabaae55",
-            "name": "Landscape(Greens)",
+            "name": "Green (Landscapes)",
             "colors": [
                 "F8F8F8",
                 "68B090",
@@ -30959,9 +30882,29 @@
             "id": "73ffde98-ebbe-4d9c-896a-5a012265fb77",
             "name": "Yellow (Neera)",
             "colors": [
-                "F8F898",
+                "F8F8F8",
                 "F8F800",
                 "A8A800",
+                "000000"
+            ]
+        },
+        {
+            "id": "22b6a428-d602-487a-9d0a-646dc0cb5405",
+            "name": "Grayscale (Red Highlight)",
+            "colors": [
+                "F0F8E8",
+                "889098",
+                "802808",
+                "000000"
+            ]
+        },
+        {
+            "id": "e59d21b3-99d8-4b6c-8458-99d057e1062f",
+            "name": "Base UI",
+            "colors": [
+                "F0F8E8",
+                "7088D8",
+                "303858",
                 "000000"
             ]
         }
@@ -32427,38 +32370,38 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 248,
+        "worldScrollY": 302,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
-            "default-sprite",
+            "fb1b7084-30db-49a4-8167-f082eabaae55",
+            "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
             "default-bg-2",
             "default-bg-3",
             "default-bg-4",
             "default-bg-5",
             "default-bg-6",
-            "dmg",
-            "48c5c27d-0916-42f9-aded-07b0fcd40fed"
+            "e59d21b3-99d8-4b6c-8458-99d057e1062f"
         ],
         "defaultSpritePaletteIds": [
-            "56fc328b-1a5d-4ad3-b307-535010a19717",
-            "default-ui",
+            "default-sprite",
+            "default-sprite",
+            "default-sprite",
             "3438e7f9-855f-4d00-9278-ed02a76d5bd6",
             "e624a14a-ca6a-4d15-885d-b4f144aecc2f",
             "73ffde98-ebbe-4d9c-896a-5a012265fb77",
-            "83606c17-ffaf-4905-aba1-bbc839a25917",
-            "default-sprite",
-            "default-sprite"
+            "56fc328b-1a5d-4ad3-b307-535010a19717",
+            "f3c4c2d0-d047-4227-91b5-09c6b12986c0"
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            888,
+            897,
             30
         ],
         "showNavigator": true,
