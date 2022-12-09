@@ -1226,6 +1226,8 @@ Concepts:
 		~ https://www.youtube.com/watch?v=45csJ9IO0v4
 84. Have certain equippable weapons have different elemental affinities.
 	- And have these deal different levels of damage to different opponents based on triangles of super effectiveness.
+86. "Love, there's no question of who you stand for. The question is: Why don't they stand for YOU?"
+	- A character to Aylmera when discussing loyalties.
 
 Misc Dialogue for encounters:
 ===============================
