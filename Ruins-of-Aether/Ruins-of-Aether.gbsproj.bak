@@ -2098,53 +2098,6 @@
                 },
                 {
                     "name": "",
-                    "id": "d6b3008d-dade-4075-a440-12f246f477a9",
-                    "x": 11,
-                    "y": 3,
-                    "width": 2,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "A collection of dusty books and scrolls fill\nthe shelves. Many are falling apart due to\nfrequent use."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "56bc88a2-464e-4850-b206-c1c712f5223a"
-                                    }
-                                ]
-                            },
-                            "id": "b682b5ba-b525-440a-9a21-96d4440d7235"
-                        }
-                    ],
-                    "leaveScript": [
-                        {
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ]
-                            },
-                            "id": "03176a57-7a99-4674-8eef-b6f5c5803e75"
-                        }
-                    ],
-                    "symbol": "trigger_2"
-                },
-                {
-                    "name": "",
                     "id": "58a05fae-b65f-4c95-b7eb-0c368ba3c618",
                     "x": 5,
                     "y": 2,
@@ -2307,6 +2260,55 @@
                         }
                     ],
                     "symbol": "trigger_32"
+                },
+                {
+                    "name": "",
+                    "id": "6d8e2bb6-33b0-4fcd-ac13-6e3cbb4642fb",
+                    "x": 11,
+                    "y": 3,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "You take a book off the shelf and crack\nopen its dusty carapace. Your nostrils fill\nwith a stagnant aroma.",
+                                                "Inside are an assortment of diagrams\nand figures. The accompanying notes are\nwritten in a language you don't recognize.",
+                                                "The images seem to depict human bodies\nat varying levels of decay. Though it's\nimpossible to decipher further."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4e392841-db91-419a-8585-97138a46e6e5"
+                                    }
+                                ]
+                            },
+                            "id": "58071286-2917-4b58-b6ec-199fad6914d3"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "dbac9cb0-7782-43e7-ab95-3ce49fdfa76e"
+                        }
+                    ],
+                    "symbol": "trigger_36"
                 }
             ],
             "script": [
@@ -2328,7 +2330,7 @@
                         "variable": "L0",
                         "__collapseElse": false,
                         "__disableElse": true,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "If $Introduced is False"
                     },
                     "children": {
@@ -3279,7 +3281,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "It looks like the bookshelves were hastily\nshoved aside, leaving the floor marred\nwith numerous nicks and scratches."
+                                                "These shelves were moved recently by\nsomeone careless. They left the floor\nmarred with nicks and scratches."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -4541,7 +4543,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "We can't let you through, Milady. We're\nunder strict orders from the King."
+                                    "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -4606,10 +4608,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "We can't let you through, Milady. We're\nunder strict orders from the King."
+                                    "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
                                 ],
                                 "avatarId": "",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "d2c64db4-c493-4268-94e1-ce79fe69d7af"
                         }
@@ -8054,7 +8056,7 @@
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "T0",
+                                            "variable": "L0",
                                             "trueText": "Yes.",
                                             "falseText": "No.",
                                             "__collapse": true
@@ -8064,8 +8066,9 @@
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "variable": "T0",
-                                            "__collapseElse": true
+                                            "variable": "L0",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
                                         },
                                         "children": {
                                             "true": [
@@ -8073,9 +8076,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "To be done..."
+                                                            "It reads: \"Calling all able-bodied men! The\ntime for action is now! Wizard dissenters\nsquat on our lands to the East, defiling our",
+                                                            "dead through their wicked necromancy,\nendangering all our safety. Follow the\nCrown! Enlist today! Protect the Realm!\""
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "",
+                                                        "__collapse": false
                                                     },
                                                     "id": "218c4930-4d49-45c2-ab7c-7cf145b2d0a9"
                                                 }
@@ -10941,55 +10946,6 @@
                 },
                 {
                     "name": "",
-                    "id": "20699bf0-ac41-4645-87c4-d3a9fbcf1a7a",
-                    "x": 15,
-                    "y": 5,
-                    "width": 2,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "You take a book off the shelf and crack\nopen its dusty carapace, filling your\nnostrils with a stagnant aroma.",
-                                                "Inside you find an assortment of diagrams\nand figures. The accompanying notes are\nwritten in a language you don't recognize.",
-                                                "Many of the images seem to depict human\nbodies at varying levels of decay. Though \nit's impossible to decipher further."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "de52ceff-d2fb-405f-9ad5-cffc3d75f772"
-                                    }
-                                ]
-                            },
-                            "id": "0e2c453a-2449-49db-858d-3c60f6fda2f3"
-                        }
-                    ],
-                    "leaveScript": [
-                        {
-                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "a"
-                                ]
-                            },
-                            "id": "6c5354c9-ec04-47ad-a50a-bb8b78ba6afc"
-                        }
-                    ],
-                    "symbol": "trigger_29"
-                },
-                {
-                    "name": "",
                     "id": "5c79b782-7d07-4b97-a435-e3ee5ceb555d",
                     "x": 7,
                     "y": 4,
@@ -11011,7 +10967,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A dusty cloth canvas hangs from the wall.\nLooks as though it hasn't been washed in\nyears."
+                                                "An old cloth canvas hangs from the wall.\nIt looks as though it hasn't been washed in\nyears."
                                             ],
                                             "avatarId": ""
                                         },
@@ -11034,6 +10990,53 @@
                         }
                     ],
                     "symbol": "trigger_33"
+                },
+                {
+                    "name": "",
+                    "id": "80169372-f1b1-4420-a768-7bc2577ec8f7",
+                    "x": 15,
+                    "y": 5,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A collection of dusty books and scrolls\nlitter the shelves. The bindings of the\nformer are falling apart from neglect."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1d170fca-e0c8-4a53-82f6-b7566cfbda54"
+                                    }
+                                ]
+                            },
+                            "id": "22ad25f6-64d1-430d-a9e3-69304078febc"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "f08132ed-6cfc-4aab-af71-18bf80ed7893"
+                        }
+                    ],
+                    "symbol": "trigger_2"
                 }
             ],
             "script": [],
@@ -15115,13 +15118,13 @@
         },
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
-            "name": "portraits\\lords-portrait",
+            "name": "portraits/lords-portrait",
             "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits\\lords-portrait.png",
+            "filename": "portraits/lords-portrait.png",
             "tileColors": [
                 0,
                 0,
@@ -15487,13 +15490,13 @@
         },
         {
             "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
-            "name": "portraits\\tower-landscape",
+            "name": "portraits/tower-landscape",
             "symbol": "bg_portraits_tower_landscap",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits\\tower-landscape.png",
+            "filename": "portraits/tower-landscape.png",
             "tileColors": [
                 5,
                 5,
@@ -15859,13 +15862,13 @@
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "premades\\placeholder",
+            "name": "premades/placeholder",
             "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "premades\\placeholder.png",
+            "filename": "premades/placeholder.png",
             "tileColors": []
         },
         {
@@ -18054,13 +18057,13 @@
         },
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
-            "name": "startup\\intro-eyes",
+            "name": "startup/intro-eyes",
             "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup\\intro-eyes.png",
+            "filename": "startup/intro-eyes.png",
             "tileColors": [
                 0,
                 0,
@@ -18426,13 +18429,13 @@
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
-            "name": "startup\\title",
+            "name": "startup/title",
             "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup\\title.png",
+            "filename": "startup/title.png",
             "tileColors": [
                 0,
                 0,
@@ -20651,7 +20654,7 @@
             "symbol": "sprite_characters_alexandro",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\alexandros.png",
+            "filename": "characters/alexandros.png",
             "checksum": "667625c4af12cf0eae4fce8dc502fbd2b70c356c",
             "width": 48,
             "height": 64,
@@ -21340,7 +21343,7 @@
             "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters\\chef-4t.png",
+            "filename": "characters/chef-4t.png",
             "checksum": "1ed5808b3a56464b6a9801e1737f97f7655c1522",
             "width": 64,
             "height": 16,
@@ -21549,7 +21552,7 @@
             "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\jester.png",
+            "filename": "characters/jester.png",
             "checksum": "b19be410dc59dd54ecfd1a806e2ede17d0c865a9",
             "width": 48,
             "height": 64,
@@ -22238,7 +22241,7 @@
             "symbol": "sprite_characters_neera",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\neera.png",
+            "filename": "characters/neera.png",
             "checksum": "0f50fb73cb326d0cf1d2ad72d9efb5da0cc7f8ab",
             "width": 48,
             "height": 64,
@@ -22927,7 +22930,7 @@
             "symbol": "sprite_characters_party_bat",
             "numFrames": 13,
             "type": "animated",
-            "filename": "characters\\party-battle.png",
+            "filename": "characters/party-battle.png",
             "checksum": "cd46aeb695fea9082bc49e9fd40a17fc5575d11c",
             "width": 208,
             "height": 64,
@@ -23135,7 +23138,7 @@
             "symbol": "sprite_characters_player",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\player.png",
+            "filename": "characters/player.png",
             "checksum": "173b64feaaef4577b33becfd56605e0cc84beb7f",
             "width": 48,
             "height": 64,
@@ -23837,7 +23840,7 @@
             "symbol": "sprite_hp_bars_hero_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\hero-hp.png",
+            "filename": "hp-bars/hero-hp.png",
             "checksum": "e71c6a0ee90c60a95aa72a72712b59158bedf3ae",
             "width": 48,
             "height": 80,
@@ -24349,7 +24352,7 @@
             "symbol": "sprite_hp_bars_jester_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\jester-hp.png",
+            "filename": "hp-bars/jester-hp.png",
             "checksum": "15a7018055c2e5378181b02b422848fbfa7f3429",
             "width": 48,
             "height": 80,
@@ -24900,7 +24903,7 @@
             "symbol": "sprite_hp_bars_priestess_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\priestess-hp.png",
+            "filename": "hp-bars/priestess-hp.png",
             "checksum": "feb53405cf5f9621d7e25327d4144fe64a6f6f75",
             "width": 48,
             "height": 80,
@@ -25412,7 +25415,7 @@
             "symbol": "sprite_hp_bars_wizard_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\wizard-hp.png",
+            "filename": "hp-bars/wizard-hp.png",
             "checksum": "088513e9f07c12efa11c747214fdb32f2991661c",
             "width": 48,
             "height": 80,
@@ -26002,7 +26005,7 @@
             "symbol": "sprite_premades_2bit_cone_h",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-cone-head-cultist.png",
+            "filename": "premades/2bit-cone-head-cultist.png",
             "checksum": "23222491e0a747028b327ce5e327a88186b2ea44",
             "width": 96,
             "height": 16,
@@ -26358,7 +26361,7 @@
             "symbol": "sprite_premades_2bit_old_ma",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-old-man-glasses.png",
+            "filename": "premades/2bit-old-man-glasses.png",
             "checksum": "48224efd6b75aa1c4529e901aba422b195481fb3",
             "width": 96,
             "height": 16,
@@ -26714,7 +26717,7 @@
             "symbol": "sprite_premades_2bit_pigtai",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-pigtailed-woman-long-hair.png",
+            "filename": "premades/2bit-pigtailed-woman-long-hair.png",
             "checksum": "3101959b96795c4cd1454406e385fe9af316c04c",
             "width": 96,
             "height": 16,
@@ -27070,7 +27073,7 @@
             "symbol": "sprite_premades_2bit_robed_",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-robed-npc.png",
+            "filename": "premades/2bit-robed-npc.png",
             "checksum": "b3d1a13eb208600b6d5c105b1ccc83cdc1fee76f",
             "width": 96,
             "height": 16,
@@ -27426,7 +27429,7 @@
             "symbol": "sprite_premades_2bit_royal_",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-royal-butler.png",
+            "filename": "premades/2bit-royal-butler.png",
             "checksum": "cdbcbc1fe800f3d4b68a8f3541c17ec0ccb2e616",
             "width": 96,
             "height": 16,
@@ -27782,7 +27785,7 @@
             "symbol": "sprite_premades_2bit_very_o",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit-very-old-man.png",
+            "filename": "premades/2bit-very-old-man.png",
             "checksum": "4061af068ff6e3f73e85ab5d7aa26b6378196c53",
             "width": 96,
             "height": 16,
@@ -28138,7 +28141,7 @@
             "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades\\actor.png",
+            "filename": "premades/actor.png",
             "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
             "width": 48,
             "height": 16,
@@ -28320,7 +28323,7 @@
             "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\actor_animated.png",
+            "filename": "premades/actor_animated.png",
             "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
             "width": 96,
             "height": 16,
@@ -28676,7 +28679,7 @@
             "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\cat.png",
+            "filename": "premades/cat.png",
             "checksum": "b043d62597e5be563b43a54be9d29deebbb165c1",
             "width": 16,
             "height": 16,
@@ -28804,7 +28807,7 @@
             "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character0.png",
+            "filename": "premades/character0.png",
             "checksum": "e3cb9c3af37cabae26cebf61cc347f869012122b",
             "width": 16,
             "height": 16,
@@ -28932,7 +28935,7 @@
             "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character1.png",
+            "filename": "premades/character1.png",
             "checksum": "49131ef5b2d20d5432572c4053ffc2b0a536f08d",
             "width": 16,
             "height": 16,
@@ -29060,7 +29063,7 @@
             "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character2.png",
+            "filename": "premades/character2.png",
             "checksum": "65136775c01ebcb8a90392a236314a398e74fb17",
             "width": 16,
             "height": 16,
@@ -29188,7 +29191,7 @@
             "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character3.png",
+            "filename": "premades/character3.png",
             "checksum": "aaa8f06f105b27e744a6d6ef946f84ad815d75a8",
             "width": 16,
             "height": 16,
@@ -29316,7 +29319,7 @@
             "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy0.png",
+            "filename": "premades/enemy0.png",
             "checksum": "bfa9cb107e9f1d58ab9896b49bd93145b4a1f385",
             "width": 16,
             "height": 16,
@@ -29444,7 +29447,7 @@
             "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy1.png",
+            "filename": "premades/enemy1.png",
             "checksum": "7c045dc66819f9590918b7f12447b5b38496591e",
             "width": 16,
             "height": 16,
@@ -29572,7 +29575,7 @@
             "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy2.png",
+            "filename": "premades/enemy2.png",
             "checksum": "dad68b4af478d5bfe2a731c4a4e0800e369120d7",
             "width": 16,
             "height": 16,
@@ -29700,7 +29703,7 @@
             "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
-            "filename": "premades\\fire.png",
+            "filename": "premades/fire.png",
             "checksum": "da92212c3c424721b2535a2e85e0f6f5ed010f74",
             "width": 64,
             "height": 16,
@@ -29921,7 +29924,7 @@
             "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart0.png",
+            "filename": "premades/heart0.png",
             "checksum": "7656680fbd3e7d49ec127260e3aa61bd0c881872",
             "width": 16,
             "height": 16,
@@ -30049,7 +30052,7 @@
             "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart1.png",
+            "filename": "premades/heart1.png",
             "checksum": "042388ba8b04f51ea9881672317e39ca52508853",
             "width": 16,
             "height": 16,
@@ -30177,7 +30180,7 @@
             "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart2.png",
+            "filename": "premades/heart2.png",
             "checksum": "b917659130116c7bef29dba42e486b1a5ee05640",
             "width": 16,
             "height": 16,
@@ -30305,7 +30308,7 @@
             "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\item0.png",
+            "filename": "premades/item0.png",
             "checksum": "e418a68b729e26a82de13a110d9aee240a03472e",
             "width": 16,
             "height": 16,
@@ -30433,7 +30436,7 @@
             "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades\\npc001.png",
+            "filename": "premades/npc001.png",
             "checksum": "41238f54ad45b3503b77c7b126916ae0a30420be",
             "width": 48,
             "height": 16,
@@ -30615,7 +30618,7 @@
             "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\static.png",
+            "filename": "premades/static.png",
             "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8",
             "width": 16,
             "height": 16,
@@ -32515,8 +32518,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 387,
-        "worldScrollY": 0,
+        "worldScrollX": 1308,
+        "worldScrollY": 311,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -32546,7 +32549,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            894,
             30
         ],
         "showNavigator": true,
