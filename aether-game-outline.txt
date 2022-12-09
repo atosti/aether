@@ -1233,6 +1233,8 @@ Concepts:
 		~ I say, "doots" referring to the little noises made while speaking in place of actual narration (due to GBC limitations.)
 		~ Think of something like Animal Crossing as an example.
 	- This will allow the tone of each character (and antagonist) to really shine through, and prevent them all from feeling the same.
+88. Create an animation for Alexandros casting a magic spell (for use in the intro scene)
+	- Have it be that both his hands are extended in front of him, with orbs of energy coming off them. (He'll be pointed at Aylmera as he's the one reviving her.)
 
 Misc Dialogue for encounters:
 ===============================
