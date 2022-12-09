@@ -10884,7 +10884,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A dusty, canvas cloth hangs from the wall.\nYour nose itches from just looking at it."
+                                                "A dusty cloth canvas hangs from the wall.\nLooks as though it hasn't been washed in\nyears."
                                             ],
                                             "avatarId": ""
                                         },
@@ -32371,7 +32371,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 248,
-        "worldScrollY": 302,
+        "worldScrollY": 200,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
