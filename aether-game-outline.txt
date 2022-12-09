@@ -1228,6 +1228,11 @@ Concepts:
 	- And have these deal different levels of damage to different opponents based on triangles of super effectiveness.
 86. "Love, there's no question of who you stand for. The question is: Why don't they stand for YOU?"
 	- A character to Aylmera when discussing loyalties.
+87. To give the impression of different voices, play different audio tracks for different speech types.
+	- For example, a character that has a low, gravelly voice should have lower doots to the text being spoken.
+		~ I say, "doots" referring to the little noises made while speaking in place of actual narration (due to GBC limitations.)
+		~ Think of something like Animal Crossing as an example.
+	- This will allow the tone of each character (and antagonist) to really shine through, and prevent them all from feeling the same.
 
 Misc Dialogue for encounters:
 ===============================
