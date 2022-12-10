@@ -2474,7 +2474,7 @@
                 null,
                 "",
                 "22b6a428-d602-487a-9d0a-646dc0cb5405",
-                "",
+                "3d678cbc-06c2-4973-9f0e-e8125ab00751",
                 null,
                 "",
                 "",
@@ -10459,8 +10459,8 @@
                             "args": {
                                 "text": [
                                     "The key to any delicious meal lies in a\nrobust mixture of herbs and spices.",
-                                    "But with our trade routes now cutoff,\nI've been forced to make substitutions...",
-                                    "Our Majesty has such a refined palate, I\nhope he doesn't notice a difference."
+                                    "But with our trade routes now cutoff,\nI've been forced to make substitutions.",
+                                    "Our Majesty has such a refined palate, so\nI'm hoping he doesn't notice a difference..."
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -10493,7 +10493,7 @@
                             "args": {
                                 "sceneId": "ae03d3db-80b5-4fdd-a11d-0e40fbdbdd53",
                                 "x": 3,
-                                "y": 2,
+                                "y": 3,
                                 "direction": "down",
                                 "fadeSpeed": "2"
                             },
@@ -10502,6 +10502,102 @@
                     ],
                     "leaveScript": [],
                     "symbol": "trigger_21"
+                },
+                {
+                    "name": "",
+                    "id": "6fcaf3b6-048d-42df-aa9b-e383cb51aa0e",
+                    "x": 12,
+                    "y": 3,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The well-worn cookbook is open to a page\ncontaining a recipe for Beef Wellington."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "b6bc2c9c-5bb3-4a1a-905c-27c169db44a5"
+                                    }
+                                ]
+                            },
+                            "id": "9c951819-249d-4c13-acaa-067a9c948a3e"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "85413f43-ff97-42d3-8c3f-9f84ab8b9af8"
+                        }
+                    ],
+                    "symbol": "trigger_37"
+                },
+                {
+                    "name": "",
+                    "id": "ea4309bb-0c46-45e2-ba3b-e75ebb5d5236",
+                    "x": 8,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "An assortment of meats and herbs are\nhung here. They smell divine."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "8d0a9f31-29df-4eb6-9f36-fd60885133be"
+                                    }
+                                ]
+                            },
+                            "id": "073661a0-cc1b-4ed2-a33d-f4d33148e9c1"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "1c54cb6f-8350-41f9-b8fd-b9deccd8dc0b"
+                        }
+                    ],
+                    "symbol": "trigger_29"
                 }
             ],
             "script": [],
@@ -19981,10 +20077,10 @@
                 1,
                 1,
                 1,
+                3,
                 1,
                 1,
-                1,
-                1,
+                3,
                 1,
                 1,
                 1,
@@ -31037,6 +31133,16 @@
                 "303858",
                 "000000"
             ]
+        },
+        {
+            "id": "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+            "name": "Grayscale (Torches)",
+            "colors": [
+                "F8F8F8",
+                "889098",
+                "484850",
+                "F8F800"
+            ]
         }
     ],
     "customEvents": [
@@ -32518,9 +32624,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1435,
-        "worldScrollY": 540,
-        "zoom": 200,
+        "worldScrollX": 1041,
+        "worldScrollY": 1337,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
