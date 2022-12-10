@@ -194,7 +194,6 @@ Simple things to Work On:
 	c. Neera = Heal?
 	d. Alexandros = Magical stationary shield wall in-front of the player?
 		~ Or maybe a shield that follows the player somehow?
-115. Draw a simple sprite for a staircase UP to match staircases DOWN. Just for cohesion's sake.
 116. Draw Nodding and Head Shaking animations for the player, so it can be accompanied with Yes/No dialogue options.
 117. Walking into a sprite and interacting will cause the player to be in a "moving" animation loop while the dialogue plays.
 	- Is there an easy fix to this? It's not horrible, but it is a bit jarring.

@@ -2415,7 +2415,7 @@
                                         "Aylmera, can you hear my voice?"
                                     ],
                                     "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "496497f0-5b07-4816-96a7-433ab8db0bdd"
                             },
@@ -2446,7 +2446,7 @@
                                 "args": {
                                     "variable": "L1",
                                     "__collapseElse": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
