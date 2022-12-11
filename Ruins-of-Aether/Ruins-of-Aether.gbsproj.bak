@@ -1410,10 +1410,10 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -1756,7 +1756,7 @@
                     "hit3Script": [],
                     "id": "e8916db7-436d-47aa-9497-ddba55b113e6",
                     "x": 5,
-                    "y": 5,
+                    "y": 6,
                     "symbol": "actor_1"
                 },
                 {
@@ -11875,26 +11875,6 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 15,
@@ -11937,10 +11917,30 @@
                 0,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -12306,6 +12306,94 @@
                         }
                     ],
                     "symbol": "trigger_25"
+                },
+                {
+                    "name": "",
+                    "id": "9cc494af-4aef-48b7-813d-e89aa4219a63",
+                    "x": 16,
+                    "y": 2,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A handwritten note lies on the shelf simply\ntitled, \"Morcant's Eulogy\". Would you like \nto read it?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "bca7cf8b-4d79-4fa2-a50d-d98b8b7911ac"
+                                    },
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "trueText": "Yes.",
+                                            "falseText": "No.",
+                                            "__collapse": true
+                                        },
+                                        "id": "60c2e386-ec6c-4c42-bb07-63a1950bfdcc"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "__collapseElse": true,
+                                            "__disableElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "\"Morcant was a remarkable man. Strong,\nnoble, and driven. All who knew him were\nimpressed by his honesty and conviction.",
+                                                            "Fathers are not meant to bury sons, just\nas Kingdoms are not meant to bury their\nproblems. Thus, our reality persists.",
+                                                            "We must draw from his death the lessons\nwhich he would bestow upon us, were he\nstill here.",
+                                                            "We must find the strength to persevere.\nTo rise as never before, unifed and\nwith the conviction to never give up.",
+                                                            "The enemy we now face is unlike anything\nwe've ever known. But we will persevere. \nFor ourselves. And for Prince Morcant.\"",
+                                                            "The whole thing reads more like a rousing\nspeech than a euology..."
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "340e2f3c-72de-43bf-9735-dbab949552f9"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "b127ba8b-d4b6-4a4e-afd9-4d9713e7d6e9"
+                                    }
+                                ]
+                            },
+                            "id": "64695491-d587-4164-b87f-a5a5a0b24094"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "__collapse": true
+                            },
+                            "id": "e5d900bf-e2b8-4b41-9e91-96e5885f6eea"
+                        }
+                    ],
+                    "symbol": "trigger_35"
                 }
             ],
             "script": [],
@@ -46932,6 +47020,11 @@
             "id": "3b1c6d4a-f11b-48be-8cdc-e6e05ada23f2__L0",
             "name": "Introduced",
             "symbol": "var_introduced_0"
+        },
+        {
+            "id": "9cc494af-4aef-48b7-813d-e89aa4219a63__L0",
+            "name": "Local 0",
+            "symbol": "var_local_6"
         }
     ],
     "engineFieldValues": [
@@ -46949,9 +47042,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 781,
-        "worldScrollY": 523,
-        "zoom": 400,
+        "worldScrollX": 529,
+        "worldScrollY": 3,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
