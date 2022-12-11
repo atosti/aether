@@ -1453,6 +1453,8 @@ GB Studio:
 			https://archive.org/details/facetiaeorjocos00bracgoog/page/n59/mode/2up
 18. Guide on Tile-based HUDs
 	https://gbstudiocentral.com/tips/creating-a-tile-based-hud/
+19. 8-bit Sound Effects
+	https://www.soundsnap.com/tags/8_bit
 
 Soundtrack:
 ============
