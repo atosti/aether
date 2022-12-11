@@ -106,9 +106,6 @@ Simple things to Work On:
 	- Grates to drain blood
 	- Torture devices (stretching rack)
 	- Wizard sprites
-85. Design a Logo and the logo screen
-	- Allow it to be skipped by pressing A in the case of rapidly restarting the game. It's a Quality of Life thing.
-86. Create a gif to the README that demonstrates some of the basic gameplay and/or screens in the game.
 87. Figure out how to do scene transitions where the screen blacks out in different ways
 	- E.g. when trainer battles would start in Pokemon Blue
 88. Design the music that plays during the intro (pre-awakening)
@@ -117,15 +114,12 @@ Simple things to Work On:
 89. To begin learning the GB Studio music software just straight up create a copy of a song you know.
 	- This doesn't have to be included in the final game, just listen to something and reverse engineer it for the skill.
 	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
-91. Select roughly how many screens you want the game to be.
-	- This will help determine the overall size of the world and the distance between locations.
 93. Create sprites to handle parrying and dodge rolling?
 	- Jumping?
 95. Add cycling through the logos on game launch
 	- One for yourself, one for GB Studio
 	- Allow skipping them one-by-one with any button press (for QoL)
-96. Pan to the Game's title (have the text enter the screen from the top)
-	- Then fade in, or slide in the text "Press any button"
+		~ Or perhaps all at once with a button press. Make it feel smooth, not like a slog to start.
 97. Decide on some color schemes for the entire game
 	- Mainly design a number of reusable palletes for various entities
 	- Select core colors that you want for things
@@ -1457,6 +1451,8 @@ GB Studio:
 			https://archive.org/details/facetiaeorjocos00bracgoog/page/n205/mode/2up
 		- Page 50 has a good quip about the cold
 			https://archive.org/details/facetiaeorjocos00bracgoog/page/n59/mode/2up
+18. Guide on Tile-based HUDs
+	https://gbstudiocentral.com/tips/creating-a-tile-based-hud/
 
 Soundtrack:
 ============
