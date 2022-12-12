@@ -191,6 +191,12 @@ Simple things to Work On:
 116. Draw Nodding and Head Shaking animations for the player, so it can be accompanied with Yes/No dialogue options.
 117. Walking into a sprite and interacting will cause the player to be in a "moving" animation loop while the dialogue plays.
 	- Is there an easy fix to this? It's not horrible, but it is a bit jarring.
+118. Draw fresh tiles for the Dining Hall
+	- Add tiles for a wall of differently shaped/sized portraits of esteemed members of the Kingdom.
+		~ These don't need cutaways, just a wide long stretch of frames that can be applied to the wall.
+	- Create chair sprites, both sideways and forewards.
+119. Draw more tiles for the Throne Room
+	- A shield with crossed spears or swords behind/alongside it (to hang behind the throne).
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
