@@ -197,6 +197,7 @@ Simple things to Work On:
 	- Create chair sprites, both sideways and forewards.
 119. Draw more tiles for the Throne Room
 	- A shield with crossed spears or swords behind/alongside it (to hang behind the throne).
+120. Update all dialogue featuring the Jester to use his avatar (even in 1 on 1s)
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
