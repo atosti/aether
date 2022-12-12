@@ -1240,6 +1240,9 @@ Concepts:
 88. Create an animation for Alexandros casting a magic spell (for use in the intro scene)
 	- Have it be that both his hands are extended in front of him, with orbs of energy coming off them. (He'll be pointed at Aylmera as he's the one reviving her.)
 89. Create an avatar for a Scroll/Page/Book, so that it can accompany text when you're reading documents.
+90. What if the real Aylmera never served the King's lineage? What if he is the descendant of her long-time enemies?
+	- But due to her beloved nature, they simply incorporated her as part of "their" realm. To prevent her from being a martyr.
+	- This would give the Spirit of Aylmera reason to distrust the party even further.
 
 
 Misc Dialogue for encounters:
