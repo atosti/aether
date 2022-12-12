@@ -201,6 +201,7 @@ Simple things to Work On:
 121. Add a "Made in GB Studio" screen to be displayed when the game is loaded
 	- Let it be skippable
 	- Try to draw the GB studio logo for it
+122. Modify the engine to enable 8-directional movement in top-down 2D screens
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
