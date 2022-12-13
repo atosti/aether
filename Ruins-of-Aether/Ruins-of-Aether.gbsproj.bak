@@ -3392,7 +3392,7 @@
                                                     "args": {
                                                         "variable": "L0",
                                                         "__collapseElse": true,
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -3409,12 +3409,12 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "That damned fool of a wizard went and\nblew it up is what happened. Took half\nthe Royal army along with him, too!",
+                                                                        "That damned fool of a Mad Wizard went\nand blew it up is what happened. Took half\nthe Royal army along with him, too!",
                                                                         "As if it wasn't enough to bury thousands\nof our own dead, we have to mourn the\ndeath of our culture at the same time!",
                                                                         "People say I'M a fool for wanting peace,\nbut look at what war has wrought us!\nChaos and famine across the Realm!"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
                                                             },
@@ -20879,8 +20879,8 @@
                 1,
                 1,
                 3,
-                1,
-                1,
+                0,
+                0,
                 3,
                 1,
                 1,
@@ -20919,8 +20919,8 @@
                 1,
                 1,
                 1,
-                1,
-                1,
+                0,
+                0,
                 1,
                 1,
                 1,
