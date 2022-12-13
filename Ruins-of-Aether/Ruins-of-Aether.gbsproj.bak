@@ -2199,7 +2199,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A man-sized cage. Though of primitive\ndesign, its well-worn lock\nsuggest significant use."
+                                                "A man-sized cage. Though of primitive\ndesign, its well-worn lock suggests\nsignificant use."
                                             ],
                                             "avatarId": ""
                                         },
@@ -3133,6 +3133,11 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -3153,16 +3158,11 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -3331,205 +3331,190 @@
             ],
             "autoFadeSpeed": 1,
             "id": "8f207906-efe2-499f-95d7-58d29d1036d8",
-            "x": 257.95299145299117,
-            "y": 387.24700854700797,
+            "x": 259.95299145299117,
+            "y": 389.74700854700797,
             "actors": [
                 {
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "fd9002ae-13ca-415f-9598-63ae901f709f",
-                    "direction": "right",
+                    "spriteSheetId": "0e8a3fa9-3c61-4c9e-97bf-b4b33cc74e2b",
+                    "direction": "up",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
                     "collisionGroup": "",
-                    "symbol": "actor_6",
+                    "symbol": "actor_11",
                     "script": [
                         {
-                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                            "command": "EVENT_IF_TRUE",
                             "args": {
-                                "actorId": "player",
-                                "x": 28,
-                                "y": 14,
-                                "__collapseElse": false,
-                                "__collapse": false
+                                "variable": "3",
+                                "__collapseElse": false
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_TEXT",
+                                        "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "text": [
-                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
-                                            ],
-                                            "avatarId": "",
+                                            "variable": "L1",
+                                            "__collapseElse": true,
+                                            "__disableElse": true,
                                             "__collapse": false
                                         },
-                                        "id": "9c82d260-472c-4365-9899-5cdc877c8d04"
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I saw you admiring that painting of the\nGreat Tower. Beautiful, isn't it? Shame\nthat's the only way to see it now."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "1dba908a-ee48-44ae-8535-445e6d98c634"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "trueText": "Something happen?",
+                                                        "falseText": "Who painted it?",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ca09c642-5dcd-45cf-b39e-770543db544b"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "__collapseElse": false,
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "d1c41b0f-708e-44a6-a222-12be7e657097"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "That damned fool of a wizard went and\nblew it up is what happened. Took half\nthe Royal army along with him, too!",
+                                                                        "As if it wasn't enough to bury thousands\nof our own dead, we have to mourn the\ndeath of our culture at the same time!",
+                                                                        "People say I'M a fool for wanting peace,\nbut look at what war has wrought us!\nChaos and famine across the Realm!"
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "02a51ac7-9ce5-45f1-b31b-9b02415b9fad"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "*Sigh* You want my advice? Put down the\nsword and pick up a hobby. Only the arts\nwill endure the cruelty of man."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "1b50f5dc-2b6b-4a32-80c7-7218d08d7d3a"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "That would be a fella by the name of\nGiovanni. Talented young man. Well, he\nwas. Suppose he's a lot older now.",
+                                                                        "But at the time of painting that he must've\nbeen... 19? Maybe 20? Remarkably talented\nfor his age.",
+                                                                        "Rumor has it that he got a personal tour\nof the Tower around the time of that\npainting.",
+                                                                        "I wonder what he's up to these days..."
+                                                                    ],
+                                                                    "avatarId": ""
+                                                                },
+                                                                "id": "8055c5ce-57c5-4047-827d-78c562e04dae"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "d1545085-d891-471e-84cf-38ffcc1ef496"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "b191e7e9-fa1c-4284-bb2d-57956fd1e3ed"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "command": "EVENT_IF_FALSE",
                                         "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "right"
-                                            },
-                                            "__collapse": true
+                                            "variable": "L1",
+                                            "__collapseElse": false
                                         },
-                                        "id": "0646835c-7ec4-4cd3-925e-4aa90b8ad595"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": true
-                                        },
-                                        "id": "e5bc2459-4870-4683-8310-3d73f300dd6d"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "The Crown's been more irritable lately.\nSomeone needs to say something to him!\nHe hasn't been himself since, well..."
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Huh? Can't you see I'm busy reading? Quit\nbothering me.",
+                                                            "*You notice the man glances briefly at the\npainting on the wall before returning to\nhis book.*"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
+                                                }
                                             ],
-                                            "avatarId": "",
-                                            "__collapse": true
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Don't let the other members of the court\ndiscourage you. Most of them are\nbraggarts and bullies. "
+                                                        ],
+                                                        "avatarId": ""
+                                                    },
+                                                    "id": "3caa47dc-fefb-410d-8d30-327183c701a9"
+                                                }
+                                            ]
                                         },
-                                        "id": "0d1c1d74-e2d4-4eee-87b7-93b18cd38d49"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
-                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                            "__collapse": true
-                                        },
-                                        "id": "ba4c6edd-3e24-41ad-b912-232b44cc5bf7"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time."
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": true
-                                        },
-                                        "id": "40d34c85-77e8-4a47-9a92-6abbb202c407"
+                                        "id": "490a8d46-b3af-4c0b-97e5-09db1ca76bae"
                                     }
                                 ]
                             },
-                            "id": "55af115e-76e4-4553-91fc-00683240492b"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "bae4a636-7700-4c51-bdd8-1e3d9997efa1",
-                    "x": 26,
-                    "y": 14
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "d2f21470-a6c6-4b59-a460-e13902065b3c",
-                    "direction": "left",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_7",
-                    "script": [
+                            "id": "27e6320b-5438-42e2-9924-461fcced6a7e"
+                        },
                         {
-                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
                             "args": {
-                                "actorId": "player",
-                                "x": 28,
-                                "y": 14,
-                                "__collapseElse": false,
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "up"
+                                },
                                 "__collapse": true
                             },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "fd72b07a-8cbe-4fac-a36f-d2b84f59b8cf"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "direction": {
-                                                "type": "direction",
-                                                "value": "left"
-                                            },
-                                            "__collapse": true
-                                        },
-                                        "id": "db44a82e-4efc-4f64-8fcf-b56223d03341"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "bae4a636-7700-4c51-bdd8-1e3d9997efa1",
-                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": false
-                                        },
-                                        "id": "cb9b094e-8f0c-426a-a5c8-3fc471d74341"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "The Crown's been more irritable lately...\nSomeone needs to say something to him!\nHe hasn't been himself since, well..."
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": true
-                                        },
-                                        "id": "60ecb62c-f0b6-4452-8e01-a6aae273536e"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
-                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                            "__collapse": false
-                                        },
-                                        "id": "487c9eac-ca3d-40a5-aae2-6937464167ce"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time."
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": false
-                                        },
-                                        "id": "2a0b76c7-7057-4052-a68c-91c3d6f30d07"
-                                    }
-                                ]
-                            },
-                            "id": "aabf4253-e628-4b76-a402-a960f8605020"
+                            "id": "8620fc88-c10c-4127-a06e-8a2138a80434"
                         }
                     ],
                     "startScript": [],
@@ -3537,9 +3522,9 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
+                    "id": "d363c909-7882-417f-a488-06ccc9ee465e",
                     "x": 30,
-                    "y": 14
+                    "y": 15
                 }
             ],
             "triggers": [
@@ -3680,13 +3665,22 @@
                             "children": {
                                 "true": [
                                     {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "3",
+                                            "__collapse": true
+                                        },
+                                        "id": "baf65e79-7cfc-45ab-b36b-642c27df2331"
+                                    },
+                                    {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
                                             "x": 0,
                                             "y": 0,
                                             "direction": "",
-                                            "fadeSpeed": "2"
+                                            "fadeSpeed": "2",
+                                            "__collapse": true
                                         },
                                         "id": "366744da-d7cf-4e62-864f-63b9f0c94657"
                                     }
@@ -5572,8 +5566,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
-            "x": 306.4,
-            "y": 558.8598290598287,
+            "x": 321.9,
+            "y": 582.3598290598287,
             "actors": [],
             "triggers": [],
             "script": [
@@ -5608,7 +5602,7 @@
                                         "The tower feels out of place, its presence\nsimultaneously somber and comforting."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "2cccc808-153b-43bb-969d-5481b536e976"
                             },
@@ -7950,11 +7944,11 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -8155,8 +8149,8 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "0e8a3fa9-3c61-4c9e-97bf-b4b33cc74e2b",
-                    "direction": "up",
+                    "spriteSheetId": "fd9002ae-13ca-415f-9598-63ae901f709f",
+                    "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -8166,27 +8160,84 @@
                     "symbol": "actor_8",
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_ACTOR_AT_POSITION",
                             "args": {
-                                "text": [
-                                    "Huh? What do you want? Don't bother me,\nI'm deep in this book."
+                                "actorId": "player",
+                                "x": 7,
+                                "y": 14,
+                                "__collapseElse": false,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "5d42306c-9175-412d-a216-77fee70c3f99"
+                                    }
                                 ],
-                                "avatarId": "",
-                                "__collapse": true
+                                "false": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "right"
+                                            },
+                                            "__collapse": true
+                                        },
+                                        "id": "2567024e-2437-431f-aa21-3a7ef8f64b4f"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "31a3c76c-746b-49b3-b094-2cc91946b372"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The Crown's been more irritable lately.\nSomeone needs to say something to him!\nHe hasn't been himself since, well..."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "d11daa5c-6e35-46c0-a7be-905f9824ae9d"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": true
+                                        },
+                                        "id": "48ccf8e8-8f3a-4341-b364-65480abf5b82"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "bc4145bd-0fd4-4a8e-94c7-16e50230dae4"
+                                    }
+                                ]
                             },
-                            "id": "35bfc235-918f-4f96-97c9-18a5b0da167f"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "up"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "8df824b7-308b-4ef6-9223-274cd4ad4b8d"
+                            "id": "c8705781-55f8-44ea-b093-aed68a444d31"
                         }
                     ],
                     "startScript": [],
@@ -8194,9 +8245,112 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "f72a2e2c-1c3f-4675-bb94-a05fa62c0afe",
-                    "x": 7,
-                    "y": 15
+                    "id": "1a3b6ed5-b104-4485-a3c0-1035647964aa",
+                    "x": 5,
+                    "y": 14
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d2f21470-a6c6-4b59-a460-e13902065b3c",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_12",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                            "args": {
+                                "actorId": "player",
+                                "x": 7,
+                                "y": 14,
+                                "__collapseElse": false,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "21468944-8198-4dad-9bed-a25f9587c0d9"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "left"
+                                            },
+                                            "__collapse": true
+                                        },
+                                        "id": "1440d7bb-a6f0-4de6-93c9-bf3a6f14ad5a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "bae4a636-7700-4c51-bdd8-1e3d9997efa1",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": false
+                                        },
+                                        "id": "ad456b3c-4030-4812-ac09-413f90530b99"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The Crown's been more irritable lately...\nSomeone needs to say something to him!\nHe hasn't been himself since, well..."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "8d432b60-c299-46f0-b715-feb3196740c4"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": false
+                                        },
+                                        "id": "b4079968-fe45-4ea8-a6fb-32c71fb35f77"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "e1932bac-9923-4db3-b328-dd41d4653089"
+                                    }
+                                ]
+                            },
+                            "id": "9a90b57d-13f4-40c0-b272-53108ff2da1c"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "04a160fa-e125-428a-bfff-9409660924eb",
+                    "x": 9,
+                    "y": 14
                 }
             ],
             "triggers": [
@@ -9490,8 +9644,8 @@
             "paletteIds": [
                 null,
                 null,
-                null,
-                null,
+                "",
+                "3d678cbc-06c2-4973-9f0e-e8125ab00751",
                 null,
                 null,
                 null,
@@ -9501,7 +9655,6 @@
             "collisions": [
                 15,
                 15,
-                15,
                 0,
                 0,
                 15,
@@ -9521,23 +9674,24 @@
                 15,
                 15,
                 15,
-                15,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 0,
@@ -10252,7 +10406,7 @@
                 {
                     "name": "",
                     "id": "c4d5667d-6dd1-4aea-9ebd-2c8806b9efdd",
-                    "x": 3,
+                    "x": 2,
                     "y": 0,
                     "width": 2,
                     "height": 2,
@@ -10271,6 +10425,55 @@
                     ],
                     "leaveScript": [],
                     "symbol": "trigger_20"
+                },
+                {
+                    "name": "",
+                    "id": "ae644e78-2282-4b88-b604-23c81d7eed6c",
+                    "x": 8,
+                    "y": 1,
+                    "width": 4,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "A collection of portraits and paintings\nhang on the wall of the dining hall. Each\none captures a moment of revelry.",
+                                                "There's images of knights, jesters, bards,\nkings, queens, and everything in between.\nAll eating, drinking, and dancing.",
+                                                "Clearly a memorial of better times. These\npaintings are well-maintained. The Crown\nmust hold them in high esteem."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6a56bd82-4b12-45f8-9224-d493bd9306aa"
+                                    }
+                                ]
+                            },
+                            "id": "a6e3f629-5aa2-4a18-9db3-d95fbe0e2ac4"
+                        }
+                    ],
+                    "leaveScript": [
+                        {
+                            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "a"
+                                ]
+                            },
+                            "id": "67e21eec-762e-4690-bae6-35847112ec91"
+                        }
+                    ],
+                    "symbol": "trigger_15"
                 }
             ],
             "script": [],
@@ -10681,8 +10884,8 @@
                             "args": {
                                 "text": [
                                     "The key to any delicious meal lies in a\nrobust mixture of herbs and spices.",
-                                    "But with our trade routes now cutoff,\nI've been forced to make substitutions.",
-                                    "Our Majesty has such a refined palate, so\nI'm hoping he doesn't notice a difference..."
+                                    "But with our trade routes now cut-off,\nI've been forced to make substitutions.",
+                                    "Our Majesty has a very refined palate, so\nI'm hoping he doesn't notice a difference."
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -10714,7 +10917,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "ae03d3db-80b5-4fdd-a11d-0e40fbdbdd53",
-                                "x": 3,
+                                "x": 2,
                                 "y": 3,
                                 "direction": "down",
                                 "fadeSpeed": "2"
@@ -10748,7 +10951,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "The well-worn cookbook is open to a page\ncontaining a recipe for Beef Wellington."
+                                                "The well-worn cookbook is open to a page\ndetailing a recipe for Beef Wellington."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -10796,7 +10999,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "An assortment of meats and herbs are\nhung here. They smell divine."
+                                                "An assortment of meats and herbs are\nhung here. Their smell is divine."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -12880,14 +13083,14 @@
                 1,
                 1,
                 1,
+                3,
                 1,
                 1,
                 1,
                 1,
                 1,
                 1,
-                1,
-                1,
+                3,
                 1,
                 1,
                 1,
@@ -13878,7 +14081,7 @@
                 0,
                 0,
                 0,
-                3,
+                0,
                 0,
                 0,
                 0,
@@ -47284,6 +47487,21 @@
             "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L3",
             "name": "HundredYearsResponse",
             "symbol": "var_hundredyearsresponse"
+        },
+        {
+            "id": "ee11834d-99ee-41ad-b491-aef40a94227e__L0",
+            "name": "LookedAtPainting",
+            "symbol": "var_lookedatpainting"
+        },
+        {
+            "id": "3",
+            "name": "ViewedTowerLandscape",
+            "symbol": "var_viewedtowerlandscape"
+        },
+        {
+            "id": "d363c909-7882-417f-a488-06ccc9ee465e__L1",
+            "name": "SpokenAboutPainting",
+            "symbol": "var_spokenaboutpainting"
         }
     ],
     "engineFieldValues": [
@@ -47301,8 +47519,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollX": 174,
+        "worldScrollY": 591,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
