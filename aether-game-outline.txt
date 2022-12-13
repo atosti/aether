@@ -194,6 +194,7 @@ Simple things to Work On:
 119. Draw more tiles for the Throne Room
 	- A shield with crossed spears or swords behind/alongside it (to hang behind the throne).
 120. Update all dialogue featuring the Jester to use his avatar (even in 1 on 1s)
+	- Also refine his dialogue in the War Room and before the King.
 121. Add a "Made in GB Studio" screen to be displayed when the game is loaded
 	- Let it be skippable
 	- Try to draw the GB studio logo for it
@@ -205,6 +206,10 @@ Simple things to Work On:
 	- What about the text, 'You'?
 124. Adjust the book sprite to be more directly infront of the man in the West Hallway
 	- Probably draw a slightly new sprite for the edge of the table AND on his side of it.
+125. Build the Armory and its combat tutorial.
+	- Draw a sprite for a gruff commander. (Perhaps use a 2bit gen'd character as a base)
+		~ Just apply armor similar to that of Aylmera.
+	- Draw armor stands and bunk beds for the barracks/armory.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
