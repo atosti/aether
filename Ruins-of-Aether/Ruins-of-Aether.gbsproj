@@ -3352,7 +3352,7 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "3",
-                                "__collapseElse": false
+                                "__collapseElse": true
                             },
                             "children": {
                                 "true": [
@@ -3360,8 +3360,8 @@
                                         "command": "EVENT_IF_FALSE",
                                         "args": {
                                             "variable": "L1",
-                                            "__collapseElse": true,
-                                            "__disableElse": true,
+                                            "__collapseElse": false,
+                                            "__disableElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
@@ -3391,8 +3391,8 @@
                                                     "command": "EVENT_IF_TRUE",
                                                     "args": {
                                                         "variable": "L0",
-                                                        "__collapseElse": false,
-                                                        "__collapse": true
+                                                        "__collapseElse": true,
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -3409,12 +3409,12 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "That damned fool of a wizard went and\nblew it up is what happened. Took half\nthe Royal army along with him, too!",
+                                                                        "That damned fool of a Mad Wizard went\nand blew it up is what happened. Took half\nthe Royal army along with him, too!",
                                                                         "As if it wasn't enough to bury thousands\nof our own dead, we have to mourn the\ndeath of our culture at the same time!",
                                                                         "People say I'M a fool for wanting peace,\nbut look at what war has wrought us!\nChaos and famine across the Realm!"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
                                                             },
@@ -3445,9 +3445,8 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "That would be a fella by the name of\nGiovanni. Talented young man. Well, he\nwas. Suppose he's a lot older now.",
-                                                                        "But at the time of painting that he must've\nbeen... 19? Maybe 20? Remarkably talented\nfor his age.",
-                                                                        "Rumor has it that he got a personal tour\nof the Tower around the time of that\npainting.",
-                                                                        "I wonder what he's up to these days..."
+                                                                        "But at the time of painting that he must've\nbeen... 19? Maybe 20? Remarkably\ntalented for his age.",
+                                                                        "Rumor has it that he got a personal tour\nof the Tower around the time of that\npainting. Wonder what he saw inside..."
                                                                     ],
                                                                     "avatarId": ""
                                                                 },
@@ -3456,33 +3455,14 @@
                                                         ]
                                                     },
                                                     "id": "d1545085-d891-471e-84cf-38ffcc1ef496"
-                                                }
-                                            ],
-                                            "false": []
-                                        },
-                                        "id": "b191e7e9-fa1c-4284-bb2d-57956fd1e3ed"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_IF_FALSE",
-                                        "args": {
-                                            "variable": "L1",
-                                            "__collapseElse": false
-                                        },
-                                        "children": {
-                                            "true": [
+                                                },
                                                 {
-                                                    "command": "EVENT_TEXT",
+                                                    "command": "EVENT_SET_TRUE",
                                                     "args": {
-                                                        "text": [
-                                                            "Huh? Can't you see I'm busy reading? Quit\nbothering me.",
-                                                            "*You notice the man glances briefly at the\npainting on the wall before returning to\nhis book.*"
-                                                        ],
-                                                        "avatarId": "",
+                                                        "variable": "L1",
                                                         "__collapse": true
                                                     },
-                                                    "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
+                                                    "id": "5cf40115-f0ca-4d08-aaba-111554fa5850"
                                                 }
                                             ],
                                             "false": [
@@ -3498,7 +3478,21 @@
                                                 }
                                             ]
                                         },
-                                        "id": "490a8d46-b3af-4c0b-97e5-09db1ca76bae"
+                                        "id": "b191e7e9-fa1c-4284-bb2d-57956fd1e3ed"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Huh? Can't you see I'm busy reading? Quit\nbothering me! Can't get a moment to\nmyself these days...",
+                                                "*You notice the man briefly glance at the\npainting on the wall before returning to\nhis book.*"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
                                     }
                                 ]
                             },

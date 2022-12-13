@@ -203,6 +203,8 @@ Simple things to Work On:
 	- A sword? What's something heroic?
 	- A Knight's helm?
 	- What about the text, 'You'?
+124. Adjust the book sprite to be more directly infront of the man in the West Hallway
+	- Probably draw a slightly new sprite for the edge of the table AND on his side of it.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
