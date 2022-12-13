@@ -210,6 +210,9 @@ Simple things to Work On:
 	- Draw a sprite for a gruff commander. (Perhaps use a 2bit gen'd character as a base)
 		~ Just apply armor similar to that of Aylmera.
 	- Draw armor stands and bunk beds for the barracks/armory.
+126. Have some of the NPC interactions around the castle change when the Jester is in your party.
+	- Let him walk out from the party and be a part of the scene.
+	- Utilize his avatar to illustrate when he's speaking.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
