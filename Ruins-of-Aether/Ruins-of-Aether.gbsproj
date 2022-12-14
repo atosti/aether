@@ -1866,6 +1866,201 @@
                     "symbol": "actor_20",
                     "script": [
                         {
+                            "command": "EVENT_IF_EXPRESSION",
+                            "args": {
+                                "expression": "0 == 0",
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                            "__collapse": true
+                                        },
+                                        "id": "47602fa6-a31d-4d93-baad-8a1acece902c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "48f68915-20b4-410d-a1a5-985133dff6a3",
+                                            "__collapse": true
+                                        },
+                                        "id": "3080acf1-48d6-4e55-a30d-a352cfa04d2a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "dfaad0c3-5d0e-4d0f-b4c8-6ff3de4a6640",
+                                            "__collapse": true
+                                        },
+                                        "id": "5080d5da-c866-4ae1-b6fb-ba20e52ae470"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
+                                            "__collapse": false
+                                        },
+                                        "id": "1e1dea55-f29c-4aaf-b187-a4837643d52a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "590a848f-e826-4966-a034-63475be3a2c7",
+                                            "__collapse": true
+                                        },
+                                        "id": "5b986955-8464-46aa-a986-ccbc7aff29be"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d0a86cc8-34dd-402d-9e07-aa00d9007d6e",
+                                            "__collapse": true
+                                        },
+                                        "id": "c085126b-9fa7-4653-af75-fdcb9dae997d"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
+                                            "__collapse": true
+                                        },
+                                        "id": "ad5af5d4-6616-41f9-a15d-708bcf44dfef"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                            "__collapse": true
+                                        },
+                                        "id": "ebad25ce-7f20-43af-a063-3c9f9b56e188"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+                                            "__collapse": true
+                                        },
+                                        "id": "5d8e48c5-2789-4e47-bc62-4d8320731582"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "480d5c00-2381-4204-a5fa-0cadecb7a838"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "3ade54c8-f621-496e-a488-d969fff02494",
+                                            "__collapse": true
+                                        },
+                                        "id": "c0379670-1f80-4e21-a60d-f7a3a5ac47a7"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                            "__collapse": true
+                                        },
+                                        "id": "5989b020-5384-47d4-ba18-ccb304b60ffd"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "0d9f3f27-0483-4225-9c0c-a0db4e087192"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
+                                            "__collapse": true
+                                        },
+                                        "id": "4bd67ce9-7619-48ae-964b-41363ad9ce4c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": true
+                                        },
+                                        "id": "4a71e3ec-e465-4867-a7dd-f3cfff1f8ccf"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "301f3e48-ad25-4509-9a09-b67daf6728cd",
+                                            "__collapse": true
+                                        },
+                                        "id": "0ed0ae36-990c-4fa7-ad3c-af1f42293d18"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "2d4b251d-0241-40eb-98e1-e396b236772c",
+                                            "__collapse": true
+                                        },
+                                        "id": "f05bff03-4489-4326-a2ae-5840819d6fa2"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                            "__collapse": true
+                                        },
+                                        "id": "134a0561-2c08-4e06-a47c-b36090655c4d"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
+                                            "__collapse": true
+                                        },
+                                        "id": "93e176a8-372a-4620-94d7-a34cccb0db33"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
+                                            "__collapse": true
+                                        },
+                                        "id": "34cf73f4-384a-4716-b6ad-a9f039b31714"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "a88d2edb-5f7a-4711-8cc7-25791c284216"
+                        },
+                        {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
