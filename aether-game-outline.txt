@@ -1300,7 +1300,6 @@ Concepts:
 			~ Maybe she feels that interfering with the future has caused her to be in control of something well beyond her abilities.
 			~ And she fears she's potentially changed things for the worse, with no way of knowing for certain one way or the other.
 	d. Alexandros = Why the Mad Wizard killed everyone. What good can come from magic if it only seems to end in destruction?
-93. Update the emotes to all be of a rounder, larger size to match the new Laughing emote.
 
 Misc Dialogue for encounters:
 ===============================
