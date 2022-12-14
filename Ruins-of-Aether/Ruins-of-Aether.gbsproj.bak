@@ -1866,13 +1866,22 @@
                     "symbol": "actor_20",
                     "script": [
                         {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4"
+                            },
+                            "id": "034066ce-05d8-4cd3-84f9-6dbd237d0638"
+                        },
+                        {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
                                 "x": 9,
                                 "y": 15,
                                 "direction": "up",
-                                "fadeSpeed": "2"
+                                "fadeSpeed": "2",
+                                "__collapse": true
                             },
                             "id": "df9c0dd0-312f-4ddf-9f7a-da03eddef583"
                         }
@@ -2639,7 +2648,7 @@
                 ""
             ],
             "spritePaletteIds": [
-                "56fc328b-1a5d-4ad3-b307-535010a19717",
+                "",
                 ""
             ],
             "collisions": [
@@ -3920,7 +3929,7 @@
                 ""
             ],
             "spritePaletteIds": [
-                "56fc328b-1a5d-4ad3-b307-535010a19717"
+                ""
             ],
             "collisions": [
                 15,
@@ -9165,7 +9174,15 @@
                 null,
                 ""
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                ""
+            ],
             "collisions": [
                 15,
                 15,
@@ -9549,13 +9566,22 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Well now, Alexandros continues to be full\nof surprises. I thought there was\nno way he'd breathe life into your corpse.",
-                                    "Fighting the undead with one of their own.\nIf I didn't know better, I'd think the King \nmad to be resorting to such treachery."
+                                    "Oh my! I see Alexandros continues to\nbe full of surprises. Impressive that\nhe breathed life into your corpse.",
+                                    "Fighting the undead with one of their\nown. If I didn't know better, I'd think\nthe King mad with treachery!"
                                 ],
                                 "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                 "__collapse": false
                             },
                             "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                "__collapse": true
+                            },
+                            "id": "12ca15dd-8772-4659-8b76-d9587c62a03e"
                         },
                         {
                             "command": "EVENT_CHOICE",
@@ -9571,8 +9597,8 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": true,
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -9665,7 +9691,7 @@
                                                 "Still, tragedy is oft the mother of \nopportunity. Remember to do good by me\nand I'll return the favor sevenfold."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "aa722243-e300-4808-b406-f620c71dfc5b"
                                     }
@@ -48740,6 +48766,14 @@
             "filename": "grin.png"
         },
         {
+            "id": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+            "name": "laughing",
+            "symbol": "emote_laughing",
+            "width": 16,
+            "height": 16,
+            "filename": "laughing.png"
+        },
+        {
             "id": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
             "name": "love",
             "symbol": "emote_love",
@@ -49085,7 +49119,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 416,
+        "worldScrollY": 306,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
