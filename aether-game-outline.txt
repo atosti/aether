@@ -1259,7 +1259,36 @@ Concepts:
 90. What if the real Aylmera never served the King's lineage? What if he is the descendant of her long-time enemies?
 	- But due to her beloved nature, they simply incorporated her as part of "their" realm. To prevent her from being a martyr.
 	- This would give the Spirit of Aylmera reason to distrust the party even further.
-
+91. Conversation with the artist (Giovanni) about the Mad Wizard and his role in the Great Explosion
+	- Aylmera: "Why did he blow it up?"
+	- Giovanni: "Fuck do you think? He saw what came next. Opted for a roll of the dice instead."
+	- Alexandros: "How could you be certain of that? Did he tell you such a thing?"
+	- Giovanni: "I can't be certain, not 100%. But a man like that? With such mastery of his talents? The explosion was no accident."
+	- Alexandros: "At least on that we agree completely."
+	- Jester: "I still don't understand."
+	- Neera: "I do. Seeing ahead into the future... it's easy to find unwelcome truths. Routes and paths you'd never wish to venture."
+			 "Outcomes you'd prefer to avoid. But some are easier to prevent than others. Perhaps he was simply out of options."
+	- Alexandros: "Assuming that's true, do you think he could have known what came next following his actions?"
+				  "Could he have foreseen the way things would be now? Is that how you see, Neera?"
+	- Neera: "No... No. What I see is glimpses of different pathways. Rarely do I see much all at once."
+			 "Imagine it like a series of doors. I can spend time glancing inside a handful, and if I see something I dislike, then I can slam it shut in the present."
+			 "But to look inside every door, well, that would take an eternity. I can only look ahead as long as I spend meditating on the possibilities."
+	- Giovanni: "Wizard. Did you ever see your mentor control time? Such a practice might have allowed him to see more possibilities."
+	- Alexandros: "No. Not like that. Brief moments of time distortion, sure. But not something over a prolonged period."
+	- Jester: "So he took a gamble on a future he didn't know, instead of an awful one of which he was certain?"
+			  "Then it's possible he made the wrong decision."
+	- Alexandros: (Angry) "It's just as possible he made the right one."
+	- Neera: "Gentlemen. Bickering will get us nowhere. All we have is each other."
+	- Jester: "*Sigh* You know, Alexandros. When you arrived at the castle, despite your side being beaten and downtrodden, you held on to your old beliefs."
+			  "Many of the others seeking refuge groveled and apologized to the Crown. Must've felt guilt for what had been done. But not you, you remained loyal to the Mad Wizard and his teachings."
+			  (Laughs) "I held great contempt for you. Even advised the King to turn you and your kind away. Said you weren't worth the trouble."
+			  "However. I see now that you and I are two sides of a coin. Both committed to faith in our ideas and leadership."
+			  "Albeit following different masters, our technique is much the same. With intentions to match."
+			  "As such, I truly doubt we are contrary to one another."
+	- Alexandros: (Pauses (...)) "I appreciate that. It's been difficult to find like-minded folk after the explosion."
+				  "We lost... so much in that fire. Guess I never really got a chance to mourn it..."
+				  "We should get going. Thank you, Giovanni."
+	- Giovanni: "Stay strong, my friends."
 
 Misc Dialogue for encounters:
 ===============================
