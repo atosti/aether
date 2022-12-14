@@ -1871,7 +1871,8 @@
                                 "expression": "0 == 0",
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": false
+                                "__collapse": true,
+                                "__comment": true
                             },
                             "children": {
                                 "true": [
@@ -1907,7 +1908,7 @@
                                         "args": {
                                             "actorId": "$self$",
                                             "emoteId": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "1e1dea55-f29c-4aaf-b187-a4837643d52a"
                                     },
@@ -47614,7 +47615,7 @@
                 "B8A850",
                 "988820",
                 "585008",
-                "000000"
+                "101000"
             ]
         },
         {
@@ -47624,7 +47625,7 @@
                 "F8F8F8",
                 "889098",
                 "484850",
-                "000000"
+                "181818"
             ]
         },
         {
@@ -47634,7 +47635,7 @@
                 "F8F8F8",
                 "707898",
                 "384060",
-                "000000"
+                "101020"
             ]
         },
         {
@@ -47644,7 +47645,7 @@
                 "F0E8E8",
                 "F8B000",
                 "D09000",
-                "000000"
+                "101010"
             ]
         },
         {
@@ -47704,7 +47705,7 @@
                 "F8F8F8",
                 "889098",
                 "802808",
-                "000000"
+                "181818"
             ]
         },
         {
@@ -47714,7 +47715,7 @@
                 "F0F8E8",
                 "7088D8",
                 "303858",
-                "000000"
+                "101828"
             ]
         },
         {
@@ -47734,7 +47735,7 @@
                 "F8F8F8",
                 "A89848",
                 "908040",
-                "000000"
+                "101010"
             ]
         },
         {
@@ -49290,7 +49291,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 295,
+        "worldScrollY": 0,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
