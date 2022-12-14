@@ -1285,10 +1285,10 @@ Concepts:
 			  "However. I see now that you and I are two sides of a coin. Both committed to faith in our ideas and leadership."
 			  "Albeit following different masters, our technique is much the same. With intentions to match."
 			  "As such, I truly doubt we are contrary to one another."
-	- Alexandros: (Pauses (...)) "I appreciate that. It's been difficult to find like-minded folk after the explosion."
-				  "We lost... so much in those fires. Guess I never really got a chance to mourn it..."
-				  "We should get going. Thank you for your insights, Giovanni."
-	- Giovanni: "The pleasure was all mine."
+	- Alexandros: (Pauses (...)) "I appreciate that. It's been difficult to find like-minds after the explosion."
+				  (Crying) "We lost... so much in those fires. Guess I never really got a chance to mourn it..."
+				  "We should get going. Thank you, Giovanni. For your insights."
+	- Giovanni: (Light smile) "The pleasure was all mine."
 	If attempting further dialouge with Giovanni: (There's nothing more to say.)
 
 Misc Dialogue for encounters:
