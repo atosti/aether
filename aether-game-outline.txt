@@ -1290,6 +1290,12 @@ Concepts:
 				  "We should get going. Thank you, Giovanni. For your insights."
 	- Giovanni: (Light smile) "The pleasure was all mine."
 	If attempting further dialouge with Giovanni: (There's nothing more to say.)
+92. Main internal conflicts for each party member to come to terms with
+	a. Aylmera = Who she actually is, and what she needs to do to redeem her soul.
+	b. Jester = Who should rule the Realm when the King is now unfit? How should be be removed from power when he isn't evil?
+	c. Neera = How can she save the Realm when so much of the future is in flux? Which voices can she trust in her mind?
+		~ I feel that Neera's conflict is the weakest of the bunch. This needs more thought/refinement.
+	d. Alexandros = Why the Mad Wizard killed everyone. What good can come from magic if it only seems to end in destruction?
 
 Misc Dialogue for encounters:
 ===============================
