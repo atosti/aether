@@ -1526,7 +1526,13 @@ GB Studio:
 		- Somewhat more limiting Commercial use restrictions.
 20. Blogpost covering GBC art and colors
 	https://lost-worlds.neocities.org/blog/2022/12/8/gbc-art/
-	
+21. Generic Free Sound Effects
+	https://soundbible.com/
+		- Just ensure the License is correct
+	https://soundbible.com/1810-Wind.html
+		- Attribution 3.0 gusty wind sounds
+22. Tool for counting unique tiles in a scene
+	https://gb-studio-tile-count.glitch.me/
 
 Soundtrack:
 ============
