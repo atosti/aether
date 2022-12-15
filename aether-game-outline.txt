@@ -202,7 +202,11 @@ Simple things to Work On:
 128. Draw an avatar for Neera
 	- Perhaps an open eye?
 	- Or a hand revealing an open eye?
+	- Or a holy cross?
 129. Draw a generic knight's helm avatar for soldiers around the realm?
+130. Add the Writings avatar to the note in the King's bedroom.
+	- Change it to be shown as a piece of paper or scroll resting on a table.
+
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
