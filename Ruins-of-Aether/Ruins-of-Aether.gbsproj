@@ -9287,9 +9287,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A flyer sits on the shelf, titled, \"The \nWizard Menace\". Would you like to read\nit?"
+                                                "A flyer sits on the shelf, titled, \"The \nWizard Menace\". Would you like to\nread it?"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
                                         },
                                         "id": "12c732d9-2a4b-4726-909e-5d8e9a18ef7d"
                                     },
@@ -49113,6 +49113,13 @@
     ],
     "avatars": [
         {
+            "id": "89d9de79-935b-482e-93a3-e221a652d501",
+            "name": "aylmera",
+            "width": 16,
+            "height": 16,
+            "filename": "aylmera.png"
+        },
+        {
             "id": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
             "name": "jester",
             "width": 16,
@@ -49139,6 +49146,13 @@
             "width": 16,
             "height": 16,
             "filename": "wizard.png"
+        },
+        {
+            "id": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+            "name": "writings",
+            "width": 16,
+            "height": 16,
+            "filename": "writings.png"
         }
     ],
     "emotes": [
@@ -49535,8 +49549,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 6,
-        "worldScrollY": 93,
+        "worldScrollX": 2004,
+        "worldScrollY": 974,
         "zoom": 300,
         "customColorsEnabled": true,
         "sgbEnabled": false,
