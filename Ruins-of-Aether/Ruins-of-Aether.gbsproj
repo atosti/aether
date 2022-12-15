@@ -10390,9 +10390,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You find a book titled, \"The 36\nStratagems\". Would you like to read it?"
+                                                "You find a book titled, \"The 36\nStratagems\". Would you like to read\nit?"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
                                         },
                                         "id": "8af9cf04-9f03-44e7-861b-8a10cdf4c428"
                                     },
@@ -10401,7 +10401,8 @@
                                         "args": {
                                             "variable": "L0",
                                             "trueText": "Yes.",
-                                            "falseText": "No."
+                                            "falseText": "No.",
+                                            "__collapse": true
                                         },
                                         "id": "15899012-2ab1-4833-835a-96f6b5cda038"
                                     },
@@ -10418,13 +10419,13 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "The pages are well-worn, and tattered.\nYou turn to one that's been dog-eared\nby a previous reader.",
-                                                            "\"Chapter 3: Offensive Strategems.\nBorrow a corpse to resurrect the soul.\nTake an institution, a technology, a",
-                                                            "method, or even an ideology that has been\nforgotten or discarded and appropriate it\nfor one's own purposes.\"",
-                                                            "The author goes on to detail other \nmilitary strategies. They mostly seem\nfocused on deception and opportunism."
+                                                            "The pages are well-worn, and \ntattered. You turn to one that's been\ndog-eared by a previous reader.",
+                                                            "\"Chapter 3: Offensive Strategems.\nBorrow a corpse to resurrect the\nsoul. Take an institution, a ",
+                                                            "technology, a method, or even an\nideology that has been forgotten or\ndiscarded and appropriate it for",
+                                                            "one's own purposes.\" It goes on to\ndetail other strategies also focused\non deception and opportunism."
                                                         ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
+                                                        "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+                                                        "__collapse": false
                                                     },
                                                     "id": "acb07484-39e7-4d51-8b0a-146230cd0ec1"
                                                 }
@@ -49551,9 +49552,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2004,
-        "worldScrollY": 974,
-        "zoom": 300,
+        "worldScrollX": 973,
+        "worldScrollY": 601,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
