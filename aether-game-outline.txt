@@ -209,6 +209,8 @@ Simple things to Work On:
 126. Have some of the NPC interactions around the castle change when the Jester is in your party.
 	- Let him walk out from the party and be a part of the scene.
 	- Utilize his avatar to illustrate when he's speaking.
+127. Add music to the title screen.
+	- Perhaps just some ambient gusty winds.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
