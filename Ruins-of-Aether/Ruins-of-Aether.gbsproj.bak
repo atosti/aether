@@ -9287,9 +9287,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A flyer sits on the shelf, titled, \"The \nWizard Menace\". Would you like to read\nit?"
+                                                "A flyer sits on the shelf, titled, \"The \nWizard Menace\". Would you like to\nread it?"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
                                         },
                                         "id": "12c732d9-2a4b-4726-909e-5d8e9a18ef7d"
                                     },
@@ -9316,10 +9316,12 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "It reads: \"Calling all able-bodied men! The\ntime for action is now! Wizard dissenters\nsquat on our land to the East, defiling our",
-                                                            "dead with their wicked necromancy.\nEndangering us all, they must be stopped! \nProtect the Realm! Enlist today!\""
+                                                            "It reads: \"Calling all able-bodied men!\nLoathsome wizards squat on our land\nto the East, defiling our dead with",
+                                                            "their wicked necromancy. The\nransacking of our Kingdom's\ncatacombs should not be tolerated.",
+                                                            "These perpetrators must be held\naccountable, and their sovereignty\nrevoked. Lest their tyranny prevails.",
+                                                            "Enlist with the Crown today! Fight for\na better tomorrow! Protect the Realm\nas it has protected you.\""
                                                         ],
-                                                        "avatarId": "",
+                                                        "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
                                                         "__collapse": false
                                                     },
                                                     "id": "d8398e65-83f5-4565-a813-da36a32e5c86"
@@ -49113,6 +49115,13 @@
     ],
     "avatars": [
         {
+            "id": "89d9de79-935b-482e-93a3-e221a652d501",
+            "name": "aylmera",
+            "width": 16,
+            "height": 16,
+            "filename": "aylmera.png"
+        },
+        {
             "id": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
             "name": "jester",
             "width": 16,
@@ -49139,6 +49148,13 @@
             "width": 16,
             "height": 16,
             "filename": "wizard.png"
+        },
+        {
+            "id": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+            "name": "writings",
+            "width": 16,
+            "height": 16,
+            "filename": "writings.png"
         }
     ],
     "emotes": [
@@ -49535,8 +49551,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 6,
-        "worldScrollY": 93,
+        "worldScrollX": 2004,
+        "worldScrollY": 974,
         "zoom": 300,
         "customColorsEnabled": true,
         "sgbEnabled": false,
