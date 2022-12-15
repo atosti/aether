@@ -120,18 +120,6 @@ Simple things to Work On:
 	- One for yourself, one for GB Studio
 	- Allow skipping them one-by-one with any button press (for QoL)
 		~ Or perhaps all at once with a button press. Make it feel smooth, not like a slog to start.
-97. Decide on some color schemes for the entire game
-	- Mainly design a number of reusable palletes for various entities
-	- Select core colors that you want for things
-	- What tint should the UI be?
-	- What colors should each of the 4 main characters be?
-		~ Aylmera = Orange?
-		~ Jester = Purple?
-		~ Neera = Yellow?
-		~ Alexandros = Blue?
-	- What is the main color of each core story zone?
-		~ I like underground/cavernous areas being cooler, and well-light areas being warmer.
-		~ I want the Aether ruins to be windswept and green. A beautiful area, but with ominous stillness.
 99. Make a door sprite for a spiral staircase (a la Golden Sun)
 	- Can give the illusion of moving vertically in space between maps
 100. Created animated background tiles for lights in the castle.
@@ -211,6 +199,9 @@ Simple things to Work On:
 	- Utilize his avatar to illustrate when he's speaking.
 127. Add music to the title screen.
 	- Perhaps just some ambient gusty winds.
+128. Draw an avatar for Neera
+	- Perhaps an open eye?
+	- Or a hand revealing an open eye?
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
