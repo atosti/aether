@@ -190,10 +190,6 @@ Simple things to Work On:
 	- Utilize his avatar to illustrate when he's speaking.
 127. Add music to the title screen.
 	- Perhaps just some ambient gusty winds.
-128. Draw an avatar for Neera
-	- Perhaps an open eye?
-	- Or a hand revealing an open eye?
-	- Or a holy cross?
 129. Draw a generic knight's helm avatar for soldiers around the realm?
 130. Add Alexandros to the conversation with the Jester + King.
 	- Have both he and the Jester incensed that they aren't traveling as a 3-person party.

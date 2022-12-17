@@ -2227,6 +2227,65 @@
                             "id": "a88d2edb-5f7a-4711-8cc7-25791c284216"
                         },
                         {
+                            "command": "EVENT_IF_EXPRESSION",
+                            "args": {
+                                "expression": "0 == 0",
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hello there."
+                                            ],
+                                            "avatarId": "6db52fb5-dadd-424c-a73f-3518512aba6b",
+                                            "__collapse": true
+                                        },
+                                        "id": "4be0126a-f917-4031-b0dc-c5223f8d52c9"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Nope."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "2773c3ab-3d4c-46b2-a1fe-5e368f271cfa"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Ah, but of course."
+                                            ],
+                                            "avatarId": "89d9de79-935b-482e-93a3-e221a652d501",
+                                            "__collapse": true
+                                        },
+                                        "id": "7fb45834-6689-46f6-ad84-2224993b8b09"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Not yet."
+                                            ],
+                                            "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                            "__collapse": true
+                                        },
+                                        "id": "c1c52bb5-e132-4f1c-a5d1-e20a92496b6e"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "36d1523f-5a30-49a0-85bb-e5d151548156"
+                        },
+                        {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
@@ -12832,7 +12891,7 @@
             "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "ADVENTURE",
             "paletteIds": [
                 null,
                 null,
@@ -49213,6 +49272,13 @@
             "filename": "king.png"
         },
         {
+            "id": "6db52fb5-dadd-424c-a73f-3518512aba6b",
+            "name": "neera",
+            "width": 16,
+            "height": 16,
+            "filename": "neera.png"
+        },
+        {
             "id": "274a00d5-bb07-4287-b777-184d82056bd8",
             "name": "unknown",
             "width": 16,
@@ -49618,8 +49684,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 874,
-        "worldScrollY": 0,
+        "worldScrollX": 2049,
+        "worldScrollY": 4,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
