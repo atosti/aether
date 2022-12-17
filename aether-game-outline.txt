@@ -188,8 +188,6 @@ Simple things to Work On:
 	- A sword? What's something heroic?
 	- A Knight's helm?
 	- What about the text, 'You'?
-124. Adjust the book sprite to be more directly infront of the man in the West Hallway
-	- Probably draw a slightly new sprite for the edge of the table AND on his side of it.
 125. Build the Armory and its combat tutorial.
 	- Draw a sprite for a gruff commander. (Perhaps use a 2bit gen'd character as a base)
 		~ Just apply armor similar to that of Aylmera.
