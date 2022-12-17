@@ -419,6 +419,147 @@
                     "id": "49697ef2-edf8-4dd5-a58b-5c01c5c3bcfd",
                     "x": 18,
                     "y": 12
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "c86ff44c-b649-4364-be4a-095bc25b3654",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": true,
+                    "collisionGroup": "",
+                    "symbol": "actor_25",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "88e07a32-cd72-4972-a47b-f0acff2b5b1f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "7c144e94-d606-4f27-b490-eaa97c7ea0ee"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "keep",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true
+                            },
+                            "id": "d9288a33-d9bc-433f-88cb-a25fdaaf7b14"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "cb22caab-b7e3-43c5-814d-6e8a7a56fb8e"
+                        },
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "keep",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true
+                            },
+                            "id": "0b29225f-c3ae-4080-801b-4038a1d864fd"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "frames": 30,
+                                "__collapse": true
+                            },
+                            "id": "243d771f-423d-4902-9a5e-0617ae0b4dde"
+                        },
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "keep",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "c06ed767-1e3d-446f-b4d0-3d02be770b24",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true,
+                                "__comment": false
+                            },
+                            "id": "7d5e8742-d4ab-4936-b9c7-292b4a21c12f"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "frames": 30,
+                                "__collapse": true,
+                                "__comment": false
+                            },
+                            "id": "925e7a2a-b8ea-49df-96cd-00b41eb5b6ad"
+                        },
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "keep",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true,
+                                "__comment": false
+                            },
+                            "id": "db6999d7-a9c1-4b64-991e-ba696b66e599"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 1,
+                                "frames": 30,
+                                "__collapse": true,
+                                "__comment": false
+                            },
+                            "id": "dc4314f5-a27a-43b9-9ed7-248e078c770a"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3a2a050e-18b8-4498-8e43-82433348e2dd",
+                    "x": 18,
+                    "y": 1
                 }
             ],
             "triggers": [],
@@ -3792,15 +3933,6 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "ada80e99-d513-4d70-a700-3bf1ce372e1c"
-                        },
-                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -5436,15 +5568,6 @@
                     "symbol": "actor_18",
                     "script": [],
                     "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "3f9b5e14-e719-440b-b3a8-9afd7751db3a"
-                        },
                         {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
@@ -9082,15 +9205,6 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "48cba08c-6a83-4cd4-942d-00bdcf6bb076"
-                        },
-                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -10186,15 +10300,6 @@
                     "symbol": "actor_23",
                     "script": [],
                     "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "91d0d4ad-88a2-4650-aea7-994d21618607"
-                        },
                         {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
@@ -11408,15 +11513,6 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true,
-                                "__comment": true
-                            },
-                            "id": "60f9f47f-d3dc-4cd1-a0a8-a277bd8e8930"
-                        },
-                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -11657,7 +11753,7 @@
                 null,
                 null,
                 null,
-                null,
+                "3d678cbc-06c2-4973-9f0e-e8125ab00751",
                 null,
                 null,
                 null,
@@ -14125,9 +14221,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A handwritten note lies on the shelf simply\ntitled, \"Morcant's Eulogy\". Would you like \nto read it?"
+                                                "A handwritten note lies on the shelf \nsimply titled, \"Morcant's Eulogy\". \nWould you like to read it?"
                                             ],
-                                            "avatarId": "",
+                                            "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
                                             "__collapse": false
                                         },
                                         "id": "26c72497-7d6a-4c71-a078-3ea0750bdb62"
@@ -14155,14 +14251,15 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "\"Morcant was a remarkable man. Strong,\nnoble, and driven. All who knew him were\nimpressed by his honesty and conviction.",
-                                                            "Fathers are not meant to bury sons, just\nas Kingdoms are not meant to bury their\nproblems. Thus, our reality persists.",
-                                                            "We must draw from his death the lessons\nwhich he would bestow upon us, were he\nstill here.",
-                                                            "We must find the strength to persevere.\nTo rise as never before, unifed and\nwith the conviction to never give up.",
-                                                            "The enemy we now face is unlike anything\nwe've ever known. But we will persevere. \nFor ourselves. And for Prince Morcant.\"",
-                                                            "The whole thing reads more like a rousing\nspeech than a euology..."
+                                                            "\"Morcant was a remarkable man. \nStrong, charismatic, and driven. All \nwho knew him were impressed by",
+                                                            "his honesty and conviction. And so,\nhis passing fills us with great\nsadness. Fathers are not meant to",
+                                                            "bury sons, just as Kingdoms are not \nmeant to bury their problems. Thus, \nour reality persists through",
+                                                            "tragedy. We must draw from his \ndeath the lessons which he would\nbestow upon us, were he here now.",
+                                                            "We must all find the strength to \npersevere. To rise as never before,\nunifed and with the conviction to",
+                                                            "never give up. The enemy we now\nface is unlike anything we've ever\nknown. But we will prevail. For",
+                                                            "ourselves. And for Prince Morcant.\" \nThe whole thing reads more like a \nrousing speech than a euology..."
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
                                                     },
                                                     "id": "cff2b66d-4197-4361-a63e-b4172e0c3d96"
                                                 }
@@ -49521,9 +49618,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1948,
-        "worldScrollY": 241,
-        "zoom": 187.34277971088886,
+        "worldScrollX": 874,
+        "worldScrollY": 0,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
