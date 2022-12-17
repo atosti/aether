@@ -416,7 +416,7 @@ Character Names/Titles:
 		- Although her condition could be attributed to something more akin to Schizophrenia, it does allow her pre-cognition of key events. 
 		- She acts as the party's healer. Perhaps she is a priestess of death. Granting assisted suicide to the most ailing. Using dark magic for good.
 5. ???, King of the Realm
-	- Reginald (too dweeby)? 
+	- Reginald (too dweeby)?
 	- The Crown, His Majesty
 	* Prideful, bull-headed, tired, impatient, emotionally cold, dying (at the end of his life and he knows it).
 	* A decrepit old man at the end of his life. He managed to survive the Sorcerers' assassination attempt during the war.
@@ -436,7 +436,7 @@ Character Names/Titles:
 	- Ignacio?
 	- Bringer of Chaos?
 	* Self-centered, enthralled by his work/studies, brilliant, kept to himself, 
-8. ???, Ruthless Lord
+8. Velazquez, Ruthless Lord
 	- Cruel order-bringer, Lawbringer, Slayer of the Weak, His Liege
 	- Velazquez? A strong Spanish Knight would be a good influence.
 	* Harsh, follows established rules, strict, dedicated to his sense of "order"
@@ -1297,6 +1297,26 @@ Concepts:
 			~ And she fears she's potentially changed things for the worse, with no way of knowing for certain one way or the other.
 			~ This can draw a parallel between her and the Mad Wizard. As both alter the course of events in the main plot.
 	d. Alexandros = Why the Mad Wizard killed everyone. What good can come from magic if it only seems to end in destruction?
+93. Bossfight dialogue with Velazquez
+	- Velazquez: "Well now, what have we here? Two lovely ladies waltzing in unannounced?"
+				 "Sweethearts, I could use girls like you. Many of my best men hate women."
+	- Aylmera: *Bored*/*Neutral* "Sounds like they're not the best."
+	- Velazquez: *Smiles* "Care to find out?"
+	* Combat with some of his lackeys ensues.* *Following happens after player wins.*
+	- Velazquez: "My oh my. I underestimated your prowess. Who taught you to use that blade? "
+	- Aylmera: "We're just here for the wizard. And the stone. Nothing more."
+	- Velazquez: *Laughing* "Hahaha! The bitch thinks she can make demands of *ME*!"
+				 "I can't wait to bestow some obedience upon you, darling. "
+				 "Bring me the swordsman alive. Dispatch the others."
+	* Second engagement of lackeys ensues.* *Player wins*
+	- Velazquez: *Angry* "Fucking cowards... This is what lack of discipline does to a man. Robs him of ambition."
+				 "He must learn to take what is deserved. Never ask. To rend it from the hands of the unworthy."
+	- Aylmera: [You gonna fight?]
+			   [Quit yapping.]
+	- Velazquez: "Take a handout you fucking bitch."
+	* He grabs Alexandros (who is bound) and tosses him down the stairs into/at the party.*
+	* Bossfight with Velazquez begins*
+
 
 Misc Dialogue for encounters:
 ===============================
