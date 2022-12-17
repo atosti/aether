@@ -195,6 +195,11 @@ Simple things to Work On:
 	- Or a hand revealing an open eye?
 	- Or a holy cross?
 129. Draw a generic knight's helm avatar for soldiers around the realm?
+130. Add Alexandros to the conversation with the Jester + King.
+	- Have both he and the Jester incensed that they aren't traveling as a 3-person party.
+	- The King insists they split up. Everyone agrees to meet up at the Lord's castle to the North.
+	- Set it so the Wizard walks up to you and the Jester talking with the King (from the South.)
+		~ When engaging in dialogue with the King, have your character walk to a specific spot to facilitiate that all characters fit well in the scene.
 
 
 * What if the final battle was between whichever characters you're aligned with?
