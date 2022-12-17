@@ -1316,6 +1316,15 @@ Concepts:
 	- Velazquez: "Take a handout you fucking bitch."
 	* He grabs Alexandros (who is bound) and tosses him down the stairs into/at the party.*
 	* Bossfight with Velazquez begins*
+94. At the encounter with Velazquez, he should give his elemental stone to the High Priest, who leaves with it.
+	- Velazquez basically saying, "Take it, I'll handle these pawns from the King in the meantime."
+	- The party should see this exchange happen, and watch the High Priest leave with it. Meaning they're left fighting solely for their and Alexandros' survival.
+	- Additionally, this allows me to flesh out an entire Cathedral/Monastery zone, where Neera can have some lore.
+		~ What if she used to be a member, but was cast out in disgrace?
+		~ What if she's a priestess of death. Communing with other-worldly entities and praying for the deaths of many evil-doers in the world?
+			~ An ideology too extreme for the church?
+			~ But the church itself should be established as evil. What if it's the reversal? She's cast out for not reforming her beliefs to match theirs.
+			~ But what ARE the church's core guiding principles? This needs to be elaborated on.
 
 
 Misc Dialogue for encounters:
