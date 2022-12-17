@@ -177,17 +177,10 @@ Simple things to Work On:
 	- Is there an easy fix to this? It's not horrible, but it is a bit jarring.
 119. Draw more tiles for the Throne Room
 	- A shield with crossed spears or swords behind/alongside it (to hang behind the throne).
-120. Update all dialogue featuring the Jester to use his avatar (even in 1 on 1s)
-	- Also refine his dialogue in the War Room and before the King.
 121. Add a "Made in GB Studio" screen to be displayed when the game is loaded
 	- Let it be skippable
 	- Try to draw the GB studio logo for it
 122. Modify the engine to enable 8-directional movement in top-down 2D screens
-123. Draw an Avatar for Aylmera.
-	- What should it be of?
-	- A sword? What's something heroic?
-	- A Knight's helm?
-	- What about the text, 'You'?
 125. Build the Armory and its combat tutorial.
 	- Draw a sprite for a gruff commander. (Perhaps use a 2bit gen'd character as a base)
 		~ Just apply armor similar to that of Aylmera.

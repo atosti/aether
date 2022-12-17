@@ -9780,11 +9780,11 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Oh my! I see Alexandros continues to\nbe full of surprises. Impressive that\nhe breathed life into your corpse.",
-                                    "Fighting the undead with one of their\nown. If I didn't know better, I'd think\nthe King mad with treachery!"
+                                    "Oh my, I see Alexandros continues to\nbe full of surprises! Impressive he\nbreathed life into your corpse.",
+                                    "Fighting the undead with one of their\nown... If I didn't know better, I'd think\nthe King was mad with treachery!"
                                 ],
                                 "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
                         },
@@ -9798,11 +9798,24 @@
                             "id": "12ca15dd-8772-4659-8b76-d9587c62a03e"
                         },
                         {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Still... I recognize your lack of choice\nin this whole matter, so I'd like to \napologize for that. Truly.",
+                                    "It's a harrowing position the Crown \nhas found himself in. He wouldn't take\nsuch drastic action otherwise.",
+                                    "If it's any consolation, I argued \nagainst your revival. But the wizards\nwere eager. And the King desperate."
+                                ],
+                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                "__collapse": true
+                            },
+                            "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
+                        },
+                        {
                             "command": "EVENT_CHOICE",
                             "args": {
                                 "variable": "L0",
-                                "trueText": "What do you mean?",
-                                "falseText": "No choice now.",
+                                "trueText": "You hate wizards?",
+                                "falseText": "What do you need?",
                                 "__collapse": true
                             },
                             "id": "aa386f81-f549-408b-b077-06cc29bf0fe2"
@@ -9812,7 +9825,7 @@
                             "args": {
                                 "variable": "L0",
                                 "__collapseElse": false,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -9820,9 +9833,13 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "*Sigh* Before your arrival, we were \nengaged in a brutal war with many\nof the Realm's wizards.",
-                                                "Among other things they were practicing\nnecromancy. Desecrating our catacombs \nto raise an army of their own.",
-                                                "But now that we're cornered, the Crown \ndeems it appropriate to use the tools of \nour enemies. As we fight alongside them..."
+                                                "No. They're amicable enough. I just\nwonder how long this peace between \nus will last...",
+                                                "You see, roughly 3 years ago we \nwere engaged in a long and bloody \nconflict with the Realm's wizardry.",
+                                                "'The Great War', as it's known, came\nto an abrupt conclusion when the \nwizards' tower erupted into",
+                                                "Aetherial flames, killing most of its\ninhabitants and raining hellfire onto\nthose outside.",
+                                                "Had the Aetherial energy not \nimmediately leapt from the carnage\nand turned any creature, living or",
+                                                "dead, into a frenzied monster: we'd\nstill be fighting one another. Indeed,\nit is only our common enemy binding",
+                                                "us together. An uncomfortable truth\nthat no one in this castle will ever\nbe allowed to forget..."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                             "__collapse": true
@@ -9830,124 +9847,126 @@
                                         "id": "9a1d7949-c531-4789-8af7-ba43db9e9cb7"
                                     },
                                     {
-                                        "command": "EVENT_CHOICE",
-                                        "args": {
-                                            "variable": "L1",
-                                            "trueText": "Don't like mages?",
-                                            "falseText": "Problem with me?",
-                                            "__collapse": true
-                                        },
-                                        "id": "61a3b5f9-c920-429c-b40b-a092d5847e76"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "L1",
-                                            "__collapseElse": true,
-                                            "__collapse": true
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "bc931b88-5ca5-4b03-8e9a-2372bcfcfaef"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "They're amicable enough. I just wonder\nhow long that'll last. Our conflict was long\nand bloody. Neither side forgets that."
-                                                        ],
-                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "cafe08a0-04ef-49d0-9188-54af2b51fa89"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Not at all. You've no choice in the matter.\nBesides, you lack the frenzy possessing\nthe wretched undead outside our walls."
-                                                        ],
-                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "1cc3ae66-44e3-4cd4-863d-ce818da66bbe"
-                                                }
-                                            ]
-                                        },
-                                        "id": "092694a8-653e-4287-a949-572143b2ecb4"
-                                    }
-                                ],
-                                "false": [
-                                    {
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
+                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
                                             "__collapse": true
                                         },
-                                        "id": "a666cbf3-6049-48ad-a7e2-625761609bb7"
+                                        "id": "e5ba428c-55cd-43aa-9c98-68bad57e8bb6"
                                     },
                                     {
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Haha! You're damn right about that.\nAnd you're who has the least choice of\nus all... I'm sorry about that. Truly.",
-                                                "For what it's worth, I was against your\nrevival. But the Mages were eager and\nthe King desperate. Alas, here we are.",
-                                                "Still, tragedy is oft the mother of \nopportunity. Remember to do good by me\nand I'll return the favor sevenfold."
+                                                "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor the journey ahead."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
-                                        "id": "aa722243-e300-4808-b406-f620c71dfc5b"
+                                        "id": "fa4f0609-b2cb-49a1-91d8-d1015c5b1018"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Straight to the point. I admire that.\nIt's an increasingly rare trait, even\nin these trying times..."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "9b85303e-72cf-4e84-9630-76be86a042a1"
                                     }
                                 ]
                             },
                             "id": "7494beb4-b9b4-4c89-846d-18f2bdc3494f"
                         },
                         {
-                            "command": "EVENT_SET_TRUE",
+                            "command": "EVENT_TEXT",
                             "args": {
-                                "variable": "L2",
+                                "text": [
+                                    "The Crown has requested your \nassistance in restoring elemental\nbalance to the Realm.",
+                                    "Based on scrolls procured by the \nwizards, we believe the undead\nfrenzy can be halted via the",
+                                    "realignment of the 4 main elements. \nThe only caveat is that the elemental\nstones must first be located.",
+                                    "And then they must be brought to\nthe site of the Great Tower, where\nthe ritual can be performed.",
+                                    "I know this is a lot to take in, but do\nyou have any initial questions about\nthe task at hand?"
+                                ],
+                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                 "__collapse": true
                             },
-                            "id": "2f8b0cbb-7fc7-4f3c-bd41-5f5664621a07"
+                            "id": "2d87acfe-87ab-4a6d-a675-e6e6c921ca11"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L1",
+                                "trueText": "Why Me?",
+                                "falseText": "Any leads?",
+                                "__collapse": true
+                            },
+                            "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L1",
+                                "__collapseElse": true,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": true
+                                        },
+                                        "id": "c1cf5fc6-fc52-4f95-a17b-1027b4c1294a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh. Well. How to say this elegantly...\nThere really isn't anyone left. The\ncastle is staffed by a skeleton crew.",
+                                                "Little more than remnants of the \nroyal guard. There quite simply *is*\nno other warrior fit for the task."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "752236e0-cdb5-46c4-a5de-807b2b385825"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Just one. The Crown knows the\nlocation of one stone. It was hidden\nseveral years ago in the ruins of an",
+                                                "old city far to the Northwest. We\nbelieve this is where you should\nbegin your search."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "b72628e0-33c9-49f7-acd5-fb1a23928779"
+                                    }
+                                ]
+                            },
+                            "id": "6c9edf14-ded3-4bd7-a137-a4d394a7293d"
                         },
                         {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "But nevermind all that. You want to know\nabout your journey ahead. You've been\ntasked with stopping the undead horde.",
-                                    "We believe the undead's frenzy, and their\nstrength, is a result of an overabundance\nof Aether present in the region.",
-                                    "Normally, our wizards could use the 5 \nElemental Orbs to realign the elements\nand re-establish order.",
-                                    "However, the orbs were looted from the \nKingdom decades ago. An unfortunate\nresult of our conflict with the Wizards.",
-                                    "As such, only the location of 2 orbs is\nknown. The first is far to the North-east,\nin a long-abandoned settlement.",
-                                    "Our spies stashed it there when the tides\nof war were turning against us. As for \nthe second orb...",
-                                    "It lies shattered in the ruins of the Great\nTower. Now surrounded by unbound \nAether energy and an army of the undead.",
-                                    "In short, you need to gather all 5 orbs,\nenter the labyrinth beneath the Great\nTower and then perform the realignment."
+                                    "Oh! One last thing before you go.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
+                                    "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
                                 ],
                                 "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                 "__collapse": true
                             },
-                            "id": "50e42de4-562b-4571-ab20-784a3845cae4"
-                        },
-                        {
-                            "command": "EVENT_CHOICE",
-                            "args": {
-                                "variable": "L3",
-                                "trueText": "That's a lot.",
-                                "falseText": "Anything Else?",
-                                "__collapse": true
-                            },
-                            "id": "5f5d003b-2ce7-49c1-87b3-44426b9c064d"
+                            "id": "c5926242-f871-4ad1-942e-d70061934d0d"
                         },
                         {
                             "command": "EVENT_ACTOR_EMOTE",
@@ -9956,56 +9975,16 @@
                                 "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
                                 "__collapse": true
                             },
-                            "id": "a91f3d97-1581-4efb-9301-49986c9fd628"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "L3",
-                                "__collapseElse": true,
-                                "__disableElse": false,
-                                "__collapse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "The Crown is well aware of this, which is\nwhy you won't be alone. Both myself and\nAlexandros have volunteered to join you.",
-                                                "After all, a journey as long as this \nwould grow lonely without some form of \ncompanionship."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "1b9c687b-8a00-4f55-89ea-548d26ec0ce4"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Just one more thing. Both myself and \nAlexandros have volunteered to \naccompany you on this journey.",
-                                                "After all, a journey as long as this \nwould grow lonely without some form of \ncompanionship."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "e7e45d54-8c2b-4e13-ba3d-e96a9d0eddcc"
-                                    }
-                                ]
-                            },
-                            "id": "31fad9b0-a5d7-46cb-8c3e-16799ab57eb8"
+                            "id": "91e57f2d-cbbe-463f-a7bc-dd0c2973dc58"
                         },
                         {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "We should return to the King before we\nmake our departure. I'm sure Alexandros \nwill meet us there."
+                                    "We should return to the King before\nmaking our departure. I'm sure\nAlexandros will meet us there."
                                 ],
                                 "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "db06a65d-23d9-44c8-9cbf-265dd9896bdc"
                         },
@@ -10034,7 +10013,7 @@
                                     "Sigmund the Jester has joined your party!"
                                 ],
                                 "avatarId": "",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
                         }
@@ -10045,7 +10024,7 @@
                             "args": {
                                 "variable": "0",
                                 "__collapseElse": false,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__comment": false,
                                 "__disableElse": true
                             },
@@ -10098,7 +10077,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Huh? Don't distract me! Can't you see I'm \nin the middle of planning a battle?!"
+                                    "Huh? Don't distract me! Can't you see I'm \nin the middle of planning our defenses?!"
                                 ],
                                 "avatarId": ""
                             },
@@ -49383,23 +49362,8 @@
         },
         {
             "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L0",
-            "name": "Response",
-            "symbol": "var_response_1"
-        },
-        {
-            "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L1",
-            "name": "Response 2",
-            "symbol": "var_response_2"
-        },
-        {
-            "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L2",
-            "name": "SpokenWith",
-            "symbol": "var_spokenwith_1"
-        },
-        {
-            "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L3",
-            "name": "Response 3",
-            "symbol": "var_response_3"
+            "name": "HateWizards",
+            "symbol": "var_hatewizards"
         },
         {
             "id": "9236618d-98dd-4749-b395-78713f8ed69f__L0",
@@ -49535,6 +49499,11 @@
             "id": "35823845-a07e-4beb-93ca-b5fb81cc44a3__L0",
             "name": "Local 0",
             "symbol": "var_local_7"
+        },
+        {
+            "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L1",
+            "name": "WhyMe",
+            "symbol": "var_whyme"
         }
     ],
     "engineFieldValues": [
@@ -49552,9 +49521,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 284,
-        "worldScrollY": 281,
-        "zoom": 200,
+        "worldScrollX": 1948,
+        "worldScrollY": 241,
+        "zoom": 187.34277971088886,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
