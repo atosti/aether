@@ -412,46 +412,6 @@
                     "symbol": "actor_24",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "49697ef2-edf8-4dd5-a58b-5c01c5c3bcfd",
-                    "x": 18,
-                    "y": 12
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "c86ff44c-b649-4364-be4a-095bc25b3654",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": true,
-                    "collisionGroup": "",
-                    "symbol": "actor_25",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "88e07a32-cd72-4972-a47b-f0acff2b5b1f"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "7c144e94-d606-4f27-b490-eaa97c7ea0ee"
-                        }
-                    ],
                     "updateScript": [
                         {
                             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -459,107 +419,22 @@
                                 "palette0": "keep",
                                 "palette1": "keep",
                                 "palette2": "keep",
-                                "palette3": "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+                                "palette3": "keep",
                                 "palette4": "keep",
                                 "palette5": "keep",
                                 "palette6": "keep",
                                 "palette7": "keep",
                                 "__collapse": true
                             },
-                            "id": "d9288a33-d9bc-433f-88cb-a25fdaaf7b14"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "cb22caab-b7e3-43c5-814d-6e8a7a56fb8e"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "keep",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "0b29225f-c3ae-4080-801b-4038a1d864fd"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "243d771f-423d-4902-9a5e-0617ae0b4dde"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "keep",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "c06ed767-1e3d-446f-b4d0-3d02be770b24",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true,
-                                "__comment": false
-                            },
-                            "id": "7d5e8742-d4ab-4936-b9c7-292b4a21c12f"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true,
-                                "__comment": false
-                            },
-                            "id": "925e7a2a-b8ea-49df-96cd-00b41eb5b6ad"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "keep",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true,
-                                "__comment": false
-                            },
-                            "id": "db6999d7-a9c1-4b64-991e-ba696b66e599"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true,
-                                "__comment": false
-                            },
-                            "id": "dc4314f5-a27a-43b9-9ed7-248e078c770a"
+                            "id": "9f721d93-ce1f-4502-a748-78aa21c72fa9"
                         }
                     ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "3a2a050e-18b8-4498-8e43-82433348e2dd",
+                    "id": "49697ef2-edf8-4dd5-a58b-5c01c5c3bcfd",
                     "x": 18,
-                    "y": 1
+                    "y": 12
                 }
             ],
             "triggers": [],
@@ -48140,6 +48015,26 @@
                 "484850",
                 "F8B000"
             ]
+        },
+        {
+            "id": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
+            "name": "Yellow 2",
+            "colors": [
+                "F8F8F8",
+                "F8C800",
+                "A88000",
+                "000000"
+            ]
+        },
+        {
+            "id": "62842cc5-a336-49fc-b32a-082c78d94e65",
+            "name": "Yellow 3",
+            "colors": [
+                "F8F8F8",
+                "F8B000",
+                "B87800",
+                "000000"
+            ]
         }
     ],
     "customEvents": [
@@ -49684,8 +49579,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2049,
-        "worldScrollY": 4,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,

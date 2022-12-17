@@ -412,7 +412,23 @@
                     "symbol": "actor_24",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "keep",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "keep",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true
+                            },
+                            "id": "9f721d93-ce1f-4502-a748-78aa21c72fa9"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -456,10 +472,10 @@
                         {
                             "command": "EVENT_PALETTE_SET_BACKGROUND",
                             "args": {
-                                "palette0": "keep",
+                                "palette0": "73ffde98-ebbe-4d9c-896a-5a012265fb77",
                                 "palette1": "keep",
                                 "palette2": "keep",
-                                "palette3": "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+                                "palette3": "keep",
                                 "palette4": "keep",
                                 "palette5": "keep",
                                 "palette6": "keep",
@@ -480,10 +496,10 @@
                         {
                             "command": "EVENT_PALETTE_SET_BACKGROUND",
                             "args": {
-                                "palette0": "keep",
+                                "palette0": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
                                 "palette1": "keep",
                                 "palette2": "keep",
-                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
+                                "palette3": "keep",
                                 "palette4": "keep",
                                 "palette5": "keep",
                                 "palette6": "keep",
@@ -504,54 +520,65 @@
                         {
                             "command": "EVENT_PALETTE_SET_BACKGROUND",
                             "args": {
-                                "palette0": "keep",
+                                "palette0": "62842cc5-a336-49fc-b32a-082c78d94e65",
                                 "palette1": "keep",
                                 "palette2": "keep",
-                                "palette3": "c06ed767-1e3d-446f-b4d0-3d02be770b24",
+                                "palette3": "keep",
                                 "palette4": "keep",
                                 "palette5": "keep",
                                 "palette6": "keep",
                                 "palette7": "keep",
-                                "__collapse": true,
-                                "__comment": false
+                                "__collapse": true
                             },
-                            "id": "7d5e8742-d4ab-4936-b9c7-292b4a21c12f"
+                            "id": "bfc2c8c6-7f79-452f-a972-a63ea4016e27"
                         },
                         {
                             "command": "EVENT_WAIT",
                             "args": {
                                 "time": 1,
                                 "frames": 30,
-                                "__collapse": true,
-                                "__comment": false
+                                "__collapse": true
                             },
-                            "id": "925e7a2a-b8ea-49df-96cd-00b41eb5b6ad"
+                            "id": "0616bc8d-52ee-4e7a-bdcd-222e6459561d"
                         },
                         {
                             "command": "EVENT_PALETTE_SET_BACKGROUND",
                             "args": {
-                                "palette0": "keep",
+                                "palette0": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
                                 "palette1": "keep",
                                 "palette2": "keep",
-                                "palette3": "9a4b338d-fcb9-4558-bc47-f215cfb01487",
+                                "palette3": "keep",
                                 "palette4": "keep",
                                 "palette5": "keep",
                                 "palette6": "keep",
                                 "palette7": "keep",
-                                "__collapse": true,
-                                "__comment": false
+                                "__collapse": true
                             },
-                            "id": "db6999d7-a9c1-4b64-991e-ba696b66e599"
+                            "id": "c0417863-114e-4f8f-a6e4-a4dc931eb2f4"
                         },
                         {
                             "command": "EVENT_WAIT",
                             "args": {
                                 "time": 1,
                                 "frames": 30,
-                                "__collapse": true,
-                                "__comment": false
+                                "__collapse": true
                             },
-                            "id": "dc4314f5-a27a-43b9-9ed7-248e078c770a"
+                            "id": "3a14ca9e-d21f-4bd2-9a8c-acd41fc0284b"
+                        },
+                        {
+                            "command": "EVENT_PALETTE_SET_BACKGROUND",
+                            "args": {
+                                "palette0": "3438e7f9-855f-4d00-9278-ed02a76d5bd6",
+                                "palette1": "keep",
+                                "palette2": "keep",
+                                "palette3": "keep",
+                                "palette4": "keep",
+                                "palette5": "keep",
+                                "palette6": "keep",
+                                "palette7": "keep",
+                                "__collapse": true
+                            },
+                            "id": "22ebf608-9109-45fe-847a-3ae773ea4087"
                         }
                     ],
                     "hit1Script": [],
@@ -12891,7 +12918,7 @@
             "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "ADVENTURE",
             "paletteIds": [
                 null,
                 null,
@@ -48140,6 +48167,26 @@
                 "484850",
                 "F8B000"
             ]
+        },
+        {
+            "id": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
+            "name": "Yellow 2",
+            "colors": [
+                "F8F8F8",
+                "F8C800",
+                "A88000",
+                "000000"
+            ]
+        },
+        {
+            "id": "62842cc5-a336-49fc-b32a-082c78d94e65",
+            "name": "Yellow 3",
+            "colors": [
+                "F8F8F8",
+                "F8B000",
+                "B87800",
+                "000000"
+            ]
         }
     ],
     "customEvents": [
@@ -49684,8 +49731,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 227,
-        "worldScrollY": 251,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
