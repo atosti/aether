@@ -198,12 +198,14 @@ Simple things to Work On:
 		~ When engaging in dialogue with the King, have your character walk to a specific spot to facilitiate that all characters fit well in the scene.
 131. Ideas for music to Create
 	a. Title theme
-		- 
 	b. A theme for each main character
 		- Outline the emotions of each character to better craft their themes.
 	c. Change the title theme to a minor key for a 
 	d. The battle theme could change instrument depending on which character you're playing as.
 		- See if you can change midfight.
+132. Discover examples for different types of instruments
+	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
+
 
 
 
