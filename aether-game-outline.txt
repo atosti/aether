@@ -205,7 +205,7 @@ Simple things to Work On:
 		- See if you can change midfight.
 132. Discover examples for different types of instruments
 	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
-
+133. Draw portrait avatars for each of the main antagonists.
 
 
 
