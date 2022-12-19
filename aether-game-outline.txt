@@ -131,10 +131,6 @@ Simple things to Work On:
 	- It should be able to hold a lot of different items
 		~ Like 32ish?
 		~ At first just get Key Items and Useable items built in, and listed separately.
-105. Edit the title screen so that 'Continue' is only an option if a saved game exists.
-	- The logic should be:
-		Check for game save data, if none exists: only offer ONE menu option.
-			~ But allow for the player to 'cancel' out of the dialogue, back to just viewing the title image.
 106. When designing combat
 	a. Add a pause in between switching characters (so that you're penalized, briefly, for switching)
 	b. New spritesheets will need to be assembled for these battle screens
@@ -206,7 +202,10 @@ Simple things to Work On:
 132. Discover examples for different types of instruments
 	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
 133. Draw portrait avatars for each of the main antagonists.
-
+136. Add examine text to the book the man's reading in the West Hallway.
+137. Consider implementing multi-slot saving
+	- Though does it really add much to the experience? How necessary is such a thing?
+	- Alternately, how hard is it to really implement? If it's easy, then why not?
 
 
 

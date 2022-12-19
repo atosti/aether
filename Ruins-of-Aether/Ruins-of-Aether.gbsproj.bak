@@ -435,158 +435,6 @@
                     "id": "49697ef2-edf8-4dd5-a58b-5c01c5c3bcfd",
                     "x": 18,
                     "y": 12
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "c86ff44c-b649-4364-be4a-095bc25b3654",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": true,
-                    "collisionGroup": "",
-                    "symbol": "actor_25",
-                    "script": [],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "88e07a32-cd72-4972-a47b-f0acff2b5b1f"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            },
-                            "id": "7c144e94-d606-4f27-b490-eaa97c7ea0ee"
-                        }
-                    ],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "73ffde98-ebbe-4d9c-896a-5a012265fb77",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "d9288a33-d9bc-433f-88cb-a25fdaaf7b14"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "cb22caab-b7e3-43c5-814d-6e8a7a56fb8e"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "0b29225f-c3ae-4080-801b-4038a1d864fd"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "243d771f-423d-4902-9a5e-0617ae0b4dde"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "62842cc5-a336-49fc-b32a-082c78d94e65",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "bfc2c8c6-7f79-452f-a972-a63ea4016e27"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "0616bc8d-52ee-4e7a-bdcd-222e6459561d"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "95f5dd93-2295-4074-b9da-0a0b7234d2f1",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "c0417863-114e-4f8f-a6e4-a4dc931eb2f4"
-                        },
-                        {
-                            "command": "EVENT_WAIT",
-                            "args": {
-                                "time": 1,
-                                "frames": 30,
-                                "__collapse": true
-                            },
-                            "id": "3a14ca9e-d21f-4bd2-9a8c-acd41fc0284b"
-                        },
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "3438e7f9-855f-4d00-9278-ed02a76d5bd6",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "22ebf608-9109-45fe-847a-3ae773ea4087"
-                        }
-                    ],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "3a2a050e-18b8-4498-8e43-82433348e2dd",
-                    "x": 18,
-                    "y": 1
                 }
             ],
             "triggers": [],
@@ -615,7 +463,8 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false,
+                        "__comment": true
                     },
                     "children": {
                         "true": [
@@ -718,7 +567,7 @@
                                     "comparator": 2,
                                     "__collapseElse": false,
                                     "__disableElse": true,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -764,6 +613,145 @@
                         ]
                     },
                     "id": "a6147bb9-3cd0-435f-91d4-ef45eb1f0492"
+                },
+                {
+                    "command": "EVENT_LOOP",
+                    "args": {},
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_SAVED_DATA",
+                                "args": {
+                                    "saveSlot": 0,
+                                    "__collapseElse": true,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "L0",
+                                                "items": 2,
+                                                "option1": "New Game",
+                                                "option2": "Continue",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "dialogue",
+                                                "__collapse": false
+                                            },
+                                            "id": "3a323169-3e69-41ba-8a82-99b942630de8"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": "0",
+                                                "__collapseElse": true,
+                                                "__disableElse": true,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_AWAIT_INPUT",
+                                                        "args": {
+                                                            "input": [
+                                                                "a",
+                                                                "b",
+                                                                "start",
+                                                                "select"
+                                                            ],
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "367f2fdd-d1e3-4e6f-9daa-5be0862a9728"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "4da74bd8-504d-4427-9b89-d467e3ab5652"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": true,
+                                                "__disableElse": true,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "115d3949-295d-41d6-a8a0-3e62e172e6c2",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "",
+                                                            "fadeSpeed": 3,
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "6040eb8c-9eaa-4e37-9b2d-4fac702022fe"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "e5ead440-f4e8-4580-9ab8-c7254fc2deba"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "L0",
+                                                "operator": "==",
+                                                "comparator": 2,
+                                                "__collapseElse": true,
+                                                "__collapse": true,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_LOAD_DATA",
+                                                        "args": {
+                                                            "saveSlot": 0,
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "5aa31731-29ee-4bae-8433-441b96b7edb8"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "d88a3e2c-8ded-416e-9706-fd01528e2efb"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "115d3949-295d-41d6-a8a0-3e62e172e6c2",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": 3,
+                                                "__collapse": true
+                                            },
+                                            "id": "66b20ac9-08ba-4ac9-8e07-a030349f62cd"
+                                        }
+                                    ]
+                                },
+                                "id": "6298a362-58d1-4f1e-ad67-fb5774d15327"
+                            }
+                        ]
+                    },
+                    "id": "f2225848-826f-46c8-ba1d-c68bf190ff73"
                 }
             ],
             "playerHit1Script": [],
@@ -2063,8 +2051,8 @@
                                 "expression": "0 == 0",
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": true,
-                                "__comment": true
+                                "__collapse": false,
+                                "__comment": false
                             },
                             "children": {
                                 "true": [
@@ -2076,6 +2064,14 @@
                                             "__collapse": true
                                         },
                                         "id": "47602fa6-a31d-4d93-baad-8a1acece902c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9"
+                                        },
+                                        "id": "166598f1-c463-4feb-a0a8-86f3a5519aa6"
                                     },
                                     {
                                         "command": "EVENT_ACTOR_EMOTE",
@@ -2259,7 +2255,8 @@
                                 "expression": "0 == 0",
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": true,
+                                "__comment": true
                             },
                             "children": {
                                 "true": [
@@ -17934,13 +17931,13 @@
         },
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
-            "name": "portraits/lords-portrait",
+            "name": "portraits\\lords-portrait",
             "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/lords-portrait.png",
+            "filename": "portraits\\lords-portrait.png",
             "tileColors": [
                 0,
                 0,
@@ -18306,13 +18303,13 @@
         },
         {
             "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
-            "name": "portraits/tower-landscape",
+            "name": "portraits\\tower-landscape",
             "symbol": "bg_portraits_tower_landscap",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/tower-landscape.png",
+            "filename": "portraits\\tower-landscape.png",
             "tileColors": [
                 5,
                 5,
@@ -18678,13 +18675,13 @@
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "premades/placeholder",
+            "name": "premades\\placeholder",
             "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "premades/placeholder.png",
+            "filename": "premades\\placeholder.png",
             "tileColors": []
         },
         {
@@ -20873,13 +20870,13 @@
         },
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
-            "name": "startup/intro-eyes",
+            "name": "startup\\intro-eyes",
             "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/intro-eyes.png",
+            "filename": "startup\\intro-eyes.png",
             "tileColors": [
                 0,
                 0,
@@ -21245,13 +21242,13 @@
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
-            "name": "startup/title",
+            "name": "startup\\title",
             "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/title.png",
+            "filename": "startup\\title.png",
             "tileColors": [
                 0,
                 0,
@@ -23470,7 +23467,7 @@
             "symbol": "sprite_characters_alexandro",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/alexandros.png",
+            "filename": "characters\\alexandros.png",
             "checksum": "667625c4af12cf0eae4fce8dc502fbd2b70c356c",
             "width": 48,
             "height": 64,
@@ -24159,7 +24156,7 @@
             "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/chef-4t.png",
+            "filename": "characters\\chef-4t.png",
             "checksum": "1ed5808b3a56464b6a9801e1737f97f7655c1522",
             "width": 64,
             "height": 16,
@@ -24368,7 +24365,7 @@
             "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/jester.png",
+            "filename": "characters\\jester.png",
             "checksum": "b19be410dc59dd54ecfd1a806e2ede17d0c865a9",
             "width": 48,
             "height": 64,
@@ -25057,7 +25054,7 @@
             "symbol": "sprite_characters_neera",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/neera.png",
+            "filename": "characters\\neera.png",
             "checksum": "0f50fb73cb326d0cf1d2ad72d9efb5da0cc7f8ab",
             "width": 48,
             "height": 64,
@@ -25746,7 +25743,7 @@
             "symbol": "sprite_characters_party_bat",
             "numFrames": 13,
             "type": "animated",
-            "filename": "characters/party-battle.png",
+            "filename": "characters\\party-battle.png",
             "checksum": "cd46aeb695fea9082bc49e9fd40a17fc5575d11c",
             "width": 208,
             "height": 64,
@@ -25954,7 +25951,7 @@
             "symbol": "sprite_characters_player",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/player.png",
+            "filename": "characters\\player.png",
             "checksum": "6f9493f28d54168bb5f4b54e4e741a7e6d363c94",
             "width": 64,
             "height": 64,
@@ -26825,7 +26822,7 @@
             "symbol": "sprite_characters_waving_fl",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/waving-flag.png",
+            "filename": "characters\\waving-flag.png",
             "checksum": "09ec4ceb4e0436fd180353f97d31d5bafd0e8808",
             "width": 64,
             "height": 16,
@@ -27046,7 +27043,7 @@
             "symbol": "sprite_hp_bars_hero_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/hero-hp.png",
+            "filename": "hp-bars\\hero-hp.png",
             "checksum": "e71c6a0ee90c60a95aa72a72712b59158bedf3ae",
             "width": 48,
             "height": 80,
@@ -27558,7 +27555,7 @@
             "symbol": "sprite_hp_bars_jester_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/jester-hp.png",
+            "filename": "hp-bars\\jester-hp.png",
             "checksum": "15a7018055c2e5378181b02b422848fbfa7f3429",
             "width": 48,
             "height": 80,
@@ -28109,7 +28106,7 @@
             "symbol": "sprite_hp_bars_priestess_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/priestess-hp.png",
+            "filename": "hp-bars\\priestess-hp.png",
             "checksum": "feb53405cf5f9621d7e25327d4144fe64a6f6f75",
             "width": 48,
             "height": 80,
@@ -28621,7 +28618,7 @@
             "symbol": "sprite_hp_bars_wizard_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars/wizard-hp.png",
+            "filename": "hp-bars\\wizard-hp.png",
             "checksum": "088513e9f07c12efa11c747214fdb32f2991661c",
             "width": 48,
             "height": 80,
@@ -29211,7 +29208,7 @@
             "symbol": "sprite_premades_2bit_an0000",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0000060100_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0000060100_gbs_anim.png",
             "checksum": "dcbe61ec8d151a8e543890c7c200627f70cc1c68",
             "width": 96,
             "height": 16,
@@ -29567,7 +29564,7 @@
             "symbol": "sprite_premades_2bit_an0010",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0010070004_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0010070004_gbs_anim.png",
             "checksum": "7ca4a33d628ae17fde34fd596f982d9638953eda",
             "width": 96,
             "height": 16,
@@ -29923,7 +29920,7 @@
             "symbol": "sprite_premadesbit_an0010_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0010070302_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0010070302_gbs_anim.png",
             "checksum": "ac850b924a73b64385c770ff59ee06628648766a",
             "width": 96,
             "height": 16,
@@ -30279,7 +30276,7 @@
             "symbol": "sprite_premades_2bit_an0100",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0100210102_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0100210102_gbs_anim.png",
             "checksum": "79f99c179faed4370d9c339f54037d89be5950c5",
             "width": 96,
             "height": 16,
@@ -30635,7 +30632,7 @@
             "symbol": "sprite_premades_2bit_an0102",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0102050003_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0102050003_gbs_anim.png",
             "checksum": "a1991533de6d8f9e1a201ab3f54e8bbd01bf6ecf",
             "width": 96,
             "height": 16,
@@ -30991,7 +30988,7 @@
             "symbol": "sprite_premades_2bit_an0103",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0103010401_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0103010401_gbs_anim.png",
             "checksum": "cd9f3051720f1289bb7e06906375828d83112914",
             "width": 96,
             "height": 16,
@@ -31347,7 +31344,7 @@
             "symbol": "sprite_premadesbit_an0103_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0103050100_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0103050100_gbs_anim.png",
             "checksum": "5caace6ac3b680712b53258b66d977ab5456253f",
             "width": 96,
             "height": 16,
@@ -31703,7 +31700,7 @@
             "symbol": "sprite_premades_2bit_an0106",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0106200200_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0106200200_gbs_anim.png",
             "checksum": "bdf818b6ee5cde0b57309828b4e882e9184c6684",
             "width": 96,
             "height": 16,
@@ -32059,7 +32056,7 @@
             "symbol": "sprite_premadesbit_an0106_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0106220704_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0106220704_gbs_anim.png",
             "checksum": "0f633a3561a5e057cd103783a0a711a77e4a7ffb",
             "width": 96,
             "height": 16,
@@ -32415,7 +32412,7 @@
             "symbol": "sprite_premades_2bit_an0108",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0108050004_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0108050004_gbs_anim.png",
             "checksum": "d52741f75056656cbabc6d9eb2221ba8dfe23ebc",
             "width": 96,
             "height": 16,
@@ -32771,7 +32768,7 @@
             "symbol": "sprite_premades_2bit_an0110",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0110110503_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0110110503_gbs_anim.png",
             "checksum": "b10633731d715ef947bd43d28a15b1429598b5cf",
             "width": 96,
             "height": 16,
@@ -33127,7 +33124,7 @@
             "symbol": "sprite_premades_2bit_an0200",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0200040003_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0200040003_gbs_anim.png",
             "checksum": "d820f4f48da7ccae0afc692a1d209c2c165b785c",
             "width": 96,
             "height": 16,
@@ -33483,7 +33480,7 @@
             "symbol": "sprite_premades_2bit_an0201",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0201010703_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0201010703_gbs_anim.png",
             "checksum": "1dee5c9d283fff89e503edc901b135c108d06720",
             "width": 96,
             "height": 16,
@@ -33839,7 +33836,7 @@
             "symbol": "sprite_premades_2bit_an0202",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0202100400_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0202100400_gbs_anim.png",
             "checksum": "7cb0044993ce40bb9572730e45e7d2a4e751128e",
             "width": 96,
             "height": 16,
@@ -34195,7 +34192,7 @@
             "symbol": "sprite_premadesbit_an0202_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0202100401_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0202100401_gbs_anim.png",
             "checksum": "0f2322172da75370ee87a43a1bc667e1fa4eb5c1",
             "width": 96,
             "height": 16,
@@ -34551,7 +34548,7 @@
             "symbol": "sprite_premades_2bit_an0203",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0203040304_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0203040304_gbs_anim.png",
             "checksum": "f4648a6ee593047d6b314ec5c2512845f49bfe21",
             "width": 96,
             "height": 16,
@@ -34907,7 +34904,7 @@
             "symbol": "sprite_premades_2bit_an0205",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0205110204_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0205110204_gbs_anim.png",
             "checksum": "c19c85e4ba0234ca87ca5bbc4186cc91bbcfb76b",
             "width": 96,
             "height": 16,
@@ -35263,7 +35260,7 @@
             "symbol": "sprite_premades_2bit_an0206",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0206040201_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0206040201_gbs_anim.png",
             "checksum": "bc213a1b89e4f3d9988aacf504581727b028bd5b",
             "width": 96,
             "height": 16,
@@ -35619,7 +35616,7 @@
             "symbol": "sprite_premades_2bit_an0207",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0207030701_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0207030701_gbs_anim.png",
             "checksum": "94a933465c0cd98ee5cd180741ebebef2adf4d7f",
             "width": 96,
             "height": 16,
@@ -35975,7 +35972,7 @@
             "symbol": "sprite_premades_2bit_an0208",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0208080504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0208080504_gbs_anim.png",
             "checksum": "5b00a433963952cde507ed5ed2c9a117eb0f2ee5",
             "width": 96,
             "height": 16,
@@ -36331,7 +36328,7 @@
             "symbol": "sprite_premades_2bit_an0209",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209010500_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209010500_gbs_anim.png",
             "checksum": "7585e719c2da61daf890b3fa8c4abb3b5223e0f8",
             "width": 96,
             "height": 16,
@@ -36687,7 +36684,7 @@
             "symbol": "sprite_premadesbit_an0209_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209110602_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209110602_gbs_anim.png",
             "checksum": "9b033b9327f0688ef08b9365047a67ab75ffcaa8",
             "width": 96,
             "height": 16,
@@ -37043,7 +37040,7 @@
             "symbol": "sprite_premadesbit_an0209_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209120802_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209120802_gbs_anim.png",
             "checksum": "594ef446b1bd22d9cb772ef5adbad3fdc076f5c3",
             "width": 96,
             "height": 16,
@@ -37399,7 +37396,7 @@
             "symbol": "sprite_premades_2bit_an0301",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0301160600_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0301160600_gbs_anim.png",
             "checksum": "545c981bba6e870852df3a7d38f5ca53c17540d2",
             "width": 96,
             "height": 16,
@@ -37755,7 +37752,7 @@
             "symbol": "sprite_premades_2bit_an0306",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0306060101_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0306060101_gbs_anim.png",
             "checksum": "cb3c4354c1acc2dcbacb4eaee3d98969dcf760b7",
             "width": 96,
             "height": 16,
@@ -38111,7 +38108,7 @@
             "symbol": "sprite_premades_2bit_an0309",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0309090802_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0309090802_gbs_anim.png",
             "checksum": "4d244bd4633fb625e1d92c3f46ada20cf7d3377a",
             "width": 96,
             "height": 16,
@@ -38467,7 +38464,7 @@
             "symbol": "sprite_premades_2bit_an0402",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402090303_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402090303_gbs_anim.png",
             "checksum": "db4f7eef5b56e3b938d2387ba67091c1f7826d12",
             "width": 96,
             "height": 16,
@@ -38823,7 +38820,7 @@
             "symbol": "sprite_premadesbit_an0402_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402100200_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402100200_gbs_anim.png",
             "checksum": "42f69db725d38fa8ece0e9151d96aeaf5437444d",
             "width": 96,
             "height": 16,
@@ -39179,7 +39176,7 @@
             "symbol": "sprite_premadesbit_an0402_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402190604_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402190604_gbs_anim.png",
             "checksum": "30c3f7b88fa53074ac0057868de996eeb4100b51",
             "width": 96,
             "height": 16,
@@ -39535,7 +39532,7 @@
             "symbol": "sprite_premadesbit_an0402_2",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402210504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402210504_gbs_anim.png",
             "checksum": "3dda08fa08ca91fdd437196c30c049f5131244f5",
             "width": 96,
             "height": 16,
@@ -39891,7 +39888,7 @@
             "symbol": "sprite_premades_2bit_an0404",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0404070103_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0404070103_gbs_anim.png",
             "checksum": "ab15c10b8931604855d598a45af3c7b94171d8aa",
             "width": 96,
             "height": 16,
@@ -40247,7 +40244,7 @@
             "symbol": "sprite_premadesbit_an0404_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0404070400_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0404070400_gbs_anim.png",
             "checksum": "91c075506b992ec0b6fb915c181ca3888d29e19f",
             "width": 96,
             "height": 16,
@@ -40603,7 +40600,7 @@
             "symbol": "sprite_premades_2bit_an0406",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0406000701_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0406000701_gbs_anim.png",
             "checksum": "509c5f8463acd0d096556ff6ceb5f9b32786831a",
             "width": 96,
             "height": 16,
@@ -40959,7 +40956,7 @@
             "symbol": "sprite_premades_2bit_an0407",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0407070502_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0407070502_gbs_anim.png",
             "checksum": "2a59bde48cf04035c71d5ac92396232a9fa0fa8b",
             "width": 96,
             "height": 16,
@@ -41315,7 +41312,7 @@
             "symbol": "sprite_premades_2bit_an0410",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0410100304_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0410100304_gbs_anim.png",
             "checksum": "68bbb445ca083a768eb23271f8d18ff052f1b033",
             "width": 96,
             "height": 16,
@@ -41671,7 +41668,7 @@
             "symbol": "sprite_premades_2bit_an0502",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0502050500_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0502050500_gbs_anim.png",
             "checksum": "afc2e3c434dc944051f373b2bdfc0f8b177eec19",
             "width": 96,
             "height": 16,
@@ -42027,7 +42024,7 @@
             "symbol": "sprite_premades_2bit_an0506",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0506120105_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0506120105_gbs_anim.png",
             "checksum": "d367388052d78ba246b1de7c145b3130deaceb61",
             "width": 96,
             "height": 16,
@@ -42383,7 +42380,7 @@
             "symbol": "sprite_premades_2bit_an0510",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0510000700_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0510000700_gbs_anim.png",
             "checksum": "ca70d25e459569881a83b677f5a2a3d495213ee4",
             "width": 96,
             "height": 16,
@@ -42739,7 +42736,7 @@
             "symbol": "sprite_premades_2bit_an0602",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0602080205_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0602080205_gbs_anim.png",
             "checksum": "1651009b0f121c5d9125498a9bd7482dd78a3b49",
             "width": 96,
             "height": 16,
@@ -43095,7 +43092,7 @@
             "symbol": "sprite_premades_2bit_an0603",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0603200300_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0603200300_gbs_anim.png",
             "checksum": "178604fa48b22761007a1af2c1030b383a12fb32",
             "width": 96,
             "height": 16,
@@ -43451,7 +43448,7 @@
             "symbol": "sprite_premadesbit_an0603_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0603210501_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0603210501_gbs_anim.png",
             "checksum": "5a912dcb62c43d750c671f7c2a959cabfa8915e8",
             "width": 96,
             "height": 16,
@@ -43807,7 +43804,7 @@
             "symbol": "sprite_premades_2bit_an0604",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0604110002_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0604110002_gbs_anim.png",
             "checksum": "ae2c7d77518e9be7b8dd72a2d01ea977363f0c8f",
             "width": 96,
             "height": 16,
@@ -44163,7 +44160,7 @@
             "symbol": "sprite_premades_2bit_an0605",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0605050700_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0605050700_gbs_anim.png",
             "checksum": "eb23e1453734da0c054ba6210617acfc17c873ff",
             "width": 96,
             "height": 16,
@@ -44519,7 +44516,7 @@
             "symbol": "sprite_premades_2bit_an0608",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0608000504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0608000504_gbs_anim.png",
             "checksum": "ef846d56f1dceb10397a2c525c7b081b79e27820",
             "width": 96,
             "height": 16,
@@ -44875,7 +44872,7 @@
             "symbol": "sprite_premades_2bit_an0610",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0610010402_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0610010402_gbs_anim.png",
             "checksum": "7ac9fc852007cfb29c21f256c87b09707dea3d44",
             "width": 96,
             "height": 16,
@@ -45231,7 +45228,7 @@
             "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/actor.png",
+            "filename": "premades\\actor.png",
             "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
             "width": 48,
             "height": 16,
@@ -45413,7 +45410,7 @@
             "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/actor_animated.png",
+            "filename": "premades\\actor_animated.png",
             "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
             "width": 96,
             "height": 16,
@@ -45769,7 +45766,7 @@
             "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/cat.png",
+            "filename": "premades\\cat.png",
             "checksum": "b043d62597e5be563b43a54be9d29deebbb165c1",
             "width": 16,
             "height": 16,
@@ -45897,7 +45894,7 @@
             "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character0.png",
+            "filename": "premades\\character0.png",
             "checksum": "e3cb9c3af37cabae26cebf61cc347f869012122b",
             "width": 16,
             "height": 16,
@@ -46025,7 +46022,7 @@
             "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character1.png",
+            "filename": "premades\\character1.png",
             "checksum": "49131ef5b2d20d5432572c4053ffc2b0a536f08d",
             "width": 16,
             "height": 16,
@@ -46153,7 +46150,7 @@
             "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character2.png",
+            "filename": "premades\\character2.png",
             "checksum": "65136775c01ebcb8a90392a236314a398e74fb17",
             "width": 16,
             "height": 16,
@@ -46281,7 +46278,7 @@
             "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character3.png",
+            "filename": "premades\\character3.png",
             "checksum": "aaa8f06f105b27e744a6d6ef946f84ad815d75a8",
             "width": 16,
             "height": 16,
@@ -46409,7 +46406,7 @@
             "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy0.png",
+            "filename": "premades\\enemy0.png",
             "checksum": "bfa9cb107e9f1d58ab9896b49bd93145b4a1f385",
             "width": 16,
             "height": 16,
@@ -46537,7 +46534,7 @@
             "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy1.png",
+            "filename": "premades\\enemy1.png",
             "checksum": "7c045dc66819f9590918b7f12447b5b38496591e",
             "width": 16,
             "height": 16,
@@ -46665,7 +46662,7 @@
             "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy2.png",
+            "filename": "premades\\enemy2.png",
             "checksum": "dad68b4af478d5bfe2a731c4a4e0800e369120d7",
             "width": 16,
             "height": 16,
@@ -46793,7 +46790,7 @@
             "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
-            "filename": "premades/fire.png",
+            "filename": "premades\\fire.png",
             "checksum": "da92212c3c424721b2535a2e85e0f6f5ed010f74",
             "width": 64,
             "height": 16,
@@ -47014,7 +47011,7 @@
             "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart0.png",
+            "filename": "premades\\heart0.png",
             "checksum": "7656680fbd3e7d49ec127260e3aa61bd0c881872",
             "width": 16,
             "height": 16,
@@ -47142,7 +47139,7 @@
             "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart1.png",
+            "filename": "premades\\heart1.png",
             "checksum": "042388ba8b04f51ea9881672317e39ca52508853",
             "width": 16,
             "height": 16,
@@ -47270,7 +47267,7 @@
             "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart2.png",
+            "filename": "premades\\heart2.png",
             "checksum": "b917659130116c7bef29dba42e486b1a5ee05640",
             "width": 16,
             "height": 16,
@@ -47398,7 +47395,7 @@
             "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/item0.png",
+            "filename": "premades\\item0.png",
             "checksum": "e418a68b729e26a82de13a110d9aee240a03472e",
             "width": 16,
             "height": 16,
@@ -47526,7 +47523,7 @@
             "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/npc001.png",
+            "filename": "premades\\npc001.png",
             "checksum": "41238f54ad45b3503b77c7b126916ae0a30420be",
             "width": 48,
             "height": 16,
@@ -47708,7 +47705,7 @@
             "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/static.png",
+            "filename": "premades\\static.png",
             "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8",
             "width": 16,
             "height": 16,
@@ -49221,6 +49218,22 @@
     ],
     "music": [
         {
+            "id": "4f2c173c-b43b-463e-bfac-c3a8cc02fd80",
+            "name": "Violin_example",
+            "symbol": "song_violin_example",
+            "filename": "Violin_example.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "90cc9d86-f421-499c-9562-0618bf42e190",
+            "name": "daniels-song",
+            "symbol": "song_daniels_song",
+            "filename": "daniels-song.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "101a55ea-3161-46a3-a0db-188ec9d971c6",
             "name": "song_template 1",
             "symbol": "song_song_template_1",
@@ -49355,6 +49368,14 @@
             "width": 16,
             "height": 16,
             "filename": "anger.png"
+        },
+        {
+            "id": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+            "name": "bored",
+            "symbol": "emote_bored",
+            "width": 16,
+            "height": 16,
+            "filename": "bored.png"
         },
         {
             "id": "48f68915-20b4-410d-a1a5-985133dff6a3",
@@ -49529,11 +49550,6 @@
             "id": "3",
             "name": "ViewedTowerLandscape",
             "symbol": "var_viewedtowerlandscape"
-        },
-        {
-            "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L0",
-            "name": "New Game",
-            "symbol": "var_new_game"
         },
         {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
@@ -49732,7 +49748,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollY": 200,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -49762,7 +49778,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            894,
+            897,
             30
         ],
         "showNavigator": true,
