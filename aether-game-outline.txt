@@ -206,7 +206,10 @@ Simple things to Work On:
 137. Consider implementing multi-slot saving
 	- Though does it really add much to the experience? How necessary is such a thing?
 	- Alternately, how hard is it to really implement? If it's easy, then why not?
-
+138. Consider an intro animation that plays if the player is idle for a handful of seconds.
+	- It could show the night of the Great Explosion.
+	- Tower erupting into flames. People running. Reflection of the flames in someone's eye?
+	- Hellfire raining down on everyone, frenzied Aether husks rising up, etc.
 
 
 
