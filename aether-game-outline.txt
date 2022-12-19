@@ -28,15 +28,10 @@ Simple things to Work On:
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
 	- And assign it to the NPC in the War Room.
-37. Design a Chapel in the city or castle.
 41. Design the Armory which will give you some starting gear for free if you stop by.
 	- This is optional.
 42. Figure out how to draw Text to the Screen for the start menu options.
-43. Add a cutaway scene to examining the sacred blade on the wall behind the King.
-	- Consider making it a different weapon. Maybe a polearm?
-	- Also redesign the tile for it when you do update it.
 44. Finish the King's dialogue for when you have the Jester in your party.
-46. Make an initial copy of the game to Git for safekeeping.
 47. Flesh out Alexandros' backstory somewhere
 	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
 48. Add a health item that can be looted off the Dining Hall's table.
@@ -52,18 +47,11 @@ Simple things to Work On:
 	- Look at the LoZ botw fan art. Also look at oracle of ages/seasons for reference.
 58. Figure out how to draw tiles in front of the player.
 	- Do this for the pillars in the throne room.
-59. Remember to untoggle the hard-coded JesterRecruited variable in the Battle scene.
-	- It's only on right now for testing.
-60. I'd love for there to be a neutral actor in the middle part of the battle screen (showing who's turn it being selected).
-	- It'd be even cooler if when the attacks are played out, they walked Left/Right to their target, then played a simple animation of attacking in front of them (at the NPC).
 61. Design a few different Battle scene backgrounds (behind the enemy actor tiles).
 	- These can be used for a few different environments.
 		~ E.g. In a Cavern vs. On a beach vs. In a forest vs. In a castle.
 		~ Nothing too complex, just a general vibe. The sprite limits will be close on these screens.
 62. Design NPC sprites for the nobles in the Royal Court
-63. Item ideas
-	a. Wine: A Healing item
-		~ Potentially temporarily lowers accuracy if used in combat.
 65. Draw a jug of wine as a table-compatible sprite.
 66. Update the oubliette to be slightly different upon returning after having the jester in your party.
 	- Hide Alexandros
