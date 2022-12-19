@@ -5872,7 +5872,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A massive painting of a regal man covered\nhead-to-toe in ornate armor. Gazing into\nhis eyes fills you with a deep sorrow."
+                                                "A large shield is hung on the wall, with\ntwo spears crossed behind it. Gazing up at \nit fills you with a deep, longing sorrow."
                                             ],
                                             "avatarId": ""
                                         },
@@ -49748,8 +49748,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 200,
+        "worldScrollX": 464,
+        "worldScrollY": 190,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,

@@ -2051,7 +2051,7 @@
                                 "expression": "0 == 0",
                                 "__collapseElse": true,
                                 "__disableElse": true,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__comment": false
                             },
                             "children": {
@@ -2069,7 +2069,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9"
+                                            "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+                                            "__collapse": true
                                         },
                                         "id": "166598f1-c463-4feb-a0a8-86f3a5519aa6"
                                     },
@@ -5871,7 +5872,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A massive painting of a regal man covered\nhead-to-toe in ornate armor. Gazing into\nhis eyes fills you with a deep sorrow."
+                                                "A large shield is hung on the wall, with\ntwo spears crossed behind it. Gazing up at \nit fills you with a deep sorrow."
                                             ],
                                             "avatarId": ""
                                         },
@@ -49747,8 +49748,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 200,
+        "worldScrollX": 464,
+        "worldScrollY": 190,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
