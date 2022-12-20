@@ -207,6 +207,7 @@ Simple things to Work On:
 		c. Fire
 		d. Air
 		e. Aether?
+141. Change the text for 'New Game' to instead be 'Begin Anew'
 
 
 * What if the final battle was between whichever characters you're aligned with?
