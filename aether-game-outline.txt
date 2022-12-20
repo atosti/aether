@@ -85,8 +85,6 @@ Simple things to Work On:
 	- If pressed, Alexandros reveals that he believes the King is unfit to rule and can only bring about more ruin.
 		~ As such, he took the opportunity to coordinate a coup with some of the remaining wizards.
 		~ He urges the party to take his side and agree to dethrone the King once the realignment is complete.
-83. Create a wall sprite for behind the throne.
-	- Make it be a shield and/or crest with two crossed spears behind it.
 84. Oubliette sprites needed
 	- Stacked books, from the floor
 	- Piles of scrolls on tabletops
@@ -199,7 +197,7 @@ Simple things to Work On:
 139. Write examine text for the shield hung behind the King.
 	- Describe a family crest for the Crown, which can then be used at later points in the story as well.
 	- Basically, create what the shield for their family should look like in the world. And write text to describe it.
-
+140. Design an elemental weapons system and a way to infuse different elements into each party member's weapon.
 
 
 * What if the final battle was between whichever characters you're aligned with?
