@@ -198,6 +198,15 @@ Simple things to Work On:
 	- Describe a family crest for the Crown, which can then be used at later points in the story as well.
 	- Basically, create what the shield for their family should look like in the world. And write text to describe it.
 140. Design an elemental weapons system and a way to infuse different elements into each party member's weapon.
+	- Should different attacks color the enemy differently?
+		~ E.g. Fire = Orange palette, Water = Blue palette
+	- What types should there be?
+		~ Types to match the main elements of the story, duh!
+		a. Earth
+		b. Water
+		c. Fire
+		d. Air
+		e. Aether?
 
 
 * What if the final battle was between whichever characters you're aligned with?
