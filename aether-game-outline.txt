@@ -207,6 +207,8 @@ Simple things to Work On:
 		c. Fire
 		d. Air
 		e. Aether?
+	- Order of Strength:
+		Water > Fire > Earth > Air > Aether > Water
 
 
 * What if the final battle was between whichever characters you're aligned with?
@@ -1324,7 +1326,7 @@ Concepts:
 			~ But the church itself should be established as evil. What if it's the reversal? She's cast out for not reforming her beliefs to match theirs.
 			~ But what ARE the church's core guiding principles? This needs to be elaborated on.
 95. "My Gods are older than you. Older than your empire. Older than honor. You've no right to dictate my will."
-
+96. "It's called a bastard sword for a reason. One mistake with it, and you'll leave your sons fatherless. Well, not in your case. But you get the point."
 
 Misc Dialogue for encounters:
 ===============================
