@@ -1029,6 +1029,9 @@ Concepts:
 	"Sacrifice the entire Realm for the safety of one, miserable old man?"
 	"It's a rotten deal he was given. His Kingdom was robbed of every last thing."
 	"He sits upon a throne of ashes... God help whoever claims it next."
+	["I'm sure he knows of your profound loyalty."]
+	- Jester, pausing:
+	"I would hope. I've only ever wanted to do right by the Realm. It gets harder to do every day."
 35. Asking the Priestess about what precisely she sees in the future
 	- Neera, curtly:
 	"I don't see the future all at once, God does not make me privy to such things."
