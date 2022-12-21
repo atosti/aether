@@ -990,6 +990,45 @@ Concepts:
 		"I can only guess what other world would have instead awaited us. But who's to say it's a better one than this?"
 34. Asking the Jester about his relationship with the King
 	- TBD. They are friends, he truly cares about the King.
+	[How old were you when you met him?]
+	- Jester, pondering:
+	"Let's see... close to 40 years now? I was part of a troupe that performed for him one of his birthdays."
+	"I had recently finished my training as an entertainer, and I was eager to impress. I think he saw that in me, even back then."
+	"Needless to say, my stunts and jokes landed well, and thus he offered me a full-time position in his court. A King's Jester."
+	"Naturally, I was taken aback. Stunned, really, I didn't know what to say. But luckily my Ringmaster was a true friend, and replied for me, knowing better than to squander the opportunity."
+	- Jester, laughing:
+	"I later learned that the King found most funny my lack of modesty. My willingness to ridicule HIM in particular that night."
+	["So how'd you transition from entertainer to advisor?"]
+	- Jester, smiling:
+	"They're really much the same role at the end of the day. An entertainer's job is to stay abreast of today's politics."
+	"To make jokes of serious matters. To point out the hypocrisy and lunacy of daily schedule of the Crown."
+	"I earned my fair share of lashings for saying too much... But more often than not, I earned respect for my antics."
+	["That doesn't add up. Even the most revered Jesters don't get to lead armies."]
+	- Jester, sighing:
+	"You're right. The war left us strapped for leadership. And for loyal members of the court. You see, we didn't strike the first blow against the wizards." 
+	"Prince Morcant had left the castle to recruit soldiers to our army, and the wizards must have known this, because within days of his absence their assassins struck."
+	"Praise the Heavens they failed in their attempt on the King's life. But they took many royal guardsmen, councilmembers, and nobles along with them."
+	"So the Crown needed people. As the saying goes, those he 'could trust with both his coinpurse, and his life'. So he asked me to step up as one of his war-time advisors."
+	["And how did you respond to his request?"]
+	- Jester, laughing:
+	"I laughed in his face. I thought he was joking. Sometimes he liked to try and make me laugh, you see. But he was dead serious."
+	"He was... fearful. There were rumors going around about who let the assassins in, whether there would be more attempts. All sorts of things."
+	"But he was lucky, it turned out I had a knack for strategy. And when my strategies began to win battles, he urged me to command more and more of our army."
+	"In the end, I was on the frontlines of the war. Commanding soldiers in the heartland of the enemy."
+	["I don't get it. If you led troops on the frontlines and personally advised the King on matters of war, why don't the soldiers respect you more?"]
+	- Jester, questioningly:
+	"What's not to get? The Crown is merely a title, it's about what he commands that gives him power and influence."
+	"Our King barely rules the land his castle sits upon. If the soldiers don't respect him, why would they respect his right-hand man?"
+	"It's sad, yes, but the Crown is dying. Everyone sees that. And he's too old to birth a new heir, so everyone's just waiting for him to finally collapse."
+	"Once that happens, they'll each get a chance at sitting atop that throne..."
+	["Sounds like you're the only loyal one left in the court."]
+	- Jester, sad:
+	"Yes. I suppose I am. It's part of what pains me about leaving his side..."
+	- Jester, crying:
+	"But what am I to do? Sacrifice myself for a man on his deathbed?"
+	"Sacrifice the entire Realm for the safety of one, miserable old man?"
+	"It's a rotten deal he was given. His Kingdom was robbed of every last thing."
+	"He sits upon a throne of ashes... God help whoever claims it next."
 35. Asking the Priestess about what precisely she sees in the future
 	- Neera, curtly:
 	"I don't see the future all at once, God does not make me privy to such things."
@@ -1002,15 +1041,15 @@ Concepts:
 	[Voices? Plural?]
 	Neera:
 	"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
-	"Many times they speak all at once. I've trained myself to selectively listen to the voices behind his words."
+	"Many times they speak all at once. I've trained myself to selectively listen to those voices behind his words."
 	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his keeper."
 	"The honeys he produces for me are bountiful. They have yet to lead me astray."
 	[More than bees live in hives...]	(Available after her beekeeper line)
 	Neera, lightly rebuffed:
-	"You mean to imply he works as a wasp? Or perhaps a colony of molerats?"
+	"You mean to imply he works as a wasp? Or perhaps a colony of... molerats?"
 	"Though you mean to besmirch his methods, they are sound."
 	"A hive knows the value of community and working toward a collective goal."
-	"Perhaps our discussion is meant as something for you to ponder."
+	"Perhaps our discussion is meant as something for YOU to ponder. Rather than the other way around."
 36. The player should walk past Old Scratch (ignoring him) after a while, but he still poses questions that (can) force a response from the player.
 	- Alternately, give the player the option to ignore him (repeatedly).
 	- Would love if I could animate him leaning and smoking.
