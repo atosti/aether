@@ -176,11 +176,12 @@ Simple things to Work On:
 	- The King insists they split up. Everyone agrees to meet up at the Lord's castle to the North.
 	- Set it so the Wizard walks up to you and the Jester talking with the King (from the South.)
 		~ When engaging in dialogue with the King, have your character walk to a specific spot to facilitiate that all characters fit well in the scene.
+	- Have Alexandros walk up (from the South) into the scene alongside the Jester and Aylmera (after some short dialogue prior.)
 131. Ideas for music to Create
 	a. Title theme
 	b. A theme for each main character
 		- Outline the emotions of each character to better craft their themes.
-	c. Change the title theme to a minor key for a 
+	c. Change the title theme to a minor key for a more somber tone
 	d. The battle theme could change instrument depending on which character you're playing as.
 		- See if you can change midfight.
 		- Alternately, just play a series of notes as a sound effect IN the instrument of the character being swapped in.
