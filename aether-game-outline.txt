@@ -212,6 +212,9 @@ Simple things to Work On:
 	- Order of Strength:
 		Water > Fire > Earth > Air > Aether > Water
 		~ Where ">" denotes superiority. So Water is strongest against Fire, etc etc.
+141. Rewrite the King's dialogue both with and without the Jester.
+	- Add his avatar to all of his dialogue
+
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1375,12 +1378,18 @@ Concepts:
 95. "My Gods are older than you. Older than your empire. Older than honor itself. You've no right to dictate their will."
 96. "It's called a bastard sword for a reason. One mistake with it, and you'll leave your sons fatherless. Well, not in your case. But you get the point."
 97. "Your presence dishonors us."
+98. "You better not fucking fail us. Not that it matters."
+	- Misc. Realm soldier aware of Aylmera's jiourney.
+99. "I ain't wasting good gear on a corpse. You're lucky I'm even sparing you this."
+	- Stated by the Quartermaster when he gives you starting gear in the castle armory.
+
+
 
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies call you 'The Butcher'.
-	Butcher: "No. It's my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
-	Butcher: "I wonder which title you'll choose for me." *Smiles*
+	Butcher: "No. They don't. It's my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
+	Butcher: "Given the... opportunity, I wonder which title you'll choose for me." *Smiles wickedly*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
 	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
