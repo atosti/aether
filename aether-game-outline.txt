@@ -1394,15 +1394,16 @@ Concepts:
 	- Alexandros: "No."
 	[Yes.]
 		*All other party members turn to look away from the view, staring at Aylmera.*
-		- Neera: "I must admit. Even *I'm* not optimistic about this one. Though my foresight eludes me."
+		- Neera: "I must admit. Even *I'm* not optimistic about this one. My foresight eludes me."
 		
 	[No.]
-		*Whole party keeps staring.*
+		*Whole party keeps staring at the castle.*
 	- Alexandros: *turns to face the Jester* "We can stop who's responsible for this, Sigmund."
-	- Jester: "No. No, I believe the one responsible is the Crown. And he's likely already dead."
-	- Alexandros: "Still, I just mean we can-"
-	- Jester: *turns to face Alexandros* "I know. But this was always the outcome. You don't have to hear God to see that."
-	- Jester: "But I guess there's nowhere to go but forward..."
+	- Jester: "No... No, the one responsible is the Crown. And he's likely dead in that castle."
+	- Alexandros: "Still, I just mean that we can-"
+	- Jester: *turns to face Alexandros* "I know. But this was always the outcome."
+	- Jester: "Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
+	- Jester: "Alas. There's nowhere to go but forward."
 
 
 Misc Dialogue for encounters:
