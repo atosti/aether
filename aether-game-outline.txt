@@ -1386,7 +1386,23 @@ Concepts:
 	- Misc. Realm soldier aware of Aylmera's journey.
 99. "I ain't wasting good gear on a corpse. You're lucky I'm even sparing you this."
 	- Stated by the Quartermaster when he gives you starting gear in the castle armory.
-
+100. The party stands above a cliff, overlooking the starting castle, now on fire. They're enroute to it.
+	- Party stares in silence for a second or two.
+	- Jester: *pauses* "The castle..."
+	- Neera: "Do you think we'll make it in time?
+	- Jester: "No."
+	- Alexandros: "No."
+	[Yes.]
+		*All other party members turn to look away from the view, staring at Aylmera.*
+		- Neera: "I must admit. Even *I'm* not optimistic about this one. Though my foresight eludes me."
+		
+	[No.]
+		*Whole party keeps staring.*
+	- Alexandros: *turns to face the Jester* "We can stop who's responsible for this, Sigmund."
+	- Jester: "No. No, I believe the one responsible is the Crown. And he's likely already dead."
+	- Alexandros: "Still, I just mean we can-"
+	- Jester: *turns to face Alexandros* "I know. But this was always the outcome. You don't have to hear God to see that."
+	- Jester: "But I guess there's nowhere to go but forward..."
 
 
 Misc Dialogue for encounters:
