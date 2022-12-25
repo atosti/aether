@@ -214,6 +214,10 @@ Simple things to Work On:
 		~ Where ">" denotes superiority. So Water is strongest against Fire, etc etc.
 141. Rewrite the King's dialogue both with and without the Jester.
 	- Add his avatar to all of his dialogue
+142. Create a sound effect to trigger on battle engagement
+	- Perhaps similar to the Golden Sun monster scream for their battles
+	- Or just play an intro sequence of a song, then transition into the full song for the fight? A la pokemon.
+
 
 
 * What if the final battle was between whichever characters you're aligned with?
@@ -1231,7 +1235,7 @@ Concepts:
 	- And in turn the Church has allowed itself to be weaponized.
 	- The main religious leader (a cardinal-esque figure?) stands at odds to Neera.
 		~ Neera to them: "God speaks ill of you. He even agrees with himself on that."
-67. Change the color of enemies (their pallettes) to show they're vulnerable in combat.
+67. Change the color of enemies (their palettes) to show they're vulnerable in combat.
 	- E.g. a character could swap to a different color when exhausted, or when there's an opening in their pattern.
 	- Otherwise, have them be invulnerable.
 	- Explain this mechanic via the combat tutorial. (And make that whole thing brief.)
@@ -1379,7 +1383,7 @@ Concepts:
 96. "It's called a bastard sword for a reason. One mistake with it, and you'll leave your sons fatherless. Well, not in your case. But you get the point."
 97. "Your presence dishonors us."
 98. "You better not fucking fail us. Not that it matters."
-	- Misc. Realm soldier aware of Aylmera's jiourney.
+	- Misc. Realm soldier aware of Aylmera's journey.
 99. "I ain't wasting good gear on a corpse. You're lucky I'm even sparing you this."
 	- Stated by the Quartermaster when he gives you starting gear in the castle armory.
 
