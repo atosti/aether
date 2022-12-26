@@ -217,7 +217,8 @@ Simple things to Work On:
 142. Create a sound effect to trigger on battle engagement
 	- Perhaps similar to the Golden Sun monster scream for their battles
 	- Or just play an intro sequence of a song, then transition into the full song for the fight? A la pokemon.
-
+143. Create a sound effect that sounds like the crunching of flesh and bone.
+	- Can be played when killing NPCs in the overworld.
 
 
 * What if the final battle was between whichever characters you're aligned with?
