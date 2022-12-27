@@ -13781,7 +13781,7 @@
                                 "args": {
                                     "actorId": "$self$",
                                     "speed": 3,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "ab9a63e5-86c2-4ed4-9f6c-af1dee972180"
                             },
@@ -13808,17 +13808,17 @@
                                     "collisionMask": [
                                         "1"
                                     ],
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "b81ff7ee-726b-4c36-ae36-741940258b07"
                             },
                             {
                                 "command": "EVENT_WAIT",
                                 "args": {
-                                    "time": 0.125,
+                                    "time": 0.19,
                                     "frames": 30,
                                     "units": "time",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "e7747ced-802d-4122-abac-498fb357b1c8"
                             },
@@ -25903,7 +25903,7 @@
             "numFrames": 16,
             "type": "animated",
             "filename": "characters\\party-battle.png",
-            "checksum": "979be908ea61331e0cd3224b5351f7408b14c12b",
+            "checksum": "d4b0029770d10a7ab46091d2f7ceb3434d3f433e",
             "width": 256,
             "height": 64,
             "states": [
@@ -51328,9 +51328,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3774,
-        "worldScrollY": 0,
-        "zoom": 325,
+        "worldScrollX": 2244,
+        "worldScrollY": 75,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
