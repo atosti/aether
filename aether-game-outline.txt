@@ -219,6 +219,15 @@ Simple things to Work On:
 	- Or just play an intro sequence of a song, then transition into the full song for the fight? A la pokemon.
 143. Create a sound effect that sounds like the crunching of flesh and bone.
 	- Can be played when killing NPCs in the overworld.
+144. Design a way to easily randomize enemy encounters while reusing a battle scene.
+	- The overall goal is to only have a handful of total battle scenes. A few for each main zone/boss. (Probably under 10)
+	- When triggering the battle, generate a TRULY random number and spawn in enemies based on that.
+145. Add attack animations to the sword swings
+	- Aylmera requires the following:
+	a. North-east facing with hand out (to hold sword)
+	b. North-west facing
+	c. South-west facing
+	d. South-east facing
 
 
 * What if the final battle was between whichever characters you're aligned with?
@@ -1405,6 +1414,7 @@ Concepts:
 	- Jester: *turns to face Alexandros* "I know. But this was always the outcome."
 	- Jester: "Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
 	- Jester: "Alas. There's nowhere to go but forward."
+101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
 
 
 Misc Dialogue for encounters:
