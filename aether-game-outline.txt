@@ -228,6 +228,8 @@ Simple things to Work On:
 	b. North-west facing
 	c. South-west facing
 	d. South-east facing
+146. Update the attack animations to consistently use the same hand (left)
+	- Note that as of now, Aylmera uses mainly her left hand for animations, but her RIGHT hand for facing Right.
 
 
 * What if the final battle was between whichever characters you're aligned with?
