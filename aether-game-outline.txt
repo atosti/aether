@@ -225,6 +225,8 @@ Simple things to Work On:
 146. Update the attack animations to consistently use the same hand (left)
 	- Note that as of now, Aylmera uses mainly her left hand for animations, but her RIGHT hand for facing Right.
 147. Implement a working PoC for scene transitions that pixelate the entire screen in varying shapes similar to those in Pokemon.
+148. Consider implementing the "Attach Script to B Button" for attacks conditionally, when changing the character (and on init)
+	- This would allow different shapes/sizes for attack patterns. Depending on the active character.
 
 
 * What if the final battle was between whichever characters you're aligned with?
