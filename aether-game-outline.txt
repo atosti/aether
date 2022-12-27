@@ -222,12 +222,6 @@ Simple things to Work On:
 144. Design a way to easily randomize enemy encounters while reusing a battle scene.
 	- The overall goal is to only have a handful of total battle scenes. A few for each main zone/boss. (Probably under 10)
 	- When triggering the battle, generate a TRULY random number and spawn in enemies based on that.
-145. Add attack animations to the sword swings
-	- Aylmera requires the following:
-	a. North-east facing with hand out (to hold sword)
-	b. North-west facing
-	c. South-west facing
-	d. South-east facing
 146. Update the attack animations to consistently use the same hand (left)
 	- Note that as of now, Aylmera uses mainly her left hand for animations, but her RIGHT hand for facing Right.
 
