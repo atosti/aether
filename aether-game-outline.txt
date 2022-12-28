@@ -134,8 +134,6 @@ Simple things to Work On:
 109. Draw new tiles for a new dialogue box.
 	- Perhaps plain black background with white border.
 	- Would also love something that looks like an old scroll.
-110. Also create a cursor that's like a feather ink quill
-	- This will help set the atmosphere.
 111. Design a slight intro segment, where the player actually sees themselves wake up on the floor of the Oubliette.
 	- Create animation frames of Aylmera lying on her back or the ground.
 	- Add some dialogue, perhaps of the wizards chanting an incantation? ("Arise... Arise... Arise...")
@@ -227,6 +225,10 @@ Simple things to Work On:
 147. Implement a working PoC for scene transitions that pixelate the entire screen in varying shapes similar to those in Pokemon.
 148. Consider implementing the "Attach Script to B Button" for attacks conditionally, when changing the character (and on init)
 	- This would allow different shapes/sizes for attack patterns. Depending on the active character.
+149. Fix visual bug when swapping character spritesheets by adjusting the default spritesheet to be bigger than any of the other sprite sheets you're swapping it to.
+	- Not doing this causes an overflow, which creates the visual glitch.
+150. Change the two men conversing in the East Hallway to use triggers instead of On Interact scripts
+	- This may allow them to maintain their facing, instead of turning toward the player.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
