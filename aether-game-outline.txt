@@ -757,9 +757,16 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 33. They encounter a witch's hut deep in the heart of the swamp. She invites them inside and is hospitable.
 	- Player progression is blocked by something (perhaps she has an animal in the way outside her hut?) until speaking with her.
 	- Through discussions she reveals that she knows the player is undead. She then offers a spiritual reading.
-	- She drugs the protagonist without their knowledge (lacing other food/drink), and uses their dazed state to extract information.
+	- She drugs the protagonist without their knowledge (lacing their food/drink), and uses their dazed state to extract information.
 	- Ultimately, what she reveals is that the player does not have hero's blood. 
 		~ That they have a dark history. That they carry the weight of many ruthless kills from their previous life.
+33a. Part of what's revealed is that Aylmera's purpose guides her to the shores, just North of the swamp.
+	- It's here that inside of a cave the Water Elemental stone resides. 
+		~ It's unguarded, but set atop an altar here and seems to hold special religious value to those who used to live in the area.
+	- This cave is adjacent to an abandoned fishing village which the party must traverse.
+	- The shoreline is filled with dead fish. They've washed ashore and are rotting in the open.
+	- Perhaps this is where the final encounter (and fight) with the Bloodhound should occur.
+	- Ultimately, the party acquires the 4th Elemental stone and moves onward.
 34. Aylmera and crew arrive at the Ramparts leading to the Aether Ruins
 	- It's a patchwork of booby-traps. It's dangerous and full of numerous traps, which effectively act as landmines.
 	- After the Wizards blew a hole in it, and the Realm lacked enough soldiers to defend it in its entirety, both sides booby-trapped it and its surrounding areas.
@@ -811,14 +818,14 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ As such, her soul (and corpse) have remained trapped inside.
 	- As such, the player Aylmera is simply a nameless soldier. Revived without any memories of who they once were.
 		~ But they've proven themselves, and the real Aylmera is impressed by their commitment to save the Realm.
-		~ "If you truly wish to save the Realm, let me guide you."
+		~ "If you truly wish to save the Realm, allow me to guide you."
 40. Ultimately, the spirit of Aylmera warns them that the ritual they're attempting will shatter ALL of the stones, unleashing even more chaotic energies into the land.
 	- Alexandros realizes the evil nature of the ritual.
 		~ He also notes that his notes on the matter came from the Mad Wizard, who had begun training the mages in it.
 		~ He wonders whether the Mad Wizard knew of its destructive nature all along.
 	- The party is ultimately urged by the Spirit of Aylmera to abandon the ritual, recognizing that the stones must be left alone and protected in the Tower basement.
 	- Instead, she guides them on how to restore the Aether crystal.
-		~ "Warrior, I know not your name and neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great distinction." - the Spirit of Aylmera
+		~ "Warrior, I know not your name and it seems neither do you. But you've earned the title, 'Hero of Antiquity'. Bear it proudly. You carry yourself with great distinction." - the Spirit of Aylmera
 		~ Aylmera should bless the party, and use her magic to heal some of the player's wounds, prolonging (for a bit) their eventual demise.
 		~ The player's body should be something of a wreck at this point. So this allows them a chance to finish their task. Aylmera's mercy.
 	- I want the player to feel proud of their accomplishments, but utterly lost. They now have no name. They have no past. Only a shrinking future.
@@ -826,14 +833,15 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
 	- "You. Cannot. Fail. Too much lies at stake. And far too many have died for you to perish at the last step."
 	- "You will need to combine the shattered stone with the bones of the blessed."
-	- "It will be difficult, since most these catacombs have been defiled. You'll need to find consecrated ground beneath which someone is buried."
+	- "It will be difficult, since most these catacombs have been defiled. You'll need to find consecrated ground. Where someone is buried."
 	- "I'm afraid that's as much as I can offer. I know not where you can find such a place."
 42. The party leaves the Basement Ruins and talks amongst themselves above-ground about possible leads.
 	a. Return to the field of Red flowers
 		- Attempting to dig up any of the bodies will anger the grieving soldier, triggering combat.
 			~ But he does drop a strong weapon for the party to wield.
 		- Moreover, you'll find that combining these bones fails to restore the stone.
-	b. The Queen's holy grave (located directly north of the castle, but inaccessible from it).
+	b. The Queen's holy grave (located directly East of the Ruins of Aether).
+		- The party must go this way to reach the graveyard (a dead end) then return the way they came toward the Ruins of Aether.
 43. Reaching the Queen's grave, they find a strange man praying at the gravesite.
 	- He wears armor similar to that of Aylmera.
 	- He seems totally in his thoughts, not hearing the party as they approach.
@@ -848,22 +856,44 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ Jester: "No, sir. There's no trickery here. She speaks the truth, it's just that she's..." *he trails off*
 		~ Neera: "The last of her kind."
 		~ Alexandros: "As much antiquity as she is its protector."
-		~ Lost Paladin: *Bursts out laughing* "You're as right as you are wrong. She is a dying breed, but she is not alone."
-		~ Lost Paladin: "You may not know your name, stranger, but your armor tells me we are kin. Paladins in arms. Though certainly the last of our lineage."
+		~ Lost Paladin: *Bursts out laughing* "You're as right as you are wrong. She certainly looks a dying breed, but she is not alone."
+		~ Lost Paladin: "You may not know your name, stranger, but your armor tells me we are kin. Paladins in arms. The last of our lineage."
 		~ Neera: "I didn't know any holy warriors still remained. All the monasteries I know of are long abandoned."
 		~ Lost Paladin: "Yes. I was my master's last disciple. And his youngest... With whom did you train?"
-		~ Player: "I am a corpse. Given purpose for a chance at redemption."
-		~ Lost Paladin: *Looking over at the party* "Which of them put you up to this?" (I like that this can be read as him still thinking it's a prank OR him believing it, and knowing they each have coerced her to some degree.)
-		~ Player: "You misunderstand me. Though they have all put me up to it, none are capable of creating the chains to which I am bound."
+		~ Player: "I have no master. I am but a corpse. Given purpose for a chance at redemption."
+		~ Lost Paladin: *Looking over at the party* *light frown/scowl* *whispered* "Stranger, which of them put you up to this?" (I like that this can be read as him still thinking it's a prank OR him believing it, and knowing they each have coerced her to some degree.)
+		~ Player: "You misunderstand me. Though they each guide my hand, none are capable of creating the chains to which I am bound."
 		~ Lost Paladin: "What you speak is truth?"
-		~ Player: "Unfortunately. I have but a singular master, and they control my soul."
-		~ Lost Paladin: "I pray you get it back." (This is notably one of the few moments of empathy from a non-party, non-Aylmera character.)
+		~ Player: "Indeed. My master is of many faces. And they all control my soul."
+		~ Lost Paladin: "Friend, I pray you get it back." (This is notably one of the few moments of empathy from a non-party, non-Aylmera character in the whole story.)
 		~ Neera: "Forgive me, Paladin. But I must know: Why are you here? At her majesty's grave."
-		~ Lost Paladin: "Amidst all this chaos, I sought clarity. Sometimes old friends can enlighten us." (He's here praying to the Queen, seeking guidance.)
+		~ Lost Paladin: "Well. Amidst all this chaos, I sought clarity. Sometimes old friends can enlighten us. " (He's here praying to the Queen, seeking guidance.)
 		~ Lost Paladin: "And you all? Why are you here?"
 		~ *The party looks visibly uncomfortable, as they look to one another to respond.*
-		~ TBD - They need to explain that they must take something (the skull?) from the Queen's grave.
-			~ Potentially they could also just need like consecrated earth from above her grave? I need to think about/flesh this out more.
+		~ Aylmera: *pauses*
+		~ Lost Paladin: "Come now. There's no need for secrets between us."
+		~ Aylmera: *sighs* "We have come for her Majesty's grave. We must take from it. I'm so sorry."
+		~ Lost Paladin: "*Take* from it? From her? What gives you the right?! Are you trying to provoke me?!"
+		*Triggers an engagement*
+		*After the battle*
+		~ Lost Paladin: "Wait. WAIT! I yield!"
+		~ Lost Paladin: "It's just... please. I... why? Why must you do this?! She deserves so much better, please!"
+		~ Lost Paladin: "Don't defile her legacy, she's all I have left... What good is a world without sanctity?!"
+		~ Lost Paladin: *crying*
+		~ Party: *looks back and forth at each other, guiltily*
+		[Trust us.]
+		[I'm sorry.]
+		~ Lost Paladin: "Damn your words, witch! They mean nothing when I can see your actions."
+		~ Lost Paladin: *Walks away out of the scene*
+		~ Alexandros: "We should get what we need and get out."
+		~ Jester: "Agreed. There's no point lingering here."
+44. The party returns to the Spirit of Aylmera and conducts the ritual.
+	- Spirit of Aylmera warns the player that this might kill them both. As the alignment should kill any remaining undead.
+	- However, it doesn't. Everyone is surprised. They discuss the implications of this:
+		~ Basically, new undead aren't being created. But the pre-existing undead still shamble the landscape.
+	- The Spirit of Aylmera thanks them regardless, and says she must stay to protect the balance of the elements.
+	- The party leaves.
+45. 
 
 
 XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
@@ -1415,6 +1445,7 @@ Concepts:
 	- Jester: "Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
 	- Jester: "Alas. There's nowhere to go but forward."
 101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
+
 
 
 Misc Dialogue for encounters:
