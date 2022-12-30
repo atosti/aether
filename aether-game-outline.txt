@@ -1446,7 +1446,20 @@ Concepts:
 	- Jester: "Alas. There's nowhere to go but forward."
 101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
 102. Have the soundtrack for the Monastery boss fight sound similar to Monk chants.
-
+103. Conversation with the void following your ultimate death.
+	- This should be some of the final lines of dialogue in the entire game.
+	Void: "...She returns to us once more... Hello, weary warrior."
+	Aylmera: "I must know... Will the Realm survive without me? Were my actions in vain?"
+	Void: "It is not our position to judge such a trivial matter."
+	Aylmera: "But you *do* know the answer."
+	Void: "...Of course. Though such judgements do not concern thee."
+	Aylmera: "Tell me. I beg of you."
+	Void: "...Thy soul is redeemed. Be free from the bondage of thine memories."
+	Void: "Lest ye be driven mad with anguish. Cast out amidst the chaos."
+104. "Death is inescapable, why isn't pain?"
+	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presense all the more agonizing.
+	- If it were truly inescapable, then it might be easier to deal with. As there'd be a comfort in the inability to do anything about it.
+	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their pain?
 
 Misc Dialogue for encounters:
 ===============================
