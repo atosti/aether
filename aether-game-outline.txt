@@ -1446,6 +1446,7 @@ Concepts:
 	- Jester: "Alas. There's nowhere to go but forward."
 101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
 102. Have the soundtrack for the Monastery boss fight sound similar to Monk chants.
+	- https://www.youtube.com/watch?v=W-hrBhA4XkM
 103. Conversation with the void following your ultimate death.
 	- This should be some of the final lines of dialogue in the entire game.
 	Void: "...She returns to us once more... Hello, weary warrior."
