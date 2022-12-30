@@ -1445,7 +1445,7 @@ Concepts:
 	- Jester: "Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
 	- Jester: "Alas. There's nowhere to go but forward."
 101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
-
+102. Have the soundtrack for the Monastery boss fight sound similar to Monk chants.
 
 
 Misc Dialogue for encounters:
