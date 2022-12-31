@@ -1461,6 +1461,8 @@ Concepts:
 	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presense all the more agonizing.
 	- If it were truly inescapable, then it might be easier to deal with. As there'd be a comfort in the inability to do anything about it.
 	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their pain?
+105. "It is oft civility which betrays our deepest hostilities."
+	- Misc line. It means that when someone is civil is when they're typically being the most aggressive.
 
 Misc Dialogue for encounters:
 ===============================
