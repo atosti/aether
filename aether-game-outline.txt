@@ -444,7 +444,7 @@ Character Names/Titles:
 		- Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
 6. Morcant, Prince of the Realm
 	- Defender of the Realm
-	- Alternative name for him: Marshall/?
+	- Alternative name for him: Marshall?
 	* (Undead) = Unhinged, angry, hateful, confused, longing (for a long-lost purpose of his former self)
 	* In life, by all accounts, he was a smart, caring, competent leader.
 		- Even some of the Sorcerers admired him as an individual.
@@ -780,15 +780,27 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- The Jester is frozen by both shock and fear. He simulatenously wants to call out to the Prince, but also knows to fear him for the monster he has become.
 		~ Perhaps the other party members are trying to run, and encourage the others to do so, but the Jester's shock forces them to stay and fight. (as Morcant closes the distance)
 	- The Prince notices the party and approaches. He's slightly more lucid than other undead. Muttering to himself as he engages the party.
-		~ "Bastards..."
-		~ "Can't run now..."
-		~ "For the King..."
+		~ Jester: *Frozen in terror*
+		~ Alexandros + Neera: *Stance up for combat*
+		~ Aylmera: *Turns around to look at Neera and Alexandros on either side of her.
+		~ Aylmera: "What... is that? We need to move... Sigmund?"
+		~ Morcant: "...Sigmund."
+		~ Jester: *Shocked* "My... prince...! What has befallen you... Such treachery..."
+		~ Morcant: "...Treachery..."
+		~ Aylmera: *steps forward to be closer to the Jester (but he's still closest to Morcant, frozen)*
+		~ Alexandros: "Aylmera. Back. Up."
+		~ Morcant: "Cowardice..."
+		~ Jester: "Morcant... listen to me. We're here to-"
+		~ Morcant: *Lurches forward into the Jester, triggering combat.*
+			~ If possible, have him lurch on all fours at the party, like an animal.
+
 	- The Prince could mutter the Jester's name, Sigmund, (most people only refer to him by his title, "Jester")
 		~ This would take the Jester off guard, as he realizes the creature recognizes him.
 37. After a brutal fight, the party slays the Prince.
 	- The Jester is distraught, he breaks down into tears. The player and party console him.
 	- The Priestess offers to say a few words, his last rites, as they stand before his hulking corpse.
-		~ "You fought valiantly, both in life and undeath. May your soul return to the peace of the unknown. Just as your bones will turn to dust."
+		~ "You fought valiantly, both in life and undeath. May your soul return to the peace of the great beyond. Just as your bones will return to dust."
+		~ "Rest well knowing your duty to serve the Realm has been fulfilled."
 38. Collecting themselves for a moment, the party readies to enter the basement ruins of the Tower.
 	- Inside is a maze of magical traps, old and new.
 	- Examining the design of the rooms and the symbols carved into the walls, they determine their goal:
@@ -1463,6 +1475,9 @@ Concepts:
 	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their pain?
 105. "It is oft civility which betrays our deepest hostilities."
 	- Misc line. It means that when someone is civil is when they're typically being the most aggressive.
+106. General note on the Jester
+	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
+	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
 
 Misc Dialogue for encounters:
 ===============================
