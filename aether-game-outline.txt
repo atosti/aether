@@ -1469,6 +1469,9 @@ Concepts:
 	Aylmera: "Tell me. I beg of you."
 	Void: "...Thy soul is redeemed. Be free from the bondage of thine memories."
 	Void: "Lest ye be driven mad with anguish. Cast out amidst the chaos."
+	- Additional questions the player could ask:
+	[Who will claim the throne?]
+	Void: "Someone unfit for leadership."
 104. "Death is inescapable, why isn't pain?"
 	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presense all the more agonizing.
 	- If it were truly inescapable, then it might be easier to deal with. As there'd be a comfort in the inability to do anything about it.
@@ -1478,6 +1481,43 @@ Concepts:
 106. General note on the Jester
 	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
 	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
+107. A brief conversation when walking across the barren lands of the Aether Ruins
+	- ""
+108. A conversation with the countrymen on the opposite end of the Aether Ruins
+	- Called out from the garrison: "What the... You there! HALT! Don't take another step further."
+	- *Aylmera stops walking* *Party appears from her, flanking her sides*
+	- Guardsman: "Who are you? What do you want?"
+	- Aylmera: "We're... just travelers. We come on behalf of the Crown."
+	- Guardsman: "..."
+	- Guardsman: "Stay put. I'm coming outside."
+	- Guardsman: "*muffled* ...Don't open it again until I give the word..."
+	- *Large garrison door creaks open, with a single man exiting, before it promptly shuts behind him*
+	- Guardsman: "*The man looks you up and down, with a discerning eye.* What do you want?"
+	- Aylmera: "I'm sorry, I don't understand... How... are you here?"
+	- Guardsman: "How are we here?! How are YOU here? WHY are YOU here?"
+	- Aylmera: "We're just... passing through."
+	- Guardsman: "No one 'passes through' that hellscape out West. So I ask you again: Why. Are. You. Here?"
+	- Aylmera: "I suppose we were hoping to... travel through your gate."
+	- Guardsman: "No. Absolutely not."
+	- Guardsman: "I have been stationed here since the day your tower erupted into blue flame. And in all that time, not a SINGLE human has ever approached us from the West."
+	- Guardsman: "And now, all of a sudden, four people walk out from that wasteland as though it were nothing. The door stays closed."
+	[You fear us?]
+		- Guardsman: "Not from this side of the garrison. And not with a dozen of my men aiming arrows at your skull as we speak."
+	[We come in peace.]
+		- Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
+	- Guardsman: "If you truly serve the Crown, as you so boldy claim, then allow me to relay him a message from the Eastern Coalition:"
+	- Guardsman: "He has failed to commune with the Coalition by raven for over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
+	- Guardsman: "And he has failed to contain the conflicts of his Kingdom to the confines of his borders."
+	- Guardsman: "Therefore, they have excommunicated him from all prior agreements, and condemned him to death should he arrive within their borders."
+	[The Eastern Coalition?]
+		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you waged war against yourself."
+	[Two dozen seasons?]
+		- Guardsman: "Yes. A little over six years, to be exact. All of their messages have been met with silence in that timeframe."
+	- Guardsman: "You're lost, friend. This ain't your home, and you are not welcome here. Go back the way you came."
+	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
+	109. Side note for the Lost Paladin
+	- In his own story, when he arrives at the Eastern Garrison, he collapses from exhaustion at the gate. The guards inspect his body and intend to destroy it.
+	- Except, they notice that his armor bears the insignia of the Eastern Coalition. (As it's where he originally trained.) As such, they bring him inside, and give him medical aid.
 
 Misc Dialogue for encounters:
 ===============================
