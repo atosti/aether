@@ -1512,7 +1512,7 @@ Concepts:
 	[The Eastern Coalition?]
 		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you waged war against yourself."
 	[Two dozen seasons?]
-		- Guardsman: "Yes. A little over six years, to be exact. All of their messages have been met with silence in that timeframe."
+		- Guardsman: "Yes. A little over six years. All of their messages have been met with silence in that timeframe."
 	- Guardsman: "You're lost, friend. This ain't your home, and you are not welcome here. Go back the way you came."
 	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
 	109. Side note for the Lost Paladin
