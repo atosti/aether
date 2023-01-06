@@ -1814,6 +1814,7 @@ V. Old Chain Gang Songs
 			~				 "Anyhow. Thanks again, stranger. We won't forget your kindness."
 			"There's nothing more to say." (Text when attempting to converse further.)
 	https://www.youtube.com/watch?v=e8HSSvvN230
+		a. Have a periodic bass drum that gets more and more distorted (lower) as the song progresses.
 
 VI. Understanding the Emotion of Different Scales
 	https://ledgernote.com/blog/interesting/musical-key-characteristics-emotions/
