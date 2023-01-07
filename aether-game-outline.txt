@@ -233,6 +233,8 @@ Simple things to Work On:
 152. Redraw wooden crate sprite to be from a top-down angle (add a slight bit of the front to the sprite)
 	- Think of how the Pillars are drawn, showing some of both the top AND front of the object.
 153. Consider adding a somber violin piece as the soundtrack to the Swamp zone
+154. Upon first encountering the Eastern Garrison, have the camera pan up to show the entire wall for a moment.
+	- Then, play the dialogue encounter with the player.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1768,6 +1770,8 @@ GB Studio:
 	https://poloviiinkin.itch.io/8px
 24. Top-down Tileset
 	https://gumpyfunction.itch.io/game-boy-rpg-fantasy-tileset-free
+25. Outdoor top-down tiles
+	https://rohangb.itch.io/gameboy-forest-tileset
 
 Soundtrack:
 ============
