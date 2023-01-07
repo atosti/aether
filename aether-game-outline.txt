@@ -1763,6 +1763,10 @@ GB Studio:
 		- Attribution 3.0 gusty wind sounds
 22. Tool for counting unique tiles in a scene
 	https://gb-studio-tile-count.glitch.me/
+23. Wingdings Characters Tileset
+	https://poloviiinkin.itch.io/8px
+24. Top-down Tileset
+	https://gumpyfunction.itch.io/game-boy-rpg-fantasy-tileset-free
 
 Soundtrack:
 ============
