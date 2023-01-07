@@ -229,6 +229,7 @@ Simple things to Work On:
 	- Not doing this causes an overflow, which creates the visual glitch.
 150. Change the two men conversing in the East Hallway to use triggers instead of On Interact scripts
 	- This may allow them to maintain their facing, instead of turning toward the player.
+151. Create a sound effect for when emotes pop up above character heads
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
