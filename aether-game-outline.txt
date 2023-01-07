@@ -230,6 +230,8 @@ Simple things to Work On:
 150. Change the two men conversing in the East Hallway to use triggers instead of On Interact scripts
 	- This may allow them to maintain their facing, instead of turning toward the player.
 151. Create a sound effect for when emotes pop up above character heads
+152. Redraw wooden crate sprite to be from a top-down angle (add a slight bit of the front to the sprite)
+	- Think of how the Pillars are drawn, showing some of both the top AND front of the object.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
