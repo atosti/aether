@@ -232,6 +232,7 @@ Simple things to Work On:
 151. Create a sound effect for when emotes pop up above character heads
 152. Redraw wooden crate sprite to be from a top-down angle (add a slight bit of the front to the sprite)
 	- Think of how the Pillars are drawn, showing some of both the top AND front of the object.
+153. Consider adding a somber violin piece as the soundtrack to the Swamp zone
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1510,7 +1511,7 @@ Concepts:
 		- Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
 	- Guardsman: "If you truly serve the Crown, as you so boldy claim, then allow me to relay him a message from the Eastern Coalition:"
 	- Guardsman: "He has failed to commune with the Coalition by raven for over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
-	- Guardsman: "And he has failed to contain the conflicts of his Kingdom to the confines of his borders."
+	- Guardsman: "And he has failed to contain the conflicts of his Kingdom to the confines of his own borders."
 	- Guardsman: "Therefore, they have excommunicated him from all prior agreements, and condemned him to death should he arrive within their borders."
 	[The Eastern Coalition?]
 		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you waged war against yourself."
