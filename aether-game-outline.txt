@@ -804,6 +804,36 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ This would take the Jester off guard, as he realizes the creature recognizes him.
 37. After a brutal fight, the party slays the Prince.
 	- The Jester is distraught, he breaks down into tears. The player and party console him.
+		~ Note: The Jester views Morcant as both a solid friend, but also as something closer to family. Close to a sibling, given their similarity in age.
+		~		He is inconsolable immediately after the fight. And becomes manic as he rushes to figure out what to do with the Prince's body.
+		Jester: *Kneeling, Crying* "*sob* I'm so sorry. Forgive me for my cowardice."
+		Jester: "I shouldn't have left you. I thought you were dead..."
+		Jester: "Oh how you suffered in my absence... My foolishness... I'm so sorry."
+		Jester: "I'm so, so sorry..."
+		Party: *Looks at one another for a moment*
+		Alexandros: *Walks up, places a hand on Sigmund's shoulder* ""
+		Jester: *Tearfully, still crying* "Please! Dig his grave with me. We can't leave him to the carrion!"
+		Alexandros: "Sigmund... we can't just..."
+		Aylmera: "We simply don't have the time. Besides, it's not safe here. There will be more undead."
+		Jester: *Angry, gritted teeth* "Damn you to hell! I'll dig it by myself!"
+		Jester: *Begins manically (quickly) digging at the earth beside the corpse with his bare hands.*
+		Alexandros: "Sigmund. Knock it off, man! Stop! You don't even have a shovel..."
+		Jester: *Stops digging, and just collapses onto his knees again (finally calming down a bit)*
+		Jester: "It's not right. It's just not right... After all he did for the Realm... Besides, I... left him three years ago. I *can't* do it again today."
+		Neera: *Warmly* "Though we can't preserve his body, perhaps we can still preserve his soul. I could say a funeral prayer in his honor, if you'll allow me."
+		~ Note: Last rites are typically only read immediately before death. So this is unusual to read them after death.
+		~ 		Also, remember that people say "God can't hear you out East", implying that this will likely go unheard by the Divine.
+		Jester: "Yes. Yes! Please! Allow him a chance at atonement..." (this is ultimately what the Jester wants for himself in this moment, atonement)
+		Neera: *Walks in front of the body of Morcant and recites the following* 
+				"God, your power brings us from birth to death, your providence gives us purpose, and by your command, we return to dust." 
+				"Lord, those who die still live in your presence, their lives change but do not end. I pray in hope for all those aether-stricken, and for all the dead known to you alone."
+				"Let them suffer not in the afterlife as they have in their devotion to the Realm."
+				"Bestow upon them your infinite wisdom such that they may find eternal peace. Amen."
+		Jester: "..."
+		Jester: "Does your God have anything to say about the Prince?"
+		Neera: "...No."
+		Neera: "He remains silent on the matter."
+		Jester: *hopes dashed, sadly frowning* "..."
 	- The Priestess offers to say a few words, his last rites, as they stand before his hulking corpse.
 		~ "You fought valiantly, both in life and undeath. May your soul return to the peace of the great beyond. Just as your bones will return to dust."
 		~ "Rest well knowing your duty to serve the Realm has been fulfilled."
