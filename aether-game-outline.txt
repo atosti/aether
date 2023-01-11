@@ -235,6 +235,7 @@ Simple things to Work On:
 153. Consider adding a somber violin piece as the soundtrack to the Swamp zone
 154. Upon first encountering the Eastern Garrison, have the camera pan up to show the entire wall for a moment.
 	- Then, play the dialogue encounter with the player.
+155. Design a system for triggering combat scenarios with enemy groupings chosen at true random.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1559,6 +1560,10 @@ Concepts:
 		~ Their plan (and terms) were that the wizards remain unharmed. They wanted to see a (more) peaceful end, via starving the wizards into submission.
 		~ They also insisted that the King offer amnesty to all the wizards when they ultimately lost.
 	- Obviously, the King and his son instead chose to violently attack the wizards in the night, triggering the Great Explosion.
+111. "Your cowardice betrays you. Who else has it betrayed?"
+112. Have a dialogue choice that's between [Run.] and [RUN!!!].
+113. Outline for Vivian's boss theme
+	- In F Major (Furious).
 
 Misc Dialogue for encounters:
 ===============================
