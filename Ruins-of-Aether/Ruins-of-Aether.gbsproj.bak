@@ -448,6 +448,13 @@
                     "id": "1eb32aaf-4a3f-4d92-af84-83e6fb8babe1"
                 },
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "2217412a-10ae-4fe9-9818-9469e6f4f945"
+                    },
+                    "id": "0c0e4ad4-a61b-4cf0-bda7-7b2cf7299032"
+                },
+                {
                     "command": "EVENT_AWAIT_INPUT",
                     "args": {
                         "input": [
@@ -4187,13 +4194,6 @@
                         }
                     },
                     "id": "6ba84afc-3907-48de-865b-bce552b532b9"
-                },
-                {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "d4ceab51-d26a-4cef-b8b3-80c5c3e9273b"
-                    },
-                    "id": "478a2b90-da82-4d52-bba7-f12ed37b14f4"
                 }
             ],
             "playerHit1Script": [],
@@ -5796,13 +5796,6 @@
                         }
                     },
                     "id": "1026d12f-15bb-4cab-a6a3-5de23c47dac5"
-                },
-                {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "d4ceab51-d26a-4cef-b8b3-80c5c3e9273b"
-                    },
-                    "id": "5d9a1a73-1e3c-4820-bb8e-eb034845b118"
                 }
             ],
             "playerHit1Script": [],
@@ -11690,15 +11683,7 @@
                     "symbol": "trigger_18"
                 }
             ],
-            "script": [
-                {
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "df224e26-a011-4521-93b9-ffe91bda7cbd"
-                    },
-                    "id": "011e4919-7450-4980-83d3-6ee42a4f8976"
-                }
-            ],
+            "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -18358,13 +18343,13 @@
         },
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
-            "name": "portraits\\lords-portrait",
+            "name": "portraits/lords-portrait",
             "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits\\lords-portrait.png",
+            "filename": "portraits/lords-portrait.png",
             "tileColors": [
                 0,
                 0,
@@ -18730,13 +18715,13 @@
         },
         {
             "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
-            "name": "portraits\\tower-landscape",
+            "name": "portraits/tower-landscape",
             "symbol": "bg_portraits_tower_landscap",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits\\tower-landscape.png",
+            "filename": "portraits/tower-landscape.png",
             "tileColors": [
                 5,
                 5,
@@ -19102,13 +19087,13 @@
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "premades\\placeholder",
+            "name": "premades/placeholder",
             "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "premades\\placeholder.png",
+            "filename": "premades/placeholder.png",
             "tileColors": []
         },
         {
@@ -21297,13 +21282,13 @@
         },
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
-            "name": "startup\\intro-eyes",
+            "name": "startup/intro-eyes",
             "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup\\intro-eyes.png",
+            "filename": "startup/intro-eyes.png",
             "tileColors": [
                 0,
                 0,
@@ -21669,13 +21654,13 @@
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
-            "name": "startup\\title",
+            "name": "startup/title",
             "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup\\title.png",
+            "filename": "startup/title.png",
             "tileColors": [
                 0,
                 0,
@@ -23894,7 +23879,7 @@
             "symbol": "sprite_characters_alexandro",
             "numFrames": 16,
             "type": "animated",
-            "filename": "characters\\alexandros-battle.png",
+            "filename": "characters/alexandros-battle.png",
             "checksum": "8fda49c840a295dc1cdc0fbf47cc0dc436fce46b",
             "width": 256,
             "height": 64,
@@ -24849,7 +24834,7 @@
             "symbol": "sprite_characters_alexandro_0",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\alexandros.png",
+            "filename": "characters/alexandros.png",
             "checksum": "667625c4af12cf0eae4fce8dc502fbd2b70c356c",
             "width": 48,
             "height": 64,
@@ -25538,7 +25523,7 @@
             "symbol": "sprite_characters_aylmera_b",
             "numFrames": 16,
             "type": "animated",
-            "filename": "characters\\aylmera-battle.png",
+            "filename": "characters/aylmera-battle.png",
             "checksum": "d1b05d51fdf7eb088d184a50ec52c5c5cd1ad57d",
             "width": 256,
             "height": 64,
@@ -26978,7 +26963,7 @@
             "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters\\chef-4t.png",
+            "filename": "characters/chef-4t.png",
             "checksum": "1ed5808b3a56464b6a9801e1737f97f7655c1522",
             "width": 64,
             "height": 16,
@@ -27187,7 +27172,7 @@
             "symbol": "sprite_characters_jester_ba",
             "numFrames": 16,
             "type": "animated",
-            "filename": "characters\\jester-battle.png",
+            "filename": "characters/jester-battle.png",
             "checksum": "0bf2d526ca778cf3fd124ab81f988daff732cf7c",
             "width": 256,
             "height": 64,
@@ -28142,7 +28127,7 @@
             "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\jester.png",
+            "filename": "characters/jester.png",
             "checksum": "b19be410dc59dd54ecfd1a806e2ede17d0c865a9",
             "width": 48,
             "height": 64,
@@ -28831,7 +28816,7 @@
             "symbol": "sprite_characters_neera_bat",
             "numFrames": 16,
             "type": "animated",
-            "filename": "characters\\neera-battle.png",
+            "filename": "characters/neera-battle.png",
             "checksum": "ed755886ee78ce8ca7e6b1a2350e377b19918856",
             "width": 256,
             "height": 64,
@@ -29786,7 +29771,7 @@
             "symbol": "sprite_characters_neera",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters\\neera.png",
+            "filename": "characters/neera.png",
             "checksum": "0f50fb73cb326d0cf1d2ad72d9efb5da0cc7f8ab",
             "width": 48,
             "height": 64,
@@ -30475,7 +30460,7 @@
             "symbol": "sprite_characters_player",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters\\player.png",
+            "filename": "characters/player.png",
             "checksum": "3356fffbe085d17dac8e9380af38bf1fbac7a391",
             "width": 64,
             "height": 64,
@@ -31346,7 +31331,7 @@
             "symbol": "sprite_characters_waving_fl",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters\\waving-flag.png",
+            "filename": "characters/waving-flag.png",
             "checksum": "09ec4ceb4e0436fd180353f97d31d5bafd0e8808",
             "width": 64,
             "height": 16,
@@ -31567,7 +31552,7 @@
             "symbol": "sprite_hp_bars_hero_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\hero-hp.png",
+            "filename": "hp-bars/hero-hp.png",
             "checksum": "e71c6a0ee90c60a95aa72a72712b59158bedf3ae",
             "width": 48,
             "height": 80,
@@ -32079,7 +32064,7 @@
             "symbol": "sprite_hp_bars_jester_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\jester-hp.png",
+            "filename": "hp-bars/jester-hp.png",
             "checksum": "15a7018055c2e5378181b02b422848fbfa7f3429",
             "width": 48,
             "height": 80,
@@ -32630,7 +32615,7 @@
             "symbol": "sprite_hp_bars_priestess_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\priestess-hp.png",
+            "filename": "hp-bars/priestess-hp.png",
             "checksum": "feb53405cf5f9621d7e25327d4144fe64a6f6f75",
             "width": 48,
             "height": 80,
@@ -33142,7 +33127,7 @@
             "symbol": "sprite_hp_bars_wizard_hp",
             "numFrames": 3,
             "type": "actor",
-            "filename": "hp-bars\\wizard-hp.png",
+            "filename": "hp-bars/wizard-hp.png",
             "checksum": "088513e9f07c12efa11c747214fdb32f2991661c",
             "width": 48,
             "height": 80,
@@ -33732,7 +33717,7 @@
             "symbol": "sprite_premades_2bit_an0000",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0000060100_gbs_anim.png",
+            "filename": "premades/2bit/aN0000060100_gbs_anim.png",
             "checksum": "dcbe61ec8d151a8e543890c7c200627f70cc1c68",
             "width": 96,
             "height": 16,
@@ -34088,7 +34073,7 @@
             "symbol": "sprite_premades_2bit_an0010",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0010070004_gbs_anim.png",
+            "filename": "premades/2bit/aN0010070004_gbs_anim.png",
             "checksum": "7ca4a33d628ae17fde34fd596f982d9638953eda",
             "width": 96,
             "height": 16,
@@ -34444,7 +34429,7 @@
             "symbol": "sprite_premadesbit_an0010_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0010070302_gbs_anim.png",
+            "filename": "premades/2bit/aN0010070302_gbs_anim.png",
             "checksum": "ac850b924a73b64385c770ff59ee06628648766a",
             "width": 96,
             "height": 16,
@@ -34800,7 +34785,7 @@
             "symbol": "sprite_premades_2bit_an0100",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0100210102_gbs_anim.png",
+            "filename": "premades/2bit/aN0100210102_gbs_anim.png",
             "checksum": "79f99c179faed4370d9c339f54037d89be5950c5",
             "width": 96,
             "height": 16,
@@ -35156,7 +35141,7 @@
             "symbol": "sprite_premades_2bit_an0102",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0102050003_gbs_anim.png",
+            "filename": "premades/2bit/aN0102050003_gbs_anim.png",
             "checksum": "a1991533de6d8f9e1a201ab3f54e8bbd01bf6ecf",
             "width": 96,
             "height": 16,
@@ -35512,7 +35497,7 @@
             "symbol": "sprite_premades_2bit_an0103",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0103010401_gbs_anim.png",
+            "filename": "premades/2bit/aN0103010401_gbs_anim.png",
             "checksum": "cd9f3051720f1289bb7e06906375828d83112914",
             "width": 96,
             "height": 16,
@@ -35868,7 +35853,7 @@
             "symbol": "sprite_premadesbit_an0103_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0103050100_gbs_anim.png",
+            "filename": "premades/2bit/aN0103050100_gbs_anim.png",
             "checksum": "5caace6ac3b680712b53258b66d977ab5456253f",
             "width": 96,
             "height": 16,
@@ -36224,7 +36209,7 @@
             "symbol": "sprite_premades_2bit_an0106",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0106200200_gbs_anim.png",
+            "filename": "premades/2bit/aN0106200200_gbs_anim.png",
             "checksum": "bdf818b6ee5cde0b57309828b4e882e9184c6684",
             "width": 96,
             "height": 16,
@@ -36580,7 +36565,7 @@
             "symbol": "sprite_premadesbit_an0106_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0106220704_gbs_anim.png",
+            "filename": "premades/2bit/aN0106220704_gbs_anim.png",
             "checksum": "0f633a3561a5e057cd103783a0a711a77e4a7ffb",
             "width": 96,
             "height": 16,
@@ -36936,7 +36921,7 @@
             "symbol": "sprite_premades_2bit_an0108",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0108050004_gbs_anim.png",
+            "filename": "premades/2bit/aN0108050004_gbs_anim.png",
             "checksum": "d52741f75056656cbabc6d9eb2221ba8dfe23ebc",
             "width": 96,
             "height": 16,
@@ -37292,7 +37277,7 @@
             "symbol": "sprite_premades_2bit_an0110",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0110110503_gbs_anim.png",
+            "filename": "premades/2bit/aN0110110503_gbs_anim.png",
             "checksum": "b10633731d715ef947bd43d28a15b1429598b5cf",
             "width": 96,
             "height": 16,
@@ -37648,7 +37633,7 @@
             "symbol": "sprite_premades_2bit_an0200",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0200040003_gbs_anim.png",
+            "filename": "premades/2bit/aN0200040003_gbs_anim.png",
             "checksum": "d820f4f48da7ccae0afc692a1d209c2c165b785c",
             "width": 96,
             "height": 16,
@@ -38004,7 +37989,7 @@
             "symbol": "sprite_premades_2bit_an0201",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0201010703_gbs_anim.png",
+            "filename": "premades/2bit/aN0201010703_gbs_anim.png",
             "checksum": "1dee5c9d283fff89e503edc901b135c108d06720",
             "width": 96,
             "height": 16,
@@ -38360,7 +38345,7 @@
             "symbol": "sprite_premades_2bit_an0202",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0202100400_gbs_anim.png",
+            "filename": "premades/2bit/aN0202100400_gbs_anim.png",
             "checksum": "7cb0044993ce40bb9572730e45e7d2a4e751128e",
             "width": 96,
             "height": 16,
@@ -38716,7 +38701,7 @@
             "symbol": "sprite_premadesbit_an0202_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0202100401_gbs_anim.png",
+            "filename": "premades/2bit/aN0202100401_gbs_anim.png",
             "checksum": "0f2322172da75370ee87a43a1bc667e1fa4eb5c1",
             "width": 96,
             "height": 16,
@@ -39072,7 +39057,7 @@
             "symbol": "sprite_premades_2bit_an0203",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0203040304_gbs_anim.png",
+            "filename": "premades/2bit/aN0203040304_gbs_anim.png",
             "checksum": "f4648a6ee593047d6b314ec5c2512845f49bfe21",
             "width": 96,
             "height": 16,
@@ -39428,7 +39413,7 @@
             "symbol": "sprite_premades_2bit_an0205",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0205110204_gbs_anim.png",
+            "filename": "premades/2bit/aN0205110204_gbs_anim.png",
             "checksum": "c19c85e4ba0234ca87ca5bbc4186cc91bbcfb76b",
             "width": 96,
             "height": 16,
@@ -39784,7 +39769,7 @@
             "symbol": "sprite_premades_2bit_an0206",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0206040201_gbs_anim.png",
+            "filename": "premades/2bit/aN0206040201_gbs_anim.png",
             "checksum": "bc213a1b89e4f3d9988aacf504581727b028bd5b",
             "width": 96,
             "height": 16,
@@ -40140,7 +40125,7 @@
             "symbol": "sprite_premades_2bit_an0207",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0207030701_gbs_anim.png",
+            "filename": "premades/2bit/aN0207030701_gbs_anim.png",
             "checksum": "94a933465c0cd98ee5cd180741ebebef2adf4d7f",
             "width": 96,
             "height": 16,
@@ -40496,7 +40481,7 @@
             "symbol": "sprite_premades_2bit_an0208",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0208080504_gbs_anim.png",
+            "filename": "premades/2bit/aN0208080504_gbs_anim.png",
             "checksum": "5b00a433963952cde507ed5ed2c9a117eb0f2ee5",
             "width": 96,
             "height": 16,
@@ -40852,7 +40837,7 @@
             "symbol": "sprite_premades_2bit_an0209",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0209010500_gbs_anim.png",
+            "filename": "premades/2bit/aN0209010500_gbs_anim.png",
             "checksum": "7585e719c2da61daf890b3fa8c4abb3b5223e0f8",
             "width": 96,
             "height": 16,
@@ -41208,7 +41193,7 @@
             "symbol": "sprite_premadesbit_an0209_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0209110602_gbs_anim.png",
+            "filename": "premades/2bit/aN0209110602_gbs_anim.png",
             "checksum": "9b033b9327f0688ef08b9365047a67ab75ffcaa8",
             "width": 96,
             "height": 16,
@@ -41564,7 +41549,7 @@
             "symbol": "sprite_premadesbit_an0209_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0209120802_gbs_anim.png",
+            "filename": "premades/2bit/aN0209120802_gbs_anim.png",
             "checksum": "594ef446b1bd22d9cb772ef5adbad3fdc076f5c3",
             "width": 96,
             "height": 16,
@@ -41920,7 +41905,7 @@
             "symbol": "sprite_premades_2bit_an0301",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0301160600_gbs_anim.png",
+            "filename": "premades/2bit/aN0301160600_gbs_anim.png",
             "checksum": "545c981bba6e870852df3a7d38f5ca53c17540d2",
             "width": 96,
             "height": 16,
@@ -42276,7 +42261,7 @@
             "symbol": "sprite_premades_2bit_an0306",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0306060101_gbs_anim.png",
+            "filename": "premades/2bit/aN0306060101_gbs_anim.png",
             "checksum": "cb3c4354c1acc2dcbacb4eaee3d98969dcf760b7",
             "width": 96,
             "height": 16,
@@ -42632,7 +42617,7 @@
             "symbol": "sprite_premades_2bit_an0309",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0309090802_gbs_anim.png",
+            "filename": "premades/2bit/aN0309090802_gbs_anim.png",
             "checksum": "4d244bd4633fb625e1d92c3f46ada20cf7d3377a",
             "width": 96,
             "height": 16,
@@ -42988,7 +42973,7 @@
             "symbol": "sprite_premades_2bit_an0402",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0402090303_gbs_anim.png",
+            "filename": "premades/2bit/aN0402090303_gbs_anim.png",
             "checksum": "db4f7eef5b56e3b938d2387ba67091c1f7826d12",
             "width": 96,
             "height": 16,
@@ -43344,7 +43329,7 @@
             "symbol": "sprite_premadesbit_an0402_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0402100200_gbs_anim.png",
+            "filename": "premades/2bit/aN0402100200_gbs_anim.png",
             "checksum": "42f69db725d38fa8ece0e9151d96aeaf5437444d",
             "width": 96,
             "height": 16,
@@ -43700,7 +43685,7 @@
             "symbol": "sprite_premadesbit_an0402_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0402190604_gbs_anim.png",
+            "filename": "premades/2bit/aN0402190604_gbs_anim.png",
             "checksum": "30c3f7b88fa53074ac0057868de996eeb4100b51",
             "width": 96,
             "height": 16,
@@ -44056,7 +44041,7 @@
             "symbol": "sprite_premadesbit_an0402_2",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0402210504_gbs_anim.png",
+            "filename": "premades/2bit/aN0402210504_gbs_anim.png",
             "checksum": "3dda08fa08ca91fdd437196c30c049f5131244f5",
             "width": 96,
             "height": 16,
@@ -44412,7 +44397,7 @@
             "symbol": "sprite_premades_2bit_an0404",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0404070103_gbs_anim.png",
+            "filename": "premades/2bit/aN0404070103_gbs_anim.png",
             "checksum": "ab15c10b8931604855d598a45af3c7b94171d8aa",
             "width": 96,
             "height": 16,
@@ -44768,7 +44753,7 @@
             "symbol": "sprite_premadesbit_an0404_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0404070400_gbs_anim.png",
+            "filename": "premades/2bit/aN0404070400_gbs_anim.png",
             "checksum": "91c075506b992ec0b6fb915c181ca3888d29e19f",
             "width": 96,
             "height": 16,
@@ -45124,7 +45109,7 @@
             "symbol": "sprite_premades_2bit_an0406",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0406000701_gbs_anim.png",
+            "filename": "premades/2bit/aN0406000701_gbs_anim.png",
             "checksum": "509c5f8463acd0d096556ff6ceb5f9b32786831a",
             "width": 96,
             "height": 16,
@@ -45480,7 +45465,7 @@
             "symbol": "sprite_premades_2bit_an0407",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0407070502_gbs_anim.png",
+            "filename": "premades/2bit/aN0407070502_gbs_anim.png",
             "checksum": "2a59bde48cf04035c71d5ac92396232a9fa0fa8b",
             "width": 96,
             "height": 16,
@@ -45836,7 +45821,7 @@
             "symbol": "sprite_premades_2bit_an0410",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0410100304_gbs_anim.png",
+            "filename": "premades/2bit/aN0410100304_gbs_anim.png",
             "checksum": "68bbb445ca083a768eb23271f8d18ff052f1b033",
             "width": 96,
             "height": 16,
@@ -46192,7 +46177,7 @@
             "symbol": "sprite_premades_2bit_an0502",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0502050500_gbs_anim.png",
+            "filename": "premades/2bit/aN0502050500_gbs_anim.png",
             "checksum": "afc2e3c434dc944051f373b2bdfc0f8b177eec19",
             "width": 96,
             "height": 16,
@@ -46548,7 +46533,7 @@
             "symbol": "sprite_premades_2bit_an0506",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0506120105_gbs_anim.png",
+            "filename": "premades/2bit/aN0506120105_gbs_anim.png",
             "checksum": "d367388052d78ba246b1de7c145b3130deaceb61",
             "width": 96,
             "height": 16,
@@ -46904,7 +46889,7 @@
             "symbol": "sprite_premades_2bit_an0510",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0510000700_gbs_anim.png",
+            "filename": "premades/2bit/aN0510000700_gbs_anim.png",
             "checksum": "ca70d25e459569881a83b677f5a2a3d495213ee4",
             "width": 96,
             "height": 16,
@@ -47260,7 +47245,7 @@
             "symbol": "sprite_premades_2bit_an0602",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0602080205_gbs_anim.png",
+            "filename": "premades/2bit/aN0602080205_gbs_anim.png",
             "checksum": "1651009b0f121c5d9125498a9bd7482dd78a3b49",
             "width": 96,
             "height": 16,
@@ -47616,7 +47601,7 @@
             "symbol": "sprite_premades_2bit_an0603",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0603200300_gbs_anim.png",
+            "filename": "premades/2bit/aN0603200300_gbs_anim.png",
             "checksum": "178604fa48b22761007a1af2c1030b383a12fb32",
             "width": 96,
             "height": 16,
@@ -47972,7 +47957,7 @@
             "symbol": "sprite_premadesbit_an0603_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0603210501_gbs_anim.png",
+            "filename": "premades/2bit/aN0603210501_gbs_anim.png",
             "checksum": "5a912dcb62c43d750c671f7c2a959cabfa8915e8",
             "width": 96,
             "height": 16,
@@ -48328,7 +48313,7 @@
             "symbol": "sprite_premades_2bit_an0604",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0604110002_gbs_anim.png",
+            "filename": "premades/2bit/aN0604110002_gbs_anim.png",
             "checksum": "ae2c7d77518e9be7b8dd72a2d01ea977363f0c8f",
             "width": 96,
             "height": 16,
@@ -48684,7 +48669,7 @@
             "symbol": "sprite_premades_2bit_an0605",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0605050700_gbs_anim.png",
+            "filename": "premades/2bit/aN0605050700_gbs_anim.png",
             "checksum": "eb23e1453734da0c054ba6210617acfc17c873ff",
             "width": 96,
             "height": 16,
@@ -49040,7 +49025,7 @@
             "symbol": "sprite_premades_2bit_an0608",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0608000504_gbs_anim.png",
+            "filename": "premades/2bit/aN0608000504_gbs_anim.png",
             "checksum": "ef846d56f1dceb10397a2c525c7b081b79e27820",
             "width": 96,
             "height": 16,
@@ -49396,7 +49381,7 @@
             "symbol": "sprite_premades_2bit_an0610",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\2bit\\aN0610010402_gbs_anim.png",
+            "filename": "premades/2bit/aN0610010402_gbs_anim.png",
             "checksum": "7ac9fc852007cfb29c21f256c87b09707dea3d44",
             "width": 96,
             "height": 16,
@@ -49752,7 +49737,7 @@
             "symbol": "sprite_premades_8_direction",
             "numFrames": 24,
             "type": "animated",
-            "filename": "premades\\8-direction-gibbongl.png",
+            "filename": "premades/8-direction-gibbongl.png",
             "checksum": "39862d2c400b71d659a50476392be7b9fc124584",
             "width": 384,
             "height": 384,
@@ -49848,12 +49833,416 @@
             "animSpeed": 15
         },
         {
+            "id": "9588518f-f876-4056-ab60-5d2703e0bf61",
+            "name": "premades/RPG_exterior",
+            "symbol": "sprite_premades_rpg_exterio",
+            "numFrames": 12,
+            "type": "animated",
+            "filename": "premades/RPG_exterior.png",
+            "checksum": "e23f5216f1395536bc85cfdc9ebb1313f3397d34",
+            "width": 192,
+            "height": 136,
+            "states": [
+                {
+                    "id": "c7f0e78d-eb61-48d6-8d32-e1939b6f33f8",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "fe4839c1-f0fb-4fae-a8b9-648a7dee0cb7",
+                            "frames": [
+                                {
+                                    "id": "1fdc494d-0df1-4ff6-bb84-0bc979ab54d7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "506486d7-e166-497d-9dd9-a63eccd12192",
+                            "frames": [
+                                {
+                                    "id": "c648a2d5-afe0-456c-9e62-90abd73d5fc3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e264516d-4de2-4e7b-8339-ad7a61a16705",
+                            "frames": [
+                                {
+                                    "id": "9d7f504f-6e49-427f-a461-6adccee0f0e2",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "564b74d3-1e26-420a-8275-e4a26891f612",
+                            "frames": [
+                                {
+                                    "id": "690d7cda-6656-4132-a7a6-485ab33244ef",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "22655458-3bc8-4c20-bb43-69551320224a",
+                            "frames": [
+                                {
+                                    "id": "4ddefc65-3693-4e1c-aff6-a0b02aecfce0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2729fde8-b5f1-4880-b76f-fbf195796289",
+                            "frames": [
+                                {
+                                    "id": "2325d25b-66aa-45c1-a488-2d609091047e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "6cd0ce09-5ecd-40ea-87f7-18b50f6763c8",
+                            "frames": [
+                                {
+                                    "id": "453b5c23-d514-404f-81f5-9931ef98d550",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a6f1b5b2-3937-4cc6-b178-a3fbd1beb666",
+                            "frames": [
+                                {
+                                    "id": "331d7dc8-8907-4141-ba80-9f421aa12a78",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "a4411177-a6ff-4cb5-8497-86e2f127221c",
+            "name": "premades/RPG_exterior_example",
+            "symbol": "sprite_premades_rpg_exterio_0",
+            "numFrames": 24,
+            "type": "animated",
+            "filename": "premades/RPG_exterior_example.png",
+            "checksum": "27e347aa8d2f908bf729c12d590cc657e15d6eda",
+            "width": 384,
+            "height": 192,
+            "states": [
+                {
+                    "id": "75421fa0-8ed3-43db-aff9-54a2e0998340",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "15a1d691-f050-4eb8-9f07-29284b82f86f",
+                            "frames": [
+                                {
+                                    "id": "dda923ac-12e5-4c87-98b9-56bade38c6c0",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "492a3cca-70f0-453f-a53c-e84282c01a8d",
+                            "frames": [
+                                {
+                                    "id": "7aae669b-63d9-4abb-b1d8-3cae80bc6ed4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "25e1a715-561f-49e0-916e-28483f777b93",
+                            "frames": [
+                                {
+                                    "id": "6d349167-28e1-4e96-914b-706fa524f336",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "caa711a5-32c2-4d83-a496-cad9846aec51",
+                            "frames": [
+                                {
+                                    "id": "718cc0eb-a8d7-46e5-96c4-647a8efabf0a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0019224f-476a-48ae-be30-01d8167b0327",
+                            "frames": [
+                                {
+                                    "id": "08ed342d-4dc1-4a02-b8a3-7a8215c6a02e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c2b7c2c1-21fa-439a-9b86-5dbd133d6b9a",
+                            "frames": [
+                                {
+                                    "id": "6f5252a1-1dab-4743-9cff-74a6e928e345",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ee0a3b65-f8bd-46d3-8ab5-82675756bce4",
+                            "frames": [
+                                {
+                                    "id": "162bcbd9-29dd-4215-968f-67b4be8a03b9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "cb9d9ad8-b110-4c02-8450-564156463931",
+                            "frames": [
+                                {
+                                    "id": "de06b646-0183-45af-8e67-bdec0c73cdc7",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "37d913e0-c6dc-4ad7-a424-6cac4007a76f",
+            "name": "premades/RPG_interior _example",
+            "symbol": "sprite_premades_rpg_interio",
+            "numFrames": 20,
+            "type": "animated",
+            "filename": "premades/RPG_interior _example.png",
+            "checksum": "2f164dac8b10ddce43ef2735c209445b1312c8eb",
+            "width": 320,
+            "height": 144,
+            "states": [
+                {
+                    "id": "c8ef538f-acea-494d-8b1b-90890db737e0",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "2684512a-181c-444d-a799-eee686ea9579",
+                            "frames": [
+                                {
+                                    "id": "689c5a94-9f18-4dd6-bc73-66057f418340",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4d2db30c-19bf-4c78-b804-e3c9b5aec056",
+                            "frames": [
+                                {
+                                    "id": "32350a4f-55e6-4e30-a576-4757454e2bff",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "96841fd1-3b51-4956-8477-70327666aa61",
+                            "frames": [
+                                {
+                                    "id": "c5a8d18e-3b5f-425d-8a3d-a3fb948b0655",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "62c2ff66-0cbe-4e15-b801-3c1f0efdf465",
+                            "frames": [
+                                {
+                                    "id": "03e9062e-faf7-42d3-a937-3049cbde69dd",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f728435c-c7d7-47bc-8761-3f3082ed8626",
+                            "frames": [
+                                {
+                                    "id": "8932b5c7-0ade-4d86-b04a-2a94f3c31c54",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c45ee2e3-e930-4a99-9dbe-3162e842ba48",
+                            "frames": [
+                                {
+                                    "id": "f2d74d4a-b7eb-4447-9314-a110c375e358",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "19d839c1-201e-4410-a8ff-5a7cd5ec6779",
+                            "frames": [
+                                {
+                                    "id": "5c1926b2-8e8e-4b40-9d1e-addbaebf74f3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "309b0dd1-feca-4ace-b522-9cf9b243701e",
+                            "frames": [
+                                {
+                                    "id": "bdca146d-9646-4062-9df0-fecdacd89a6d",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "9793fb85-9339-43be-aaed-d0f694fd030e",
+            "name": "premades/RPG_interior",
+            "symbol": "sprite_premades_rpg_interio_0",
+            "numFrames": 11,
+            "type": "animated",
+            "filename": "premades/RPG_interior.png",
+            "checksum": "e11760d9f78d5bfdb0fc8a7d96beaf4dd72c10f6",
+            "width": 176,
+            "height": 104,
+            "states": [
+                {
+                    "id": "35775ba5-cca1-4c3e-a99a-cfec680a0527",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "47d9d5ab-306d-4323-a2e3-a186c3212bdf",
+                            "frames": [
+                                {
+                                    "id": "5f5eeb0a-9db1-4d15-a1a3-9735217703b9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f069e2a3-9e8e-4fbf-9996-860386152a99",
+                            "frames": [
+                                {
+                                    "id": "74de862c-5a3c-486b-9673-e1d7460579a7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0daf74da-6d36-4667-97ff-6e6090bcfb28",
+                            "frames": [
+                                {
+                                    "id": "b9b1e24b-0a5b-4206-9c8b-f9324f0a3402",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a29e4639-4513-4b29-96ab-7d1d53627ad2",
+                            "frames": [
+                                {
+                                    "id": "41089cbd-c113-4212-be3d-5cee42ca1b24",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "750ec5cb-b091-48be-9799-ebba1fdd42e8",
+                            "frames": [
+                                {
+                                    "id": "d24cbd26-289a-4e66-a5ee-2ded12b02584",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "74b78912-970b-42a4-9fc9-d53b7a2763f6",
+                            "frames": [
+                                {
+                                    "id": "a06cd195-f5fd-4a9b-ade8-e8b014e93a24",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3cbaa3e3-d84a-4914-811d-83bc4bc24f1f",
+                            "frames": [
+                                {
+                                    "id": "43750423-a48b-4f69-a798-63ebd5c103f4",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d7382bca-e595-4cde-be3d-32766f8588c9",
+                            "frames": [
+                                {
+                                    "id": "82409cb6-3bbf-43db-8588-94462e6122d5",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
             "name": "premades\\actor",
             "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades\\actor.png",
+            "filename": "premades/actor.png",
             "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
             "width": 48,
             "height": 16,
@@ -50035,7 +50424,7 @@
             "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades\\actor_animated.png",
+            "filename": "premades/actor_animated.png",
             "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
             "width": 96,
             "height": 16,
@@ -50391,7 +50780,7 @@
             "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\cat.png",
+            "filename": "premades/cat.png",
             "checksum": "b043d62597e5be563b43a54be9d29deebbb165c1",
             "width": 16,
             "height": 16,
@@ -50519,7 +50908,7 @@
             "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character0.png",
+            "filename": "premades/character0.png",
             "checksum": "e3cb9c3af37cabae26cebf61cc347f869012122b",
             "width": 16,
             "height": 16,
@@ -50647,7 +51036,7 @@
             "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character1.png",
+            "filename": "premades/character1.png",
             "checksum": "49131ef5b2d20d5432572c4053ffc2b0a536f08d",
             "width": 16,
             "height": 16,
@@ -50775,7 +51164,7 @@
             "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character2.png",
+            "filename": "premades/character2.png",
             "checksum": "65136775c01ebcb8a90392a236314a398e74fb17",
             "width": 16,
             "height": 16,
@@ -50903,7 +51292,7 @@
             "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\character3.png",
+            "filename": "premades/character3.png",
             "checksum": "aaa8f06f105b27e744a6d6ef946f84ad815d75a8",
             "width": 16,
             "height": 16,
@@ -51031,7 +51420,7 @@
             "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy0.png",
+            "filename": "premades/enemy0.png",
             "checksum": "bfa9cb107e9f1d58ab9896b49bd93145b4a1f385",
             "width": 16,
             "height": 16,
@@ -51159,7 +51548,7 @@
             "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy1.png",
+            "filename": "premades/enemy1.png",
             "checksum": "7c045dc66819f9590918b7f12447b5b38496591e",
             "width": 16,
             "height": 16,
@@ -51287,7 +51676,7 @@
             "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\enemy2.png",
+            "filename": "premades/enemy2.png",
             "checksum": "dad68b4af478d5bfe2a731c4a4e0800e369120d7",
             "width": 16,
             "height": 16,
@@ -51415,7 +51804,7 @@
             "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
-            "filename": "premades\\fire.png",
+            "filename": "premades/fire.png",
             "checksum": "da92212c3c424721b2535a2e85e0f6f5ed010f74",
             "width": 64,
             "height": 16,
@@ -51636,7 +52025,7 @@
             "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart0.png",
+            "filename": "premades/heart0.png",
             "checksum": "7656680fbd3e7d49ec127260e3aa61bd0c881872",
             "width": 16,
             "height": 16,
@@ -51764,7 +52153,7 @@
             "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart1.png",
+            "filename": "premades/heart1.png",
             "checksum": "042388ba8b04f51ea9881672317e39ca52508853",
             "width": 16,
             "height": 16,
@@ -51892,7 +52281,7 @@
             "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\heart2.png",
+            "filename": "premades/heart2.png",
             "checksum": "b917659130116c7bef29dba42e486b1a5ee05640",
             "width": 16,
             "height": 16,
@@ -52020,7 +52409,7 @@
             "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\item0.png",
+            "filename": "premades/item0.png",
             "checksum": "e418a68b729e26a82de13a110d9aee240a03472e",
             "width": 16,
             "height": 16,
@@ -52148,7 +52537,7 @@
             "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades\\npc001.png",
+            "filename": "premades/npc001.png",
             "checksum": "41238f54ad45b3503b77c7b126916ae0a30420be",
             "width": 48,
             "height": 16,
@@ -52325,12 +52714,214 @@
             "animSpeed": 15
         },
         {
+            "id": "34c7af9b-40d3-4963-a2d1-ea0d2c18486c",
+            "name": "premades/poloviiinkin-8",
+            "symbol": "sprite_premades_poloviiinki",
+            "numFrames": 32,
+            "type": "animated",
+            "filename": "premades/poloviiinkin-8.png",
+            "checksum": "3e2c22411ef7302793539535c934f780da742928",
+            "width": 512,
+            "height": 512,
+            "states": [
+                {
+                    "id": "8d5945db-9224-41da-a827-5cf6af6e18c3",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "064e2ee1-e2c4-4d9c-8d0e-39647f57f88f",
+                            "frames": [
+                                {
+                                    "id": "276e8cd7-8452-4b2a-8166-12301c238234",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "34d51c3f-ec5a-4921-902a-25bbc629c317",
+                            "frames": [
+                                {
+                                    "id": "5893ba19-fdec-4c25-94ad-3b0f3f9c748c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40175b43-4e7e-49ef-9ab6-3751e0fbfe57",
+                            "frames": [
+                                {
+                                    "id": "6f3276f2-c42a-4973-ad12-95882c7897f9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c8059ce0-f5bf-4f92-bb05-3d2c90b75f5b",
+                            "frames": [
+                                {
+                                    "id": "b51fd630-d582-4fe7-ada2-258bb4d84989",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d0b60a2b-d772-45bb-81f9-3f0194a1dc9b",
+                            "frames": [
+                                {
+                                    "id": "e420d9ae-fb63-4f45-8dd5-efacce7efac1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2f841016-2b02-4100-8021-e4c19b271be3",
+                            "frames": [
+                                {
+                                    "id": "78017b59-421c-4312-ab45-6f8a400fcce1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8fa34d7b-3850-4467-88dc-cea68c6ebfa7",
+                            "frames": [
+                                {
+                                    "id": "fffbb7c9-57ed-4573-bd75-009049d5a1a8",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aa4e5cb4-3aad-429e-a2fe-b1167e6c9552",
+                            "frames": [
+                                {
+                                    "id": "8cdc5032-2e94-499c-a784-b421954b0f94",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "51d27d8f-02a3-4ee6-89b9-7ec7fb570e33",
+            "name": "premades/rohangb-Tileset",
+            "symbol": "sprite_premades_rohangb_til",
+            "numFrames": 12,
+            "type": "animated",
+            "filename": "premades/rohangb-Tileset.png",
+            "checksum": "e7a6c323a4c393a8c3809464f85772ef0e779068",
+            "width": 192,
+            "height": 160,
+            "states": [
+                {
+                    "id": "530f3c32-5e9c-49af-86a0-6ce425f48e31",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "dc6d6184-9bda-4a63-a05e-9c331861220b",
+                            "frames": [
+                                {
+                                    "id": "327df625-0147-436b-900e-7d9f95b0b928",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f117a0ed-765c-4c71-bbc8-0aea01a8b181",
+                            "frames": [
+                                {
+                                    "id": "ef8cf981-4725-4032-8f7c-60013ca77975",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a5f823a8-e544-494c-909d-686146f0e4cc",
+                            "frames": [
+                                {
+                                    "id": "6acfe4f8-60e7-43fd-99c6-44a4c8ec274c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a9827560-dea0-4400-8099-4a65181ec1d5",
+                            "frames": [
+                                {
+                                    "id": "0148255a-0176-426e-af73-f323757d0ffc",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c88d0fcd-e1e6-4fd7-b461-d35f8b7cf72c",
+                            "frames": [
+                                {
+                                    "id": "302b2e12-1283-481b-8bc2-35e2e8177f6f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "58344e24-182b-4996-ac5b-b85def95e71f",
+                            "frames": [
+                                {
+                                    "id": "0d0953e1-3af5-4c63-96b5-76b62bd36087",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9ac85544-7500-425b-853a-0e52bff21dc2",
+                            "frames": [
+                                {
+                                    "id": "ad92a91f-c63e-40a6-8ec3-a1fce11fd394",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "32d8018b-cdda-4537-9aa1-cda02ea6e979",
+                            "frames": [
+                                {
+                                    "id": "e95e97cd-d1a0-41f6-a1e4-893318b39da7",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "0f876287-4b0a-4295-9970-021f9f4db445",
             "name": "premades\\static",
             "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades\\static.png",
+            "filename": "premades/static.png",
             "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8",
             "width": 16,
             "height": 16,
@@ -52458,7 +53049,7 @@
             "symbol": "sprite_projectiles_invisble",
             "numFrames": 1,
             "type": "static",
-            "filename": "projectiles\\invisible.png",
+            "filename": "projectiles/invisible.png",
             "checksum": "02193b15355a52fd63cf83e17fea58206bc4ae59",
             "width": 16,
             "height": 16,
@@ -53979,6 +54570,14 @@
             "type": "uge"
         },
         {
+            "id": "60a97f00-e1e1-4837-bfbe-b5f04f7d4ed5",
+            "name": "caverns",
+            "symbol": "song_caverns",
+            "filename": "caverns.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "df224e26-a011-4521-93b9-ffe91bda7cbd",
             "name": "chaingang",
             "symbol": "song_chaingang",
@@ -53988,129 +54587,137 @@
         },
         {
             "id": "e5532690-6df4-4051-97db-ba1400c441fa",
-            "name": "daniel\\daniels-song",
+            "name": "daniel/daniels-song",
             "symbol": "song_daniel_daniels_song",
-            "filename": "daniel\\daniels-song.uge",
+            "filename": "daniel/daniels-song.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "18e0f8f8-345e-4682-9d7a-54ae2cbb08c8",
+            "name": "daniel/heavy-metal",
+            "symbol": "song_daniel_heavy_metal",
+            "filename": "daniel/heavy-metal.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "f587365c-f3d8-48fe-ad5f-f643622a4204",
-            "name": "daniel\\song_template-1",
+            "name": "daniel/song_template-1",
             "symbol": "song_daniel_song_template_1",
-            "filename": "daniel\\song_template-1.uge",
+            "filename": "daniel/song_template-1.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "27b9d9dd-7ac2-4d09-98e9-0112cbabf239",
-            "name": "daniel\\song_template-10",
+            "name": "daniel/song_template-10",
             "symbol": "song_daniel_song_template_0",
-            "filename": "daniel\\song_template-10.uge",
+            "filename": "daniel/song_template-10.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "e798fd79-0fe8-4f8f-b5d1-93785d37e04b",
-            "name": "daniel\\song_template-11",
+            "name": "daniel/song_template-11",
             "symbol": "song_daniel_song_template_2",
-            "filename": "daniel\\song_template-11.uge",
+            "filename": "daniel/song_template-11.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "a4e906fa-6f54-457f-832b-63063fd8cd41",
-            "name": "daniel\\song_template-12",
+            "name": "daniel/song_template-12",
             "symbol": "song_daniel_song_template_3",
-            "filename": "daniel\\song_template-12.uge",
+            "filename": "daniel/song_template-12.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "554f31dd-6007-4bcc-ae41-b79abefb6049",
-            "name": "daniel\\song_template-13",
+            "name": "daniel/song_template-13",
             "symbol": "song_daniel_song_template_4",
-            "filename": "daniel\\song_template-13.uge",
+            "filename": "daniel/song_template-13.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "d9a0350a-e125-4a09-9387-2d395f1ffbb2",
-            "name": "daniel\\song_template-14",
+            "name": "daniel/song_template-14",
             "symbol": "song_daniel_song_template_5",
-            "filename": "daniel\\song_template-14.uge",
+            "filename": "daniel/song_template-14.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "8a36b138-a030-4dda-bcbc-ac96db007746",
-            "name": "daniel\\song_template-2",
+            "name": "daniel/song_template-2",
             "symbol": "song_daniel_song_template_6",
-            "filename": "daniel\\song_template-2.uge",
+            "filename": "daniel/song_template-2.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "4d3e764c-ce0b-4460-b5ea-5b1ada787f40",
-            "name": "daniel\\song_template-3",
+            "name": "daniel/song_template-3",
             "symbol": "song_daniel_song_template_7",
-            "filename": "daniel\\song_template-3.uge",
+            "filename": "daniel/song_template-3.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "40484c20-9a05-43dd-8022-d5eb734feb74",
-            "name": "daniel\\song_template-4",
+            "name": "daniel/song_template-4",
             "symbol": "song_daniel_song_template_8",
-            "filename": "daniel\\song_template-4.uge",
+            "filename": "daniel/song_template-4.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "70cdf0d4-d7ea-45d0-a353-bf2e1ec3e1f6",
-            "name": "daniel\\song_template-5",
+            "name": "daniel/song_template-5",
             "symbol": "song_daniel_song_template_9",
-            "filename": "daniel\\song_template-5.uge",
+            "filename": "daniel/song_template-5.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "2f23d98d-b02e-4446-8248-0ee3eeef0f7a",
-            "name": "daniel\\song_template-6",
+            "name": "daniel/song_template-6",
             "symbol": "song_daniel_song_template_10",
-            "filename": "daniel\\song_template-6.uge",
+            "filename": "daniel/song_template-6.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "17511ead-c63e-4bed-b144-4038acc5f1d2",
-            "name": "daniel\\song_template-7",
+            "name": "daniel/song_template-7",
             "symbol": "song_daniel_song_template_11",
-            "filename": "daniel\\song_template-7.uge",
+            "filename": "daniel/song_template-7.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "6a83978e-61c1-4fdd-8049-0ab8d202c744",
-            "name": "daniel\\song_template-8",
+            "name": "daniel/song_template-8",
             "symbol": "song_daniel_song_template_12",
-            "filename": "daniel\\song_template-8.uge",
+            "filename": "daniel/song_template-8.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "b53472a3-6751-44a9-a87f-373665e577be",
-            "name": "daniel\\song_template-9",
+            "name": "daniel/song_template-9",
             "symbol": "song_daniel_song_template_13",
-            "filename": "daniel\\song_template-9.uge",
+            "filename": "daniel/song_template-9.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "d4ceab51-d26a-4cef-b8b3-80c5c3e9273b",
-            "name": "daniel\\song_template",
+            "name": "daniel/song_template",
             "symbol": "song_daniel_song_template",
-            "filename": "daniel\\song_template.uge",
+            "filename": "daniel/song_template.uge",
             "settings": {},
             "type": "uge"
         },
@@ -54175,6 +54782,22 @@
             "name": "song_template 4",
             "symbol": "song_song_template_4",
             "filename": "song_template 4.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "c5a76335-220a-4776-a8c3-32d527e1dfc7",
+            "name": "song_template 5",
+            "symbol": "song_song_template_5",
+            "filename": "song_template 5.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "a1897dd2-8ee0-4049-9d52-c8f3b043d894",
+            "name": "song_template 6",
+            "symbol": "song_song_template_6",
+            "filename": "song_template 6.uge",
             "settings": {},
             "type": "uge"
         },
@@ -54681,9 +55304,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 89,
-        "worldScrollY": 849,
-        "zoom": 300,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -54712,7 +55335,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            894,
             30
         ],
         "showNavigator": true,
