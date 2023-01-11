@@ -236,6 +236,12 @@ Simple things to Work On:
 154. Upon first encountering the Eastern Garrison, have the camera pan up to show the entire wall for a moment.
 	- Then, play the dialogue encounter with the player.
 155. Design a system for triggering combat scenarios with enemy groupings chosen at true random.
+156. Write an ambient track for the farmland
+	- Try the following beat for inspiration: 
+		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
+157. Create Vivian's boss theme
+	- Try it in F Major (Furious).
+
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1562,8 +1568,6 @@ Concepts:
 	- Obviously, the King and his son instead chose to violently attack the wizards in the night, triggering the Great Explosion.
 111. "Your cowardice betrays you. Who else has it betrayed?"
 112. Have a dialogue choice that's between [Run.] and [RUN!!!].
-113. Outline for Vivian's boss theme
-	- In F Major (Furious).
 
 Misc Dialogue for encounters:
 ===============================
