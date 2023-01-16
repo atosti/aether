@@ -241,6 +241,7 @@ Simple things to Work On:
 		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
 157. Create Vivian's boss theme
 	- Try it in F Major (Furious).
+158. Consider and learn exactly how sound effects interrupt music
 
 
 * What if the final battle was between whichever characters you're aligned with?
@@ -1869,3 +1870,6 @@ V. Old Chain Gang Songs
 
 VI. Understanding the Emotion of Different Scales
 	https://ledgernote.com/blog/interesting/musical-key-characteristics-emotions/
+
+VII. Resource for Ambient Sounds on the GB 
+	https://beatscribe.itch.io/gameboy-ambient-soundscape-asset-pack-ugewav
