@@ -1569,6 +1569,8 @@ Concepts:
 	- Obviously, the King and his son instead chose to violently attack the wizards in the night, triggering the Great Explosion.
 111. "Your cowardice betrays you. Who else has it betrayed?"
 112. Have a dialogue choice that's between [Run.] and [RUN!!!].
+113. Final dialogue choice for the player as they die.
+	[Bury me.] or [Burn me.] (perhaps 'Cremate' is a better term)
 
 Misc Dialogue for encounters:
 ===============================
