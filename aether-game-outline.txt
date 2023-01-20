@@ -1571,6 +1571,14 @@ Concepts:
 112. Have a dialogue choice that's between [Run.] and [RUN!!!].
 113. Final dialogue choice for the player as they die.
 	[Bury me.] or [Burn me.] (perhaps 'Cremate' is a better term)
+114. Crazed man. (This whole thing needs work, but I like some bits conceptually)
+	- "I want out. Look at me, man! I want OUT. Outta this shit! I can't take it anymore. I gotta FUCKING. LEAVE."
+	[Laugh]
+		"You're stuck, pal. There's miles and miles of undead surrounding you in every direction."
+	[Sympathize]
+		"There's not a pathway out. You'll have to make peace with what you have here. There's nothing more we can do for you."
+	"You think I don't know that? But LOOK at me. REALLY look. My mind has decayed more rapidly than my body. There ain't nothing left!"
+	
 
 Misc Dialogue for encounters:
 ===============================
