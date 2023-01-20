@@ -8,7 +8,7 @@ Simple things to Work On:
 11. Design the full 12 tile sprites for the King.
 	- Also design a 4 tile sprite for him.
 17. Build out the actual menu options.
-	- Design an inventory system that can hold gold, basic healing items, key items, and equippables (e.g. swords).
+	- Design an inventory system that can hold key items, and equippables (weaponry).
 18. Design a landscape scene with panning and parallax
 	- Just do it as a proof of concept for now, then incorporate it into zone transitions later as the map is fleshed out.
 19. Draw a cutaway scene for a roaring fireplace.
@@ -17,25 +17,23 @@ Simple things to Work On:
 	- Have a ceiling the player passes under to walk outside.
 		~ Feature a cutaway scene to a POV vista showing the city beyond the castle.
 		~ Also needs a vista to be shown in the background of the surrounding landscape.
-22. Design the Battle scene. And test swapping in different enemies to the encounter.
 23. Design trinkets for the tables.
 	- Battle maps, figurines, pots full of scrolls, potted plants.
 	- Also design a Grandfather clock.
 24. Implement the journal menu option. It records core details for the player, so they know their objective.
 	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
 	- Would love it to look like pages in a book which you can turn through. (Perhaps a static # of pages that get filled in as you complete core objectives.)
+	- Could just be two pages, one for the last thing accomplished, and another for the one that's being actively worked on.
+		~ Just avoid making it a big empty "book" that gets filled out over time. That feels so dated and awful for a player to page through nothing at the start of the game.
 35. Come up with a name for the King.
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
 	- And assign it to the NPC in the War Room.
 41. Design the Armory which will give you some starting gear for free if you stop by.
 	- This is optional.
-42. Figure out how to draw Text to the Screen for the start menu options.
 44. Finish the King's dialogue for when you have the Jester in your party.
 47. Flesh out Alexandros' backstory somewhere
 	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
-48. Add a health item that can be looted off the Dining Hall's table.
-	- Like a shank of meat or something.
 50. Design sideways facing chairs for the dining hall.
 51. Add leaning portraits and rolled up scrolls to the Hidden Alcove.
 	- Make it seem like a room cluttered with old junk.
@@ -53,12 +51,8 @@ Simple things to Work On:
 		~ Nothing too complex, just a general vibe. The sprite limits will be close on these screens.
 62. Design NPC sprites for the nobles in the Royal Court
 65. Draw a jug of wine as a table-compatible sprite.
-66. Update the oubliette to be slightly different upon returning after having the jester in your party.
-	- Hide Alexandros
-	- Have the wizards say different things.
 68. Design additional rooms in the castle.
 	- Off the doorways in the halls and throne room.
-69. Draw beds for the Barracks and bedchambers
 70. Design a basic drawbridge texture for the player to cross as they leave the Castle.
 72. Design a flower pot that can be placed on the table tiles.
 74. Design Pews for the Chapel.
@@ -242,7 +236,13 @@ Simple things to Work On:
 157. Create Vivian's boss theme
 	- Try it in F Major (Furious).
 158. Consider and learn exactly how sound effects interrupt music
-
+159. Draw a sprite of Aylmera bleeding from her eyes/nose/mouth.
+	- Whichever of these comes through best.
+	- Used for the passive decay that she experiences during the game.
+160. Draw a sprite of Aylmera hunched over slightly.
+	- Meant to show she's experiencing pain.
+	- A pose of her fallen to her knees would be good, too. Could add some movement to the scenes.
+	- Maybe have her clench at her chest with one hand?
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
