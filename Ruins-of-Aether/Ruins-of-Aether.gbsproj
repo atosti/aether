@@ -2186,7 +2186,7 @@
                     "hit3Script": [],
                     "id": "6cf2a105-6631-4041-950e-c5653dc8d03e",
                     "x": 17,
-                    "y": 9
+                    "y": 8
                 }
             ],
             "triggers": [
@@ -6179,8 +6179,8 @@
             ],
             "autoFadeSpeed": 1,
             "id": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
-            "x": 321.9,
-            "y": 582.3598290598287,
+            "x": 260.9,
+            "y": 564.3598290598287,
             "actors": [],
             "triggers": [],
             "script": [
@@ -13443,31 +13443,6 @@
                     "id": "1ce9d791-f752-48fb-8365-30b36853a87d"
                 },
                 {
-                    "command": "EVENT_SET_TRUE",
-                    "args": {
-                        "variable": "0",
-                        "__collapse": false
-                    },
-                    "id": "64c6b925-a054-42a1-a57d-8e116b47ed0b"
-                },
-                {
-                    "command": "EVENT_SET_TRUE",
-                    "args": {
-                        "variable": "2",
-                        "__comment": false,
-                        "__collapse": false
-                    },
-                    "id": "30ef3f87-1256-480d-9776-280c2f9a7da2"
-                },
-                {
-                    "command": "EVENT_SET_TRUE",
-                    "args": {
-                        "variable": "1",
-                        "__collapse": false
-                    },
-                    "id": "6416cc16-afa0-4032-be31-b894cf330bca"
-                },
-                {
                     "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
                     "args": {
                         "actorId": "$self$",
@@ -13583,7 +13558,8 @@
                         "variable": "0",
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": true
                     },
                     "children": {
                         "true": [
@@ -13607,7 +13583,8 @@
                         "variable": "2",
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": true
                     },
                     "children": {
                         "true": [
@@ -13631,7 +13608,8 @@
                         "variable": "1",
                         "__collapseElse": true,
                         "__disableElse": true,
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": true
                     },
                     "children": {
                         "true": [
@@ -54686,10 +54664,74 @@
             "type": "uge"
         },
         {
+            "id": "b5b4bf30-118e-4bb3-a454-1e68e0c32647",
+            "name": "daniel\\amble",
+            "symbol": "song_daniel_amble",
+            "filename": "daniel\\amble.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "3d485c8e-e73b-40cd-ab18-9e247e42d8f5",
+            "name": "daniel\\ascent",
+            "symbol": "song_daniel_ascent",
+            "filename": "daniel\\ascent.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "c8d30eee-fc54-4972-a009-bce37917f396",
+            "name": "daniel\\bad",
+            "symbol": "song_daniel_bad",
+            "filename": "daniel\\bad.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "e5532690-6df4-4051-97db-ba1400c441fa",
             "name": "daniel\\daniels-song",
             "symbol": "song_daniel_daniels_song",
             "filename": "daniel\\daniels-song.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "4b0286dd-05e6-4308-ba2b-f6f7373e5714",
+            "name": "daniel\\echo",
+            "symbol": "song_daniel_echo",
+            "filename": "daniel\\echo.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "791617c0-80fa-4560-b125-ec104bd0ff7e",
+            "name": "daniel\\ehh",
+            "symbol": "song_daniel_ehh",
+            "filename": "daniel\\ehh.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "f5d8c583-fff9-4841-b6b6-959efd4712c3",
+            "name": "daniel\\fancy",
+            "symbol": "song_daniel_fancy",
+            "filename": "daniel\\fancy.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "124310be-90e7-4ed2-8d72-c639d4aed883",
+            "name": "daniel\\fun",
+            "symbol": "song_daniel_fun",
+            "filename": "daniel\\fun.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "e5ed0321-7307-436d-af05-2e45a31ca017",
+            "name": "daniel\\gallop",
+            "symbol": "song_daniel_gallop",
+            "filename": "daniel\\gallop.uge",
             "settings": {},
             "type": "uge"
         },
@@ -54702,122 +54744,58 @@
             "type": "uge"
         },
         {
-            "id": "f587365c-f3d8-48fe-ad5f-f643622a4204",
-            "name": "daniel\\song_template-1",
-            "symbol": "song_daniel_song_template_1",
-            "filename": "daniel\\song_template-1.uge",
+            "id": "29e84069-b0e7-4d6a-aee5-b43338e9b068",
+            "name": "daniel\\idk",
+            "symbol": "song_daniel_idk",
+            "filename": "daniel\\idk.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "27b9d9dd-7ac2-4d09-98e9-0112cbabf239",
-            "name": "daniel\\song_template-10",
-            "symbol": "song_daniel_song_template_0",
-            "filename": "daniel\\song_template-10.uge",
+            "id": "aa3817e6-4779-41fa-b6e1-2de2d535d94a",
+            "name": "daniel\\march",
+            "symbol": "song_daniel_march",
+            "filename": "daniel\\march.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "e798fd79-0fe8-4f8f-b5d1-93785d37e04b",
-            "name": "daniel\\song_template-11",
-            "symbol": "song_daniel_song_template_2",
-            "filename": "daniel\\song_template-11.uge",
+            "id": "fdf3d8f0-702b-455b-be26-e827d26b29fc",
+            "name": "daniel\\spider",
+            "symbol": "song_daniel_spider",
+            "filename": "daniel\\spider.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "a4e906fa-6f54-457f-832b-63063fd8cd41",
-            "name": "daniel\\song_template-12",
-            "symbol": "song_daniel_song_template_3",
-            "filename": "daniel\\song_template-12.uge",
+            "id": "d979e7d2-c309-4260-b279-a933bad661a1",
+            "name": "daniel\\three-notes",
+            "symbol": "song_daniel_three_notes",
+            "filename": "daniel\\three-notes.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "554f31dd-6007-4bcc-ae41-b79abefb6049",
-            "name": "daniel\\song_template-13",
-            "symbol": "song_daniel_song_template_4",
-            "filename": "daniel\\song_template-13.uge",
+            "id": "4b440187-10f1-4ff4-af7d-254a862ae3ae",
+            "name": "daniel\\upbeat",
+            "symbol": "song_daniel_upbeat",
+            "filename": "daniel\\upbeat.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "d9a0350a-e125-4a09-9387-2d395f1ffbb2",
-            "name": "daniel\\song_template-14",
-            "symbol": "song_daniel_song_template_5",
-            "filename": "daniel\\song_template-14.uge",
+            "id": "659c0bf3-a172-4f69-96e8-fe441321db14",
+            "name": "daniel\\violin",
+            "symbol": "song_daniel_violin",
+            "filename": "daniel\\violin.uge",
             "settings": {},
             "type": "uge"
         },
         {
-            "id": "8a36b138-a030-4dda-bcbc-ac96db007746",
-            "name": "daniel\\song_template-2",
-            "symbol": "song_daniel_song_template_6",
-            "filename": "daniel\\song_template-2.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "4d3e764c-ce0b-4460-b5ea-5b1ada787f40",
-            "name": "daniel\\song_template-3",
-            "symbol": "song_daniel_song_template_7",
-            "filename": "daniel\\song_template-3.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "40484c20-9a05-43dd-8022-d5eb734feb74",
-            "name": "daniel\\song_template-4",
-            "symbol": "song_daniel_song_template_8",
-            "filename": "daniel\\song_template-4.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "70cdf0d4-d7ea-45d0-a353-bf2e1ec3e1f6",
-            "name": "daniel\\song_template-5",
-            "symbol": "song_daniel_song_template_9",
-            "filename": "daniel\\song_template-5.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "2f23d98d-b02e-4446-8248-0ee3eeef0f7a",
-            "name": "daniel\\song_template-6",
-            "symbol": "song_daniel_song_template_10",
-            "filename": "daniel\\song_template-6.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "17511ead-c63e-4bed-b144-4038acc5f1d2",
-            "name": "daniel\\song_template-7",
-            "symbol": "song_daniel_song_template_11",
-            "filename": "daniel\\song_template-7.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "6a83978e-61c1-4fdd-8049-0ab8d202c744",
-            "name": "daniel\\song_template-8",
-            "symbol": "song_daniel_song_template_12",
-            "filename": "daniel\\song_template-8.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "b53472a3-6751-44a9-a87f-373665e577be",
-            "name": "daniel\\song_template-9",
-            "symbol": "song_daniel_song_template_13",
-            "filename": "daniel\\song_template-9.uge",
-            "settings": {},
-            "type": "uge"
-        },
-        {
-            "id": "d4ceab51-d26a-4cef-b8b3-80c5c3e9273b",
-            "name": "daniel\\song_template",
-            "symbol": "song_daniel_song_template",
-            "filename": "daniel\\song_template.uge",
+            "id": "6b4c506f-3757-478f-8eee-9748f0493760",
+            "name": "daniel\\walk",
+            "symbol": "song_daniel_walk",
+            "filename": "daniel\\walk.uge",
             "settings": {},
             "type": "uge"
         },
@@ -55564,9 +55542,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 158,
-        "worldScrollY": 295,
-        "zoom": 300,
+        "worldScrollX": 191,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

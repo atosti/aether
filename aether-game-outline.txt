@@ -91,9 +91,6 @@ Simple things to Work On:
 88. Design the music that plays during the intro (pre-awakening)
 	- Inspiration: https://www.youtube.com/watch?v=UEWCCSuHsuQ
 	- Incorporate ominous vibes and have the instruments fade in/out
-89. To begin learning the GB Studio music software just straight up create a copy of a song you know.
-	- This doesn't have to be included in the final game, just listen to something and reverse engineer it for the skill.
-	- Try a number of things and genres to get a feel for what you can easily create and what works well with the vibes you're creating.
 93. Create sprites to handle parrying and dodge rolling?
 	- Jumping?
 95. Add cycling through the logos on game launch
@@ -125,9 +122,6 @@ Simple things to Work On:
 108. Draw an image of the player's dead body for the Game Over screen.
 	- Again, reference the Fallout 1/2 death screens for reference.
 		~ http://vignette4.wikia.nocookie.net/fallout/images/0/02/Death.jpg/revision/latest?cb=20050330070537
-109. Draw new tiles for a new dialogue box.
-	- Perhaps plain black background with white border.
-	- Would also love something that looks like an old scroll.
 111. Design a slight intro segment, where the player actually sees themselves wake up on the floor of the Oubliette.
 	- Create animation frames of Aylmera lying on her back or the ground.
 	- Add some dialogue, perhaps of the wizards chanting an incantation? ("Arise... Arise... Arise...")
@@ -243,6 +237,13 @@ Simple things to Work On:
 	- Meant to show she's experiencing pain.
 	- A pose of her fallen to her knees would be good, too. Could add some movement to the scenes.
 	- Maybe have her clench at her chest with one hand?
+161. Design a lot of screens (a bit of a challenging path) between the Garrison and the Aether Ruins Basement.
+	- Reaching it should be an optional objective. The number of screens will help illustrate how far they've gone and the barren nature of the area.
+162. For now, just have Aylmera be the only one controllable in combat. Build the rest of encounters around this.
+	- E.g. Flesh out enemy spawns and attack patterns.
+
+
+* Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
 * What if the final battle was between whichever characters you're aligned with?
 	- Could be all of your party against the King.
@@ -1456,8 +1457,8 @@ Concepts:
 	- Velazquez: "My oh my. I underestimated your prowess. Who taught you to use that blade? "
 	- Aylmera: "We're just here for the wizard. And the stone. Nothing more."
 	- Velazquez: *Laughing* "Hahaha! The bitch thinks she can make demands of *ME*!"
-				 "I can't wait to bestow some obedience upon you, darling. "
-				 "Bring me the swordsman alive. Dispatch the others."
+		"I can't wait to bestow some obedience upon you, darling."
+		"Bring me the swordsman alive. Dispatch the others."
 	* Second engagement of lackeys ensues.* *Player wins*
 	- Velazquez: *Angry* "Fucking cowards... This is what lack of discipline does to a man. Robs him of ambition."
 				 "He must learn to take what is deserved. Never ask. To rend it from the hands of the unworthy."
@@ -1742,12 +1743,6 @@ Old:
 	Just design a simple Fight only system where you can select Enemy 1, 2, 3, or 4 to attack (depending on how many on-screen).
 		- Also add in an EScape mechanic
 
-
-Vocabulary/Phrases to Incorporate:
-===================================
-Ye, Thee, Shall, Antiquity, Anguish, Tyranny, Aether, Realm, Distraught
-
-
 History:
 ========
 1. Historical context for how a kingdom is run, and the chaos that ensues.
@@ -1883,3 +1878,6 @@ VI. Understanding the Emotion of Different Scales
 
 VII. Resource for Ambient Sounds on the GB 
 	https://beatscribe.itch.io/gameboy-ambient-soundscape-asset-pack-ugewav
+
+VIII. Character movement reference spritesheet
+	https://dan-velasquez-art.itch.io/character-base-teeny-n-tiny
