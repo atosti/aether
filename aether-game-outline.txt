@@ -241,6 +241,11 @@ Simple things to Work On:
 	- Reaching it should be an optional objective. The number of screens will help illustrate how far they've gone and the barren nature of the area.
 162. For now, just have Aylmera be the only one controllable in combat. Build the rest of encounters around this.
 	- E.g. Flesh out enemy spawns and attack patterns.
+163. Vivian's Battle Theme
+	- Themes: Outward anger at a world that's wronged her. Quickness/Agility. Piercing/Sharpness. Ambush.
+	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
+		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
+	- Just jump right into the song without much buildup at ALL.
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
@@ -1579,7 +1584,68 @@ Concepts:
 	[Sympathize]
 		"There's not a pathway out. You'll have to make peace with what you have here. There's nothing more we can do for you."
 	"You think I don't know that? But LOOK at me. REALLY look. My mind has decayed more rapidly than my body. There ain't nothing left!"
-	
+115. The fishing village should have a mass suicide that took place prior to the party's arrival.
+	- It could be in response to all the fish washing up dead. Remnants of offerings to old gods should be seen around.
+	- Starving, some of the people chose to kill themselves. They couldn't flee through the bog as the undead inside proved too threatening.
+	- This village symbolizes the Loss of Hope. An unwillingness to continue onward. It stands in stark contrast to the party.
+	- Encountering the Bloodhound here, amidst the bodies:
+		* Note: The goal is to have him subtley reveal that he thinks Aylmera is the same killer from his past. And despite him knowing it can't be real, he has to be certain. He feels FORCED to kill you.
+		* I don't like a ton of what I've written here. I want him to drop hints, then to surprise the player with a fight. Focus on that.
+
+		Bloodhound: *Laughing* "I knew I smelled you coming. Even amidst all this death."
+		Aylmera: "Didn't expect to find you here. It's a grim place to meet."
+		Bloodhound: "I couldn't agree more. Why are you here?"
+		Aylmera: "We've come for that blue orb. Then we'll be on our way."
+		*Camera pans slightly to the orb, atop an altar at the center of the bodies. Bloodhound turns to it, then back to Aylmera.*
+		Bloodhound: "Oh. It's important to you? Sure seems like it was pretty important to all these folks too."
+			"Well, then by all means. Looks like they haven't much use for it now anyhow..."
+		*Aylmera walks past the Bloodhound, who watches her as she moves, and takes the orb from the altar before walking away*
+		Bloodhound: *sniff* "..."
+		Bloodhound: "You know, I never did tell you this earlier..."
+		* Aylmera turns toward him*
+		Bloodhound: "In my old age, it's often hard to remember things. Especially about my past. About my youth."
+		Bloodhound: "But when I met you, it all rushed back to me. I couldn't place it at first. It was all jumbled up."
+		Bloodhound: "Now though... Now I remember. I remember my village. I remember that man. I remember his face, his scent, the time of day, everything."
+		Bloodhound: "And I just wanted to thank you for reminding me of who I am. Of why I'm here. One's history is important."
+		[You're welcome.]
+		[I see.]
+		Bloodhound: "But uh... it's really about just that. That history. I know I'm old now, and you're so young... and feminine... and..."
+		Bloodhound: "And, I mean, it's crazy, I know. I just figured you and I could be... I don't know. Nevermind. I'm sorry... "
+		(The goal here is to give the impression that Aylmera/The Player thinks they're being hit on.)
+		Aylmera: "Uh huh. We're leaving now."
+		Bloodhound: "..."
+		(Talking with him after this point, should also just have him say "...")
+		*Control returns to the player, who walks south to leave, tripping a trigger*
+		Bloodhound: "No... No. I can't let you leave. Not again. If you're not him, then you're OF him. You. Bear. His. Scent."
+		[Excuse me?]
+			Bloodhound: "You REEK of death! More putrid than this whole village!"
+			Bloodhound: "I'm sorry, but I'm *certain* you must be stopped."
+		[Try me.]
+			Bloodhound: ""
+		*Throws a knife or dashes at the player, beginning the engagement*
+
+
+		Bloodhound: *cries* "Before, I was just so lost. So unsure. But now, you've made me certain. I'm sorry, I didn't think I'd get so emotional..."
+		[I'm honored.]
+		[We must be going.]
+			(Secret, only if 'How so' is also answered above as well)
+			Bloodhound: "Tell me. Do you know what's next?"
+			[Certainly.]
+			[Certainly not.]
+		Bloodhound: *sniff* "Goodbye. I'm sorry."
+		*Control is returned to the player*
+		*Player walks south to exit the screen, hitting a trigger*
+		Bloodhound: "I'm sorry... for what comes NEXT!"
+		* Dashes south across the screen into the player, triggering an engagement*
+			(Alternately, throws a knife at the party, beginning the engagement)
+
+		Bloodhound: "It's oddly pretty, isn't it?"
+		[Yes]
+			BH: "Yes, I thought you'd agree... You're more far gone than I'd first realized."
+
+		[No]
+			""
+
 
 Misc Dialogue for encounters:
 ===============================
