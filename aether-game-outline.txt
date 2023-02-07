@@ -1651,6 +1651,7 @@ Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies call you 'The Butcher'.
 	Butcher: "No. They don't. It's my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
+		- Alternately: "You heard wrong. It's my friends who call me that..."
 	Butcher: "Given the... opportunity, I wonder which title you'll choose for me." *Smiles wickedly*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
@@ -1716,6 +1717,33 @@ Jester: "It's clear he lacks the prowess to remedy the situation. If only the Pr
 
 Combat System:
 ==============
+Feb 2023:
+----------
+Combat will exist entirely of Aylmera fighting enemies alone. However, each ally you get will unlock a different ability/buff she can use.
+	- Perhaps even a handful of abilities. Or ones that change as the story progresses?
+	- They could also be used to infuse a certain element with Aylmera, allowing her to hit enemies with that type with her basic attacks.
+Narratively, it's explained that these other characters assist Aylmera, but are not fighters themselves (which makes sense).
+I need to flesh out precisely how enemies will attack. If they attack by changing floor tiles to be damaging, cleansing as a mechanic could work.
+
+Abilities:
+1. Jester
+	- Knife throw or a straight stab. Deals poisonous DoT damage.
+	- Either make it ranged, or make it a very short hitbox (requiring getting close) that inflicts a good DoT.
+2. Neera
+	- AoE damage and/or a cleanse of surrounding floor tiles.
+	- Could potentially heal (maybe only if floor tiles are cleansed?)
+3. Alexandros
+	- Projectile fire blast in front of the character.
+A number of these feel rather lame and as though they've been done before. Try to think outside the box about more interesting options.
+
+These abilities should each be on separate cooldowns. (Or perhaps one global cooldown)
+	- They are not meant to be spammed.
+
+Controls:
+	The player will press Select to cycle through the active team member buffing them. From there, using "B" will use the ability.
+
+
+
 Oct 16, 2022:
 --------------
 Design a combat system that borrows from Mike Tyson's Punch Out in some ways. Imagine enemies having real-time attacks with weakpoints mixed in.
