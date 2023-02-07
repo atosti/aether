@@ -237,8 +237,9 @@ Simple things to Work On:
 	- Meant to show she's experiencing pain.
 	- A pose of her fallen to her knees would be good, too. Could add some movement to the scenes.
 	- Maybe have her clench at her chest with one hand?
-161. Design a lot of screens (a bit of a challenging path) between the Garrison and the Aether Ruins Basement.
+161. Create a large number of screens (a bit of a challenging path) between the Garrison and the Aether Ruins Basement.
 	- Reaching it should be an optional objective. The number of screens will help illustrate how far they've gone and the barren nature of the area.
+	- It should also have tricky encounters. It doesn't have to be anything new, just lots of hard fights back to back.
 162. For now, just have Aylmera be the only one controllable in combat. Build the rest of encounters around this.
 	- E.g. Flesh out enemy spawns and attack patterns.
 163. Vivian's Battle Theme
@@ -246,7 +247,10 @@ Simple things to Work On:
 	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
 		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
 	- Just jump right into the song without much buildup at ALL.
-
+164. Outline basic arenas and enemy attack patterns that can be developed.
+165. Implement save locations rather than saving from the menu.
+	- Just like saving at statues in Sword of Mana.
+	- Just need to figure out what Aylmera should be using to save...
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
