@@ -1911,6 +1911,8 @@ GB Studio:
 	https://gumpyfunction.itch.io/game-boy-rpg-fantasy-tileset-free
 25. Outdoor top-down tiles
 	https://rohangb.itch.io/gameboy-forest-tileset
+26. Character movement reference spritesheet
+	https://dan-velasquez-art.itch.io/character-base-teeny-n-tiny
 
 Soundtrack:
 ============
@@ -1973,5 +1975,6 @@ VI. Understanding the Emotion of Different Scales
 VII. Resource for Ambient Sounds on the GB 
 	https://beatscribe.itch.io/gameboy-ambient-soundscape-asset-pack-ugewav
 
-VIII. Character movement reference spritesheet
-	https://dan-velasquez-art.itch.io/character-base-teeny-n-tiny
+VIII. Combat theme
+	Use the bassline from Putting All of My People On by Manic Focus (Feat. ProbCause)
+	https://soundcloud.com/manicfocus/putting-all-of-my-people-on-feat-probcause
