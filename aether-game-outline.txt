@@ -251,6 +251,8 @@ Simple things to Work On:
 165. Implement save locations rather than saving from the menu.
 	- Just like saving at statues in Sword of Mana.
 	- Just need to figure out what Aylmera should be using to save...
+166. Use the Phantasm font for key events
+	- Decide how/when to use this. Perhaps for certain characters? Like those of the Void? Or the Spirit of Aylmera?
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1917,6 +1919,8 @@ GB Studio:
 	https://rohangb.itch.io/gameboy-forest-tileset
 26. Character movement reference spritesheet
 	https://dan-velasquez-art.itch.io/character-base-teeny-n-tiny
+27. Glyphic Fonts
+	https://mxashlynn.itch.io/fonts-for-gb-studio
 
 Soundtrack:
 ============
