@@ -253,6 +253,39 @@ Simple things to Work On:
 	- Just need to figure out what Aylmera should be using to save...
 166. Use the Phantasm font for key events
 	- Decide how/when to use this. Perhaps for certain characters? Like those of the Void? Or the Spirit of Aylmera?
+167. Bard's Theme
+	- https://www.youtube.com/watch?v=vIXeqHcsV5w
+168. Tavern Theme
+	- https://www.youtube.com/watch?v=p4uM070KexI
+	- https://www.youtube.com/watch?v=Rj_NUS9hwxA
+169. Boss themes
+	- Wolfmother
+		https://www.youtube.com/watch?v=gGIYKmIGclQ
+	- Slayer
+	- Van Halen
+	- https://www.youtube.com/watch?v=TL0fv_W1iJA
+	- https://www.youtube.com/watch?v=K0YI0UUazkU
+	- https://www.youtube.com/watch?v=5fR327VhoJo
+	- https://www.youtube.com/watch?v=5odgnAq8udE
+	- https://www.youtube.com/watch?v=_B_phS0jaP8
+	- Ozzy Osbourne - Iron Man
+		~ https://www.youtube.com/watch?v=1iDoAkWT3L8
+		~ Great plodding lead in for right before an engagement.
+		~ Speed up the tempo a bit for parts.
+	- Dead Boys - Sonic Reducer
+		~ https://www.youtube.com/watch?v=wIkXdFCT-Uc
+		~ Good lead in to a fight theme.
+170. Wandering/Lonely Music
+	- https://www.youtube.com/watch?v=RPUAldgS7Sg
+	- https://www.youtube.com/watch?v=gMA5jdxPL4s
+171. Encounter with Antagonists
+	- https://www.youtube.com/watch?v=RYDhw8_lAn0
+	- https://www.youtube.com/watch?v=8xIcR6XKUCk
+		~ Heavy percussive line with periodic bass.
+		- Also 1:55ish has a different vibe.
+	- Dialogue before an engagement
+		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
+		~ Use the intro of this track.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
