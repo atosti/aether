@@ -227,8 +227,6 @@ Simple things to Work On:
 156. Write an ambient track for the farmland
 	- Try the following beat for inspiration: 
 		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
-157. Create Vivian's boss theme
-	- Try it in F Major (Furious).
 158. Consider and learn exactly how sound effects interrupt music
 159. Draw a sprite of Aylmera bleeding from her eyes/nose/mouth.
 	- Whichever of these comes through best.
@@ -247,6 +245,7 @@ Simple things to Work On:
 	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
 		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
 	- Just jump right into the song without much buildup at ALL.
+	- Try it in F Major (Furious).
 164. Outline basic arenas and enemy attack patterns that can be developed.
 165. Implement save locations rather than saving from the menu.
 	- Just like saving at statues in Sword of Mana.
@@ -286,6 +285,10 @@ Simple things to Work On:
 	- Dialogue before an engagement
 		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
 		~ Use the intro of this track.
+172. Design a way to black out the whole screen to visually cue engagements.
+	- Could use Overlay layer, but that seems limited in how it can draw it.
+	- Could immediately change scene? To one where the player and the enemy sprite are redrawn, then adjust the background?
+	- Visualize exactly what you want it to look like during transition, then replicate that.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
