@@ -1570,8 +1570,6 @@ Concepts:
 106. General note on the Jester
 	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
 	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
-107. A brief conversation when walking across the barren lands of the Aether Ruins
-	- ""
 108. A conversation with the countrymen on the opposite end of the Aether Ruins
 	- Called out from the garrison: "What the... You there! HALT! Don't take another step further."
 	- *Aylmera stops walking* *Party appears from her, flanking her sides*
@@ -1684,7 +1682,15 @@ Concepts:
 
 		[No]
 			""
-
+116. Conversation with the High Priest
+	Priest: "You shouldn't be here. You should die and give the living a chance to save themselves. We don't need an outsider interfering with GOD!"
+	Aylmera: "I'm not an outsider. Same as you, I was born in the Realm."
+	Priest: "And you DIED in it. Which is how you should remain. You're an abomination!"
+	Neera: "You don't know of God's wishes. His silence has reigned over your church for well over a decade."
+	Priest: "Save your delusions, WITCH! Remember your scripture. During the second century, God was silent for longer than 75 years."
+			"An entire generation of priests remained loyal to their faith alone during the absence of his voice."
+	Neera: "But he communes through ME!"
+	Priest: "HERESY! God does not and HAS not ever communed with women. This is nothing more than a test of our faith. And the church shan't fail."
 
 Misc Dialogue for encounters:
 ===============================
