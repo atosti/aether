@@ -274,6 +274,10 @@ Simple things to Work On:
 	- Dead Boys - Sonic Reducer
 		~ https://www.youtube.com/watch?v=wIkXdFCT-Uc
 		~ Good lead in to a fight theme.
+	https://charliewinsmore.bandcamp.com/track/manic-in-hokkaido
+		~ Has a good beat that feels intense and psycho for combat (around @1:30). Speed up the tempo and see how it sounds.
+	https://charliewinsmore.bandcamp.com/track/scumbag-season
+		~ The initial beat is good. Speed it up and add higher tempo percussion to make it more punchy for combat.
 170. Wandering/Lonely Music
 	- https://www.youtube.com/watch?v=RPUAldgS7Sg
 	- https://www.youtube.com/watch?v=gMA5jdxPL4s
@@ -289,6 +293,7 @@ Simple things to Work On:
 	- Could use Overlay layer, but that seems limited in how it can draw it.
 	- Could immediately change scene? To one where the player and the enemy sprite are redrawn, then adjust the background?
 	- Visualize exactly what you want it to look like during transition, then replicate that.
+173. Consider changing Neera's avatar to be of a cross, or open bible/holy book.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1682,9 +1687,7 @@ Concepts:
 		Bloodhound: "It's oddly pretty, isn't it?"
 		[Yes]
 			BH: "Yes, I thought you'd agree... You're more far gone than I'd first realized."
-
 		[No]
-			""
 116. Conversation with the High Priest
 	Priest: "You shouldn't be here. You should die and give the living a chance to save themselves. We don't need an outsider interfering with GOD!"
 	Aylmera: "I'm not an outsider. Same as you, I was born in the Realm."
@@ -1699,6 +1702,8 @@ Concepts:
 	Enemy: "What was your name again?"
 	Aylmera: "Aylmera."
 	Enemy: "I'll ask for you when I get to hell. No hard feelings."
+118. Saying 'No' to the King's request to undertake the quest.
+	* If you tell him no, have him add a line of dialogue to both you and the Jester where he says to 'Keep an eye on her.' to Sigmund.
 
 Misc Dialogue for encounters:
 ===============================
