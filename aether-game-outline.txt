@@ -1694,6 +1694,11 @@ Concepts:
 			"An entire generation of priests remained loyal to their faith alone during the absence of his voice."
 	Neera: "But he communes through ME!"
 	Priest: "HERESY! God does not and HAS not ever communed with women. This is nothing more than a test of our faith. And the church shan't fail."
+117. Dialogue with a misc enemy
+	*Perhaps this occurs after they think they've mortally wounded Aylmera.*
+	Enemy: "What was your name again?"
+	Aylmera: "Aylmera."
+	Enemy: "I'll ask for you when I get to hell. No hard feelings."
 
 Misc Dialogue for encounters:
 ===============================
