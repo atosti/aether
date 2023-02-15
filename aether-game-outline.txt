@@ -1764,7 +1764,17 @@ Concepts:
 		- He thanks you for 'opening' the bridge. He also slyly insinuates that he knows they're responsible. But doesn't say why (he's working with, or a sympathizer for, the banditry)
 		- Continues Northbound himself ahead of the player.
 	c. After you've slain the leper colony, but before you've slain the Lord's army. (Inside the Lord's city)
+		* Here he's encountered in the city. But isn't directly present for your slaughter of it.
+			~ Though he's assumed to be IN the city when the fighting starts.
+		* You mention to him that you came from the NW city (lepers). And that you're now seeking an audience with the Lord.
+		* He also notes the new party member, Neera. And they're introduced to each other.
 	d. Before entering the destroyed Ramparts into the Aether Ruins (he doesn't venture in)
+		* Since he didn't go on the Swamp side route, he's been waiting at the ramparts a while before you.
+		* He mentions a traveler came through (perhaps it's implied it was the Bloodhound?). Who detailed the slaughter of the Lepers.
+		* As such, he puts together the pieces that the Bandits, Lepers, and the Lord's army + Monastery have all been destroyed as you've encountered them.
+		* He asks you point blank about why you're killing so much. About what that leaves to even save.
+		* Alexandros, having met him for the first time here, should be the most incensed. "Just who the hell is this guy?" type of vibe.
+		* You tell him you intend to enter the Aether Ruins. Which he regards as suicide.
 		- Bard: "Perhaps I'm the fool for thinking there's any solution other than violence." (retorting to the Jester)
 	e. Before you return to the Castle (Just outside the city gates)
 		- Bard: "A party of four, innocent no more. The treachery of these lands, mostly done by their hands."
