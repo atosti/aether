@@ -302,6 +302,14 @@ Simple things to Work On:
 177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
 	- The current one is too long and out of place sounding.
 178. Come up with a name for the Bard.
+179. Design an initial fight. Likely the Armory tutorial.
+	- Create some ways to test developing interesting fights.
+		a. Lots of projectiles (10+)
+		b. Multiple enemies (at least up to 3)
+		c. Interesting collisions for maps (perhaps collisions that change mid-fight)
+			~ Consider friendly abilities that can fire THROUGH collisions.
+		d. Boss patterns that change once they reach certain health.
+		e. Fake boss deaths (or rather the introduction of boss phases)
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
@@ -1764,7 +1772,14 @@ Concepts:
 		[Kill him.]
 			*After he dies.*
 			Bard: "Who... will tell your story...?"
-
+120. Separation from the party
+	- Have a segment of the game where you fall into a river and are almost drowned by your heavy armor.
+	- This will trigger a dream/void sequence.
+	- It will also result in the player having a brief segment where they must explore and fight by themselves (without the abilities of party members).
+	- Reasons party members don't jump in to help:
+		Jester = Cowardice, he fears himself dying.
+		Neera = "I can't swim. Besides... My foresight has only shown me dry on these shores."
+		Alexandros = ??? (perhaps this event should occur before reaching him)
 
 Misc Dialogue for encounters:
 ===============================
