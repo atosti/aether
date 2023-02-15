@@ -1636,7 +1636,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b"
+                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                            "__collapse": true
                                         },
                                         "id": "ca9c1543-ccbf-4716-baf2-a790eb19e5b4"
                                     },
@@ -1649,7 +1650,7 @@
                                                 "I hope you feel alright. You've been\ndead for quite some time. And it was\nno easy task mending your body."
                                             ],
                                             "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "3ab37376-178c-4bd1-ae70-883217e88acb"
                                     },
@@ -1659,7 +1660,7 @@
                                             "variable": "L1",
                                             "trueText": "When did I die?",
                                             "falseText": "Who am I?",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "2f5d30b6-69b8-4c2d-a26d-1e523b58f1b8"
                                     },
@@ -1688,7 +1689,7 @@
                                                             "Err, only a few... hundred years ago?\nIt's hard to say for certain given\nthe accuracy of historical texts..."
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "39283f6c-b897-4d55-980c-609c409a8054"
                                                 },
@@ -1711,7 +1712,7 @@
                                                             "I saw to it personally that every inch\nof your being was restored to the\nprime of your youth."
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "159d9424-d7fa-4057-8b3f-9b87760b0828"
                                                 },
@@ -1731,7 +1732,7 @@
                                                     "args": {
                                                         "actorId": "$self$",
                                                         "emoteId": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "b6343982-8d98-4c95-bafc-96c214dd0d00"
                                                 },
@@ -1746,7 +1747,7 @@
                                                             "Lotta stories about who you were,\nthe things you stood for. And who\nyou died fighting against..."
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "48a9d5c3-56cc-497f-9142-e6731b379918"
                                                 },
@@ -2226,7 +2227,8 @@
                             "command": "EVENT_ACTOR_EMOTE",
                             "args": {
                                 "actorId": "$self$",
-                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4"
+                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                "__collapse": true
                             },
                             "id": "96c0bc3c-401b-4bf3-a260-469e0ba20377"
                         },
@@ -2782,7 +2784,7 @@
                         "variable": "L0",
                         "__collapseElse": false,
                         "__disableElse": true,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "If $Introduced is False"
                     },
                     "children": {
@@ -4240,6 +4242,14 @@
                 }
             ],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "6b4c506f-3757-478f-8eee-9748f0493760",
+                        "__collapse": true
+                    },
+                    "id": "afbbdf79-f7b4-445b-b584-9ed442762d84"
+                },
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
@@ -9780,13 +9790,12 @@
                             "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
                         },
                         {
-                            "command": "EVENT_ACTOR_EMOTE",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "actorId": "$self$",
-                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                "customEventId": "0fa458e7-a0b9-4ae2-8e90-81bd0ba5f192",
                                 "__collapse": true
                             },
-                            "id": "12ca15dd-8772-4659-8b76-d9587c62a03e"
+                            "id": "9be9e8c3-14ce-4efc-aefa-0dbed2b93b4a"
                         },
                         {
                             "command": "EVENT_TEXT",
@@ -9797,7 +9806,7 @@
                                     "If it's any consolation, I argued \nagainst your revival. But the wizards\nwere eager. And the King desperate."
                                 ],
                                 "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
                         },
@@ -9895,7 +9904,7 @@
                                 "variable": "L1",
                                 "trueText": "Why me?",
                                 "falseText": "Any leads?",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
                         },
@@ -54886,6 +54895,68 @@
                     "id": "da95b8ee-1c0f-4cee-bada-de1e7ae4998d"
                 }
             ]
+        },
+        {
+            "id": "0fa458e7-a0b9-4ae2-8e90-81bd0ba5f192",
+            "name": "Laugh (w/Sound)",
+            "description": "A laugh emote with the associated sound effect.",
+            "variables": {},
+            "actors": {
+                "0": {
+                    "id": "0",
+                    "name": "Actor A"
+                }
+            },
+            "symbol": "script_11",
+            "script": [
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "6638692a-cc05-4d03-b27a-25138ae15cb7",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 0,
+                        "__collapse": true
+                    },
+                    "id": "74579698-34d7-4072-82c8-7f5e2216c7bb"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "0",
+                        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                        "__collapse": true
+                    },
+                    "id": "e53a1a3f-eaa6-4685-aa7c-abf3b62b8d61"
+                }
+            ]
+        },
+        {
+            "id": "24682f98-58c3-4234-8fef-f4f102702194",
+            "name": "Join Party (Sound)",
+            "description": "Plays the noise for when a party member joins the party.",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_12",
+            "script": [
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "149073db-6e16-420d-a37c-0d020359292d",
+                        "priority": "medium",
+                        "pitch": 4,
+                        "frequency": 200,
+                        "duration": 0.5,
+                        "wait": true,
+                        "effect": 0,
+                        "__collapse": true
+                    },
+                    "id": "0b9cee01-4d31-4d21-b85f-df6e052dd981"
+                }
+            ]
         }
     ],
     "music": [
@@ -55350,7 +55421,7 @@
         {
             "id": "f763c38d-33f8-4f6f-8612-7c9485c9e177",
             "name": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_0",
+            "symbol": "sound_sweetsounds_sfx_naked",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
             "type": "vgm",
             "inode": "66991044457277190",
@@ -55359,7 +55430,7 @@
         {
             "id": "52113f27-7546-4990-883c-23869816876d",
             "name": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_7",
+            "symbol": "sound_sweetsounds_sfx_naked_0",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
             "type": "vgm",
             "inode": "6755399441196492",
@@ -55368,7 +55439,7 @@
         {
             "id": "b73ce20a-0e4f-4a87-9f47-c1a253a4a724",
             "name": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_2",
+            "symbol": "sound_sweetsounds_sfx_naked_1",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
             "type": "vgm",
             "inode": "47569271064241394",
@@ -55377,7 +55448,7 @@
         {
             "id": "758f4615-be9d-41fa-a467-9368d917f4b5",
             "name": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_1",
+            "symbol": "sound_sweetsounds_sfx_naked_2",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
             "type": "vgm",
             "inode": "13510798882252520",
@@ -55386,7 +55457,7 @@
         {
             "id": "2db92a23-2f7c-4e6d-bcd8-c402829cb13e",
             "name": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked",
+            "symbol": "sound_sweetsounds_sfx_naked_3",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
             "type": "vgm",
             "inode": "14918173765805610",
@@ -55404,7 +55475,7 @@
         {
             "id": "6402a11a-e377-43de-8a6d-84f933fce3a9",
             "name": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_3",
+            "symbol": "sound_sweetsounds_sfx_naked_5",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
             "type": "vgm",
             "inode": "99079191802292363",
@@ -55413,7 +55484,7 @@
         {
             "id": "dd1ede7b-ad31-48d9-a329-b3ed8617fb8e",
             "name": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_5",
+            "symbol": "sound_sweetsounds_sfx_naked_6",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
             "type": "vgm",
             "inode": "10133099161724686",
@@ -55422,7 +55493,7 @@
         {
             "id": "9415a177-8e06-40d2-bf78-f5d31f5ad416",
             "name": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_8",
+            "symbol": "sound_sweetsounds_sfx_naked_7",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
             "type": "vgm",
             "inode": "14355223812384477",
@@ -55431,7 +55502,7 @@
         {
             "id": "ec407d12-f711-4075-9549-6956cac1cabf",
             "name": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_6",
+            "symbol": "sound_sweetsounds_sfx_naked_8",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
             "type": "vgm",
             "inode": "28147497671206806",
@@ -55458,7 +55529,7 @@
         {
             "id": "4b6be5ef-1a9d-43dc-981b-aaf8f574c0c6",
             "name": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_12",
+            "symbol": "sound_sweetsounds_sfx_naked_11",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
             "type": "vgm",
             "inode": "90353467524261668",
@@ -55467,7 +55538,7 @@
         {
             "id": "d584baa4-e970-4694-90ac-226920ac33b3",
             "name": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_11",
+            "symbol": "sound_sweetsounds_sfx_naked_12",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
             "type": "vgm",
             "inode": "33776997205419554",
@@ -55476,7 +55547,7 @@
         {
             "id": "977b35ef-b317-475b-b187-afb808bf6ae0",
             "name": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_15",
+            "symbol": "sound_sweetsounds_sfx_naked_13",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
             "type": "vgm",
             "inode": "43065671436870952",
@@ -55485,7 +55556,7 @@
         {
             "id": "19ab3ff7-1f71-491c-8ca2-6e7f2bc915e6",
             "name": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_13",
+            "symbol": "sound_sweetsounds_sfx_naked_14",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
             "type": "vgm",
             "inode": "66428094503855360",
@@ -55494,7 +55565,7 @@
         {
             "id": "ab2e5004-acf8-43ed-95e7-bec61337a25c",
             "name": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_14",
+            "symbol": "sound_sweetsounds_sfx_naked_15",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
             "type": "vgm",
             "inode": "7318349394618130",
@@ -55539,7 +55610,7 @@
         {
             "id": "fe15f4b9-18b2-495b-b1a3-e45a34be8f74",
             "name": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_21",
+            "symbol": "sound_sweetsounds_sfx_naked_20",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
             "type": "vgm",
             "inode": "54043195528586417",
@@ -55548,7 +55619,7 @@
         {
             "id": "40faac93-4591-41ad-9828-8bda4295b06f",
             "name": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_20",
+            "symbol": "sound_sweetsounds_sfx_naked_21",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
             "type": "vgm",
             "inode": "51509920738191256",
@@ -55575,7 +55646,7 @@
         {
             "id": "149073db-6e16-420d-a37c-0d020359292d",
             "name": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_25",
+            "symbol": "sound_sweetsounds_sfx_naked_24",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
             "type": "vgm",
             "inode": "70931694131225934",
@@ -55584,7 +55655,7 @@
         {
             "id": "4098fd32-0bd0-4a62-be83-b39b597eefbe",
             "name": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_27",
+            "symbol": "sound_sweetsounds_sfx_naked_25",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
             "type": "vgm",
             "inode": "5910974511064842",
@@ -55602,7 +55673,7 @@
         {
             "id": "e9e09eae-c21c-4d88-b29f-b301550a7fdc",
             "name": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_24",
+            "symbol": "sound_sweetsounds_sfx_naked_27",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
             "type": "vgm",
             "inode": "38843546786211441",
@@ -55620,7 +55691,7 @@
         {
             "id": "a034ee70-0078-4200-bb7b-c38746ebbe89",
             "name": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_30",
+            "symbol": "sound_sweetsounds_sfx_naked_29",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
             "type": "vgm",
             "inode": "15762598695937663",
@@ -55629,7 +55700,7 @@
         {
             "id": "be2557c0-d94d-4a3d-a12b-c174108a9c57",
             "name": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
-            "symbol": "sound_sweetsounds_sfx_naked_29",
+            "symbol": "sound_sweetsounds_sfx_naked_30",
             "filename": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
             "type": "vgm",
             "inode": "120471290032301389",
@@ -56130,8 +56201,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 18,
-        "zoom": 200,
+        "worldScrollY": 11,
+        "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

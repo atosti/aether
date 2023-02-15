@@ -297,6 +297,11 @@ Simple things to Work On:
 174. Create sound effects for positive and negative emotions.
 	- Then add these sounds to each instance of an emote so far.
 	- Probably just a Low > High note for a positive. And High > Low note for a negative.
+175. Check that loading from a save plays music that was playing. Otherwise, add music to all the scenes in the castle.
+176. Create a music track for the oubliette (and perhaps also the hidden alcove)
+177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
+	- The current one is too long and out of place sounding.
+
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
