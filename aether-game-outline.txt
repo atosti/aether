@@ -302,7 +302,7 @@ Simple things to Work On:
 177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
 	- The current one is too long and out of place sounding.
 178. Come up with a name for the Bard.
-179. Design an initial fight. Likely the Armory tutorial.
+179. Design an initial fight. Likely the Barracks tutorial.
 	- Create some ways to test developing interesting fights.
 		a. Lots of projectiles (10+)
 		b. Multiple enemies (at least up to 3)
@@ -310,6 +310,10 @@ Simple things to Work On:
 			~ Consider friendly abilities that can fire THROUGH collisions.
 		d. Boss patterns that change once they reach certain health.
 		e. Fake boss deaths (or rather the introduction of boss phases)
+180. Design a generic soldier sprite that has a full range of movement.
+	- Can take from Aylmera's armor, and just add a bald headed NPC.
+		~ From there, minor tweaks of adding hair/a helmet can create different characters.
+	- This is necessary for the soldiers around the castle and especially the commander in the Barracks.
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
