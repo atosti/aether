@@ -412,23 +412,7 @@
                     "symbol": "actor_24",
                     "script": [],
                     "startScript": [],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_PALETTE_SET_BACKGROUND",
-                            "args": {
-                                "palette0": "keep",
-                                "palette1": "keep",
-                                "palette2": "keep",
-                                "palette3": "keep",
-                                "palette4": "keep",
-                                "palette5": "keep",
-                                "palette6": "keep",
-                                "palette7": "keep",
-                                "__collapse": true
-                            },
-                            "id": "9f721d93-ce1f-4502-a748-78aa21c72fa9"
-                        }
-                    ],
+                    "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -446,6 +430,14 @@
                         "__collapse": true
                     },
                     "id": "1eb32aaf-4a3f-4d92-af84-83e6fb8babe1"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f028e552-12f0-42fa-a075-a8efc40849e2",
+                        "__collapse": true
+                    },
+                    "id": "a020c631-b455-40d2-a6ce-3b991c8955fb"
                 },
                 {
                     "command": "EVENT_AWAIT_INPUT",
@@ -1006,6 +998,13 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {
+                        "__collapse": true
+                    },
+                    "id": "3086788a-5963-4df0-a5aa-1118d2866e0f"
+                },
+                {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
@@ -1042,7 +1041,7 @@
                             "\n                          ....A R I S E....\n"
                         ],
                         "avatarId": "",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "60b2cc05-84a9-4f73-bfbb-7a17c2a0483d"
                 },
@@ -2176,6 +2175,29 @@
                             "id": "e11987ed-4c42-462a-ae04-f14b02a7328a"
                         },
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "14adc62b-01a2-4e58-bc03-46a84067eef4",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0,
+                                "__collapse": true
+                            },
+                            "id": "a2204fd3-15cd-4854-87a6-9e4bb0615f95"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                "__collapse": true
+                            },
+                            "id": "112fa1dd-da1e-48b5-88d9-83a458c0abcf"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
@@ -2185,6 +2207,28 @@
                                 "__collapse": true
                             },
                             "id": "09df2773-5f66-46e9-b481-9e5702fbfd18"
+                        },
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "6638692a-cc05-4d03-b27a-25138ae15cb7",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0,
+                                "__collapse": true
+                            },
+                            "id": "5f7d79f5-5bc5-4576-b8a3-2ae9ecf6795f"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4"
+                            },
+                            "id": "96c0bc3c-401b-4bf3-a260-469e0ba20377"
                         },
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -5335,7 +5379,7 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "Then you'd be a fool and a traitor! My\nresources have long run thin. And my \npatience was the first thing to go...",
-                                                                        "Since you've woken from hundreds of \nyears of slumber, I'll offer you a gentle reminder:\nMake *friends* before making enemies."
+                                                                        "Since you've woken from a hundred year\nslumber, I'll offer you a gentle reminder:\nMake *friends* before making enemies."
                                                                     ],
                                                                     "avatarId": "",
                                                                     "__collapse": false
@@ -55270,6 +55314,14 @@
             "type": "uge"
         },
         {
+            "id": "cd7af2e6-0c23-4768-b2ea-84a586be2de0",
+            "name": "song_template 9",
+            "symbol": "song_song_template_9",
+            "filename": "song_template 9.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "8211e24d-6c1b-446d-a65b-b1e6c23e8d6f",
             "name": "song_template",
             "symbol": "song_song_template",
@@ -55284,9 +55336,306 @@
             "filename": "template.mod",
             "settings": {},
             "type": "mod"
+        },
+        {
+            "id": "f028e552-12f0-42fa-a075-a8efc40849e2",
+            "name": "title-theme",
+            "symbol": "song_title_theme",
+            "filename": "title-theme.uge",
+            "settings": {},
+            "type": "uge"
         }
     ],
-    "sounds": [],
+    "sounds": [
+        {
+            "id": "f763c38d-33f8-4f6f-8612-7c9485c9e177",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_0",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
+            "type": "vgm",
+            "inode": "66991044457277190",
+            "_v": 1676424898787
+        },
+        {
+            "id": "52113f27-7546-4990-883c-23869816876d",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_7",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
+            "type": "vgm",
+            "inode": "6755399441196492",
+            "_v": 1676424898859
+        },
+        {
+            "id": "b73ce20a-0e4f-4a87-9f47-c1a253a4a724",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_2",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
+            "type": "vgm",
+            "inode": "47569271064241394",
+            "_v": 1676424898787
+        },
+        {
+            "id": "758f4615-be9d-41fa-a467-9368d917f4b5",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_1",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
+            "type": "vgm",
+            "inode": "13510798882252520",
+            "_v": 1676424898787
+        },
+        {
+            "id": "2db92a23-2f7c-4e6d-bcd8-c402829cb13e",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
+            "type": "vgm",
+            "inode": "14918173765805610",
+            "_v": 1676424898751
+        },
+        {
+            "id": "46aa51de-cd46-4140-a631-700c13e2d4d2",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Confirm.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_4",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Confirm.vgm",
+            "type": "vgm",
+            "inode": "54324670505297003",
+            "_v": 1676424898859
+        },
+        {
+            "id": "6402a11a-e377-43de-8a6d-84f933fce3a9",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_3",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
+            "type": "vgm",
+            "inode": "99079191802292363",
+            "_v": 1676424898859
+        },
+        {
+            "id": "dd1ede7b-ad31-48d9-a329-b3ed8617fb8e",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_5",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
+            "type": "vgm",
+            "inode": "10133099161724686",
+            "_v": 1676424898859
+        },
+        {
+            "id": "9415a177-8e06-40d2-bf78-f5d31f5ad416",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_8",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
+            "type": "vgm",
+            "inode": "14355223812384477",
+            "_v": 1676424898859
+        },
+        {
+            "id": "ec407d12-f711-4075-9549-6956cac1cabf",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_6",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
+            "type": "vgm",
+            "inode": "28147497671206806",
+            "_v": 1676424898859
+        },
+        {
+            "id": "14adc62b-01a2-4e58-bc03-46a84067eef4",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Drink.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_9",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Drink.vgm",
+            "type": "vgm",
+            "inode": "11821949021988586",
+            "_v": 1676424899005
+        },
+        {
+            "id": "6638692a-cc05-4d03-b27a-25138ae15cb7",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Evil_Laugh.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_10",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Evil_Laugh.vgm",
+            "type": "vgm",
+            "inode": "14073748835673809",
+            "_v": 1676424899005
+        },
+        {
+            "id": "4b6be5ef-1a9d-43dc-981b-aaf8f574c0c6",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_12",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
+            "type": "vgm",
+            "inode": "90353467524261668",
+            "_v": 1676424899005
+        },
+        {
+            "id": "d584baa4-e970-4694-90ac-226920ac33b3",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_11",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
+            "type": "vgm",
+            "inode": "33776997205419554",
+            "_v": 1676424899005
+        },
+        {
+            "id": "977b35ef-b317-475b-b187-afb808bf6ae0",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_15",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
+            "type": "vgm",
+            "inode": "43065671436870952",
+            "_v": 1676424899005
+        },
+        {
+            "id": "19ab3ff7-1f71-491c-8ca2-6e7f2bc915e6",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_13",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
+            "type": "vgm",
+            "inode": "66428094503855360",
+            "_v": 1676424899005
+        },
+        {
+            "id": "ab2e5004-acf8-43ed-95e7-bec61337a25c",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_14",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
+            "type": "vgm",
+            "inode": "7318349394618130",
+            "_v": 1676424899005
+        },
+        {
+            "id": "ac416366-121a-4e32-984a-d06f9d038f46",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Low_Health.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_16",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Low_Health.vgm",
+            "type": "vgm",
+            "inode": "68961369294251813",
+            "_v": 1676424899005
+        },
+        {
+            "id": "a080dab7-27ca-45b9-b518-649008388dd9",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Menu_In.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_17",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Menu_In.vgm",
+            "type": "vgm",
+            "inode": "8162774324750080",
+            "_v": 1676424899005
+        },
+        {
+            "id": "bb26507b-61ce-4fc4-8ac4-3f309e8ca059",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Menu_Out.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_18",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Menu_Out.vgm",
+            "type": "vgm",
+            "inode": "8444249301460741",
+            "_v": 1676424899187
+        },
+        {
+            "id": "6635784a-a24d-42c1-963a-f9058f84da92",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Monster_Scream.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_19",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Monster_Scream.vgm",
+            "type": "vgm",
+            "inode": "73464968921622260",
+            "_v": 1676424899187
+        },
+        {
+            "id": "fe15f4b9-18b2-495b-b1a3-e45a34be8f74",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_21",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
+            "type": "vgm",
+            "inode": "54043195528586417",
+            "_v": 1676424899187
+        },
+        {
+            "id": "40faac93-4591-41ad-9828-8bda4295b06f",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_20",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
+            "type": "vgm",
+            "inode": "51509920738191256",
+            "_v": 1676424899187
+        },
+        {
+            "id": "96960453-1a36-480f-9bbb-fe8915b6625a",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Phone_Ring.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_22",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Phone_Ring.vgm",
+            "type": "vgm",
+            "inode": "13510798882252535",
+            "_v": 1676424899187
+        },
+        {
+            "id": "89b68297-1352-43d7-8e3d-4489d502965f",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Powerdown.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_23",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Powerdown.vgm",
+            "type": "vgm",
+            "inode": "70368744177804682",
+            "_v": 1676424899187
+        },
+        {
+            "id": "149073db-6e16-420d-a37c-0d020359292d",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_25",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
+            "type": "vgm",
+            "inode": "70931694131225934",
+            "_v": 1676424899187
+        },
+        {
+            "id": "4098fd32-0bd0-4a62-be83-b39b597eefbe",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_27",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
+            "type": "vgm",
+            "inode": "5910974511064842",
+            "_v": 1676424899187
+        },
+        {
+            "id": "5382f040-6d1d-4621-9000-8b316abb20d4",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Steps.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_26",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Steps.vgm",
+            "type": "vgm",
+            "inode": "30962247438313249",
+            "_v": 1676424899187
+        },
+        {
+            "id": "e9e09eae-c21c-4d88-b29f-b301550a7fdc",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_24",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
+            "type": "vgm",
+            "inode": "38843546786211441",
+            "_v": 1676424899187
+        },
+        {
+            "id": "b332df92-5a6f-4d3f-9e02-bc12b01f40a0",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Thunder.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_28",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Thunder.vgm",
+            "type": "vgm",
+            "inode": "68679894317541415",
+            "_v": 1676424899187
+        },
+        {
+            "id": "a034ee70-0078-4200-bb7b-c38746ebbe89",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_30",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
+            "type": "vgm",
+            "inode": "15762598695937663",
+            "_v": 1676424899187
+        },
+        {
+            "id": "be2557c0-d94d-4a3d-a12b-c174108a9c57",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
+            "symbol": "sound_sweetsounds_sfx_naked_29",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
+            "type": "vgm",
+            "inode": "120471290032301389",
+            "_v": 1676424899187
+        }
+    ],
     "fonts": [
         {
             "id": "6cdfb218-1b00-4c52-894a-6e7c00d4c27b",
@@ -55780,8 +56129,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 571,
-        "worldScrollY": 1,
+        "worldScrollX": 0,
+        "worldScrollY": 18,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,

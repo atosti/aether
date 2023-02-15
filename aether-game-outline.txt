@@ -294,6 +294,9 @@ Simple things to Work On:
 	- Could immediately change scene? To one where the player and the enemy sprite are redrawn, then adjust the background?
 	- Visualize exactly what you want it to look like during transition, then replicate that.
 173. Consider changing Neera's avatar to be of a cross, or open bible/holy book.
+174. Create sound effects for positive and negative emotions.
+	- Then add these sounds to each instance of an emote so far.
+	- Probably just a Low > High note for a positive. And High > Low note for a negative.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1973,6 +1976,8 @@ GB Studio:
 	https://dan-velasquez-art.itch.io/character-base-teeny-n-tiny
 27. Glyphic Fonts
 	https://mxashlynn.itch.io/fonts-for-gb-studio
+28. Sound Effects
+	https://benjaminno.itch.io/sweet-sounds-sfx-pack
 
 Soundtrack:
 ============
