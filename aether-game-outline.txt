@@ -301,6 +301,7 @@ Simple things to Work On:
 176. Create a music track for the oubliette (and perhaps also the hidden alcove)
 177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
 	- The current one is too long and out of place sounding.
+178. Come up with a name for the Bard.
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
@@ -547,9 +548,15 @@ Character Names/Titles:
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
 	- "Kneel when you speak to her." - One of her loyal followers.
-13. ???, Traveling Minstrel/Bard
-	- A traveling Bard that is encountered periodically throughout the world.
-	- Speaks in rhymes. Travels the land seeking inspiration and to bring joy to a joyless world.
+13. ???, Bard, Minstrel
+	* Note: He's not meant to be a Moralizing Mike character that shows up at the end and relays to the player all the 'bad' things they've done.
+	* He's meant to point out the futility of saving a world that the player themselves has already destroyed. And his disatisfaction with having to live in the remains.
+	* He's meant to humanize the world a bit. To add someone that responds to the sheer violence of the world around them.
+	- Jovial, but judgemental of the player.
+	- Over the course of the game, he encounters the player several times and slowly comes to realize the destruction they're causing.
+	- Often sings in rhyme about the player and his opinion of them.
+		~ In many ways, he's supposed to act as a record-keeper of sorts. An oral historian (presumably, if he's to live into the future).
+	- Very amicable. Other characters (misc npcs) regard him and his music highly. He brings Joy to a Joyless world.
 14. ???, Squire
 	- Presently an unused character, but a Squire could be an interesting component.
 15. Ol' Scratch, Devil Incarnate
@@ -560,6 +567,7 @@ Character Names/Titles:
 	* Paladins were scarce before the war (as holy magic was outdated vs. geomancy), but especially now since many of them died in the war with the sorcerers.
 		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
 		- Once revered as beacons of morality and the will of God, they're now seen as idealogues who threw away their traditional ideals for false hopes.
+
 
 
 Order of Zones:
@@ -1712,6 +1720,51 @@ Concepts:
 	Enemy: "I'll ask for you when I get to hell. No hard feelings."
 118. Saying 'No' to the King's request to undertake the quest.
 	* If you tell him no, have him add a line of dialogue to both you and the Jester where he says to 'Keep an eye on her.' to Sigmund.
+119. Encounters with the Bard
+	* I would LOVE to have all of his lines be rhyming bar. Maybe not all, just lots. Have him tease you in rhyme.
+	* Consider adding Music Note symbols to either side of his dialogue when he rhymes.
+	* Also remember the Music Note emote that can go above his head.
+	a. Before fighting Vivian (The Village)
+		- He's sitting alone on the edge of the forest, if you try to walk past he sings a song about you.
+		- Bard: (sings)"The warrior and the jester, quite an unusual pair. Chanced to meet a bard, with such flowery flair."
+		- Bard: (sings)"Enchanted by his song, they took a brief respite. For it could be rather long, before they rested for the night..."
+		- Jester: "That's a lovely voice you have. Are you formally trained?"
+		- Bard: "No. I learned the lute from my father. Became a minstrel shortly thereafter."
+		- Jester: "With such talent, I'm surprised I haven't heard of you before, mister...?"
+		- Bard: "It's <name>"
+		- Jester: "I'm Sigmund. It's a pleasure to meet you."
+		- Aylmera: "And I'm Aylmera. Nice to meet you."
+		- Bard: "Oh my. Aylmera? Like the brave warrior? Your parents had high expectations for you..."
+		- Aylmera: "Yes... Something like that."
+		- Bard: "What brings you two outside the castle walls, anyhow? Not many folks go the way you're heading."
+		* The jester looks at Aylmera, who looks back at him. Then they turn to face the Bard.*
+		[Just traveling.]
+			Bard: "Mhmmm. Sure. That sounds airtight. Just 'traveling' from the castle deep into bandit controlled lands."
+		[Quest for the King.]
+			Jester: "Aylmera! Shh! You'll have to pardon her, <name>, it's just a joke between the two of us."
+		- Jester: "What she meant to say was that we're outside the castle to-"
+		- Bard: "Look. I'm not gonna grill you two on it. Your business is none of mine. And we all have our secrets."
+		- Bard: "But be careful who you mention that King of yours to. He's become mighty unpopular as of late."
+		- Aylmera: "We'll keep it in mind. Thanks."
+		- Bard: (sings)"And so the pair bid their new friend adieu, off on a quest to meet with God knows who..."
+		* Bard smiles.
+	b. After fighting Vivian (Outside of the town w/a bridge, heading North ahead of you all)
+		- He thanks you for 'opening' the bridge. He also slyly insinuates that he knows they're responsible. But doesn't say why (he's working with, or a sympathizer for, the banditry)
+		- Continues Northbound himself ahead of the player.
+	c. After you've slain the leper colony, but before you've slain the Lord's army. (Inside the Lord's city)
+	d. Before entering the destroyed Ramparts into the Aether Ruins (he doesn't venture in)
+		- Bard: "Perhaps I'm the fool for thinking there's any solution other than violence." (retorting to the Jester)
+	e. Before you return to the Castle (Just outside the city gates)
+		- Bard: "A party of four, innocent no more. The treachery of these lands, mostly done by their hands."
+				"Now they disbelieve, truth they must bereave. Such is the price, of a life ruled by vice."
+		- Aylmera: "You don't know half of what you've seen, Bard."
+		- Bard: "And yet I still see more than most. Go on in, killer. They're waiting for you."
+		[Ignore him.]
+			Bard: "The woman clad in red, all her acquaintances dead. Left alone to muse, she finally chose to defuse."
+		[Kill him.]
+			*After he dies.*
+			Bard: "Who... will tell your story...?"
+
 
 Misc Dialogue for encounters:
 ===============================
