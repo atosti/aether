@@ -1794,6 +1794,19 @@ Concepts:
 		Jester = Cowardice, he fears himself dying.
 		Neera = "I can't swim. Besides... My foresight has only shown me dry on these shores."
 		Alexandros = ??? (perhaps this event should occur before reaching him)
+121. Conversation with the Void at the end
+	- Void: "Welcome back to the fold, hero. You've surpassed all expectations to make it this far."
+	- You: "Will they be alright...? Is the Realm saved?"
+	- Void: "What follows never mattered. Only your relationship to it in the moment."
+	- Void: "You fulfilled your duty. You passed the test. Take solace in those facts."
+	- You: "Tell me what happens. I want to know."
+	- Void: "Now you must put it behind you. Further contemplation will only bring you anguish."
+	- You: "I DESERVE to know. Does the Realm survive?"
+	- Void: "..."
+	- Void: "No. It does not. But you already knew that."
+	- You: "So it was all in vain? Why even send me on such a quest?!"
+	- Void: "We did not revive you. That was humanity's doing..."
+	- Void: "You should abandoned these notions, lest they become an unbearable penance."
 
 Misc Dialogue for encounters:
 ===============================
