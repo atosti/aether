@@ -314,6 +314,9 @@ Simple things to Work On:
 	- Can take from Aylmera's armor, and just add a bald headed NPC.
 		~ From there, minor tweaks of adding hair/a helmet can create different characters.
 	- This is necessary for the soldiers around the castle and especially the commander in the Barracks.
+181. Look into GBVM methods for increasing the volume or tempo of songs/music channels during combat
+	- E.g. When landing a hit on an enemy, make the noise louder for a brief time.
+	- This might not be possible/feasible, but I'd like to investigate it.
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
