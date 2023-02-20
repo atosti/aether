@@ -1855,23 +1855,23 @@ Concepts:
 	- Aylmera: "Nothing important to you."
 	- Vivian: "... Still playing hard to get?"
 	- Vivian: "Before his demise, the late King told me of your quest."
-	- Vivian: "Seems it was a resounding success, given you're still in one piece..."
-	- Aylmera: "Save it. You got both your revenge and control of the Kingdom. What more could you want?"
+	- Vivian: "Seems it was a resounding success, given you're still in one piece."
+	- Aylmera: "I don't care. You got both your revenge and control of the Kingdom. What do you want with us?"
 	- Vivian: "I'm offering you... and your friends... a partnership. With the undead threat handled, we can work together to restore order to this realm."
 	- Jester: *Laughing* "Ahahaha! AHAHAHAHA! She doesn't know! Tell her Aylmera! Hahaha!!!"
-	- Jester: *Crying* "Tell her how she'll burn along with this castle. Go on..."
+	- Jester: *Crying* "Tell her how she'll BURN along with this castle."
 	* Vivian is angrily confused (?!)*
 	- Aylmera: "Vivian... It doesn't work like that. The undead are still out there. Their numbers might not be growing, but..."
-	- Alexandros: "There's no one left, Bandit. Whose soldiers would you call upon to protect this castle? Every army is scattered."
-	- Neera: "He's right. Your militia is weakened, the royal guard's decimated, the Lord's army is reeling. Even the monastery monks had their ranks broken."
-	- Neera: "You've no possible army to draw soldiers from against the remaining undead horde."
-	- Vivian: "What?! You all speak lies! These foolish games of intimidation won't work on me!"
-	- Aylmera: "It's no trick. You thought yourself fit to rule, and now you must carry the burden of that crown."
+	- Alexandros: "There's no one left, Bandit. Whose soldiers would you call upon to protect this ruined castle? Every last army is scattered."
+	- Neera: "He's right. Your militia is no doubt weakened, the royal guard's decimated, the Lord's army is reeling. Even the monastery monks had their ranks broken."
+	- Neera: "You've nowhere to possibly draw soldiers from against the remaining undead horde."
+	- Vivian: "What?! Nonsense! You speak lies. These foolish intimidation games won't work on me!"
+	- Aylmera: "It's no trick, Vivian. You thought yourself fit to rule, and now you must carry the burden of that crown."
 	* Aylmera smiles *
-	- Aylmera: "What say you, oh magnificent Queen of all that is Dust and Ash? What is your first royal decree?"
+	- Aylmera: "So what say you, oh magnificent Queen of all that is to be Dust and Ash? What is your first, and last, royal decree?"
 	- Vivian: "..."
 	- Vivian: "To purge my throne of heretics."
-	* Combat/Engagement starts *
+	* Vivian charges down the stairs, triggering combat/Engagement *
 
 Misc Dialogue for encounters:
 ===============================
