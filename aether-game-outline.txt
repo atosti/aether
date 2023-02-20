@@ -320,7 +320,8 @@ Simple things to Work On:
 181. Look into GBVM methods for increasing the volume or tempo of songs/music channels during combat
 	- E.g. When landing a hit on an enemy, make the noise louder for a brief time.
 	- This might not be possible/feasible, but I'd like to investigate it.
-
+182. The ending of the game is the most interesting to you. Consider building the scenes in reverse order.
+	- Thus you can work on the more engaging pieces first.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -507,6 +508,7 @@ Character Names/Titles:
 	* Stoic, a bit of a blank slate for the player to project themselves
 	* Dutiful, headstrong, skeptical
 2. Sigmund, Court Jester
+	[Core Fault: Cowardice]
 	- Famous jesters seemed to have nicknames (e.g. Gaska, meaning Goose)
 	- Possible names: Toad? Hugo? Drake?
 	* Outgoing, Enthusiastic, jovial. A literal jokester.
@@ -517,6 +519,7 @@ Character Names/Titles:
 		- He's incredibly clever, but recognizes that he is out of his depths. 
 		- He understands that he's fighting a losing battle, but searches for any advantage he can get.
 3. Alexandros, Magical Prodigy
+	[Core Fault: Shame]
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric (Diviner?)
@@ -1061,6 +1064,7 @@ XX. Making their way to the city ruins, they're surprised to find no one guardin
 		~ Consider forcing them to walk a different route to the throne room, in many ways retracing the steps of the introduction.
 		~ As opposed to walking straight in to the Throne room, go through side passages and wind your way to the Great Hall.
 	- All along the way to the throne, there is death and chaos. Furniture moved and smashed, smoldering rooms, etc.
+	- Perhaps they have to walk through a blown up hole in the wall, instead of the typical entrance.
 XX. Reaching the throne room, the player sees the King's crumpled body lying at the foot of his throne.
 	- The Bandit Queen (Vivian) now sits atop it, with a handful of bandits at her side.
 		~ The Jester approaches the King's body and closes its eyes. Showing the King mercy and respect.
@@ -1367,42 +1371,66 @@ Concepts:
 	- Perhaps even a defeat screen that says "Dishonored".
 	- Also have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
 63. Each of the main areas (dictated by having a unique Boss) should have an overall theme to the plot.
-	- Castle = Ruin/Ruination
+	- Castle = Neglect/Ruination
 		~ Everything should have an aire of falling apart.
 		~ Soldiers stretched thin. Nobles entirely unprepared for and unaware of the imminent danger that looms.
-	- Forest = Opportunism
+		~ Not enough staff or supplies to fully manage the castle.
+		~ No one paying attention to the problems ACTIVELY being faced by the castle. Still just concerned with the war that has already ended.
+		~ And certainly no concern for the peasantry outside the walls.
+	- Forest = Opportunism/Opportunity
 		~ They claim to want to uplift the peasantry, but have yet to do it. There seriousness of their pursuit can be questioned.
-	- Lepers = Hope/Trickery
-		~ Despite the hope of all these people, they ultiamtely want to indoctrinate you.
+		~ The Jester taking advantage of you not knowing all the details of the plan.
+	- Mountain Caves = Judgment Vol. 1
+		~ The Bloodhound trying to judge you for himself.
+			~ Despite pursuing his own form of Justice, it is blind and unjust. It tries to Moralize a very Grey world.
+	- Lepers = (False) Hope/Trickery
+		~ Despite the hope of all these people, they ultimately want to indoctrinate you. They ignore reason over their blind faith.
 		~ They wish to manipulate you into abandoning your mission. (Which represents abandoning everyone else in favor of a selfish minority.)
 		~ The irony is that they themselves have been abandoned by the whole (the Realm).
 			~ The player should mention how the Crown "never mentioned anyone living all the way out here".
-	- Mountain Caves = Judgement
-		~ Despite the Bloodhound pursuing his own form of Justice, it is blind and unjust. It tries to Moralize a very Grey world.
+		~ The Apothecary, of course, manipulates and tricks the Lepers into treating him as a savior and a leader.
+			~ Though all he provides is various placebo. (Something Neera reveals, as she understands medicine well.)
+		~ It also represents the DEATH of hope, when you inevitably kill the Apothecary and all his loyal followers.
 	- Highlands = Oppression
-		~ Consider having chain-gangs present in some form.
+		~ Chaingangs work the land for the Lord.
+		~ They are ruled by cruel knights.
+		~ The slaves' crimes are not even that severe, nor morally wrong.
 	- Swamp = Mystery/The Unknown
 		~ This is also where the player begins to LEARN of their own mystery (their identity).
+	- Coastal Village = Loss/Abandonment/Hopelessness also Judgment Vol. 2
+		~ The mass suicide shows the hopelessness as well as the loss of life.
+		~ The evident famine shows the loss of basic needs.
+		~ The party themselves must take the orb and leave, abandoning the bodies and the memories of the villagers.
+		~ The Bloodhound is reminded of his own loss, and decides to act once again as the Hand of Justice in this world.
 	- Aether Ruins = Chaos/Savagery
-		~ Pure, unfiltered violence and aggression. A wasteland of raw violence and war.
+		~ Pure, unfiltered violence and aggression. A wasteland of raw violence and war. Mindless creatures roam wild.
+		~ The Garrison illustrates how even 'civilized' people are savage in their refusal to deal with you.
+		~ The Prince demonstrates both his present chaos, and the savagery he once committed.
+			~ Were it not for his willingness to attempt an assassination, his body would not be roaming this landscape at all.
+		~ The Spirit of Aylmera herself represents the Chaos of history and of what we think we know.
+			~ She reveals the truth of the protagonist's story, and with it upsets the little solid understanding of the world the party thought they had.
 	- Royal Catacombs = Peace/The Past
-		~ Perhaps the only peaceful zone in the game.
-		~ Only the dead may know peace.
+		~ Perhaps the only remotely peaceful zone in the game.
+		~ "Only the dead may know peace."
 		~ Even then, there is evidence of the Wizards' attempts to disrupt that by stealing corpses.
-			~ Long abandoned undead should still work in the catacombs and nearby mines, etc. Extracting goods from the earth.
+			~ Long abandoned undead should still work in the catacombs and nearby mines, etc. Extracting goods from the earth. Now for no purpose.
 			~ Despite the fact that their masters long abandoned them (or died).
 			~ The undead continue tirelessly as a reminder of the now broken empire the Wizards attempted to build. (And its great moral cost).
-		~ Witnessing the undead still at work should offend the Jester (and perhaps the player) at Alexandros.
+		~ Witnessing the undead still at work should offend the Jester and Neera (and perhaps the player) at Alexandros.
 			~ "You observed all this happening and did nothing? This is consecrated earth, all these skeletons earned their peace."
+			~ "How can they cross the styx if they still toil to this day?!" - Neera
 		~ These catacombs could have caverns that weave in and out of the mines. New paths, which the wizards forged for faster material extraction.
-	- Castle Finale = Ruination Realized/Opportunity for something new/Rebirth
-		~ The King is dead or hostaged. Most of the soldiers and nobles are slain.
-		~ The castle itself is now seriously damaged, unable to be defended properly.
-		~ An usurper sits on the throne.
-		~ The castle is in flames. The nobles have all died or fled.
+		~ Interacting with the undead here should just have them silently stare at you for a moment, before returning to their work.
+			~ They're soulless automatons.
+	- Castle Finale = Destruction/Finality
+		~ The King is dead, his body a crumpled corpse at the foot of his own throne.
+			~ The Bandit Queen sits proudly atop his throne, eager to greet you.
+		~ The castle is in flames. The nobles and soldiers have all died or fled.
+			~ The castle itself is now seriously damaged, unable to be defended properly.
 		~ Throughout the game, the player learns there isn't a single person deserving enough to rule the Realm.
 			~ But at the end, they realize they've killed everyone CAPABLE of even ruling it.
 			~ The only thing left is "To return it to dust and ash." ("Ye whose bones belong as DUST and ASH.")
+				~ You should utter this phrase to the Bandit Queen.
 64. Design a Title Screen background
 	- "Ruins of Aether"
 	- Stylize it after Medieval Manuscripts?
@@ -1596,10 +1624,10 @@ Concepts:
 	Aylmera: "I must know... Will the Realm survive without me? Were my actions in vain?"
 	Void: "It is not our position to judge such a trivial matter."
 	Aylmera: "But you *do* know the answer."
-	Void: "...Of course. Though such judgements do not concern thee."
+	Void: "...Of course. Such judgements do not concern thee."
 	Aylmera: "Tell me. I beg of you."
 	Void: "...Thy soul is redeemed. Be free from the bondage of thine memories."
-	Void: "Lest ye be driven mad with anguish. Cast out amidst the chaos."
+	Void: "Lest ye be driven mad with anguish. Wandering amidst the chaos."
 	- Additional questions the player could ask:
 	[Who will claim the throne?]
 	Void: "Someone unfit for leadership."
@@ -1613,6 +1641,7 @@ Concepts:
 	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
 	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
 108. A conversation with the countrymen on the opposite end of the Aether Ruins
+	* If possible, give this character a custom avatar and sprite. Make him feel important, but give the player no idea WHY.
 	- Called out from the garrison: "What the... You there! HALT! Don't take another step further."
 	- *Aylmera stops walking* *Party appears from her, flanking her sides*
 	- Guardsman: "Who are you? What do you want?"
@@ -1626,33 +1655,34 @@ Concepts:
 	- Guardsman: "How are we here?! How are YOU here? WHY are YOU here?"
 	- Aylmera: "We're just... passing through."
 	- Guardsman: "No one 'passes through' that hellscape out West. So I ask you again: Why. Are. You. Here?"
-	- Aylmera: "I suppose we were hoping to... travel through your gate."
+	- Aylmera: "I suppose we were hoping to... enter through your gate?"
 	- Guardsman: "No. Absolutely not."
 	- Guardsman: "I have been stationed here since the day your tower erupted into blue flame. And in all that time, not a SINGLE human has ever approached us from the West."
-	- Guardsman: "And now, all of a sudden, four people walk out from that wasteland as though it were nothing. The door stays closed."
+	- Guardsman: "And now, all of a sudden, four people walk out from that wasteland as though it were nothing. 'Simply traveling'. The door stays closed."
 	[You fear us?]
 		- Guardsman: "Not from this side of the garrison. And not with a dozen of my men aiming arrows at your skull as we speak."
 	[We come in peace.]
 		- Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
-	- Guardsman: "If you truly serve the Crown, as you so boldy claim, then allow me to relay him a message from the Eastern Coalition:"
-	- Guardsman: "He has failed to commune with the Coalition by raven for over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
-	- Guardsman: "And he has failed to contain the conflicts of his Kingdom to the confines of his own borders."
-	- Guardsman: "Therefore, they have excommunicated him from all prior agreements, and condemned him to death should he arrive within their borders."
+	- Guardsman: "If, as you so boldy claim, you truly serve the Crown, then allow me to relay him a message from the Eastern Coalition:"
+	- Guardsman: "He has failed to commune by way of raven for over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
+	- Guardsman: "And he has failed to contain his Kingdom's conflicts to the confines of his own borders."
+	- Guardsman: "Therefore, he and his lineage are excommunicated, and all prior agreements rendered void."
+	- Guardsman: "Should he make a foolish attempt to arrive within our borders, his it to be promptly executed for his crimes."
 	[The Eastern Coalition?]
-		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you waged war against yourself."
+		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you mindlessly waged war against yourself."
 	[Two dozen seasons?]
-		- Guardsman: "Yes. A little over six years. All of their messages have been met with silence in that timeframe."
-	- Guardsman: "You're lost, friend. This ain't your home, and you are not welcome here. Go back the way you came."
+		- Guardsman: "Yes. A little over six years. All of our hails have been met with silence in that timeframe."
+	- Guardsman: "You're lost, friend. This ain't your home, and you are not welcome here. Go back the way you came while you still can."
 	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
 109. Side note for the Lost Paladin
-	- In his own story, when he arrives at the Eastern Garrison, he collapses from exhaustion at the gate. The guards inspect his body and intend to destroy it.
+	- In his own story, when he arrives at the Eastern Garrison, he collapses from exhaustion at the gate. The guards inspect his body and intend to destroy it (via cremation).
 	- Except, they notice that his armor bears the insignia of the Eastern Coalition. (As it's where he originally trained.) As such, they bring him inside, and give him medical aid.
 110. Notes on the lead up to the Storming of the Great Tower
-	- In an attempt to avoid total bloodshed, the Coalition (despite having not heard from the King via raven in some time) offered to send troops/supplies to assist the King in sieging the Tower.
+	- In an attempt to avoid total bloodshed, the Coalition (despite having not heard from the King via raven in years) offered to send troops/supplies to assist the King in sieging the Tower.
 		~ Their plan (and terms) were that the wizards remain unharmed. They wanted to see a (more) peaceful end, via starving the wizards into submission.
 		~ They also insisted that the King offer amnesty to all the wizards when they ultimately lost.
 	- Obviously, the King and his son instead chose to violently attack the wizards in the night, triggering the Great Explosion.
-111. "Your cowardice betrays you. Who else has it betrayed?"
+111. "Your cowardice betrays you, Jester. Tell me... who else has it betrayed?" *wicked smile*
 112. Have a dialogue choice that's between [Run.] and [RUN!!!].
 113. Final dialogue choice for the player as they die.
 	[Bury me.] or [Burn me.] (perhaps 'Cremate' is a better term)
@@ -1798,7 +1828,7 @@ Concepts:
 	- It will also result in the player having a brief segment where they must explore and fight by themselves (without the abilities of party members).
 	- Reasons party members don't jump in to help:
 		Jester = Cowardice, he fears himself dying.
-		Neera = "I can't swim. Besides... My foresight has only shown me dry on these shores."
+		Neera = "I can't swim. Besides... My foresight has only shown me dry on these shores. I couldn't have gone in after you."
 		Alexandros = ??? (perhaps this event should occur before reaching him)
 121. Conversation with the Void at the end
 	- Void: "Welcome back to the fold, hero. You've surpassed all expectations to make it this far."
@@ -1813,6 +1843,35 @@ Concepts:
 	- You: "So it was all in vain? Why even send me on such a quest?!"
 	- Void: "We did not revive you. That was humanity's doing..."
 	- Void: "You should abandoned these notions, lest they become an unbearable penance."
+122. The latter half of the game should have significantly more emotionally broken characters.
+	- People who are insane or hostile.
+	- Those who have come to terms with their agony, and choose killing or death.
+123. What if there were letters you could uncover that detailed the Great War? And the Prince's journal of it.
+	- Would be difficult to elegantly incorporate these notes into the world, though.
+124. Conversation with the Bandit Queen (Vivian) at the end (Finale)
+	* She sits atop the throne, flanked by some of her bandits.
+	- Vivian: "Welcome, warrior. I had high hopes you would return to me. My scouts tell me you ventured into the Aether Ruins."
+	- Vivian: "Tell me. What were you doing that far East?"
+	- Aylmera: "Nothing important to you."
+	- Vivian: "... Still playing hard to get?"
+	- Vivian: "Before his demise, the late King told me of your quest."
+	- Vivian: "Seems it was a resounding success, given you're still in one piece..."
+	- Aylmera: "Save it. You got both your revenge and control of the Kingdom. What more could you want?"
+	- Vivian: "I'm offering you... and your friends... a partnership. With the undead threat handled, we can work together to restore order to this realm."
+	- Jester: *Laughing* "Ahahaha! AHAHAHAHA! She doesn't know! Tell her Aylmera! Hahaha!!!"
+	- Jester: *Crying* "Tell her how she'll burn along with this castle. Go on..."
+	* Vivian is angrily confused (?!)*
+	- Aylmera: "Vivian... It doesn't work like that. The undead are still out there. Their numbers might not be growing, but..."
+	- Alexandros: "There's no one left, Bandit. Whose soldiers would you call upon to protect this castle? Every army is scattered."
+	- Neera: "He's right. Your militia is weakened, the royal guard's decimated, the Lord's army is reeling. Even the monastery monks had their ranks broken."
+	- Neera: "You've no possible army to draw soldiers from against the remaining undead horde."
+	- Vivian: "What?! You all speak lies! These foolish games of intimidation won't work on me!"
+	- Aylmera: "It's no trick. You thought yourself fit to rule, and now you must carry the burden of that crown."
+	* Aylmera smiles *
+	- Aylmera: "What say you, oh magnificent Queen of all that is Dust and Ash? What is your first royal decree?"
+	- Vivian: "..."
+	- Vivian: "To purge my throne of heretics."
+	* Combat/Engagement starts *
 
 Misc Dialogue for encounters:
 ===============================
