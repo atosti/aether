@@ -9,6 +9,8 @@ Simple things to Work On:
 	- Also design a 4 tile sprite for him.
 17. Build out the actual menu options.
 	- Design an inventory system that can hold key items, and equippables (weaponry).
+	- Key Items:
+		a. Earth, Water, Wind, Fire, and Aether orbs
 18. Design a landscape scene with panning and parallax
 	- Just do it as a proof of concept for now, then incorporate it into zone transitions later as the map is fleshed out.
 19. Draw a cutaway scene for a roaring fireplace.
@@ -1880,6 +1882,7 @@ Concepts:
 		~ This kills the opponent, effectively reversing what WOULD have been the outcome.
 	- The surviving warrior is both thankful and distraught. His win is not earned. His shame is overwhelming. And he feels hate and betrayal from his ally.
 		~ Such is the burden of the victor. It is the dead who have the easiest job of all. 
+126. "It's always the thieves who are most concerned with issues of theft."
 
 Misc Dialogue for encounters:
 ===============================
