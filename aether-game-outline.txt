@@ -31,8 +31,6 @@ Simple things to Work On:
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
 	- And assign it to the NPC in the War Room.
-41. Design the Armory which will give you some starting gear for free if you stop by.
-	- This is optional.
 44. Finish the King's dialogue for when you have the Jester in your party.
 47. Flesh out Alexandros' backstory somewhere
 	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
@@ -1041,7 +1039,6 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ Basically, new undead aren't being created. But the pre-existing undead still shamble the landscape.
 	- The Spirit of Aylmera thanks them regardless, and says she must stay to protect the balance of the elements.
 	- The party leaves.
-45. 
 
 
 XX. Figure out what that final step is. Where they need to go, and how they need to return to the Aether Ruins.
@@ -1136,13 +1133,18 @@ Concepts:
 13. Swearing fealty to the King or not.
 14. What if it had a Synthwave chiptune soundtrack?
 	https://watchoutforsnakestheband.bandcamp.com/album/dis-integrate
+		- Alt Link: https://www.youtube.com/watch?v=DnMQAyCv0hc&list=OLAK5uy_n4qEMeeW5YX7ABN3RbA7i4GG_D6eBuzGQ
 		- Whole album is good, but Time (Never Enough) is esp. good energy
+		- Awake is also a good introspective tone
 	https://samaleums.bandcamp.com/album/enter-the-megadungeon
+		- Ascend The Tower has some good duties that seem to move in like a sign wave
+		- Die has a good sound for something that could work as a Game Over screen
+			~ Seems to use a violin + 4 notes on a duty for most of the track
 15. Player is ambushed by a bossfight by a boss riding in on horseback out of nowhere and triggering the fight.
-16. "Hope is the only form of survival"
+16. "Hope is the only form of survival."
 17. "Workers yearning to build"
-18. Lightning starting fires at unprecedented rates
-19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers.
+18. Lightning starting fires at unprecedented rates.
+19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
 20. Deciding whether to slay or spare enemies after fighting them in a JRPG battle.
 	- Could have some characters ask for death. For honor, or because their armies are already decimated by you.
 	- Others could beg for life.
@@ -1158,7 +1160,7 @@ Concepts:
 25. "There are no heroes. Everyone has a skeleton... or two."
 26. What if there were simulated "loading screens" of doors opening like in Resident evil for major zones?
 	- Could easily just destroy the pace and feel sluggish, but could be worth the experimentation.
-27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble."
+27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble they were before."
 28. Near the end of the game, you fight the spirit of the real Aylmera?
 	- Maybe that's too complicated. But being visited by the voice of, or visions of, Aylmera might be cool.
 	- "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?"
@@ -1168,88 +1170,91 @@ Concepts:
 30. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
 	- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
 31. "The `Great War`? Nothing great about it. A lot of pain, and even more bodies we had to bury. Didn't even have a chance to celebrate our meager victory."
-32. When encountering Marshall, the undead Prince
+32. When encountering Morcant, the undead Prince
 	- Prince: "To create... is to... consume..."
-		~ Alexandros recognizes this as a phrase that Mad Wizard frequently spoke. He's horrified/perplexed why Marshall's remains know/speak it.
+		~ Alexandros recognizes this as a phrase that the Mad Wizard frequently spoke. He's horrified/perplexed why Morcant's remains know/speak it.
 		~ It's likely one of the last phrases uttered by the Mad Wizard before his inevitable demise.
 33. Asking Alexandros why he served the Mad Wizard if the Mad Wizard was such a chaotic man.
 	- Alexandros, smiling longingly:
-		"Everyone only remembers him for the Great Explosion. Even what's left of us wizards remember him as such."
-		"But to be in his presence, and to see what I saw first-hand. He was a miracle-worker."
-		"Though I can't speak to his... mental faculties, he seemed attuned with nature in a way I fail to understand. He was connected to something bigger."
+		"Everyone only remembers him for the Great Explosion. Even what's left of the wizardry fails to remember much more."
+		"But to be in his presence, and to see what I saw first-hand... He was a true miracle-worker."
+		"Though I can't speak to his... mental faculties, he seemed attuned with nature in a way I still fail to understand."
+		"He was connected to something much bigger than the rest of us."
 		"Spying on him one evening, I watched as he, using magic alone, grew a single seed into a magnificent sapling."
-		"I watched intently as its branches sprawled upward higher and higher touching the ceiling until a canopy formed over the entire room."
-		"And just as it seemed it would engulf everything, he stopped it. Then used that same magic to reverse its growth and returned it all back into that seed."
-		"He was crying while he did it. Tears of joy. Smiling and laughing to himself as he worked."
-		"No one in the Realm would agree with me, but I often wonder..."
-		"Knowing what energies would be released in that blast, he still chose to trade it for all those peoples' lives."
-		"If he killed all those soldiers... all of us wizards... maybe he saw something we didn't?"
-		"I can only guess what other world would have instead awaited us. But who's to say it's a better one than this?"
+		"I watched intently as its branches sprawled upward higher and higher touching the ceiling until a canopy formed overtop the entire room."
+		"And just as it seemed it would engulf everything, he stopped it. Used that same magic to reverse its growth and return it back into the seed."
+		"He was crying while he did it. Tears of joy. Smiling and laughing to himself as he worked..."
+		*Alexandros sighs*
+		"I know few in the Realm would agree with me, but I often wonder to myself about the explosion."
+		"Knowing what energies would be released in that blast, he still chose to do it. He traded all thOse lives, even his own, for this outcome."
+		"If he willingly killed all those soldiers... all of us wizards... maybe he saw something we didn't?"
+		"I can't say what other world would have instead awaited us. But who's to say it's a better one than this?"
+		"The Realm has had its fair share of cruel leaders..."
 34. Asking the Jester about his relationship with the King
 	- TBD. They are friends, he truly cares about the King.
-	[How old were you when you met him?]
+	[When'd you first meet the King?]
 	- Jester, pondering:
-	"Let's see... close to 40 years now? I was part of a troupe that performed for him one of his birthdays."
-	"I had recently finished my training as an entertainer, and I was eager to impress. I think he saw that in me, even back then."
-	"Needless to say, my stunts and jokes landed well, and thus he offered me a full-time position in his court. A King's Jester."
-	"Naturally, I was taken aback. Stunned, really, I didn't know what to say. But luckily my Ringmaster was a true friend, and replied for me, knowing better than to squander the opportunity."
+	"Let's see... close to 30 years ago now? I was part of a troupe that performed for him one of his birthdays."
+	"I had recently finished my training at the college, and I was eager to impress him. I think he saw that in me, even back then."
+	"Needless to say, my stunts and jokes landed well, and thus he offered me a full-time position in his court. A Royal Jester."
+	"Naturally, I was taken aback. Stunned, really, I didn't know what to say. But luckily the leader of my troupe was a true friend, and replied for me, knowing better than to squander the opportunity."
 	- Jester, laughing:
-	"I later learned that the King found most funny my lack of modesty. My willingness to ridicule HIM in particular that night."
-	["So how'd you transition from entertainer to advisor?"]
+	"I later learned that the King found most funny my lack of modesty. My willingness to ridicule HIM in particular that evening."
+	["And how'd you transition from entertainer to advisor?"]
 	- Jester, smiling:
 	"They're really much the same role at the end of the day. An entertainer's job is to stay abreast of today's politics."
-	"To make jokes of serious matters. To point out the hypocrisy and lunacy of daily schedule of the Crown."
-	"I earned my fair share of lashings for saying too much... But more often than not, I earned respect for my antics."
+	"To make jokes of serious matters. To point out the hypocrisy and lunacy of the daily schedule of the Crown."
+	"I earned my fair share of lashings for saying too much... But more often than not, I earned respect for my commentary."
 	["That doesn't add up. Even the most revered Jesters don't get to lead armies."]
 	- Jester, sighing:
-	"You're right. The war left us strapped for leadership. And for loyal members of the court. You see, we didn't strike the first blow against the wizards." 
+	"You're right. The war had left us strapped for leadership. And more importantly, for loyalty in the court. You see, we didn't strike the first blow against the wizards."
 	"Prince Morcant had left the castle to recruit soldiers to our army, and the wizards must have known this, because within days of his absence their assassins struck."
-	"Praise the Heavens they failed in their attempt on the King's life. But they took many royal guardsmen, councilmembers, and nobles along with them."
+	"Praise the Heavens they failed in their attempt on the King's life. But they took many royal guardsmen, councilmembers, and even nobles along with them."
 	"So the Crown needed people. As the saying goes, those he 'could trust with both his coinpurse, and his life'. So he asked me to step up as one of his war-time advisors."
 	["And how did you respond to his request?"]
 	- Jester, laughing:
-	"I laughed in his face. I thought he was joking. Sometimes he liked to try and make me laugh, you see. But he was dead serious."
-	"He was... fearful. There were rumors going around about who let the assassins in, whether there would be more attempts. All sorts of things."
+	"I laughed in his face. Thought he was joking. Sometimes he liked to try and make me laugh, you see. But he was dead serious."
+	"He was... fearful. There were rumors going around about who had let the assassins in, and whether there would be more attempts on his life. All sorts of things were in turmoil."
 	"But he was lucky, it turned out I had a knack for strategy. And when my strategies began to win battles, he urged me to command more and more of our army."
 	"In the end, I was on the frontlines of the war. Commanding soldiers in the heartland of the enemy."
 	["I don't get it. If you led troops on the frontlines and personally advised the King on matters of war, why don't the soldiers respect you more?"]
 	- Jester, questioningly:
-	"What's not to get? The Crown is merely a title, it's about what he commands that gives him power and influence."
-	"Our King barely rules the land his castle sits upon. If the soldiers don't respect him, why would they respect his right-hand man?"
-	"It's sad, yes, but the Crown is dying. Everyone sees that. And he's too old to birth a new heir, so everyone's just waiting for him to finally collapse."
-	"Once that happens, they'll each get a chance at sitting atop that throne..."
+	"What's not to get? The Crown is merely a title without an army, it's about what he commands that gives him power and influence."
+	"Our King barely rules the land his castle sits upon. If the soldiers don't respect HIM, why would they respect his right-hand man?"
+	"It's troublesome... but the Crown isn't long for this world. Everyone sees that. Since he's too old to birth a new heir, everyone's just waiting for him to finally collapse."
+	"Once that happens, they'll each get a chance to sit atop that cursed throne..."
 	["Sounds like you're the only loyal one left in the court."]
-	- Jester, sad:
+	- Jester, sadly:
 	"Yes. I suppose I am. It's part of what pains me about leaving his side..."
 	- Jester, crying:
 	"But what am I to do? Sacrifice myself for a man on his deathbed?"
-	"Sacrifice the entire Realm for the safety of one, miserable old man?"
-	"It's a rotten deal he was given. His Kingdom was robbed of every last thing."
+	"Sacrifice the entire Realm for the safety of one, miserable old man?!"
+	"It's a rotten hand he was dealt. His Kingdom has been robbed of everything precious to it."
 	"He sits upon a throne of ashes... God help whoever claims it next."
 	["I'm sure he knows of your profound loyalty."]
 	- Jester, pausing:
-	"I would hope. I've only ever wanted to do right by the Realm. It gets harder to do every day."
+	"I would hope. I've only ever wanted to do right by the Realm. A task that gets harder to do each and every day."
 35. Asking the Priestess about what precisely she sees in the future
 	- Neera, curtly:
 	"I don't see the future all at once, God does not make me privy to such things."
-	"I wonder if even he has such powers himself..."
+	"I often wonder if he even has such powers himself..."
 	"No, instead he offers me guidance. His voices tell me things, and each one shows a different path."
 	[Do they ever lie?]
 	Neera, laughing:
-	"Certainly, some are real troublemakers. God has a beautiful sense of humor."
+	"Certainly, some are real tricksters. God has an incredible sense of humor."
 	"But I've learned to understand his humor, and know which of his voices are sincere."
-	[Voices? Plural?]
+	[He speaks as different people?]
 	Neera:
 	"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
-	"Many times they speak all at once. I've trained myself to selectively listen to those voices behind his words."
+	"Many times they speak all at once. I've trained myself to selectively listen, so as to hear the truth behind his words."
 	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his keeper."
-	"The honeys he produces for me are bountiful. They have yet to lead me astray."
-	[More than bees live in hives...]	(Available after her beekeeper line)
+	"The honeys he produces for me are bountiful. And they have yet to lead me astray."
+	[More than just bees live in such colonies.]
 	Neera, lightly rebuffed:
 	"You mean to imply he works as a wasp? Or perhaps a colony of... molerats?"
-	"Though you mean to besmirch his methods, they are sound."
-	"A hive knows the value of community and working toward a collective goal."
-	"Perhaps our discussion is meant as something for YOU to ponder. Rather than the other way around."
+	"Though you mean to besmirch his methods, I assure you they are sound."
+	"A hive knows the value of communal effort, and how to achieve collective goals."
+	"Perhaps this discussion is meant as something for *you* to ponder. Rather than the other way around..."
 36. The player should walk past Old Scratch (ignoring him) after a while, but he still poses questions that (can) force a response from the player.
 	- Alternately, give the player the option to ignore him (repeatedly).
 	- Would love if I could animate him leaning and smoking.
@@ -1260,7 +1265,7 @@ Concepts:
 	- Old Scratch (earlier on in the story):
 	"Forgive me, but my memory's not as good as it used to be. How many dead is that now? Are we past double-digits?"
 	- Old Scratch (after slaying the lepers):
-	"Lepers. Even I didn't have the heart to do what you did. Is that why you did it? To feel heroic?"
+	"Lepers. Even I didn't have the heart to do what you did. Is that why you did it? To feel merciful?"
 	- Old Scratch (after killing the King)
 	"Heh. You don't disappoint, you know that?"
 	[It wasn't for you.]
@@ -1281,40 +1286,56 @@ Concepts:
 42. More conversations with wizards about their leader:
 	Player: 	"Why did you follow a Mad Wizard?"
 	Sorcerer: 	"Why? Because of all that he knew, and all that he would bestow. The secrets we unlocked in that tower put any incantation you know of to shame."
-				"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the crown had its doubts, but he truly envisioned a utopia for us all."
-	Player: 	"And no one kept him in check?"
-	Sorcerer:	"His skill was unrivaled. And we dare not interrupt his process when the fruits he provided were so bountiful."
-				"As his pupil, I once saw him birth a tree with his bare hands. Twisting the seed to sapling, to branches, and then back again into seed."
-				"He understood things that you and I simply aren't meant to know."
+				"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the Crown had his doubts, but Ignacio truly envisioned a utopia for us all."
+	Player: 	"Yet no one kept him in check?"
+	Sorcerer:	"His skill was unrivaled. And we dared not interrupt his process when the fruits he provided were so bountiful."
 	Player: 	"You seem to still be enamored, despite the obvious casualties."
 	Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
-43. Discussions/Concepts for first encounter with the Hivemind Priestess
-	Priestess: "Excuse me traveler, I'd like a word with you..."
-	*Player approaches the Priestess*
-	Priestess: "I've known of your arrival for some time now. About the undead horde, and your plans to stop it."
-	Jester: "One of the bandits must have come here after fleeing us. They're trying to turn the Realm against us."
-	Priestess: "You would be wrong. It was God who told me of your arrival."
-	Jester: "Excuse me?"
-	Priestess: "God speaks with me often and shares his wisdom. He takes many forms. Sometimes he'll take them all at once. The conversations can be... hard to follow. But his message is always clear."
-	Jester:	"Let's get out of here. She sounds unwell."
-	Player: [Prove it.] [I believe you.]
-	Priestess: *smiles*
-	Priestess: "I assure you I'm as lucid as you are. How else would I know her name to be Aylmera. Or that your companion, Alexandros is responsible for her revival."
-	Priestess: "I was even told of your disagreements. How Alexandros dreams of a future free from the King, while the Jester remains loyal to the old guard."
-	Alexandros: *Shocked exclamation mark* "How did she...?"
-	Priestess: "And you, Aylmera. Where do you stand on all this? Who is fit to rule the Realm?"
-	Player:
-		[The King.]
-		Priestess: "We'll see if that resolve holds strong for the remainder of your journey."
-		[I don't know.]
-		Priestess: "You certainly are of this realm. It's unease permeates even your ancient being."
-	Priestess: "I understand that my methods are... unusual, but I must insist I join you from here forward. Not only is it the will of God, but..."
-	Priestess: *Frowns sorrowfully*
-	Priestess: "In the visions bestowed upon me, I've seen you die a thousand deaths. All 3 of you. Long before your journey is complete. The only outcomes where any of you survive are when I am alongside you."
-	Priestess: "Take me with you, and see your journey to completion."
-	Player:
-		[Ok.]
-		[If you insist.]
+43. First encounter with Neera (Hivemind Priestess)
+	Neera: "Excuse me traveler, I'd like a word with you..."
+	*Neera approaches the player*
+	Neera: "I've known of your arrival for some time now. And I was hoping to speak with you about your quest."
+	Aylmera: "I don't know what you're talking about. We're just passing through."
+	*Neera smiles*
+	Neera: "No need to be coy with me. He's told me everything I need to know about you."
+	Aylmera: "Huh? What's she on about, Jester? You know this woman?"
+	Jester: "I'm as confused as you. What are you talking about, priestess?"
+	Neera: "About the undead horde, and your plans to stop it."
+	*Aylmera is puzzled (?)*
+	Jester: "Damn bandits must've spread the word... Careful Aylmera, she might be one of their scouts!"
+	Neera: "You would be wrong. It was God who told me of your arrival."
+	Aylmera: "Excuse me? *God* told you?"
+	Neera: "Yes. God speaks with me often, sharing his immeasurable wisdom. Though he takes many forms, sometimes all at once, his message is always clear."
+	Jester:	"Let's get out of here. This woman is clearly unwell."
+	Player: [She's a lunatic.] [I believe her.]
+	*Neera smiles*
+	Neera: "I assure you I'm as lucid as you are. How else would I know your name to be Aylmera, and his Sigmund?"
+		"Or that you have a companion, Alexandros, who is responsible for your revival. And is awaiting you in the far North."
+	Jester: "This must be some kind of trick. None of this proves you have foresight!"
+	*Neera sighs*
+	Neera: "He told me you would be difficult to persuade, Jester. Which is why he shared much of your history with me..."
+			"I was told of your devotion to the Crown. And of your friendship with the late Prince."
+			"Even of the promise you made to the King before marching on the Great Tower. The one he whispered in your ear..."
+	Jester: "I've heard enough. You needn't say more."
+	Neera: "How you'd bring his son home alive."
+	Jester: "I said ENOUGH, GOD DAMN IT! Have you no compassion?!"
+			"All that talk of GOD and yet you've nay an ounce of SOUL!"
+	* Aylmera pauses (...)*
+	Aylmera: "Sounds like she's telling the truth, then."
+	Neera: "I must know something, Aylmera. Who do you think is fit to rule this Realm?"
+	[The King.]
+		Neera: "We'll see if that resolve holds strong for the remainder of your journey."
+	[I don't know.]
+		Priestess: "Well, you certainly ARE of this realm. It's unease permeates even your ancient being."
+	Neera: "I understand that my methods are... unusual to say the least."
+		"But I must insist on joining you two from here onward. Not only is it the will of God, but..."
+	* Neera frowns sorrowfully*
+	Neera: "In the visions bestowed upon me, I've seen you both die a thousand deaths. Long before your journey is complete."
+		"The only outcomes where anyone survives are when I am by your side."
+		"Take me with you, so that we may see your journey to its conclusion."
+	Aylmera: "Sounds like we've little choice in the matter. It's a pleasure to meet you... Miss?"
+	Neera: "Neera. I'm a Monastery priestess."
+	* Neera has joined the party! *
 44. Conversation with soldiers from the War
 	Soldier: "No King can rule ashes. Even our enemies recognize that."
 	"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
