@@ -1346,18 +1346,48 @@ Concepts:
 45. General comment from Neera, the Hivemind cleric:
 	"I had to lose an eye before the hidden truths revealed themselves to me. How much do you think you'll have to lose before YOU see clearly?"
 46. A medical priestess who patches you up partway through the game:
-	"Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient. I fear you, as I know I should. Do you fear for us?"
+	* Perhaps she is who mends you after her group rescues you from drowning in the river.
+	Nurse: "Warrior, you're awake!"
+	Aylmera: "Ugh, my head..." 
+	[Who are you?]
+		Nurse: "I'm a priestess. Medically trained. I healed your wounds. Some of the men found you by the riverbank and brought you in..."
+	[Where am I?]
+		Nurse: "Atro. A small village that runs along the river. Some men found you by the riverbank and brought you in..."
+	* Nurse pauses (...) *
+	Nurse: "Look. I've never been one for deception, so I'll just be blunt."
+	Nurse: "Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient."
+		"I don't know where you're from, warrior, but you scare me. Just what are you...?"
+	Aylmera: "I'm undead."
+	* Nurse is alarmed (!) *
+	Nurse: "What?! Nonsense. You're no dessicated husk. I've seen the handiwork of many a necromancer before."
+	Nurse: "Nor are you ready to rip me limb from limb, so you're hardly Aetherial. No, you're indeed quite lucid."
+	Aylmera: "I speak no lies. A powerful wizard brought me back from the dead. I'm the hero Aylmera."
+	Nurse: "Oh my. Your injuries must have been more severe than I realized."
+		"Delusions like this are rare, though not unheard of. Let me see what medicines I have to treat you..."
+	Aylmera: "I assure you. I'm of sound mind. I was revived on the King's orders. I'm to assist him in saving the Realm."
+	Aylmera: "..."
+	Aylmera: "I might be the only one who can stop the undead horde."
+	* Nurse pauses (...) *
+	Nurse: "Oh. Oh my... I don't know what to say. To think such a thing is even possible..."
+		"My grandfather once built a shrine to you. Said you were the last good thing to happen to the Realm."
+		"If you really are who you say, then be wary of who you tell your story." 
+		"These lands are hardly friendly to the King, let alone wizards and their experiments."
+	Aylmera: "I'll keep it in mind. Thank you for healing me."
+	Nurse: "Do take things slow, hero. You've been out cold for a few days. Your success may depend on your patience."
+	* Aylmera gets out of bed. Player resumes control. *
 47. General note on the impact of the characters
 	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
-		- As such, opporunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
+		- As such, opportunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
 48. A scene where the player falls into deep water and has a dream/hallucination while unconscious.
+	- This should occur before the interaction with the Nurse Priestess.
+	- It should be an interaction with the Void. Where they check-in, and tease, and torment the player.
 49. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
 	- Based on Rufus from Twitter.
 	- Just a cute illustration of a happy pig.
 	- Maybe give the option to pet him, where he gives an "eager oink" as thanks.
 50. "Only the dead can purge the sins of the living."
 	- Does this really match what I'm trying to say overall? Does it even add up with the player's actions?
-51. "Lotta blood flows in your wake. 'Course that makes it safer to travel after you..." - The Bard
+51. "Lotta blood flows in your wake. 'Course that makes it safer to travel behind you..." - The Bard
 52. Perhaps combine the Bard and Ol' Scratch into a hybrid character of sorts.
 	- One who perfects their craft as they travel in your wake.
 	- They comment on your actions, with a sinister flair.
@@ -1380,19 +1410,31 @@ Concepts:
 57. As the game progresses the non-human enemies should become more grotesque (flesh golems, etc.)
 	- Meanwhile the humans encountered become more beautiful and/or "civil" on the surface in how they behave.
 		~ This is to underline how their actions are so grotesque and awful, but they are seeming unaffected by their own treachery.
+	- Starting with Lepers and Vivian (who is maimed) kind of aligns with this.
+	- Moving to the Lord and the Monastery also works well for it.
+	- Overall, this is a difficult theme to accomplish and seems a bit of a lofty goal.
 58. Encountering the statue of Aylmera should trigger a cutaway to a full screen view of the statue along with a text description.
-	- "Before you stands a statue of a woman adorned in decorative armor. It's comprised of intricately woven armored scales, and it drapes over her body beautifully."
-	- "Her posture is that of an elegant fighter, with a face that is fierce yet soft. She is the most beautiful woman you have ever seen. And she looks nothing like you."
 	- "The inscription reads: 'In memory of Aylmera, Martyr of Antiquity and Hero to the Realm.'"
-		~ Perhaps this should be revealed somehow BEFORE seeing the statue, so that the final line can be "And she looks nothing like you."
+		~ Reveal this detail BEFORE the description of the statue below, so the final line is "...she looks nothing like you."
+	- "Before you stands a statue of a woman adorned in decorative armor. Its metal scales are intricately woven together, hanging cleanly around her graceful body, accentuating her beauty."
+	- "Her posture is that of an elegant fighter, with a face that is fierce yet soft. She is the most beautiful woman you have ever seen. And she looks nothing like you."
 	- The party splits to discuss the obvious discrepancy between you and "your" statue.
 		~ Two main responses could be: [Flattered.] or [Confused.]/[Concerned.]
-59. "I would kill you all if only to free myself."
+59. "I would kill you all if only to save myself."
 60. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
+	Jester: "His mouth is gagged, can't we just leave him here?"
+	Alexandros: "And what happens when he gets free? He'll shout incantations causing all sorts of damage!"
+	Alexandros: "We have to kill him. It's the only moral thing to do."
+	Neera: "Cut his tongue."
+	* Jester and Alexandros both turn and are alarmed (!) *
+	Jester: "Huh? Why would we torture the poor guy?!"
+	Neera: "Cut his tongue off and he'll get to live. You can't cast spells without a mouth to speak them."
+	Alexandros: "Neera... That's pretty fucked up."
+	Jester: "Moreso than murdering him in cold blood? What do you think, Aylmera?"
+	[Execute him.]
+	[Cut his tongue.]
 61. Instead of HP use "Morale".
-62. Instead of player "Death" have party "Dishonor".
-	- Perhaps even a defeat screen that says "Dishonored".
-	- Also have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
+62. Have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
 63. Each of the main areas (dictated by having a unique Boss) should have an overall theme to the plot.
 	- Castle = Neglect/Ruination
 		~ Everything should have an aire of falling apart.
@@ -1421,6 +1463,8 @@ Concepts:
 	- Swamp = Mystery/The Unknown
 		~ This is also where the player begins to LEARN of their own mystery (their identity).
 	- Coastal Village = Loss/Abandonment/Hopelessness also Judgment Vol. 2
+		~ Undead soldiers rising from the sea to fight you shows the magnitude of the Aetherial threat.
+			~ Illustrates how this might just be a hopeless endeavor if so much has already been destroyed.
 		~ The mass suicide shows the hopelessness as well as the loss of life.
 		~ The evident famine shows the loss of basic needs.
 		~ The party themselves must take the orb and leave, abandoning the bodies and the memories of the villagers.
@@ -1454,21 +1498,15 @@ Concepts:
 			~ But at the end, they realize they've killed everyone CAPABLE of even ruling it.
 			~ The only thing left is "To return it to dust and ash." ("Ye whose bones belong as DUST and ASH.")
 				~ You should utter this phrase to the Bandit Queen.
-64. Design a Title Screen background
-	- "Ruins of Aether"
-	- Stylize it after Medieval Manuscripts?
-	- Have the wreckage of the Great Tower shown in the distance?
-	- Maybe have the ruined castle (where you spawn) in the background.
-	- Perhaps have an eagle-eyed view of the the map
-		~ Castle, forest to the west, ruins to the east, Mountains to the North
-	- Use color, black and white isn't enough.
 65. For some key fights use a unique battle scene, one that's larger or has obstacles inside of it.
 	~ Perhaps even use different ones for different world environments.
 	~ This will change things up AND can be used to throw off the player to create a more pressing fight.
 66. The Lord has weaponized the Church.
 	- And in turn the Church has allowed itself to be weaponized.
 	- The main religious leader (a cardinal-esque figure?) stands at odds to Neera.
-		~ Neera to them: "God speaks ill of you. He even agrees with himself on that."
+		~ Neera: "God speaks ill of you. He even agrees with himself on that."
+		~ Cardinal: "Listen to yourself, Heretic! You speak nonsense as though it were scripture!"
+					"It will be a mercy to send your soul to the afterlife."
 67. Change the color of enemies (their palettes) to show they're vulnerable in combat.
 	- E.g. a character could swap to a different color when exhausted, or when there's an opening in their pattern.
 	- Otherwise, have them be invulnerable.
@@ -1480,14 +1518,11 @@ Concepts:
 	- Is it a dark cavern? Maybe use darker blacks/grays/blues.
 	- Is it well light and outdoors? Use warmer reds and oranges.
 	- Is it a spooky or alien area? Color them in strange, luminscent greens.
-72. What if there were multiple different battle scenes? In that the background changed.
-	- This would allow different fights to have totally different arenas which match the Boss or enemies being fought.
-	- Could also add in ways for the environment being used to defeat opponents (if that's a desired gameplay route).
 73. As the player moves further away from the main castle (and the story progresses) the built structures should be more worn down.
 	- So adjust tilemaps to have floor tiles missing pieces, or fenceposts broken, etc. etc.
 	- The one exception should be in the Lord's land, where everything is well-maintained.
 74. Color interactable objects differently from their backgrounds to make it obvious they're interactable.
-75. "Peace cannot stem from an occupied throne. May its seat remain empty forever."
+75. "Peace cannot stem from an occupied throne. May its seat remain forever empty."
 76. What if Aylmera's body began to deteriorate over the course of the story.
 	- This would force urgency, and a feeling of despair.
 	- Could start with things like minor bleeding, and end with limb paralysis and similar things.
@@ -1507,19 +1542,22 @@ Concepts:
 	- The player needs to reasonably be able to interpret that Silencing the living's burden means bringing peace to the Realm.
 	- This allows the player to die near the end of the game and bring the story some solid closure.
 77. "I am still a beast whose actions are dictated by stimuli."
-78. "Killers make poor leaders."
+78. "Killers make terrible leaders."
 79. Add a "Book of the Dead" to the castle chapel, which has its most recent entries in the current year.
 	- Notably, it includes "Morcant", the prince of the realm.
+	- Or perhaps it notably EXCLUDES him, as his body was never recovered?
 80. Add stained glass windows to the chapel, each detailing a piece of the Realm's history.
 	- Have at least one relate to the escapades of Aylmera in her past life.
 81. Thoughts to hear/experience from the void:
-	- "When the curtain finally falls on your forlorn existence. I wonder, for whom will you cry?"
-	- "How will death find you in your final moments? Steadfast?"
+	- "When the curtain finally falls on your forlorn existence. For whom will you cry?"
+	- "How will death find you in your final moments? Steadfast? Broken? Unwilling?"
 82. Have a character that just insults you offhand, and then give the options:
+	- Ideally, have this be after the player has gone through some real brutal/rough part of the story.
+		~ It should be at a moment when they don't feel like taking shit from anyone.
 	- [Kill him.] or [I'm not a psycho.]
 	- To be clear, there should be no real reason to kill this person. It's a gross over-escalation.
 		~ It's meant to be a bit of a funny interaction.
-83. "You ever heard the story of the Great Phoenix? A mythical bird that burned to a crisp, yet birthed anew from the ashes."
+83. "You ever heard the story of the Great Phoenix? The mythical bird that burned to a crisp, yet was birthed anew from its ashes."
 	- "Though miraculous, it was the last of its kind. People say it went mad searching for a mate."
 	- "It would sing its mating call deep into the night, awaiting a reply that never came."
 	- "Such is the fate of those who outlive their kin. They are doomed to wander an aimless path alone."
@@ -1539,39 +1577,45 @@ Concepts:
 88. Create an animation for Alexandros casting a magic spell (for use in the intro scene)
 	- Have it be that both his hands are extended in front of him, with orbs of energy coming off them. (He'll be pointed at Aylmera as he's the one reviving her.)
 90. What if the real Aylmera never served the King's lineage? What if he is the descendant of her long-time enemies?
-	- But due to her beloved nature, they simply incorporated her as part of "their" realm. To prevent her from being a martyr.
+	- But due to her beloved nature, they simply incorporated her as part of "their" realm. To prevent her from becoming a martyr.
 	- This would give the Spirit of Aylmera reason to distrust the party even further.
 91. Conversation with the artist (Giovanni) about the Mad Wizard and his role in the Great Explosion
-	- Aylmera: "Why did he blow it up?"
-	- Giovanni: "Fuck do you think? He saw what came next. Opted for a roll of the dice instead."
-	- Alexandros: "How could you be certain of that? Did he tell you such a thing?"
-	- Giovanni: "I can't be certain, not 100%. But a man like that? With such mastery of his talents? The explosion was no accident."
-	- Alexandros: "At least on that we agree."
-	- Jester: "I still don't understand."
-	- Neera: "I do. Seeing ahead into the future... it's easy to find unwelcome truths. Routes and paths you'd never wish to venture."
-			 "Outcomes you'd prefer to avoid. But some are easier to prevent than others. Perhaps he was simply out of options."
-	- Alexandros: "Assuming that's true, do you think he could have known what came next following his actions?"
-				  "Could he have foreseen the way things would be now? Is that how you see, Neera?"
-	- Neera: "No... No. What I envision is glimpses of different pathways. Rarely do I see much all at once."
-			 "Imagine it like a series of doors. I can spend time glancing inside a handful, and if I see something I dislike, then I can slam it shut in the present."
-			 "But to look inside every door, well, that would take an eternity. I can only look ahead as long as I spend time meditating on such possibilities."
-	- Giovanni: "Wizard. Did you ever see your mentor control time? Such a practice might have allowed him to see further."
-	- Alexandros: "No. Not like that. Brief moments of time distortion, yes. But not something over a prolonged period."
-	- Jester: "So he took a gamble on a future he didn't know, instead of an awful one of which he was certain?"
-			  "Then it's possible he made the wrong decision."
-	- Alexandros: (Angry) "It's just as possible he made the right one."
-	- Neera: "Gentlemen. Bickering will get us nowhere. All we have is each other."
-	- Jester: "*Sigh* You know, Alexandros. When you arrived at the castle, despite your side being beaten and downtrodden, you held on to your old beliefs."
-			  "Many of the others seeking refuge groveled and apologized to the Crown. Must've felt guilt for what had been done. But not you, you remained loyal to the Mad Wizard and his teachings."
-			  (Laughs) "I held great contempt for you. Even advised the King to turn you and your kind away. Said you weren't worth the trouble."
-			  "However. I see now that you and I are two sides of a coin. Both committed to faith in our ideas and leadership."
-			  "Albeit following different masters, our technique is much the same. With intentions to match."
-			  "As such, I truly doubt we are contrary to one another."
-	- Alexandros: (Pauses (...)) "I appreciate that. It's been difficult to find like-minds after the explosion."
-				  (Crying) "We lost... so much in those fires. Guess I never really got a chance to mourn it..."
-				  "We should get going. Thank you, Giovanni. For your insights."
-	- Giovanni: (Light smile) "The pleasure was all mine."
-	If attempting further dialouge with Giovanni: (There's nothing more to say.)
+	Aylmera: "Why did he blow it up?"
+	Giovanni: "Fuck do you think? He saw what came next. Opted for a roll of the dice instead."
+	Alexandros: "How could you be certain of that? Did he tell you such a thing?"
+	Giovanni: "I can't be certain, not 100%. But a man like that? With such mastery of his talents? The explosion was no accident."
+	Alexandros: "At least on that we agree."
+	Jester: "I still don't understand."
+	Neera: "I do. Seeing ahead into the future... it's easy to find unwelcome truths. Routes and paths you'd never wish to venture."
+		"Outcomes you'd prefer to avoid. But some are easier to prevent than others. Perhaps he was simply out of options."
+	Alexandros: "Assuming that's true, do you think he could have known what came next following his actions?"
+		"Could he have foreseen the way things would be now? Is that how you see, Neera?"
+	Neera: "No... No. What I envision is glimpses of different pathways. Rarely do I see much all at once."
+		"Imagine it like a series of doors. I can spend time glancing inside a handful, and if I see something I dislike, then I can slam it shut in the present."
+		"But to look inside every door, well, that would take an eternity. I can only look ahead as long as I spend time meditating on such possibilities."
+	Giovanni: "Wizard. Did you ever see your mentor control time? Such a practice might have allowed him more time to see more options..."
+	Alexandros: "Yes, but also no. He performed brief moments of time distortion, yes. But I never witnessed something over a prolonged period."
+	Jester: "So he took a gamble on a future he didn't know, instead of an awful one of which he was certain?"
+		"Then it's possible he made the wrong decision."
+	Alexandros: (Angry) "It's just as possible he made the right one."
+	Neera: "Gentlemen. Your bickering serves no one. Remember that all we have is each other."
+	* Jester pauses (...) *
+	Jester: "*Sigh* You know, Alexandros. When you arrived at the castle, despite most the wizards being beaten and downtrodden, you held on to your old beliefs."
+		"Many of the others seeking refuge groveled and even apologized to the Crown. Must've felt guilt for what had happened."
+		"But not you, you remained loyal to the Mad Wizard and his teachings."
+	* Jester laughs *
+	Jester: "I held great contempt for you. Even advised the King to turn you and your kind away. Said you weren't worth the trouble."
+		"However. I see now that you and I are two sides of a coin. Both committed to faith in our ideas and their leadership."
+		"Albeit following different masters, our technique is much the same. With intentions to match."
+		"What I mean is... I truly doubt we're that contrary to one another."
+	* Alexandros pauses (...) *
+	Alexandros: "I appreciate that. It's been difficult to find like-minds after the explosion."
+	* Alexandros starts crying *
+	Alexandros: "We lost... so much... in that fire. Guess I never really got a chance to mourn it."
+		"We should get going. Thank you, Giovanni. For all your insights."
+	* Giovanni smiles lightly *
+	Giovanni: "The pleasure has been all mine."
+	- If attempting further dialogue with Giovanni, display: "There's nothing more to say.""
 92. Main internal conflicts for each party member to come to terms with
 	a. Aylmera = Who she actually is, and what she needs to do to redeem her soul.
 	b. Jester = Who should rule the Realm when the King is now unfit? How should be be removed from power when he isn't evil?
@@ -1586,24 +1630,40 @@ Concepts:
 		~ In a sense, he's debating the question of progress. Magic has tangible benefits, but they only seem to be used for harm. How can such a thing be repurposed only for good?
 		~ And furthermore, WAS the Mad Wizard good? Or was Alexandros duped by him all along? He still holds faithful, but has serious doubts festering.
 93. Bossfight dialogue with Velazquez
-	- Velazquez: "Well now, what have we here? Two lovely ladies waltzing in unannounced?"
-				 "Sweethearts, I could use girls like you. Many of my best men hate women."
-	- Aylmera: *Bored*/*Neutral* "Sounds like they're not the best."
-	- Velazquez: *Smiles* "Care to find out?"
-	* Combat with some of his lackeys ensues.* *Following happens after player wins.*
-	- Velazquez: "My oh my. I underestimated your prowess. Who taught you to use that blade? "
-	- Aylmera: "We're just here for the wizard. And the stone. Nothing more."
-	- Velazquez: *Laughing* "Hahaha! The bitch thinks she can make demands of *ME*!"
-		"I can't wait to bestow some obedience upon you, darling."
-		"Bring me the swordsman alive. Dispatch the others."
+	* Note: I think Alexandros should be broken out of jail
+	Velazquez: "Well now, what have we here? Two lovely ladies and a jester waltzing in unannounced?"
+		"It must be my lucky day, my men are in dire need of fresh entertainment."
+		"And it just so happens that some of my best men..."
+		"Hate. Women."
+	Aylmera: "Sounds like they're not the best men."
+	*Velazquez smiles*
+	Velazquez: "Would you care to find out?"
+	Velazquez: "Men, kill these fools."
+	* Combat with some of his lackeys ensues.* *The the following dialogue after player wins.*
+	Velazquez: "My oh my. I underestimated your prowess. Who taught you to use that blade?"
+	Aylmera: "We're just here for the orb. Nothing more."
+	*Velazquez laughing *
+	Velazquez: "This bitch thinks she can make demands!"
+		"I can't wait to teach some goddamn manners, darling."
+		"Bring me the swordsman alive. Dispatch the others!"
 	* Second engagement of lackeys ensues.* *Player wins*
-	- Velazquez: *Angry* "Fucking cowards... This is what lack of discipline does to a man. Robs him of ambition."
-				 "He must learn to take what is deserved. Never ask. To rend it from the hands of the unworthy."
-	- Aylmera: [You gonna fight?]
-			   [Quit yapping.]
-	- Velazquez: "Take a handout you fucking bitch."
-	* He grabs Alexandros (who is bound) and tosses him down the stairs into/at the party.*
-	* Bossfight with Velazquez begins*
+	*Velazquez is angry *
+	Velazquez: "Fucking cowards. You see? This is what lack of discipline does to a man. Robs him of his ambition."
+		"He must learn to take what he's deserved. Nevering stopping to ask. He must rend it from the hands of the unworthy."
+		"Lest he find himself lacking. Don't you agree?"
+	[Man, shut up.]
+	[I'm gonna maim you.]
+	* Bossfight with Velazquez begins* *Player wins*
+	Velazquez: "*cough* What's... the matter...? Can't... finish... the job...? *cough cough*"
+	[Leave him.]
+		Velazquez: "Heh... Knew you... lacked the courage..."
+	[Dismember him.]
+		"(You slice off both of his arms. And then both of his legs. He screams in pain.)"
+		*Velazquez screams in pain.*
+		Jester: "What the hell are you doing, Aylmera?!"
+		Aylmera: "It's for his men. This is the only type of message his kind will understand."
+		* Jester is shocked/horrified. *
+	Interacting with Velazquez's body: "(He can no longer speak. He'll succumb to his wounds shortly.)"
 94. At the encounter with Velazquez, he should give his elemental stone to the High Priest, who promptly leaves with it.
 	- Velazquez basically saying, "Take it, I'll handle these pawns from the King in the meantime."
 	- The party should see this exchange happen, and watch the High Priest leave with it. Meaning they're left fighting solely for their and Alexandros' survival.
@@ -1614,7 +1674,7 @@ Concepts:
 			~ But the church itself should be established as evil. What if it's the reversal? She's cast out for not reforming her beliefs to match theirs.
 			~ But what ARE the church's core guiding principles? This needs to be elaborated on.
 95. "My Gods are older than you. Older than your empire. Older than honor itself. You've no right to dictate their will."
-96. "It's called a bastard sword for a reason. One mistake with it, and you'll leave your sons fatherless. Well, not in your case. But you get the point."
+96. "It's called a bastard sword for a reason. One mistake with it, and you'll leave your sons fatherless. Well, not in your case. But you get the idea."
 97. "Your presence dishonors us."
 98. "You better not fucking fail us. Not that it matters."
 	- Misc. Realm soldier aware of Aylmera's journey.
@@ -1622,22 +1682,23 @@ Concepts:
 	- Stated by the Quartermaster when he gives you starting gear in the castle armory.
 100. The party stands above a cliff, overlooking the starting castle, now on fire. They're enroute to it.
 	- Party stares in silence for a second or two.
-	- Jester: *pauses* "The castle..."
-	- Neera: "Do you think we'll make it in time?
-	- Jester: "No."
-	- Alexandros: "No."
-	[Yes.]
-		*All other party members turn to look away from the view, staring at Aylmera.*
-		- Neera: "I must admit. Even *I'm* not optimistic about this one. My foresight eludes me."
-		
+	*Jester pauses (...)*
+	Jester: "The castle..."
+	Neera: "Do you... think we can make it in time?"
+	Jester: "No."
+	Alexandros: "No."
 	[No.]
 		*Whole party keeps staring at the castle.*
-	- Alexandros: *turns to face the Jester* "We can stop who's responsible for this, Sigmund."
-	- Jester: "No... No, the one responsible is the Crown. And he's likely dead in that castle."
-	- Alexandros: "Still, I just mean that we can-"
-	- Jester: *turns to face Alexandros* "I know. But this was always the outcome."
-	- Jester: "Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
-	- Jester: "Alas. There's nowhere to go but forward."
+	[Yes.]
+		*All other party members turn to look away from the view, staring at Aylmera.*
+		Neera: "I must admit. Even *I'm* not optimistic about this one. My foresight eludes me."
+	Alexandros: *turns to face the Jester* "We can stop who's responsible for this, Sigmund."
+	Jester: "No... No you can't. The one responsible is sitting atop that throne... The one responsible is the Crown."
+		"And he's likely sitting in that castle, dead as a doornail..."
+	Alexandros: "Still, I just mean that we can-"
+	Jester: *turns to face Alexandros* "I know. But this... this was always the outcome."
+		"Whoever landed the final blow is unimportant. But I must know what has become of him... For certain."
+		"And alas... there's nowhere to go but forward."
 101. "THEY'RE ALL WASHED UP AND DOING BAD, NOT ME THOUGH!" - Comedic line from a random NPC somewhere.
 102. Have the soundtrack for the Monastery boss fight sound similar to Monk chants.
 	- https://www.youtube.com/watch?v=W-hrBhA4XkM
@@ -1647,68 +1708,73 @@ Concepts:
 	Aylmera: "I must know... Will the Realm survive without me? Were my actions in vain?"
 	Void: "It is not our position to judge such a trivial matter."
 	Aylmera: "But you *do* know the answer."
-	Void: "...Of course. Such judgements do not concern thee."
-	Aylmera: "Tell me. I beg of you."
+	Void: "...Of course. Yet such judgements do not concern thee."
+	Aylmera: "Tell me. I beg of you!"
 	Void: "...Thy soul is redeemed. Be free from the bondage of thine memories."
-	Void: "Lest ye be driven mad with anguish. Wandering amidst the chaos."
+	Void: "Lest ye be driven mad with anguish. A ghost amidst the chaos."
 	- Additional questions the player could ask:
 	[Who will claim the throne?]
-	Void: "Someone unfit for leadership."
+		Void: "Someone unfit for leadership."
 104. "Death is inescapable, why isn't pain?"
-	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presense all the more agonizing.
+	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presence all the more agonizing.
 	- If it were truly inescapable, then it might be easier to deal with. As there'd be a comfort in the inability to do anything about it.
-	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their pain?
+	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their own suffering?
 105. "It is oft civility which betrays our deepest hostilities."
-	- Misc line. It means that when someone is civil is when they're typically being the most aggressive.
+	- Misc line. It means that when someone is civil is when they're typically being the most hostile and aggressive.
 106. General note on the Jester
 	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
 	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
-108. A conversation with the countrymen on the opposite end of the Aether Ruins
-	* If possible, give this character a custom avatar and sprite. Make him feel important, but give the player no idea WHY.
-	- Called out from the garrison: "What the... You there! HALT! Don't take another step further."
-	- *Aylmera stops walking* *Party appears from her, flanking her sides*
-	- Guardsman: "Who are you? What do you want?"
-	- Aylmera: "We're... just travelers. We come on behalf of the Crown."
-	- Guardsman: "..."
-	- Guardsman: "Stay put. I'm coming outside."
-	- Guardsman: "*muffled* ...Don't open it again until I give the word..."
-	- *Large garrison door creaks open, with a single man exiting, before it promptly shuts behind him*
-	- Guardsman: "*The man looks you up and down, with a discerning eye.* What do you want?"
-	- Aylmera: "I'm sorry, I don't understand... How... are you here?"
-	- Guardsman: "How are we here?! How are YOU here? WHY are YOU here?"
-	- Aylmera: "We're just... passing through."
-	- Guardsman: "No one 'passes through' that hellscape out West. So I ask you again: Why. Are. You. Here?"
-	- Aylmera: "I suppose we were hoping to... enter through your gate?"
-	- Guardsman: "No. Absolutely not."
-	- Guardsman: "I have been stationed here since the day your tower erupted into blue flame. And in all that time, not a SINGLE human has ever approached us from the West."
-	- Guardsman: "And now, all of a sudden, four people walk out from that wasteland as though it were nothing. 'Simply traveling'. The door stays closed."
+108. A conversation with the Eastern Coalition guardsmen on the opposite end of the Aether Ruins
+	Called out from the garrison: "What the... You there! HALT! Don't take another step forward."
+	*Aylmera stops walking* *Party appears from her, flanking her sides*
+	Guardsman: "Who are you? What do you want?"
+	Aylmera: "We're... just travelers. We come on behalf of the Crown."
+	Guardsman: "..."
+	Guardsman: "Stay put. I'm coming down."
+	Guardsman: "*muffled* ...And don't open it again unless I give the word..."
+	*Large garrison door creaks open, with a single man exiting, before it promptly shuts behind him* (have sound effects for both opening and closing)
+	Guardsman: "*The man looks you up and down, with a discerning eye.* What do you want?"
+	Aylmera: "I'm sorry, I don't understand... How... are you here?"
+	Guardsman: "How are we here?! How are YOU here? WHY are you here?"
+	Aylmera: "Like I said, we're just passing through."
+	Guardsman: "No one 'passes through' that hellscape out West. So I ask you, once again: Why. Are. You. Here?!"
+	Aylmera: "I suppose we were hoping to... enter into your garrison?"
+	Guardsman: "No. Absolutely not."
+	Guardsman: "I have been stationed here since the day your tower erupted into blue flame."
+		"And in all that time, not a SINGLE human has ever approached us from the West."
+	Guardsman: "But now, all of a sudden, four people walk out from that wasteland as though it were nothing."
+		"'Simple travelers' out on a hike. The door stays closed."
 	[You fear us?]
-		- Guardsman: "Not from this side of the garrison. And not with a dozen of my men aiming arrows at your skull as we speak."
+		Guardsman: "Not while you're on this side of the garrison. And not with a dozen of my men aiming arrows at your skull as we speak."
 	[We come in peace.]
-		- Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
-	- Guardsman: "If, as you so boldy claim, you truly serve the Crown, then allow me to relay him a message from the Eastern Coalition:"
-	- Guardsman: "He has failed to commune by way of raven for over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
-	- Guardsman: "And he has failed to contain his Kingdom's conflicts to the confines of his own borders."
-	- Guardsman: "Therefore, he and his lineage are excommunicated, and all prior agreements rendered void."
-	- Guardsman: "Should he make a foolish attempt to arrive within our borders, his it to be promptly executed for his crimes."
+		Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
+	Guardsman: "If, as you so boldy claim, you truly serve the Crown, then allow me to relay him a message from the Eastern Coalition:"
+	Guardsman: "He has failed to commune with us by way of raven for well over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
+	Guardsman: "AND he has failed to contain his Kingdom's conflicts to the confines of his own borders."
+	Guardsman: "Therefore, he and his lineage have been excommunicated, and all prior agreements rendered void."
+	Guardsman: "Should he make a foolish attempt to enter our borders, he is to be promptly executed for his crimes. Any questions?"
 	[The Eastern Coalition?]
-		- Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you mindlessly waged war against yourself."
+		Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you mindlessly waged war against yourselves."
 	[Two dozen seasons?]
-		- Guardsman: "Yes. A little over six years. All of our hails have been met with silence in that timeframe."
-	- Guardsman: "You're lost, friend. This ain't your home, and you are not welcome here. Go back the way you came while you still can."
+		Guardsman: "Yes. A little over six years. All of our hails have been met with silence in that timeframe."
+	Guardsman: "You're lost, friend. This ain't your home, and you are NOT welcome here. Go back the way you came."
 	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
 109. Side note for the Lost Paladin
+	* Note: Give the paladin a custom avatar. Make him feel important, but don't explain or elaborate on why.
 	- In his own story, when he arrives at the Eastern Garrison, he collapses from exhaustion at the gate. The guards inspect his body and intend to destroy it (via cremation).
 	- Except, they notice that his armor bears the insignia of the Eastern Coalition. (As it's where he originally trained.) As such, they bring him inside, and give him medical aid.
 110. Notes on the lead up to the Storming of the Great Tower
+	* Perhaps some of these details can be revealed by finding a tree full of ravens, with notes that were left on the ground by the birds (when the King ignored them).
 	- In an attempt to avoid total bloodshed, the Coalition (despite having not heard from the King via raven in years) offered to send troops/supplies to assist the King in sieging the Tower.
 		~ Their plan (and terms) were that the wizards remain unharmed. They wanted to see a (more) peaceful end, via starving the wizards into submission.
 		~ They also insisted that the King offer amnesty to all the wizards when they ultimately lost.
 	- Obviously, the King and his son instead chose to violently attack the wizards in the night, triggering the Great Explosion.
 111. "Your cowardice betrays you, Jester. Tell me... who else has it betrayed?" *wicked smile*
 112. Have a dialogue choice that's between [Run.] and [RUN!!!].
+	- Would be perfect for a miniboss in the Aether Ruins. Something like a flesh golem.
 113. Final dialogue choice for the player as they die.
 	[Bury me.] or [Burn me.] (perhaps 'Cremate' is a better term)
+	Aylmera: "I won't know peace... until my bones... can be forgotten..."
 114. Crazed man. (This whole thing needs work, but I like some bits conceptually)
 	- "I want out. Look at me, man! I want OUT. Outta this shit! I can't take it anymore. I gotta FUCKING. LEAVE."
 	[Laugh]
@@ -1719,6 +1785,7 @@ Concepts:
 115. The fishing village should have a mass suicide that took place prior to the party's arrival.
 	- It could be in response to all the fish washing up dead. Remnants of offerings to old gods should be seen around.
 	- Starving, some of the people chose to kill themselves. They couldn't flee through the bog as the undead inside proved too threatening.
+	- Additionally, undead sailors started coming out of the ocean ransacking the town.
 	- This village symbolizes the Loss of Hope. An unwillingness to continue onward. It stands in stark contrast to the party.
 	- Encountering the Bloodhound here, amidst the bodies:
 		* Note: The goal is to have him subtley reveal that he thinks Aylmera is the same killer from his past. And despite him knowing it can't be real, he has to be certain. He feels FORCED to kill you.
@@ -1729,18 +1796,18 @@ Concepts:
 		Bloodhound: "I couldn't agree more. Why are you here?"
 		Aylmera: "We've come for that blue orb. Then we'll be on our way."
 		*Camera pans slightly to the orb, atop an altar at the center of the bodies. Bloodhound turns to it, then back to Aylmera.*
-		Bloodhound: "Oh. It's important to you? Sure seems like it was pretty important to all these folks too."
-			"Well, then by all means. Looks like they haven't much use for it now anyhow..."
+		Bloodhound: "Oh. It's important to you? Sure seems like it was important to all these folks too."
+			"Well, then by all means. Seems they haven't much use for it now anyhow..."
 		*Aylmera walks past the Bloodhound, who watches her as she moves, and takes the orb from the altar before walking away*
 		Bloodhound: *sniff* "..."
 		Bloodhound: "You know, I never did tell you this earlier..."
-		* Aylmera turns toward him*
-		Bloodhound: "In my old age, it's often hard to remember things. Especially about my past. About my youth."
+		* Aylmera stops, and turns toward him*
+		Bloodhound: "In my old age, it's often hard to remember things. Especially about my past. And about my youth."
 		Bloodhound: "But when I met you, it all rushed back to me. I couldn't place it at first. It was all jumbled up."
-		Bloodhound: "Now though... Now I remember. I remember my village. I remember that man. I remember his face, his scent, the time of day, everything."
-		Bloodhound: "And I just wanted to thank you for reminding me of who I am. Of why I'm here. One's history is important."
+		Bloodhound: "Now though... NOW I remember. I remember my village. I remember... that man. I remember his face, his scent, the time of day, everything."
+		Bloodhound: "And I just wanted to... thank you... for reminding me of who I am. Of why I'm here. One's history is deeply important."
 		[You're welcome.]
-		[I see.]
+		[Sure thing.]
 		Bloodhound: "But uh... it's really about just that. That history. I know I'm old now, and you're so young... and feminine... and..."
 		Bloodhound: "And, I mean, it's crazy, I know. I just figured you and I could be... I don't know. Nevermind. I'm sorry... "
 		(The goal here is to give the impression that Aylmera/The Player thinks they're being hit on.)
@@ -1748,42 +1815,68 @@ Concepts:
 		Bloodhound: "..."
 		(Talking with him after this point, should also just have him say "...")
 		*Control returns to the player, who walks south to leave, tripping a trigger*
-		Bloodhound: "No... No. I can't let you leave. Not again. If you're not him, then you're OF him. You. Bear. His. Scent."
-		[Excuse me?]
-			Bloodhound: "You REEK of death! More putrid than this whole village!"
-			Bloodhound: "I'm sorry, but I'm *certain* you must be stopped."
-		[Try me.]
-			Bloodhound: ""
-		*Throws a knife or dashes at the player, beginning the engagement*
-
-
-		Bloodhound: *cries* "Before, I was just so lost. So unsure. But now, you've made me certain. I'm sorry, I didn't think I'd get so emotional..."
+		* Camera perhaps pans back to the Bloodhound who walks closer to the player again*
+		Bloodhound: *cries* "Before, I was just so lost... So unsure. But now, you've made me certain. I'm sorry, I didn't think I'd get so emotional..."
 		[I'm honored.]
 		[We must be going.]
-			(Secret, only if 'How so' is also answered above as well)
-			Bloodhound: "Tell me. Do you know what's next?"
-			[Certainly.]
-			[Certainly not.]
+			(Secretish, only if 'Sure thing.' is also answered above as well)
+			Bloodhound: *sniff* "Tell me. Do you know what comes next?"
+			[Of course.]
+				Bloodhound: "And yet you still humor an old man?"
+				*Bloodhound smiles*
+				Bloodhound: "I sincerely hope I'm wrong about you."
+				* Charges into battle, facing the player.*
+			[Of course not.]
+				Bloodhound: "Oh. Right, of course. How foolish of me to even ask..."
+		* Player again gets control and walks south to a trigger.*
+		*Knife flies down toward the player.* (unless they engaged in the battle via the earlier dialogue)
+		Bloodhound: "I can't just let you leave. Not again... I must to be certain."
+		Aylmera: "What the HELL are you talking about?!"
+		Bloodhound: "Quiet, witch! You bear his scent! If you aren't him, then you must be OF him."
+			"I won't be made a fool twice. Not when your stench permeates every inch of this rotten earth!"
+			"Don't you smell it?! I'm sorry... but I'm *certain* you must be stopped."
+		* Dashes at the player, beginning the engagement * * Player wins *
+		Bloodhound: "Maybe I... misremembered his scent..." (Dies.)
+
+	<Misc tidbits that I might rework in later>
 		Bloodhound: *sniff* "Goodbye. I'm sorry."
 		*Control is returned to the player*
 		*Player walks south to exit the screen, hitting a trigger*
 		Bloodhound: "I'm sorry... for what comes NEXT!"
 		* Dashes south across the screen into the player, triggering an engagement*
 			(Alternately, throws a knife at the party, beginning the engagement)
-
 		Bloodhound: "It's oddly pretty, isn't it?"
 		[Yes]
 			BH: "Yes, I thought you'd agree... You're more far gone than I'd first realized."
 		[No]
 116. Conversation with the High Priest
+	* A core theme of the Monastery and the Lord's lands is misogyny. They're awful people.
 	Priest: "You shouldn't be here. You should die and give the living a chance to save themselves. We don't need an outsider interfering with GOD!"
-	Aylmera: "I'm not an outsider. Same as you, I was born in the Realm."
-	Priest: "And you DIED in it. Which is how you should remain. You're an abomination!"
+	Aylmera: "I'm not an outsider. Just like you, I was born in the Realm."
+	Priest: "And unlike me, you DIED in it. Which is how you should remain. You're an affront to God"
 	Neera: "You don't know of God's wishes. His silence has reigned over your church for well over a decade."
-	Priest: "Save your delusions, WITCH! Remember your scripture. During the second century, God was silent for longer than 75 years."
-			"An entire generation of priests remained loyal to their faith alone during the absence of his voice."
-	Neera: "But he communes through ME!"
-	Priest: "HERESY! God does not and HAS not ever communed with women. This is nothing more than a test of our faith. And the church shan't fail."
+	Priest: "Save your delusions, witch! And remember your scripture!"
+		"During the second century, God bestowed nothing but silence upon the church."
+		"For more than 75 years, the papacy relied solely on blind faith for guidance."
+		"An entire generation of priests loyal to a God whose voice they never heard!"
+		"It is not our place to dictate his will. We must wait until he decides to commune with us."
+	Neera: "But he communes with ME!"
+	Priest: "HERESY! God does not and HAS NEVER communed with a woman. This is nothing more than a test of our faith."
+		"And the church shan't fail, over the delusions of some blasphemous witch."
+	Jester: "How else can you explain her foresight if not for the presence of some God?"
+	Priest: "Ah, poor Jester. They've made a fool of you even more than your profession."
+		"You think she's the first to come at my doorstep claiming miracles?"
+		"You've all been made to look fools by a master manipulator. A temptress!"
+	* Neera pauses* 
+	Neera: "..."
+	Neera: "Aylmera...?"
+	Aylmera: "Yes, Neera?"
+	Neera: "God says he needs to borrow your strength..."
+	* Neera turns to face Aylmera *
+	Neera: "He needs you to..."
+		"Burn the high priest."
+	* Aylmera charges into the priest, triggering combat *
+	(Consider having dialogue after about whether God actually asked for that, or if Neera made it up.)
 117. Dialogue with a misc enemy
 	*Perhaps this occurs after they think they've mortally wounded Aylmera.*
 	Enemy: "What was your name again?"
