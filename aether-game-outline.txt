@@ -2002,13 +2002,14 @@ Concepts:
 	- The surviving warrior is both thankful and distraught. His win is not earned. His shame is overwhelming. And he feels hate and betrayal from his ally.
 		~ Such is the burden of the victor. It is the dead who have the easiest job of all. 
 126. "It's always the thieves who are most concerned with issues of theft."
+127. 
 
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies call you 'The Butcher'.
 	Butcher: "No. They don't. It's my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
 		- Alternately: "You heard wrong. It's my friends who call me that..."
-	Butcher: "Given the... opportunity, I wonder which title you'll choose for me." *Smiles wickedly*
+	Butcher: "Given the opportunity... I wonder which title you'll choose for me." *Smiles wickedly*
 	* Engages the player, triggering a battle *
 2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
 	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
@@ -2027,7 +2028,8 @@ Misc Dialogue for encounters:
 		Lord: "You would have liked my father. He'd have led you to a glorious death."
 		[Absolutely not.]
 		Lord: "Then perhaps you are not as much a fool as his King." (referring to the Jester)
-4.  (This occurs shortly after the player has slaughtered the Leper colony.)
+4.  First encounter with the Bloodhound (Hermit) (Old, needs to be reworked as just telling the story, no combat)
+	(This occurs shortly after the player has slaughtered the Leper colony.)
 	*Party passes a hermit sitting alone, in a tunnel by a campfire*
 	Hermit: "You seem tired, please come sit by the fire and rest a moment."
 	Player:
@@ -2062,17 +2064,32 @@ Misc Dialogue for encounters:
 		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
 	[Elif Accept.]
 		Hermit: "I know you can't possibly be him, yet... you bear his remarkable stench."
-5. Ranger: "You can't imagine the volume of death that I saw. That WE saw. We followed that fool and his son into a brutal war. And what was our prize? My arm still lies on that battlefield. Accompanied by the bones of my brethren."
-   Ranger: "There's nothing you can say to change my mind. The King's wishes will only bring us further ruin. As long as you serve him, you must. be. stopped."
-6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something better. A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure. Even the King could see it. And it filled him with immense pride. But the King's hubris led him astray."
-Jester: "He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that exploded the Tower."
-Jester: "I saw the destruction it wrought, not just on the Realm, but on the King himself. He tried to reassemble the crumbling pieces, but it's like they say: A mirror can't be mended with glue."
-Jester: "It's clear he lacks the prowess to remedy the situation. If only the Prince were here in his stead... The Aether robbed us of a deserving King."
-	- The Jester coming to terms with how the King is unfit to rule.
+5. Vivian: "You can't imagine the death that I saw. That WE saw. We followed that idiot King and his son into a brutal war. And what was our prize?"
+		"My arm still lies on that battlefield, along with the bones of my brethren."
+   		"Nothing you say can excuse those facts. The King's wishes brought us to the precipe of ruin."
+		"If you truly serve him, then you must be stopped."
+6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something even better than he."
+	"A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure."
+	"The King could see it. And it filled him with immense pride. But that same pride is what led the King astray."
+	"He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that blew up the Tower."
+	"I saw the destruction it wrought, not just on the Realm, but on the King himself. He tried to reassemble the crumbling pieces, but, much like a broken mirror: the pieces could no longer be made whole again."
+	"He lacks the resources... and the prowess... to remedy this situation. I sometimes wish the Prince were here in his stead."
+	"The Aether robbed us of a deserving King. Of one who could fix this mess."
+		- The Jester coming to terms with how the King is unfit to rule.
 
 
-Combat System:
-==============
+Combat System Ideas:
+====================
+Late Feb 2023:
+--------------
+More developments. Focus for a Mike Tyson's Punch-Out! style of fighting. Emphasis on a few key enemies (mainly singular bosses) that must be attacked/dodged with tight timing and patterns.
+	- Blend in some ideas from souls-like fights.
+	- Allow for 4 directional movement, but largely have the player attack facing Up.
+	- Sword swings should have a lag to them, a quick backstep with a short lag, a quick parry with a longer lag.
+	- Focus on mastering patterns, and then designing unique patterns for each boss.
+	- Then add in projectiles and bullet-hell style obstacles to add layers of difficulty.
+		~ Also mix multiple enemy types at once. Or weak enemies + a big boss.
+
 Feb 2023:
 ----------
 Combat will exist entirely of Aylmera fighting enemies alone. However, each ally you get will unlock a different ability/buff she can use.
@@ -2097,8 +2114,6 @@ These abilities should each be on separate cooldowns. (Or perhaps one global coo
 
 Controls:
 	The player will press Select to cycle through the active team member buffing them. From there, using "B" will use the ability.
-
-
 
 Oct 16, 2022:
 --------------
