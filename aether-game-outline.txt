@@ -2089,6 +2089,8 @@ More developments. Focus for a Mike Tyson's Punch-Out! style of fighting. Emphas
 	- Focus on mastering patterns, and then designing unique patterns for each boss.
 	- Then add in projectiles and bullet-hell style obstacles to add layers of difficulty.
 		~ Also mix multiple enemy types at once. Or weak enemies + a big boss.
+	- What about a few different strikes?
+		~ Overhead, swing left, swing right, stab.
 
 Feb 2023:
 ----------
