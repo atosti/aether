@@ -322,6 +322,10 @@ Simple things to Work On:
 	- This might not be possible/feasible, but I'd like to investigate it.
 182. The ending of the game is the most interesting to you. Consider building the scenes in reverse order.
 	- Thus you can work on the more engaging pieces first.
+183. Design combat in a Mike Tyson's Punchout way
+	- Large enemies that have attack patterns you need to learn to dodge/parry.
+	- Player uses large swings with some lag attached to them (so timing is important)
+	- Player is allowed to move around the stage more than MTP (but perhaps can only ever look up?)
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1581,7 +1585,7 @@ Concepts:
 	- This would give the Spirit of Aylmera reason to distrust the party even further.
 91. Conversation with the artist (Giovanni) about the Mad Wizard and his role in the Great Explosion
 	Aylmera: "Why did he blow it up?"
-	Giovanni: "Fuck do you think? He saw what came next. Opted for a roll of the dice instead."
+	Giovanni: "What do you think? He saw what came next. Opted for a roll of the dice instead."
 	Alexandros: "How could you be certain of that? Did he tell you such a thing?"
 	Giovanni: "I can't be certain, not 100%. But a man like that? With such mastery of his talents? The explosion was no accident."
 	Alexandros: "At least on that we agree."
@@ -1761,6 +1765,7 @@ Concepts:
 	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
 109. Side note for the Lost Paladin
 	* Note: Give the paladin a custom avatar. Make him feel important, but don't explain or elaborate on why.
+		~ A cross or bible might work well for this.
 	- In his own story, when he arrives at the Eastern Garrison, he collapses from exhaustion at the gate. The guards inspect his body and intend to destroy it (via cremation).
 	- Except, they notice that his armor bears the insignia of the Eastern Coalition. (As it's where he originally trained.) As such, they bring him inside, and give him medical aid.
 110. Notes on the lead up to the Storming of the Great Tower
