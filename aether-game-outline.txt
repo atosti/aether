@@ -252,46 +252,6 @@ Simple things to Work On:
 	- Just need to figure out what Aylmera should be using to save...
 166. Use the Phantasm font for key events
 	- Decide how/when to use this. Perhaps for certain characters? Like those of the Void? Or the Spirit of Aylmera?
-167. Bard's Theme
-	- https://www.youtube.com/watch?v=vIXeqHcsV5w
-	- Posta be Conscious by Hieroglyphics
-		https://soundcloud.com/hieroglyphics-1/casual-posta-be-conscious
-		~ It has a funky beat that could work for a cool base.
-168. Tavern Theme
-	- https://www.youtube.com/watch?v=p4uM070KexI
-	- https://www.youtube.com/watch?v=Rj_NUS9hwxA
-169. Boss themes
-	- Wolfmother
-		https://www.youtube.com/watch?v=gGIYKmIGclQ
-	- Slayer
-	- Van Halen
-	- https://www.youtube.com/watch?v=TL0fv_W1iJA
-	- https://www.youtube.com/watch?v=K0YI0UUazkU
-	- https://www.youtube.com/watch?v=5fR327VhoJo
-	- https://www.youtube.com/watch?v=5odgnAq8udE
-	- https://www.youtube.com/watch?v=_B_phS0jaP8
-	- Ozzy Osbourne - Iron Man
-		~ https://www.youtube.com/watch?v=1iDoAkWT3L8
-		~ Great plodding lead in for right before an engagement.
-		~ Speed up the tempo a bit for parts.
-	- Dead Boys - Sonic Reducer
-		~ https://www.youtube.com/watch?v=wIkXdFCT-Uc
-		~ Good lead in to a fight theme.
-	https://charliewinsmore.bandcamp.com/track/manic-in-hokkaido
-		~ Has a good beat that feels intense and psycho for combat (around @1:30). Speed up the tempo and see how it sounds.
-	https://charliewinsmore.bandcamp.com/track/scumbag-season
-		~ The initial beat is good. Speed it up and add higher tempo percussion to make it more punchy for combat.
-170. Wandering/Lonely Music
-	- https://www.youtube.com/watch?v=RPUAldgS7Sg
-	- https://www.youtube.com/watch?v=gMA5jdxPL4s
-171. Encounter with Antagonists
-	- https://www.youtube.com/watch?v=RYDhw8_lAn0
-	- https://www.youtube.com/watch?v=8xIcR6XKUCk
-		~ Heavy percussive line with periodic bass.
-		- Also 1:55ish has a different vibe.
-	- Dialogue before an engagement
-		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
-		~ Use the intro of this track.
 172. Design a way to black out the whole screen to visually cue engagements.
 	- Could use Overlay layer, but that seems limited in how it can draw it.
 	- Could immediately change scene? To one where the player and the enemy sprite are redrawn, then adjust the background?
@@ -2352,6 +2312,49 @@ VI. Understanding the Emotion of Different Scales
 VII. Resource for Ambient Sounds on the GB 
 	https://beatscribe.itch.io/gameboy-ambient-soundscape-asset-pack-ugewav
 
-VIII. Combat theme
-	Use the bassline from Putting All of My People On by Manic Focus (Feat. ProbCause)
-	https://soundcloud.com/manicfocus/putting-all-of-my-people-on-feat-probcause
+VIII. Combat themes
+	a. Use the bassline from Putting All of My People On by Manic Focus (Feat. ProbCause)
+		https://soundcloud.com/manicfocus/putting-all-of-my-people-on-feat-probcause
+	b. Clockwork from the OFF Ost
+		- Builds anxiety well with the ticking that gets faster and faster. Could use that as a core for a track.
+		https://www.youtube.com/watch?v=uy_MFtTFhd8&list=PLU4ktq2pWONtSYFFHnFZPFfSXMF5Rw0fn&index=11
+IX. Bard's Theme
+	- https://www.youtube.com/watch?v=vIXeqHcsV5w
+	- Posta be Conscious by Hieroglyphics
+		https://soundcloud.com/hieroglyphics-1/casual-posta-be-conscious
+		~ It has a funky beat that could work for a cool base.
+X. Tavern Theme
+	- https://www.youtube.com/watch?v=p4uM070KexI
+	- https://www.youtube.com/watch?v=Rj_NUS9hwxA
+XI. Boss themes
+	- Wolfmother
+		https://www.youtube.com/watch?v=gGIYKmIGclQ
+	- Slayer
+	- Van Halen
+	- https://www.youtube.com/watch?v=TL0fv_W1iJA
+	- https://www.youtube.com/watch?v=K0YI0UUazkU
+	- https://www.youtube.com/watch?v=5fR327VhoJo
+	- https://www.youtube.com/watch?v=5odgnAq8udE
+	- https://www.youtube.com/watch?v=_B_phS0jaP8
+	- Ozzy Osbourne - Iron Man
+		~ https://www.youtube.com/watch?v=1iDoAkWT3L8
+		~ Great plodding lead in for right before an engagement.
+		~ Speed up the tempo a bit for parts.
+	- Dead Boys - Sonic Reducer
+		~ https://www.youtube.com/watch?v=wIkXdFCT-Uc
+		~ Good lead in to a fight theme.
+	https://charliewinsmore.bandcamp.com/track/manic-in-hokkaido
+		~ Has a good beat that feels intense and psycho for combat (around @1:30). Speed up the tempo and see how it sounds.
+	https://charliewinsmore.bandcamp.com/track/scumbag-season
+		~ The initial beat is good. Speed it up and add higher tempo percussion to make it more punchy for combat.
+XII. Wandering/Lonely Music
+	- https://www.youtube.com/watch?v=RPUAldgS7Sg
+	- https://www.youtube.com/watch?v=gMA5jdxPL4s
+XIII. Encounter with Antagonists
+	- https://www.youtube.com/watch?v=RYDhw8_lAn0
+	- https://www.youtube.com/watch?v=8xIcR6XKUCk
+		~ Heavy percussive line with periodic bass.
+		- Also 1:55ish has a different vibe.
+	- Dialogue before an engagement
+		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
+		~ Use the intro of this track.
