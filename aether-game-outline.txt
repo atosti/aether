@@ -2267,9 +2267,6 @@ Soundtrack:
 		
 2. The Oubliette
 	- General unease. Distrust of everyone around you. Confusion. Eeriee environment (why am I here?).
-	
-I. Misc Music/Songs/Vibes:
-	https://www.youtube.com/watch?v=T3XQ3EWdKkM
 
 II. Battle trigger music (for scene transition)
 	https://www.youtube.com/watch?v=8gJ3HzBbdxI (The intro that plays with a progression of notes)
@@ -2317,7 +2314,15 @@ VIII. Combat themes
 		https://soundcloud.com/manicfocus/putting-all-of-my-people-on-feat-probcause
 	b. Clockwork from the OFF Ost
 		- Builds anxiety well with the ticking that gets faster and faster. Could use that as a core for a track.
-		https://www.youtube.com/watch?v=uy_MFtTFhd8&list=PLU4ktq2pWONtSYFFHnFZPFfSXMF5Rw0fn&index=11
+		https://www.youtube.com/watch?v=uy_MFtTFhd8
+	c. Queen of the Damned - The Perfect Violin Solo 
+		- Intense violin. Try to recreate the speed of it with vibrato effects.
+		https://www.youtube.com/watch?v=T3XQ3EWdKkM
+	d. Denzel Curry's Ricky
+		https://www.youtube.com/watch?v=3WHm6tfvKlk
+		- Has a very funky beat, some of its sounds can likely be imitated on GB.
+		- Speed it up, esp. the tempo of the percussion.
+
 IX. Bard's Theme
 	- https://www.youtube.com/watch?v=vIXeqHcsV5w
 	- Posta be Conscious by Hieroglyphics
