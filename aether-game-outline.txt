@@ -286,6 +286,9 @@ Simple things to Work On:
 	- Large enemies that have attack patterns you need to learn to dodge/parry.
 	- Player uses large swings with some lag attached to them (so timing is important)
 	- Player is allowed to move around the stage more than MTP (but perhaps can only ever look up?)
+184. Instead of a "Journal" menu option, have "Memories"
+	- Just a list of things that you remember last happening to your character.
+	- This way, you can include things like, "Conversed with the Void"
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1878,7 +1881,7 @@ Concepts:
 		- Bard: (sings)"And so the pair bid their new friend adieu, off on a quest to meet with God knows who..."
 		* Bard smiles.
 	b. After fighting Vivian (Outside of the town w/a bridge, heading North ahead of you all)
-		- He thanks you for 'opening' the bridge. He also slyly insinuates that he knows they're responsible. But doesn't say why (he's working with, or a sympathizer for, the banditry)
+		- He thanks the party for 'opening' the bridge. He also slyly insinuates that he knows they're responsible. But doesn't say why (he's working with, or a sympathizer for, the banditry)
 		- Continues Northbound himself ahead of the player.
 	c. After you've slain the leper colony, but before you've slain the Lord's army. (Inside the Lord's city)
 		* Here he's encountered in the city. But isn't directly present for your slaughter of it.
@@ -1948,8 +1951,9 @@ Concepts:
 	- Neera: "You've nowhere to possibly draw soldiers from against the remaining undead horde."
 	- Vivian: "What?! Nonsense! You speak lies. These foolish intimidation games won't work on me!"
 	- Aylmera: "It's no trick, Vivian. You thought yourself fit to rule, and now you must carry the burden of that crown."
-	* Aylmera smiles *
-	- Aylmera: "So what say you, oh magnificent Queen of all that is to be Dust and Ash? What is your first, and last, royal decree?"
+	*Aylmera smiles*
+	- Aylmera: "So what say you, oh magnificent Queen of all that is to be Dust and Ash? What is your first royal decree?"
+	*Vivian is angry*
 	- Vivian: "..."
 	- Vivian: "To purge my throne of heretics."
 	* Vivian charges down the stairs, triggering combat/Engagement *
@@ -1962,7 +1966,11 @@ Concepts:
 	- The surviving warrior is both thankful and distraught. His win is not earned. His shame is overwhelming. And he feels hate and betrayal from his ally.
 		~ Such is the burden of the victor. It is the dead who have the easiest job of all. 
 126. "It's always the thieves who are most concerned with issues of theft."
-127. 
+127. Outline of the time Aylmera spends separate from the party.
+	- After Aylmera almost drowns, she wakes up downriver in a village and has to head North-westish along the river to return to the road.
+		~ It's here that Aylmera encounters the weeping knight, who sits along the floral banks.
+		~ He's distraught by the bloodshed that happened there. But he's also overwhelmed by the beauty of it all, and that conflict eats at him.
+	- Then you must travel East along the road in order to reach the Lord's city.
 
 Misc Dialogue for encounters:
 ===============================
