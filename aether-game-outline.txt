@@ -286,9 +286,11 @@ Simple things to Work On:
 	- Large enemies that have attack patterns you need to learn to dodge/parry.
 	- Player uses large swings with some lag attached to them (so timing is important)
 	- Player is allowed to move around the stage more than MTP (but perhaps can only ever look up?)
-184. Instead of a "Journal" menu option, have "Memories"
+184. Design the Memories screen
 	- Just a list of things that you remember last happening to your character.
 	- This way, you can include things like, "Conversed with the Void"
+	- Draw a background like pages in a journal/book.
+		~ Or perhaps thoughts written down in a thought bubble/cloud?
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 

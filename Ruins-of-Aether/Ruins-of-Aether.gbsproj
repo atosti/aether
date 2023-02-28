@@ -7853,7 +7853,7 @@
                             "args": {
                                 "text": [
                                     "Welcome to the Royal Garden, Milady.\nIt's courtesy of her late majesty.",
-                                    "Even in death she still bestows us with\nsuch kindness... God bless her soul."
+                                    "Even in death she still bestows us with\nsuch kindness. God bless her soul."
                                 ],
                                 "avatarId": ""
                             },
@@ -10600,8 +10600,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "a8a1c8ca-e787-4acc-b0a8-8ad240a3f918",
-            "x": 1448.9999999999998,
-            "y": 206,
+            "x": 1449,
+            "y": 405.99999999999983,
             "actors": [],
             "triggers": [],
             "script": [
@@ -10656,7 +10656,7 @@
             "symbol": "scene_party"
         },
         {
-            "name": "Inventory",
+            "name": "Items",
             "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
             "width": 20,
             "height": 18,
@@ -10675,8 +10675,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "7d6884b2-038e-4ce7-8ca4-9be9a6338a84",
-            "x": 1448.6444444444444,
-            "y": 381.2,
+            "x": 1450.2444444444443,
+            "y": 598.8000000000004,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -16345,6 +16345,27 @@
                     "leaveScript": []
                 }
             ],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Memories",
+            "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd",
+            "symbol": "scene_20",
+            "x": 1447.9999999999995,
+            "y": 219.99999999999983,
+            "actors": [],
+            "triggers": [],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -24438,6 +24459,16 @@
                 0,
                 0
             ]
+        },
+        {
+            "id": "2fd5ee1e-ca1b-49ad-ac9e-238210216ab6",
+            "name": "startup\\made-in-gb-studio",
+            "symbol": "bg_startup_made_in_gb_studi",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "startup\\made-in-gb-studio.png"
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
@@ -56581,18 +56612,18 @@
                                 "command": "EVENT_MENU",
                                 "args": {
                                     "variable": "V0",
-                                    "items": 6,
-                                    "option1": "Party",
-                                    "option2": "Inventory",
-                                    "option3": "Map",
-                                    "option4": "Journal",
-                                    "option5": "Save",
+                                    "items": 4,
+                                    "option1": "Memories",
+                                    "option2": "Party",
+                                    "option3": "Items",
+                                    "option4": "Exit",
+                                    "option5": "Exit",
                                     "option6": "Exit",
                                     "option7": "",
                                     "option8": "",
                                     "cancelOnB": true,
                                     "layout": "menu",
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "cancelOnLastOption": true
                                 },
                                 "id": "a1c3ae81-6ab6-4d7f-9bb0-660835717fa6"
@@ -56605,7 +56636,7 @@
                                     "comparator": 1,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -56619,7 +56650,7 @@
                                         {
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "a8a1c8ca-e787-4acc-b0a8-8ad240a3f918",
+                                                "sceneId": "0c00ce55-56a2-4695-a6e7-c6424cd46edd",
                                                 "x": 0,
                                                 "y": 0,
                                                 "direction": "",
@@ -56654,10 +56685,47 @@
                                 "args": {
                                     "variable": "V0",
                                     "operator": "==",
+                                    "comparator": 3,
+                                    "__collapseElse": true,
+                                    "__disableElse": true,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SCENE_PUSH_STATE",
+                                            "args": {
+                                                "__collapse": true
+                                            },
+                                            "id": "d29df617-b75c-4538-a2d8-ec8c7d8ee889"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "7d6884b2-038e-4ce7-8ca4-9be9a6338a84",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2",
+                                                "__collapse": true
+                                            },
+                                            "id": "36c074f8-5925-4a5b-b544-865591ff0da4"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "93e00571-b97c-46e1-a8b3-43aeb720d297"
+                            },
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "V0",
+                                    "operator": "==",
                                     "comparator": 5,
                                     "__collapseElse": true,
-                                    "__collapse": true,
-                                    "__disableElse": true
+                                    "__collapse": false,
+                                    "__disableElse": true,
+                                    "__comment": true
                                 },
                                 "children": {
                                     "true": [
@@ -58939,9 +59007,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3774,
-        "worldScrollY": 72,
-        "zoom": 325,
+        "worldScrollX": 0,
+        "worldScrollY": 200,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
