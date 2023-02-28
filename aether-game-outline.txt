@@ -298,6 +298,19 @@ Simple things to Work On:
 185. Implement saving at statues
 	- Draw a 16x16 (or 16x24, 16x32) sprite of a statue for this.
 	- Perhaps statues of/to the Queen?
+186. Decide if you want the player to play some slightly different battle animations in the Barracks scene.
+	- This just requires creating an alternate player sprite and sheet, which incorporates a few of the battle poses.
+	- Maybe add another player sprite for this. It could be used only in key scenes to add more actions to the player.
+		~ Things like passing out, kneeling, swinging, etc.
+	- Right now, I think I'll just have a 2nd player sprite that handles this. It will have more available actions, and I can swap it into specific scenes.
+		~ Otherwise, every action I add with have an impact on the sprite count for all my scenes that the player is just walking around.
+187. Create the Quartermaster sprite + battle animations.
+188. Implement the Quartermaster fight.
+	- Introduce some basic mechanics.
+		a. How to strike
+		b. How to parry (maybe have him say this partway during the fight or something?)
+		c. Have exaggerated, or very obvious patterns of attack that the player can adapt to.
+		d. How to dodge (if implemented)
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
