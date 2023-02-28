@@ -291,6 +291,13 @@ Simple things to Work On:
 	- This way, you can include things like, "Conversed with the Void"
 	- Draw a background like pages in a journal/book.
 		~ Or perhaps thoughts written down in a thought bubble/cloud?
+	- Check how many lines of text you're able to fit per screen.
+	- Main events:
+	a. "Before I was here, I was in some void... Voices threatened me... were they real?"
+	b. "A wizard named Alexandros raised me from the dead. It was at the King's request."
+185. Implement saving at statues
+	- Draw a 16x16 (or 16x24, 16x32) sprite of a statue for this.
+	- Perhaps statues of/to the Queen?
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
