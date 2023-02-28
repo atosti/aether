@@ -1606,18 +1606,38 @@ Concepts:
 	Giovanni: "The pleasure has been all mine."
 	- If attempting further dialogue with Giovanni, display: "There's nothing more to say.""
 92. Main internal conflicts for each party member to come to terms with
-	a. Aylmera = Who she actually is, and what she needs to do to redeem her soul.
-	b. Jester = Who should rule the Realm when the King is now unfit? How should be be removed from power when he isn't evil?
-	c. Neera = How can she save the Realm when so much of the future is in flux? Which voices can she trust in her mind?
-		~ How can she serve a multi-headed (so-to-speak) God? Its will is unimaginable. Moreover, most others have lost faith. How can she restore its greatness?
-		~ I feel that Neera's conflict is the weakest of the bunch. This needs more thought/refinement.
-		~ What if she struggles with knowing whether she's really changing things for the better?
-			~ Maybe she feels that interfering with the future has caused her to be in control of something well beyond her abilities.
-			~ And she fears she's potentially changed things for the worse, with no way of knowing for certain one way or the other.
-			~ This can draw a parallel between her and the Mad Wizard. As both alter the course of events in the main plot.
-	d. Alexandros = Why did the Mad Wizard kill everyone? What good can come from magic if it only seems to end in destruction?
-		~ In a sense, he's debating the question of progress. Magic has tangible benefits, but they only seem to be used for harm. How can such a thing be repurposed only for good?
-		~ And furthermore, WAS the Mad Wizard good? Or was Alexandros duped by him all along? He still holds faithful, but has serious doubts festering.
+	a. Aylmera
+		- Lost.
+		- Who is she actually, and what does she need to do to redeem her soul.
+		- Why was she brought back to life if not to save the Realm?
+		- Though her actions stop one apocalypse, they almost certainly doom the Realm and its people.
+			~ How is that a better outcome than when she was first reawakened?
+	b. Jester
+		- Cowardice.
+		- Watched his men die in the explosion and immediately abandoned them.
+			~ Left, most notably Morcant the Prince.
+		- Fails to have the guts to tell the King to step down. To find a new solution to ruling the Realm.
+			~ Wonders who should rule the Realm when the King is now unfit?
+			~ How should be be removed from power when he isn't evil, but is causing harm?
+	c. Neera
+		- Confusion.
+			~ She talks about how neither God nor the church listen to her.
+			~ Though she can hear God, more often than not he ignores her direct questions.
+			~ Why must she be blessed with his gift, but cursed to have no one believe in its truth?
+			~ Why doesn't god perform a miracle for them?
+		- How can she save the Realm when so much of the future is in flux? Which voices can she trust in her mind?
+			~ How can she serve a multi-headed (so-to-speak) God? Its will is unimaginable. Moreover, most others have lost faith. How can she restore its greatness?
+			~ I feel that Neera's conflict is the weakest of the bunch. This needs more thought/refinement.
+				~ What if she struggles with knowing whether she's really changing things for the better?
+				~ Maybe she feels that interfering with the future has caused her to be in control of something well beyond her abilities.
+				~ And she fears she's potentially changed things for the worse, with no way of knowing for certain one way or the other.
+				~ This can draw a parallel between her and the Mad Wizard. As both alter the course of events in the main plot.
+	d. Alexandros
+		- Shame.
+		- How can he believe in the ideals of a man who went crazy and started an apocalypse?
+		- Why did the Mad Wizard kill everyone? What good can come from magic if it only seems to end in destruction?
+			~ In a sense, he's debating the question of progress. Magic has tangible benefits, but they only seem to be used for harm. How can such a thing be repurposed only for good?
+			~ And furthermore, WAS the Mad Wizard good? Or was Alexandros duped by him all along? He still holds faithful, but has serious doubts festering.
 93. Bossfight dialogue with Velazquez
 	* Note: I think Alexandros should be broken out of jail
 	Velazquez: "Well now, what have we here? Two lovely ladies and a jester waltzing in unannounced?"
