@@ -16670,15 +16670,7 @@
                     "leaveScript": []
                 }
             ],
-            "script": [
-                {
-                    "command": "EVENT_SET_TRUE",
-                    "args": {
-                        "variable": "0"
-                    },
-                    "id": "15c841d9-0062-4779-a9d3-036356ecc115"
-                }
-            ],
+            "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -61844,16 +61836,16 @@
         }
     ],
     "settings": {
-        "startSceneId": "ca5301e5-dfe0-4229-a913-120ad2e9c03b",
-        "startX": 19,
-        "startY": 12,
+        "startSceneId": "a5142ea2-6506-496d-a7d3-6979073baab3",
+        "startX": 18,
+        "startY": 17,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 118,
-        "worldScrollY": 616,
+        "worldScrollY": 16,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,

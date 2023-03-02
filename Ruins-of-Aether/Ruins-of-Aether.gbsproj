@@ -16601,7 +16601,7 @@
                     "hit3Script": [],
                     "id": "a120d660-598d-48a8-b920-252642694ecd",
                     "x": 19,
-                    "y": 7,
+                    "y": 8,
                     "symbol": "actor_15"
                 },
                 {
@@ -23835,7 +23835,8 @@
             "height": 36,
             "imageWidth": 320,
             "imageHeight": 288,
-            "filename": "royal-courtyard-south.png"
+            "filename": "royal-courtyard-south.png",
+            "tileColors": []
         },
         {
             "id": "264fbe39-603f-46ed-bfab-7870aaf7d5e7",
@@ -30272,7 +30273,7 @@
         {
             "id": "3230ad99-1490-4cee-9eef-ac0e4f13f825",
             "name": "characters\\aylmera-actions",
-            "symbol": "sprite_characters_aylmera_b_0",
+            "symbol": "sprite_characters_aylmera_b",
             "numFrames": 16,
             "type": "animated",
             "filename": "characters\\aylmera-actions.png",
@@ -31175,7 +31176,7 @@
         {
             "id": "971d7ed9-44a2-4d77-a0fe-cb2d9671eb33",
             "name": "characters\\aylmera-battle",
-            "symbol": "sprite_characters_aylmera_b",
+            "symbol": "sprite_characters_aylmera_b_0",
             "numFrames": 16,
             "type": "animated",
             "filename": "characters\\aylmera-battle.png",
@@ -61844,9 +61845,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 118,
-        "worldScrollY": 16,
-        "zoom": 125,
+        "worldScrollX": 303,
+        "worldScrollY": 1520,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
