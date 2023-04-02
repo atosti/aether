@@ -2015,7 +2015,7 @@ Concepts:
 	- Then you must travel East along the road in order to reach the Lord's city.
 128. Discussion between Alexandros and a Critic of Magic
 	* This person should call out Alexandros IN or close to the Lord's city, where wizards are actively hunted.
-	* This critic calls him out, and openly talks about his ideology, but doesn't alert the guards. His comments are cruel, but his actions are oddly empathetic to Alexadros' struggle.
+	* This critic calls him out, and openly talks about his ideology, but doesn't alert the guards. His comments are cruel, but his actions are oddly empathetic to Alexandros' struggle.
 
 	- Critic of Magic: "Hmm. You're a student of the Great Tower, aren't you?"
 	- Alexandros: "...You must have me mistaken with someone else."
