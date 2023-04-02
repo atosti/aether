@@ -2013,7 +2013,36 @@ Concepts:
 		~ It's here that Aylmera encounters the weeping knight, who sits along the floral banks.
 		~ He's distraught by the bloodshed that happened there. But he's also overwhelmed by the beauty of it all, and that conflict eats at him.
 	- Then you must travel East along the road in order to reach the Lord's city.
+128. Discussion between Alexandros and a Critic of Magic
+	* This person should call out Alexandros IN or close to the Lord's city, where wizards are actively hunted.
+	* This critic calls him out, and openly talks about his ideology, but doesn't alert the guards. His comments are cruel, but his actions are oddly empathetic to Alexadros' struggle.
 
+	- Critic of Magic: "Hmm. You're a student of the Great Tower, aren't you?"
+	- Alexandros: "...You must have me mistaken with someone else."
+	- Com: "There's no need to be coy about it."
+	- Alexandros: "I'm not here to cause trouble."
+	- CoM: *Smiles* "The fact that you think that is part of the problem."
+	- Alexandros: *Confused(?)*
+	- CoM: "I've seen some of what your kind can do. Your magick would certainly progress things for the Realm."
+	- CoM: "Yet, progress is often coupled with cruelty, isn't it? Cruelty imposed by the powerful to preserve their rule."
+	- Alexandros: "What's your point? You think I'm here to oppress you?"
+	- CoM: "Well, any significant change to life in the Realm would upset the current balance of power. Disturbing whatever organization happens to be in control."
+	- CoM: "One might argue the very introduction of change is... a violent one. No?"
+	- CoM: "So what do these organizations do when presented with such hostilities? They retaliate. With a greater amount of violence."
+	- CoM: "After all, humans are just packs of animals. And there's not an animal in the world that turns meek when cornered."
+	- Alexandros: "So you think 'my kind' is to blame for the atrocities that others commit? That's rich."
+	- CoM: "Of course not. But you need to recognize your role in this as a violent one, lest you worsen things for us all."
+	- CoM: "Treat your ideology as the violence it is, and you'll be prepared for the hostility it invites."
+	- CoM: "Fail to do so and well... it'll be weaponized against you."
+	- Alexandros: "That just sounds like an excuse to be another hateful, cruel oppressor."
+	- CoM: "Well, you saw what happened to your ideologically-pure brethren. They got cornered first. And their prize was a mass grave."
+	- Alexandros: "That's a cruel thing to say to someone who lost all his friends."
+	- CoM: "Mmm. Indeed. And now you see how the game is played. Just remember: You gamble with more than just your own fate when you upset power."
+	- Alexandros: *Pauses* (...) "I... huh..."
+	- CoM: *The man waves you away dismissively.* *He walks away.*
+	- *Alexandros rejoins the party*
+	
+	
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies call you 'The Butcher'.
