@@ -2064,6 +2064,22 @@ Concepts:
 	- Bandit is angered.
 	- Bandit: "Bite your tongue, Jester! I know firsthand of your betrayal."
 130. "I don't know what you think you're doing here, but it's not helping."
+131. Conversation about Velazquez
+	- "When the hordes first swarmed up North, most the smaller villages got swallowed up."
+	- "Many killed in the dead of night, folks leaving their crops to wither on the vine."
+	- "The only thing faster than the undead approach was the fear that ran rampant. Lot of uncertainty and anxiousness."
+	- "But amidst all that anxiety and chaos a single group rose to the challenge: Principled knights who felt no fear."
+	- "Velazquez's men. They came and conquered. Hard. Smote those corpses that come up here, and drove the rest back several dozen miles."
+	- "So that's your answer to the question you ain't yet asked. That's why the people don't stand up to 'em."
+	- "I've seen those knights take all manner of things from us working folk: food, coins, family. But it don't matter..."
+	- "Without him and his men we wouldn't have any of it anyway. We'd be nothing more than fertilizer for them fields."
+	- "Most folks rationalize it to themselves. Say the knights earned it. Like it's a debt of sorts."
+	- "Guess the world has a cruel way of keeping balance, eh?"
+	[Nature is cruel.]
+	- "Nature ain't got nothing to do with it. Least in my view."
+	[Man is cruel.]
+	- "Maybe. Still, they saved our hides. We'd be fools to forget that."
+	- "Just try to stay outta there way. We got a good thing going here, even if you don't see it."
 	
 Misc Dialogue for encounters:
 ===============================
