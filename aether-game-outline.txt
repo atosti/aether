@@ -343,6 +343,39 @@ Simple things to Work On:
 	- Add page numbers to the bottom, and have the pages cycle from back to front page.
 	- Also have the page fade to white as it "flips" between pages
 194. Create a page flipping sound for fading between the Memories pages
+195. Write a list of all the Memories
+	1. Awoke from a deep slumber by a man named Alexandros.
+	2. Met and recruited the court Jester.
+	3. The King asked me to rebalance 4 elemental stones.
+	4. Fought and drove off the Bandit Queen.
+	5. Recovered the stone of elemental Fire.
+	6. Met a peculiar man who told me of his tragic past.
+	7. A priestess joined my party.
+	8. Fought and killed the Apothecary.
+	9. Recovered the stone of elemental Air.
+	10. Slew the leper colony.
+	11. Fell into the river, losing my companions.
+	12. Dreamt of taunting voices. Who were they?
+	13. Reunited with the priestess and Jester.
+	14. Fought and killed the Lord, Velazquez.
+	15. Recruited the wizard Alexandros.
+	16. Hunted and slew the High Priest in his monastery.
+	17. Recovered the stone of elemental Earth.
+	18. Slew a grieving soldier amidst a field of red flowers.
+	19. Witnessed the fishing colony's mass suicide.
+	20. Recovered the stone of elemental Water.
+	21. Fought and killed the Bloodhound.
+	22. Passed through the ramparts into the Aether Ruins.
+	23. Bore witness to Morcant. Put him out of his misery.
+	24. Recovered the broken stone of elemental Aether.
+	25. Met the spirit of Aylmera. So who am I?
+	26. Fought and spared a grieving Paladin.
+	27. Unearthed the queen's grave for her skull.
+	28. Restored the stone of elemental Aether.
+	29. Rebalanced the 4 elemental stones. Do the undead still walk?
+	30. Witnessed the King's castle enveloped in flames.
+	31. Fought and killed the Bandit Queen.
+
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -2097,6 +2130,19 @@ Concepts:
 	[Man is cruel.]
 	- "Maybe. Still, they saved our hides. We'd be fools to forget that."
 	- "Just try to stay outta there way. We got a good thing going here, even if you don't see it."
+132. Rejoining Neera and Sigmund (the Jester)
+	- Jester: "Aylmera!"
+	- Jester: "*He hugs you tenderly*"
+	- Jester: "I was worried you'd been washed away for good."
+	- Neera: "He had trouble keeping faith in my visions of your return."
+	- Jester: *Frowns*
+	- Jester: "We tried searching for you, but his Lordship's soldiers were patroling the area..."
+	- Jester: "I didn't want us to get discovered. Traveling warriors are met with suspicion around here."
+	- Aylmera: "I understand. I'm glad we're reunited once again."
+	- Aylmera: "We need to find Alexandros while there's still time."
+	- Neera: "My visions are hazy, but we've heard rumors he's held in the Lord's dungeon. Beneath the keep."
+	- Aylmera: "Then we'll need to find a way inside."
+
 	
 Misc Dialogue for encounters:
 ===============================
