@@ -16330,7 +16330,7 @@
         },
         {
             "name": "Memories",
-            "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
+            "backgroundId": "74c01323-865a-4a94-a074-7294a1c5e5b3",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -16342,9 +16342,65 @@
             "symbol": "scene_20",
             "x": 1447.9999999999995,
             "y": 219.99999999999983,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_20",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d6b2cc91-eacd-4be7-a90c-9b14db9039ba",
+                    "x": 4,
+                    "y": 17
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_25",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "6501be49-7d62-451e-ace5-cda1873bb81f",
+                    "x": 14,
+                    "y": 17
+                }
+            ],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "1066870d-5b94-4967-bd3b-d487c0edb927"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -22476,6 +22532,16 @@
                 1,
                 1
             ]
+        },
+        {
+            "id": "74c01323-865a-4a94-a074-7294a1c5e5b3",
+            "name": "memories",
+            "symbol": "bg_memories",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "memories.png"
         },
         {
             "id": "8babce70-e3bf-4260-99a9-e3cbd4fef521",
@@ -61643,8 +61709,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 28,
-        "worldScrollY": 0,
+        "worldScrollX": 617,
+        "worldScrollY": 21,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,

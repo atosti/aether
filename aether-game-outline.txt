@@ -328,6 +328,21 @@ Simple things to Work On:
 		f. Control is given back to the player and they fight their opponent.
 190. Create 2 sound effects for emotes (positive, and negative)
 191. Design the Memories page which details your next task and crosses out old ones.
+192. Select a song that captures the vibe of each bossfight
+	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
+	- This will help in fleshing out each fighter, zone, and their themes.
+193. Outline how Memories will work programatically
+	- There's a series of preset "memories" which the player unlocks, sequentially.
+		~ Ideally, let some of these be optional, but it's okay if not.
+	- As tasks are completed in the game, update the Memories variable
+	- When rendering the page, do a background tile swap to show each task written out based on the player's progress in the game.
+		~ Is this really the ideal way to handle it?
+		~ Is there a better way than checking for gt/lt for each item?
+		~ While loop that decrements through a temp var storing the $Memories value? Writing one memory to page at each subtraction?
+		~ Could tile swap entire strings instead of just single chars?
+	- Add page numbers to the bottom, and have the pages cycle from back to front page.
+	- Also have the page fade to white as it "flips" between pages
+194. Create a page flipping sound for fading between the Memories pages
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
