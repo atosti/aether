@@ -326,6 +326,8 @@ Simple things to Work On:
 			~ A sound cue is played as well, denoting the start of a fight.
 		e. Full fade to white, then fade into the battle scene.
 		f. Control is given back to the player and they fight their opponent.
+190. Create 2 sound effects for emotes (positive, and negative)
+191. Design the Memories page which details your next task and crosses out old ones.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 

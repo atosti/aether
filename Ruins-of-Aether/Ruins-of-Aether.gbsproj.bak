@@ -427,7 +427,8 @@
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
                         "actorId": "$self$",
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": false
                     },
                     "id": "1eb32aaf-4a3f-4d92-af84-83e6fb8babe1"
                 },
@@ -455,7 +456,7 @@
                 {
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -463,7 +464,7 @@
                                 "command": "EVENT_IF_SAVED_DATA",
                                 "args": {
                                     "saveSlot": 0,
-                                    "__collapseElse": true,
+                                    "__collapseElse": false,
                                     "__collapse": false
                                 },
                                 "children": {
@@ -495,7 +496,7 @@
                                                 "comparator": "0",
                                                 "__collapseElse": true,
                                                 "__disableElse": true,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -525,7 +526,7 @@
                                                 "comparator": 1,
                                                 "__collapseElse": true,
                                                 "__disableElse": true,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -553,7 +554,7 @@
                                                 "operator": "==",
                                                 "comparator": 2,
                                                 "__collapseElse": true,
-                                                "__collapse": true,
+                                                "__collapse": false,
                                                 "__disableElse": true
                                             },
                                             "children": {
@@ -562,7 +563,8 @@
                                                         "command": "EVENT_LOAD_DATA",
                                                         "args": {
                                                             "saveSlot": 0,
-                                                            "__collapse": true
+                                                            "__collapse": true,
+                                                            "__comment": false
                                                         },
                                                         "id": "5aa31731-29ee-4bae-8433-441b96b7edb8"
                                                     }
@@ -578,7 +580,7 @@
                                             "args": {
                                                 "sceneId": "115d3949-295d-41d6-a8a0-3e62e172e6c2",
                                                 "x": 0,
-                                                "y": 0,
+                                                "y": 1,
                                                 "direction": "",
                                                 "fadeSpeed": 3,
                                                 "__collapse": true
@@ -1646,12 +1648,12 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Welcome back to the land of the \nLiving, Hero. Sorry for such a pitiful\nwelcome. It's all we could muster.",
-                                                "My name is Alexandros. Along with\nmy colleagues, I conducted your \nrevival. At the behest of the Crown.",
+                                                "Welcome back to the land of the \nLiving, Hero. Sorry for such a pitiful\nreception. It's all we could muster.",
+                                                "My name is Alexandros. Along with\nmy colleagues, I conducted your \nrevival at the behest of the Crown.",
                                                 "I hope you feel alright. You've been\ndead for quite some time. And it was\nno easy task mending your body."
                                             ],
                                             "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "3ab37376-178c-4bd1-ae70-883217e88acb"
                                     },
@@ -2362,7 +2364,8 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "b16d4c26-b7a2-434c-b274-d68430d72193",
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": true
                     },
                     "id": "c6a419d9-a022-4ccc-872c-fd22ae97ebc7"
                 },
@@ -14912,8 +14915,8 @@
             "autoFadeSpeed": 1,
             "id": "8d97d096-5b37-4353-b3c1-b8726b11f220",
             "symbol": "scene_18",
-            "x": 839.3333333333336,
-            "y": 182.00000000000003,
+            "x": 831.7777777777779,
+            "y": 206.4444444444445,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -18198,7 +18201,8 @@
                                 "text": [
                                     "You're heading outside the gates, huh?\nSometimes I wish I had that much nerve.",
                                     "Friendly word of advice, though. Should \nyou get injured out there, don't return to",
-                                    "the gates. The guards are paranoid these\ndays. Unless you've got supplies, they don't"
+                                    "the gates. The guards are paranoid these\ndays. Unless you've got supplies, they",
+                                    "won't open that gate back up. It's a \none-way trip for sure."
                                 ],
                                 "avatarId": ""
                             },
@@ -18305,6 +18309,130 @@
             "x": 910.4000000000001,
             "y": 940.0000000000003,
             "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 24",
+            "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "a3eca251-133b-49d9-a12b-90e03c739a18",
+            "symbol": "scene_24",
+            "x": 831.1999999999999,
+            "y": 30,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_26",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Don't worry about it."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "0eab5892-823f-4096-b34f-143aaaece174"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {},
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_OVERLAY_SHOW",
+                                        "args": {
+                                            "color": "white",
+                                            "x": 0,
+                                            "y": 0,
+                                            "__collapse": true
+                                        },
+                                        "id": "f5d63a8f-df6e-4eba-aa2d-1a86be1e231b"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.1,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "32f8b669-446f-4933-8a55-4614324f6422"
+                                    },
+                                    {
+                                        "command": "EVENT_OVERLAY_SHOW",
+                                        "args": {
+                                            "color": "white",
+                                            "x": 0,
+                                            "y": 0,
+                                            "__collapse": true
+                                        },
+                                        "id": "7bd0f2a9-7f16-4f42-a0d5-68f2b0547d24"
+                                    },
+                                    {
+                                        "command": "EVENT_WAIT",
+                                        "args": {
+                                            "time": 0.1,
+                                            "frames": 30,
+                                            "__collapse": true
+                                        },
+                                        "id": "36f92d9f-dd01-40d0-b9db-8916458f4694"
+                                    },
+                                    {
+                                        "command": "EVENT_OVERLAY_SHOW",
+                                        "args": {
+                                            "color": "white",
+                                            "x": 0,
+                                            "y": 0,
+                                            "__collapse": true
+                                        },
+                                        "id": "3f471546-b178-4aa0-82ab-aabb80c87af7"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Now we're gucci."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f5f0965c-72fc-461a-9f9b-647d510834a6"
+                                    }
+                                ]
+                            },
+                            "id": "585fb10d-8a35-4560-815e-107d4ed97f6d"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "56c7ff1e-804a-4e85-b1d8-2e991660e0a3",
+                    "x": 9,
+                    "y": 7
+                }
+            ],
             "triggers": [],
             "script": [],
             "playerHit1Script": [],
@@ -61861,6 +61989,11 @@
             "id": "45e976cf-3894-47de-8dab-2387f26a42e2__L0",
             "name": "Local 0",
             "symbol": "var_local_9"
+        },
+        {
+            "id": "4",
+            "name": "Variable 4",
+            "symbol": "var_variable_4"
         }
     ],
     "engineFieldValues": [
@@ -61878,9 +62011,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 53,
-        "zoom": 100,
+        "worldScrollX": 28,
+        "worldScrollY": 0,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
