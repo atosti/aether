@@ -16357,7 +16357,23 @@
                     "collisionGroup": "",
                     "symbol": "actor_20",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "4",
+                                "operator": ">",
+                                "comparator": "0",
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [],
+                                "false": []
+                            },
+                            "id": "a5addc33-2f8a-4bf5-beb4-441569831d5d"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -61690,8 +61706,8 @@
         },
         {
             "id": "4",
-            "name": "Variable 4",
-            "symbol": "var_variable_4"
+            "name": "Memories",
+            "symbol": "var_memories"
         }
     ],
     "engineFieldValues": [
@@ -61709,7 +61725,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 617,
+        "worldScrollX": 518,
         "worldScrollY": 21,
         "zoom": 125,
         "customColorsEnabled": true,
