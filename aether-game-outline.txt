@@ -342,6 +342,8 @@ Simple things to Work On:
 		~ Could tile swap entire strings instead of just single chars?
 	- Add page numbers to the bottom, and have the pages cycle from back to front page.
 	- Also have the page fade to white as it "flips" between pages
+	- I could just have generic numbers on the pages, which when interacted with will display dialogue with a description of what happened.
+		~ Could make them numbers or a single word, or something like that.
 194. Create a page flipping sound for fading between the Memories pages
 195. Write a list of all the Memories
 	1. Awoke from a deep slumber by a man named Alexandros.
