@@ -346,37 +346,37 @@ Simple things to Work On:
 		~ Could make them numbers or a single word, or something like that.
 194. Create a page flipping sound for fading between the Memories pages
 195. Write a list of all the Memories
-	1. Awoke from a deep slumber by a man named Alexandros.
-	2. Met and recruited the court Jester.
-	3. The King asked me to rebalance 4 elemental stones.
-	4. Fought and drove off the Bandit Queen.
-	5. Recovered the stone of elemental Fire.
-	6. Met a peculiar man who told me of his tragic past.
-	7. A priestess joined my party.
-	8. Fought and killed the Apothecary.
-	9. Recovered the stone of elemental Air.
-	10. Slew the leper colony.
-	11. Fell into the river, losing my companions.
-	12. Dreamt of taunting voices. Who were they?
-	13. Reunited with the priestess and Jester.
-	14. Fought and killed the Lord, Velazquez.
-	15. Recruited the wizard Alexandros.
-	16. Hunted and slew the High Priest in his monastery.
-	17. Recovered the stone of elemental Earth.
-	18. Slew a grieving soldier amidst a field of red flowers.
-	19. Witnessed the fishing colony's mass suicide.
-	20. Recovered the stone of elemental Water.
-	21. Fought and killed the Bloodhound.
-	22. Passed through the ramparts into the Aether Ruins.
-	23. Bore witness to Morcant. Put him out of his misery.
-	24. Recovered the broken stone of elemental Aether.
-	25. Met the spirit of Aylmera. I'm merely a stranger.
-	26. Fought and spared a grieving Paladin.
-	27. Unearthed the queen's grave for her skull.
-	28. Restored the stone of elemental Aether.
-	29. Rebalanced the 4 elemental stones. Do the undead still walk?
-	30. Witnessed the King's castle enveloped in flames.
-	31. Fought and killed the Bandit Queen.
+	1. AWAKENING - Awoke from a deep slumber by a man named Alexandros.
+	2. JESTER - Met and recruited the court Jester.
+	3. QUEST - The King asked me to rebalance 4 elemental stones.
+	4. BANDIT QUEEN - Fought and drove off the Bandit Queen.
+	5. FIRE - Recovered the stone of elemental Fire.
+	6. STRANGER - Met a peculiar man who told me of his tragic past.
+	7. NEERA - A priestess joined my party.
+	8. APOTHECARY - Fought and killed the Apothecary.
+	9. AIR - Recovered the stone of elemental Air.
+	10. LEPERS - Slew the leper colony.
+	11. DROWNING - Fell into the river, losing my companions.
+	12. DREAMS - Dreamt of taunting voices. Who were they?
+	13. REUNION - Reunited with the priestess and Jester.
+	14. HIS LORDSHIP - Fought and killed the Lord, Velazquez.
+	15. ALEXANDROS - Recruited the wizard Alexandros.
+	16. HIGH PRIEST - Hunted and slew the High Priest in his monastery.
+	17. EARTH - Recovered the stone of elemental Earth.
+	18. GRIEF - Slew a grieving soldier amidst a field of red flowers.
+	19. SUICIDE - Witnessed the fishing colony's mass suicide.
+	20. WATER - Recovered the stone of elemental Water.
+	21. BLOODHOUND - Fought and killed the Bloodhound.
+	22. RAMPARTS - Passed through the ramparts into the Aether Ruins.
+	23. PRINCE MORCANT - Bore witness to Morcant. Put him out of his misery.
+	24. SHATTERED AETHER - Recovered the broken stone of elemental Aether.
+	25. AYLMERA - Met the spirit of Aylmera. I'm merely a stranger.
+	26. PALADIN - Fought and spared a grieving Paladin.
+	27. DESECRATION - Unearthed the queen's grave for her skull.
+	28. AETHER - Restored the stone of elemental Aether.
+	29. HEALING - Rebalanced the 4 elemental stones. Do the undead still walk?
+	30. CHAOS - Witnessed the King's castle enveloped in flames.
+	31. PYRRHIC VICTORY - Fought and killed the Bandit Queen.
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
