@@ -332,8 +332,6 @@ Simple things to Work On:
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
 	- This will help in fleshing out each fighter, zone, and their themes.
 193. Outline how Memories will work programatically
-	- There's a series of preset "memories" which the player unlocks, sequentially.
-		~ Ideally, let some of these be optional, but it's okay if not.
 	- As tasks are completed in the game, update the Memories variable
 	- When rendering the page, do a background tile swap to show each task written out based on the player's progress in the game.
 		~ Is this really the ideal way to handle it?
@@ -346,6 +344,9 @@ Simple things to Work On:
 		~ Could make them numbers or a single word, or something like that.
 	- Need a way to dynamically select each of the Memory entries
 		~ Try fitting them all onto one page, no flipping. (There's room for 26 notes)
+	- At each key event, set the $Memories var EQUAL to the value of that story point.
+	- Check the Memories var and depending on how low it is, background swap things OUT to plain white.
+		~ Also assign which elements you can navigate the cursor to based on the var length.
 194. Create a page flipping sound for fading between the Memories pages
 195. Write a list of all the Memories
 	1. AWAKENING - Awoke from a deep slumber by a man named Alexandros.

@@ -16357,37 +16357,30 @@
                     "collisionGroup": "",
                     "symbol": "actor_20",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF_VALUE",
+                            "args": {
+                                "variable": "4",
+                                "operator": ">",
+                                "comparator": "0",
+                                "__collapseElse": true,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [],
+                                "false": []
+                            },
+                            "id": "a5addc33-2f8a-4bf5-beb4-441569831d5d"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "d6b2cc91-eacd-4be7-a90c-9b14db9039ba",
-                    "x": 4,
-                    "y": 17
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
-                    "direction": "right",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_25",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "6501be49-7d62-451e-ace5-cda1873bb81f",
-                    "x": 14,
-                    "y": 17
+                    "x": 9,
+                    "y": 2
                 }
             ],
             "triggers": [],
@@ -16399,11 +16392,43 @@
                         "__collapse": true
                     },
                     "id": "1066870d-5b94-4967-bd3b-d487c0edb927"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "T0",
+                        "value": {
+                            "type": "variable",
+                            "value": "4"
+                        },
+                        "__collapse": true
+                    },
+                    "id": "aa21726a-62f0-4e8b-afb8-80a9694ac45e"
+                },
+                {
+                    "command": "EVENT_LOOP_WHILE",
+                    "args": {
+                        "expression": "$Tempo0 > 0"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_DEC_VALUE",
+                                "args": {
+                                    "variable": "T0",
+                                    "__collapse": true
+                                },
+                                "id": "494b44c3-2e65-475f-bd41-b5f21ee5de5d"
+                            }
+                        ]
+                    },
+                    "id": "7befe987-7594-4cb7-afc2-1cf36714d08f"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Royal Courtyard South",
@@ -22541,7 +22566,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "memories.png"
+            "filename": "memories.png",
+            "tileColors": []
         },
         {
             "id": "8babce70-e3bf-4260-99a9-e3cbd4fef521",
@@ -61504,6 +61530,11 @@
             "symbol": "var_viewedtowerlandscape"
         },
         {
+            "id": "4",
+            "name": "Memories",
+            "symbol": "var_memories"
+        },
+        {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
             "name": "Local 1",
             "symbol": "var_local_1"
@@ -61687,11 +61718,6 @@
             "id": "45e976cf-3894-47de-8dab-2387f26a42e2__L0",
             "name": "Local 0",
             "symbol": "var_local_9"
-        },
-        {
-            "id": "4",
-            "name": "Variable 4",
-            "symbol": "var_variable_4"
         }
     ],
     "engineFieldValues": [
@@ -61710,7 +61736,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 617,
-        "worldScrollY": 21,
+        "worldScrollY": 24,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
