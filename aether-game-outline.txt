@@ -327,8 +327,7 @@ Simple things to Work On:
 		e. Full fade to white, then fade into the battle scene.
 		f. Control is given back to the player and they fight their opponent.
 190. Create 2 sound effects for emotes (positive, and negative)
-191. Design the Memories page which details your next task and crosses out old ones.
-192. Select a song that captures the vibe of each bossfight
+192. Look up songs that capture the vibe of each bossfight you want
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
 	- This will help in fleshing out each fighter, zone, and their themes.
 193. Outline how Memories will work programatically
@@ -347,8 +346,10 @@ Simple things to Work On:
 	- At each key event, set the $Memories var EQUAL to the value of that story point.
 	- Check the Memories var and depending on how low it is, background swap things OUT to plain white.
 		~ Also assign which elements you can navigate the cursor to based on the var length.
-194. Create a page flipping sound for fading between the Memories pages
-195. Write a list of all the Memories
+	- Need an interactable dialogue box for 26!!! items on the screen
+		~ What if I had ONE invisible sprite that moved WITH the cursor, and the player was just interacting with that.
+		~ Or even just attach a script to the A button which checks the cursor's location and displays different dialogue accordingly.
+194. Write a list of all the Memories
 	1. AWAKENING - Awoke from a deep slumber by a man named Alexandros.
 	2. JESTER - Met and recruited the court Jester.
 	3. QUEST - The King asked me to rebalance 4 elemental stones.
@@ -380,6 +381,8 @@ Simple things to Work On:
 		. HEALING - Rebalanced the 4 elemental stones. Do the undead still walk?
 	26. ANGUISH - Witnessed the King's castle enveloped in flames.
 		. PYRRHIC VICTORY/VIVIAN - Fought and killed the Bandit Queen.
+195. Rework the Start Menu script to call a correct variable
+	- All scenes need to be updated
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
