@@ -326,6 +326,9 @@ Simple things to Work On:
 			~ A sound cue is played as well, denoting the start of a fight.
 		e. Full fade to white, then fade into the battle scene.
 		f. Control is given back to the player and they fight their opponent.
+	- ALTERNATELY:
+		~ Design a transition screen that reads VERTICALLY and says "BATTLE" on half the screen with another half being a vertical full-body image of either Aylmera or the opponent.
+		~ How many tiles can I draw using background tile swapping?
 190. Create 2 sound effects for emotes (positive, and negative)
 192. Look up songs that capture the vibe of each bossfight you want
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
