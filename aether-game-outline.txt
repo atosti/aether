@@ -393,6 +393,11 @@ Simple things to Work On:
 	- Or the rest of the party against Alexandros and his wizards + bandits.
 * Regardless, the final climatic events should occur after the realignment, once you return to the castle itself.
 
+* Design a dialogue system that uses bitwise math to allow for a single variable to handle branching dialogue for an entire scene.
+	- The Range is (-32768, 32767)
+	- +32767 = bin 0111 1111 1111 1111
+		~ This is 16 total booleans to work with PER variable.
+
 
 Core Gameplay Loop:
 ====================
