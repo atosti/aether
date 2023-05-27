@@ -16444,7 +16444,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__label": "Move Player",
+                        "__label": "Set Player to Default Position",
                         "__collapse": true
                     },
                     "children": {
@@ -16531,7 +16531,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": false,
-                        "__label": "Cursor Movement"
+                        "__label": "Cursor Movement Scripts"
                     },
                     "children": {
                         "true": [
@@ -16549,16 +16549,14 @@
                                 "children": {
                                     "true": [
                                         {
-                                            "command": "EVENT_SET_VALUE",
+                                            "command": "EVENT_ACTOR_GET_POSITION",
                                             "args": {
-                                                "variable": "T1",
-                                                "value": {
-                                                    "type": "property",
-                                                    "value": "player:ypos"
-                                                },
+                                                "actorId": "$self$",
+                                                "vectorX": "T0",
+                                                "vectorY": "T1",
                                                 "__collapse": true
                                             },
-                                            "id": "11891a75-93ea-484b-9769-f54c7558b2a8"
+                                            "id": "7b75192d-64dd-453e-be4f-8ec356d5d555"
                                         },
                                         {
                                             "command": "EVENT_IF_VALUE",
@@ -16566,7 +16564,7 @@
                                                 "variable": "T0",
                                                 "operator": "==",
                                                 "comparator": 0,
-                                                "__collapseElse": true,
+                                                "__collapseElse": false,
                                                 "__disableElse": false,
                                                 "__collapse": true
                                             },
@@ -16630,11 +16628,189 @@
                                     ],
                                     "override": true,
                                     "__scriptTabs": "press",
-                                    "__comment": true,
+                                    "__comment": false,
                                     "__collapse": false
                                 },
                                 "children": {
-                                    "true": []
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 0,
+                                                "y": 2,
+                                                "__collapseElse": true,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": {
+                                                                "type": "number",
+                                                                "value": 0
+                                                            },
+                                                            "y": {
+                                                                "type": "number",
+                                                                "value": 14
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "89bbbcae-ed82-4e8a-83e6-4ff804f435e0"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "player",
+                                                            "x": 10,
+                                                            "y": 2,
+                                                            "__collapseElse": false,
+                                                            "__disableElse": false,
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": {
+                                                                            "type": "number",
+                                                                            "value": 10
+                                                                        },
+                                                                        "y": {
+                                                                            "type": "number",
+                                                                            "value": 14
+                                                                        },
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "fcf5ac2c-a3d1-4557-9dd3-56025499ed78"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": 0,
+                                                                        "y": -1,
+                                                                        "moveType": "vertical",
+                                                                        "useCollisions": false,
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "25bdb7e0-d2da-4d22-b51b-b96e742d22dd"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "756a0f23-2ca3-48c3-aa0a-7925aae916cf"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "8915b468-0d9d-487e-88c4-41b62b01f98e"
+                                        }
+                                    ]
+                                },
+                                "id": "98b876c8-25ea-4e75-9e18-65631ffa9e95"
+                            },
+                            {
+                                "command": "EVENT_SET_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "down"
+                                    ],
+                                    "override": true,
+                                    "__scriptTabs": "press",
+                                    "__comment": false,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 0,
+                                                "y": 14,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": {
+                                                                "type": "number",
+                                                                "value": 0
+                                                            },
+                                                            "y": {
+                                                                "type": "number",
+                                                                "value": 2
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "4bfab2ec-ed8d-4cb7-89dd-ee893f0bbb3b"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "player",
+                                                            "x": 10,
+                                                            "y": 14,
+                                                            "__collapseElse": false,
+                                                            "__disableElse": false,
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": {
+                                                                            "type": "number",
+                                                                            "value": 10
+                                                                        },
+                                                                        "y": {
+                                                                            "type": "number",
+                                                                            "value": 2
+                                                                        },
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "5270bdf0-5d39-4bdb-b094-154c714a6f30"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": 0,
+                                                                        "y": 1,
+                                                                        "moveType": "vertical",
+                                                                        "useCollisions": false,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "7906f2b3-a257-4bfa-b362-37a282965899"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "faf3f02d-750f-402f-ad7e-30d404d90a14"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "d30eca90-690c-4374-abfb-3f5bb3ede3e5"
+                                        }
+                                    ]
                                 },
                                 "id": "d93b509f-3d63-4a91-bb4d-8f8fb2d9aaea"
                             },
@@ -16651,33 +16827,19 @@
                                 "children": {
                                     "true": [
                                         {
-                                            "command": "EVENT_SET_VALUE",
+                                            "command": "EVENT_ACTOR_GET_POSITION",
                                             "args": {
-                                                "variable": "T0",
-                                                "value": {
-                                                    "type": "property",
-                                                    "value": "player:xpos"
-                                                },
+                                                "actorId": "$self$",
+                                                "vectorX": "T0",
+                                                "vectorY": "T1",
                                                 "__collapse": true
                                             },
-                                            "id": "909ad8cc-1219-4496-a2a1-0ca2255910a9"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_VALUE",
-                                            "args": {
-                                                "variable": "T1",
-                                                "value": {
-                                                    "type": "property",
-                                                    "value": "player:ypos"
-                                                },
-                                                "__collapse": true
-                                            },
-                                            "id": "9efb6428-f3c2-423a-b8fc-a01345adbee9"
+                                            "id": "e8f2a851-a341-44b1-a541-86e5d8f1b994"
                                         },
                                         {
                                             "command": "EVENT_GROUP",
                                             "args": {
-                                                "__collapse": false,
+                                                "__collapse": true,
                                                 "__label": "1. Awakening"
                                             },
                                             "children": {
@@ -16698,7 +16860,7 @@
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "I heard many voices whisper to me before\nawakening from a deep, long slumber. The\none who roused me looks like a Wizard."
+                                                                            "I heard many voices whisper to me before\nawakening from a long, deep slumber. The\none who roused me looks like a Wizard."
                                                                         ],
                                                                         "avatarId": "",
                                                                         "__collapse": false
@@ -62276,8 +62438,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2246,
-        "worldScrollY": 440,
+        "worldScrollX": 3208,
+        "worldScrollY": 210,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -62307,7 +62469,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            888,
             30
         ],
         "showNavigator": true,
