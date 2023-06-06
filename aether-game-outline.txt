@@ -2158,6 +2158,8 @@ Concepts:
 	- Aylmera: "We need to find Alexandros while there's still time."
 	- Neera: "My visions are hazy, but we've heard rumors he's held in the Lord's dungeon. Beneath the keep."
 	- Aylmera: "Then we'll need to find a way inside."
+133. Insights from the past
+	- "Fear is all they knew when writing the Old Texts. Freedom was all they knew when reading them." (they = the Royal wizards)
 
 	
 Misc Dialogue for encounters:
