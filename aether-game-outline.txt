@@ -2170,9 +2170,22 @@ Concepts:
 			"For they knew already of their great burden."
 	- "It's a fool who thinks he can control the will of others."
 	- "When the smoke clears, who will be left?"
-	- "A trail of blood. Is such a thing the path to enlightenment?"
+	- "Trails of blood. Is such a thing the path to enlightenment?"
+	- "Authority grants us the freedom to act, yet rarely the freedom to feel."
+	- "Do you know what drove these lands to such madness?"
+		[The Great Tower.]
+			"That was merely the catalyst."
+		[The King.]
+			"He was merely a victim of his own selfish desires."
+		"Twas bearing witness to inaction amidst a time of great chaos. Such a thing cannot be forgotten."
+	- "The nobles say chivalry is dead. Where was it last buried?"
+	- "The church sings sermons which itself disobeys. For whom are its teachings?"
+	- "Long before the King, it was warring tribes who ceased to salt each other's lands during war."
+		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
 
-	
+		
+134. The story of what happened at the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
+
 Misc Dialogue for encounters:
 ===============================
 1.  Player: "I heard your enemies call you 'The Butcher'.
