@@ -2182,9 +2182,19 @@ Concepts:
 	- "The church sings sermons which itself disobeys. For whom are its teachings?"
 	- "Long before the King, it was warring tribes who ceased to salt each other's lands during war."
 		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
-
-		
 134. The story of what happened at the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
+135. Neera explaining herself and her powers
+	- Neera: "Make no mistake, I think myself not the messiah. I am but a vessel of the Lord, and I wish only to spread his word."
+	- Neera: "Though a unique gift, my significance is no greater than the pages of a holy book. Albeit my methods are more direct."
+	- Neera: "At first I found it a burden being forced to listen to the whims of another. But the more I heard, the more I understood."
+	- Neera: "My resolve grew as I understood the central truth of it all: God needs us, just as we need him."
+	- Neera: "Don't you see? Without a vessel, he speaks into a vaccuum. And without followers, he has no influence."
+	- Neera: "Thusly, our relationship to the divine is one of symbiosis."
+	- Neera: "We are paired to the divine as dark is to light, or as sun is to moon."
+	- Neera: "My blessing is to be at the midpoint of that pairing. Truly beautiful, don't you agree?"
+	[You're blessed.]
+	[You're cursed.]
+		~ Neera: "I admire your doubt, but I'm already certain of my role in this matter."
 
 Misc Dialogue for encounters:
 ===============================
