@@ -403,19 +403,46 @@ Simple things to Work On:
 		  "He seemed to know who I am, and called me by my name: Aylmera."
 	3. Oubliette (Examine any of the torture devices)
 		~ "The castle has an oubliette stocked with torture devices."
-		  "All of the instruments were well-used, though ancient."
+		  "All of the instruments were well-used, though near-ancient."
 		  "What happened in the Kingdom before my arrival?"
 	4. The Jester (Meet the Jester)
-		~ ""
+		~ "I met the court Jester. His demeanor is regal and cheery, both remnants of an old world."
+		  "His motley garb is weathered, and held together with numerous hardened leather patches."
+		  "The Jester informed me that the King implored him to accompany me on my journey."
 	5. Royal Quest (The King sends you off)
-	6. 
-		~ ""
-	Royal Eulogy
+		~ "The Crown told me of the undead threat at his borders. A product of a great, Aetherial explosion."
+		  "I was tasked with acquiring 4 elemental stones to rebalance the Aether."
+		  "In the Aether Ruins, he says there's an altar which can perform the rebalancing ritual."
+	6. Eulogy
 		~ "The King's bedside held a eulogy for the late prince."
-		  "It described the Prince's dedication and loyalty to the Crown."
-		  "His death must have brought great pain to the King."
-	X. 
-
+		  "It described the Prince's dedication and loyalty to the Realm."
+		  "His death must have brought immense pain to the King."
+	7. 
+	X. Banditry
+		~ "Barely outside the castle walls, the bandits run freely."
+		  "The villagers, mostly farmers, fear for their lives."
+		  "Between the undead and bandit threats, most have already given up."
+	X. Bandit Queen (Route Vivian in combat)
+		~ ""
+		  ""
+		  ""
+	X. Apothecary
+	X. Lepers
+		~ "Roughly a dozen corpses baking under the hot sun."
+		  "Left to rot until the carrion come for them."
+		  "They all knew the outcome, yet still made this choice... why?"
+	X. Sigmund's Tears (Defeat Morcant)
+		~ "When the prince finally fell, the Jester collapsed to his knees."
+		  "Tears streamed down his face as he stared at the hulking, dead mass."
+		  "None of us tried to console him, there was no point. His grief matched the tragedy."
+	X. Foreign Paladin
+		~ "Amidst the consecrated earth of the royal graveyard, we found a man."
+		  "He was praying beside the Queen's grave, whispering softly to himself."
+		  "He recognized me for my armor. Said we were kinfolk, though we'd never met."
+		  "Defending the Queen's gravesite from desecration, he fought against us."
+		  "Yet upon defeat, he threw his weapon aside and simply begged us to stop."
+		  "Realizing his actions were in vain, he tearfully walked into the ruined wasteland."
+		  "Should we have gone after him? Why was he here? Where did he go?"
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
