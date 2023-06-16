@@ -16487,7 +16487,7 @@
                     "args": {
                         "__collapse": false,
                         "__label": "Hide Memories",
-                        "__comment": true
+                        "__comment": false
                     },
                     "children": {
                         "true": [
@@ -16507,7 +16507,7 @@
                                 "command": "EVENT_LOOP_WHILE",
                                 "args": {
                                     "expression": "$Tempo0 > 0",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16530,7 +16530,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Cursor Movement Scripts"
                     },
                     "children": {
@@ -62438,8 +62438,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3208,
-        "worldScrollY": 210,
+        "worldScrollX": 2246,
+        "worldScrollY": 203,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -62469,7 +62469,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            888,
+            897,
             30
         ],
         "showNavigator": true,

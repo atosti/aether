@@ -16629,7 +16629,7 @@
                                     "override": true,
                                     "__scriptTabs": "press",
                                     "__comment": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -16726,7 +16726,7 @@
                                     "override": true,
                                     "__scriptTabs": "press",
                                     "__comment": false,
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "children": {
                                     "true": [
@@ -16736,9 +16736,9 @@
                                                 "actorId": "$self$",
                                                 "x": 0,
                                                 "y": 14,
-                                                "__collapseElse": false,
+                                                "__collapseElse": true,
                                                 "__disableElse": false,
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true": [

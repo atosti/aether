@@ -386,6 +386,35 @@ Simple things to Work On:
 		. PYRRHIC VICTORY/VIVIAN - Fought and killed the Bandit Queen.
 195. Rework the Start Menu script to call a correct variable
 	- All scenes need to be updated
+196. Slight Memories screen rewrite
+	- Allow Memories to be dynamically acquired and also paging.
+	- Implement variable flags (each bit of a var) as $Memories-p1, $Memories-p2
+		~ Each page references a literal page (one half the screen) of the Memories screen.
+	- Then draw to each position on the page, mapped to Numbered Tiles
+197. New core memories list
+	A/B corresponds to the page number
+	1. Awakening (Game Intro)
+		~ "I heard a thousand voices whispering to me in my dreams."
+		  "They spoke of concepts beyond my comprehension."
+		  "But now my mind is a haze, and my thoughts are jumbled as though I'm still asleep."
+	2. Aylmera (Game Intro)
+		~ "There were runes carved into the floor of the dungeon I awoke in."
+		  "A young man, dressed as a wizard, stood at the Apex of the carvings and addressed me."
+		  "He seemed to know who I am, and called me by my name: Aylmera."
+	3. Oubliette (Examine any of the torture devices)
+		~ "The castle has an oubliette stocked with torture devices."
+		  "All of the instruments were well-used, though ancient."
+		  "What happened in the Kingdom before my arrival?"
+	4. The Jester (Meet the Jester)
+		~ ""
+	5. Royal Quest (The King sends you off)
+	6. 
+		~ ""
+	Royal Eulogy
+		~ "The King's bedside held a eulogy for the late prince."
+		  "It described the Prince's dedication and loyalty to the Crown."
+		  "His death must have brought great pain to the King."
+	X. 
 
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
@@ -594,7 +623,7 @@ Character Names/Titles:
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric (Diviner?)
 	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind? Hivemind Diviner?
-	* Zen, wise, faithful, relaxed, trusting (believes her fate will work out), Duty-bound.
+	* Zen, wise, faithful, relaxed, trusting (believes her fate will work out), Duty-bound, Stoic (unphased by the horrors).
 	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
 	* She has only one eye, the other socket containing a fake eyeball Fashioned of pure gold. 
 		- She believes she communes with God.
@@ -2182,8 +2211,23 @@ Concepts:
 	- "The church sings sermons which itself disobeys. For whom are its teachings?"
 	- "Long before the King, it was warring tribes who ceased to salt each other's lands during war."
 		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
-134. The story of what happened at the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
-135. Neera explaining herself and her powers
+134. The story of what happened immediately after the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
+135. Neera and the Jester after slaying Morcant
+	* This should probably occur after the party convinces him he can't stop to bury the corpse.
+	- Jester (kneeling at the side of Morcant's body): "Priestess... Did you know of this? Did you receive visions of this moment?!"
+	- Neera: "Yes. But to share everything I see would only bring about further misery."
+	- Neera: "Truthfully, I've known of the Prince's state since we first met at the Leper Colony."
+	- Neera: "But I also knew of your determination, Sigmund. I bore witness to over a hundred encounters with him, most ending in failure."
+	- Neera: "And despite that, it was you who consistently fought the hardest. Fighting to the bitter end each and every time."
+	- Neera: "It's how I know you have the strength to persevere."
+	- Jester: *Cries* (or maybe just emote tears welling up in eyes?)
+	- Alexandros: "So you've known of everything up until now?"
+	- Neera: "No. I've never lied to you of what I know. And now, amidst these ruinous energies, my foresight is no better than yours."
+	- Neera: "This was as far as I could see. We're all wandering blind now."
+	- Jester: "Neera."
+	- Jester: "At least say some words for him. Death rites, a funeral prayer, anything..."
+	* Reference the Funeral prayer written previously. Combine these 2 interactions into one. What's here adds good depth to the interaction.
+136. Neera explaining herself and her powers
 	- Neera: "Make no mistake, I think myself not the messiah. I am but a vessel of the Lord, and I wish only to spread his word."
 	- Neera: "Though a unique gift, my significance is no greater than the pages of a holy book. Albeit my methods are more direct."
 	- Neera: "At first I found it a burden being forced to listen to the whims of another. But the more I heard, the more I understood."
