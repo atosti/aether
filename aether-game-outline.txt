@@ -420,7 +420,7 @@ Simple things to Work On:
 	7. 
 	X. Banditry
 		~ "Barely outside the castle walls, the bandits run freely."
-		  "The villagers, mostly farmers, fear for their lives."
+		  "Mostly farmers, the villagers fear for their lives."
 		  "Between the undead and bandit threats, most have already given up."
 	X. Bandit Queen (Route Vivian in combat)
 		~ ""
