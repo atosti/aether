@@ -417,7 +417,11 @@ Simple things to Work On:
 		~ "The King's bedside held a eulogy for the late prince."
 		  "It described the Prince's dedication and loyalty to the Realm."
 		  "His death must have brought immense pain to the King."
-	7. 
+	7. Quartermaster (Receive sword/training from QM)
+		~ "The Quartermaster gave me a bastard sword. He said it was my signature weapon."
+		  "He was deeply reluctant to offer his assistance, but did so anyway."
+		  "The blade feels awkward in my hands. I barely know how to swing it."
+	8. 
 	X. Banditry
 		~ "Barely outside the castle walls, the bandits run freely."
 		  "Mostly farmers, the villagers fear for their lives."
@@ -426,6 +430,9 @@ Simple things to Work On:
 		~ ""
 		  ""
 		  ""
+	X. Lone Stranger (Meet the bloodhound for the first time)
+	X. Neera (Neera joins the party)
+		~ ""
 	X. Apothecary
 	X. Lepers
 		~ "Roughly a dozen corpses baking under the hot sun."
@@ -2266,6 +2273,10 @@ Concepts:
 	[You're blessed.]
 	[You're cursed.]
 		~ Neera: "I admire your doubt, but I'm already certain of my role in this matter."
+137. Confrontation with an adversary
+	- Enemy: "Where were you to proselytize when I murdered for sport?"
+	- Enemy: "You should be wary of scolding those who wish you harm."
+	- Enemy: "Shall I teach you such a valuable lesson?"
 
 Misc Dialogue for encounters:
 ===============================
