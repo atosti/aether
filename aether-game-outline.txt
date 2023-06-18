@@ -393,6 +393,8 @@ Simple things to Work On:
 	- Then draw to each position on the page, mapped to Numbered Tiles
 197. New core memories list
 	A/B corresponds to the page number
+	Just build it as 3 screens, with a quick fade in time triggered when going left/right.
+		- Add a page flipping sound as well. Can always go back and rework it better later.
 	1. Awakening (Game Intro)
 		~ "I heard a thousand voices whispering to me in my dreams."
 		  "They spoke of concepts beyond my comprehension."
@@ -413,7 +415,7 @@ Simple things to Work On:
 		~ "The Crown told me of the undead threat at his borders. A product of a great, Aetherial explosion."
 		  "I was tasked with acquiring 4 elemental stones to rebalance the Aether."
 		  "In the Aether Ruins, he says there's an altar which can perform the rebalancing ritual."
-	6. Eulogy
+	6. Eulogy (Reading the bedside eulogy note)
 		~ "The King's bedside held a eulogy for the late prince."
 		  "It described the Prince's dedication and loyalty to the Realm."
 		  "His death must have brought immense pain to the King."
@@ -421,8 +423,8 @@ Simple things to Work On:
 		~ "The Quartermaster gave me a bastard sword. He said it was my signature weapon."
 		  "He was deeply reluctant to offer his assistance, but did so anyway."
 		  "The blade feels awkward in my hands. I barely know how to swing it."
-	8. 
-	X. Banditry
+	8.
+	X. Banditry (Leaving the village into the forest)
 		~ "Barely outside the castle walls, the bandits run freely."
 		  "Mostly farmers, the villagers fear for their lives."
 		  "Between the undead and bandit threats, most have already given up."
@@ -433,7 +435,10 @@ Simple things to Work On:
 	X. Lone Stranger (Meet the bloodhound for the first time)
 	X. Neera (Neera joins the party)
 		~ ""
-	X. Apothecary
+	X. The Apothecary
+		~ "We beat the huckster bloodied and broken. He'd left us little choice."
+		  "A tragedy turned comedy when considering the plethora of remedies still on his person."
+		  "Fitting that the con man found his death the result of overconfidence."
 	X. Lepers
 		~ "Roughly a dozen corpses baking under the hot sun."
 		  "Left to rot until the carrion come for them."
@@ -443,6 +448,8 @@ Simple things to Work On:
 		  "Tears streamed down his face as he stared at the hulking, dead mass."
 		  "None of us tried to console him, there was no point. His grief matched the tragedy."
 	X. Foreign Paladin
+		* Ideally have him speak in a unique accent or manner that no one else in the region does. Try apostrophes to shorten words. Funny spellings, perhaps, phonetically. (e.g. Luuking for 'Looking')
+			Or having him never speak a certain vowel or consonant. Replace E's or A's with apostrophes, etc.
 		~ "Amidst the consecrated earth of the royal graveyard, we found a man."
 		  "He was praying beside the Queen's grave, whispering softly to himself."
 		  "He recognized me for my armor. Said we were kinfolk, though we'd never met."
@@ -2185,7 +2192,7 @@ Concepts:
 	- Alexandros: *Pauses* (...) "I... huh..."
 	- CoM: *The man waves you away dismissively.* *He walks away.*
 	- *Alexandros rejoins the party*
-129. Bandit: "You don't know of hardship. We had to pick over our comrade's bones for scraps of rations."
+129. Bandit: "You don't know of hardship. We had to pick over our comrade's bones for scraps and rations."
 	- Bandit: "Were it not for Vivian's guidance, most of us would've been lost in the ruins."
 	- Aylmera: "So you went from robbing the dead to robbing the living?"
 	- Bandit: "Pfft. You can't steal from those who hoard. You can only redistribute."
@@ -2243,7 +2250,7 @@ Concepts:
 		"Twas bearing witness to inaction amidst a time of great chaos. Such a thing cannot be forgotten."
 	- "The nobles say chivalry is dead. Where was it last buried?"
 	- "The church sings sermons which itself disobeys. For whom are its teachings?"
-	- "Long before the King, it was warring tribes who ceased to salt each other's lands during war."
+	- "Long before the King, it was warring tribes who first ceased to salt each other's lands during war."
 		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
 134. The story of what happened immediately after the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
 135. Neera and the Jester after slaying Morcant
