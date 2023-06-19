@@ -2284,6 +2284,20 @@ Concepts:
 	- Enemy: "Where were you to proselytize when I murdered for sport?"
 	- Enemy: "You should be wary of scolding those who wish you harm."
 	- Enemy: "Shall I teach you such a valuable lesson?"
+138. Mindset of the bandits
+	- Aylmera: *Refers to the opposition as 'bandits'*
+	- Bandit: "You call us bandits. Yet I doubt you know what such a word even means."
+	- Bandit: "It stems from 'to be banished'. Sometimes we're called outlaws. Those 'outside the law'."
+	- Bandit: "And yet... we are far from lawless."
+	- Bandit: "Indeed the Crown has denounced us. But under what authority does he rule?"
+	- Bandit: "He leads a broken kingdom lacking morals. Even the wizards saw that."
+	- Bandit: "And now we hear rumors from up North. They say the priests no longer hear the voice of God."
+	- Bandit: "I think even the almighty is having doubts."
+	- Aylmera: "You sound like little more than selfish opportunists."
+	- Bandit: *Angry frown*
+	- Bandit: "It's a shame you're so blinded by your loyalties. We're making real progress here.'"
+	- Bandit: "Nevertheless, you'll understand in due time."
+
 
 Misc Dialogue for encounters:
 ===============================
