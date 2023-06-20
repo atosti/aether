@@ -573,6 +573,8 @@ Main Antagonists:
 			~ e.g. Hero was always known to be physically warm, thought to have fire inside them. Meanwhile, the Player character gets cold in various regions and is freezing at once point.
 		d. When given the Hero's fabled sword, it should feel slightly too heavy for you.
 6. Vampire Lord
+	* Consider repurposing this character into a torturer in His Lordship's expansive dungeon.
+		~ He doesn't need to be a vampire. Could just be a real weirdo who's cultish.
 	- Man who is losing control of his flock of followers. Has little interest in assisting the realm, as the undead mostly leave him alone, and he's a recluse after all.
 	- The party could be forced to enter his manor as a means to escape a growing undead horde they've attracted.
 		~ Then they must navigate the inside and escape.
