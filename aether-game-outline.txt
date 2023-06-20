@@ -423,31 +423,45 @@ Simple things to Work On:
 		~ "The Quartermaster gave me a bastard sword. He said it was my signature weapon."
 		  "He was deeply reluctant to offer his assistance, but did so anyway."
 		  "The blade feels awkward in my hands. I barely know how to swing it."
-	8.
-	X. Banditry (Leaving the village into the forest)
-		~ "Barely outside the castle walls, the bandits run freely."
-		  "Mostly farmers, the villagers fear for their lives."
-		  "Between the undead and bandit threats, most have already given up."
-	X. Bandit Queen (Route Vivian in combat)
-		~ ""
-		  ""
-		  ""
+	8. Castle Gate (Leave the castle)
+		~ "The Jester and I left the castle through its main gate."
+		  "As we walked away, the significance of our journey began to dawn on me."
+		  "The King is reliant on our resounding success. Without it, he shall fall."
+	9. The Bard (Meet and talk with the Bard in the village)
+	10. Village Bridge (Discover the bridge North is closed)
+	11. Banditry (Leaving the village into the forest)
+	~ "Barely outside the castle walls, bandits roam freely."
+	  "Mostly farmers, the villagers fear for their lives."
+	  "Between the undead and bandit threats, most have already given up."
+	12. Bandit Queen (Route Vivian in combat)
 	X. Lone Stranger (Meet the bloodhound for the first time)
 	X. Neera (Neera joins the party)
-		~ ""
-	X. The Apothecary
+		~ "A one-eyed priestess who communes with God himself."
+		  "She claims His words come in the form of a hivemind."
+		  "I don't know whether to believe her, but she has a trustworthy demeanor."
+	X. The Apothecary (Slay the apothecary)
 		~ "We beat the huckster bloodied and broken. He'd left us little choice."
 		  "A tragedy turned comedy when considering the plethora of remedies still on his person."
 		  "Fitting that the con man found his death the result of overconfidence."
-	X. Lepers
+	X. Lepers (Murder the leper colony)
 		~ "Roughly a dozen corpses baking under the hot sun."
-		  "Left to rot until the carrion come for them."
-		  "They all knew the outcome, yet still made this choice... why?"
+		  "Left to rot until the carrion decide to feast on them."
+		  "They all knew their outcome, yet still made this choice... why?"
+	X. River (Fall into the river)
+		~ "A deep river. My armor dragging me down under. Unable to surface."
+		  "I felt terror and hopelessness as I choked on the vile water."
+		  "And as my heartbeat slowed, I began to dream once more."
+	X. Taunting Void (Finish the cutscene with the void)
+		~ "I heard the voices from beyond yet again. This time more clearly."
+		  "They spoke critically of my progress. Taunted me for my proclivity to violence."
+		  "And yet... they spoke with compassion. Did they intervene to keep me alive?"
+	X. Outskirts (Get nursed back to health in the outskirts of His Lordship's lands)
+	X. Bloodhound (See the Bloodhound a final time. And kill him.)
 	X. Sigmund's Tears (Defeat Morcant)
 		~ "When the prince finally fell, the Jester collapsed to his knees."
-		  "Tears streamed down his face as he stared at the hulking, dead mass."
+		  "Tears streaming down his face as he stared at the hulking, dead mass."
 		  "None of us tried to console him, there was no point. His grief matched the tragedy."
-	X. Foreign Paladin
+	X. Foreign Paladin (Meet and defeat the Paladin at the Queen's grave)
 		* Ideally have him speak in a unique accent or manner that no one else in the region does. Try apostrophes to shorten words. Funny spellings, perhaps, phonetically. (e.g. Luuking for 'Looking')
 			Or having him never speak a certain vowel or consonant. Replace E's or A's with apostrophes, etc.
 		~ "Amidst the consecrated earth of the royal graveyard, we found a man."
@@ -1110,16 +1124,16 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 41. The Spirit is disappointed to find that the Aether crystal has been shattered.
 	- She realizes that the party must undergo a final leg of their quest in order to repair it and restore order to the Realm.
 	- "You. Cannot. Fail. Too much lies at stake. And far too many have died for you to perish at the last step."
-	- "You will need to combine the shattered stone with the bones of the blessed."
-	- "It will be difficult, since most these catacombs have been defiled. You'll need to find consecrated ground. Where someone is buried."
-	- "I'm afraid that's as much as I can offer. I know not where you can find such a place."
+	- "You will need the power of a sacred pendant to finish the ritual. It was a relic entrusted to royalty in my lifetime. Someone you know must have it."
+	- "I'm afraid that's as much as I can offer. I know not where you can find its caretaker."
 42. The party leaves the Basement Ruins and talks amongst themselves above-ground about possible leads.
-	a. Return to the field of Red flowers
-		- Attempting to dig up any of the bodies will anger the grieving soldier, triggering combat.
-			~ But he does drop a strong weapon for the party to wield.
-		- Moreover, you'll find that combining these bones fails to restore the stone.
-	b. The Queen's holy grave (located directly East of the Ruins of Aether).
+	a. The Queen's holy grave (located directly East of the Ruins of Aether?).
 		- The party must go this way to reach the graveyard (a dead end) then return the way they came toward the Ruins of Aether.
+		- The Jester is embarrassed, and ashamed. He IMMEDIATELY knows where the pendant is, but is grief-stricken by the desecration that must occur to recover it.
+42b. What if...
+	- Instead of being inside the Aether Ruins, the party must go BACK to the castle now in order to rob the queen's grave.
+	- This forces combat with Vivian in a more meaningful way, and has the party finishing their journey within the ruins.
+	- Moreover, it means they can have a false hope of "finishing this for the King" only to realize the undead still roam after the rebalancing is complete.
 43. Reaching the Queen's grave, they find a strange man praying at the gravesite.
 	- He wears armor similar to that of Aylmera.
 	- He seems totally in his thoughts, not hearing the party as they approach.
