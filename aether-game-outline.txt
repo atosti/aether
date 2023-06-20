@@ -457,20 +457,12 @@ Simple things to Work On:
 		  "Yet upon defeat, he threw his weapon aside and simply begged us to stop."
 		  "Realizing his actions were in vain, he tearfully walked into the ruined wasteland."
 		  "Should we have gone after him? Why was he here? Where did he go?"
+198. Add a menu item for "Jokes"
+	- Allows you to ask the Jester to tell you a joke. Pull from a series of real medieval jokes.
+	- Bonus points if you implement a menu item that lets you converse with all of your party members throughout the story.
+199. Look into aligning dialogue and music so that characters can "sing" along to the musical tracks during parts of the narrative.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
-
-* What if the final battle was between whichever characters you're aligned with?
-	- Could be all of your party against the King.
-	- Or the Jester + King against the rest of the party.
-	- Or the rest of the party against Alexandros and his wizards + bandits.
-* Regardless, the final climatic events should occur after the realignment, once you return to the castle itself.
-
-* Design a dialogue system that uses bitwise math to allow for a single variable to handle branching dialogue for an entire scene.
-	- The Range is (-32768, 32767)
-	- +32767 = bin 0111 1111 1111 1111
-		~ This is 16 total booleans to work with PER variable.
-
 
 Core Gameplay Loop:
 ====================
@@ -2252,6 +2244,7 @@ Concepts:
 	- "The church sings sermons which itself disobeys. For whom are its teachings?"
 	- "Long before the King, it was warring tribes who first ceased to salt each other's lands during war."
 		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
+	- "How many would you kill, in order to save those who remain?"
 134. The story of what happened immediately after the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
 135. Neera and the Jester after slaying Morcant
 	* This should probably occur after the party convinces him he can't stop to bury the corpse.
@@ -2297,32 +2290,35 @@ Concepts:
 	- Bandit: *Angry frown*
 	- Bandit: "It's a shame you're so blinded by your loyalties. We're making real progress here.'"
 	- Bandit: "Nevertheless, you'll understand in due time."
-
-
-Misc Dialogue for encounters:
-===============================
-1.  Player: "I heard your enemies call you 'The Butcher'.
-	Butcher: "No. They don't. It's my friends who call me that. My enemies know me by many other names: Killer. Cannibal. Rapist."
-		- Alternately: "You heard wrong. It's my friends who call me that..."
-	Butcher: "Given the opportunity... I wonder which title you'll choose for me." *Smiles wickedly*
-	* Engages the player, triggering a battle *
-2.  Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
-	Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
-	Unknown: "In truth... I envy them. They're the only ones at peace in the aftermath."
-	Player: "Certainly you don't consider the present situation an improvement for the Realm?"
-	Unknown: "Why shouldn't I? You and I are in no position to judge the will of nature, and no King has ever established such uniform peace. You know they never fight amongst themselves? They don't even feast on the dead. They simply hunt the living."
-	Player: "So you wish to join them? Take part in their uniform peace?"
-	Unknown: "No. I wish to observe them. Perhaps the truth of their world will reveal a path forward for us all."
+139. Aylmera's questions about her revivial
+	- Aylmera: "Wizard. What do you know of the ritual that summoned me?!"
+	- Aylmera: "My limbs ache! My body fails me. And my memories are scattered at best."
+	- Aylmera: "I'm owed an explanation. Tell me what you know."
+140. The Butcher
+	- Player: "I heard your enemies call you 'The Butcher'.
+	- Butcher: "No. They don't. My friends call me that."
+		~ Alternately: "You heard wrong. It's my friends who call me that."
+	- Butcher: "My enemies know me by many other names: Killer. Cannibal. Rapist."
+	- Butcher: "Given the opportunity... I wonder which title you'll choose for me." *Smiles wickedly*
+	* Engages the player, triggering battle *
+141. Lone Ramparts Guard
+	- Unknown: "Though many saw the explosion, most don't remember it well. Because of the sheer chaos that followed it. But I was here, watching intently from my post. Taking in every moment as it flashed before me."
+	- Unknown: "I saw the frenzy fill everything it could touch. Bodies of all shapes and sizes, dead or alive, human or animal, it didn't matter. They all rose together under the sole banner of unbound chaos."
+	- Unknown: "In truth... I envy them. They're the only ones at peace in the aftermath."
+	- Player: "Certainly you don't consider the present situation an improvement for the Realm?"
+	- Unknown: "Why shouldn't I? You and I are in no position to judge the will of nature, and no King has ever established such uniform peace. You know they never fight amongst themselves? They don't even feast on the dead. They simply hunt the living."
+	- Player: "So you wish to join them? Take part in their uniform peace?"
+	- Unknown: "No. I wish to observe them. Perhaps the truth of their world will reveal a path forward for us all."
 	* You leave the man to his ravings. *
-3.  Lord: "Have you ever felt certainty about your role in restoring so-called order to the Realm? What does that even mean to you? Is it about serving a single King, or serving the many inhabitants of the Realm?"
-	Lord: "My father spent his life serving a King, your King, and his reward was swift death on a suicide mission. The fate of his men was the same, the few survivors were either maimed or traumatized."
-	Lord: "I often wonder how much more he could've accomplished serving his people."
-	Lord: *Pauses* "Do you think there's such a thing as a 'justified' war?"
-	Player: 
-		[Absolutely.]
-		Lord: "You would have liked my father. He'd have led you to a glorious death."
-		[Absolutely not.]
-		Lord: "Then perhaps you are not as much a fool as his King." (referring to the Jester)
+143. Dialogue with His Lordship 
+	- Lord: "Have you ever felt certainty about your role in restoring so-called order to the Realm? What does that even mean to you? Is it about serving a single King, or serving the many inhabitants of the Realm?"
+	- Lord: "My father spent his life serving a King, your King, and his reward was swift death on a suicide mission. The fate of his men was the same, the few survivors were either maimed or traumatized."
+	- Lord: "I often wonder how much more he could've accomplished serving his people."
+	- Lord: *Pauses* "Do you think there's such a thing as a 'justified' war?"
+	[Absolutely.]
+		~ Lord: "You would have liked my father. He'd have led you to a glorious death."
+	[Absolutely not.]
+		~ Lord: "Then perhaps you are not as much a fool as his King." (referring to the Jester)
 4.  First encounter with the Bloodhound (Hermit) (Old, needs to be reworked as just telling the story, no combat)
 	(This occurs shortly after the player has slaughtered the Leper colony.)
 	*Party passes a hermit sitting alone, in a tunnel by a campfire*
@@ -2359,11 +2355,13 @@ Misc Dialogue for encounters:
 		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
 	[Elif Accept.]
 		Hermit: "I know you can't possibly be him, yet... you bear his remarkable stench."
-5. Vivian: "You can't imagine the death that I saw. That WE saw. We followed that idiot King and his son into a brutal war. And what was our prize?"
+5. Vivian on the night of the Great Explosion
+	- Vivian: "You can't imagine the death that I saw. That WE saw. We followed that idiot King and his son into a brutal war. And what was our prize?"
 		"My arm still lies on that battlefield, along with the bones of my brethren."
    		"Nothing you say can excuse those facts. The King's wishes brought us to the precipe of ruin."
 		"If you truly serve him, then you must be stopped."
-6. Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something even better than he."
+6. Jester's relationship with the King and comments on Morcant
+	- Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something even better than he."
 	"A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure."
 	"The King could see it. And it filled him with immense pride. But that same pride is what led the King astray."
 	"He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that blew up the Tower."
@@ -2371,7 +2369,6 @@ Misc Dialogue for encounters:
 	"He lacks the resources... and the prowess... to remedy this situation. I sometimes wish the Prince were here in his stead."
 	"The Aether robbed us of a deserving King. Of one who could fix this mess."
 		- The Jester coming to terms with how the King is unfit to rule.
-
 
 Combat System Ideas:
 ====================
@@ -2386,6 +2383,14 @@ More developments. Focus for a Mike Tyson's Punch-Out! style of fighting. Emphas
 		~ Also mix multiple enemy types at once. Or weak enemies + a big boss.
 	- What about a few different strikes?
 		~ Overhead, swing left, swing right, stab.
+	- Select could select your attack type
+		~ Then you could use particular attacks at particular times during an opponent's attacks.
+			~ Let it be real-time, but as a sort of Rock/Paper/Scissors mechanic.
+			  Players would need to read what attack type their opponent is using, and then switch to the correct corresponding move to best counter it.
+		~ Imagine a UI where there's a card on the lower left or right showing the active Attack type.
+		~ Would be even BETTER if you could add attack types that are granted by party members.
+			~ Need to medititate on this more to determine exactly what that would look like.
+
 
 Feb 2023:
 ----------
@@ -2444,7 +2449,6 @@ If one character dies, it needs to immediately toggle to the next available char
 		~ Could attach to it a dialogue note about how they returned to the ashes and nothing they once were.
 		~ Additionally, consider using RNG to pull a variety of quotes out whenever you die.
 
-
 New:
 -----
 1. What if there are different damage types for enemies (a la space station 13)
@@ -2457,7 +2461,6 @@ New:
 2. Still have traditional JRPG style battles, but now with different damage type attacks.
 	- And each character could have specialties (e.g. Aylmera can deal the most direct Brute of anyone)
 3. It would be cool to have these same damage types for the Player's party, but that UI would be difficult to implement, especially given limitations. Definitely sleep on it.
-
 
 Old:
 -----
@@ -2523,17 +2526,7 @@ True Globals I'll need across Acts:
 
 How can I design a dialogue tree to cleanly consume variables?
 	- Everything will need to be nested based on sub-dialogue trees.
-	- 
-
-Dialogue Idea 1:
------------------
-Question: "Do you want to do this?"
-	- Answer: "Yes", "No"
-	Response A = Answer
-	If A == "Yes":
-		"Sub question Alpha"
-	Else:
-		"Sub question Bravo"
+	- Use variable flags to take advantage of the full 16 bits (booleans) offered per variable. Avoid using plain booleans.
 
 History:
 ========
