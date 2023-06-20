@@ -581,68 +581,9 @@ Main Antagonists:
 	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
 	- Although very old, he should still (technically) be younger than Aylmera. He makes remarks about this, and how unusual it is.
 
-
-
 Dialogue:
 ==========
 Max line length is 39 characters.
-
-1. Oubliette:
---------------
-Alexandros: (Surprised)
-Ah ha! You're finally awake! If I
-hadn't known any better, I would've
-woken you from your slumber sooner. 
-
-But it's best not to rush awakening
-during revival rituals such as this.
-Wait, you can understand me, right?
-	Decision:
-[Yes]
-Alexandros:
-Good. I had begun to doubt myself
-after so many failed attempts. It's
-nice to see my efforts paying off.
-[No]
-Alexandros:
-Funny. But there's really not time
-for games. Your revival came at an
-opportune moment, we can't waste it.
-
-Alexandros:
-You're probably brimming with all sorts
-of questions about all this. I don't
-even know where to begin...
-
-I don't know what you remember, but 
-you're the fabled hero Aylmera. 'Slayer
-of Evil' and 'Protector of Antiquity'.
-
-You lived more than a thousand years 
-ago, but you DID serve this Realm. You
-even saved it from falling into ruin.
-
-I hesitate to say more, but the King
-will gladly elaborate further. He
-awaits you upstairs. In his throne.
-
-[Talk to Alexandros again]
-I'm sure it's a lot to take in, but
-everyone here has been through a lot.
-We've all... lost things dear to us.		(This is a reference to him losing his mentor, the Mad Wizard, and most of his colleagues/friends during the war.)
-
-But don't let me keep you. The King
-can be impatient. Seek him upstairs,
-he'll tell you all you need to know.
-
-2. Throne Room
-----------------
-His Majesty: (Smiling)
-Praise the Heavens! You're more 
-magnificent than I had even imagined.
-
-
-
 
 Character Names/Titles:
 =============================
