@@ -612,6 +612,7 @@ Character Names/Titles:
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric (Diviner?)
+	[Core Fault: Overly duty-bound/self-righteous]
 	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind? Hivemind Diviner?
 	* Zen, wise, faithful, relaxed, trusting (believes her fate will work out), Duty-bound, Stoic (unphased by the horrors).
 	* Perhaps the only person truly at peace in this world. Though she feels compelled to fulfill her duty (listen to the word of God).
@@ -629,6 +630,7 @@ Character Names/Titles:
 		- This was an outcome the King did not desire, as the Prince was his only heir. He understands that he's too old to lead much longer. Without a proper heir and the tension of pending war, he fears he might be the last of his royal line.
 		- Ultimately, he blames himself for failing to manage his kingdom and failing to protect his heir.
 6. Morcant, Prince of the Realm
+	[Core Fault: Blind Loyalty]
 	- Defender of the Realm
 	- Alternative name for him: Marshall?
 	* (Undead) = Unhinged, angry, hateful, confused, longing (for a long-lost purpose of his former self)
@@ -638,6 +640,7 @@ Character Names/Titles:
 		- His body was never recovered, and he's assumed dead from the blast.
 		- In reality, his body roams the Tower's ruins as a maniacal zombie which the player eventually fights.
 7. ???, Mad Wizard
+	[Core Fault: Greed for Absolute Freedom]
 	- Ignacio?
 	- Bringer of Chaos?
 	* Self-centered, enthralled by his work/studies, brilliant, kept to himself, 
@@ -649,11 +652,11 @@ Character Names/Titles:
 	- Healer of wounds, Salesman, Con Artist
 	- Leader of the Lepers? Guide of the Forgotten?
 	* Sly, cunning, a conman, charismatic, very amicable, likeable
-10. , Bloodhound Hermit
+10. ???, Bloodhound Hermit
 	- Known simply as "The Bloodhound".
 11. Margot, Witch
 	- Treacherous Witch, Decrepit Gypsy, Mystic
-	* Untrusting of strangers, mystical, 
+	* Untrusting of strangers, especially magical types
 12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
@@ -673,6 +676,7 @@ Character Names/Titles:
 	- A character that appears at crossroads (in-between main zones) and converses with the party
 	- Black Snow vibes.
 16. ???, Lost Paladin
+	[Core Fault: Stuck in the Past]
 	- Battered Paladin, Broken Bruiser, Old Dog
 	* Paladins were scarce before the war (as holy magic was outdated vs. geomancy), but especially now since many of them died in the war with the sorcerers.
 		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
