@@ -1909,19 +1909,19 @@
                             "args": {
                                 "variable": "4",
                                 "flag1": true,
-                                "flag2": false,
-                                "flag3": false,
-                                "flag4": false,
-                                "flag5": false,
-                                "flag6": false,
-                                "flag7": false,
-                                "flag8": false,
-                                "flag9": false,
-                                "flag10": false,
-                                "flag11": false,
-                                "flag12": false,
-                                "flag13": false,
-                                "flag14": false,
+                                "flag2": true,
+                                "flag3": true,
+                                "flag4": true,
+                                "flag5": true,
+                                "flag6": true,
+                                "flag7": true,
+                                "flag8": true,
+                                "flag9": true,
+                                "flag10": true,
+                                "flag11": true,
+                                "flag12": true,
+                                "flag13": true,
+                                "flag14": true,
                                 "flag15": false,
                                 "flag16": false
                             },
@@ -16496,80 +16496,1171 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Tileswap Memories",
                         "__comment": false
                     },
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_IF_FLAGS_COMPARE",
+                                "command": "EVENT_GROUP",
                                 "args": {
-                                    "variable": "4",
-                                    "flag": 0,
-                                    "__collapseElse": false,
-                                    "__disableElse": false,
-                                    "__collapse": false
+                                    "__label": "Page Numbers",
+                                    "__collapse": true,
+                                    "__comment": false
                                 },
                                 "children": {
                                     "true": [
                                         {
-                                            "command": "EVENT_GROUP",
+                                            "command": "EVENT_GBVM_SCRIPT",
                                             "args": {
-                                                "__label": "Show Memory",
-                                                "__collapse": false,
-                                                "__comment": false
+                                                "script": "VM_PUSH_CONST 2\nVM_REPLACE_TILE_XY 4, 16, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 14, 16, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                "references": [
+                                                    {
+                                                        "type": "background",
+                                                        "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "68243579-209f-4ae7-a75a-ac702ded345f"
+                                        }
+                                    ]
+                                },
+                                "id": "571848c8-8c68-4ca7-9003-7bcf98b8d960"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "1. Awakening",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 0,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "command": "EVENT_GBVM_SCRIPT",
+                                                        "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "script": "VM_PUSH_CONST 8\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 9\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
-                                                            "references": [
+                                                            "__label": "Show Memory",
+                                                            "__collapse": false,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
                                                                 {
-                                                                    "type": "background",
-                                                                    "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 8\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 9\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "6514a1d8-1777-4307-a275-5e98aea43446"
                                                                 }
                                                             ]
                                                         },
-                                                        "id": "6514a1d8-1777-4307-a275-5e98aea43446"
+                                                        "id": "bc5fc489-77ed-463a-b96f-8df92180e8da"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "8e2bb699-0370-4f29-9285-8b87ddbe7dcf"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "b10d5483-3bd4-4d9c-99af-2a388f73aefb"
                                                     }
                                                 ]
                                             },
-                                            "id": "bc5fc489-77ed-463a-b96f-8df92180e8da"
+                                            "id": "d461fd9c-0665-4392-940d-a461c0fe17be"
                                         }
-                                    ],
-                                    "false": [
+                                    ]
+                                },
+                                "id": "9ef5fc94-af34-4308-94f4-0d3a06b5dc9c"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "2. Aylmera",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
                                         {
-                                            "command": "EVENT_GROUP",
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
                                             "args": {
-                                                "__label": "Hide Memory",
+                                                "variable": "4",
+                                                "flag": 1,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 13\nVM_REPLACE_TILE_XY 2, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 4, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 5, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 6, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "eb23d816-b57d-4a57-a30e-297d93ae893f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "e8e6ad33-eb7b-47f0-ab2a-8ac6cbb985cb"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "8fbfce98-6a43-4c44-a0b6-b8129378af33"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "6f3206ff-2ce3-445b-bb01-840c006552b3"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "ad93aa9f-77e6-4a74-a571-a606e02f7d8d"
+                                        }
+                                    ]
+                                },
+                                "id": "bb653482-386e-4b4b-a80e-7c151bd87e31"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "3. Oubliette",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 2,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 19\nVM_REPLACE_TILE_XY 4, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 5, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 6, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "d8ebf1af-702a-456f-9a73-53e762876fa5"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "45062dca-6f8f-4870-a467-02c3f60ad691"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "a9a69323-d1e2-4f1e-9b46-8874088ba97b"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "24179606-c7fd-43d9-91ed-62ff7f0f1cce"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "536775c9-6600-4772-a516-67d3b81f7844"
+                                        }
+                                    ]
+                                },
+                                "id": "6bf77f08-b163-4501-876d-0738363992f8"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "4. The Jester",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 3,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": false,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 22\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 23\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 24\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 25\nVM_REPLACE_TILE_XY 6, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "b52d20ac-ce68-4c6a-9674-bc691563eb57"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "334fe246-a518-40cd-a77a-77497970a69a"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "f3fe5950-d3b5-4230-b56c-a3e33fe0957f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "342fc4e8-6c9d-4273-b364-1fa7ec11c8e5"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "938f8f90-afa7-4851-9992-08d7b7dbc277"
+                                        }
+                                    ]
+                                },
+                                "id": "48f63fe9-7fe6-42aa-8cb0-d074f7dee2b1"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "5. Royal Quest",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 4,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 26\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 27\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 28\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 29\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 30\nVM_REPLACE_TILE_XY 6, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 31\nVM_REPLACE_TILE_XY 7, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "ed8a8a20-83cd-443a-8320-030c3c3fb128"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "043c6edf-02d2-4e85-b402-9a491a758745"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "c8c6a87a-3311-4646-898e-a0deb9d17451"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "f4403444-e674-41de-95a4-fa0827fd4814"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "9d4f320a-3379-43c3-9fdd-27599a73e1a6"
+                                        }
+                                    ]
+                                },
+                                "id": "de3e276f-b835-49e0-a04f-52cee97bf1bb"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "6. Eulogy",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 5,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 32\nVM_REPLACE_TILE_XY 2, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 33\nVM_REPLACE_TILE_XY 3, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 34\nVM_REPLACE_TILE_XY 4, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 5, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 6, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "f72f21b4-e5ca-434b-861a-d6343a445295"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "4a54ffb4-47b1-45de-951e-04be35b896f6"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "1a8e8e73-6a3b-4494-80a4-4cdc1899fbc9"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "be1fd9bc-94a3-45d1-95cd-e6d0c82d8541"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "f1585143-f65b-45df-bc36-a77824cf5c47"
+                                        }
+                                    ]
+                                },
+                                "id": "c1ec2fbf-56c1-4961-ae47-1a113169ec92"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "7. Barracks",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 6,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 35\nVM_REPLACE_TILE_XY 2, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 36\nVM_REPLACE_TILE_XY 3, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 37\nVM_REPLACE_TILE_XY 4, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 38\nVM_REPLACE_TILE_XY 5, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 6, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 7, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "582b5f98-7ad6-4443-ab10-345e366cb990"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "6df5e4f3-b485-4482-a184-b3e90334afc2"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "496486d0-77eb-424f-8e25-0da0c1703779"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "b40676e0-062b-4b62-9dd1-5c597fe39432"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "dfe79339-4dbb-427d-93d5-a9f67febec00"
+                                        }
+                                    ]
+                                },
+                                "id": "1c7eb747-c213-4b3e-b2e5-f3a5a1c79b36"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "8. Castle Gate",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 7,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": false,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 39\nVM_REPLACE_TILE_XY 12, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 40\nVM_REPLACE_TILE_XY 13, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 41\nVM_REPLACE_TILE_XY 14, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 42\nVM_REPLACE_TILE_XY 15, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 16, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "d664272b-ab95-4de0-bf3f-a2b5b19956dd"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "f0c49aea-10f4-4572-b138-aebc2080d8b3"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "c3b3205c-7959-402c-b3e1-490ffa1224c2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "75ea6980-899c-450c-8e4c-f5a203acfdd0"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "ff757b20-9031-4729-aaec-64452e54ecf7"
+                                        }
+                                    ]
+                                },
+                                "id": "8ae669ed-0d72-45f3-8ff0-49095f341436"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "9. Villagers",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 8,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
                                                 "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "command": "EVENT_GBVM_SCRIPT",
+                                                        "command": "EVENT_GROUP",
                                                         "args": {
-                                                            "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
-                                                            "references": [
-                                                                {
-                                                                    "type": "background",
-                                                                    "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
-                                                                }
-                                                            ],
-                                                            "__collapse": false
+                                                            "__label": "Show Memory",
+                                                            "__collapse": false,
+                                                            "__comment": false
                                                         },
-                                                        "id": "8e2bb699-0370-4f29-9285-8b87ddbe7dcf"
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 59\nVM_REPLACE_TILE_XY 12, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 60\nVM_REPLACE_TILE_XY 13, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 61\nVM_REPLACE_TILE_XY 14, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 62\nVM_REPLACE_TILE_XY 15, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 16, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "aa8cc1e8-c3da-4363-a337-7d7c1a807794"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "4e53d98a-7c54-4a1e-9bd5-eadbef5a0f1c"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 4, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "864d82dd-d0aa-4d30-b919-17884a5a24c6"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "e348301e-5b47-403a-a5f5-b8df24571897"
                                                     }
                                                 ]
                                             },
-                                            "id": "b10d5483-3bd4-4d9c-99af-2a388f73aefb"
+                                            "id": "dea11418-29cc-44f5-b0fd-2a3a67b66dfc"
                                         }
                                     ]
                                 },
-                                "id": "d461fd9c-0665-4392-940d-a461c0fe17be"
+                                "id": "b078fc7e-e379-4bc4-8a70-da760c9e681c"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "10. The Bard",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 9,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 12, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 43\nVM_REPLACE_TILE_XY 13, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 44\nVM_REPLACE_TILE_XY 14, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 45\nVM_REPLACE_TILE_XY 15, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 16, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "c749f701-a4fd-4c6c-a3f6-901ade005aff"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "a1ae3bc6-79d0-4f9a-a8bc-735661d5ba18"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 6, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "ba08d64d-5f79-4d0e-aa65-017e1be1c640"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "23da58d3-ae23-41a6-a750-f47d51bb9e9e"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "09411dc2-66bb-4223-9383-085023ba93cb"
+                                        }
+                                    ]
+                                },
+                                "id": "bed2e8f1-48fa-4a8a-97b9-444a545a0c7b"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "11. Bridge",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 10,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 46\nVM_REPLACE_TILE_XY 12, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 47\nVM_REPLACE_TILE_XY 13, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 48\nVM_REPLACE_TILE_XY 14, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 16, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "4bafc093-8b4e-4897-ad91-a63c79dfce0d"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "fc37ef50-563b-4790-b3b4-d9cf79751ee2"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 8, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "46513e66-4ad5-4267-a852-14efa4695e13"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "73b3f0fd-4399-4989-983c-0bf17c7dc909"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "cf867607-dfe6-4fea-bb86-5cc7b70d1b0c"
+                                        }
+                                    ]
+                                },
+                                "id": "be53eb62-6f6d-4ee5-bb64-ac4647a573c0"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "12. Banditry",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 11,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 35\nVM_REPLACE_TILE_XY 12, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 49\nVM_REPLACE_TILE_XY 13, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 50\nVM_REPLACE_TILE_XY 14, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 51\nVM_REPLACE_TILE_XY 15, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 16, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "6d6c3968-45c4-47db-b4f7-ff5adde72c8e"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "38be396d-2263-4ad3-bd68-f93451b39f65"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 10, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "d6f8f895-6111-4159-a349-32fe5f5ae0dc"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "e8220ae1-fd11-4334-bdc5-363a05552e2c"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "72ef3c43-75d6-4f3a-aaec-b7e559eec4ed"
+                                        }
+                                    ]
+                                },
+                                "id": "a565101f-a713-44e6-8d65-2bcbf9e22273"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "13. Bandit Queen",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 12,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 35\nVM_REPLACE_TILE_XY 12, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 49\nVM_REPLACE_TILE_XY 13, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 52\nVM_REPLACE_TILE_XY 14, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 53\nVM_REPLACE_TILE_XY 15, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 54\nVM_REPLACE_TILE_XY 16, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 55\nVM_REPLACE_TILE_XY 17, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "e1738d72-962a-4c53-842f-f1253381c25d"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "9497a14b-01b5-4c04-bc0c-5470e9d2d3dc"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 12, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "3f94dbce-8243-4a9e-bbd5-ef3c4a25e7cf"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "cbd4f296-d1d5-4ed1-a3a6-a610bc8f5a1c"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "885899ae-8185-4c57-ac65-26f473db63f1"
+                                        }
+                                    ]
+                                },
+                                "id": "0162700e-7b38-432a-a9ef-ad209aa0472b"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "14. Pure Fire",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FLAGS_COMPARE",
+                                            "args": {
+                                                "variable": "4",
+                                                "flag": 13,
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Show Memory",
+                                                            "__collapse": true,
+                                                            "__comment": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 56\nVM_REPLACE_TILE_XY 12, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 57\nVM_REPLACE_TILE_XY 13, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 58\nVM_REPLACE_TILE_XY 14, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 57\nVM_REPLACE_TILE_XY 15, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 16, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "600b4f6c-47b7-4784-a284-1a8f1436b1eb"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "39e661bd-b926-4102-848f-6bc076300e55"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Hide Memory",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GBVM_SCRIPT",
+                                                                    "args": {
+                                                                        "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 12, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 14, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                                        "references": [
+                                                                            {
+                                                                                "type": "background",
+                                                                                "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                            }
+                                                                        ],
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "c462dad2-ab26-4bba-969a-b42ddb71aa3c"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "781025ce-ebe5-48ee-a50b-34090f15d6f6"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "814f0589-0f1b-4864-878d-801148f0f930"
+                                        }
+                                    ]
+                                },
+                                "id": "c4f43ab7-5aba-44cc-bc89-62cf26b20257"
                             }
                         ]
                     },
@@ -16887,7 +17978,7 @@
                                         {
                                             "command": "EVENT_GROUP",
                                             "args": {
-                                                "__collapse": false,
+                                                "__collapse": true,
                                                 "__label": "1. Awakening"
                                             },
                                             "children": {
@@ -16905,15 +17996,31 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "command": "EVENT_TEXT",
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
                                                                     "args": {
-                                                                        "text": [
-                                                                            "I heard many voices whisper to me before\nawakening from a long, deep slumber. The\none who roused me looks like a Wizard."
-                                                                        ],
-                                                                        "avatarId": "",
-                                                                        "__collapse": false
+                                                                        "variable": "4",
+                                                                        "flag": 0,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
                                                                     },
-                                                                    "id": "2afb5963-420a-4a9f-ac4d-2abb45858ad9"
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "I heard a thousand voices whispering to\nme in my dreams. They spoke of concepts\nbeyond my comprehension.",
+                                                                                        "But now my mind is a haze. My thoughts\nare jumbled as though I'm still asleep."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "id": "2afb5963-420a-4a9f-ac4d-2abb45858ad9"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "d2f5d682-ae0f-43ac-9341-2a2fc32f4a7c"
                                                                 }
                                                             ],
                                                             "false": []
@@ -16928,7 +18035,7 @@
                                             "command": "EVENT_GROUP",
                                             "args": {
                                                 "__collapse": true,
-                                                "__label": "2. Jester"
+                                                "__label": "2. Aylmera"
                                             },
                                             "children": {
                                                 "true": [
@@ -16945,13 +18052,11 @@
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
                                                                     "args": {
                                                                         "variable": "4",
-                                                                        "operator": ">=",
-                                                                        "comparator": 2,
-                                                                        "__collapseElse": true,
-                                                                        "__collapse": false,
+                                                                        "flag": 1,
+                                                                        "__collapseElse": false,
                                                                         "__disableElse": true
                                                                     },
                                                                     "children": {
@@ -16960,17 +18065,19 @@
                                                                                 "command": "EVENT_TEXT",
                                                                                 "args": {
                                                                                     "text": [
-                                                                                        "Met a strange Jester who recruited me \non behalf of the King. He's chipper despite\nthe harsh realities that surround him."
+                                                                                        "There were runes carved into the floor\nof the dungeon I awoke in.",
+                                                                                        "A young man, dressed as a wizard, stood\nat the Apex of the carvings and addressed\nme.",
+                                                                                        "He seemed to know who I am, and called\nme by my name: Aylmera."
                                                                                     ],
                                                                                     "avatarId": "",
-                                                                                    "__collapse": false
+                                                                                    "__collapse": true
                                                                                 },
                                                                                 "id": "eaf6c2d3-9047-4738-af0b-7f68896d2795"
                                                                             }
                                                                         ],
                                                                         "false": []
                                                                     },
-                                                                    "id": "f459b318-e5c7-494e-b0e3-acdbef7bdb61"
+                                                                    "id": "cf6e66ad-b95b-41c7-b52c-415ab3111a78"
                                                                 }
                                                             ],
                                                             "false": []
@@ -16980,6 +18087,704 @@
                                                 ]
                                             },
                                             "id": "ae4382be-9e9d-4962-aedb-287d5a6185d6"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "3. Oubliette"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 6,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 2,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "The castle has an oubliette stocked with\nnumerous torture devices.",
+                                                                                        "All of the instruments were well-used,\nthough near-ancient.",
+                                                                                        "What happened in this Kingdom before my \narrival here?"
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "id": "1bfc424b-4ca6-4ce5-84ed-920be64401c8"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "95f88aa2-61cf-4f0e-b76b-a0f08a098ed4"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "27740cd5-462e-4a26-9072-a624a825fff8"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "97d6e135-4821-4f53-9423-fe068eb4b7ce"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "4. The Jester"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 8,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 3,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "I met the court Jester. His demeanor was \nregal and cheery, both remnants of times\nwhich no longer exist in the castle.",
+                                                                                        "His motley garb is weathered, and held\ntogether with bits of cloth and hardened\nleather patches. He's seen hardship.",
+                                                                                        "At the request of the King, he has chosen\nto accompany me on my journey\nthroughout the Realm."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "id": "a9a808f6-e636-448d-8cc9-037a8f431662"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "675db26d-adac-46d7-84ba-e63cd8dc1176"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "03fd9235-88c0-4f27-9a1d-b7c250f94b19"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "535dfd28-7810-4bba-88b3-9feeb3a2096f"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "5. Royal Quest"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 10,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 4,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "The King told me of the undead threat\nat his borders. A product of a great,\nAetherial explosion some years ago.",
+                                                                                        "I was tasked with acquiring 4 elemental\nstones to rebalance the Aetherial energy\nloose in the Realm.",
+                                                                                        "Within the Aether Ruins, he says there's\nan altar where I can perform the\nrebalancing ritual."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "id": "cffcb5f7-67c9-4c05-b917-8bdfbcbbf6f8"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "a1a5eef5-80b2-48a1-8f55-e29e2ecb2720"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "48c6a82a-257f-498c-abfe-888703a8bc06"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "88bad0e6-129c-4418-8960-db84d92ac8ae"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "6. Eulogy"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 12,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 5,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "The King's bedside held a eulogy for the\nlate prince.",
+                                                                                        "It described the Prince's dedication and\nloyalty to the Realm. He seemed beloved.",
+                                                                                        "His death must have brought immense\ngrief to both the King and the Realm."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": true
+                                                                                },
+                                                                                "id": "7d12352e-ff18-413e-8139-d8f5d240df66"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "bbc971db-db17-4531-b33b-4c2d0d2d6928"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "7db8294e-76ef-4056-ba8e-7bcb27d13c3e"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "0eb4d13c-65ec-4869-969d-6bd05d46c00c"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "7. Barracks"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 0,
+                                                            "y": 14,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 6,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "The Quartermaster gave me a bastard\nsword. He said it matched my signature\nweapon.",
+                                                                                        "Though he was deeply reluctant to offer\nhis assistance, he did so anyway.",
+                                                                                        "Somehow, the blade feels awkward in my\nhands. I barely know how to swing it..."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "a343de9a-ecc3-4b28-a546-38781d53d844"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "9df0202b-b840-4989-a2e1-2f506c2d152a"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "284c0557-b3ab-4d27-a2bf-fa7b02b16a95"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "4dbfd73d-c544-493a-91d0-23b7fa0e96d8"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "8. Castle Gate"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 2,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 7,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "The Jester and I left the castle through\nits main gate.",
+                                                                                        "As we walked away, the significance of\nour journey began to dawn on me.",
+                                                                                        "The King is reliant on our resounding\nsuccess. Without it, he shall fall."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "9a0398ae-6132-498c-ba1a-ec2055a0ec14"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "df2e2137-fd39-415c-8b27-e326f23b2a0b"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "13e0e616-af8b-40e2-8331-5b8286f92b3e"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "bdcad5b2-b101-4ce2-88b6-d1e56d402dcd"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "9. Villagers"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 4,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 8,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "Barely outside the castle walls, bandits\nroam freely.",
+                                                                                        "Mostly farmers, the villagers fear for\ntheir lives.",
+                                                                                        "Between the undead and bandit threats,\nmost have already given up."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "8ffbde91-019f-4cce-a011-ef0470d5537d"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "1e6c6c2d-3cf1-4db0-bf46-2fb689c348a5"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "bf3c0ec3-c6cf-495b-9741-b280a6681ee7"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "dc65fca2-b58d-445c-af75-5daaac15e825"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "10. The Bard"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 6,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 9,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TBD"
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "d57b92e0-c328-4fba-9749-a397bb898a0c"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "93cf6434-c8ff-41d0-9428-798c27c32848"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "ed88830e-73cb-4e34-a88a-bcb773393dcc"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "0fc3dc1b-11b7-448c-b4c7-a0e707546138"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "11. Bridge"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 8,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 10,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TBD"
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "9e2a5dcf-2f82-4569-bf57-9f18d7dbaeee"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "47f9a7bf-9bcc-47cd-8b52-6bea311290ca"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "3e0b44cf-7c0f-4b01-a258-0a136cead99d"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "8f739097-9eb5-4d1c-b5e1-e9adf8ee67d6"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "12. Banditry"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 10,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 11,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "Dominating the royal farmland, bandits\nroam freely.",
+                                                                                        "Fearing no consequence, they pilfer\neverything that's left to take.",
+                                                                                        "It seems they desire a full scale war\nwith the Kingdom.",
+                                                                                        "Yet with the state of the castle, who is\nthere left to fight?",
+                                                                                        "They also believe themselves ideologically\nmotivated.",
+                                                                                        "Yet I feel they're most unified by their\nhatred of the King."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "2d26fe29-e444-45fc-a2e2-7ef3f8bc0744"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "8f8093a6-0e66-4457-971a-da03e070f624"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "f9bdc712-69d0-4cee-a69d-d106f513a3ac"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "c009337e-53eb-47f2-a526-bad8757bee54"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "13. Bandit Queen"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 12,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 12,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "I met the Bandit Queen, Vivian, whom the\nlocals had spoken of.",
+                                                                                        "She stressed the importance of\ndethroning the King to me.",
+                                                                                        "But more than that, she revealed that\nshe knew the Jester.",
+                                                                                        "Said they were comrades in battle. In a\nwar they had lost.",
+                                                                                        "Accused him of abandoning the soldiers\nwho now make up her ranks.",
+                                                                                        "Blamed him and the Crown for their\nsituation. And the loss of her limb.",
+                                                                                        "A royal ranger with neither King, nor\narmy, nor arm.",
+                                                                                        "It's no wonder she named herself Queen\nand raised an army to oppose him."
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "7961a54b-6e97-4409-8f49-4e9edea74e01"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "ddbe2475-b201-4cea-850a-ddbd72d9d2bf"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "eb121842-58f6-4a21-ba85-3702cd5cc92c"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "7d11eb28-c7a5-495b-a967-b90ea851a36d"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__collapse": true,
+                                                "__label": "14. Pure Fire"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 10,
+                                                            "y": 14,
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "flag": 13,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_TEXT",
+                                                                                "args": {
+                                                                                    "text": [
+                                                                                        "TBD"
+                                                                                    ],
+                                                                                    "avatarId": "",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "id": "3b5e3ae3-2eee-4459-869b-eaf3023561dd"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "6b2b8e7f-b8c3-4ece-970d-c95287dc59ec"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "de3582b4-3ca6-44a3-9735-cc6dc5c75673"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "01c58af6-5a4d-41c7-adb7-071a95409043"
                                         }
                                     ]
                                 },
@@ -62518,8 +64323,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2371,
-        "worldScrollY": 514,
+        "worldScrollX": 3249,
+        "worldScrollY": 305,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -62549,7 +64354,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            888,
             30
         ],
         "showNavigator": true,
