@@ -107,7 +107,7 @@ Simple things to Work On:
 104. Design the inventory system.
 	- It should be able to hold a lot of different items
 		~ Like 32ish?
-		~ At first just get Key Items and Useable items built in, and listed separately.
+		~ At first just get Key Items and Usable items built in, and listed separately.
 106. When designing combat
 	a. Add a pause in between switching characters (so that you're penalized, briefly, for switching)
 	b. New spritesheets will need to be assembled for these battle screens
