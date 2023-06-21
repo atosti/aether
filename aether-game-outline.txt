@@ -333,168 +333,119 @@ Simple things to Work On:
 192. Look up songs that capture the vibe of each bossfight you want
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
 	- This will help in fleshing out each fighter, zone, and their themes.
-193. Outline how Memories will work programatically
-	- As tasks are completed in the game, update the Memories variable
-	- When rendering the page, do a background tile swap to show each task written out based on the player's progress in the game.
-		~ Is this really the ideal way to handle it?
-		~ Is there a better way than checking for gt/lt for each item?
-		~ While loop that decrements through a temp var storing the $Memories value? Writing one memory to page at each subtraction?
-		~ Could tile swap entire strings instead of just single chars?
-	- Add page numbers to the bottom, and have the pages cycle from back to front page.
-	- Also have the page fade to white as it "flips" between pages
-	- I could just have generic numbers on the pages, which when interacted with will display dialogue with a description of what happened.
-		~ Could make them numbers or a single word, or something like that.
-	- Need a way to dynamically select each of the Memory entries
-		~ Try fitting them all onto one page, no flipping. (There's room for 26 notes)
-	- At each key event, set the $Memories var EQUAL to the value of that story point.
-	- Check the Memories var and depending on how low it is, background swap things OUT to plain white.
-		~ Also assign which elements you can navigate the cursor to based on the var length.
-	- Need an interactable dialogue box for 26!!! items on the screen
-		~ What if I had ONE invisible sprite that moved WITH the cursor, and the player was just interacting with that.
-		~ Or even just attach a script to the A button which checks the cursor's location and displays different dialogue accordingly.
-194. Write a list of all the Memories
-	1. AWAKENING - Awoke from a deep slumber by a man named Alexandros.
-	2. JESTER - Met and recruited the court Jester.
-	3. QUEST - The King asked me to rebalance 4 elemental stones.
-	4. BANDIT QUEEN - Fought and drove off the Bandit Queen.
-	5. FIRE - Recovered the stone of elemental Fire.
-	6. STRANGER - Met a peculiar man who told me of his tragic past.
-	7. NEERA - A priestess joined my party.
-	8. APOTHECARY - Fought and killed the Apothecary.
-	9. AIR - Recovered the stone of elemental Air.
-	10. LEPERS - Slew the leper colony.
-	11. DROWNING - Fell into the river, losing my companions.
-		. DREAMS - Dreamt of taunting voices. Who were they?
-	12. REUNION - Reunited with the priestess and Jester.
-	13. HIS LORDSHIP - Fought and killed the Lord, Velazquez.
-	14. ALEXANDROS - Recruited the wizard Alexandros.
-	15. HIGH PRIEST - Hunted and slew the High Priest in his monastery.
-	16. EARTH - Recovered the stone of elemental Earth.
-		. GRIEF - Slew a grieving soldier amidst a field of red flowers.
-	17. SUICIDE - Witnessed the fishing colony's mass suicide.
-	18. WATER - Recovered the stone of elemental Water.
-	19. BLOODHOUND - Fought and killed the Bloodhound.
-	20. RAMPARTS - Passed through the ramparts into the Aether Ruins.
-	21. PRINCE MORCANT - Bore witness to Morcant. Put him out of his misery.
-	22. AETHER - Recovered the broken stone of elemental Aether.
-	23. AYLMERA - Met the spirit of Aylmera. I'm merely a stranger.
-	24. PALADIN - Fought and spared a grieving Paladin.
-		. DESECRATION - Unearthed the queen's grave for her skull.
-	25. RESTORATION - Restored the stone of elemental Aether.
-		. HEALING - Rebalanced the 4 elemental stones. Do the undead still walk?
-	26. ANGUISH - Witnessed the King's castle enveloped in flames.
-		. PYRRHIC VICTORY/VIVIAN - Fought and killed the Bandit Queen.
 195. Rework the Start Menu script to call a correct variable
 	- All scenes need to be updated
-196. Slight Memories screen rewrite
-	- Allow Memories to be dynamically acquired and also paging.
-	- Implement variable flags (each bit of a var) as $Memories-p1, $Memories-p2
-		~ Each page references a literal page (one half the screen) of the Memories screen.
-	- Then draw to each position on the page, mapped to Numbered Tiles
-197. New core memories list
-	A/B corresponds to the page number
-	Just build it as 3 screens, with a quick fade in time triggered when going left/right.
-		- Add a page flipping sound as well. Can always go back and rework it better later.
-	1. Awakening (Game Intro)
-		~ "I heard a thousand voices whispering to me in my dreams."
-		  "They spoke of concepts beyond my comprehension."
-		  "But now my mind is a haze, and my thoughts are jumbled as though I'm still asleep."
-	2. Aylmera (Game Intro)
-		~ "There were runes carved into the floor of the dungeon I awoke in."
-		  "A young man, dressed as a wizard, stood at the Apex of the carvings and addressed me."
-		  "He seemed to know who I am, and called me by my name: Aylmera."
-	3. Oubliette (Examine any of the torture devices)
-		~ "The castle has an oubliette stocked with torture devices."
-		  "All of the instruments were well-used, though near-ancient."
-		  "What happened in the Kingdom before my arrival?"
-	4. The Jester (Meet the Jester)
-		~ "I met the court Jester. His demeanor is regal and cheery, both remnants of an old world."
-		  "His motley garb is weathered, and held together with numerous hardened leather patches."
-		  "The Jester informed me that the King implored him to accompany me on my journey."
-	5. Royal Quest (The King sends you off)
-		~ "The Crown told me of the undead threat at his borders. A product of a great, Aetherial explosion."
-		  "I was tasked with acquiring 4 elemental stones to rebalance the Aether."
-		  "In the Aether Ruins, he says there's an altar which can perform the rebalancing ritual."
-	6. Eulogy (Reading the bedside eulogy note)
-		~ "The King's bedside held a eulogy for the late prince."
-		  "It described the Prince's dedication and loyalty to the Realm."
-		  "His death must have brought immense pain to the King."
-	7. Barracks (Receive sword/training from QM)
-		~ "The Quartermaster gave me a bastard sword. He said it was my signature weapon."
-		  "He was deeply reluctant to offer his assistance, but did so anyway."
-		  "The blade feels awkward in my hands. I barely know how to swing it."
-	8. Castle Gate (Leave the castle)
-		~ "The Jester and I left the castle through its main gate."
-		  "As we walked away, the significance of our journey began to dawn on me."
-		  "The King is reliant on our resounding success. Without it, he shall fall."
-	9. Villagers
-		~ "Barely outside the castle walls, bandits roam freely."
-	  	  "Mostly farmers, the villagers fear for their lives."
-	  	  "Between the undead and bandit threats, most have already given up."
-	10. The Bard (Meet and talk with the Bard in the village)
-	11. Bridge (Discover the bridge North is closed)
-	12. Banditry (Leaving the village into the forest)
-		~ "Dominating the royal farmland, bandits roam freely."
-		  "Fearing no consequence, they pilfer everything left to take."
-		  "It seems they desire a full scale war with the Kingdom."
-		  "Yet with the state of the castle, who is there left to fight?"
-		  "They also believe themselves ideologically motivated."
-		  "Yet I feel they're most unified by their hatred of the King."
-	13. Bandit Queen (Route Vivian in combat)
-		~ "I met the Bandit Queen, Vivian, whom the locals spoke of."
-		  "She stressed the importance of dethroning the King to me."
-		  "But more than that, she revealed that she knew the Jester."
-		  "Said they were comrades in battle. In a war they lost."
-		  "Accused him of abandoning the soldiers who now make up her ranks."
-		  "Blamed him and the Crown for their situation. And the loss of her limb."
-		  "A royal ranger with neither King, nor army, nor arm."
-		  "It's no wonder she named herself Queen and raises an army against him."
-	14. Pure Fire (Acquire the Elemental Stone of Fire)
-	X. Lone Stranger (Meet the bloodhound for the first time)
-	X. Neera (Neera joins the party)
-		~ "A one-eyed priestess who communes with God himself."
-		  "She claims His words come in the form of a hivemind."
-		  "I don't know whether to believe her, but she has a trustworthy demeanor."
-	X. The Apothecary (Slay the apothecary)
-		~ "We beat the huckster bloodied and broken. He'd left us little choice."
-		  "A tragedy turned comedy when considering the plethora of remedies still on his person."
-		  "Fitting that the con man found his death the result of overconfidence."
-	X. Lepers (Murder the leper colony)
-		~ "Roughly a dozen corpses baking under the hot sun."
-		  "Left to rot until the carrion decide to feast on them."
-		  "They all knew their outcome, yet still made this choice... why?"
-	X. River (Fall into the river)
-		~ "A deep river. My armor dragging me down under. Unable to surface."
-		  "I felt terror and hopelessness as I choked on the vile water."
-		  "And as my heartbeat slowed, I began to dream once more."
-	X. Taunting Void (Finish the cutscene with the void)
-		~ "I heard the voices from beyond yet again. This time more clearly."
-		  "They spoke critically of my progress. Taunted me for my proclivity to violence."
-		  "And yet... they spoke with compassion. Did they intervene to keep me alive?"
-	X. Outskirts (Get nursed back to health in the outskirts of His Lordship's lands)
-	X. Bloodhound (See the Bloodhound a final time. And kill him.)
-	X. Sigmund's Tears (Defeat Morcant)
-		~ "When the prince finally fell, the Jester collapsed to his knees."
-		  "Tears streaming down his face as he stared at the hulking, dead mass."
-		  "None of us tried to console him, there was no point. His grief matched the tragedy."
-	X. Foreign Paladin (Meet and defeat the Paladin at the Queen's grave)
-		* Ideally have him speak in a unique accent or manner that no one else in the region does. Try apostrophes to shorten words. Funny spellings, perhaps, phonetically. (e.g. Luuking for 'Looking')
-			Or having him never speak a certain vowel or consonant. Replace E's or A's with apostrophes, etc.
-		~ "Amidst the consecrated earth of the royal graveyard, we found a man."
-		  "He was praying beside the Queen's grave, whispering softly to himself."
-		  "He recognized me for my armor. Said we were kinfolk, though we'd never met."
-		  "Defending the Queen's gravesite from desecration, he fought against us."
-		  "Yet upon defeat, he threw his weapon aside and simply begged us to stop."
-		  "Realizing his actions were in vain, he tearfully walked into the ruined wasteland."
-		  "Should we have gone after him? Why was he here? Where did he go?"
 198. Add a menu item for "Jokes"
 	- Allows you to ask the Jester to tell you a joke. Pull from a series of real medieval jokes.
 	- Bonus points if you implement a menu item that lets you converse with all of your party members throughout the story.
 199. Look into aligning dialogue and music so that characters can "sing" along to the musical tracks during parts of the narrative.
 200. Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
 	- Potentially do Start = Page right -> and Select = Page left <-
+201. Add more memories screens to fill out the remaining Memory entries
+	- Build it as 3 screens, with a quick fade in time triggered when going left/right.
+		~ Add a page flipping sound as well. Can always go back and rework it better later.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
+
+Memories Master List:
+======================
+1. Awakening (Game Intro)
+2. Aylmera (Game Intro)
+3. Oubliette (Examine any of the torture devices)
+4. The Jester (Meet the Jester)
+5. Royal Quest (The King sends you off)
+6. Eulogy (Reading the bedside eulogy note)
+7. Barracks (Receive sword/training from QM)
+8. Castle Gate (Leave the castle)
+9. Villagers (Speak with the disillusioned villagers)
+10. The Bard (Meet and talk with the Bard in the village)
+	- Write this
+11. Bridge (Discover the bridge North is closed)
+	- Write this
+12. Banditry (Leaving the village into the forest)
+13. Bandit Queen (Route Vivian in combat)
+14. Pure Fire (Acquire the Elemental Stone of Fire)
+	- Write this
+X. Loner (Meet the bloodhound for the first time)
+	- Write this
+X. Neera (Neera joins the party)
+	- "A one-eyed priestess who communes with God himself."
+	  "She claims His words come in the form of a hivemind."
+	  "I don't know whether to believe her, but she has a trustworthy demeanor."
+X. Pure Air (Acquire the Elemental Stone of Air)
+	- Write this
+X. The Apothecary (Slay the apothecary)
+	- "We beat the huckster bloodied and broken. He'd left us little choice."
+	  "A tragedy turned comedy when considering the plethora of remedies still on his person."
+	  "Fitting that the con man found his death the result of overconfidence."
+X. Lepers (Murder the leper colony)
+	- "Roughly a dozen corpses baking under the hot sun."
+	  "Left to rot until the carrion decide to feast on them."
+	  "They all knew their outcome, yet still made this choice... why?"
+X. Drowning (Fall into the river)
+	- "A deep river. My armor dragging me down under. Unable to surface."
+	  "I felt terror and hopelessness as I choked on the vile water."
+	  "And as my heartbeat slowed, I began to dream once more."
+X. Vivid Dream (Finish the cutscene with the void)
+	- "I heard the voices from beyond yet again. This time more clearly."
+	  "They spoke critically of my progress. Taunted me for my proclivity to violence."
+	  "And yet... they spoke with compassion. Did they intervene to keep me alive?"
+X. Outskirts (Get nursed back to health in the outskirts of His Lordship's lands)
+X. Reunion (The Jester and Neera rejoin your party)
+	- Write about being reunited with the priestess and Jester.
+X. Alexandros (Recruit and save the wizard Alexandros.)
+	- Write this
+X. His Lordship (Fight and kill the Lord, Velazquez.)
+	- Write this
+X. Monastery (Reach the Monastery)
+	- Write this
+X. High Priest (Hunted and slew the High Priest)
+	- Write this
+X. Earth (Acquire the stone of elemental Earth)
+	- Write this
+X. Grief (Optionally slay a grieving soldier by intention, or through aggrevating him)
+	- Write more. "Slew a grieving soldier amidst a field of red flowers..."
+X. Suicide (Witness the aftermath of the Fishing Colony's mass suicide)
+	- Write this
+X. Pure Water (Recovered the stone of elemental Water.)
+	- Write this
+X. Bloodhound (See the Bloodhound a final time. And kill him.)
+	- Write this
+X. Ramparts (Reach the Ramparts and learn of its booby traps)
+	- Write more. "Passed through the ramparts into the Aether Ruins."
+X. Sigmund's Tears / Morcant (Defeat Morcant)
+	- "When the prince finally fell, the Jester collapsed to his knees."
+	  "Tears streaming down his face as he stared at the hulking, dead mass."
+	  "None of us tried to console him, there was no point. His grief matched the tragedy."
+X. Broken Aether (Acquire the crushed stone of elemental Aether)
+	- Write this
+X. Spirit (Encounter and meet the Spirit of Aylmera)
+	- Write more. "Met the spirit of Aylmera. I'm merely a stranger."
+X. Foreign Paladin (Meet and defeat the Paladin at the Queen's grave)
+	* Ideally have him speak in a unique accent or manner that no one else in the region does. Try apostrophes to shorten words. Funny spellings, perhaps, phonetically. (e.g. Luuking for 'Looking')
+		Or having him never speak a certain vowel or consonant. Replace E's or A's with apostrophes, etc.
+	- "Amidst the consecrated earth of the royal graveyard, we found a man."
+	  "He was praying beside the Queen's grave, whispering softly to himself."
+	  "He recognized me for my armor. Said we were kinfolk, though we'd never met."
+	  "Defending the Queen's gravesite from desecration, he fought against us."
+	  "Yet upon defeat, he threw his weapon aside and simply begged us to stop."
+	  "Realizing his actions were in vain, he tearfully walked into the ruined wasteland."
+	  "Should we have gone after him? Why was he here? Where did he go?"
+X. Anguish (Witness the King's castle from a distance, as it's enveloped in flames.)
+	- Write more. 
+	- Witnessed the King's castle enveloped in flames.
+	- The entire party should be shaken by this.
+X. Pyrrhic Victory/Vivian (Fought Vivian a second time, this time killing her.)
+	- Write more.
+X. Desecration (Dig up the Queen's grave)
+	- Write more. "Unearthed the queen's grave for her enchanted pendant".
+X. Restoration (Performed the rebalancing ritual with the restored stone of Aether)
+	- Write more.
+	- "Do the undead still walk?"
+
+* Adjust the ending SLIGHTLY. Return to the castle to retrieve the pendant.
+	- Encounter Vivian here and kill her atop the throne.
+	- Then go BACK to the Aether Ruins in order to perform the ritual and finish the plot.
 
 Core Gameplay Loop:
 ====================
