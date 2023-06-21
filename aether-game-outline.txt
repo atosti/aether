@@ -250,7 +250,7 @@ Simple things to Work On:
 165. Implement save locations rather than saving from the menu.
 	- Just like saving at statues in Sword of Mana.
 	- Just need to figure out what Aylmera should be using to save...
-166. Use the Phantasm font for key events
+166. Use the Phantasm font for key events?
 	- Decide how/when to use this. Perhaps for certain characters? Like those of the Void? Or the Spirit of Aylmera?
 172. Design a way to black out the whole screen to visually cue engagements.
 	- Could use Overlay layer, but that seems limited in how it can draw it.
@@ -264,7 +264,6 @@ Simple things to Work On:
 176. Create a music track for the oubliette (and perhaps also the hidden alcove)
 177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
 	- The current one is too long and out of place sounding.
-178. Come up with a name for the Bard.
 179. Design an initial fight. Likely the Barracks tutorial.
 	- Create some ways to test developing interesting fights.
 		a. Lots of projectiles (10+)
@@ -280,24 +279,15 @@ Simple things to Work On:
 181. Look into GBVM methods for increasing the volume or tempo of songs/music channels during combat
 	- E.g. When landing a hit on an enemy, make the noise louder for a brief time.
 	- This might not be possible/feasible, but I'd like to investigate it.
-182. The ending of the game is the most interesting to you. Consider building the scenes in reverse order.
-	- Thus you can work on the more engaging pieces first.
 183. Design combat in a Mike Tyson's Punchout way
 	- Large enemies that have attack patterns you need to learn to dodge/parry.
 	- Player uses large swings with some lag attached to them (so timing is important)
 	- Player is allowed to move around the stage more than MTP (but perhaps can only ever look up?)
-184. Design the Memories screen
-	- Just a list of things that you remember last happening to your character.
-	- This way, you can include things like, "Conversed with the Void"
-	- Draw a background like pages in a journal/book.
-		~ Or perhaps thoughts written down in a thought bubble/cloud?
-	- Check how many lines of text you're able to fit per screen.
-	- Main events:
-	a. "Before I was here, I was in some void... Voices threatened me... were they real?"
-	b. "A wizard named Alexandros raised me from the dead. It was at the King's request."
 185. Implement saving at statues
 	- Draw a 16x16 (or 16x24, 16x32) sprite of a statue for this.
 	- Perhaps statues of/to the Queen?
+	- Or other small altars/places where people have left offerings.
+		~ Collections of flowers, fruits, trinkets, etc.
 186. Decide if you want the player to play some slightly different battle animations in the Barracks scene.
 	- This just requires creating an alternate player sprite and sheet, which incorporates a few of the battle poses.
 	- Maybe add another player sprite for this. It could be used only in key scenes to add more actions to the player.
