@@ -1134,27 +1134,6 @@ XX. At some point, the Leper Leader should be revealed to be largely a con artis
 	- Although he does believe in providing them peace-of-mind, he's 100% aware that his medicines are placebo.
 	- He also uses them to accumulate wealth and luxuries for himself.
 
-The more I think on it, it's non-sensical for the King to be revealed as evil. But he is someone that needs to step down, even by death if necessary. He's a tragic sort.
-
-
-Ideas for Conflict/Intrigue:
-=============================
-1. What if toward the end of the game you lost party members one at a time (making fights harder) until only the protagonist was left?
-2. What if each faction was someone that could be aligned with via dialogue? Avoiding a fight, but then also making a trade-off to ignore their treachery.
-	- Having optional bossfights works better with a skill-based combat system (for balancing EXP levels at certain points)
-	a. Bandit Leader holds the area's peasants as hostages and serfs. Forced to farm in order to feed his army. Has an interest in ultimately freeing them, but by force.
-	b. The Lord/Liege is extremely cruel and uses torture against his enemies, but maintains order in his lands.
-		~ Could perhaps employ a Miniboss ("The Butcher") who is truly monstrous. But kept around for his loyalty and the order he creates, despite his immoral and despicable tendencies.
-	c. The leader of the lepers (a snake-oil salesman) enjoys his position of authority and wealth/luxury from their loyalty. Acknowledges he sells them lies and placebo, but it does truly put their minds at rest their burdens.
-		~ They admire him, but when cornered one-on-one he admits that he knows his recipes and 
-		~ Perhaps he's an Apothecary selling them "healing" potions and ointments? Could use poisons/flasks against the player in battle.
-	d. The Witch seeks to enlighten the player to things they don't know (and she suspects), but does so by drugging and entrancing them. Has no regard for the will of others.
-		~ Perhaps she should even have skeletal (or undead) slaves that tend to her needs. Disregarding the people whose souls used to inhabit their flesh.
-	e. The Undead Prince. An unreasonable beast, driven mad with the Aether flowing through him. He rambles to himself, and fails to recognize anyone he once knew.
-		~ He should maintain an odd level of lucidity. Rather than a Frankenstein's monster, he's a mindless, perfectionist killer. Like a fencer perfecting each strike, but no longer able to understand the meaning/cost of death.
-	f. The King wishes for a strong kingdom, but is unable to create it during his entire life. Instead he is driven by revenge and a lust for power. This comes at the cost of everyone in the Realm, his enemies and allies alike.
-
-
 Concepts:
 ==========
 1. "Don't fear what you don't know."
