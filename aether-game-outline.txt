@@ -419,7 +419,7 @@ Simple things to Work On:
 		~ "The King's bedside held a eulogy for the late prince."
 		  "It described the Prince's dedication and loyalty to the Realm."
 		  "His death must have brought immense pain to the King."
-	7. Quartermaster (Receive sword/training from QM)
+	7. Barracks (Receive sword/training from QM)
 		~ "The Quartermaster gave me a bastard sword. He said it was my signature weapon."
 		  "He was deeply reluctant to offer his assistance, but did so anyway."
 		  "The blade feels awkward in my hands. I barely know how to swing it."
@@ -427,13 +427,29 @@ Simple things to Work On:
 		~ "The Jester and I left the castle through its main gate."
 		  "As we walked away, the significance of our journey began to dawn on me."
 		  "The King is reliant on our resounding success. Without it, he shall fall."
-	9. The Bard (Meet and talk with the Bard in the village)
-	10. Village Bridge (Discover the bridge North is closed)
-	11. Banditry (Leaving the village into the forest)
-	~ "Barely outside the castle walls, bandits roam freely."
-	  "Mostly farmers, the villagers fear for their lives."
-	  "Between the undead and bandit threats, most have already given up."
-	12. Bandit Queen (Route Vivian in combat)
+	9. Villagers
+		~ "Barely outside the castle walls, bandits roam freely."
+	  	  "Mostly farmers, the villagers fear for their lives."
+	  	  "Between the undead and bandit threats, most have already given up."
+	10. The Bard (Meet and talk with the Bard in the village)
+	11. Bridge (Discover the bridge North is closed)
+	12. Banditry (Leaving the village into the forest)
+		~ "Dominating the royal farmland, bandits roam freely."
+		  "Fearing no consequence, they pilfer everything left to take."
+		  "It seems they desire a full scale war with the Kingdom."
+		  "Yet with the state of the castle, who is there left to fight?"
+		  "They also believe themselves ideologically motivated."
+		  "Yet I feel they're most unified by their hatred of the King."
+	13. Bandit Queen (Route Vivian in combat)
+		~ "I met the Bandit Queen, Vivian, whom the locals spoke of."
+		  "She stressed the importance of dethroning the King to me."
+		  "But more than that, she revealed that she knew the Jester."
+		  "Said they were comrades in battle. In a war they lost."
+		  "Accused him of abandoning the soldiers who now make up her ranks."
+		  "Blamed him and the Crown for their situation. And the loss of her limb."
+		  "A royal ranger with neither King, nor army, nor arm."
+		  "It's no wonder she named herself Queen and raises an army against him."
+	14. Elemental Fire (Acquire the Elemental Stone of Fire)
 	X. Lone Stranger (Meet the bloodhound for the first time)
 	X. Neera (Neera joins the party)
 		~ "A one-eyed priestess who communes with God himself."
