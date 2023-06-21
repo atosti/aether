@@ -1905,16 +1905,27 @@
                     "symbol": "actor_25",
                     "script": [
                         {
-                            "command": "EVENT_SET_VALUE",
+                            "command": "EVENT_SET_FLAGS",
                             "args": {
                                 "variable": "4",
-                                "value": {
-                                    "type": "number",
-                                    "value": 2
-                                },
-                                "__collapse": true
+                                "flag1": true,
+                                "flag2": false,
+                                "flag3": false,
+                                "flag4": false,
+                                "flag5": false,
+                                "flag6": false,
+                                "flag7": false,
+                                "flag8": false,
+                                "flag9": false,
+                                "flag10": false,
+                                "flag11": false,
+                                "flag12": false,
+                                "flag13": false,
+                                "flag14": false,
+                                "flag15": false,
+                                "flag16": false
                             },
-                            "id": "15460a2c-cf50-4584-bf05-af949d55b7e4"
+                            "id": "c61db8f2-4181-4895-8378-233a4ea93d67"
                         },
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -10463,8 +10474,8 @@
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "7d6884b2-038e-4ce7-8ca4-9be9a6338a84",
-            "x": 1449.799999999999,
-            "y": 597.466666666667,
+            "x": 1448.1999999999994,
+            "y": 593.4666666666672,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -16486,46 +16497,83 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__collapse": false,
-                        "__label": "Hide Memories",
-                        "__comment": true
+                        "__label": "Tileswap Memories",
+                        "__comment": false
                     },
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_SET_VALUE",
+                                "command": "EVENT_IF_FLAGS_COMPARE",
                                 "args": {
-                                    "variable": "T0",
-                                    "value": {
-                                        "type": "variable",
-                                        "value": "4"
-                                    },
-                                    "__collapse": true
-                                },
-                                "id": "aa21726a-62f0-4e8b-afb8-80a9694ac45e"
-                            },
-                            {
-                                "command": "EVENT_LOOP_WHILE",
-                                "args": {
-                                    "expression": "$Tempo0 > 0",
-                                    "__collapse": true
+                                    "variable": "4",
+                                    "flag": 0,
+                                    "__collapseElse": false,
+                                    "__disableElse": false,
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
                                         {
-                                            "command": "EVENT_DEC_VALUE",
+                                            "command": "EVENT_GROUP",
                                             "args": {
-                                                "variable": "T0",
-                                                "__collapse": true
+                                                "__label": "Show Memory",
+                                                "__collapse": false,
+                                                "__comment": false
                                             },
-                                            "id": "494b44c3-2e65-475f-bd41-b5f21ee5de5d"
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GBVM_SCRIPT",
+                                                        "args": {
+                                                            "script": "VM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1\n;VM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\n;VM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\n;VM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\n;VM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\n;VM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\n;VM_POP 1",
+                                                            "references": [
+                                                                {
+                                                                    "type": "background",
+                                                                    "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "6514a1d8-1777-4307-a275-5e98aea43446"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "bc5fc489-77ed-463a-b96f-8df92180e8da"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Hide Memory",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GBVM_SCRIPT",
+                                                        "args": {
+                                                            "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 2, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 3, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 4, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 5, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 6, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_REPLACE_TILE_XY 7, 2, ___bank_bg_memories_swaps_tileset, _bg_memories_swaps_tileset, .ARG0\nVM_POP 1",
+                                                            "references": [
+                                                                {
+                                                                    "type": "background",
+                                                                    "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c"
+                                                                }
+                                                            ],
+                                                            "__collapse": false
+                                                        },
+                                                        "id": "8e2bb699-0370-4f29-9285-8b87ddbe7dcf"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "b10d5483-3bd4-4d9c-99af-2a388f73aefb"
                                         }
                                     ]
                                 },
-                                "id": "7befe987-7594-4cb7-afc2-1cf36714d08f"
+                                "id": "d461fd9c-0665-4392-940d-a461c0fe17be"
                             }
                         ]
                     },
-                    "id": "4155100f-1fd1-43cd-affa-5c93c4cf8c35"
+                    "id": "603de0d6-06e9-4e50-bf29-31b8ddd368ca"
                 },
                 {
                     "command": "EVENT_GROUP",
@@ -16639,7 +16687,7 @@
                                                 "actorId": "$self$",
                                                 "x": 0,
                                                 "y": 2,
-                                                "__collapseElse": true,
+                                                "__collapseElse": false,
                                                 "__disableElse": false,
                                                 "__collapse": true
                                             },
@@ -16698,7 +16746,7 @@
                                                                     "args": {
                                                                         "actorId": "$self$",
                                                                         "x": 0,
-                                                                        "y": -1,
+                                                                        "y": -2,
                                                                         "moveType": "vertical",
                                                                         "useCollisions": false,
                                                                         "__collapse": true
@@ -16736,9 +16784,9 @@
                                                 "actorId": "$self$",
                                                 "x": 0,
                                                 "y": 14,
-                                                "__collapseElse": true,
+                                                "__collapseElse": false,
                                                 "__disableElse": false,
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "children": {
                                                 "true": [
@@ -16795,7 +16843,7 @@
                                                                     "args": {
                                                                         "actorId": "$self$",
                                                                         "x": 0,
-                                                                        "y": 1,
+                                                                        "y": 2,
                                                                         "moveType": "vertical",
                                                                         "useCollisions": false,
                                                                         "__collapse": false
@@ -16839,7 +16887,7 @@
                                         {
                                             "command": "EVENT_GROUP",
                                             "args": {
-                                                "__collapse": true,
+                                                "__collapse": false,
                                                 "__label": "1. Awakening"
                                             },
                                             "children": {
@@ -16889,7 +16937,7 @@
                                                         "args": {
                                                             "actorId": "$self$",
                                                             "x": 0,
-                                                            "y": 3,
+                                                            "y": 4,
                                                             "__collapseElse": true,
                                                             "__collapse": false,
                                                             "__disableElse": true
@@ -18688,6 +18736,27 @@
                     "y": 7
                 }
             ],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Memories Swaps",
+            "backgroundId": "c046ecb3-5901-43f0-9d6d-900f5174b29c",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "fb2f9c3b-4ef7-4f62-bb63-fcf657e4c5df",
+            "symbol": "scene_25",
+            "x": 1276,
+            "y": 218.39999999999995,
+            "actors": [],
             "triggers": [],
             "script": [],
             "playerHit1Script": [],
@@ -23099,6 +23168,17 @@
                 1,
                 1
             ]
+        },
+        {
+            "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c",
+            "name": "memories-swaps",
+            "symbol": "bg_memories_swaps",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "memories-swaps.png",
+            "tileColors": []
         },
         {
             "id": "74c01323-865a-4a94-a074-7294a1c5e5b3",
@@ -62224,8 +62304,8 @@
         },
         {
             "id": "4",
-            "name": "Memories",
-            "symbol": "var_memories"
+            "name": "Memories-Page1",
+            "symbol": "var_memories_page1"
         },
         {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
@@ -62438,8 +62518,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3208,
-        "worldScrollY": 210,
+        "worldScrollX": 2364,
+        "worldScrollY": 288,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -62469,7 +62549,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            888,
+            897,
             30
         ],
         "showNavigator": true,
