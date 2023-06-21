@@ -141,6 +141,7 @@ Simple things to Work On:
 	d. Alexandros = Magical stationary shield wall in-front of the player?
 		~ Or maybe a shield that follows the player somehow?
 116. Draw Nodding and Head Shaking animations for the player, so it can be accompanied with Yes/No dialogue options.
+	- Perhaps Thumbs Up/Down emotes
 117. Walking into a sprite and interacting will cause the player to be in a "moving" animation loop while the dialogue plays.
 	- Is there an easy fix to this? It's not horrible, but it is a bit jarring.
 121. Add a "Made in GB Studio" screen to be displayed when the game is loaded
@@ -154,8 +155,6 @@ Simple things to Work On:
 126. Have some of the NPC interactions around the castle change when the Jester is in your party.
 	- Let him walk out from the party and be a part of the scene.
 	- Utilize his avatar to illustrate when he's speaking.
-127. Add music to the title screen.
-	- Perhaps just some ambient gusty winds.
 129. Draw a generic knight's helm avatar for soldiers around the realm?
 130. Add Alexandros to the conversation with the Jester + King.
 	- Have both he and the Jester incensed that they aren't traveling as a 3-person party.
@@ -175,9 +174,6 @@ Simple things to Work On:
 	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
 133. Draw portrait avatars for each of the main antagonists.
 136. Add examine text to the book the man's reading in the West Hallway.
-137. Consider implementing multi-slot saving
-	- Though does it really add much to the experience? How necessary is such a thing?
-	- Alternately, how hard is it to really implement? If it's easy, then why not?
 138. Consider an intro animation that plays if the player is idle for a handful of seconds.
 	- It could show the night of the Great Explosion.
 	- Tower erupting into flames. People running. Reflection of the flames in someone's eye?
@@ -240,12 +236,6 @@ Simple things to Work On:
 	- It should also have tricky encounters. It doesn't have to be anything new, just lots of hard fights back to back.
 162. For now, just have Aylmera be the only one controllable in combat. Build the rest of encounters around this.
 	- E.g. Flesh out enemy spawns and attack patterns.
-163. Vivian's Battle Theme
-	- Themes: Outward anger at a world that's wronged her. Quickness/Agility. Piercing/Sharpness. Ambush.
-	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
-		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
-	- Just jump right into the song without much buildup at ALL.
-	- Try it in F Major (Furious).
 164. Outline basic arenas and enemy attack patterns that can be developed.
 165. Implement save locations rather than saving from the menu.
 	- Just like saving at statues in Sword of Mana.
@@ -2647,7 +2637,6 @@ XI. Boss themes
 	- Click Click - The English Beat
 		https://www.youtube.com/watch?v=8mOGY6dzVss
 		~ Bit more upbeat.
-
 XII. Wandering/Lonely Music
 	- https://www.youtube.com/watch?v=RPUAldgS7Sg
 	- https://www.youtube.com/watch?v=gMA5jdxPL4s
@@ -2659,3 +2648,9 @@ XIII. Encounter with Antagonists
 	- Dialogue before an engagement
 		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
 		~ Use the intro of this track.
+XIV: Vivian's Battle Theme
+	- Themes: Outward anger at a world that's wronged her. Quickness/Agility. Piercing/Sharpness. Ambush.
+	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
+		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
+	- Just jump right into the song without much buildup at ALL.
+	- Try it in F Major (Furious).
