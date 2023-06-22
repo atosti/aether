@@ -2259,6 +2259,21 @@ Concepts:
 	- Neera: *Laughs* "I've meditated on this moment before, and God has shown me visions..."
 	- Neera: *Evil smile* "Of your death."
 	* Combat starts*
+148. Bard's Rhymes/Encounters
+	* He should make reference here to the ancient ritual of divine penance and resurrection (which Aylmera is taking part in, unbeknownst to her)
+	a. Bard: *Musical note* "Deep below, the spirits listen: hearing songs of old. 
+			A chant, a tale, of those forgiven, they do as they're told.
+			A chance above with newfound vision, flesh enrobes the soul.
+			Wander free, yet not too far, for penance pays the toll."
+	   Aylmera: "You have a beautiful voice. Did you write that piece?"
+	   Bard: "No. It's a traditional tune, from long ago. Though I'm glad you enjoyed it."
+	   		 "Do you know what it's about?"
+	   [Love.]
+			Bard: "Maybe. It sounds compassionate. Yet it's strange for them to mention penance at the end."
+	   [Pain.]
+		   Bard: "Hmmm. It certainly sounds somber. But the tune is rather upbeat."
+		Bard: "I think it has to do with desiring change. Everyone's following a pattern. But what if they want something else?"
+			  "I dunno. I'm just the performer. I didn't write the damn thing."
 
 Combat System Ideas:
 ====================
