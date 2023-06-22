@@ -22,11 +22,6 @@ Simple things to Work On:
 23. Design trinkets for the tables.
 	- Battle maps, figurines, pots full of scrolls, potted plants.
 	- Also design a Grandfather clock.
-24. Implement the journal menu option. It records core details for the player, so they know their objective.
-	- Doesn't need to be robust, just marks down main plot points they've learned so they don't get lost.
-	- Would love it to look like pages in a book which you can turn through. (Perhaps a static # of pages that get filled in as you complete core objectives.)
-	- Could just be two pages, one for the last thing accomplished, and another for the one that's being actively worked on.
-		~ Just avoid making it a big empty "book" that gets filled out over time. That feels so dated and awful for a player to page through nothing at the start of the game.
 35. Come up with a name for the King.
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
@@ -313,8 +308,6 @@ Simple things to Work On:
 192. Look up songs that capture the vibe of each bossfight you want
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
 	- This will help in fleshing out each fighter, zone, and their themes.
-195. Rework the Start Menu script to call a correct variable
-	- All scenes need to be updated
 198. Add a menu item for "Jokes"
 	- Allows you to ask the Jester to tell you a joke. Pull from a series of real medieval jokes.
 	- Bonus points if you implement a menu item that lets you converse with all of your party members throughout the story.
@@ -341,7 +334,9 @@ Memories Master List:
 10. The Bard (Meet and talk with the Bard in the village)
 	- Write this
 11. Bridge (Discover the bridge North is closed)
-	- Write this
+	- "The bridge heading North across the river was raised."
+	  "It seems the Northern Lord didn't want to deal with bandits."
+	  "Now the only way North is through the forest. Deeper into bandit territory."
 12. Banditry (Leaving the village into the forest)
 13. Bandit Queen (Route Vivian in combat)
 14. Pure Fire (Acquire the Elemental Stone of Fire)
@@ -556,8 +551,8 @@ Character Names/Titles:
 		- He is respected by the soldiers for the way he led them during the siege of the Tower, personally taking up arms.
 		- He's incredibly clever, but recognizes that he is out of his depths. 
 		- He understands that he's fighting a losing battle, but searches for any advantage he can get.
-3. Alexandros, Magical Prodigy
-	[Core Fault: Shame]
+3. Alexandros, Gifted Prodigy
+	[Core Fault: Shame, Shortcomings]
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
 4. Neera, Hivemind Cleric (Diviner?)
@@ -2208,7 +2203,7 @@ Concepts:
 		~ Lord: "You would have liked my father. He'd have led you to a glorious death."
 	[Absolutely not.]
 		~ Lord: "Then perhaps you are not as much a fool as his King." (referring to the Jester)
-4.  First encounter with the Bloodhound (Hermit) (Old, needs to be reworked as just telling the story, no combat)
+144. First encounter with the Bloodhound (Hermit) (Old, needs to be reworked as just telling the story, no combat)
 	(This occurs shortly after the player has slaughtered the Leper colony.)
 	*Party passes a hermit sitting alone, in a tunnel by a campfire*
 	Hermit: "You seem tired, please come sit by the fire and rest a moment."
@@ -2244,12 +2239,12 @@ Concepts:
 		Hermit: "I'm sorry. But I can't let myself risk another mistake..."
 	[Elif Accept.]
 		Hermit: "I know you can't possibly be him, yet... you bear his remarkable stench."
-5. Vivian on the night of the Great Explosion
+145. Vivian on the night of the Great Explosion
 	- Vivian: "You can't imagine the death that I saw. That WE saw. We followed that idiot King and his son into a brutal war. And what was our prize?"
 		"My arm still lies on that battlefield, along with the bones of my brethren."
    		"Nothing you say can excuse those facts. The King's wishes brought us to the precipe of ruin."
 		"If you truly serve him, then you must be stopped."
-6. Jester's relationship with the King and comments on Morcant
+146. Jester's relationship with the King and comments on Morcant
 	- Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something even better than he."
 	"A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure."
 	"The King could see it. And it filled him with immense pride. But that same pride is what led the King astray."
@@ -2258,6 +2253,12 @@ Concepts:
 	"He lacks the resources... and the prowess... to remedy this situation. I sometimes wish the Prince were here in his stead."
 	"The Aether robbed us of a deserving King. Of one who could fix this mess."
 		- The Jester coming to terms with how the King is unfit to rule.
+147. High Priest toward Neera
+	- High Priest: "You've proven unworthy of the gifts the Church has provided."
+	- High Priest: "You'll understand when I rip that eye from your socket."
+	- Neera: *Laughs* "I've meditated on this moment before, and God has shown me visions..."
+	- Neera: *Evil smile* "Of your death."
+	* Combat starts*
 
 Combat System Ideas:
 ====================
