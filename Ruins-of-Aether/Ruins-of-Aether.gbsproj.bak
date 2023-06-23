@@ -1626,93 +1626,163 @@
                     "collisionGroup": "",
                     "script": [
                         {
-                            "command": "EVENT_IF_FALSE",
+                            "command": "EVENT_IF_FLAGS_COMPARE",
                             "args": {
-                                "variable": "L0",
-                                "__collapseElse": true,
-                                "__collapse": false,
-                                "__disableElse": true
+                                "variable": "7",
+                                "flag": 0,
+                                "__collapseElse": false
                             },
                             "children": {
-                                "true": [
+                                "true": [],
+                                "false": [
                                     {
-                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "command": "EVENT_GROUP",
                                         "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
-                                            "__collapse": true
-                                        },
-                                        "id": "ca9c1543-ccbf-4716-baf2-a790eb19e5b4"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Welcome back to the land of the \nLiving, Hero. Sorry for such a pitiful\nreception. It's all we could muster.",
-                                                "My name is Alexandros. Along with\nmy colleagues, I conducted your \nrevival at the behest of the Crown.",
-                                                "I hope you feel alright. You've been\ndead for quite some time. And it was\nno easy task mending your body."
-                                            ],
-                                            "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                            "__collapse": false
-                                        },
-                                        "id": "3ab37376-178c-4bd1-ae70-883217e88acb"
-                                    },
-                                    {
-                                        "command": "EVENT_CHOICE",
-                                        "args": {
-                                            "variable": "L1",
-                                            "trueText": "When did I die?",
-                                            "falseText": "Who am I?",
-                                            "__collapse": true
-                                        },
-                                        "id": "2f5d30b6-69b8-4c2d-a26d-1e523b58f1b8"
-                                    },
-                                    {
-                                        "command": "EVENT_IF_TRUE",
-                                        "args": {
-                                            "variable": "L1",
-                                            "__collapseElse": false,
+                                            "__label": "First Question",
                                             "__collapse": false
                                         },
                                         "children": {
                                             "true": [
                                                 {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "64a095db-479f-44e7-b7a2-1d9ea8090f43"
-                                                },
-                                                {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Err, only a few... hundred years ago?\nIt's hard to say for certain given\nthe accuracy of historical texts..."
+                                                            "Welcome back to the land of the \nLiving, Hero."
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                         "__collapse": true
                                                     },
-                                                    "id": "39283f6c-b897-4d55-980c-609c409a8054"
+                                                    "id": "3ab37376-178c-4bd1-ae70-883217e88acb"
                                                 },
                                                 {
-                                                    "command": "EVENT_CHOICE",
+                                                    "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
-                                                        "variable": "L3",
-                                                        "trueText": "A few HUNDRED?!",
-                                                        "falseText": "I'm sorry, what?",
+                                                        "actorId": "$self$",
+                                                        "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
                                                         "__collapse": true
                                                     },
-                                                    "id": "2dde8b70-5df5-45c5-b2fe-be986c6f4e55"
+                                                    "id": "ca9c1543-ccbf-4716-baf2-a790eb19e5b4"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Please remain calm! It's nothing shy\nof a miracle that we brought you\nback. Especially with our supplies...",
-                                                            "But I understand how jarring this \nmust be. At least take solace in your\nhealth, you're in peak condition.",
-                                                            "I saw to it personally that every inch\nof your being was restored to the\nprime of your youth."
+                                                            "Sorry for such a pitiful reception.\nIt's all we can muster these days.",
+                                                            "My name is Alexandros. I conducted\nyour revival with the assistance of\nmy colleagues.",
+                                                            "At the behest of the Crown, of\ncourse.",
+                                                            "So how are you feeling? It wasn't an\neasy task resurrecting your bones."
+                                                        ],
+                                                        "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "2d7760ec-c63d-414e-a82f-a0a5a8f62a42"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "T0",
+                                                        "trueText": "Cloudy memory.",
+                                                        "falseText": "I was 'revived'?",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "2f5d30b6-69b8-4c2d-a26d-1e523b58f1b8"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "T0",
+                                                        "__collapseElse": false,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "64a095db-479f-44e7-b7a2-1d9ea8090f43"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Hmmm. That's rather unexpected.\nThe scrolls made no mention of that...",
+                                                                        "It's likely just a minor side effect of\nbringing you back.",
+                                                                        "Magic tends to be as much art as it\nis science!"
+                                                                    ],
+                                                                    "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "39283f6c-b897-4d55-980c-609c409a8054"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "4330edf9-877b-4416-b912-05c64463bd55"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "I wouldn't worry too much about it.\nThese things often work\nthemselves out over time."
+                                                                    ],
+                                                                    "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "832d5a93-0373-447e-a0d8-8ee112526ce9"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "b6343982-8d98-4c95-bafc-96c214dd0d00"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Oh yes, you were... quite dead. But I\npersonally saw to it that every inch\nof you was restored to its prime.",
+                                                                        "Parts of your revival process were \ncertainly... experimental. But it's a\nresounding success!"
+                                                                    ],
+                                                                    "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "48a9d5c3-56cc-497f-9142-e6731b379918"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "8b478ee1-0147-4900-beab-b4753f84944c"
+                                                }
+                                            ]
+                                        },
+                                        "id": "cce6f096-760d-4fa0-a251-946523732592"
+                                    },
+                                    {
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Second Question",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Wait. You DO remember who you are,\nright? Aylmera: Fabled hero of the\nRealm?",
+                                                            "Slayer of the Damned? Martyr\nof Antiquity? Any of this ringing a\nbell?"
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                         "__collapse": true
@@ -1723,71 +1793,111 @@
                                                     "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
                                                         "actorId": "$self$",
-                                                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
                                                         "__collapse": true
                                                     },
-                                                    "id": "53732850-7a5e-4746-8c57-6e8433a2c4c9"
-                                                }
-                                            ],
-                                            "false": [
+                                                    "id": "205d3514-3fe0-458a-b6be-d78a4cf98b3a"
+                                                },
                                                 {
-                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "command": "EVENT_CHOICE",
                                                     "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
+                                                        "variable": "T0",
+                                                        "trueText": "Of course!",
+                                                        "falseText": "Not at all.",
                                                         "__collapse": true
                                                     },
-                                                    "id": "b6343982-8d98-4c95-bafc-96c214dd0d00"
+                                                    "id": "8d9e72a9-cc75-45ca-a1ea-24cb38e2ccc7"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "T0",
+                                                        "__collapseElse": false,
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Splendid! Then you'll have no problem\ncontinuing to serve the Realm as you\nonce did so valiantly, years ago!"
+                                                                    ],
+                                                                    "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "a6abf756-4172-4578-a817-da2ceb1b340c"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Well, rest assured you're famous for\nyour heroics.",
+                                                                        "You did right by this Kingdom many\nyears ago. It's a well-known fact."
+                                                                    ],
+                                                                    "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "218d1592-f115-4316-a268-4c7802f07db3"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "05a6c412-cd10-4f94-bb8f-95d41ac2b0a5"
                                                 },
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "You don't remember?I guess we \nassumed your memories would be\nfully intact...",
-                                                            "You're Aylmera: Fabled hero of the\nRealm. Slayer of the Damned? Martyr\nof Antiquity?",
-                                                            "Wow. This really isn't ringing any\nbells. Well, rest assured you're\nfamous for your heroics.",
-                                                            "Though none are alive who personally\nknew you, many still tell tales about\nyour adventures.",
-                                                            "Lotta stories about who you were,\nthe things you stood for. And who\nyou died fighting against..."
+                                                            "Although none are alive from your\ntime, many still tell tales about\nyour adventures.",
+                                                            "Lots of stories about who you were,\nthe things you stood for. And even \nwho you died fighting against..."
                                                         ],
                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
-                                                    "id": "48a9d5c3-56cc-497f-9142-e6731b379918"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "205d3514-3fe0-458a-b6be-d78a4cf98b3a"
+                                                    "id": "ceac98aa-ac3b-4fd9-ac61-0ff8e0d474a7"
                                                 }
                                             ]
                                         },
-                                        "id": "8b478ee1-0147-4900-beab-b4753f84944c"
+                                        "id": "f674ef38-c200-4cc3-a816-76c91219ae2b"
                                     },
                                     {
-                                        "command": "EVENT_SET_TRUE",
+                                        "command": "EVENT_SET_FLAGS",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "7",
+                                            "flag1": true,
+                                            "flag2": false,
+                                            "flag3": false,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
                                             "__collapse": true
                                         },
-                                        "id": "cd209d27-dd8f-4509-8ae7-822fd08b57ff"
+                                        "id": "e8dd74dc-8101-4730-98af-f7303caa515f"
                                     }
-                                ],
-                                "false": []
+                                ]
                             },
-                            "id": "90d3d9b6-86a8-49af-ad1a-89b3717d346c"
+                            "id": "17e2886d-6d4b-4bea-a6df-4c75ad27ef27"
                         },
                         {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "But nevermind all that, I shouldn't\nkeep  you any longer. Go see the King\nupstairs. He's eager to meet you."
+                                    "Nevermind all that, though. We\nshouldn't keep the King waiting. Go\nsee him upstairs. He's eager to meet you."
                                 ],
                                 "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "5f833a1a-4d7f-4b2d-8b55-954f122c32da"
                         }
@@ -1889,73 +1999,6 @@
                     "x": 1,
                     "y": 9,
                     "symbol": "actor_4"
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "fb888323-7438-42f2-8585-150dab5ed0e4",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_25",
-                    "script": [
-                        {
-                            "command": "EVENT_SET_FLAGS",
-                            "args": {
-                                "variable": "4",
-                                "flag1": true,
-                                "flag2": true,
-                                "flag3": true,
-                                "flag4": true,
-                                "flag5": true,
-                                "flag6": true,
-                                "flag7": true,
-                                "flag8": true,
-                                "flag9": true,
-                                "flag10": true,
-                                "flag11": true,
-                                "flag12": true,
-                                "flag13": true,
-                                "flag14": true,
-                                "flag15": false,
-                                "flag16": false,
-                                "__collapse": false
-                            },
-                            "id": "c61db8f2-4181-4895-8378-233a4ea93d67"
-                        },
-                        {
-                            "command": "EVENT_SCENE_PUSH_STATE",
-                            "args": {
-                                "__collapse": true
-                            },
-                            "id": "ee02d614-6cba-4c51-bfb8-6d5de0566600"
-                        },
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "0c00ce55-56a2-4695-a6e7-c6424cd46edd",
-                                "x": 0,
-                                "y": 0,
-                                "direction": "",
-                                "fadeSpeed": "2",
-                                "__collapse": true
-                            },
-                            "id": "691cd52e-cbb8-47c8-92e4-fe9094ee9da6"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "9b51d633-7e11-4ff6-a426-c881ab6a981b",
-                    "x": 11,
-                    "y": 8
                 }
             ],
             "triggers": [
@@ -2478,7 +2521,7 @@
                                         {
                                             "command": "EVENT_GROUP",
                                             "args": {
-                                                "__collapse": false,
+                                                "__collapse": true,
                                                 "__label": "Animate Eyes Opening"
                                             },
                                             "children": {
@@ -2686,26 +2729,6 @@
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "command": "EVENT_WAIT",
-                                                        "args": {
-                                                            "time": 0.5,
-                                                            "frames": 30,
-                                                            "__collapse": true,
-                                                            "__comment": true
-                                                        },
-                                                        "id": "c524d010-1460-4143-b1d1-c7c6239de8ca"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_WAIT",
-                                                        "args": {
-                                                            "time": 0.5,
-                                                            "frames": 30,
-                                                            "__collapse": true,
-                                                            "__comment": true
-                                                        },
-                                                        "id": "bbcfe736-426c-436b-81f5-d3b81084879b"
-                                                    },
-                                                    {
                                                         "command": "EVENT_ACTOR_EMOTE",
                                                         "args": {
                                                             "actorId": "e8916db7-436d-47aa-9497-ddba55b113e6",
@@ -2718,7 +2741,8 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "She's awake! Back up, give her some\nspace to breathe..."
+                                                                "She's awake!",
+                                                                "Back up. Give her some space to\nbreathe..."
                                                             ],
                                                             "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                             "__collapse": true
@@ -2729,16 +2753,25 @@
                                                         "command": "EVENT_ACTOR_EMOTE",
                                                         "args": {
                                                             "actorId": "e8916db7-436d-47aa-9497-ddba55b113e6",
-                                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
                                                             "__collapse": true
                                                         },
                                                         "id": "cb3b9079-0c93-4f0f-8660-9ae3894908fe"
                                                     },
                                                     {
+                                                        "command": "EVENT_WAIT",
+                                                        "args": {
+                                                            "time": 0.2,
+                                                            "frames": 30,
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "8be64686-2876-4f25-aa73-b92e3150c172"
+                                                    },
+                                                    {
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Aylmera, can you hear my voice?"
+                                                                "Aylmera... can you hear my voice?"
                                                             ],
                                                             "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                             "__collapse": true
@@ -2756,6 +2789,15 @@
                                                             "__collapse": true
                                                         },
                                                         "id": "a74ed0ab-9115-486a-a803-9deab9f2448d"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_WAIT",
+                                                        "args": {
+                                                            "time": 0.1,
+                                                            "frames": 30,
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "40436936-80c9-4bcb-bbd7-2eb3c4d642da"
                                                     },
                                                     {
                                                         "command": "EVENT_ACTOR_SET_STATE",
@@ -2779,9 +2821,9 @@
                                                     {
                                                         "command": "EVENT_CHOICE",
                                                         "args": {
-                                                            "variable": "L1",
+                                                            "variable": "T0",
                                                             "trueText": "Yes.",
-                                                            "falseText": "No.",
+                                                            "falseText": "Nope.",
                                                             "__collapse": true
                                                         },
                                                         "id": "2346a862-c9eb-41fa-8f4e-6f3548a2cecc"
@@ -2789,7 +2831,7 @@
                                                     {
                                                         "command": "EVENT_IF_TRUE",
                                                         "args": {
-                                                            "variable": "L1",
+                                                            "variable": "T0",
                                                             "__collapseElse": false,
                                                             "__collapse": false
                                                         },
@@ -2807,7 +2849,8 @@
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "Thank the heavens! And you seem to\nbe quite lucid, too! It's a miracle\nconsidering all we've been through."
+                                                                            "Thank the heavens! You seem quite \nlucid, too!",
+                                                                            "It's a miracle considering all we've\nbeen through."
                                                                         ],
                                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                                         "__collapse": false
@@ -2829,7 +2872,8 @@
                                                                     "command": "EVENT_TEXT",
                                                                     "args": {
                                                                         "text": [
-                                                                            "Funny. At least we know your ears\nare working. Shame the same can't\nbe said for your sense of humor."
+                                                                            "Funny... At least we know your ears\nare working.",
+                                                                            "Shame the same can't be said for\nyour sense of humor."
                                                                         ],
                                                                         "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                                                         "__collapse": false
@@ -2844,10 +2888,10 @@
                                                         "command": "EVENT_TEXT",
                                                         "args": {
                                                             "text": [
-                                                                "Take a moment to collect yourself\nand get your bearings. Then speak\nwith me. We have much to discuss."
+                                                                "Once you get your bearings, come\nspeak with me. There's much for us \nto discuss."
                                                             ],
                                                             "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "013fdda3-75c9-4fb3-b884-59de930b08ad"
                                                     },
@@ -8741,7 +8785,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "fd9002ae-13ca-415f-9598-63ae901f709f",
+                    "spriteSheetId": "3e8bea00-9267-4d49-a961-629fa216569b",
                     "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -18274,7 +18318,7 @@
                                                                                         "But now my mind is a haze. My thoughts\nare jumbled as though I'm still asleep."
                                                                                     ],
                                                                                     "avatarId": "",
-                                                                                    "__collapse": true
+                                                                                    "__collapse": false
                                                                                 },
                                                                                 "id": "2afb5963-420a-4a9f-ac4d-2abb45858ad9"
                                                                             }
@@ -18318,7 +18362,8 @@
                                                                         "variable": "4",
                                                                         "flag": 1,
                                                                         "__collapseElse": false,
-                                                                        "__disableElse": true
+                                                                        "__disableElse": true,
+                                                                        "__collapse": false
                                                                     },
                                                                     "children": {
                                                                         "true": [
@@ -18327,11 +18372,11 @@
                                                                                 "args": {
                                                                                     "text": [
                                                                                         "There were runes carved into the floor\nof the dungeon I awoke in.",
-                                                                                        "A young man, dressed as a wizard, stood\nat the Apex of the carvings and addressed\nme.",
+                                                                                        "A young man, in the clothes of a wizard,\nstood at the Apex of the carvings and\naddressed me.",
                                                                                         "He seemed to know who I am, and called\nme by my name: Aylmera."
                                                                                     ],
                                                                                     "avatarId": "",
-                                                                                    "__collapse": true
+                                                                                    "__collapse": false
                                                                                 },
                                                                                 "id": "eaf6c2d3-9047-4738-af0b-7f68896d2795"
                                                                             }
@@ -18376,7 +18421,7 @@
                                                                         "flag": 2,
                                                                         "__collapseElse": false,
                                                                         "__disableElse": true,
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "children": {
                                                                         "true": [
@@ -18385,11 +18430,11 @@
                                                                                 "args": {
                                                                                     "text": [
                                                                                         "The castle has an oubliette stocked with\nnumerous torture devices.",
-                                                                                        "All of the instruments were well-used,\nthough near-ancient.",
+                                                                                        "All of the instruments were well-used,\nthough now ancient.",
                                                                                         "What happened in this Kingdom before my \narrival here?"
                                                                                     ],
                                                                                     "avatarId": "",
-                                                                                    "__collapse": true
+                                                                                    "__collapse": false
                                                                                 },
                                                                                 "id": "1bfc424b-4ca6-4ce5-84ed-920be64401c8"
                                                                             }
@@ -64279,16 +64324,6 @@
             "symbol": "var_response"
         },
         {
-            "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L1",
-            "name": "Response",
-            "symbol": "var_response_0"
-        },
-        {
-            "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L0",
-            "name": "SpokenWith",
-            "symbol": "var_spokenwith_0"
-        },
-        {
             "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L0",
             "name": "Pet",
             "symbol": "var_pet"
@@ -64374,11 +64409,6 @@
             "symbol": "var_coffinopened_0"
         },
         {
-            "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L2",
-            "name": "Introduced",
-            "symbol": "var_introduced"
-        },
-        {
             "id": "3b1c6d4a-f11b-48be-8cdc-e6e05ada23f2__L0",
             "name": "Local0",
             "symbol": "var_local0"
@@ -64387,11 +64417,6 @@
             "id": "9cc494af-4aef-48b7-813d-e89aa4219a63__L0",
             "name": "Local 0",
             "symbol": "var_local_6"
-        },
-        {
-            "id": "e8916db7-436d-47aa-9497-ddba55b113e6__L3",
-            "name": "HundredYearsResponse",
-            "symbol": "var_hundredyearsresponse"
         },
         {
             "id": "ee11834d-99ee-41ad-b491-aef40a94227e__L0",
@@ -64457,6 +64482,11 @@
             "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
             "name": "Local 0",
             "symbol": "var_local_10"
+        },
+        {
+            "id": "7",
+            "name": "CastleConversations",
+            "symbol": "var_castleconversations"
         }
     ],
     "engineFieldValues": [
@@ -64475,7 +64505,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollY": 27,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
