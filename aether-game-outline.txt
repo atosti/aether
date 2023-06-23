@@ -317,6 +317,8 @@ Simple things to Work On:
 201. Add more memories screens to fill out the remaining Memory entries
 	- Build it as 3 screens, with a quick fade in time triggered when going left/right.
 		~ Add a page flipping sound as well. Can always go back and rework it better later.
+202. Try to design a way to highlight in the Start Menu that new Memories are available to read.
+	- This way players don't have to enter into and page through the screen to check.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -2632,6 +2634,9 @@ XI. Boss themes
 	- Click Click - The English Beat
 		https://www.youtube.com/watch?v=8mOGY6dzVss
 		~ Bit more upbeat.
+	- Unknown (Prof?)
+		https://www.youtube.com/shorts/BABfl3Z8hEQ
+		~ Insane beat that's distorted. Perfect for a fight.
 XII. Wandering/Lonely Music
 	- https://www.youtube.com/watch?v=RPUAldgS7Sg
 	- https://www.youtube.com/watch?v=gMA5jdxPL4s
