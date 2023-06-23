@@ -311,6 +311,7 @@ Simple things to Work On:
 198. Add a menu item for "Jokes"
 	- Allows you to ask the Jester to tell you a joke. Pull from a series of real medieval jokes.
 	- Bonus points if you implement a menu item that lets you converse with all of your party members throughout the story.
+	= If implemented, add times where the jester is too distraught to provide you jokes.
 199. Look into aligning dialogue and music so that characters can "sing" along to the musical tracks during parts of the narrative.
 200. Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
 	- Potentially do Start = Page right -> and Select = Page left <-
@@ -2274,6 +2275,8 @@ Concepts:
 		   Bard: "Hmmm. It certainly sounds somber. But the tune is rather upbeat."
 		Bard: "I think it has to do with desiring change. Everyone's following a pattern. But what if they want something else?"
 			  "I dunno. I'm just the performer. I didn't write the damn thing."
+149. Reflections from a stranger
+	"When you die, and your soul awakens in whatever follows this life: What will you think of all your possessions you once held dear?"
 
 Combat System Ideas:
 ====================
