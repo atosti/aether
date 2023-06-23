@@ -320,6 +320,7 @@ Simple things to Work On:
 		~ Add a page flipping sound as well. Can always go back and rework it better later.
 202. Try to design a way to highlight in the Start Menu that new Memories are available to read.
 	- This way players don't have to enter into and page through the screen to check.
+203. Implement the Memories flag triggers into the world itself.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
