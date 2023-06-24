@@ -10161,7 +10161,7 @@
                             "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
                         },
                         {
-                            "command": "EVENT_SET_FLAGS",
+                            "command": "EVENT_ADD_FLAGS",
                             "args": {
                                 "variable": "4",
                                 "flag1": false,
@@ -10182,7 +10182,7 @@
                                 "flag16": false,
                                 "__collapse": true
                             },
-                            "id": "40dfe40f-c3f2-4f29-b243-070dc42e364e"
+                            "id": "bed66405-95ed-4d73-837e-63c25cff4197"
                         }
                     ],
                     "startScript": [
@@ -64600,8 +64600,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 312,
-        "worldScrollY": 273,
+        "worldScrollX": 2073,
+        "worldScrollY": 868,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
