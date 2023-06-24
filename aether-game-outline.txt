@@ -264,6 +264,23 @@ Simple things to Work On:
 	- Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
 	- Potentially do Start = Page right -> and Select = Page left <-
 204. Rework the Jester's dialogue to better use variables/flags/temps.
+205. Draw overworld/battle sprites for the main Antagonists
+	a. Vivian
+	b. The Apothecary
+	c. His Lordship
+	d. High Priest
+	e. Prince Morcant
+	f. Vivian II
+	g. Foreign Paladin
+206. Draw overworld/battle sprites for minor Antagonists
+	a. Bandits
+	b. Undead
+	c. Lepers
+	d. Skeletons
+	e. Northern Soldiers
+	f. Red Flower Soldier
+	g. Spirit of Aylmera
+	h. Monks/Nuns/Priests
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
