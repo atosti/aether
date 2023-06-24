@@ -139,9 +139,6 @@ Simple things to Work On:
 	- Perhaps Thumbs Up/Down emotes
 117. Walking into a sprite and interacting will cause the player to be in a "moving" animation loop while the dialogue plays.
 	- Is there an easy fix to this? It's not horrible, but it is a bit jarring.
-121. Add a "Made in GB Studio" screen to be displayed when the game is loaded
-	- Let it be skippable
-	- Try to draw the GB studio logo for it
 122. Modify the engine to enable 8-directional movement in top-down 2D screens
 125. Build the Armory and its combat tutorial.
 	- Draw a sprite for a gruff commander. (Perhaps use a 2bit gen'd character as a base)
@@ -150,7 +147,6 @@ Simple things to Work On:
 126. Have some of the NPC interactions around the castle change when the Jester is in your party.
 	- Let him walk out from the party and be a part of the scene.
 	- Utilize his avatar to illustrate when he's speaking.
-129. Draw a generic knight's helm avatar for soldiers around the realm?
 130. Add Alexandros to the conversation with the Jester + King.
 	- Have both he and the Jester incensed that they aren't traveling as a 3-person party.
 	- The King insists they split up. Everyone agrees to meet up at the Lord's castle to the North.
@@ -169,10 +165,6 @@ Simple things to Work On:
 	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
 133. Draw portrait avatars for each of the main antagonists.
 136. Add examine text to the book the man's reading in the West Hallway.
-138. Consider an intro animation that plays if the player is idle for a handful of seconds.
-	- It could show the night of the Great Explosion.
-	- Tower erupting into flames. People running. Reflection of the flames in someone's eye?
-	- Hellfire raining down on everyone, frenzied Aether husks rising up, etc.
 139. Write examine text for the shield hung behind the King.
 	- Describe a family crest for the Crown, which can then be used at later points in the story as well.
 	- Basically, create what the shield for their family should look like in the world. And write text to describe it.
@@ -196,29 +188,19 @@ Simple things to Work On:
 	- Or just play an intro sequence of a song, then transition into the full song for the fight? A la pokemon.
 143. Create a sound effect that sounds like the crunching of flesh and bone.
 	- Can be played when killing NPCs in the overworld.
-144. Design a way to easily randomize enemy encounters while reusing a battle scene.
-	- The overall goal is to only have a handful of total battle scenes. A few for each main zone/boss. (Probably under 10)
-	- When triggering the battle, generate a TRULY random number and spawn in enemies based on that.
 146. Update the attack animations to consistently use the same hand (left)
 	- Note that as of now, Aylmera uses mainly her left hand for animations, but her RIGHT hand for facing Right.
-147. Implement a working PoC for scene transitions that pixelate the entire screen in varying shapes similar to those in Pokemon.
+147. Implement a working proof-of-concept for scene transitions that pixelate the entire screen in varying shapes similar to those in Pokemon.
 148. Consider implementing the "Attach Script to B Button" for attacks conditionally, when changing the character (and on init)
 	- This would allow different shapes/sizes for attack patterns. Depending on the active character.
-149. Fix visual bug when swapping character spritesheets by adjusting the default spritesheet to be bigger than any of the other sprite sheets you're swapping it to.
-	- Not doing this causes an overflow, which creates the visual glitch.
 150. Change the two men conversing in the East Hallway to use triggers instead of On Interact scripts
 	- This may allow them to maintain their facing, instead of turning toward the player.
-151. Create a sound effect for when emotes pop up above character heads
 152. Redraw wooden crate sprite to be from a top-down angle (add a slight bit of the front to the sprite)
 	- Think of how the Pillars are drawn, showing some of both the top AND front of the object.
 153. Consider adding a somber violin piece as the soundtrack to the Swamp zone
 154. Upon first encountering the Eastern Garrison, have the camera pan up to show the entire wall for a moment.
 	- Then, play the dialogue encounter with the player.
 155. Design a system for triggering combat scenarios with enemy groupings chosen at true random.
-156. Write an ambient track for the farmland
-	- Try the following beat for inspiration: 
-		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
-158. Consider and learn exactly how sound effects interrupt music
 159. Draw a sprite of Aylmera bleeding from her eyes/nose/mouth.
 	- Whichever of these comes through best.
 	- Used for the passive decay that she experiences during the game.
@@ -229,9 +211,6 @@ Simple things to Work On:
 161. Create a large number of screens (a bit of a challenging path) between the Garrison and the Aether Ruins Basement.
 	- Reaching it should be an optional objective. The number of screens will help illustrate how far they've gone and the barren nature of the area.
 	- It should also have tricky encounters. It doesn't have to be anything new, just lots of hard fights back to back.
-162. For now, just have Aylmera be the only one controllable in combat. Build the rest of encounters around this.
-	- E.g. Flesh out enemy spawns and attack patterns.
-164. Outline basic arenas and enemy attack patterns that can be developed.
 165. Implement save locations rather than saving from the menu.
 	- Just like saving at statues in Sword of Mana.
 	- Just need to figure out what Aylmera should be using to save...
@@ -242,9 +221,6 @@ Simple things to Work On:
 	- Could immediately change scene? To one where the player and the enemy sprite are redrawn, then adjust the background?
 	- Visualize exactly what you want it to look like during transition, then replicate that.
 173. Consider changing Neera's avatar to be of a cross, or open bible/holy book.
-174. Create sound effects for positive and negative emotions.
-	- Then add these sounds to each instance of an emote so far.
-	- Probably just a Low > High note for a positive. And High > Low note for a negative.
 175. Check that loading from a save plays music that was playing. Otherwise, add music to all the scenes in the castle.
 176. Create a music track for the oubliette (and perhaps also the hidden alcove)
 177. Change the laugh noise to just be a generic upbeat set of like 2 or 3 notes.
@@ -273,12 +249,6 @@ Simple things to Work On:
 	- Perhaps statues of/to the Queen?
 	- Or other small altars/places where people have left offerings.
 		~ Collections of flowers, fruits, trinkets, etc.
-186. Decide if you want the player to play some slightly different battle animations in the Barracks scene.
-	- This just requires creating an alternate player sprite and sheet, which incorporates a few of the battle poses.
-	- Maybe add another player sprite for this. It could be used only in key scenes to add more actions to the player.
-		~ Things like passing out, kneeling, swinging, etc.
-	- Right now, I think I'll just have a 2nd player sprite that handles this. It will have more available actions, and I can swap it into specific scenes.
-		~ Otherwise, every action I add with have an impact on the sprite count for all my scenes that the player is just walking around.
 187. Create the Quartermaster sprite + battle animations.
 188. Implement the Quartermaster fight.
 	- Introduce some basic mechanics.
@@ -305,6 +275,7 @@ Simple things to Work On:
 		~ Design a transition screen that reads VERTICALLY and says "BATTLE" on half the screen with another half being a vertical full-body image of either Aylmera or the opponent.
 		~ How many tiles can I draw using background tile swapping?
 190. Create 2 sound effects for emotes (positive, and negative)
+	- Maybe even more specific. Have a quizzical tone for '?', or confusion, etc.
 192. Look up songs that capture the vibe of each bossfight you want
 	- Can be a real song which is licensed or has vocals, just get the vibe then create your own track from there.
 	- This will help in fleshing out each fighter, zone, and their themes.
@@ -313,12 +284,11 @@ Simple things to Work On:
 	- Bonus points if you implement a menu item that lets you converse with all of your party members throughout the story.
 	= If implemented, add times where the jester is too distraught to provide you jokes.
 199. Look into aligning dialogue and music so that characters can "sing" along to the musical tracks during parts of the narrative.
-200. Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
-	- Potentially do Start = Page right -> and Select = Page left <-
 201. Add more memories screens to fill out the remaining Memory entries
 	- Build it as 3 screens, with a quick fade in time triggered when going left/right.
 		~ Add a page flipping sound as well. Can always go back and rework it better later.
-203. Implement the Memories flag triggers into the world itself.
+	- Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
+	- Potentially do Start = Page right -> and Select = Page left <-
 204. Rework the Jester's dialogue to better use variables/flags/temps.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
@@ -2653,9 +2623,12 @@ XIII. Encounter with Antagonists
 	- Dialogue before an engagement
 		~ https://www.youtube.com/watch?v=HuO0Rk-cRio
 		~ Use the intro of this track.
-XIV: Vivian's Battle Theme
+XIV. Vivian's Battle Theme
 	- Themes: Outward anger at a world that's wronged her. Quickness/Agility. Piercing/Sharpness. Ambush.
 	- Fast paced, slow build-up to quick jabs of sound (similar to that of stringing an arrow slowly, and rapidly firing it).
 		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
 	- Just jump right into the song without much buildup at ALL.
 	- Try it in F Major (Furious).
+XV. 156. Farmland/Village ambience
+	- Try the following beat for inspiration: 
+		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
