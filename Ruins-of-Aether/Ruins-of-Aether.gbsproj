@@ -2029,7 +2029,8 @@
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "customEventId": "4d5f8d87-d4f9-438a-98bc-74424d616576"
+                                "customEventId": "4d5f8d87-d4f9-438a-98bc-74424d616576",
+                                "__comment": true
                             },
                             "id": "d9f390f4-0bab-4c41-9878-da94ef1718e8"
                         },
@@ -2040,7 +2041,8 @@
                                     "a",
                                     "b"
                                 ],
-                                "__collapse": true
+                                "__collapse": true,
+                                "__comment": true
                             },
                             "id": "ed14d6ff-5354-4d3d-8524-76f28e2dc615"
                         },
@@ -13712,15 +13714,35 @@
             "triggers": [],
             "script": [
                 {
-                    "command": "EVENT_TEXT",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "text": [
-                            "God help you in your pursuit of madness."
-                        ],
-                        "avatarId": "",
+                        "__label": "Set the mood",
                         "__collapse": true
                     },
-                    "id": "1ce9d791-f752-48fb-8365-30b36853a87d"
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MUSIC_PLAY",
+                                "args": {
+                                    "musicId": "cd7af2e6-0c23-4768-b2ea-84a586be2de0",
+                                    "__collapse": true
+                                },
+                                "id": "8d78e955-1863-4223-b9a3-923484058715"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "You've come far enough. May God help you\nin your pursuit of madness."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": false
+                                },
+                                "id": "1ce9d791-f752-48fb-8365-30b36853a87d"
+                            }
+                        ]
+                    },
+                    "id": "5e596c93-6860-44e3-8d66-e0f176101da6"
                 },
                 {
                     "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -58882,9 +58904,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1421,
-        "worldScrollY": 600,
-        "zoom": 325,
+        "worldScrollX": 787,
+        "worldScrollY": 5,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
