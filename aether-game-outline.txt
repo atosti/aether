@@ -17,8 +17,6 @@ Simple things to Work On:
 36. Design a neutral soldier sprite.
 	- And assign it to the NPC in the War Room.
 44. Finish the King's dialogue for when you have the Jester in your party.
-47. Flesh out Alexandros' backstory somewhere
-	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
 50. Design sideways facing chairs for the dining hall.
 51. Add leaning portraits and rolled up scrolls to the Hidden Alcove.
 	- Make it seem like a room cluttered with old junk.
@@ -530,6 +528,10 @@ Character Names/Titles:
 	[Core Fault: Shame, Shortcomings]
 	- Apprentice of the Mad Wizard
 	* Sheltered, self-centered, calculating, wishes/longs for better times (his past/youth).
+	- He's Alexandros the Gifted. One of the first wizards to agree to an armistice following the Great Explosion.
+	- He's the highest-ranking wizard who's still alive after the Great Explosion
+	- Began following the Mad Wizard at a young age.
+	- Still maintains his belief that the Mad Wizard was not in the wrong during the conflict.
 4. Neera, Hivemind Cleric (Diviner?)
 	[Core Fault: Overly duty-bound/self-righteous]
 	- Enlightened Priestess? One-eyed Cleric? One-eyed Hivemind? Hivemind Diviner?
@@ -563,6 +565,10 @@ Character Names/Titles:
 	- Ignacio?
 	- Bringer of Chaos?
 	* Self-centered, enthralled by his work/studies, brilliant, kept to himself, 
+	- Before the Great War he, along with a handful of other wizards, leveled the Lost City to rubble.
+	- He's seen as responsible for destroying the Great Tower.
+	- He's viewed as an aggressor by much of the Realm and especially by royalty.
+	- The plot should reveal that he was something of an "eco-terrorist" but within the constraints of this world.
 8. Velazquez, Ruthless Lord (Alt: Lorden (surname))
 	- Cruel order-bringer, Lawbringer, Slayer of the Weak, His Liege
 	- Velazquez? A strong Spanish Knight would be a good influence.
