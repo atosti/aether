@@ -100,17 +100,7 @@ Simple things to Work On:
 	- Tiki-torch style standalone torches	
 	- Braziers
 104. Design the inventory system.
-	- It should be able to hold a lot of different items
-		~ Like 32ish?
-		~ At first just get Key Items and Usable items built in, and listed separately.
-106. When designing combat
-	a. Add a pause in between switching characters (so that you're penalized, briefly, for switching)
-	b. New spritesheets will need to be assembled for these battle screens
-		~ They need animation frames for switching between players, such as a Smokecloud effect
-		~ They'll need attacking animation frames
-		~ They'll need the size of their sprites adjusted to account for the new height/width of weaponry.
-	c. Check if different sprites can have different shaped hitboxes to match unique character attacks.
-		~ E.g. Could I have a long hitbox for a sword on one character, but a shorter, stubbier hitbox on a dagger for another? 
+	- For now it just needs to be a screen showing all key items
 107. Continue writing randomized death messages to display on the Game Over screen.
 	- Use the Fallout 1/2 death messages for inspiration.
 		~ https://fallout.fandom.com/wiki/Death_messages
@@ -290,6 +280,17 @@ Simple things to Work On:
 204. Rework the Jester's dialogue to better use variables/flags/temps.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
+
+Key Items Master List:
+=======================
+1. Stone of Elemental Fire
+2. Stone of Elemental Air
+3. Stone of Elemental Earth
+4. Stone of Elemental Water
+5. Cracked Stone of Elemental Aether
+6. Queen's Pendant
+X. Aylmera's Legendary Sword
+	- "Harmony-bringer"?
 
 Memories Master List:
 ======================
