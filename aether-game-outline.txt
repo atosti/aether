@@ -318,12 +318,8 @@ Simple things to Work On:
 201. Add more memories screens to fill out the remaining Memory entries
 	- Build it as 3 screens, with a quick fade in time triggered when going left/right.
 		~ Add a page flipping sound as well. Can always go back and rework it better later.
-202. Try to design a way to highlight in the Start Menu that new Memories are available to read.
-	- This way players don't have to enter into and page through the screen to check.
 203. Implement the Memories flag triggers into the world itself.
 204. Rework the Jester's dialogue to better use variables/flags/temps.
-205. Adjust the Intro to use a single Flag for checking "Has the introduction happened"
-	- This way a whole variable doesn't have to be used for it.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -343,7 +339,7 @@ Memories Master List:
 11. Bridge (Discover the bridge North is closed)
 	- "The bridge heading North across the river was raised."
 	  "It seems the Northern Lord didn't want to deal with bandits."
-	  "Now the only way North is through the forest. Deeper into bandit territory."
+	  "Now the only path North is through the forest. Deeper into bandit territory."
 12. Banditry (Leaving the village into the forest)
 13. Bandit Queen (Route Vivian in combat)
 14. Pure Fire (Acquire the Elemental Stone of Fire)
