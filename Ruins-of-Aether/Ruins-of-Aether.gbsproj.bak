@@ -1894,7 +1894,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Nevermind all that, though. We\nshouldn't keep the King waiting. Go\nsee him upstairs. He's eager to meet you."
+                                    "But nevermind all that. We shouldn't\nkeep the King waiting. Go see him\nupstairs. He's eager to meet you."
                                 ],
                                 "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6",
                                 "__collapse": false
@@ -2053,6 +2053,30 @@
                                             "avatarId": ""
                                         },
                                         "id": "8ae1b707-5367-4d94-9eef-b87e33f62388"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "4",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": true,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "447e8aa8-5325-4d26-abde-540c1e8322d6"
                                     }
                                 ]
                             },
@@ -2100,6 +2124,30 @@
                                             "avatarId": ""
                                         },
                                         "id": "edd8d364-4cc7-4945-89b6-0fc7918a3432"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "4",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": true,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "f58e88d3-98e1-40ff-a702-09d7c7fe0ef2"
                                     }
                                 ]
                             },
@@ -2353,6 +2401,30 @@
                                             "avatarId": ""
                                         },
                                         "id": "87ea8797-4269-48b2-979a-a365426abd14"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "4",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": true,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "18216d44-77a1-4ce8-a042-d6ee5051c79a"
                                     }
                                 ]
                             },
@@ -2908,7 +2980,7 @@
                                             "id": "1c921c2a-1ffe-46cd-bbb2-abb9223dd2e7"
                                         },
                                         {
-                                            "command": "EVENT_SET_FLAGS",
+                                            "command": "EVENT_ADD_FLAGS",
                                             "args": {
                                                 "variable": "4",
                                                 "flag1": true,
@@ -2929,7 +3001,7 @@
                                                 "flag16": false,
                                                 "__collapse": true
                                             },
-                                            "id": "16dbacf0-7732-45d9-9155-ad03f37188c2"
+                                            "id": "00e78b84-bde3-4d51-be27-9fa888f68e96"
                                         },
                                         {
                                             "command": "EVENT_SET_TRUE",
@@ -10087,6 +10159,30 @@
                                 "__collapse": true
                             },
                             "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
+                        },
+                        {
+                            "command": "EVENT_SET_FLAGS",
+                            "args": {
+                                "variable": "4",
+                                "flag1": false,
+                                "flag2": false,
+                                "flag3": false,
+                                "flag4": true,
+                                "flag5": false,
+                                "flag6": false,
+                                "flag7": false,
+                                "flag8": false,
+                                "flag9": false,
+                                "flag10": false,
+                                "flag11": false,
+                                "flag12": false,
+                                "flag13": false,
+                                "flag14": false,
+                                "flag15": false,
+                                "flag16": false,
+                                "__collapse": true
+                            },
+                            "id": "40dfe40f-c3f2-4f29-b243-070dc42e364e"
                         }
                     ],
                     "startScript": [
@@ -64309,6 +64405,11 @@
             "symbol": "var_startmenuselection"
         },
         {
+            "id": "7",
+            "name": "CastleConversations",
+            "symbol": "var_castleconversations"
+        },
+        {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
             "name": "Local 1",
             "symbol": "var_local_1"
@@ -64482,11 +64583,6 @@
             "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
             "name": "Local 0",
             "symbol": "var_local_10"
-        },
-        {
-            "id": "7",
-            "name": "CastleConversations",
-            "symbol": "var_castleconversations"
         }
     ],
     "engineFieldValues": [
@@ -64504,9 +64600,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 27,
-        "zoom": 125,
+        "worldScrollX": 312,
+        "worldScrollY": 273,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

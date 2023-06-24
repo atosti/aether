@@ -321,6 +321,9 @@ Simple things to Work On:
 202. Try to design a way to highlight in the Start Menu that new Memories are available to read.
 	- This way players don't have to enter into and page through the screen to check.
 203. Implement the Memories flag triggers into the world itself.
+204. Rework the Jester's dialogue to better use variables/flags/temps.
+205. Adjust the Intro to use a single Flag for checking "Has the introduction happened"
+	- This way a whole variable doesn't have to be used for it.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
