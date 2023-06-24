@@ -2248,6 +2248,54 @@ Concepts:
 			  "I dunno. I'm just the performer. I didn't write the damn thing."
 149. Reflections from a stranger
 	"When you die, and your soul awakens in whatever follows this life: What will you think of all your possessions you once held dear?"
+150. Reflections on the Lost City
+	- Leper: "This place used to be quite impressive before it was the rubble you see before you."
+	- Leper: "The stories from the old timers are, frankly, unbelieve."
+	- Leper: "They say aqueducts brought fresh water to the door of each home."
+	- Leper: "That the buildings rose 10 stories into the air."
+	- Leper: "Described it as the most peaceful city in the Realm. A place where freedom and creativity thrived."
+	- Aylmera: "So what happened to it?"
+	- Leper: "Same as the Great Tower. Wizards lit the place on fire. Burned it 'til it was ash."
+	- Leper: "It wasn't all at once. Took them about a fortnight to kill and route every soldier. But they did it."
+	- Aylmera: "Why'd they "
+	- Leper: "Beats me. Some say it was a vendetta. Others say it was a blood sacrifice for some large ritual..."
+	- Leper: *Laughs*
+	- Leper: "One story even says it was a lover's quarrel! Wouldn't that be a helluva thing?"
+	- Leper: "But, you know how people talk. Can't take anything they say at face value."
+	- Leper: "Don't matter much now. No one visits it but those with nowhere else to go."
+151. Confronting Alexandros for his loyalties to the Mad Wizard
+	- Aylmera: "Alexandros. We need to talk about the Mad Wizard."
+	- Aylmera: "Why did you follow a man with such a destructive past?"
+	- Aylmera: "Rumor is he destroyed the Lost City in a fortnight. Reduced it to ashes."
+	- Alexandros: "Indeed. I've heard the same stories. They happened long before I was born, but I don't doubt their accuracy."
+	- Alexandros: "But you're wrong about leaving ash in his wake. That isn't-"
+	- Alexandros: *Pauses*
+	- Alexandros: "...wasn't his way. And it definitely isn't what he left behind there."
+	- Alexandros: "I went and visited the wreckage myself some years ago. Few structures were left standing, but it was overflowing with flora."
+	- Alexandros: "You saw it yourself. Unusual for explosions and fire to leave behind such a rich ecosystem, no?"
+	- Alexandros: "It's unnatural. And has grown lush at a rate faster than you would expect, given the timeframe from its destruction."
+	- Alexandros: "You see, when he and his wizards stormed the city after everyone had fled, they cast spells to heal the earth."
+	- Alexandros: "Accelerated the growth of plants, and ensured the waters flowed clear."
+	- Jester *Questioningly*
+	- Jester: "But it was a beacon of civilization. A city where peace prospered! What reason was there to destroy such a thing in the first place?!"
+	- Alexandros: "I can't speak for his motive, but I can speak on peace. It's rarely ever earned through goodwill. Just look at His Lordship's keep."
+	- Alexandros: "The safest town for miles, and yet?"
+	- Alexandros: "Cruel beyond measure."
+	- Alexandros: "I'd imagine the Lost City had something equally distasteful about its origins."
+	- Jester: "That's ridiculous. You're just validating his actions after the fact."
+	- Jester: "Neera. Can't you use your foresight to determine the truth about what happened?"
+	- Neera: "Not at all. My visions go forward in time, not backward."
+	- Neera: "But Alexandros seems sincere. You know he's not the type to lie."
+	- Jester: "*Sigh* What do you make of all this, Aylmera? Do you think the Mad Wizard had good reason to destroy the Lost City?"
+	[Yes.]
+		- Jester: "I hope you're right, but..."
+		- Jester: "I just don't know."
+	[No.]
+		- Alexandros: "It's foolish to fear what you don't know. "
+		- Alexandros: "It only holds you back from the truth."
+	- Neera: "I'd like you all to remember our co-dependence in this journey. None of us makes it alone."
+	- Neera: "We can't allow the shadows of the past to stymie our forward progress. Therefore..."
+	- Neera: "It's time we carried on."
 
 Combat System Ideas:
 ====================
