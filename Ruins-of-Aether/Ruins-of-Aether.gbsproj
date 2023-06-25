@@ -8962,7 +8962,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "3e8bea00-9267-4d49-a961-629fa216569b",
+                    "spriteSheetId": "9192441d-5b80-4309-9a80-8fbc0104f89b",
                     "direction": "right",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -58015,6 +58015,14 @@
             "type": "uge"
         },
         {
+            "id": "6603e890-0b28-452f-a8be-1dbe3607d771",
+            "name": "song_template 1",
+            "symbol": "song_song_template_1",
+            "filename": "song_template 1.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "a48278b6-e2d0-4aa6-844d-cfc436904bad",
             "name": "song_template 10",
             "symbol": "song_song_template_10",
@@ -58081,7 +58089,7 @@
         {
             "id": "e7ac2bfd-ab7f-47f5-bff8-b6a30726c1d3",
             "name": "unfinished-business",
-            "symbol": "song_song_template_1",
+            "symbol": "song_song_template_0",
             "filename": "unfinished-business.uge",
             "settings": {},
             "type": "uge"
@@ -58904,9 +58912,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 787,
-        "worldScrollY": 5,
-        "zoom": 125,
+        "worldScrollX": 1603,
+        "worldScrollY": 167,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
