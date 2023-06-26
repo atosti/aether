@@ -279,6 +279,7 @@ Simple things to Work On:
 	f. Red Flower Soldier
 	g. Spirit of Aylmera
 	h. Monks/Nuns/Priests
+207. Reorganize all of the misc dialogue into the chapters of the story they belong within
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -2110,6 +2111,8 @@ Concepts:
 	- "Long before the King, it was warring tribes who first ceased to salt each other's lands during war."
 		"For what is the point of ruling ashes? Such was the forethought the past gave to the future."
 	- "How many would you kill, in order to save those who remain?"
+	- "From where do you draw the strength to push onward? Can you not see that all is lost?"
+	- "The only blessed are they dead. For they know the peace of stillness."
 134. The story of what happened immediately after the Great Explosion should be recounted differently by all characters. Have no consensus to its memory.
 135. Neera and the Jester after slaying Morcant
 	* This should probably occur after the party convinces him he can't stop to bury the corpse.
@@ -2305,6 +2308,19 @@ Concepts:
 	- Neera: "I'd like you all to remember our mutual dependence in this journey. None of us makes it alone."
 	- Neera: "We can't allow the shadows of the past to stymie our forward progress. Therefore..."
 	- Neera: "It's time we carried on."
+152. Concepts discussed with His Lordship/High Priest
+	- His Lordship: "You share the short-sight of your beloved King. A failure to recognize our progress."
+	- Aylmera: "Slavery and torture aren't improvements. Your lands are regressing."
+	- His Lordship: "How blind. You're unable to see the stability I've carved amidst the chaos."
+	- His Lordship: "I've established rules for my people. They abide by them and are rewarded for their obedience."
+	- Jester: "Rewarded... You speak of them as though they were dogs."
+	- Neera: "Even the scripture decries your actions. You violate many of the sacred tenets."
+	- High Priest: "The scripture is merely a translation of God's will."
+	- High Priest: "It's important we re-evaluate our principles to match the challenges he provides us."
+	- Neera: "Speak not to me as though I were a peasant! You know I hear his divine will more clearly than any other!"
+	- High Priest: "Heretic. Your audacity betrays your madness. The divine would never let a woman bear his message."
+	- High Priest: "The monastery graciously exiled you from our ranks. I see now that was a mistake."
+	- High Priest: "We should have killed you."
 
 Combat System Ideas:
 ====================
