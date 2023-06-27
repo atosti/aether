@@ -581,7 +581,7 @@ Character Names/Titles:
 10. ???, Bloodhound Hermit
 	- Known simply as "The Bloodhound".
 11. Margot, Witch
-	- Treacherous Witch, Decrepit Gypsy, Mystic
+	- Treacherous Witch, Decrepit Mystic
 	* Untrusting of strangers, especially magical types
 12. Vivian, Royal Ranger
 	- One-armed Scout, Bandit Queen
