@@ -280,8 +280,20 @@ Simple things to Work On:
 	g. Spirit of Aylmera
 	h. Monks/Nuns/Priests
 207. Reorganize all of the misc dialogue into the chapters of the story they belong within
+208. Rework the Painting interactions to avoid using local variables
+209. Rework the King's dialogue to ensure it no longer uses local variables
+210. Fix the War Room so that the randomization occurs properly on emotes/wait time
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
+
+Interaction Flags Master List:
+===============================
+* Use this to keep track of what each flag controls and avoid using them in multiple places
+
+1. Castle interactions
+	- Flag 1 = Aylmera waking up
+	- Flag 2 = Talking to Alexandros
+	- Flag 3 = Talking to the War Room General
 
 Key Items Master List:
 =======================

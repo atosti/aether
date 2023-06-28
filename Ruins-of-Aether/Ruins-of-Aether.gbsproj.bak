@@ -1695,7 +1695,7 @@
                                                         "variable": "T0",
                                                         "trueText": "Cloudy memory.",
                                                         "falseText": "I was 'revived'?",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "2f5d30b6-69b8-4c2d-a26d-1e523b58f1b8"
                                                 },
@@ -1704,7 +1704,7 @@
                                                     "args": {
                                                         "variable": "T0",
                                                         "__collapseElse": false,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "children": {
                                                         "true": [
@@ -8987,7 +8987,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
+                                                "Excuse us?! Do you mind stepping aside?\nWe're having a conversation here!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -9117,7 +9117,7 @@
                                         "args": {
                                             "actorId": "1a3b6ed5-b104-4485-a3c0-1035647964aa",
                                             "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "ad456b3c-4030-4812-ac09-413f90530b99"
                                     },
@@ -9137,7 +9137,7 @@
                                         "args": {
                                             "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
                                             "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "b4079968-fe45-4ea8-a6fb-32c71fb35f77"
                                     },
@@ -9148,7 +9148,7 @@
                                                 "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time..."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "e1932bac-9923-4db3-b328-dd41d4653089"
                                     }
@@ -9537,7 +9537,7 @@
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "trueText": "Yes.",
                                             "falseText": "No.",
                                             "__collapse": true
@@ -9547,9 +9547,10 @@
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "__collapseElse": true,
-                                            "__disableElse": true
+                                            "__disableElse": true,
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -10018,276 +10019,291 @@
                     "collisionGroup": "",
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh my, I see Alexandros continues to\nbe full of surprises! Impressive he\nbreathed life into your corpse.",
-                                    "Fighting the undead with one of their\nown... If I didn't know better, I'd think\nthe King was mad with treachery!"
-                                ],
-                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": true
-                            },
-                            "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "0fa458e7-a0b9-4ae2-8e90-81bd0ba5f192",
-                                "__collapse": true
-                            },
-                            "id": "9be9e8c3-14ce-4efc-aefa-0dbed2b93b4a"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Still... I recognize your lack of choice\nin this whole matter, so I'd like to \napologize for that. Truly.",
-                                    "It's a harrowing position the Crown \nhas found himself in. He wouldn't take\nsuch drastic action otherwise.",
-                                    "If it's any consolation, I argued \nagainst your revival. But the wizards\nwere eager. And the King desperate."
-                                ],
-                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": true
-                            },
-                            "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
-                        },
-                        {
-                            "command": "EVENT_CHOICE",
-                            "args": {
-                                "variable": "L0",
-                                "trueText": "You hate wizards?",
-                                "falseText": "What do you need?",
-                                "__collapse": true
-                            },
-                            "id": "aa386f81-f549-408b-b077-06cc29bf0fe2"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "L0",
-                                "__collapseElse": false,
-                                "__collapse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "No. They're amicable enough. I just\nwonder how long this peace between \nus will last...",
-                                                "You see, roughly 3 years ago we \nwere engaged in a long and bloody \nconflict with the Realm's wizardry.",
-                                                "'The Great War', as it's known, came\nto an abrupt conclusion when the \nwizards' tower erupted into",
-                                                "Aetherial flames, killing most of its\ninhabitants and raining hellfire onto\nthose outside.",
-                                                "Had the Aetherial energy not \nimmediately leapt from the carnage\nand turned any creature, living or",
-                                                "dead, into a frenzied monster: we'd\nstill be fighting one another. Indeed,\nit is only our common enemy binding",
-                                                "us together. An uncomfortable truth\nthat no one in this castle will ever\nbe allowed to forget..."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "9a1d7949-c531-4789-8af7-ba43db9e9cb7"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                            "__collapse": true
-                                        },
-                                        "id": "e5ba428c-55cd-43aa-9c98-68bad57e8bb6"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor the journey ahead."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "fa4f0609-b2cb-49a1-91d8-d1015c5b1018"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Straight to the point. I admire that.\nIt's an increasingly rare trait, even\nin these trying times..."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "9b85303e-72cf-4e84-9630-76be86a042a1"
-                                    }
-                                ]
-                            },
-                            "id": "7494beb4-b9b4-4c89-846d-18f2bdc3494f"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "The Crown has requested your \nassistance in restoring elemental\nbalance to the Realm.",
-                                    "Based on scrolls procured by the \nwizards, we believe the undead\nfrenzy can be halted via the",
-                                    "realignment of the 4 main elements. \nThe only caveat is that the elemental\nstones must first be located.",
-                                    "And then they must be brought to\nthe site of the Great Tower, where\nthe ritual can be performed.",
-                                    "I know this is a lot to take in, but do\nyou have any initial questions about\nthe task at hand?"
-                                ],
-                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": true
-                            },
-                            "id": "2d87acfe-87ab-4a6d-a675-e6e6c921ca11"
-                        },
-                        {
-                            "command": "EVENT_CHOICE",
-                            "args": {
-                                "variable": "L1",
-                                "trueText": "Why me?",
-                                "falseText": "Any leads?",
-                                "__collapse": true
-                            },
-                            "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
-                        },
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "L1",
-                                "__collapseElse": true,
-                                "__collapse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_EMOTE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                            "__collapse": true
-                                        },
-                                        "id": "c1cf5fc6-fc52-4f95-a17b-1027b4c1294a"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Oh. Well. How to say this elegantly...\nThere really isn't anyone left. The\ncastle is staffed by a skeleton crew.",
-                                                "Little more than remnants of the \nroyal guard. There quite simply *is*\nno other warrior fit for the task."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "752236e0-cdb5-46c4-a5de-807b2b385825"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Just one. The Crown knows the\nlocation of one stone. It was hidden\nseveral years ago in the ruins of an",
-                                                "old city far to the Northwest. We\nbelieve this is where you should\nbegin your search."
-                                            ],
-                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
-                                        },
-                                        "id": "b72628e0-33c9-49f7-acd5-fb1a23928779"
-                                    }
-                                ]
-                            },
-                            "id": "6c9edf14-ded3-4bd7-a137-a4d394a7293d"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Oh! One last thing before you go.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
-                                    "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
-                                ],
-                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": true
-                            },
-                            "id": "c5926242-f871-4ad1-942e-d70061934d0d"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_EMOTE",
-                            "args": {
-                                "actorId": "$self$",
-                                "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
-                                "__collapse": true
-                            },
-                            "id": "91e57f2d-cbbe-463f-a7bc-dd0c2973dc58"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "We should return to the King before\nmaking our departure. I'm sure\nAlexandros will meet us there."
-                                ],
-                                "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                "__collapse": true
-                            },
-                            "id": "db06a65d-23d9-44c8-9cbf-265dd9896bdc"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
-                                "__collapse": true,
-                                "$variable[0]$": "T0",
-                                "$variable[1]$": "T1"
-                            },
-                            "id": "931492db-004f-4409-bdca-161d3fd5a494"
-                        },
-                        {
-                            "command": "EVENT_SET_TRUE",
+                            "command": "EVENT_IF_FALSE",
                             "args": {
                                 "variable": "0",
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__disableElse": true
                             },
-                            "id": "13a37da7-9bfe-45a3-829b-b1bcc4a5f628"
-                        },
-                        {
-                            "command": "EVENT_CALL_CUSTOM_EVENT",
-                            "args": {
-                                "customEventId": "24682f98-58c3-4234-8fef-f4f102702194",
-                                "__collapse": true
-                            },
-                            "id": "dbc4a449-070a-4f37-bef5-b2f19ed26233"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Sigmund the Jester has joined your party!"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh my, I see Alexandros continues to\nbe full of surprises! Impressive he\nbreathed life into your corpse.",
+                                                "Fighting the undead with one of their\nown... If I didn't know better, I'd think\nthe King was mad with treachery!"
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                            "__collapse": true
+                                        },
+                                        "id": "e35867ce-a802-4fb1-9e2d-f291adf19b60"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Still... I recognize your lack of choice\nin this whole matter, so I'd like to \napologize for that. Truly.",
+                                                "It's a harrowing position the Crown \nhas found himself in. He wouldn't take\nsuch drastic action otherwise.",
+                                                "If it's any consolation, I argued \nagainst your revival. But the wizards\nwere eager. And the King desperate."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
+                                    },
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "trueText": "You hate wizards?",
+                                            "falseText": "What do you need?",
+                                            "__collapse": false
+                                        },
+                                        "id": "aa386f81-f549-408b-b077-06cc29bf0fe2"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "__collapseElse": false,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "No. They're amicable enough. I just\nwonder how long this peace between \nus will last...",
+                                                            "You see, roughly 3 years ago we \nwere engaged in a long and bloody \nconflict with the Realm's wizardry.",
+                                                            "'The Great War', as it's known, came\nto an abrupt conclusion when the \nwizards' tower erupted into",
+                                                            "Aetherial flames, killing most of its\ninhabitants and raining hellfire onto\nthose outside.",
+                                                            "Had the Aetherial energy not \nimmediately leapt from the carnage\nand turned any creature, living or",
+                                                            "dead, into a frenzied monster: we'd\nstill be fighting one another. Indeed,\nit is only our common enemy binding",
+                                                            "us together. An uncomfortable truth\nthat no one in this castle will ever\nbe allowed to forget..."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "9a1d7949-c531-4789-8af7-ba43db9e9cb7"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e5ba428c-55cd-43aa-9c98-68bad57e8bb6"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor the journey ahead."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "fa4f0609-b2cb-49a1-91d8-d1015c5b1018"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Straight to the point. I admire that.\nIt's an increasingly rare trait, even\nin these trying times..."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "9b85303e-72cf-4e84-9630-76be86a042a1"
+                                                }
+                                            ]
+                                        },
+                                        "id": "7494beb4-b9b4-4c89-846d-18f2bdc3494f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The Crown has requested your \nassistance in restoring elemental\nbalance to the Realm.",
+                                                "Based on scrolls procured by the \nwizards, we believe the undead\nfrenzy can be halted via the",
+                                                "realignment of the 4 main elements. \nThe only caveat is that the elemental\nstones must first be located.",
+                                                "And then they must be brought to\nthe site of the Great Tower, where\nthe ritual can be performed.",
+                                                "I know this is a lot to take in, but do\nyou have any initial questions about\nthe task at hand?"
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "2d87acfe-87ab-4a6d-a675-e6e6c921ca11"
+                                    },
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "trueText": "Why me?",
+                                            "falseText": "Any leads?",
+                                            "__collapse": true
+                                        },
+                                        "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "__collapseElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "c1cf5fc6-fc52-4f95-a17b-1027b4c1294a"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Oh. Well. How to say this elegantly...\nThere really isn't anyone left. The\ncastle is staffed by a skeleton crew.",
+                                                            "Little more than remnants of the \nroyal guard. There quite simply *is*\nno other warrior fit for the task."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "752236e0-cdb5-46c4-a5de-807b2b385825"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Just one. The Crown knows the\nlocation of one stone. It was hidden\nseveral years ago in the ruins of an",
+                                                            "old city far to the Northwest. We\nbelieve this is where you should\nbegin your search."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "b72628e0-33c9-49f7-acd5-fb1a23928779"
+                                                }
+                                            ]
+                                        },
+                                        "id": "6c9edf14-ded3-4bd7-a137-a4d394a7293d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oh! One last thing before you go.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
+                                                "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "c5926242-f871-4ad1-942e-d70061934d0d"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                            "__collapse": true
+                                        },
+                                        "id": "91e57f2d-cbbe-463f-a7bc-dd0c2973dc58"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "We should return to the King before\nmaking our departure. I'm sure\nAlexandros will meet us there."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "db06a65d-23d9-44c8-9cbf-265dd9896bdc"
+                                    },
+                                    {
+                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                        "args": {
+                                            "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
+                                            "__collapse": true,
+                                            "$variable[0]$": "T0",
+                                            "$variable[1]$": "T1"
+                                        },
+                                        "id": "931492db-004f-4409-bdca-161d3fd5a494"
+                                    },
+                                    {
+                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                        "args": {
+                                            "customEventId": "24682f98-58c3-4234-8fef-f4f102702194",
+                                            "__collapse": true
+                                        },
+                                        "id": "dbc4a449-070a-4f37-bef5-b2f19ed26233"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Sigmund the Jester has joined your party!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "0",
+                                            "__collapse": true
+                                        },
+                                        "id": "13a37da7-9bfe-45a3-829b-b1bcc4a5f628"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "4",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": false,
+                                            "flag4": true,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "bed66405-95ed-4d73-837e-63c25cff4197"
+                                    }
                                 ],
-                                "avatarId": "",
-                                "__collapse": true
+                                "false": []
                             },
-                            "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
-                        },
-                        {
-                            "command": "EVENT_ADD_FLAGS",
-                            "args": {
-                                "variable": "4",
-                                "flag1": false,
-                                "flag2": false,
-                                "flag3": false,
-                                "flag4": true,
-                                "flag5": false,
-                                "flag6": false,
-                                "flag7": false,
-                                "flag8": false,
-                                "flag9": false,
-                                "flag10": false,
-                                "flag11": false,
-                                "flag12": false,
-                                "flag13": false,
-                                "flag14": false,
-                                "flag15": false,
-                                "flag16": false,
-                                "__collapse": true
-                            },
-                            "id": "bed66405-95ed-4d73-837e-63c25cff4197"
+                            "id": "1ccb4af3-a184-4cde-9142-4ad08613fb20"
                         }
                     ],
                     "startScript": [
@@ -10346,22 +10362,420 @@
                     "collisionGroup": "",
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_RNG_SEED",
                             "args": {
-                                "text": [
-                                    "Huh? Don't distract me! Can't you see I'm \nin the middle of planning our defenses?!"
-                                ],
-                                "avatarId": ""
+                                "__collapse": true
                             },
-                            "id": "3f00e2c4-88be-4b1c-b675-6d17428ba41c"
+                            "id": "2049a17a-d7c6-4809-a8d0-62413c350700"
+                        },
+                        {
+                            "command": "EVENT_IF_FLAGS_COMPARE",
+                            "args": {
+                                "variable": "7",
+                                "flag": 2,
+                                "__collapseElse": false,
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "(The man ignores you as he studies the\ntable, adjusting pieces on the war map as\nhe paces back and forth.)"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "240b982d-b2b9-4869-b9ed-0f0e219a4c97"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                            "__collapse": true
+                                        },
+                                        "id": "479c73f6-2abf-4d81-96b1-c323a3dc2f78"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Huh, what? Is there a reason you're\nbothering me right now?!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true
+                                        },
+                                        "id": "95225d7a-8936-40b8-9a43-ba90732532a2"
+                                    },
+                                    {
+                                        "command": "EVENT_CHOICE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "trueText": "Stressed?",
+                                            "falseText": "What is all this?",
+                                            "__collapse": true
+                                        },
+                                        "id": "56f1ffbc-27f0-4ca0-a78a-49c3d95c6ec0"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "__collapseElse": false,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "c52aa474-c477-4962-9a58-eee8a7676116"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "What a stupid question! Of course I'm\nstressed!",
+                                                            "We've got undead mere miles away and\nI'm stuck trying to hold this castle with\nonly a few dozen soldiers!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4d1816f1-572e-4c05-8098-a08713e3edd0"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "It's a war map. And a rotation for our\nsoldiers patroling the castle grounds.",
+                                                            "Maintaining our perimeter is vital to\npreventing the undead at bay."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "35e92fa0-d2c5-471d-a34f-d4b5e287b01c"
+                                                }
+                                            ]
+                                        },
+                                        "id": "a493ae6d-bd07-4a1c-9c8f-65f2cf183a6b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Now quit distracting me! It's vital I\nmaintain our defenses!"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": true,
+                                            "__comment": false
+                                        },
+                                        "id": "3f00e2c4-88be-4b1c-b675-6d17428ba41c"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "7",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": true,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "26552df3-4e07-4144-8cd7-d44545dc109c"
+                                    }
+                                ]
+                            },
+                            "id": "128cc157-819f-465b-9dba-ae6b4ad6253b"
                         }
                     ],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_RNG_SEED",
+                            "args": {
+                                "__collapse": true
+                            },
+                            "id": "45de7740-2630-44ac-8c57-5257ea66a1a6"
+                        },
+                        {
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "T1",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "L0",
+                                "value": "0",
+                                "minValue": "0",
+                                "maxValue": "32767",
+                                "clamp": false,
+                                "__collapse": true
+                            },
+                            "id": "1674ccf9-beb2-41d6-a026-00b0cfb0385e"
+                        }
+                    ],
                     "updateScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Pause for 1 to 3 seconds",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_EXPRESSION",
+                                        "args": {
+                                            "expression": "(($Temp1 % 3) == 0)",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 1,
+                                                        "frames": 30,
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ef74be4b-68dc-40c1-9560-e52e8a36c8b8"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_EXPRESSION",
+                                                    "args": {
+                                                        "expression": "(($Temp1 % 3) == 1)",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_WAIT",
+                                                                "args": {
+                                                                    "time": 2,
+                                                                    "frames": 30,
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "44d3163e-6d5b-409c-bc73-b8bbb9b6e15c"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_EXPRESSION",
+                                                                "args": {
+                                                                    "expression": "(($Temp1 % 3) == 2)",
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_WAIT",
+                                                                            "args": {
+                                                                                "time": 3,
+                                                                                "frames": 30,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "1f514687-550f-4cc1-b196-54969b21fd6b"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "86dbb350-9d37-42fa-95b8-0cd6b29ea511"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "7330c328-ac78-49b1-8357-b334a6289f06"
+                                                }
+                                            ]
+                                        },
+                                        "id": "c247161a-fbc4-4db6-afde-5aa479adaf0d"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "d47b479a-9b4d-4b93-9d18-e3cdb83d86f9"
+                                    }
+                                ]
+                            },
+                            "id": "c8bf3fae-af7c-47cf-8ec5-cf2ccd020a84"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Show Random Frustrated Emote",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_EXPRESSION",
+                                        "args": {
+                                            "expression": "(($Temp1 % 5) == 0)",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "d0a86cc8-34dd-402d-9e07-aa00d9007d6e",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "056a25ec-96ad-4546-876b-5c2b9816c1af"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_EXPRESSION",
+                                                    "args": {
+                                                        "expression": "(($Temp1 % 5) == 1)",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "010ddf1f-ad28-4628-81b0-1ab504d54ce1"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_EXPRESSION",
+                                                                "args": {
+                                                                    "expression": "(($Temp1 % 5) == 2)",
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "9c08a69b-ef28-45a3-9346-9d2337523ec8"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_IF_EXPRESSION",
+                                                                            "args": {
+                                                                                "expression": "(($Temp1 % 5) == 3)",
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "emoteId": "dfaad0c3-5d0e-4d0f-b4c8-6ff3de4a6640",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "96e7a52e-ff2e-453a-9375-fbff6af27590"
+                                                                                    }
+                                                                                ],
+                                                                                "false": [
+                                                                                    {
+                                                                                        "command": "EVENT_IF_EXPRESSION",
+                                                                                        "args": {
+                                                                                            "expression": "(($Temp1 % 5) == 4)",
+                                                                                            "__collapseElse": false
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                                                                    "args": {
+                                                                                                        "actorId": "$self$",
+                                                                                                        "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+                                                                                                        "__collapse": true
+                                                                                                    },
+                                                                                                    "id": "5cd6fa63-0a73-47d9-a75b-3ca24b300d31"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "81b34d6a-9f6a-4c51-8b70-8ab24aeb4163"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "id": "e172d2a0-84d6-4fbf-ab07-e88a1f258ebf"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "e06d6043-ced7-485e-a9dc-d9261e51ad62"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "e99aedeb-b9b8-4a85-8076-af6638f7cba1"
+                                                }
+                                            ]
+                                        },
+                                        "id": "fc4cd7fb-a064-48dc-8440-0f7808192a09"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "1066bc07-f374-4dbd-afd5-bcaf425251ef"
+                                    }
+                                ]
+                            },
+                            "id": "61afa1ea-2c7c-477e-9660-3949f48947f9"
+                        },
                         {
                             "command": "EVENT_WAIT",
                             "args": {
-                                "time": 3,
+                                "time": 1,
                                 "__collapse": true
                             },
                             "id": "b00504d7-261e-43f3-a2a6-e2538eed6139"
@@ -10397,21 +10811,242 @@
                             "id": "9799f125-6412-4203-8e7f-b4a854846b66"
                         },
                         {
-                            "command": "EVENT_WAIT",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "time": 2,
+                                "__label": "Pause for 1 to 3 seconds",
                                 "__collapse": true
                             },
-                            "id": "e3afc8f3-88f3-4e1e-87a1-96bd18187156"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_EXPRESSION",
+                                        "args": {
+                                            "expression": "(($Temp1 % 3) == 0)",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_WAIT",
+                                                    "args": {
+                                                        "time": 1,
+                                                        "frames": 30,
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "c4f01f81-db14-427a-8992-c85bd840717b"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_EXPRESSION",
+                                                    "args": {
+                                                        "expression": "(($Temp1 % 3) == 1)",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_WAIT",
+                                                                "args": {
+                                                                    "time": 2,
+                                                                    "frames": 30,
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "79e1a283-c278-4e01-b863-3d67fa30e5f1"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_EXPRESSION",
+                                                                "args": {
+                                                                    "expression": "(($Temp1 % 3) == 2)",
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_WAIT",
+                                                                            "args": {
+                                                                                "time": 3,
+                                                                                "frames": 30,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "a83595ed-4e0f-4541-9163-21aa4b52fc84"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "edc595c9-eb33-4cba-a6b3-608461759b98"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "552702f2-6d81-42f4-adf5-bfdd75e0261f"
+                                                }
+                                            ]
+                                        },
+                                        "id": "35d1ee77-2d68-4f71-86cc-8f499fa76c58"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "1f78c40e-e5cf-49fc-92ca-0b0bc0513f21"
+                                    }
+                                ]
+                            },
+                            "id": "50ebd853-a121-497c-a12c-c20ba99e5380"
                         },
                         {
-                            "command": "EVENT_ACTOR_EMOTE",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "actorId": "$self$",
-                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                "__label": "Show Random Frustrated Emote",
                                 "__collapse": true
                             },
-                            "id": "f26ce76f-e47d-40b0-9037-bbbad5e47356"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_EXPRESSION",
+                                        "args": {
+                                            "expression": "(($Temp1 % 5) == 0)",
+                                            "__collapseElse": false,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "d0a86cc8-34dd-402d-9e07-aa00d9007d6e",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "23f276d7-9484-4655-895f-ed770967c049"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_EXPRESSION",
+                                                    "args": {
+                                                        "expression": "(($Temp1 % 5) == 1)",
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "3cc8e54f-9f32-4b94-ad91-2a093ce2479e"
+                                                            }
+                                                        ],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_IF_EXPRESSION",
+                                                                "args": {
+                                                                    "expression": "(($Temp1 % 5) == 2)",
+                                                                    "__collapseElse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "28608821-3dc2-457f-987c-a98446025363"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_IF_EXPRESSION",
+                                                                            "args": {
+                                                                                "expression": "(($Temp1 % 5) == 3)",
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "emoteId": "dfaad0c3-5d0e-4d0f-b4c8-6ff3de4a6640",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "b8e7136a-a76a-4568-94c6-188fa0c4c932"
+                                                                                    }
+                                                                                ],
+                                                                                "false": [
+                                                                                    {
+                                                                                        "command": "EVENT_IF_EXPRESSION",
+                                                                                        "args": {
+                                                                                            "expression": "(($Temp1 % 5) == 4)",
+                                                                                            "__collapseElse": false
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                                                                    "args": {
+                                                                                                        "actorId": "$self$",
+                                                                                                        "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+                                                                                                        "__collapse": true
+                                                                                                    },
+                                                                                                    "id": "67367e1c-58e9-46d4-87a5-cf2e227c6c53"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "a86494bf-56bf-4763-9b0e-c7d84f47cad1"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "id": "a1dd427d-f391-4e85-b88d-0e02f869969a"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "9eccbae8-e6e1-4627-85e2-09edc1ae21b7"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "d9d8a3ea-828a-496c-930c-164ab22dfeab"
+                                                }
+                                            ]
+                                        },
+                                        "id": "d9d5c960-816f-4344-a8b2-f32e6f053a65"
+                                    },
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "d22df16d-3cc2-40e7-89ab-f6b2d8810288"
+                                    }
+                                ]
+                            },
+                            "id": "b1dfd1a4-0c71-4577-bb06-4bd5d2a0f9cd"
                         },
                         {
                             "command": "EVENT_WAIT",
@@ -58912,9 +59547,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 616,
-        "worldScrollY": 316,
-        "zoom": 125,
+        "worldScrollX": 1797,
+        "worldScrollY": 748,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
