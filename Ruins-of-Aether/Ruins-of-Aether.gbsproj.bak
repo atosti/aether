@@ -10528,7 +10528,7 @@
                                 "minValue": "0",
                                 "maxValue": "32767",
                                 "clamp": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "1674ccf9-beb2-41d6-a026-00b0cfb0385e"
                         }
@@ -10543,9 +10543,24 @@
                             "children": {
                                 "true": [
                                     {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "d47b479a-9b4d-4b93-9d18-e3cdb83d86f9"
+                                    },
+                                    {
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
-                                            "expression": "(($Temp1 % 3) == 0)",
+                                            "expression": "(($T1$ % 3) == 0)",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -10565,7 +10580,7 @@
                                                 {
                                                     "command": "EVENT_IF_EXPRESSION",
                                                     "args": {
-                                                        "expression": "(($Temp1 % 3) == 1)",
+                                                        "expression": "(($T1$ % 3) == 1)",
                                                         "__collapseElse": false
                                                     },
                                                     "children": {
@@ -10584,7 +10599,7 @@
                                                             {
                                                                 "command": "EVENT_IF_EXPRESSION",
                                                                 "args": {
-                                                                    "expression": "(($Temp1 % 3) == 2)",
+                                                                    "expression": "(($T1$ % 3) == 2)",
                                                                     "__collapseElse": false
                                                                 },
                                                                 "children": {
@@ -10610,21 +10625,6 @@
                                             ]
                                         },
                                         "id": "c247161a-fbc4-4db6-afde-5aa479adaf0d"
-                                    },
-                                    {
-                                        "command": "EVENT_VARIABLE_MATH",
-                                        "args": {
-                                            "vectorX": "T1",
-                                            "operation": "set",
-                                            "other": "rnd",
-                                            "vectorY": "L0",
-                                            "value": "0",
-                                            "minValue": "0",
-                                            "maxValue": "32767",
-                                            "clamp": false,
-                                            "__collapse": true
-                                        },
-                                        "id": "d47b479a-9b4d-4b93-9d18-e3cdb83d86f9"
                                     }
                                 ]
                             },
@@ -10639,9 +10639,24 @@
                             "children": {
                                 "true": [
                                     {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "1066bc07-f374-4dbd-afd5-bcaf425251ef"
+                                    },
+                                    {
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
-                                            "expression": "(($Temp1 % 5) == 0)",
+                                            "expression": "(($T1$ % 5) == 0)",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -10661,7 +10676,7 @@
                                                 {
                                                     "command": "EVENT_IF_EXPRESSION",
                                                     "args": {
-                                                        "expression": "(($Temp1 % 5) == 1)",
+                                                        "expression": "(($T1$ % 5) == 1)",
                                                         "__collapseElse": false
                                                     },
                                                     "children": {
@@ -10680,7 +10695,7 @@
                                                             {
                                                                 "command": "EVENT_IF_EXPRESSION",
                                                                 "args": {
-                                                                    "expression": "(($Temp1 % 5) == 2)",
+                                                                    "expression": "(($T1$ % 5) == 2)",
                                                                     "__collapseElse": false
                                                                 },
                                                                 "children": {
@@ -10699,7 +10714,7 @@
                                                                         {
                                                                             "command": "EVENT_IF_EXPRESSION",
                                                                             "args": {
-                                                                                "expression": "(($Temp1 % 5) == 3)",
+                                                                                "expression": "(($T1$ % 5) == 3)",
                                                                                 "__collapseElse": false
                                                                             },
                                                                             "children": {
@@ -10718,7 +10733,7 @@
                                                                                     {
                                                                                         "command": "EVENT_IF_EXPRESSION",
                                                                                         "args": {
-                                                                                            "expression": "(($Temp1 % 5) == 4)",
+                                                                                            "expression": "(($T1$ % 5) == 4)",
                                                                                             "__collapseElse": false
                                                                                         },
                                                                                         "children": {
@@ -10752,21 +10767,6 @@
                                             ]
                                         },
                                         "id": "fc4cd7fb-a064-48dc-8440-0f7808192a09"
-                                    },
-                                    {
-                                        "command": "EVENT_VARIABLE_MATH",
-                                        "args": {
-                                            "vectorX": "T1",
-                                            "operation": "set",
-                                            "other": "rnd",
-                                            "vectorY": "L0",
-                                            "value": "0",
-                                            "minValue": "0",
-                                            "maxValue": "32767",
-                                            "clamp": false,
-                                            "__collapse": true
-                                        },
-                                        "id": "1066bc07-f374-4dbd-afd5-bcaf425251ef"
                                     }
                                 ]
                             },
@@ -10819,9 +10819,24 @@
                             "children": {
                                 "true": [
                                     {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "T1",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": "32767",
+                                            "clamp": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "ce24798e-7d53-40a8-9f1a-7b2366d14207"
+                                    },
+                                    {
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
-                                            "expression": "(($Temp1 % 3) == 0)",
+                                            "expression": "(($T1$ % 3) == 0)",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -10834,14 +10849,14 @@
                                                         "frames": 30,
                                                         "__collapse": true
                                                     },
-                                                    "id": "c4f01f81-db14-427a-8992-c85bd840717b"
+                                                    "id": "7f533820-fb4e-48d8-99ea-3b4a2e56262b"
                                                 }
                                             ],
                                             "false": [
                                                 {
                                                     "command": "EVENT_IF_EXPRESSION",
                                                     "args": {
-                                                        "expression": "(($Temp1 % 3) == 1)",
+                                                        "expression": "(($T1$ % 3) == 1)",
                                                         "__collapseElse": false
                                                     },
                                                     "children": {
@@ -10853,14 +10868,14 @@
                                                                     "frames": 30,
                                                                     "__collapse": false
                                                                 },
-                                                                "id": "79e1a283-c278-4e01-b863-3d67fa30e5f1"
+                                                                "id": "f47daf1b-af0e-4d55-86c7-98344362994f"
                                                             }
                                                         ],
                                                         "false": [
                                                             {
                                                                 "command": "EVENT_IF_EXPRESSION",
                                                                 "args": {
-                                                                    "expression": "(($Temp1 % 3) == 2)",
+                                                                    "expression": "(($T1$ % 3) == 2)",
                                                                     "__collapseElse": false
                                                                 },
                                                                 "children": {
@@ -10872,21 +10887,33 @@
                                                                                 "frames": 30,
                                                                                 "__collapse": false
                                                                             },
-                                                                            "id": "a83595ed-4e0f-4541-9163-21aa4b52fc84"
+                                                                            "id": "4c6c5730-6932-4db6-ad04-618bf12272df"
                                                                         }
                                                                     ],
                                                                     "false": []
                                                                 },
-                                                                "id": "edc595c9-eb33-4cba-a6b3-608461759b98"
+                                                                "id": "2e4169fc-276d-4e62-a084-691735c26688"
                                                             }
                                                         ]
                                                     },
-                                                    "id": "552702f2-6d81-42f4-adf5-bfdd75e0261f"
+                                                    "id": "7890fd24-f8fd-4be0-b206-48248deda43a"
                                                 }
                                             ]
                                         },
-                                        "id": "35d1ee77-2d68-4f71-86cc-8f499fa76c58"
-                                    },
+                                        "id": "99748576-1e18-4da8-93d9-c955e9fb5209"
+                                    }
+                                ]
+                            },
+                            "id": "a873d15f-ed8d-4c94-90f7-3c51c36a09cc"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Show Random Frustrated Emote",
+                                "__collapse": true
+                            },
+                            "children": {
+                                "true": [
                                     {
                                         "command": "EVENT_VARIABLE_MATH",
                                         "args": {
@@ -10900,24 +10927,12 @@
                                             "clamp": false,
                                             "__collapse": true
                                         },
-                                        "id": "1f78c40e-e5cf-49fc-92ca-0b0bc0513f21"
-                                    }
-                                ]
-                            },
-                            "id": "50ebd853-a121-497c-a12c-c20ba99e5380"
-                        },
-                        {
-                            "command": "EVENT_GROUP",
-                            "args": {
-                                "__label": "Show Random Frustrated Emote",
-                                "__collapse": true
-                            },
-                            "children": {
-                                "true": [
+                                        "id": "2bab66f0-af41-42fb-90ef-4fb59d84bef0"
+                                    },
                                     {
                                         "command": "EVENT_IF_EXPRESSION",
                                         "args": {
-                                            "expression": "(($Temp1 % 5) == 0)",
+                                            "expression": "(($T1$ % 5) == 0)",
                                             "__collapseElse": false,
                                             "__collapse": false
                                         },
@@ -10930,14 +10945,14 @@
                                                         "emoteId": "d0a86cc8-34dd-402d-9e07-aa00d9007d6e",
                                                         "__collapse": true
                                                     },
-                                                    "id": "23f276d7-9484-4655-895f-ed770967c049"
+                                                    "id": "67e2275a-c952-4534-b351-fb4a3c9af6d9"
                                                 }
                                             ],
                                             "false": [
                                                 {
                                                     "command": "EVENT_IF_EXPRESSION",
                                                     "args": {
-                                                        "expression": "(($Temp1 % 5) == 1)",
+                                                        "expression": "(($T1$ % 5) == 1)",
                                                         "__collapseElse": false
                                                     },
                                                     "children": {
@@ -10949,14 +10964,14 @@
                                                                     "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
                                                                     "__collapse": true
                                                                 },
-                                                                "id": "3cc8e54f-9f32-4b94-ad91-2a093ce2479e"
+                                                                "id": "c82fc22b-9781-4582-88c0-0cfedcb654ab"
                                                             }
                                                         ],
                                                         "false": [
                                                             {
                                                                 "command": "EVENT_IF_EXPRESSION",
                                                                 "args": {
-                                                                    "expression": "(($Temp1 % 5) == 2)",
+                                                                    "expression": "(($T1$ % 5) == 2)",
                                                                     "__collapseElse": false
                                                                 },
                                                                 "children": {
@@ -10968,14 +10983,14 @@
                                                                                 "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
                                                                                 "__collapse": true
                                                                             },
-                                                                            "id": "28608821-3dc2-457f-987c-a98446025363"
+                                                                            "id": "9899c156-62c9-48d8-a862-eb4067bfcc35"
                                                                         }
                                                                     ],
                                                                     "false": [
                                                                         {
                                                                             "command": "EVENT_IF_EXPRESSION",
                                                                             "args": {
-                                                                                "expression": "(($Temp1 % 5) == 3)",
+                                                                                "expression": "(($T1$ % 5) == 3)",
                                                                                 "__collapseElse": false
                                                                             },
                                                                             "children": {
@@ -10987,14 +11002,14 @@
                                                                                             "emoteId": "dfaad0c3-5d0e-4d0f-b4c8-6ff3de4a6640",
                                                                                             "__collapse": true
                                                                                         },
-                                                                                        "id": "b8e7136a-a76a-4568-94c6-188fa0c4c932"
+                                                                                        "id": "32fd7fa5-8671-40fc-b804-03bbd1ccb546"
                                                                                     }
                                                                                 ],
                                                                                 "false": [
                                                                                     {
                                                                                         "command": "EVENT_IF_EXPRESSION",
                                                                                         "args": {
-                                                                                            "expression": "(($Temp1 % 5) == 4)",
+                                                                                            "expression": "(($T1$ % 5) == 4)",
                                                                                             "__collapseElse": false
                                                                                         },
                                                                                         "children": {
@@ -11006,47 +11021,32 @@
                                                                                                         "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
                                                                                                         "__collapse": true
                                                                                                     },
-                                                                                                    "id": "67367e1c-58e9-46d4-87a5-cf2e227c6c53"
+                                                                                                    "id": "44377578-e967-4dde-94d3-26cba9c33349"
                                                                                                 }
                                                                                             ],
                                                                                             "false": []
                                                                                         },
-                                                                                        "id": "a86494bf-56bf-4763-9b0e-c7d84f47cad1"
+                                                                                        "id": "3c931682-f8a9-48dc-aa49-634c331f4d6c"
                                                                                     }
                                                                                 ]
                                                                             },
-                                                                            "id": "a1dd427d-f391-4e85-b88d-0e02f869969a"
+                                                                            "id": "7e15f6dc-9ced-4200-bb19-32d594cde35e"
                                                                         }
                                                                     ]
                                                                 },
-                                                                "id": "9eccbae8-e6e1-4627-85e2-09edc1ae21b7"
+                                                                "id": "a88b4cf9-56ee-4b7e-9512-08935bc038bd"
                                                             }
                                                         ]
                                                     },
-                                                    "id": "d9d8a3ea-828a-496c-930c-164ab22dfeab"
+                                                    "id": "d13c8d90-156d-43bd-afdc-fb41fdb0fe81"
                                                 }
                                             ]
                                         },
-                                        "id": "d9d5c960-816f-4344-a8b2-f32e6f053a65"
-                                    },
-                                    {
-                                        "command": "EVENT_VARIABLE_MATH",
-                                        "args": {
-                                            "vectorX": "T1",
-                                            "operation": "set",
-                                            "other": "rnd",
-                                            "vectorY": "L0",
-                                            "value": "0",
-                                            "minValue": "0",
-                                            "maxValue": "32767",
-                                            "clamp": false,
-                                            "__collapse": true
-                                        },
-                                        "id": "d22df16d-3cc2-40e7-89ab-f6b2d8810288"
+                                        "id": "ea44c65f-abd6-41f7-8d0d-e2e1ccb209d5"
                                     }
                                 ]
                             },
-                            "id": "b1dfd1a4-0c71-4577-bb06-4bd5d2a0f9cd"
+                            "id": "2fec03f8-5400-46b2-99f9-c79fc93e3a72"
                         },
                         {
                             "command": "EVENT_WAIT",
@@ -59578,7 +59578,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            888,
             30
         ],
         "showNavigator": true,
