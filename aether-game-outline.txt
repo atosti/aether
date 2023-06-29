@@ -246,6 +246,7 @@ Simple things to Work On:
 207. Reorganize all of the misc dialogue into the chapters of the story they belong within
 208. Rework the Painting interactions to avoid using local variables
 209. Rework the King's dialogue to ensure it no longer uses local variables
+210. Create an emote for being horrified/terrified.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1118,31 +1119,31 @@ Concepts:
 17. "Workers yearning to build"
 18. Lightning starting fires at unprecedented rates.
 19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
-20. Deciding whether to slay or spare enemies after fighting them in a JRPG battle.
+20. Deciding whether to slay or spare enemies after fighting them in battle.
 	- Could have some characters ask for death. For honor, or because their armies are already decimated by you.
 	- Others could beg for life.
 	- Options could be "Converse" or "Kill" when interacting with them post battle.
 		~ Or "Slay" vs "Spare"
 21. The Jester and the King should have a goofy dynamic.
 	- "This is my funny little emotional support guy."
-22. How historians are unable to know of the intricate social details of people during their actual lives.
+22. Keep in mind how historians are unable to know of the intricate social details of people during their actual lives.
+	- Apply this to the history that you discover about the world around you. Vital details get left out. Pieces get misattributed and rearranged over time.
 23. "People become resistant to predation when they feel safe." (The opposite is also true.)
 	- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
 24. A "Check-in" system for periodically talking to your party members. Allows you to talk with them and learn more about who they are and their histories.
 	- Could occur manually in menus. Could occur auotmatically at savepoints?
 25. "There are no heroes. Everyone has a skeleton... or two."
 26. What if there were simulated "loading screens" of doors opening like in Resident evil for major zones?
-	- Could easily just destroy the pace and feel sluggish, but could be worth the experimentation.
-27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble they were before."
-28. Near the end of the game, you fight the spirit of the real Aylmera?
-	- Maybe that's too complicated. But being visited by the voice of, or visions of, Aylmera might be cool.
+	- Could easily just destroy the pace and feel sluggish, but could be worth experimentation.
+27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble they were prior."
+28. Comment from the Spirit of Aylmera
 	- "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?"
-29. Quotes from the Priestess on her God: "God comes to me in many forms. Sometimes as the wind, or as a voice. Rather, as many voices. Sometimes all at once."
+29. Quotes from the Priestess on her God: "God comes to me in many forms. Sometimes as the wind, other times as a voice. Rather, as many voices. Often all at once."
 	- "There are times when I hear nothing from him for days. And others where he talks nonstop for hours on end."
-	- "It's rare for him to hear me, but I'm content listening to him. He has so much to share. I'm privileged by his enlightenment."
+	- "It's rare for him to hear me, but I'm content listening to him. He has so much to share that I'm privileged by his enlightenment."
 30. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
 	- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
-31. "The `Great War`? Nothing great about it. A lot of pain, and even more bodies we had to bury. Didn't even have a chance to celebrate our meager victory."
+31. "The `Great War`? Nothing great about it. Just a lot of pain. And even more bodies we had to bury. Didn't even have a chance to celebrate our meager victory."
 32. When encountering Morcant, the undead Prince
 	- Prince: "To create... is to... consume..."
 		~ Alexandros recognizes this as a phrase that the Mad Wizard frequently spoke. He's horrified/perplexed why Morcant's remains know/speak it.
@@ -1159,10 +1160,10 @@ Concepts:
 		"He was crying while he did it. Tears of joy. Smiling and laughing to himself as he worked..."
 		*Alexandros sighs*
 		"I know few in the Realm would agree with me, but I often wonder to myself about the explosion."
-		"Knowing what energies would be released in that blast, he still chose to do it. He traded all thOse lives, even his own, for this outcome."
+		"Knowing what energies would be released in the blast, he still chose to do it. Trading all those lives, even his own, for this outcome."
 		"If he willingly killed all those soldiers... all of us wizards... maybe he saw something we didn't?"
 		"I can't say what other world would have instead awaited us. But who's to say it's a better one than this?"
-		"The Realm has had its fair share of cruel leaders..."
+		"After all, the Realm has had its fair share of cruel leaders..."
 34. Asking the Jester about his relationship with the King
 	- TBD. They are friends, he truly cares about the King.
 	[When'd you first meet the King?]
@@ -1212,22 +1213,22 @@ Concepts:
 	"I don't see the future all at once, God does not make me privy to such things."
 	"I often wonder if he even has such powers himself..."
 	"No, instead he offers me guidance. His voices tell me things, and each one shows a different path."
-	[Do they ever lie?]
-	Neera, laughing:
-	"Certainly, some are real tricksters. God has an incredible sense of humor."
-	"But I've learned to understand his humor, and know which of his voices are sincere."
-	[He speaks as different people?]
-	Neera:
-	"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
-	"Many times they speak all at once. I've trained myself to selectively listen, so as to hear the truth behind his words."
-	"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his keeper."
-	"The honeys he produces for me are bountiful. And they have yet to lead me astray."
-	[More than just bees live in such colonies.]
-	Neera, lightly rebuffed:
-	"You mean to imply he works as a wasp? Or perhaps a colony of... molerats?"
-	"Though you mean to besmirch his methods, I assure you they are sound."
-	"A hive knows the value of communal effort, and how to achieve collective goals."
-	"Perhaps this discussion is meant as something for *you* to ponder. Rather than the other way around..."
+	[Does he lie?]
+		Neera, laughing:
+			"Certainly, some of his voices are real tricksters. God has an incredible sense of humor."
+			"But I've learned to understand his humor, and know which of his voices are sincere."
+	[Multiple voices?]
+		Neera:
+			"Yes. He speaks to me with many different tongues. But all have his intentions behind them."
+			"Many times they speak all at once. I've trained myself to selectively listen, so as to hear the truth behind his words."
+			"A scholar once described it as a 'Hivemind' of sorts. If God is like a bee, then I am happily his keeper."
+			"The honeys he produces for me are bountiful. And they have yet to lead me astray."
+		Aylmera: "More than just bees live in such colonies."
+		Neera, lightly rebuffed:
+			"You mean to imply he works as a wasp? Or perhaps a colony of... molerats?"
+			"Though you mean to besmirch his methods, I assure you they are sound."
+			"A hive knows the value of communal effort, and how to achieve collective goals."
+			"Perhaps this discussion is meant as something for *you* to ponder. Rather than the other way around..."
 36. The player should walk past Old Scratch (ignoring him) after a while, but he still poses questions that (can) force a response from the player.
 	- Alternately, give the player the option to ignore him (repeatedly).
 	- Would love if I could animate him leaning and smoking.
@@ -1255,15 +1256,19 @@ Concepts:
 39. Generic line for an enemy:
 	"My tears couldn't wash away the guilt... but your blood might!"
 40. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
+	- This will only occur for those who learn of your undead nature. Most will have no clue.
+		~ Or those who recognize that 'Aylmera' can really only refer to the ancient hero.
 41. The player should wake up with coins on their eyes (as part of the ritual to revive them).
 42. More conversations with wizards about their leader:
-	Player: 	"Why did you follow a Mad Wizard?"
-	Sorcerer: 	"Why? Because of all that he knew, and all that he would bestow. The secrets we unlocked in that tower put any incantation you know of to shame."
-				"He might've been mad, but he gave us potential at worlds we could hardly imagine. I know the Crown had his doubts, but Ignacio truly envisioned a utopia for us all."
-	Player: 	"Yet no one kept him in check?"
-	Sorcerer:	"His skill was unrivaled. And we dared not interrupt his process when the fruits he provided were so bountiful."
-	Player: 	"You seem to still be enamored, despite the obvious casualties."
-	Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
+	Player: "Why did you follow the Mad Wizard's leadership?"
+	Wizard: "Why? Because of all that he knew, and all that he would bestow!"
+		"The secrets we unlocked in that tower put any incantation you know of to shame."
+		"He might've been mad, but he gave us potential at worlds we could hardly imagine."
+		"I know the Crown had his doubts, but Ignacio truly envisioned a utopia for us all."
+	Player: "Even so, no one kept him in check?"
+	Wizard: "His skill was unrivaled. And we dared not interrupt his process when the fruits he provided were so plentiful."
+	Player: "You seem to still be enamored by him, despite the obvious casualties."
+	Wizard: "The significance of such magicks can only be realized when witnessed firsthand."
 43. First encounter with Neera (Hivemind Priestess)
 	Neera: "Excuse me travelers, I'd like a word with you..."
 	*Neera approaches the player*
@@ -1331,43 +1336,63 @@ Concepts:
 	Neera: "Then it's settled, I shall accompany you from here on out."
 	* Neera, the hivemind cleric, has joined the party! *
 44. Conversation with soldiers from the War
-	Soldier: "No King can rule ashes. Even our enemies recognize that."
-	"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
-	"I personally slew dozens of my men before I was again safe inside our city's walls."
-	Player: "You were present at the explosion?"
+	Aylmera: "Why aren't you at war with the Royal Wizardy any more?"
+		"Don't you resent them for what they did to your Kingdom?"
+	Soldier: "No one can rule ashes. Even the wizards recognize that."
+		"The magic released from the explosion wasn't dormant."
+		"It immediately sought out anything that would contain it. Much like fire seeking fuel. "
+		"Living creatures became maniacal and possessed, while corpses rose from the dead, just as frenzied."
+		"I personally slew dozens of my own men before I was safe again inside our castle's walls."
+	Aylmera: "You were present at the explosion?"
 	Soldier: "Unfortunately. But I was fortunate enough to be outside the initial blast."
-	"Not a soul remains that hasn't seen horror. You'd be wise to remember that."
-45. General comment from Neera, the Hivemind cleric:
-	"I had to lose an eye before the hidden truths revealed themselves to me. How much do you think you'll have to lose before YOU see clearly?"
+		"Not a soul remains from that battle who hasn't witnessed the very definition of horror."
+		"You'd be wise to remember that."
+45. Threat from Neera (perhaps to enemies in the Monastery?):
+	Neera: "I had to lose an eye before the hidden truths revealed themselves to me."
+		"How much do you think you'll have to lose before YOU see clearly?"
 46. A medical priestess who patches you up partway through the game:
 	* Perhaps she is who mends you after her group rescues you from drowning in the river.
 	Nurse: "Warrior, you're awake!"
 	Aylmera: "Ugh, my head..." 
+	Nurse: "Sit still a moment while you collect yourself."
 	[Who are you?]
-		Nurse: "I'm a priestess. Medically trained. I healed your wounds. Some of the men found you by the riverbank and brought you in..."
+		Nurse: "I'm a priestess. Medically trained. I was tending to your wounds while you healed."
+		Nurse: "Some of the men found you by the riverbank and brought you in..."
 	[Where am I?]
 		Nurse: "Atro. A small village that runs along the river. Some men found you by the riverbank and brought you in..."
-	* Nurse pauses (...) *
+	Nurse: "You're lucky to even be alive. That armor you wear is some of the heaviest I've ever seen."
+		"I don't know how it didn't drag you to the bottom. You must have one hell of a Guardian Angel."
+	Nurse: *pauses (...)*
 	Nurse: "Look. I've never been one for deception, so I'll just be blunt."
-	Nurse: "Your body carries with it the scars of a thousand battles, and yet I've never seen flesh as youthful or resilient."
-		"I don't know where you're from, warrior, but you scare me. Just what are you...?"
-	Aylmera: "I'm undead."
-	* Nurse is alarmed (!) *
-	Nurse: "What?! Nonsense. You're no dessicated husk. I've seen the handiwork of many a necromancer before."
-	Nurse: "Nor are you ready to rip me limb from limb, so you're hardly Aetherial. No, you're indeed quite lucid."
-	Aylmera: "I speak no lies. A powerful wizard brought me back from the dead. I'm the hero Aylmera."
-	Nurse: "Oh my. Your injuries must have been more severe than I realized."
-		"Delusions like this are rare, though not unheard of. Let me see what medicines I have to treat you..."
-	Aylmera: "I assure you. I'm of sound mind. I was revived on the King's orders. I'm to assist him in saving the Realm."
-	Aylmera: "..."
-	Aylmera: "I might be the only one who can stop the undead horde."
+	Nurse: "Your body carries with it the scars of a thousand battles, and yet I've hardly seen flesh as youthful or resilient."
+		"At the same time, your breathing was labored, and at times you bled from your nose and mouth..."
+		"I don't mean to pry, warrior, because you scare me. But... just what are you?"
+	Aylmera: "I'm undead. Brought back to life through magick."
+	Nurse: "What?! But you're no dessicated husk. I've seen the handiwork of a necromancer before."
+	Nurse: "Nor are you eager to tear me apart like those cursed with Aether..."
+	Aylmera: "I speak no lies. The most powerful wizard alive brought me back from the dead."
+		"I'm the hero Aylmera."
+	* Nurse is alarmed/gasps (!) *
+	Nurse: "Oh my! Your injuries are more severe than I realized."
+		"Delusions like this can be a rare side effect of-"
+	Aylmera: "Miss!"
 	* Nurse pauses (...) *
-	Nurse: "Oh. Oh my... I don't know what to say. To think such a thing is even possible..."
-		"My grandfather once built a shrine to you. Said you were the last good thing to happen to the Realm."
+	Aylmera: "I assure you. I am of sound mind."
+		"I was revived on the King's orders."
+		"He asked for my assistance. I'm to save the Realm."
+	Aylmera: "I might be the only one who can stop the Aether horde."
+	Nurse: "Oh. Oh my... "
+		"I don't know what to say. To think such a thing is even possible..."
+		"You know, if you really are Aylmera, my ancestors once built a shrine to you."
+		"The legends say you were the last good thing to happen to the Realm."
+		"I fear such a thing may be true now more than ever..."
 		"If you really are who you say, then be wary of who you tell your story." 
-		"These lands are hardly friendly to the King, let alone wizards and their experiments."
-	Aylmera: "I'll keep it in mind. Thank you for healing me."
-	Nurse: "Do take things slow, hero. You've been out cold for a few days. Your success may depend on your patience."
+		"These lands are hardly friendly to the King, let alone wizards and their... experiments."
+	Aylmera: "I'll keep it in mind. "
+		"Thank you for healing me."
+	Nurse: "Do take things slow, hero."
+		"You've been out cold for a while."
+		"Your success may depend upon your patience."
 	* Aylmera gets out of bed. Player resumes control. *
 47. General note on the impact of the characters
 	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
