@@ -99,16 +99,6 @@ Simple things to Work On:
 	- Set it so the Wizard walks up to you and the Jester talking with the King (from the South.)
 		~ When engaging in dialogue with the King, have your character walk to a specific spot to facilitiate that all characters fit well in the scene.
 	- Have Alexandros walk up (from the South) into the scene alongside the Jester and Aylmera (after some short dialogue prior.)
-131. Ideas for music to Create
-	a. Title theme
-	b. A theme for each main character
-		- Outline the emotions of each character to better craft their themes.
-	c. Change the title theme to a minor key for a more somber tone
-	d. The battle theme could change instrument depending on which character you're playing as.
-		- See if you can change midfight.
-		- Alternately, just play a series of notes as a sound effect IN the instrument of the character being swapped in.
-132. Discover examples for different types of instruments
-	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
 133. Draw portrait avatars for each of the main antagonists.
 136. Add examine text to the book the man's reading in the West Hallway.
 139. Write examine text for the shield hung behind the King.
@@ -2570,6 +2560,8 @@ GB Studio:
 	https://mxashlynn.itch.io/fonts-for-gb-studio
 28. Sound Effects
 	https://benjaminno.itch.io/sweet-sounds-sfx-pack
+29. Guide for creating instruments
+	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
 
 Soundtrack:
 ============
@@ -2713,6 +2705,10 @@ XIV. Vivian's Battle Theme
 		~ Perhaps loud, bassy drums that HIT periodically (matching the quick strikes of the rest of the song)
 	- Just jump right into the song without much buildup at ALL.
 	- Try it in F Major (Furious).
-XV. 156. Farmland/Village ambience
+XV. Farmland/Village ambience
 	- Try the following beat for inspiration: 
 		https://soundcloud.com/grieves-official/man-down-feat-chris-webby
+XVI. Ideas for music to Create
+	- A theme for each main character
+		~ Alternately, just play a series of notes as a sound effect matching the instrument/theme of the character being swapped in.
+		~ Outline the emotions of each character to better craft their themes.
