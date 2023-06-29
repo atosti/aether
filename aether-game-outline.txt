@@ -1301,50 +1301,71 @@ Concepts:
 	Player: 	"You seem to still be enamored, despite the obvious casualties."
 	Sorcerer:	"The significance of such magick can only be realized when witnessed firsthand."
 43. First encounter with Neera (Hivemind Priestess)
-	Neera: "Excuse me traveler, I'd like a word with you..."
+	Neera: "Excuse me travelers, I'd like a word with you..."
 	*Neera approaches the player*
+	Neera: "My name is Neera. I'm a hivemind cleric."
 	Neera: "I've known of your arrival for some time now. And I was hoping to speak with you about your quest."
-	Aylmera: "I don't know what you're talking about. We're just passing through."
+	Aylmera: "I don't know what you're talking about. We're just passing through the area."
 	*Neera smiles*
 	Neera: "No need to be coy with me. He's told me everything I need to know about you."
-	Aylmera: "Huh? What's she on about, Jester? You know this woman?"
-	Jester: "I'm as confused as you. What are you talking about, priestess?"
+	Aylmera: "Huh? What's she on about, Jester? Do you know this woman?"
+	Jester: "No. I'm as confused as you. What are you talking about, priestess?"
 	Neera: "About the undead horde, and your plans to stop it."
 	*Aylmera is puzzled (?)*
-	Jester: "Damn bandits must've spread the word... Careful Aylmera, she might be one of their scouts!"
+	Jester: "Damn bandits must've spread the word... Careful, she could be one of their scouts."
 	Neera: "You would be wrong. It was God who told me of your arrival."
-	Aylmera: "Excuse me? *God* told you?"
-	Neera: "Yes. God speaks with me often, sharing his immeasurable wisdom. Though he takes many forms, sometimes all at once, his message is always clear."
+	Jester: *Laughing* "Excuse me? *God* told you?"
+	Neera: "Yes. God speaks with me often, sharing his immeasurable wisdom."
+		"Though he takes many forms, sometimes all at once, his message is always clear."
 	Jester:	"Let's get out of here. This woman is clearly unwell."
 	Player: [She's a lunatic.] [I believe her.]
 	*Neera smiles*
-	Neera: "I assure you I'm as lucid as you are. How else would I know your name to be Aylmera, and his Sigmund?"
-		"Or that you have a companion, Alexandros, who is responsible for your revival. And is awaiting you in the far North."
+	Neera: "I assure you I'm as lucid as the both of you, Aylmera. I speak only the truth."
+		"How else would I know your name? Or that of your companion. Right, Sigmund?"
+	Jester: *Is alarmed (!)*
+	Neera: "Or that you have a third companion, Alexandros, who's responsible for your revival. And awaits you to the far North."
 	Jester: "This must be some kind of trick. None of this proves you have foresight!"
-	*Neera sighs*
-	Neera: "He told me you would be difficult to persuade, Jester. Which is why he shared much of your history with me..."
+	*Neera sighs (bored/...)*
+	Neera: "The Lord told me you would be difficult to persuade, Jester. Which is why he shared details of your history with me."
 			"I was told of your devotion to the Crown. And of your friendship with the late Prince."
 			"Even of the promise you made to the King before marching on the Great Tower. The one he whispered in your ear..."
-	Jester: "I've heard enough. You needn't say more."
-	Neera: "How you'd bring his son home alive."
-	Jester: "I said ENOUGH, GOD DAMN IT! Have you no compassion?!"
-			"All that talk of GOD and yet you've nay an ounce of SOUL!"
+			"Shall I recite it for you?"
+	Jester: *Stunned, pausing (...)*
+	Jester: "I don't believe it... what kind of witchcraft is this?"
+	Neera: "'No matter the cost to our armies...'"
+	Jester: "Stop. That's enough!"
+	Neera: "'...bring my son home alive.'"
+	Jester: *Annoyed (!!)*
+	Jester: "Do you mean to mock me?!"
+	Jester: "I said ENOUGH, damn it! Have you no compassion?!"
+			"You speak of God, yet lack any ounce of soul!"
 	* Aylmera pauses (...)*
-	Aylmera: "Sounds like she's telling the truth, then."
-	Neera: "I must know something, Aylmera. Who do you think is fit to rule this Realm?"
+	Aylmera: "Sigmund..."
+	Aylmera: "Given your response... "
+		"It sounds like she's telling the truth."
+	Aylmera: "God or not, she knows more than she should."
+	Neera: "Indeed. And there's something more I wish to know, Aylmera."
+		"Who do you think is fit to rule this Realm?"
 	[The King.]
-		Neera: "We'll see if that resolve holds strong for the remainder of your journey."
+		Neera: "Hmmm. We'll see if that resolve holds for the remainder of our journey."
 	[I don't know.]
-		Priestess: "Well, you certainly ARE of this realm. It's unease permeates even your ancient being."
-	Neera: "I understand that my methods are... unusual to say the least."
-		"But I must insist on joining you two from here onward. Not only is it the will of God, but..."
-	* Neera frowns sorrowfully*
-	Neera: "In the visions bestowed upon me, I've seen you both die a thousand deaths. Long before your journey is complete."
-		"The only outcomes where anyone survives are when I am by your side."
+		Priestess: *Laughs*
+		Priestess: "Well, you might not have been born in this era, but you certainly belong to it."
+			"It's unease permeates even your ancient being."
+	Neera: *Pausing (...)*
+	Neera: "Listen. I understand that my methods are... unusual."
+		"And that my insistence on accompanying you may be off-putting, but..."
+	Neera: *Frowns sorrowfully*
+	Neera: "In the visions bestowed upon me, I've seen you die a thousand deaths. Both of you."
+		"Most occur long before your journey's completion'."
+		"Yet the only outcomes where anyone survives are when I am by your side."
 		"Take me with you, so that we may see your journey to its conclusion."
-	Aylmera: "Sounds like we've little choice in the matter. It's a pleasure to meet you... Miss?"
-	Neera: "Neera. I'm a Monastery priestess."
-	* Neera has joined the party! *
+		"So that we may save the Realm from total ruin."
+	Aylmera: "Sounds like we've little choice in the matter. Sigmund?"
+	Jester: "Despite my better judgement, I think she could prove useful to us."
+	Neera: *Smiles*
+	Neera: "Then it's settled, I shall accompany you from here on out."
+	* Neera, the hivemind cleric, has joined the party! *
 44. Conversation with soldiers from the War
 	Soldier: "No King can rule ashes. Even our enemies recognize that."
 	"The magic released from the explosion wasn't dormant, it immediately sought anything that could contain it, like fire seeking fuel. Living creatures became maniacal and possessed, while corpses rose from the dead. "
