@@ -45,18 +45,16 @@ Simple things to Work On:
 76. Begin drawing the Prince's undead form
 	- He can likely be a special enemy with a 32x32 sprite.
 	- Make him hulking and massive. I'd love for him to hold his weapon off to the side.
-		~ A la Saturos. Or even Pyramid head in some ways.
+		~ A la Saturos. Or even Pyramid head in some ways. Dragging it beside him.
 		~ It should seem a bit unwieldy and burdensome.
-	- He should just be a hulking knight with big armor.
+	- He should just be a hulking knight with big armor that he's bulging out of.
+		~ Ideally it should be half-shattered armor pieces.
 77. Draw an armor stand
 78. Draw a weapon stand with spears and swords
-81. Add a location with a full-scale cathedral.
-	- The castle should only have a tiny chapel instead.
 82. As the player and their party approaches the Aether Ruins toward the end of the game, Alexandros accidentally lets slip that he's never been inside.
 	- This causes the Jester to question what his "preparation for the realignment" (why he didn't immediately join you) really was.
-	- If pressed, Alexandros reveals that he believes the King is unfit to rule and can only bring about more ruin.
-		~ As such, he took the opportunity to coordinate a coup with some of the remaining wizards.
-		~ He urges the party to take his side and agree to dethrone the King once the realignment is complete.
+	- If pressed, Alexandros reveals that he wasn't a high enough rank wizard to ever enter the basement unaccompanied.
+		~ This is despite the fact that he was QUITE highly rank, AND is now the highest-ranking member left alive.
 84. Oubliette sprites needed
 	- Stacked books, from the floor
 	- Piles of scrolls on tabletops
@@ -69,11 +67,11 @@ Simple things to Work On:
 88. Design the music that plays during the intro (pre-awakening)
 	- Inspiration: https://www.youtube.com/watch?v=UEWCCSuHsuQ
 	- Incorporate ominous vibes and have the instruments fade in/out
-93. Create sprites to handle parrying and dodge rolling?
-	- Jumping?
+93. Create sprites to handle combat moves
+	- Horizontal sword swing, stabbing, overhead swing, blocking, and a parrying effect.
 99. Make a door sprite for a spiral staircase (a la Golden Sun)
 	- Can give the illusion of moving vertically in space between maps
-100. Created animated background tiles for lights in the castle.
+100. Create animated background tiles for lights in the castle.
 	- Wall sconces
 	- Wall torches
 	- Tiki-torch style standalone torches	
@@ -252,8 +250,8 @@ Simple things to Work On:
 	= If implemented, add times where the jester is too distraught to provide you jokes.
 199. Look into aligning dialogue and music so that characters can "sing" along to the musical tracks during parts of the narrative.
 201. Add more memories screens to fill out the remaining Memory entries
-	- Build it as 3 screens, with a quick fade in time triggered when going left/right.
-		~ Add a page flipping sound as well. Can always go back and rework it better later.
+	- Build it as X many screens, with a quick fade in time triggered when going left/right.
+		~ Add a page flipping sound as well.
 	- Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
 	- Potentially do Start = Page right -> and Select = Page left <-
 204. Rework the Jester's dialogue to better use variables/flags/temps.
