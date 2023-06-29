@@ -1,6 +1,5 @@
 Simple things to Work On:
 ==========================
-11. Design the full 12 tile sprites for the King.
 18. Design a landscape scene with panning and parallax
 	- Just do it as a proof of concept for now, then incorporate it into zone transitions later as the map is fleshed out.
 19. Draw a cutaway scene for a roaring fireplace.
@@ -51,10 +50,6 @@ Simple things to Work On:
 	- He should just be a hulking knight with big armor.
 77. Draw an armor stand
 78. Draw a weapon stand with spears and swords
-79. Have the Bandit leader (one-arm) reveal that the Prince was not as noble as initially we were led to believe.
-	- Though admirable and fearless, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
-	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have a force leftover to fight the undead.
-	- Therefore, many of them are joining forces with the bandits to attempt a rebellion.
 81. Add a location with a full-scale cathedral.
 	- The castle should only have a tiny chapel instead.
 82. As the player and their party approaches the Aether Ruins toward the end of the game, Alexandros accidentally lets slip that he's never been inside.
@@ -2353,6 +2348,10 @@ Concepts:
 	- High Priest: "Heretic. Your audacity betrays your madness. The divine would never let a woman bear his message."
 	- High Priest: "The monastery graciously exiled you from our ranks. I see now that was a mistake."
 	- High Priest: "We should have killed you."
+153. Vivian reveals that the Prince was not as noble as we were initially led to believe.
+	- Though admirable and fearless in battle, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
+	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have an army leftover to fight the undead.
+	- Therefore, many have sided with the Vivian and wish for a rebellion.
 
 Combat System Ideas:
 ====================
