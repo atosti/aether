@@ -1394,12 +1394,9 @@ Concepts:
 		"You've been out cold for a while."
 		"Your success may depend upon your patience."
 	* Aylmera gets out of bed. Player resumes control. *
-47. General note on the impact of the characters
+47. General note on the introspections of the main party
 	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
 		- As such, opportunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
-48. A scene where the player falls into deep water and has a dream/hallucination while unconscious.
-	- This should occur before the interaction with the Nurse Priestess.
-	- It should be an interaction with the Void. Where they check-in, and tease, and torment the player.
 49. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
 	- Based on Rufus from Twitter.
 	- Just a cute illustration of a happy pig.
