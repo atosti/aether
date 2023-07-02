@@ -2164,6 +2164,14 @@
                                             "__collapse": true
                                         },
                                         "id": "447e8aa8-5325-4d26-abde-540c1e8322d6"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "5",
+                                            "__collapse": true
+                                        },
+                                        "id": "dc52e912-dadf-4896-8206-654c6318f831"
                                     }
                                 ]
                             },
@@ -2235,6 +2243,14 @@
                                             "__collapse": true
                                         },
                                         "id": "f58e88d3-98e1-40ff-a702-09d7c7fe0ef2"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "5",
+                                            "__collapse": false
+                                        },
+                                        "id": "5f7a2f93-5df8-4236-96a9-a52432bc66c4"
                                     }
                                 ]
                             },
@@ -2512,6 +2528,14 @@
                                             "__collapse": true
                                         },
                                         "id": "18216d44-77a1-4ce8-a042-d6ee5051c79a"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "5",
+                                            "__collapse": true
+                                        },
+                                        "id": "58808913-2725-4313-b64c-9ace6698517f"
                                     }
                                 ]
                             },
@@ -3112,6 +3136,14 @@
                                                 "__collapse": true
                                             },
                                             "id": "00e78b84-bde3-4d51-be27-9fa888f68e96"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_TRUE",
+                                            "args": {
+                                                "variable": "5",
+                                                "__collapse": true
+                                            },
+                                            "id": "cf354e72-379e-4b33-94dd-d7b042d97b6e"
                                         },
                                         {
                                             "command": "EVENT_ADD_FLAGS",
@@ -3915,166 +3947,249 @@
                     "symbol": "actor_11",
                     "script": [
                         {
-                            "command": "EVENT_IF_TRUE",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "variable": "3",
-                                "__collapseElse": true
+                                "__label": "Viewed painting?"
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_IF_FALSE",
+                                        "command": "EVENT_IF_FLAGS_COMPARE",
                                         "args": {
-                                            "variable": "L1",
+                                            "variable": "7",
+                                            "flag": 3,
                                             "__collapseElse": false,
-                                            "__disableElse": false,
                                             "__collapse": false
                                         },
                                         "children": {
                                             "true": [
                                                 {
-                                                    "command": "EVENT_TEXT",
+                                                    "command": "EVENT_GROUP",
                                                     "args": {
-                                                        "text": [
-                                                            "I saw you admiring that painting of the\nGreat Tower. Beautiful, isn't it? Shame\nthat's the only way to see it now."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "1dba908a-ee48-44ae-8535-445e6d98c634"
-                                                },
-                                                {
-                                                    "command": "EVENT_CHOICE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "trueText": "Something happen?",
-                                                        "falseText": "Who painted it?",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "ca09c642-5dcd-45cf-b39e-770543db544b"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_TRUE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "__collapseElse": false,
+                                                        "__label": "Talked about painting?",
                                                         "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "command": "EVENT_IF_FLAGS_COMPARE",
                                                                 "args": {
-                                                                    "actorId": "$self$",
-                                                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "d1c41b0f-708e-44a6-a222-12be7e657097"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "That damned fool of a Mad Wizard went\nand blew it up is what happened. Took half\nthe Royal army along with him, too!",
-                                                                        "As if it wasn't enough to bury thousands\nof our own dead, we have to mourn the\ndeath of our culture at the same time!",
-                                                                        "People say I'M a fool for wanting peace,\nbut look at what war has wrought us!\nChaos and famine across the Realm!"
-                                                                    ],
-                                                                    "avatarId": "",
+                                                                    "variable": "7",
+                                                                    "flag": 4,
+                                                                    "__collapseElse": false,
                                                                     "__collapse": false
                                                                 },
-                                                                "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_ACTOR_EMOTE",
-                                                                "args": {
-                                                                    "actorId": "player",
-                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "02a51ac7-9ce5-45f1-b31b-9b02415b9fad"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "*Sigh* You want my advice? Put down the\nsword and pick up a hobby. Only the arts\nwill endure the cruelty of man."
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "*Sigh* You want my advice? Put down the\nsword and pick up a paintbrush.",
+                                                                                    "Only the arts have a chance at enduring\nthe infinite cruelty of man."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "1b50f5dc-2b6b-4a32-80c7-7218d08d7d3a"
+                                                                        }
                                                                     ],
-                                                                    "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_ADD_FLAGS",
+                                                                            "args": {
+                                                                                "variable": "7",
+                                                                                "flag1": false,
+                                                                                "flag2": false,
+                                                                                "flag3": false,
+                                                                                "flag4": false,
+                                                                                "flag5": true,
+                                                                                "flag6": false,
+                                                                                "flag7": false,
+                                                                                "flag8": false,
+                                                                                "flag9": false,
+                                                                                "flag10": false,
+                                                                                "flag11": false,
+                                                                                "flag12": false,
+                                                                                "flag13": false,
+                                                                                "flag14": false,
+                                                                                "flag15": false,
+                                                                                "flag16": false,
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "5f4c4f89-72c0-446f-968d-989065cba13d"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "I saw you admiring that painting of the\nGreat Tower. Beautiful, isn't it?",
+                                                                                    "A damn shame that's the only way to see\nit anymore..."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "1dba908a-ee48-44ae-8535-445e6d98c634"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_CHOICE",
+                                                                            "args": {
+                                                                                "variable": "T0",
+                                                                                "trueText": "What happened?",
+                                                                                "falseText": "Who painted it?",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "ca09c642-5dcd-45cf-b39e-770543db544b"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_IF_TRUE",
+                                                                            "args": {
+                                                                                "variable": "T0",
+                                                                                "__collapseElse": false,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true": [
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "id": "d1c41b0f-708e-44a6-a222-12be7e657097"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "What do you mean? That's a painting of\nthe Great Tower.",
+                                                                                                "It's the one that fool of a Mad Wizard\nwent and blew up.",
+                                                                                                "Took most of the Royal army along with\nhim, too!",
+                                                                                                "Like it wasn't enough we had to bury\nthousands of our own dead...",
+                                                                                                "Now we have to mourn the death of our\nculture at the same time!"
+                                                                                            ],
+                                                                                            "avatarId": "",
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "emoteId": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "9686dac2-7705-46c4-9fd1-1908f826cdd7"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "People say I'm a fool for wanting peace...",
+                                                                                                "But look at what war has wrought us!\nChaos and famine all across the Realm!"
+                                                                                            ],
+                                                                                            "avatarId": "",
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "id": "3c2570d7-cc06-4295-864a-09bb4975fcb4"
+                                                                                    }
+                                                                                ],
+                                                                                "false": [
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "That would be a fella by the name of\nGiovanni. Talented young man. Or, he was.",
+                                                                                                "Suppose he's a lot older now. Been some\ndecades since he painted it.",
+                                                                                                "He must've been... 19? Maybe 20? So\nincredibly gifted for his age.",
+                                                                                                "Rumor is he got a personal tour of the\nTower around the time he painted it.",
+                                                                                                "I can't imagine how gorgeous the interior\nmust have been!"
+                                                                                            ],
+                                                                                            "avatarId": "",
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "id": "8055c5ce-57c5-4047-827d-78c562e04dae"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                                                        "args": {
+                                                                                            "actorId": "$self$",
+                                                                                            "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "9024784a-d089-4541-be29-801644160dfb"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "Now all that's left of it is that single\npainting...",
+                                                                                                "A ghost of the past, reminding us about\nthe horrors of the present."
+                                                                                            ],
+                                                                                            "avatarId": "",
+                                                                                            "__collapse": false
+                                                                                        },
+                                                                                        "id": "dc7d4151-d0aa-488f-819e-137c83d90fab"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "id": "d1545085-d891-471e-84cf-38ffcc1ef496"
+                                                                        }
+                                                                    ]
                                                                 },
-                                                                "id": "1b50f5dc-2b6b-4a32-80c7-7218d08d7d3a"
-                                                            }
-                                                        ],
-                                                        "false": [
-                                                            {
-                                                                "command": "EVENT_TEXT",
-                                                                "args": {
-                                                                    "text": [
-                                                                        "That would be a fella by the name of\nGiovanni. Talented young man. Or..., he\nwas. Suppose he's a lot older now.",
-                                                                        "But at the time of painting that he must've\nbeen... 19? Maybe 20? Such an incredibly\ngifted painter, especially for his age.",
-                                                                        "Rumor has it that he got a personal tour\nof the Tower around the time he painted\nit. Wonder what he saw inside..."
-                                                                    ],
-                                                                    "avatarId": ""
-                                                                },
-                                                                "id": "8055c5ce-57c5-4047-827d-78c562e04dae"
+                                                                "id": "5e70f6b2-1763-4182-8a5e-b936ee8b1c30"
                                                             }
                                                         ]
                                                     },
-                                                    "id": "d1545085-d891-471e-84cf-38ffcc1ef496"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_TRUE",
-                                                    "args": {
-                                                        "variable": "L1",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "5cf40115-f0ca-4d08-aaba-111554fa5850"
+                                                    "id": "135474c1-f665-4fbc-b59e-e71199cab143"
                                                 }
                                             ],
                                             "false": [
                                                 {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "up"
+                                                        },
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "57764f0b-8093-4dd1-9376-db7ee3412284"
+                                                },
+                                                {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Don't let the other members of the court\ndiscourage you. Most are little more than\nbraggarts and bullies. "
+                                                            "*The man is trying to focus on the pages\nin his book, but seems distracted.*",
+                                                            "*He occasionally glances at the painting\non the wall before continuing to read.*"
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "",
+                                                        "__collapse": true
                                                     },
-                                                    "id": "3caa47dc-fefb-410d-8d30-327183c701a9"
+                                                    "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
                                                 }
                                             ]
                                         },
-                                        "id": "b191e7e9-fa1c-4284-bb2d-57956fd1e3ed"
-                                    }
-                                ],
-                                "false": [
+                                        "id": "34fd2a24-bbac-4782-bf33-0692b0f0898c"
+                                    },
                                     {
-                                        "command": "EVENT_TEXT",
+                                        "command": "EVENT_ACTOR_SET_DIRECTION",
                                         "args": {
-                                            "text": [
-                                                "Huh? Can't you see I'm busy reading? Quit\nbothering me! Can't get a moment to\nmyself these days...",
-                                                "*You notice the man briefly glance at the\npainting on the wall before returning to\nhis book.*"
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": false
+                                            "actorId": "$self$",
+                                            "direction": {
+                                                "type": "direction",
+                                                "value": "up"
+                                            },
+                                            "__collapse": true
                                         },
-                                        "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
+                                        "id": "8620fc88-c10c-4127-a06e-8a2138a80434"
                                     }
                                 ]
                             },
-                            "id": "27e6320b-5438-42e2-9924-461fcced6a7e"
-                        },
-                        {
-                            "command": "EVENT_ACTOR_SET_DIRECTION",
-                            "args": {
-                                "actorId": "$self$",
-                                "direction": {
-                                    "type": "direction",
-                                    "value": "up"
-                                },
-                                "__collapse": true
-                            },
-                            "id": "8620fc88-c10c-4127-a06e-8a2138a80434"
+                            "id": "25c19024-c3d1-4bb5-8a07-13fa95efb630"
                         }
                     ],
                     "startScript": [],
@@ -4366,12 +4481,39 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_SET_TRUE",
+                                        "command": "EVENT_GROUP",
                                         "args": {
-                                            "variable": "3",
-                                            "__collapse": true
+                                            "__label": "Viewed the painting"
                                         },
-                                        "id": "baf65e79-7cfc-45ab-b36b-642c27df2331"
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ADD_FLAGS",
+                                                    "args": {
+                                                        "variable": "7",
+                                                        "flag1": false,
+                                                        "flag2": false,
+                                                        "flag3": false,
+                                                        "flag4": true,
+                                                        "flag5": false,
+                                                        "flag6": false,
+                                                        "flag7": false,
+                                                        "flag8": false,
+                                                        "flag9": false,
+                                                        "flag10": false,
+                                                        "flag11": false,
+                                                        "flag12": false,
+                                                        "flag13": false,
+                                                        "flag14": false,
+                                                        "flag15": false,
+                                                        "flag16": false,
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "f031ca77-11d0-40ac-9d89-d731c03ed91c"
+                                                }
+                                            ]
+                                        },
+                                        "id": "9e071548-a6e0-4680-b1f5-b27de93e64ec"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -5206,7 +5348,7 @@
                                         "args": {
                                             "variable": "L3",
                                             "__collapseElse": false,
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -5468,12 +5610,15 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Alexandros sent word of his success,\nbut to see you with my own eyes...\nIt's truly a privilege, Aylmera.",
-                                                            "Regretably, I wish our paths could cross \nunder more favorable circumstances.\nYou see, my kingdom faces an ultimatum...",
-                                                            "My only heir is slain, my armies lie\ndecimated, and undead hordes encroach\nfrom the East every single day."
+                                                            "Alexandros sent word of his success,\nbut to see you with my own eyes...",
+                                                            "It's truly a privilege, Aylmera. Even the\nlegends don't do your presence justice.",
+                                                            "Regretably, I wish our paths could cross \nunder more favorable circumstances.",
+                                                            "You see, my kingdom lies at a crossroads.\nIndeed, I face many an ultimatum.",
+                                                            "My only heir is slain. My armies are\ndecimated. And now the undead horde...",
+                                                            "It encroaches from the East. Drawing\nnearer to the castle every day..."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "9838c632-8a6f-46f1-8b7f-7b2c57538fb3"
                                                 },
@@ -5481,8 +5626,8 @@
                                                     "command": "EVENT_ACTOR_EMOTE",
                                                     "args": {
                                                         "actorId": "$self$",
-                                                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
-                                                        "__collapse": true
+                                                        "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
+                                                        "__collapse": false
                                                     },
                                                     "id": "4c236c69-cb3f-4a77-9f6a-5bb00502619f"
                                                 },
@@ -5490,28 +5635,35 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Alas... I'm a man of few options. Which is\nwhy I've brought you back to save not\njust my Kingdom, but the whole Realm.",
-                                                            "Aylmera, I must humbly ask you to take up\narms as you did years ago. To join me,\nand fight again on behalf of the Realm."
+                                                            "Alas. I'm a man of few options. Hence\nwhy I've chosen to revive you.",
+                                                            "You served my royal bloodline decades \nago during a time of great rebellion.",
+                                                            "And though I fear our situation now is\neven more dire...",
+                                                            "I know that you are a Hero capable of\nrising to the occasion.",
+                                                            "I must ask for your assistance in \nstemming the threat of the undead.",
+                                                            "This is why I've brought you back.\nTo save not only my Kingdom...",
+                                                            "But to save the Realm itself.",
+                                                            "Aylmera, I must humbly ask you to take up\narms as you did many years ago.",
+                                                            "Join me. And fight once more on behalf of\nthis glorious Realm."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "4297328e-3f17-460d-b520-1a7e7d251bb4"
                                                 },
                                                 {
                                                     "command": "EVENT_CHOICE",
                                                     "args": {
-                                                        "variable": "L1",
+                                                        "variable": "T0",
                                                         "trueText": "I'd be honored.",
                                                         "falseText": "And if I refuse?",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "42292b46-db38-48e2-be84-ad7b55a56f7f"
                                                 },
                                                 {
                                                     "command": "EVENT_IF_TRUE",
                                                     "args": {
-                                                        "variable": "L1",
+                                                        "variable": "T0",
                                                         "__collapseElse": false,
                                                         "__collapse": false
                                                     },
@@ -5530,10 +5682,11 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "You impress me, Hero. I'm sure you'll \nmake a fine addition to our ranks. I'll send\nword to my men of your enthusiasm."
+                                                                        "You impress me, Hero. I'm sure you'll\nmake a fine addition to our ranks.",
+                                                                        "I'll send word to my soldiers of your\nenthusiasm!"
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "ea7764ed-de75-4a51-b6fa-72bc6fa78d1a"
                                                             }
@@ -5543,8 +5696,8 @@
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "$self$",
-                                                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-                                                                    "__collapse": true
+                                                                    "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "ad22f281-fa61-49c3-9124-6428266a7c7d"
                                                             },
@@ -5552,13 +5705,35 @@
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Then you'd be a fool and a traitor! My\nresources have long run thin. And my \npatience was the first thing to go...",
-                                                                        "Since you've woken from a hundred year\nslumber, I'll offer you a gentle reminder:\nMake *friends* before making enemies."
+                                                                        "Then you'd be a fool and a traitor.",
+                                                                        "My resources have long run thin. And my \npatience was the first thing to go..."
                                                                     ],
                                                                     "avatarId": "",
                                                                     "__collapse": false
                                                                 },
                                                                 "id": "9dff63a3-4bb3-433a-a908-843d465b7993"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "352b4212-fdb3-46c9-996b-9fb5c210d4cb"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Let me give you some advice my father\nshared with me while on his deathbed:",
+                                                                        "\"Make friends before making enemies.\"",
+                                                                        "You'd do well to remember that."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "b6608cdb-6a21-4c1c-9030-64b1a0bc3b99"
                                                             }
                                                         ]
                                                     },
@@ -5581,10 +5756,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "That's all I have for now. Seek the Jester\nin the War Room to the East. He'll have \ninstructions for your journey ahead."
+                                                "That's all I have for you. Seek the Jester\nin the War Room to the East.",
+                                                "He'll brief you on the details of your \ncoming journey."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "a80eac46-e166-4d72-9029-ebc500e37a45"
                                     }
@@ -6490,8 +6666,8 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "A strikingly large tower sits atop a hill.\nIt overlooks an expansive valley below.",
-                                        "The tower feels out of place, its presence\nsomber yet comforting."
+                                        "A strikingly large tower sits atop a cliff.\nIt overlooks an expansive valley below.",
+                                        "The tower feels out of place, its presence\nboth somber and comforting."
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -9103,10 +9279,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Excuse us?! Do you mind? We're having a\nconversation here!"
+                                                "Excuse us?! Do you mind stepping aside?\nWe're having a conversation here!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "21468944-8198-4dad-9bed-a25f9587c0d9"
                                     }
@@ -10311,6 +10487,14 @@
                                             "__collapse": true
                                         },
                                         "id": "bed66405-95ed-4d73-837e-63c25cff4197"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "5",
+                                            "__collapse": true
+                                        },
+                                        "id": "d370b4c9-b10d-4ec6-8709-c16ffe193cbb"
                                     }
                                 ],
                                 "false": []
@@ -11298,9 +11482,9 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Several notes are scattered across the\ntable's surface. One is set aside from theothers. Would you like to read it?"
+                                                "Notes are scattered across the\ntable's surface. One bears a unique \nwax seal. Would you like to read it?"
                                             ],
-                                            "avatarId": "",
+                                            "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
                                             "__collapse": false
                                         },
                                         "id": "86927d54-eb5f-4914-a5af-fe329722bbff"
@@ -11308,19 +11492,20 @@
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "trueText": "Yes.",
                                             "falseText": "No.",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "cf1307c0-7aed-467b-96e3-3d250f63943b"
                                     },
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "__collapseElse": true,
-                                            "__collapse": false
+                                            "__collapse": false,
+                                            "__disableElse": true
                                         },
                                         "children": {
                                             "true": [
@@ -11328,13 +11513,15 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "\"To his Majesty's Royal Council: The\nsituation at the frontline grows dire, as \nthe wizards refuse to surrender.",
-                                                            "Lacking the supplies to starve them out,\nwe've begun to consider immediate action\nto combat the tower's fortifications.",
-                                                            "Our interrogations revealed them to be\nremarkably loyal to their mad leader.\nThus, mutiny is an unlikely outcome.",
-                                                            "As such, we believe a direct assassination\nis our only chance of success. Eliminating\nthe Mad Wizard will force obedience.",
-                                                            "My soldiers and I stand ready for battle,\neagerly awaiting your commands. Victory\nbless the Crown. - Prince Morcant\""
+                                                            "\"To his Majesty: The situation at the \nfrontline grows dire, as  the wizards\nrefuse to surrender.",
+                                                            "Lacking the supplies to starve them \nout, we've begun considering \nimmediate action.",
+                                                            "Our interrogations revealed their \nranks to be remarkably loyal. Thus,\nmutiny is an unlikely outcome.",
+                                                            "As such, we believe a direct \nassassination is one of our only \nopportunities for success.",
+                                                            "Eliminating the Mad Wizard will\nplunge his followers into chaos, \nleading to possible surrender.",
+                                                            "My soldiers and I stand ready for \nbattle, eagerly awaiting your \ncommand.",
+                                                            "May victory bless the Crown.\n- Prince Morcant\"."
                                                         ],
-                                                        "avatarId": ""
+                                                        "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
                                                     },
                                                     "id": "9f864d23-8e01-4c8e-b0b6-4d316fbcd68b"
                                                 }
@@ -11394,7 +11581,7 @@
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "trueText": "Yes.",
                                             "falseText": "No.",
                                             "__collapse": true
@@ -11404,7 +11591,7 @@
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "__collapseElse": true,
                                             "__disableElse": true
                                         },
@@ -15520,17 +15707,17 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "A handwritten note lies on the shelf \nsimply titled, \"Morcant's Eulogy\". \nWould you like to read it?"
+                                                "A handwritten note lies on the shelf. \nIt's titled, \"Morcant's Eulogy\". \nWould you like to read it?"
                                             ],
                                             "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "id": "26c72497-7d6a-4c71-a078-3ea0750bdb62"
                                     },
                                     {
                                         "command": "EVENT_CHOICE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "trueText": "Yes.",
                                             "falseText": "No.",
                                             "__collapse": true
@@ -15540,9 +15727,10 @@
                                     {
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
-                                            "variable": "L0",
+                                            "variable": "T0",
                                             "__collapseElse": true,
-                                            "__disableElse": true
+                                            "__disableElse": true,
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -15566,6 +15754,38 @@
                                             "false": []
                                         },
                                         "id": "00a55d8a-0f38-4203-9e1e-46e09b0e5a68"
+                                    },
+                                    {
+                                        "command": "EVENT_ADD_FLAGS",
+                                        "args": {
+                                            "variable": "4",
+                                            "flag1": false,
+                                            "flag2": false,
+                                            "flag3": false,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": true,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false,
+                                            "__collapse": true
+                                        },
+                                        "id": "7edd2635-7550-4f69-9fc2-61e645c96323"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "5",
+                                            "__collapse": true
+                                        },
+                                        "id": "2dfe311c-53ad-4c81-8eed-16fb7f6a5c40"
                                     }
                                 ]
                             },
@@ -17662,6 +17882,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_SET_FALSE",
+                    "args": {
+                        "variable": "5",
+                        "__collapse": true
+                    },
+                    "id": "0f6168e1-5f85-4fff-bee1-c81499c94601"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Set Player to Default Position",
@@ -18878,7 +19106,7 @@
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Cursor Movement Scripts"
                     },
                     "children": {
@@ -57835,7 +58063,7 @@
                                                     "type": "variable",
                                                     "value": "4"
                                                 },
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "7d923492-a440-4147-84ab-2d591c01c4b6"
                                         },
@@ -58813,6 +59041,15 @@
                     "id": "0b9cee01-4d31-4d21-b85f-df6e052dd981"
                 }
             ]
+        },
+        {
+            "id": "7966f297-75c7-4608-84d8-a9f3bde494f2",
+            "name": "Update Memories",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_0",
+            "script": []
         }
     ],
     "music": [
@@ -59926,8 +60163,8 @@
         },
         {
             "id": "5",
-            "name": "PreviousMemories-p1",
-            "symbol": "var_previousmemories_p1"
+            "name": "NewMemories",
+            "symbol": "var_newmemories"
         },
         {
             "id": "6",
@@ -59948,11 +60185,6 @@
             "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L0",
             "name": "SpokenWith",
             "symbol": "var_spokenwith"
-        },
-        {
-            "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L1",
-            "name": "Response",
-            "symbol": "var_response"
         },
         {
             "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L0",
@@ -60050,11 +60282,6 @@
             "symbol": "var_local_6"
         },
         {
-            "id": "ee11834d-99ee-41ad-b491-aef40a94227e__L0",
-            "name": "LookedAtPainting",
-            "symbol": "var_lookedatpainting"
-        },
-        {
             "id": "d363c909-7882-417f-a488-06ccc9ee465e__L1",
             "name": "SpokenAboutPainting",
             "symbol": "var_spokenaboutpainting"
@@ -60130,9 +60357,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 241,
-        "worldScrollY": 231,
-        "zoom": 125,
+        "worldScrollX": 1789,
+        "worldScrollY": 575,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
