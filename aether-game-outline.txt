@@ -247,7 +247,6 @@ Simple things to Work On:
 208. Rework the Painting interactions to avoid using local variables
 209. Rework the King's dialogue to ensure it no longer uses local variables
 210. Create an emote for being horrified/terrified.
-212. Update memories Exclamation mark on entering the memories screen. Not on viewing in the menu.
 213. Adjust memories vertical movement to snap to location (rather than use default player movement)
 214. Add light chanting from the Oubliette wizards of "Arise... arise... arise..." to the introduction exchange.
 215. Rework the Quartermaster's dialogue to avoid locals and better encapsulate his personality.
