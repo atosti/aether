@@ -5344,199 +5344,74 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_IF_FALSE",
+                                        "command": "EVENT_GROUP",
                                         "args": {
-                                            "variable": "L3",
-                                            "__collapseElse": false,
-                                            "__collapse": true
+                                            "__label": "Spoken with King after meeting Jester?",
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
                                                 {
-                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                    "command": "EVENT_IF_FLAGS_COMPARE",
                                                     "args": {
-                                                        "customEventId": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
-                                                        "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
-                                                        "__collapse": true,
-                                                        "$variable[V0]$": {
-                                                            "type": "variable",
-                                                            "value": "T0"
-                                                        },
-                                                        "$variable[V1]$": {
-                                                            "type": "variable",
-                                                            "value": "T1"
-                                                        }
-                                                    },
-                                                    "id": "bf597aee-2c94-49d6-a1ea-93e9427d7a18"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Splendid! I'm glad to see you two are\nalready getting along well with one\nanother. ",
-                                                            "I've made arrangments for you to get\nsupplies from the castle's armory.\nBe sure to stop by before leaving.",
-                                                            "The two of you have a long, harsh\njourney ahead of you. But I have high\nfaith in your success."
-                                                        ],
-                                                        "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "286de3ff-1432-4a20-9777-bc6971883f77"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
-                                                        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "1aee459d-0bf1-47bb-b40f-3f6a69233a40"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "The *Two* of us? I thought the plan\nwas to have Alexandros join us on\nthe expedition."
-                                                        ],
-                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "49f5bba3-0ba5-4a0d-ac87-28b97b20e562"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Yes, about that. He's already gone\nahead of you two. Something about\npreparing for the realignment."
-                                                        ],
-                                                        "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "1829f3c9-466e-4c1f-99c2-3a82f0d11148"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "That wasn't our agreement, your\nMajesty. The plan was for a team of\nthree. It's difficult enough to-"
-                                                        ],
-                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "45156c0a-7077-4ea2-b75f-51a079e84ebc"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "3cab082b-3205-4b6c-a5c2-e4f7c9e2deb3"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Silence! The two of you will suffice\nfor the first part of the journey.",
-                                                            "Besides, Alexandros assured me of\nour new friend's talents.",
-                                                            "That is, if you're unable to trust in \nyour own capabilities, Jester."
-                                                        ],
-                                                        "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "142f20c0-0a1c-4f0a-80a1-b6b23226a571"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
-                                                        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "055d32ea-052d-4924-ba16-0f768e51f8bd"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "As you wish, your majesty..."
-                                                        ],
-                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "c7d3a61b-bb8a-4b41-82c6-15c74ac87aea"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Precisely. Alexandros will meet up \nwith the two of you at the abandoned\nsettlement once his work is done.",
-                                                            "Don't forget the importance of your\nmission. We are all reliant on your\nunwaivering victory."
-                                                        ],
-                                                        "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "ce116db1-6c69-41d0-855c-6d9d7052ffa2"
-                                                },
-                                                {
-                                                    "command": "EVENT_CHOICE",
-                                                    "args": {
-                                                        "variable": "L2",
-                                                        "trueText": "Absolutely.",
-                                                        "falseText": "No guarantees.",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "070adaf9-909e-4ee7-b2c4-54c9df3e54ad"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_TRUE",
-                                                    "args": {
-                                                        "variable": "L2",
-                                                        "__collapseElse": false,
-                                                        "__collapse": false
+                                                        "variable": "7",
+                                                        "flag": 6,
+                                                        "__collapseElse": false
                                                     },
                                                     "children": {
                                                         "true": [
                                                             {
-                                                                "command": "EVENT_ACTOR_EMOTE",
-                                                                "args": {
-                                                                    "actorId": "$self$",
-                                                                    "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "62706fb2-4407-441c-83fc-292432568d62"
-                                                            },
-                                                            {
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "May God guide you to victory,\nAylmera. Heaven knows we need it."
+                                                                        "Go, Aylmera. The fate of the Realm \ndepends upon your haste!"
                                                                     ],
-                                                                    "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135"
+                                                                    "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                                                    "__collapse": true
                                                                 },
-                                                                "id": "9ffb5ff1-27cd-4c12-9771-560ea1cd7da8"
+                                                                "id": "fa3f0eec-754c-4988-97d9-675f92b032a2"
                                                             }
                                                         ],
                                                         "false": [
                                                             {
+                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                "args": {
+                                                                    "customEventId": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
+                                                                    "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                                                    "__collapse": true,
+                                                                    "$variable[V0]$": {
+                                                                        "type": "variable",
+                                                                        "value": "T0"
+                                                                    },
+                                                                    "$variable[V1]$": {
+                                                                        "type": "variable",
+                                                                        "value": "T1"
+                                                                    }
+                                                                },
+                                                                "id": "bf597aee-2c94-49d6-a1ea-93e9427d7a18"
+                                                            },
+                                                            {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "$self$",
-                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                    "emoteId": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
                                                                     "__collapse": true
                                                                 },
-                                                                "id": "0404647d-9acc-45cd-8f77-75ea3a1ed8e7"
+                                                                "id": "ecfcb6a8-097b-4af2-a03c-b00263914253"
                                                             },
                                                             {
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Keep an eye on her, Sigmund..."
+                                                                        "Splendid! I'm glad to see you two are\nalready getting well acquainted.",
+                                                                        "I've arranged for you to spar with\nthe Quartermaster in the armory.",
+                                                                        "Only if you feel the need to refresh\nyour skills in battle, of course.",
+                                                                        "The two of you have a long, harsh\njourney ahead of yourselves."
                                                                     ],
                                                                     "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
                                                                     "__collapse": false
                                                                 },
-                                                                "id": "1bd04431-7138-43bd-88ec-c2f81a39fdf3"
+                                                                "id": "286de3ff-1432-4a20-9777-bc6971883f77"
                                                             },
                                                             {
                                                                 "command": "EVENT_ACTOR_EMOTE",
@@ -5545,224 +5420,435 @@
                                                                     "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
                                                                     "__collapse": true
                                                                 },
-                                                                "id": "84f78793-9437-4dcf-8c3d-feb2650909ce"
-                                                            }
-                                                        ]
-                                                    },
-                                                    "id": "d745e909-ace6-4f24-9c69-17519901aa43"
-                                                },
-                                                {
-                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                                                    "args": {
-                                                        "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
-                                                        "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "75648b34-4785-40f9-be56-083d11e88877"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_TRUE",
-                                                    "args": {
-                                                        "variable": "L3",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "e434107a-30c3-4559-a26f-05ef9e10a594"
-                                                }
-                                            ],
-                                            "false": [
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Go, Aylmera. The fate of the Realm \ndepends upon your haste!"
-                                                        ],
-                                                        "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "9e3c8bfe-ad4f-4e24-999b-cf77407ae57d"
-                                                }
-                                            ]
-                                        },
-                                        "id": "673ed8fc-d705-4ab0-ad2f-8ec8f923584d"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_IF_FALSE",
-                                        "args": {
-                                            "variable": "L0",
-                                            "__collapseElse": true,
-                                            "__disableElse": true,
-                                            "__collapse": false
-                                        },
-                                        "children": {
-                                            "true": [
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "72e03b36-4fa0-403d-b00c-fe38739ce9a1"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Alexandros sent word of his success,\nbut to see you with my own eyes...",
-                                                            "It's truly a privilege, Aylmera. Even the\nlegends don't do your presence justice.",
-                                                            "Regretably, I wish our paths could cross \nunder more favorable circumstances.",
-                                                            "You see, my kingdom lies at a crossroads.\nIndeed, I face many an ultimatum.",
-                                                            "My only heir is slain. My armies are\ndecimated. And now the undead horde...",
-                                                            "It encroaches from the East. Drawing\nnearer to the castle every day..."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "9838c632-8a6f-46f1-8b7f-7b2c57538fb3"
-                                                },
-                                                {
-                                                    "command": "EVENT_ACTOR_EMOTE",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "4c236c69-cb3f-4a77-9f6a-5bb00502619f"
-                                                },
-                                                {
-                                                    "command": "EVENT_TEXT",
-                                                    "args": {
-                                                        "text": [
-                                                            "Alas. I'm a man of few options. Hence\nwhy I've chosen to revive you.",
-                                                            "You served my royal bloodline decades \nago during a time of great rebellion.",
-                                                            "And though I fear our situation now is\neven more dire...",
-                                                            "I know that you are a Hero capable of\nrising to the occasion.",
-                                                            "I must ask for your assistance in \nstemming the threat of the undead.",
-                                                            "This is why I've brought you back.\nTo save not only my Kingdom...",
-                                                            "But to save the Realm itself.",
-                                                            "Aylmera, I must humbly ask you to take up\narms as you did many years ago.",
-                                                            "Join me. And fight once more on behalf of\nthis glorious Realm."
-                                                        ],
-                                                        "avatarId": "",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "4297328e-3f17-460d-b520-1a7e7d251bb4"
-                                                },
-                                                {
-                                                    "command": "EVENT_CHOICE",
-                                                    "args": {
-                                                        "variable": "T0",
-                                                        "trueText": "I'd be honored.",
-                                                        "falseText": "And if I refuse?",
-                                                        "__collapse": false
-                                                    },
-                                                    "id": "42292b46-db38-48e2-be84-ad7b55a56f7f"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_TRUE",
-                                                    "args": {
-                                                        "variable": "T0",
-                                                        "__collapseElse": false,
-                                                        "__collapse": false
-                                                    },
-                                                    "children": {
-                                                        "true": [
-                                                            {
-                                                                "command": "EVENT_ACTOR_EMOTE",
-                                                                "args": {
-                                                                    "actorId": "$self$",
-                                                                    "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "da87de20-4a78-4589-b0c3-f5d0802aeac5"
+                                                                "id": "0fa1ff9c-f92d-40cc-9dfb-836a94a9ca51"
                                                             },
                                                             {
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "You impress me, Hero. I'm sure you'll\nmake a fine addition to our ranks.",
-                                                                        "I'll send word to my soldiers of your\nenthusiasm!"
+                                                                        "The two of us? My King, I thought we\nhad discussed a party of three.",
+                                                                        "Alexandros's expertise is necessary\nfor us to restore the elements."
                                                                     ],
-                                                                    "avatarId": "",
+                                                                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                                     "__collapse": false
                                                                 },
-                                                                "id": "ea7764ed-de75-4a51-b6fa-72bc6fa78d1a"
-                                                            }
-                                                        ],
-                                                        "false": [
+                                                                "id": "dcae0010-8f68-40b0-a050-f27b0e828f8f"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Indeed his skill will be vital, which is\nwhy he remains part of the plan.",
+                                                                        "I've simply sent him ahead of you\ntwo. To the lands in the North.",
+                                                                        "He'll procure an elemental stone\noverseen by Lord Velazquez."
+                                                                    ],
+                                                                    "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "1829f3c9-466e-4c1f-99c2-3a82f0d11148"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                                                    "emoteId": "9c889f80-d9e5-4795-8508-574ca67eca6d",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "1aee459d-0bf1-47bb-b40f-3f6a69233a40"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Your Majesty! Certainly you see the \nrisk in such an endeavor...",
+                                                                        "Sending Alexandros alone is unwise,\nHis Lordship has a reputation for-"
+                                                                    ],
+                                                                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "45156c0a-7077-4ea2-b75f-51a079e84ebc"
+                                                            },
                                                             {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "$self$",
                                                                     "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
-                                                                    "__collapse": false
+                                                                    "__collapse": true
                                                                 },
-                                                                "id": "ad22f281-fa61-49c3-9124-6428266a7c7d"
+                                                                "id": "3cab082b-3205-4b6c-a5c2-e4f7c9e2deb3"
                                                             },
                                                             {
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Then you'd be a fool and a traitor.",
-                                                                        "My resources have long run thin. And my \npatience was the first thing to go..."
+                                                                        "Silence! The two of you will suffice\nfor the first leg of the journey.",
+                                                                        "As for your concerns about safety, \nSigmund, I took them to heart.",
+                                                                        "Which is why I didn't send Alexandros\nalone...",
+                                                                        "He's accompanied by 3 members of\nthe Royal Guard. Elite soldiers.",
+                                                                        "Besides, I'm confident in Velazquez's\ncontinued loyalty to the Kingdom.",
+                                                                        "That and Alexandros assured me of\nour new Hero's talents.",
+                                                                        "You should have no issues acquiringthe first stone by yourselves.",
+                                                                        "That is, unless you're unable to trust\nin your own capabilities, Jester."
                                                                     ],
-                                                                    "avatarId": "",
+                                                                    "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
                                                                     "__collapse": false
                                                                 },
-                                                                "id": "9dff63a3-4bb3-433a-a908-843d465b7993"
+                                                                "id": "142f20c0-0a1c-4f0a-80a1-b6b23226a571"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                                                    "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "055d32ea-052d-4924-ba16-0f768e51f8bd"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Understood, your majesty...",
+                                                                        "We'll rendezvous with Alexandros\nat Lord Velazquez's keep later on."
+                                                                    ],
+                                                                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "c7d3a61b-bb8a-4b41-82c6-15c74ac87aea"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Precisely. Once rejoined, you can\nlocate the remaining 2 stones.",
+                                                                        "Don't forget the importance of your\nmission.",
+                                                                        "We're all reliant on your unwaivering\nvictory."
+                                                                    ],
+                                                                    "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "ce116db1-6c69-41d0-855c-6d9d7052ffa2"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_CHOICE",
+                                                                "args": {
+                                                                    "variable": "T0",
+                                                                    "trueText": "Absolutely.",
+                                                                    "falseText": "No guarantees.",
+                                                                    "__collapse": false
+                                                                },
+                                                                "id": "070adaf9-909e-4ee7-b2c4-54c9df3e54ad"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "T0",
+                                                                    "__collapseElse": false,
+                                                                    "__collapse": false
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "62706fb2-4407-441c-83fc-292432568d62"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "May God guide you to victory,\nAylmera. Heaven knows we need it..."
+                                                                                ],
+                                                                                "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "9ffb5ff1-27cd-4c12-9771-560ea1cd7da8"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "0404647d-9acc-45cd-8f77-75ea3a1ed8e7"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "Keep an eye on her, Sigmund..."
+                                                                                ],
+                                                                                "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "1bd04431-7138-43bd-88ec-c2f81a39fdf3"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                                                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "84f78793-9437-4dcf-8c3d-feb2650909ce"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "d745e909-ace6-4f24-9c69-17519901aa43"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                "args": {
+                                                                    "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
+                                                                    "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "75648b34-4785-40f9-be56-083d11e88877"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ADD_FLAGS",
+                                                                "args": {
+                                                                    "variable": "7",
+                                                                    "flag1": false,
+                                                                    "flag2": false,
+                                                                    "flag3": false,
+                                                                    "flag4": false,
+                                                                    "flag5": false,
+                                                                    "flag6": false,
+                                                                    "flag7": true,
+                                                                    "flag8": false,
+                                                                    "flag9": false,
+                                                                    "flag10": false,
+                                                                    "flag11": false,
+                                                                    "flag12": false,
+                                                                    "flag13": false,
+                                                                    "flag14": false,
+                                                                    "flag15": false,
+                                                                    "flag16": false,
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "0e92c680-e55f-4d8d-8359-07c10632ce90"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "5f82c0f2-ed88-446d-8890-224177a9dfd3"
+                                                }
+                                            ]
+                                        },
+                                        "id": "65733fee-fa2a-4470-8f22-cee83ee76202"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Spoken with the King Solo?",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_IF_FLAGS_COMPARE",
+                                                    "args": {
+                                                        "variable": "7",
+                                                        "flag": 5,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [],
+                                                        "false": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "72e03b36-4fa0-403d-b00c-fe38739ce9a1"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_TEXT",
+                                                                "args": {
+                                                                    "text": [
+                                                                        "Alexandros sent word of his success,\nbut to see you with my own eyes...",
+                                                                        "It's truly a privilege, Aylmera. Even the\nlegends don't do your presence justice.",
+                                                                        "Regretably, I wish our paths could cross \nunder more favorable circumstances.",
+                                                                        "You see, my kingdom lies at a crossroads.\nIndeed, I face many an ultimatum.",
+                                                                        "My only heir is slain. My armies are\ndecimated. And now the undead horde...",
+                                                                        "It encroaches from the East. Drawing\nnearer to the castle every day..."
+                                                                    ],
+                                                                    "avatarId": "",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "9838c632-8a6f-46f1-8b7f-7b2c57538fb3"
                                                             },
                                                             {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "$self$",
-                                                                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                    "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
                                                                     "__collapse": true
                                                                 },
-                                                                "id": "352b4212-fdb3-46c9-996b-9fb5c210d4cb"
+                                                                "id": "4c236c69-cb3f-4a77-9f6a-5bb00502619f"
                                                             },
                                                             {
                                                                 "command": "EVENT_TEXT",
                                                                 "args": {
                                                                     "text": [
-                                                                        "Let me give you some advice my father\nshared with me while on his deathbed:",
-                                                                        "\"Make friends before making enemies.\"",
-                                                                        "You'd do well to remember that."
+                                                                        "Alas. I'm a man of few options. Hence\nwhy I've chosen to revive you.",
+                                                                        "You served my royal bloodline decades \nago during a time of great rebellion.",
+                                                                        "And though I fear our situation now is\neven more dire...",
+                                                                        "I know that you are a Hero capable of\nrising to the occasion.",
+                                                                        "I must ask for your assistance in \nstemming the threat of the undead.",
+                                                                        "This is why I've brought you back.\nTo save not only my Kingdom...",
+                                                                        "But to save the Realm itself.",
+                                                                        "Aylmera, I must humbly ask you to take up\narms as you did many years ago.",
+                                                                        "Join me. And fight once more on behalf of\nthis glorious Realm."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": false
+                                                                    "__collapse": true
                                                                 },
-                                                                "id": "b6608cdb-6a21-4c1c-9030-64b1a0bc3b99"
+                                                                "id": "4297328e-3f17-460d-b520-1a7e7d251bb4"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_CHOICE",
+                                                                "args": {
+                                                                    "variable": "T0",
+                                                                    "trueText": "I'd be honored.",
+                                                                    "falseText": "And if I refuse?",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "42292b46-db38-48e2-be84-ad7b55a56f7f"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_IF_TRUE",
+                                                                "args": {
+                                                                    "variable": "T0",
+                                                                    "__collapseElse": false,
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "da87de20-4a78-4589-b0c3-f5d0802aeac5"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "You impress me, Hero. I'm sure you'll\nmake a fine addition to our ranks.",
+                                                                                    "I'll send word to my soldiers of your\nenthusiasm!"
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "ea7764ed-de75-4a51-b6fa-72bc6fa78d1a"
+                                                                        }
+                                                                    ],
+                                                                    "false": [
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "ad22f281-fa61-49c3-9124-6428266a7c7d"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "Then you'd be a fool and a traitor.",
+                                                                                    "My resources have long run thin. And my \npatience was the first thing to go..."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "9dff63a3-4bb3-433a-a908-843d465b7993"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_ACTOR_EMOTE",
+                                                                            "args": {
+                                                                                "actorId": "$self$",
+                                                                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                                                                "__collapse": true
+                                                                            },
+                                                                            "id": "352b4212-fdb3-46c9-996b-9fb5c210d4cb"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_TEXT",
+                                                                            "args": {
+                                                                                "text": [
+                                                                                    "Let me give you some advice my father\nshared with me while on his deathbed:",
+                                                                                    "\"Make friends before making enemies.\"",
+                                                                                    "You'd do well to remember that."
+                                                                                ],
+                                                                                "avatarId": "",
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "b6608cdb-6a21-4c1c-9030-64b1a0bc3b99"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "id": "2be8daaf-7256-4e94-9480-72e55adf8ae2"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ADD_FLAGS",
+                                                                "args": {
+                                                                    "variable": "7",
+                                                                    "flag1": false,
+                                                                    "flag2": false,
+                                                                    "flag3": false,
+                                                                    "flag4": false,
+                                                                    "flag5": false,
+                                                                    "flag6": true,
+                                                                    "flag7": false,
+                                                                    "flag8": false,
+                                                                    "flag9": false,
+                                                                    "flag10": false,
+                                                                    "flag11": false,
+                                                                    "flag12": false,
+                                                                    "flag13": false,
+                                                                    "flag14": false,
+                                                                    "flag15": false,
+                                                                    "flag16": false,
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "b990bb16-85c3-4dab-8242-328d03989654"
                                                             }
                                                         ]
                                                     },
-                                                    "id": "2be8daaf-7256-4e94-9480-72e55adf8ae2"
+                                                    "id": "1623bf78-8f06-4f40-89a1-06f6f64b63ed"
                                                 },
                                                 {
-                                                    "command": "EVENT_SET_TRUE",
+                                                    "command": "EVENT_TEXT",
                                                     "args": {
-                                                        "variable": "L0",
+                                                        "text": [
+                                                            "That's all I have for you. Seek the Jester\nin the War Room to the East.",
+                                                            "He'll brief you on the details of your \ncoming journey."
+                                                        ],
+                                                        "avatarId": "",
                                                         "__collapse": true
                                                     },
-                                                    "id": "01ac1044-c797-452c-bac4-354d7f0b9172"
+                                                    "id": "a80eac46-e166-4d72-9029-ebc500e37a45"
                                                 }
-                                            ],
-                                            "false": []
+                                            ]
                                         },
-                                        "id": "201e3cef-6289-4f22-aeff-e8453795871c"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "That's all I have for you. Seek the Jester\nin the War Room to the East.",
-                                                "He'll brief you on the details of your \ncoming journey."
-                                            ],
-                                            "avatarId": "",
-                                            "__collapse": false
-                                        },
-                                        "id": "a80eac46-e166-4d72-9029-ebc500e37a45"
+                                        "id": "ca6cb0b9-28ae-42fb-8517-764067405eb7"
                                     }
                                 ]
                             },
@@ -11518,7 +11604,7 @@
                                                             "Our interrogations revealed their \nranks to be remarkably loyal. Thus,\nmutiny is an unlikely outcome.",
                                                             "As such, we believe a direct \nassassination is one of our only \nopportunities for success.",
                                                             "Eliminating the Mad Wizard will\nplunge his followers into chaos, \nleading to possible surrender.",
-                                                            "My soldiers and I stand ready for \nbattle, eagerly awaiting your \ncommands.",
+                                                            "My soldiers and I stand ready for \nbattle, eagerly awaiting your \ncommand.",
                                                             "May victory bless the Crown.\n- Prince Morcant\"."
                                                         ],
                                                         "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
@@ -60103,6 +60189,14 @@
             "filename": "smile.png"
         },
         {
+            "id": "9c889f80-d9e5-4795-8508-574ca67eca6d",
+            "name": "surprised",
+            "symbol": "emote_surprised",
+            "width": 16,
+            "height": 16,
+            "filename": "surprised.png"
+        },
+        {
             "id": "3c769dca-51f3-426c-942f-71c4d3af6202",
             "name": "sweat",
             "symbol": "emote_sweat",
@@ -60182,11 +60276,6 @@
             "symbol": "var_local_1"
         },
         {
-            "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L0",
-            "name": "SpokenWith",
-            "symbol": "var_spokenwith"
-        },
-        {
             "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L0",
             "name": "Pet",
             "symbol": "var_pet"
@@ -60245,16 +60334,6 @@
             "id": "7214118e-17e7-426b-a213-c6c5266bf74e__L0",
             "name": "Local 0",
             "symbol": "var_local_4"
-        },
-        {
-            "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L2",
-            "name": "Response2",
-            "symbol": "var_response2"
-        },
-        {
-            "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182__L3",
-            "name": "SpokenWith2",
-            "symbol": "var_spokenwith2"
         },
         {
             "id": "94ebeb0f-db97-4fbd-be91-7059aa564bec__L0",
@@ -60357,8 +60436,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1789,
-        "worldScrollY": 575,
+        "worldScrollX": 874,
+        "worldScrollY": 360,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,

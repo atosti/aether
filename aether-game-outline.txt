@@ -251,14 +251,6 @@ Simple things to Work On:
 213. Adjust memories vertical movement to snap to location (rather than use default player movement)
 214. Add light chanting from the Oubliette wizards of "Arise... arise... arise..." to the introduction exchange.
 215. Rework the Quartermaster's dialogue to avoid locals and better encapsulate his personality.
-216. Rework the King's dialogue for returning to him with the Jester
-	- Remove all local variables
-	- Add castle interaction flags if necessary
-	- Make the King and the Jester more personable to one another
-	- Perhaps change it so that the Jester isn't 'betrayed' by the King's change of plans.
-		~ Could just have him confirm the plan, which is that Alexandros is going ahead.
-		~ And the Jester could push back a bit, hinting that it's unsafe for Alexandros (for some unspecified reason, which is that His Lordship hates wizards.)
-217. Also remove Local variables from the King's initial dialogue as well
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -272,6 +264,8 @@ Interaction Flags Master List:
 	- Flag 3 = Talking to the War Room General
 	- Flag 4 = Viewed the painting of the Great Tower
 	- Flag 5 = Spoken with noble about the painting
+	- Flag 6 = Conversed with the King while solo
+	- Flag 7 = Conversed with the King with the Jester
 
 Key Items Master List:
 =======================
