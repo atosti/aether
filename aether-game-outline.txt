@@ -2350,6 +2350,22 @@ Concepts:
 	- Though admirable and fearless in battle, he forced many of his men to rush the Great Tower (recklessly) with threat of death to deserters.
 	- As a result, many of the soldiers blame him and his foolishness for the Realm's inability to have an army leftover to fight the undead.
 	- Therefore, many have sided with the Vivian and wish for a rebellion.
+154. Laments of a simple farmer
+	- Farmer: "This village has been on the verge of famine for a few years now."
+	- Farmer: "We've barely enough grain to survive the cold season. And any excess we produce gets shipped away."
+	- Farmer: "First it was by the Royal soldiers, insisting we donate our grain to 'assist the war effort'."
+	- Farmer: "That lasted a few years. But feeding such a massive army starved our soil of sustenance."
+	- Farmer: "Then, after the war failed, the army retreated into their castle, rarely venturing outside."
+	- Farmer: "Guess we owe the undead for a few months of relative peace."
+	- Farmer: *Nods in thought*
+	- Farmer: "But once it was time to harvest, remnants of that same army descended on the fields. 
+	- Farmer: *Chuckles to himself, sadly*
+	- Farmer: "Now raiding us under a brand new banner: banditry."
+	- Farmer: "This time, they tell us it's in the name of 'revolution'. Nothing revolutionary about theft."
+	- Farmer: "Damn fools can't even see the land is ruined. The crops grow shriveled and bitter."
+	- Farmer: "Most the folks 'round here won't make it past winter..."
+	- Farmer: "And the bandits won't make it much longer after that."
+	- Farmer: "Maybe we should salt the earth. Perhaps then they'd understand their predicament..."
 
 Combat System Ideas:
 ====================
