@@ -258,6 +258,7 @@ Simple things to Work On:
 	- Seems very difficult to convey.
 218. Design more entries for books/volumes/histories/records, etc.
 	- Need more written works to fill out the world.
+219. Rework the examine text for the coffin in the Oubliette.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1123,6 +1124,9 @@ Max line length is 39 characters.
 		Soldier: "Unfortunately. But I was fortunate enough to be outside the initial blast."
 			"Not a soul remains from that battle who hasn't witnessed the very definition of horror."
 			"You'd be wise to remember that."
+	c. The player should wake up with coins on their eyes 
+		- As part of the ritual to revive them.
+
 2. Farmlands
 3. Village
 	a. "For some, hope is the only form of survival."
@@ -1151,6 +1155,11 @@ Max line length is 39 characters.
 	a. "Never engage in a fair fight."
 	b. Have an option to kill the wounded as you leave the Lord's castle.
 		- Just straight up the option to do warcrimes despite the medics pleading for you not to.
+	c. The Lord discussing his doubts about the King
+		"He tries to maintain control of the entire Realm. But at his age..."
+		"I wonder if he even controls his own bowels."
+		"Following such a man can only bring disaster."
+		"Not just to my keep, but to all the peasantry it serves."
 12. The Dungeon
 13. Eastern Lordship's Lands
 14. Monastery
@@ -1175,16 +1184,23 @@ Max line length is 39 characters.
 			"What do you think, Aylmera?"
 		[Execute him.]
 		[Slice tongue.]
+	d. Bard: "Lotta blood flows in your wake."
+		"'Course that makes it safer to travel behind you..."
 18. Ramparts
 19. Aether Ruins
 	a. When encountering Morcant, the undead Prince
 		Prince: "To create... is to... consume..."
 			~ Alexandros recognizes this as a phrase that the Mad Wizard frequently spoke. He's horrified/perplexed why Morcant's remains know/speak it.
 			~ It's likely one of the last phrases uttered by the Mad Wizard before his inevitable demise.
-20. Aether Wasteland
-21. The Garrison
-22. Royal Cemetary
-23. Ruined Royal Castle
+20. Great Tower Basement
+	a. Comment from the Spirit of Aylmera
+		"You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?"
+	b. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
+		- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
+21. Aether Wasteland
+22. The Garrison
+23. Royal Cemetary
+24. Ruined Royal Castle
 
 Concepts:
 ==========
@@ -1228,13 +1244,9 @@ Concepts:
 26. What if there were simulated "loading screens" of doors opening like in Resident evil for major zones?
 	- Could easily just destroy the pace and feel sluggish, but could be worth experimentation.
 27. "When starving, everyone will fight over the crumbs. No matter how meek or feeble they were prior."
-28. Comment from the Spirit of Aylmera
-	- "You wear my armor and wield my sword, yet you are not me." "Do you wish to mock me?"
 29. Quotes from the Priestess on her God: "God comes to me in many forms. Sometimes as the wind, other times as a voice. Rather, as many voices. Often all at once."
 	- "There are times when I hear nothing from him for days. And others where he talks nonstop for hours on end."
 	- "It's rare for him to hear me, but I'm content listening to him. He has so much to share that I'm privileged by his enlightenment."
-30. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
-	- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
 33. Asking Alexandros why he served the Mad Wizard if the Mad Wizard was such a chaotic man.
 	- Alexandros, smiling longingly:
 		"Everyone only remembers him for the Great Explosion. Even what's left of the wizardry fails to remember much more."
@@ -1337,7 +1349,6 @@ Concepts:
 40. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
 	- This will only occur for those who learn of your undead nature. Most will have no clue.
 		~ Or those who recognize that 'Aylmera' can really only refer to the ancient hero.
-41. The player should wake up with coins on their eyes (as part of the ritual to revive them).
 43. First encounter with Neera (Hivemind Priestess)
 	Neera: "Excuse me travelers, I'd like a word with you..."
 	*Neera approaches the player*
@@ -1453,15 +1464,11 @@ Concepts:
 		- As such, opportunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
 50. "Only the dead can purge the sins of the living."
 	- Does this really match what I'm trying to say overall? Does it even add up with the player's actions?
-51. "Lotta blood flows in your wake. 'Course that makes it safer to travel behind you..." - The Bard
 52. Perhaps combine the Bard and Ol' Scratch into a hybrid character of sorts.
 	- One who perfects their craft as they travel in your wake.
 	- They comment on your actions, with a sinister flair.
 	- They play a melancholy tune that makes it immediately evident when they're in the area.
 	- They judge the player for their violent actions, in a teasing manner.
-52. The Lord discussing his doubts about the King
-	- "He tries to maintain control of the entire Realm. But at his age... I wonder if he even controls his own bowels."
-	- "Following such a man can only bring disaster. Not just to my keep, but to all the peasantry it serves."
 53. Early on, when getting gear from the King's armory, the soldiers there should express doubts about your skills.
 	- Despite her fabled weapon being a Greatsword, the player doesn't know how to properly wield one.
 	- This serves as a way for them to teach you the basics of combat. (Though make this sequence optional for replays)
