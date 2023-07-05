@@ -251,6 +251,8 @@ Simple things to Work On:
 216. Create a sprite for a statue of the Queen
 	- Add one front-and-center to the Royal courtyard, so the player sees it when leaving the castle.
 	- These will act as save points. Place it in the player's path to prevent them from missing it.
+	- She should have a Saintly pose/aura.
+		~ Perhaps look at Virgin Mary statues for reference
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
