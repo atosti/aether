@@ -15,7 +15,6 @@ Simple things to Work On:
 	- Reginald? Octavian?
 36. Design a neutral soldier sprite.
 	- And assign it to the NPC in the War Room.
-44. Finish the King's dialogue for when you have the Jester in your party.
 50. Design sideways facing chairs for the dining hall.
 51. Add leaning portraits and rolled up scrolls to the Hidden Alcove.
 	- Make it seem like a room cluttered with old junk.
@@ -27,12 +26,12 @@ Simple things to Work On:
 	- Look at the LoZ botw fan art. Also look at oracle of ages/seasons for reference.
 58. Figure out how to draw tiles in front of the player.
 	- Do this for the pillars in the throne room.
+	- Could make them sprites with no collision? Is that worth the resources?
 61. Design a few different Battle scene backgrounds (behind the enemy actor tiles).
 	- These can be used for a few different environments.
 		~ E.g. In a Cavern vs. On a beach vs. In a forest vs. In a castle.
 		~ Nothing too complex, just a general vibe. The sprite limits will be close on these screens.
 62. Design NPC sprites for the nobles in the Royal Court
-65. Draw a jug of wine as a table-compatible sprite.
 68. Design additional rooms in the castle.
 	- Off the doorways in the halls and throne room.
 70. Design a basic drawbridge texture for the player to cross as they leave the Castle.
@@ -180,11 +179,6 @@ Simple things to Work On:
 	- Large enemies that have attack patterns you need to learn to dodge/parry.
 	- Player uses large swings with some lag attached to them (so timing is important)
 	- Player is allowed to move around the stage more than MTP (but perhaps can only ever look up?)
-185. Implement saving at statues
-	- Draw a 16x16 (or 16x24, 16x32) sprite of a statue for this.
-	- Perhaps statues of/to the Queen?
-	- Or other small altars/places where people have left offerings.
-		~ Collections of flowers, fruits, trinkets, etc.
 187. Create the Quartermaster sprite + battle animations.
 188. Implement the Quartermaster fight.
 	- Introduce some basic mechanics.
@@ -225,7 +219,6 @@ Simple things to Work On:
 		~ Add a page flipping sound as well.
 	- Add a sprite to the Memories page showing that Select will "flip" the pages to the right.
 	- Potentially do Start = Page right -> and Select = Page left <-
-204. Rework the Jester's dialogue to better use variables/flags/temps.
 205. Draw overworld/battle sprites for the main Antagonists
 	a. Vivian
 	b. The Apothecary
@@ -253,6 +246,8 @@ Simple things to Work On:
 	- These will act as save points. Place it in the player's path to prevent them from missing it.
 	- She should have a Saintly pose/aura.
 		~ Perhaps look at Virgin Mary statues for reference
+	- Consider designing other small altars/places where people have left offerings to the queen.
+		~ Collections of flowers, fruits, trinkets, etc.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
