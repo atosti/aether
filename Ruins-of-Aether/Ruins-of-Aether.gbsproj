@@ -5895,7 +5895,8 @@
                             "args": {
                                 "variable": "0",
                                 "__collapseElse": true,
-                                "__collapse": true
+                                "__collapse": false,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
@@ -5959,8 +5960,9 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "0",
-                                "__collapseElse": true,
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__collapse": false,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
@@ -8348,7 +8350,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Sometimes I think my calling in life was to\nbe a gardener... At least I get to spend so\nmuch time outdoors."
+                                    "Sometimes I think my calling in life was to\nbe a gardener.",
+                                    "At least I get to spend so much time\noutdoors when guarding."
                                 ],
                                 "avatarId": ""
                             },

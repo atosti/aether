@@ -5586,7 +5586,7 @@
                                                                                     "Keep an eye on her, Sigmund..."
                                                                                 ],
                                                                                 "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
-                                                                                "__collapse": false
+                                                                                "__collapse": true
                                                                             },
                                                                             "id": "1bd04431-7138-43bd-88ec-c2f81a39fdf3"
                                                                         },
@@ -5895,7 +5895,8 @@
                             "args": {
                                 "variable": "0",
                                 "__collapseElse": true,
-                                "__collapse": true
+                                "__collapse": false,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
@@ -5959,8 +5960,9 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "0",
-                                "__collapseElse": true,
-                                "__collapse": true
+                                "__collapseElse": false,
+                                "__collapse": false,
+                                "__disableElse": true
                             },
                             "children": {
                                 "true": [
@@ -8348,7 +8350,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Sometimes I think my calling in life was to\nbe a gardener... At least I get to spend so\nmuch time outdoors."
+                                    "Sometimes I think my calling in life was to\nbe a gardener.",
+                                    "At least I get to spend so much time\noutdoors when guarding."
                                 ],
                                 "avatarId": ""
                             },
@@ -60437,7 +60440,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 874,
-        "worldScrollY": 360,
+        "worldScrollY": 760,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,

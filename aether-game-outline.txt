@@ -244,12 +244,13 @@ Simple things to Work On:
 	g. Spirit of Aylmera
 	h. Monks/Nuns/Priests
 207. Reorganize all of the misc dialogue into the chapters of the story they belong within
-208. Rework the Painting interactions to avoid using local variables
-209. Rework the King's dialogue to ensure it no longer uses local variables
 210. Create an emote for being horrified/terrified.
 213. Adjust memories vertical movement to snap to location (rather than use default player movement)
 214. Add light chanting from the Oubliette wizards of "Arise... arise... arise..." to the introduction exchange.
 215. Rework the Quartermaster's dialogue to avoid locals and better encapsulate his personality.
+216. Create a sprite for a statue of the Queen
+	- Add one front-and-center to the Royal courtyard, so the player sees it when leaving the castle.
+	- These will act as save points. Place it in the player's path to prevent them from missing it.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
