@@ -248,6 +248,16 @@ Simple things to Work On:
 		~ Perhaps look at Virgin Mary statues for reference
 	- Consider designing other small altars/places where people have left offerings to the queen.
 		~ Collections of flowers, fruits, trinkets, etc.
+	- Maybe reference Lady Justice?
+	- Probably 16x32 size?
+		~ Ensure it stands out with more than just a different color.
+		~ Want to avoid players confusing it for a living character.
+	- Would love a series of multiple similar, yet unique statues of the Queen.
+217. Create an emote for pondering
+	- Perhaps a hand on chin + looking up?
+	- Seems very difficult to convey.
+218. Design more entries for books/volumes/histories/records, etc.
+	- Need more written works to fill out the world.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -482,10 +492,6 @@ Main Antagonists:
 	- "I know your ilk, Slayer. You're blessed to have your kills deemed righteous by the Crown. But if you were exiled... how many would still perish?"
 	- Although very old, he should still (technically) be younger than Aylmera. He makes remarks about this, and how unusual it is.
 
-Dialogue:
-==========
-Max line length is 39 characters.
-
 Character Names/Titles:
 =============================
 * Denotes personality traits to assist with writing dialogue.
@@ -579,10 +585,7 @@ Character Names/Titles:
 	- Very amicable. Other characters (misc npcs) regard him and his music highly. He brings Joy to a Joyless world.
 14. ???, Squire
 	- Presently an unused character, but a Squire could be an interesting component.
-15. Ol' Scratch, Devil Incarnate
-	- A character that appears at crossroads (in-between main zones) and converses with the party
-	- Black Snow vibes.
-16. ???, Lost Paladin
+15. ???, Lost Paladin
 	[Core Fault: Stuck in the Past]
 	- Battered Paladin, Broken Bruiser, Old Dog
 	* Paladins were scarce before the war (as holy magic was outdated vs. geomancy), but especially now since many of them died in the war with the sorcerers.
@@ -1092,13 +1095,103 @@ XX. At some point, the Leper Leader should be revealed to be largely a con artis
 	- Although he does believe in providing them peace-of-mind, he's 100% aware that his medicines are placebo.
 	- He also uses them to accumulate wealth and luxuries for himself.
 
+=========================
+Dialogue for Locations:
+=========================
+Max line length is 39 characters.
+
+1. Royal Castle
+	a. Conversations with wizards about their leader:
+		Player: "Why did you follow the Mad Wizard's leadership?"
+		Wizard: "Why? Because of all that he knew, and all that he would bestow!"
+			"The secrets we unlocked in that tower put any incantation you know of to shame."
+			"He might've been mad, but he gave us potential at worlds we could hardly imagine."
+			"I know the Crown had his doubts, but Ignacio truly envisioned a utopia for us all."
+		Player: "Even so, no one kept him in check?"
+		Wizard: "His skill was unrivaled. And we dared not interrupt his process when the fruits he provided were so plentiful."
+		Player: "You seem to still be enamored by him, despite the obvious casualties."
+		Wizard: "The significance of such magicks can only be realized when witnessed firsthand."
+	b. Conversation with soldiers from the War
+		Aylmera: "Why aren't you at war with the Royal Wizardy any more?"
+			"Don't you resent them for what they did to your Kingdom?"
+		Soldier: "No one can rule ashes. Even the wizards recognize that."
+			"You see, the magic released from the explosion wasn't dormant."
+			"It immediately sought out anything that would contain it. Much like fire seeking fuel."
+			"Living creatures became maniacal and possessed, while corpses rose from the dead, just as frenzied."
+			"I personally slew dozens of my own men before I was safe again inside our castle's walls."
+		Aylmera: "You were present at the explosion?"
+		Soldier: "Unfortunately. But I was fortunate enough to be outside the initial blast."
+			"Not a soul remains from that battle who hasn't witnessed the very definition of horror."
+			"You'd be wise to remember that."
+2. Farmlands
+3. Village
+	a. "For some, hope is the only form of survival."
+	b. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
+		- Based on Rufus from Twitter.
+		- Just a cute illustration of a happy pig.
+		- Maybe give the option to pet him, where he gives an "eager oink" as thanks.
+4. Forest
+	a. "The `Great War`? Nothing great about it. Just a lot of pain. And even more bodies we had to bury. "
+		"Didn't even get a chance to celebrate our meager victory."
+5. Bandit Camp
+6. Caves
+7. Lost City
+	a. "The workers yearned to build, but found no materials to do so. So they wandered."
+8. Lost Catacombs
+9. River colony
+	a. "There's been more lightning lately. It's starting fires at unprecedented rates."
+		"Never heard of something so severe. Not even in my Grandfather's day."
+	b. Villager responding to why people obey the strictness of Velazquez's rule.
+		"People become resistant to predation when they feel safe."
+		"Of course, the opposite is also true."
+			- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
+10. Western Lordship's Lands
+	a. Enemy: "My tears couldn't wash away the guilt... but your blood might!"
+11. Lordship's Keep
+	a. "Never engage in a fair fight."
+	b. Have an option to kill the wounded as you leave the Lord's castle.
+		- Just straight up the option to do warcrimes despite the medics pleading for you not to.
+12. The Dungeon
+13. Eastern Lordship's Lands
+14. Monastery
+	a. Threat from Neera to enemies:
+		Neera: "I had to lose an eye before the hidden truths revealed themselves to me."
+			"How much do you think you'll have to lose before YOU can see clearly?"
+15. Boglands
+16. Coastal village
+17. Eastern wasteland
+	a. "When killing everyone, does it even make sense to spare anyone?"
+	b. Bard: "Easy, pal. It was only a question. Forget I even brought it up."
+	c. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
+		Jester: "Well, his mouth is gagged, shall we just leave him here?"
+		Alexandros: "What happens when he gets free? He'll raise the dead and hunt us."
+		Alexandros: "We have to kill him to stop it."
+		Neera: "You could cut his tongue."
+		* Jester and Alexandros both turn and are alarmed (?!) *
+		Jester: "Huh? Why the hell would we do that?!"
+		Neera: "Cut off his tongue and he can't cast spells. Do it, and he gets to live."
+		Alexandros: "Neera... That's heartless."
+		Neera: "More heartless than cold-blooded murder?"
+			"What do you think, Aylmera?"
+		[Execute him.]
+		[Slice tongue.]
+18. Ramparts
+19. Aether Ruins
+	a. When encountering Morcant, the undead Prince
+		Prince: "To create... is to... consume..."
+			~ Alexandros recognizes this as a phrase that the Mad Wizard frequently spoke. He's horrified/perplexed why Morcant's remains know/speak it.
+			~ It's likely one of the last phrases uttered by the Mad Wizard before his inevitable demise.
+20. Aether Wasteland
+21. The Garrison
+22. Royal Cemetary
+23. Ruined Royal Castle
+
 Concepts:
 ==========
 1. "Don't fear what you don't know."
 2. "Humility above all else."
 3. "Treachery begets treachery."
 4. "Cowardice reveals one's innermost doubts."
-5. "Never engage in a fair fight."
 6. "Few wars, if any, are just."
 7. "I feel dead inside and I am alone anyway."
 8. "I am a product of my environment."
@@ -1108,7 +1201,6 @@ Concepts:
 	- Literally kill them ALL. (Some directly, others are assumed to die in the wake left behind.)
 	- They're peaceful and just off on their own, trying to survive. Wanting nothing to do with the politics of the Realm (which has long abandoned them).
 11. "Old World ideas cannot flourish or succeed in the harsh reality of the New World."
-12. "When killing everyone, does it even make sense to spare anyone?"
 13. Swearing fealty to the King or not.
 14. What if it had a Synthwave chiptune soundtrack?
 	https://watchoutforsnakestheband.bandcamp.com/album/dis-integrate
@@ -1120,9 +1212,6 @@ Concepts:
 		- Die has a good sound for something that could work as a Game Over screen
 			~ Seems to use a violin + 4 notes on a duty for most of the track
 15. Player is ambushed by a bossfight by a boss riding in on horseback out of nowhere and triggering the fight.
-16. "Hope is the only form of survival."
-17. "Workers yearning to build"
-18. Lightning starting fires at unprecedented rates.
 19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
 20. Deciding whether to slay or spare enemies after fighting them in battle.
 	- Could have some characters ask for death. For honor, or because their armies are already decimated by you.
@@ -1133,8 +1222,6 @@ Concepts:
 	- "This is my funny little emotional support guy."
 22. Keep in mind how historians are unable to know of the intricate social details of people during their actual lives.
 	- Apply this to the history that you discover about the world around you. Vital details get left out. Pieces get misattributed and rearranged over time.
-23. "People become resistant to predation when they feel safe." (The opposite is also true.)
-	- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
 24. A "Check-in" system for periodically talking to your party members. Allows you to talk with them and learn more about who they are and their histories.
 	- Could occur manually in menus. Could occur auotmatically at savepoints?
 25. "There are no heroes. Everyone has a skeleton... or two."
@@ -1148,11 +1235,6 @@ Concepts:
 	- "It's rare for him to hear me, but I'm content listening to him. He has so much to share that I'm privileged by his enlightenment."
 30. When the Spirit of Aylmera is revealed to the Player, the Priestess recognizes her voice as one of the many that God has spoken to her through.
 	- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
-31. "The `Great War`? Nothing great about it. Just a lot of pain. And even more bodies we had to bury. Didn't even have a chance to celebrate our meager victory."
-32. When encountering Morcant, the undead Prince
-	- Prince: "To create... is to... consume..."
-		~ Alexandros recognizes this as a phrase that the Mad Wizard frequently spoke. He's horrified/perplexed why Morcant's remains know/speak it.
-		~ It's likely one of the last phrases uttered by the Mad Wizard before his inevitable demise.
 33. Asking Alexandros why he served the Mad Wizard if the Mad Wizard was such a chaotic man.
 	- Alexandros, smiling longingly:
 		"Everyone only remembers him for the Great Explosion. Even what's left of the wizardry fails to remember much more."
@@ -1234,12 +1316,6 @@ Concepts:
 			"Though you mean to besmirch his methods, I assure you they are sound."
 			"A hive knows the value of communal effort, and how to achieve collective goals."
 			"Perhaps this discussion is meant as something for *you* to ponder. Rather than the other way around..."
-36. The player should walk past Old Scratch (ignoring him) after a while, but he still poses questions that (can) force a response from the player.
-	- Alternately, give the player the option to ignore him (repeatedly).
-	- Would love if I could animate him leaning and smoking.
-37. Attempting to attack Old Scratch after he asks an incredibly rude question about your morality
-	- Old Scratch, with a devilish grin:
-	"Easy, pal. It was only a question. Forget I even brought it up."
 38. Invasive questions from Old Scratch
 	- Old Scratch (earlier on in the story):
 	"Forgive me, but my memory's not as good as it used to be. How many dead is that now? Are we past double-digits?"
@@ -1258,22 +1334,10 @@ Concepts:
 	[Then sit your scrawny ass in it.]
 		"..."
 		"I knew I liked you."
-39. Generic line for an enemy:
-	"My tears couldn't wash away the guilt... but your blood might!"
 40. Some NPCs should be weary of the Player, as they're basically undead. Others should be ecstatic, because you're a Legendary Hero reborn.
 	- This will only occur for those who learn of your undead nature. Most will have no clue.
 		~ Or those who recognize that 'Aylmera' can really only refer to the ancient hero.
 41. The player should wake up with coins on their eyes (as part of the ritual to revive them).
-42. More conversations with wizards about their leader:
-	Player: "Why did you follow the Mad Wizard's leadership?"
-	Wizard: "Why? Because of all that he knew, and all that he would bestow!"
-		"The secrets we unlocked in that tower put any incantation you know of to shame."
-		"He might've been mad, but he gave us potential at worlds we could hardly imagine."
-		"I know the Crown had his doubts, but Ignacio truly envisioned a utopia for us all."
-	Player: "Even so, no one kept him in check?"
-	Wizard: "His skill was unrivaled. And we dared not interrupt his process when the fruits he provided were so plentiful."
-	Player: "You seem to still be enamored by him, despite the obvious casualties."
-	Wizard: "The significance of such magicks can only be realized when witnessed firsthand."
 43. First encounter with Neera (Hivemind Priestess)
 	Neera: "Excuse me travelers, I'd like a word with you..."
 	*Neera approaches the player*
@@ -1340,21 +1404,6 @@ Concepts:
 	Neera: *Smiles*
 	Neera: "Then it's settled, I shall accompany you from here on out."
 	* Neera, the hivemind cleric, has joined the party! *
-44. Conversation with soldiers from the War
-	Aylmera: "Why aren't you at war with the Royal Wizardy any more?"
-		"Don't you resent them for what they did to your Kingdom?"
-	Soldier: "No one can rule ashes. Even the wizards recognize that."
-		"The magic released from the explosion wasn't dormant."
-		"It immediately sought out anything that would contain it. Much like fire seeking fuel. "
-		"Living creatures became maniacal and possessed, while corpses rose from the dead, just as frenzied."
-		"I personally slew dozens of my own men before I was safe again inside our castle's walls."
-	Aylmera: "You were present at the explosion?"
-	Soldier: "Unfortunately. But I was fortunate enough to be outside the initial blast."
-		"Not a soul remains from that battle who hasn't witnessed the very definition of horror."
-		"You'd be wise to remember that."
-45. Threat from Neera (perhaps to enemies in the Monastery?):
-	Neera: "I had to lose an eye before the hidden truths revealed themselves to me."
-		"How much do you think you'll have to lose before YOU see clearly?"
 46. A medical priestess who patches you up partway through the game:
 	* Perhaps she is who mends you after her group rescues you from drowning in the river.
 	Nurse: "Warrior, you're awake!"
@@ -1402,10 +1451,6 @@ Concepts:
 47. General note on the introspections of the main party
 	* Something that should quickly dawn on the player (and all other main characters) is that saving the Kingdom has little value while the Kingdom still lacks an heir.
 		- As such, opportunities will arise where characters will begin to scheme for who and what will take over following the King's death (natural or otherwise).
-49. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
-	- Based on Rufus from Twitter.
-	- Just a cute illustration of a happy pig.
-	- Maybe give the option to pet him, where he gives an "eager oink" as thanks.
 50. "Only the dead can purge the sins of the living."
 	- Does this really match what I'm trying to say overall? Does it even add up with the player's actions?
 51. "Lotta blood flows in your wake. 'Course that makes it safer to travel behind you..." - The Bard
@@ -1421,8 +1466,6 @@ Concepts:
 	- Despite her fabled weapon being a Greatsword, the player doesn't know how to properly wield one.
 	- This serves as a way for them to teach you the basics of combat. (Though make this sequence optional for replays)
 		~ Could mention real facts about Greatswords. E.g. On the grip: The top hand pushes, while the bottom hand pulls
-54. Have an option to kill the wounded as you leave the Lord's castle.
-	- Just straight up the option to do warcrimes despite the medics pleading for you not to.
 55. Have a scene of undead sailors rising from the waves on the beach coming to attack the player
 56. Add in a zone (possibly the 4th stone location?) of the Royal catacombs
 	- These were raided by the wizards prior to the Great Explosion
@@ -1442,20 +1485,7 @@ Concepts:
 	- The party splits to discuss the obvious discrepancy between you and "your" statue.
 		~ Two main responses could be: [Flattered.] or [Confused.]/[Concerned.]
 59. "I would kill you all if only to save myself."
-60. Have a mage whose tongue can be cut out to spare his life, but prevent him from casting horrible incantations.
-	Jester: "His mouth is gagged, can't we just leave him here?"
-	Alexandros: "And what happens when he gets free? He'll shout incantations causing all sorts of damage!"
-	Alexandros: "We have to kill him. It's the only moral thing to do."
-	Neera: "Cut his tongue."
-	* Jester and Alexandros both turn and are alarmed (!) *
-	Jester: "Huh? Why would we torture the poor guy?!"
-	Neera: "Cut his tongue off and he'll get to live. You can't cast spells without a mouth to speak them."
-	Alexandros: "Neera... That's pretty fucked up."
-	Jester: "Moreso than murdering him in cold blood? What do you think, Aylmera?"
-	[Execute him.]
-	[Cut his tongue.]
 61. Instead of HP use "Morale".
-62. Have a Fallout-esque failure screen that randomly selects a text dialogue to describe how you failed and what happened after.
 63. Each of the main areas (dictated by having a unique Boss) should have an overall theme to the plot.
 	- Castle = Neglect/Ruination
 		~ Everything should have an aire of falling apart.

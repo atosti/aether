@@ -2625,7 +2625,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "You take a book off the shelf and crack\nopen its dusty carapace, filling your\nnostrils with a stagnant aroma.",
+                                                "You take a book off the shelf and crack\nopen its dusty carapace. It fills your\nnostrils with a stagnant aroma.",
                                                 "Inside are an assortment of diagrams\nand figures. The accompanying notes are\nwritten in a language you don't recognize.",
                                                 "The images seem to depict human bodies\nat varying levels of decay. Though it's\nimpossible to decipher any further."
                                             ],
@@ -60439,8 +60439,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1321,
-        "worldScrollY": 636,
+        "worldScrollX": 775,
+        "worldScrollY": 625,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
