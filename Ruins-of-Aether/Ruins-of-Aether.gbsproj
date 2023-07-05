@@ -15959,7 +15959,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -15973,27 +15973,27 @@
                             {
                                 "command": "EVENT_VARIABLE_MATH",
                                 "args": {
-                                    "vectorX": "L0",
+                                    "vectorX": "T0",
                                     "operation": "set",
                                     "other": "rnd",
                                     "vectorY": "L0",
                                     "value": "0",
                                     "minValue": "0",
-                                    "maxValue": 4,
+                                    "maxValue": 5,
                                     "clamp": false,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "66a752d7-15f9-493a-8089-d109c28a6a92"
                             },
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "L0",
+                                    "variable": "T0",
                                     "operator": "==",
                                     "comparator": 0,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16001,10 +16001,10 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "And so they failed in their mission. A\nhopeful dream snuffed out like a candle\nin the night."
+                                                    "And so she failed in her mission. A hopeful\ndream snuffed out, like a candle in the\nnight."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "113f522c-e902-4c23-89a8-38ddfad086e4"
                                         }
@@ -16016,12 +16016,12 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "L0",
+                                    "variable": "T0",
                                     "operator": "==",
                                     "comparator": 1,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16029,10 +16029,10 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "So it was that the Realm finally fell into\ntotal ruin."
+                                                    "And so it was that the Realm finally fell\ninto total ruin. Bickering and fighting until\nthe bitter end."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "d16b55a4-1bfc-447f-adb8-c13689c887dc"
                                         }
@@ -16044,11 +16044,11 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "L0",
+                                    "variable": "T0",
                                     "operator": "==",
                                     "comparator": 2,
                                     "__collapseElse": true,
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__disableElse": true
                                 },
                                 "children": {
@@ -16072,12 +16072,12 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "L0",
+                                    "variable": "T0",
                                     "operator": "==",
                                     "comparator": 3,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16085,7 +16085,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "You collapse into a despicable pile of flesh\nand bone. At least you'll be spared from\nthe agonizing undeath of the Aether."
+                                                    "You collapse into a despicable pile of flesh\nand bone. At least you're spared from\nthe agonizing undeath of the Aether."
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -16099,12 +16099,12 @@
                             {
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "variable": "L0",
+                                    "variable": "T0",
                                     "operator": "==",
                                     "comparator": 4,
                                     "__collapseElse": true,
                                     "__disableElse": true,
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -16112,10 +16112,10 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Such a miserable failure. Ye must pray\nthat God forgiveth. We certainly don't."
+                                                    "\"Such miserable failure. Ye must pray\nthat God forgive thee. We certainly don't.\""
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "70989b34-b0ab-40cb-894a-cf92e41751ff"
                                         }
@@ -16123,6 +16123,34 @@
                                     "false": []
                                 },
                                 "id": "209332ce-80db-4265-bdca-4f94d9f324fe"
+                            },
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "T0",
+                                    "operator": "==",
+                                    "comparator": 5,
+                                    "__collapseElse": true,
+                                    "__disableElse": true,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Your body collapses as the thought of \ndeath permeates your mind. Everyone in\nthe Realm now shares this same fate."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": false
+                                            },
+                                            "id": "4cf310ba-2255-4ce4-ba9a-d5415615a805"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "74920278-0aae-4022-8511-966c52b7363e"
                             },
                             {
                                 "command": "EVENT_SWITCH_SCENE",
@@ -60439,8 +60467,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 775,
-        "worldScrollY": 625,
+        "worldScrollX": 3956,
+        "worldScrollY": 7,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
