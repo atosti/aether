@@ -258,6 +258,8 @@ Simple things to Work On:
 	- Need more written works to fill out the world.
 219. Rework the examine text for the coffin in the Oubliette.
 220. Add more nobles around the castle, especially around the Dining Table.
+221. Select a new color scheme for all NPCs
+	- A greyish blue might work well to match the mood
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
