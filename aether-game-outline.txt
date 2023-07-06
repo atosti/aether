@@ -260,6 +260,7 @@ Simple things to Work On:
 220. Add more nobles around the castle, especially around the Dining Table.
 221. Select a new color scheme for all NPCs
 	- A greyish blue might work well to match the mood
+222. Add a large firepit/brazier to the center of the Great Hall
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -286,6 +287,8 @@ Key Items Master List:
 6. Queen's Pendant
 X. Aylmera's Legendary Sword
 	- "Harmony-bringer"?
+X. Charon's Obol
+	- Coins which are placed on the eyes of the dead
 
 Memories Master List:
 ======================
@@ -307,13 +310,16 @@ Memories Master List:
 12. Banditry (Leaving the village into the forest)
 13. Bandit Queen (Route Vivian in combat)
 14. Pure Fire (Acquire the Elemental Stone of Fire)
-	- Write this
+	- "Hot to the touch, the stone has a faint glow."
+		"Inside, vibrantly blue flames flicker and crackle."
+		"Though lightweight, it feels incredibly sturdy."
 X. Loner (Meet the bloodhound for the first time)
 	- Write this
 X. Neera (Neera joins the party)
-	- "A one-eyed priestess who communes with God himself."
-	  "She claims His words come in the form of a hivemind."
-	  "I don't know whether to believe her, but she has a trustworthy demeanor."
+	- "A one-eyed priestess who claims to commune with God."
+	  "She describes His words in the form of a thousand voices: a hivemind."
+	  "I don't know whether to believe her, but her demeanor is trustworthy."
+	  "And she knew secrets that only an otherworldly force could provide."
 X. Pure Air (Acquire the Elemental Stone of Air)
 	- Write this
 X. The Apothecary (Slay the apothecary)
@@ -336,7 +342,12 @@ X. Outskirts (Get nursed back to health in the outskirts of His Lordship's lands
 X. Reunion (The Jester and Neera rejoin your party)
 	- Write about being reunited with the priestess and Jester.
 X. Alexandros (Recruit and save the wizard Alexandros.)
-	- Write this
+	- "The wizard's face was so bloody and bruised that I barely recognized him."
+		"It appears the Lord's torture successfully warped his demeanor."
+		"And yet, he smolders even more brightly with determination."
+		"As though this hardship provided him some unforeseen wisdom."
+		"His hatred is focused. His mind is driven."
+		"I wonder what secrets his anguish revealed to him."
 X. His Lordship (Fight and kill the Lord, Velazquez.)
 	- Write this
 X. Monastery (Reach the Monastery)
@@ -359,7 +370,7 @@ X. Sigmund's Tears / Morcant (Defeat Morcant)
 	- "When the prince finally fell, the Jester collapsed to his knees."
 	  "Tears streaming down his face as he stared at the hulking, dead mass."
 	  "None of us tried to console him, there was no point. His grief matched the tragedy."
-X. Broken Aether (Acquire the crushed stone of elemental Aether)
+X. Broken Aether (Acquire the shattered stone of elemental Aether)
 	- Write this
 X. Spirit (Encounter and meet the Spirit of Aylmera)
 	- Write more. "Met the spirit of Aylmera. I'm merely a stranger."
@@ -497,7 +508,7 @@ Main Antagonists:
 Character Names/Titles:
 =============================
 * Denotes personality traits to assist with writing dialogue.
-	- Note: Almost everyone should have at least a tinge of defeatedness to them. This is a BROKEN world that just got done with a brutal war.
+	- Note: Almost everyone should have at least a tinge of defeatedness to them. This is a BROKEN world that just finished a brutal war.
 
 1. Aylmera, Esteemed Warrior
 	- Protector of Antiquity
@@ -593,40 +604,6 @@ Character Names/Titles:
 	* Paladins were scarce before the war (as holy magic was outdated vs. geomancy), but especially now since many of them died in the war with the sorcerers.
 		- Interestingly, many paladins operated as sell-swords, akin to Samurai in Japan. Thus, they fought on both sides of the war.	
 		- Once revered as beacons of morality and the will of God, they're now seen as idealogues who threw away their traditional ideals for false hopes.
-
-
-
-Order of Zones:
-===============
-Follow the main events outlined below. This is just for general reference of the core zones needing to be built.
-1. Oubliette
-	- Although the term "revival" is used, the books and scrolls all over the Oubliette should outline that it was in fact NECROMANCY that was used to bring you back. Dark, dangerous magic.
-	- Include clues that the mages were eager to perform the necromancy. Others in the castle are not as keen on it.
-	- Only leave a few of these, have their full magnitude and/or significance revealed through other notes/comments later in the game.
-2. Castle Proper
-	a. Great Hall
-		- Contains the King and some Royal guards
-		- A large firepit/brazier in the center.
-		- Large pillars
-	b. King/Queen's Bedroom
-		- Have notes/letters detailing parts of their relationship
-	c. Prince's Bedroom
-	d. War Room
-		- Contains the Jester (before he joins your party) and some soldiers
-	e. Dining Hall
-		- Contains a noble or two
-	f. Kitchen/Pantry
-		- Contains a chef and a sous chef
-	g. Library
-	h. Hallway (w/Oubliette passage)
-	i. Oubliette Passage (hidden behind bookshelf)
-	j. Chapel
-		- Contains a Monk
-3. Castle Courtyard
-4. Castle Barracks
-	- Contains many soldiers and an armory of weapons
-5. Castle Drawbridge (Western exit)
-
 
 Order of Main Events:
 ======================
