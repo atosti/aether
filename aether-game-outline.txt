@@ -116,8 +116,6 @@ Simple things to Work On:
 	- Order of Strength:
 		Water > Fire > Earth > Air > Aether > Water
 		~ Where ">" denotes superiority. So Water is strongest against Fire, etc etc.
-141. Rewrite the King's dialogue both with and without the Jester.
-	- Add his avatar to all of his dialogue
 142. Create a sound effect to trigger on battle engagement
 	- Perhaps similar to the Golden Sun monster scream for their battles
 	- Or just play an intro sequence of a song, then transition into the full song for the fight? A la pokemon.
