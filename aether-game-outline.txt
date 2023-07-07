@@ -268,6 +268,7 @@ Simple things to Work On:
 	- Perhaps mention doubts about how the restoration ritual"*should* work"
 	- ALSO: Decide whether to trigger this on the King's send off, or the Jester's dialogue.
 		~ Probably still the King's send off, so you can mention the first destination/location of the Elemental stone. (Lost city to the Northwest)
+224. Rework the King's dialogue on his send off to explicitly mention your first destination (The Lost City Catacombs)
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
