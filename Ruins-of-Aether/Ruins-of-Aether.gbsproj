@@ -5487,7 +5487,7 @@
                                                                         "He's accompanied by 3 members of\nthe Royal Guard. Elite soldiers.",
                                                                         "Besides, I'm confident in Velazquez's\ncontinued loyalty to the Kingdom.",
                                                                         "That and Alexandros assured me of\nour new Hero's talents.",
-                                                                        "You should have no issues acquiringthe first stone by yourselves.",
+                                                                        "You should have no issues acquiring\nthe first stone by yourselves.",
                                                                         "That is, unless you're unable to trust\nin your own capabilities, Jester."
                                                                     ],
                                                                     "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
@@ -5685,7 +5685,7 @@
                                                                         "It encroaches from the East. Drawing\nnearer to the castle every day..."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "9838c632-8a6f-46f1-8b7f-7b2c57538fb3"
                                                             },
@@ -5703,7 +5703,7 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "Alas. I'm a man of few options. Hence\nwhy I've chosen to revive you.",
-                                                                        "You served my royal bloodline decades \nago during a time of great rebellion.",
+                                                                        "You served my royal bloodline ages ago\nduring a time of great rebellion.",
                                                                         "And though I fear our situation now is\neven more dire...",
                                                                         "I know that you are a Hero capable of\nrising to the occasion.",
                                                                         "I must ask for your assistance in \nstemming the threat of the undead.",
@@ -5713,7 +5713,7 @@
                                                                         "Join me. And fight once more on behalf of\nthis glorious Realm."
                                                                     ],
                                                                     "avatarId": "",
-                                                                    "__collapse": true
+                                                                    "__collapse": false
                                                                 },
                                                                 "id": "4297328e-3f17-460d-b520-1a7e7d251bb4"
                                                             },
@@ -10506,7 +10506,7 @@
                                                     "args": {
                                                         "text": [
                                                             "Yes. It *should*. We're working in a\nworld of uncertainty now.",
-                                                            "Truthfully it's a miracle we've\ngotten this far along in the plan.",
+                                                            "Truthfully, it's a miracle we've\ngotten this far along in the plan.",
                                                             "Even reviving you was something we\nhadn't fully counted on.",
                                                             "But have no doubt, the Crown and all\nits resources are firmly behind you."
                                                         ],
@@ -10523,7 +10523,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "One last thing before you go, Aylmera.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
+                                                "One last thing before you go. Both\nAlexandros and myself have\nvolunteered to accompany you.",
                                                 "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
@@ -60503,8 +60503,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2944,
-        "worldScrollY": 1359,
+        "worldScrollX": 1277,
+        "worldScrollY": 745,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
