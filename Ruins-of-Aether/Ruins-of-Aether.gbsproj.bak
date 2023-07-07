@@ -10546,7 +10546,8 @@
                                                             "Oh my. Well... How can I put this\nelegantly...",
                                                             "There really isn't anyone else up to\nthe task. The castle is staffed by\na skeleton crew.",
                                                             "What remains is little more than\nremnants of the royal guard, and\nseveral dozen nobles.",
-                                                            "There quite simply *is* no other\nwarrior fit for such an immense\ntask."
+                                                            "There quite simply *is* no other\nwarrior fit for such an immense\ntask.",
+                                                            "But have no doubt, the Crown and all\nits resources are firmly behind you."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": false
@@ -10561,7 +10562,8 @@
                                                         "text": [
                                                             "Yes. It *should*. We're working in a\nworld of uncertainty now.",
                                                             "Truthfully, it's a miracle we've\ngotten this far along in the plan.",
-                                                            "Even reviving you was something we\nhadn't fully counted on."
+                                                            "Even reviving you was something we\nhadn't fully counted on.",
+                                                            "But have no doubt, the Crown and all\nits resources are firmly behind you."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": false
@@ -10573,11 +10575,18 @@
                                         "id": "6c9edf14-ded3-4bd7-a137-a4d394a7293d"
                                     },
                                     {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "e5613301-99a8-4670-bd71-1d2b8dcf7cdf"
+                                    },
+                                    {
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "But have no doubt, the Crown and all\nits resources are firmly behind you.",
-                                                "One last thing before you go. Both\nAlexandros and myself have\nvolunteered to accompany you.",
+                                                "Oh! One last thing before you go. Both\nAlexandros and myself have\nvolunteered to accompany you.",
                                                 "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
