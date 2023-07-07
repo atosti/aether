@@ -5487,7 +5487,7 @@
                                                                         "He's accompanied by 3 members of\nthe Royal Guard. Elite soldiers.",
                                                                         "Besides, I'm confident in Velazquez's\ncontinued loyalty to the Kingdom.",
                                                                         "That and Alexandros assured me of\nour new Hero's talents.",
-                                                                        "You should have no issues acquiringthe first stone by yourselves.",
+                                                                        "You should have no issues acquiring\nthe first stone by yourselves.",
                                                                         "That is, unless you're unable to trust\nin your own capabilities, Jester."
                                                                     ],
                                                                     "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
@@ -5901,20 +5901,36 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
+                                        "command": "EVENT_IF_FLAGS_COMPARE",
                                         "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
+                                            "variable": "7",
+                                            "flag": 6,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": false
                                         },
-                                        "id": "e3a8cd89-11b0-47ae-895f-d4e6bcdb324e"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_DEACTIVATE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e3a8cd89-11b0-47ae-895f-d4e6bcdb324e"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "8a64695a-fa68-4008-9355-89776b2f6dde"
+                                                }
+                                            ],
+                                            "false": []
                                         },
-                                        "id": "8a64695a-fa68-4008-9355-89776b2f6dde"
+                                        "id": "f2513dac-a34e-4283-a947-1121a61c5f1e"
                                     }
                                 ],
                                 "false": []
@@ -5930,72 +5946,6 @@
                     "x": 8,
                     "y": 34,
                     "symbol": "actor_9"
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
-                            },
-                            "id": "d2c64db4-c493-4268-94e1-ce79fe69d7af"
-                        }
-                    ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "0",
-                                "__collapseElse": false,
-                                "__collapse": false,
-                                "__disableElse": true
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_ACTOR_DEACTIVATE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "65421c46-9563-4973-9a78-a4de1e786474"
-                                    },
-                                    {
-                                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-                                        "args": {
-                                            "actorId": "$self$",
-                                            "__collapse": true
-                                        },
-                                        "id": "87c3fcd6-986d-4bf5-beaf-8e4eaccbb82a"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "b3f1117b-e648-4065-8d03-94b5245d32dd"
-                        }
-                    ],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "5e6f3be6-faee-4383-aa6c-851b774abd67",
-                    "x": 10,
-                    "y": 34,
-                    "symbol": "actor_10"
                 },
                 {
                     "name": "Jester",
@@ -6176,6 +6126,89 @@
                     "id": "1f9adc79-ae18-489a-bebf-a20ea32770ab",
                     "x": 18,
                     "y": 3
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                            },
+                            "id": "c4f6744a-f674-4f8f-8dd0-358b43704a9c"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "0",
+                                "__collapseElse": true,
+                                "__collapse": false,
+                                "__disableElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_FLAGS_COMPARE",
+                                        "args": {
+                                            "variable": "7",
+                                            "flag": 6,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_DEACTIVATE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "90df3d47-0a9c-4f70-83e8-ced151f8ae5f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "7cc0bd4d-2cf8-4af6-b7c3-e2e76e08e5f0"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "023c8f93-838a-4d1a-bb28-2ee45d7a7a78"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "e1bb1f21-0683-4968-b590-6c096f9a76c6"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1fb2b1c5-2517-4e9f-ae80-257a13b6d070",
+                    "x": 10,
+                    "y": 34,
+                    "symbol": "actor_10"
                 }
             ],
             "triggers": [
@@ -10331,16 +10364,37 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Still... I recognize your lack of choice\nin this whole matter, so I'd like to \napologize for that. Truly.",
+                                                "Still... I recognize your lack of choice\nin this matter.",
+                                                "So I'd like to apologize for involving\nyou in this mess. Truly.",
                                                 "It's a harrowing position the Crown \nhas found himself in.",
-                                                "I know he wouldn't take such drastic\naction were it not the case.",
-                                                "If it's any consolation, I argued \nagainst your revival. But clearly, my\ninput was overruled.",
-                                                "Those wizards were so damn eager.\nAnd the King so damn desperate..."
+                                                "I know he wouldn't take such drastic\naction were that not the case."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                             "__collapse": false
                                         },
                                         "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
+                                            "__collapse": true
+                                        },
+                                        "id": "ec468e14-88aa-4bcd-b3bd-9ce7b0aecfc8"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "If it's any consolation, I argued\nagainst your revival.",
+                                                "Though, clearly, my input on the\nmatter was overruled.",
+                                                "Those wizards were just so damn\neager. And the King so desperate..."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": true
+                                        },
+                                        "id": "9e02ec08-289d-45b8-be00-da50529fcf0f"
                                     },
                                     {
                                         "command": "EVENT_CHOICE",
@@ -10418,7 +10472,7 @@
                                         "args": {
                                             "text": [
                                                 "Before your revival, our Kingdom's\nRoyal Army was engaged in a war \nagainst the Royal Wizardry.",
-                                                "That 'Great War' came to an abrupt\nhalt when, mid-siege, the wizards'\ntower exploded into Aetherial flames.",
+                                                "That 'Great War' came to an abrupt\nend when, mid-siege, the wizards'\ntower exploded into Aetherial flames.",
                                                 "It killed most of its inhabitants, and \nrained hellfire down onto our armies\nwhich had surrounded it.",
                                                 "But far from dormant, that Aetherial\nenergy leapt from the carnage and\nfrenzied any corpse it could touch.",
                                                 "The result was thousands of dead\nsuddenly returning to life. All insane,\nand frothing like rabid dogs.",
@@ -10489,10 +10543,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Oh. Well... How to say this elegantly...",
+                                                            "Oh my. Well... How can I put this\nelegantly...",
                                                             "There really isn't anyone else up to\nthe task. The castle is staffed by\na skeleton crew.",
                                                             "What remains is little more than\nremnants of the royal guard, and\nseveral dozen nobles.",
-                                                            "There quite simply *is* no other\nwarrior fit for this task."
+                                                            "There quite simply *is* no other\nwarrior fit for such an immense\ntask."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": false
@@ -10507,8 +10561,7 @@
                                                         "text": [
                                                             "Yes. It *should*. We're working in a\nworld of uncertainty now.",
                                                             "Truthfully, it's a miracle we've\ngotten this far along in the plan.",
-                                                            "Even reviving you was something we\nhadn't fully counted on.",
-                                                            "But have no doubt, the Crown and all\nits resources are firmly behind you."
+                                                            "Even reviving you was something we\nhadn't fully counted on."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                                         "__collapse": false
@@ -10523,6 +10576,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
+                                                "But have no doubt, the Crown and all\nits resources are firmly behind you.",
                                                 "One last thing before you go. Both\nAlexandros and myself have\nvolunteered to accompany you.",
                                                 "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
                                             ],
@@ -60503,8 +60557,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3519,
-        "worldScrollY": 932,
+        "worldScrollX": 3540,
+        "worldScrollY": 795,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
