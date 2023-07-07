@@ -10473,7 +10473,7 @@
                                             "text": [
                                                 "Before your revival, our Kingdom's\nRoyal Army was engaged in a war \nagainst the Royal Wizardry.",
                                                 "That 'Great War' came to an abrupt\nend when, mid-siege, the wizards'\ntower exploded into Aetherial flames.",
-                                                "It killed most of its inhabitants, and \nrained hellfire down onto our armies\nwhich had surrounded it.",
+                                                "It killed most of its inhabitants, and \nrained hellfire down onto our armies\nwhich had surrounded the tower.",
                                                 "But far from dormant, that Aetherial\nenergy leapt from the carnage and\nfrenzied any corpse it could touch.",
                                                 "The result was thousands of dead\nsuddenly returning to life. All insane,\nand frothing like rabid dogs.",
                                                 "That untamed energy still emanates\nfrom the battlefield to the East. As\ndo the swarms of undead.",
@@ -10578,7 +10578,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                            "__collapse": true
                                         },
                                         "id": "e5613301-99a8-4670-bd71-1d2b8dcf7cdf"
                                     },

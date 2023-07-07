@@ -5440,7 +5440,7 @@
                                                                     "text": [
                                                                         "Indeed his skill will be vital, which is\nwhy he remains part of the plan.",
                                                                         "I've simply sent him ahead of you\ntwo. To the lands in the North.",
-                                                                        "He'll procure an elemental stone\noverseen by Lord Velazquez."
+                                                                        "He'll procure the elemental stone\noverseen by Lord Velazquez."
                                                                     ],
                                                                     "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
                                                                     "__collapse": false
@@ -60567,8 +60567,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3540,
-        "worldScrollY": 795,
+        "worldScrollX": 1470,
+        "worldScrollY": 615,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
