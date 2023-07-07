@@ -261,6 +261,13 @@ Simple things to Work On:
 221. Select a new color scheme for all NPCs
 	- A greyish blue might work well to match the mood
 222. Add a large firepit/brazier to the center of the Great Hall
+223. Rewrite the Memories entry for the Royal Quest
+	- Referencing the Jester's dialogue about the Royal Quest.
+	- Mention the 5 elemental stones and their elements.
+	- Mention the restoration ritual.
+	- Perhaps mention doubts about how the restoration ritual"*should* work"
+	- ALSO: Decide whether to trigger this on the King's send off, or the Jester's dialogue.
+		~ Probably still the King's send off, so you can mention the first destination/location of the Elemental stone. (Lost city to the Northwest)
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -406,27 +413,21 @@ Core Gameplay Loop:
 	- Dialogue with NPCs
 	- Reading notes/books/engravings
 	- Noting the history of areas and what events led to their current states
-2. Deciding what factions you agree with and want to support
-	- Answering dialogue choices to pledge loyalty, or wage war
-	- Discussing with your party the rationale behind your choices
-3. Encountering enemies
+2. Encountering factions/antagonists and hearing their perspectives
+	- Also discussing with your party the rationale behind your choices
+3. Encountering smaller enemies and triggering fights
 	- They patrol around the zone, catching their attention triggers combat?
-	- Think a mix of pokemon trainers and enemy patrols
+	- Think a mix of pokemon trainers and enemy patrols? Or maybe Magi Nation style combat triggers?
 	- Could also just have zones (like Tall grass in Pkmn) where encounters can randomly occur
 4. Combat
 	- Combat takes place in instanced arenas, customized to each zone of the map.
 		~ Perhaps even unique to bossfights as well.
-	- It involves fighting large enemies (or groups of enemies) in a combat style a little similar to LoZ.
 	- Each enemy will have bullet hell attacks, and patterns, which the player must combat via positioning and selecting when to strike.
-	- Enemies will also have attach phases, allowing for openings where extra damage is dealt to them.
+	- Enemies will also have attack phases, allowing for openings where extra damage is dealt to them.
+		~ Could use color or a certain glowing effect (e.g. Glowing spots in Elden Ring) to show vulnerability
 	- If possible, showing enemy healthbars on-screen somewhere (even just always as a footer/header) 
 		~ Could change it to show the last enemy hit.
-	- Additionally, the player is able to cycle between their party members in order to change what abilities they have in battle.
-		~ Would LOVE for each character to have their own HP. And when they're KO'd, then you can't use them.
-		~ But a shared total HP bar would suffice.
-	
-		Now all that's necessary is to figure out how to get lots of projectiles on screen.
-		As well as what each of the characters' abilities are, and how they'll synergize with one another.
+	- Old ideas for playing as each character:
 			- Can I implement attaching DoT affects to enemies? (Neera moveset)
 				~ E.g. make it so attacks deal double damage for a period of time (or 'X' number of hits) after landing a blow with a particular character?
 				~ What is her dodge mechanic?
@@ -443,7 +444,6 @@ Core Gameplay Loop:
 				~ e.g. Jester with a poisoned dagger
 			- What about an AoE damage ability, that has a shortish range, but allows multi-hitting?
 				~ Could force the player to hold still while using it, similar to the cross in Faith.
-		
 		Overall, the goal is to have 8 unique mechanics for combat. 2 per character.
 			~ One offensive (A button attack)
 				a. Sword
@@ -480,13 +480,13 @@ Main Antagonists:
 	- Could have multiple battles. First time is against them with one arm, second time is once they've acquired a second.
 3. Undead Prince (Morcant)
 	- Filled with Aetherial rage. Uses a massive 2 handed sword and wears bulky armor.
-4. Leper leader
+4. Apothecary
 	- Sickly and weak, but very astute and philosophical. Acknowledges the need for change in the Realm's leadership.
 	- Accelerationist. Perhaps sees no future for themselves, and by extension wants the same for the rest of the Realm.
-5. The Player (kind of)
+5. The Player
 	- Over the course of the story, the player learns that they are indeed NOT the fabled hero whose stories are littered across the region.
 	- The Wizards mistakenly resurrected you, a cousin of that hero (a simple mixup in the many bones of the catacombs).
-	- As such, the player learns they were a rebel warlord that broke from the Kingdom and 
+	- As such, the player learns they were a rebel warlord that broke from the Kingdom and...?
 	- The Player is not forced to be evil as a result of this, but IS directly playing as someone who once was cruel and bitter.
 	- These details are revealed overtime as more lore is learned:
 		a. Hero has a birth mark or tattoo that the protagonist doesn't share.
@@ -588,8 +588,8 @@ Character Names/Titles:
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
 	- "Kneel when you speak to her." - One of her loyal followers.
 13. ???, Bard, Minstrel
-	* Note: He's not meant to be a Moralizing Mike character that shows up at the end and relays to the player all the 'bad' things they've done.
-	* He's meant to point out the futility of saving a world that the player themselves has already destroyed. And his disatisfaction with having to live in the remains.
+	* Note: He's not meant to be a 'Moralizing Mike' character that shows up at the end and relays to the player all the 'bad' things they've done.
+	* He's meant to point out the futility of saving a world that the player themselves is actively destroying. And his disatisfaction with having to live in the remains.
 	* He's meant to humanize the world a bit. To add someone that responds to the sheer violence of the world around them.
 	- Jovial, but judgemental of the player.
 	- Over the course of the game, he encounters the player several times and slowly comes to realize the destruction they're causing.
@@ -1104,6 +1104,9 @@ Max line length is 39 characters.
 			"You'd be wise to remember that."
 	c. The player should wake up with coins on their eyes 
 		- As part of the ritual to revive them.
+	d. Noble dialogue
+		"Were it not for the undead threat, we'd likely still be at war with the wizards."
+		"It's an uncomfortable truth we now face. And one that no one is soon to forget."
 
 2. Farmlands
 3. Village

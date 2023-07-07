@@ -10308,8 +10308,10 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh my, I see Alexandros continues to\nbe full of surprises! Impressive he\nbreathed life into your corpse.",
-                                                "Fighting the undead with one of their\nown... If I didn't know better, I'd think\nthe King was mad with treachery!"
+                                                "Oh my, I see Alexandros continues to\nbe full of surprises!",
+                                                "Rather impressive he managed to\nbreathe life into your corpse.",
+                                                "Fighting the undead with one of their\nown...",
+                                                "If I didn't know better, I'd think\nthe King was mad with treachery!"
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
                                             "__collapse": true
@@ -10330,11 +10332,13 @@
                                         "args": {
                                             "text": [
                                                 "Still... I recognize your lack of choice\nin this whole matter, so I'd like to \napologize for that. Truly.",
-                                                "It's a harrowing position the Crown \nhas found himself in. He wouldn't take\nsuch drastic action otherwise.",
-                                                "If it's any consolation, I argued \nagainst your revival. But the wizards\nwere eager. And the King desperate."
+                                                "It's a harrowing position the Crown \nhas found himself in.",
+                                                "I know he wouldn't take such drastic\naction were it not the case.",
+                                                "If it's any consolation, I argued \nagainst your revival. But clearly, my\ninput was overruled.",
+                                                "Those wizards were so damn eager.\nAnd the King so damn desperate..."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
                                     },
@@ -10343,7 +10347,7 @@
                                         "args": {
                                             "variable": "T0",
                                             "trueText": "You hate wizards?",
-                                            "falseText": "What do you need?",
+                                            "falseText": "Why am I here?",
                                             "__collapse": false
                                         },
                                         "id": "aa386f81-f549-408b-b077-06cc29bf0fe2"
@@ -10353,7 +10357,7 @@
                                         "args": {
                                             "variable": "T0",
                                             "__collapseElse": false,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -10361,16 +10365,13 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "No. They're amicable enough. I just\nwonder how long this peace between \nus will last...",
-                                                            "You see, roughly 3 years ago we \nwere engaged in a long and bloody \nconflict with the Realm's wizardry.",
-                                                            "'The Great War', as it's known, came\nto an abrupt conclusion when the \nwizards' tower erupted into",
-                                                            "Aetherial flames, killing most of its\ninhabitants and raining hellfire onto\nthose outside.",
-                                                            "Had the Aetherial energy not \nimmediately leapt from the carnage\nand turned any creature, living or",
-                                                            "dead, into a frenzied monster: we'd\nstill be fighting one another. Indeed,\nit is only our common enemy binding",
-                                                            "us together. An uncomfortable truth\nthat no one in this castle will ever\nbe allowed to forget..."
+                                                            "No. I wouldn't go so far as to say \nthat. They're amicable enough.",
+                                                            "We just have a difficult past. And  I\nwonder how long this peace between\nour peoples will last.",
+                                                            "Up until a few years ago, we  were\nengaged in a long and bloody conflict\nwith the Realm's wizardry.",
+                                                            "Were it not for the chaos resulting\nfrom that conflict, we'd likely still\nbe at war with one another."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "9a1d7949-c531-4789-8af7-ba43db9e9cb7"
                                                 },
@@ -10387,10 +10388,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor the journey ahead."
+                                                            "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor your journey ahead."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "fa4f0609-b2cb-49a1-91d8-d1015c5b1018"
                                                 }
@@ -10400,10 +10401,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Straight to the point. I admire that.\nIt's an increasingly rare trait, even\nin these trying times..."
+                                                            "Straight to the point. I admire that.",
+                                                            "It's a trait that gets rarer with each\npassing day."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "9b85303e-72cf-4e84-9630-76be86a042a1"
                                                 }
@@ -10415,14 +10417,43 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
+                                                "Before your revival, our Kingdom's\nRoyal Army was engaged in a war \nagainst the Royal Wizardry.",
+                                                "That 'Great War' came to an abrupt\nhalt when, mid-siege, the wizards'\ntower exploded into Aetherial flames.",
+                                                "It killed most of its inhabitants, and \nrained hellfire down onto our armies\nwhich had surrounded it.",
+                                                "But far from dormant, that Aetherial\nenergy leapt from the carnage and\nfrenzied any corpse it could touch.",
+                                                "The result was thousands of dead\nsuddenly returning to life. All insane,\nand frothing like rabid dogs.",
+                                                "That untamed energy still emanates\nfrom the battlefield to the East. As\ndo the swarms of undead.",
+                                                "And their numbers are growing, as \nthey slowly wander closer to our\nlands. Killing all they encounter.",
+                                                "But, that's where you come into the\npicture, Aylmera."
+                                            ],
+                                            "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                            "__collapse": false
+                                        },
+                                        "id": "3356e953-652f-416b-b066-bab16a9b9254"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                            "__collapse": true
+                                        },
+                                        "id": "1f5c29ec-b427-4b4f-b470-479682206731"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
                                                 "The Crown has requested your \nassistance in restoring elemental\nbalance to the Realm.",
-                                                "Based on scrolls procured by the \nwizards, we believe the undead\nfrenzy can be halted via the",
-                                                "realignment of the 4 main elements. \nThe only caveat is that the elemental\nstones must first be located.",
-                                                "And then they must be brought to\nthe site of the Great Tower, where\nthe ritual can be performed.",
+                                                "Based on scrolls procured by the\nwizards, we believe the undead\nfrenzy can be halted.",
+                                                "It requires the realignment of the 5\nmain elements, and their\ncorresponding elemental stones.",
+                                                "These are of course: Fire, Air, Earth,\nWater, and Aether.",
+                                                "You've been recruited to locate these\n5 stones, and then bring them to the\nsite of the Great Explosion.",
+                                                "Once there, you'll perform a ritual to\nrebalance the energies. Which should\nstop the Aether frenzy.",
                                                 "I know this is a lot to take in, but do\nyou have any initial questions about\nthe task at hand?"
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "2d87acfe-87ab-4a6d-a675-e6e6c921ca11"
                                     },
@@ -10430,9 +10461,9 @@
                                         "command": "EVENT_CHOICE",
                                         "args": {
                                             "variable": "T0",
-                                            "trueText": "Why me?",
-                                            "falseText": "Any leads?",
-                                            "__collapse": true
+                                            "trueText": "Why pick me?",
+                                            "falseText": "'Should' stop it?",
+                                            "__collapse": false
                                         },
                                         "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
                                     },
@@ -10440,8 +10471,8 @@
                                         "command": "EVENT_IF_TRUE",
                                         "args": {
                                             "variable": "T0",
-                                            "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapseElse": false,
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -10458,11 +10489,13 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Oh. Well. How to say this elegantly...\nThere really isn't anyone left. The\ncastle is staffed by a skeleton crew.",
-                                                            "Little more than remnants of the \nroyal guard. There quite simply *is*\nno other warrior fit for the task."
+                                                            "Oh. Well... How to say this elegantly...",
+                                                            "There really isn't anyone else up to\nthe task. The castle is staffed by\na skeleton crew.",
+                                                            "What remains is little more than\nremnants of the royal guard, and\nseveral dozen nobles.",
+                                                            "There quite simply *is* no other\nwarrior fit for this task."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "752236e0-cdb5-46c4-a5de-807b2b385825"
                                                 }
@@ -10472,11 +10505,13 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Just one. The Crown knows the\nlocation of one stone. It was hidden\nseveral years ago in the ruins of an",
-                                                            "old city far to the Northwest. We\nbelieve this is where you should\nbegin your search."
+                                                            "Yes. It *should*. We're working in a\nworld of uncertainty now.",
+                                                            "Truthfully it's a miracle we've\ngotten this far along in the plan.",
+                                                            "Even reviving you was something we\nhadn't fully counted on.",
+                                                            "But have no doubt, the Crown and all\nits resources are firmly behind you."
                                                         ],
                                                         "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "b72628e0-33c9-49f7-acd5-fb1a23928779"
                                                 }
@@ -10488,11 +10523,11 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oh! One last thing before you go.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
+                                                "One last thing before you go, Aylmera.\nBoth Alexandros and myself have\nvolunteered to accompany you.",
                                                 "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
                                             ],
                                             "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "id": "c5926242-f871-4ad1-942e-d70061934d0d"
                                     },
@@ -10500,8 +10535,8 @@
                                         "command": "EVENT_ACTOR_EMOTE",
                                         "args": {
                                             "actorId": "$self$",
-                                            "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
-                                            "__collapse": true
+                                            "emoteId": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
+                                            "__collapse": false
                                         },
                                         "id": "91e57f2d-cbbe-463f-a7bc-dd0c2973dc58"
                                     },
@@ -10659,7 +10694,7 @@
                                 "variable": "7",
                                 "flag": 2,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -10669,7 +10704,8 @@
                                             "text": [
                                                 "(The man ignores you as he studies the\ntable, adjusting pieces on the war map as\nhe paces back and forth.)"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         },
                                         "id": "240b982d-b2b9-4869-b9ed-0f0e219a4c97"
                                     }
@@ -15979,7 +16015,7 @@
                                     "vectorY": "L0",
                                     "value": "0",
                                     "minValue": "0",
-                                    "maxValue": 4,
+                                    "maxValue": 5,
                                     "clamp": false,
                                     "__collapse": false
                                 },
@@ -60467,8 +60503,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3956,
-        "worldScrollY": 7,
+        "worldScrollX": 2944,
+        "worldScrollY": 1359,
         "zoom": 325,
         "customColorsEnabled": true,
         "sgbEnabled": false,
