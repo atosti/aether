@@ -269,6 +269,12 @@ Simple things to Work On:
 	- ALSO: Decide whether to trigger this on the King's send off, or the Jester's dialogue.
 		~ Probably still the King's send off, so you can mention the first destination/location of the Elemental stone. (Lost city to the Northwest)
 224. Rework the King's dialogue on his send off to explicitly mention your first destination (The Lost City Catacombs)
+225. Design a screen for the Drowning scene.
+	- Have animated/moving bubbles slowly drifting to the top.
+	- Give the scene the impression of being deep underwater
+	- Perhaps have it be a scene of being underwater that then swaps to the Waking scene.
+		~ Maybe have the bubbles be sprites in the scene with animation frames that cycle?
+	- Alternately, have the underwater scene also BE the drowning scene
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
