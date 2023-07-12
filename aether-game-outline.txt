@@ -275,6 +275,9 @@ Simple things to Work On:
 	- Perhaps have it be a scene of being underwater that then swaps to the Waking scene.
 		~ Maybe have the bubbles be sprites in the scene with animation frames that cycle?
 	- Alternately, have the underwater scene also BE the drowning scene
+226. Add a Menu item for a map screen.
+	- Doesn't need to be implemented yet, just add the screen and menu items.
+227. Draw out the designs for the Map screen
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
