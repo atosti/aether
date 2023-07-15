@@ -281,6 +281,11 @@ Simple things to Work On:
 228. Absolutely FILL the world with detail. All interactables and NPCs should have at least a paragraph or two of dialogue.
 	- Add more generic NPCs who have lived experiences in the world and can elaborate on the history.
 	- Incorporate their feelings/emotions. What do they feel? Why? What options are they undertaking to counter the chaos?
+229. Think of areas where documents can be gathered for the player to read/examine.
+	- Libraries in Keeps/Castles
+	- Scrolls/letters sent and kept between main characters
+	- Notices posted at key crossroads to warn/guide locals/travelers
+	- Book collections held by the wealthy or well-read
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -1120,7 +1125,9 @@ Max line length is 39 characters.
 	d. Noble dialogue
 		"Were it not for the undead threat, we'd likely still be at war with the wizards."
 		"It's an uncomfortable truth we now face. And one that no one is soon to forget."
-
+	e. The Jester and the King should have a goofy dynamic.
+		- "This is my funny little emotional support guy."
+		- Perhaps reveal this at a later point? Via documents or stories from others/Sigmund himself?
 2. Farmlands
 3. Village
 	a. "For some, hope is the only form of survival."
@@ -1136,7 +1143,7 @@ Max line length is 39 characters.
 7. Lost City
 	a. "The workers yearned to build, but found no materials to do so. So they wandered."
 8. Lost Catacombs
-9. River colony
+9. River colony/Riverlands
 	a. "There's been more lightning lately. It's starting fires at unprecedented rates."
 		"Never heard of something so severe. Not even in my Grandfather's day."
 	b. Villager responding to why people obey the strictness of Velazquez's rule.
@@ -1144,7 +1151,6 @@ Max line length is 39 characters.
 		"Of course, the opposite is also true."
 			- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
 10. Western Lordship's Lands
-	a. Enemy: "My tears couldn't wash away the guilt... but your blood might!"
 11. Lordship's Keep
 	a. "Never engage in a fair fight."
 	b. Have an option to kill the wounded as you leave the Lord's castle.
@@ -1156,6 +1162,8 @@ Max line length is 39 characters.
 		"Not just to my keep, but to all the peasantry it serves."
 12. The Dungeon
 13. Eastern Lordship's Lands
+	a. Maddened Enemy: "My tears couldn't wash away the guilt... but your blood might!"
+	b. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
 14. Monastery
 	a. Threat from Neera to enemies:
 		Neera: "I had to lose an eye before the hidden truths revealed themselves to me."
@@ -1222,14 +1230,11 @@ Concepts:
 		- Die has a good sound for something that could work as a Game Over screen
 			~ Seems to use a violin + 4 notes on a duty for most of the track
 15. Player is ambushed by a bossfight by a boss riding in on horseback out of nowhere and triggering the fight.
-19. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
 20. Deciding whether to slay or spare enemies after fighting them in battle.
 	- Could have some characters ask for death. For honor, or because their armies are already decimated by you.
 	- Others could beg for life.
 	- Options could be "Converse" or "Kill" when interacting with them post battle.
 		~ Or "Slay" vs "Spare"
-21. The Jester and the King should have a goofy dynamic.
-	- "This is my funny little emotional support guy."
 22. Keep in mind how historians are unable to know of the intricate social details of people during their actual lives.
 	- Apply this to the history that you discover about the world around you. Vital details get left out. Pieces get misattributed and rearranged over time.
 24. A "Check-in" system for periodically talking to your party members. Allows you to talk with them and learn more about who they are and their histories.
