@@ -278,6 +278,9 @@ Simple things to Work On:
 226. Add a Menu item for a map screen.
 	- Doesn't need to be implemented yet, just add the screen and menu items.
 227. Draw out the designs for the Map screen
+228. Absolutely FILL the world with detail. All interactables and NPCs should have at least a paragraph or two of dialogue.
+	- Add more generic NPCs who have lived experiences in the world and can elaborate on the history.
+	- Incorporate their feelings/emotions. What do they feel? Why? What options are they undertaking to counter the chaos?
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -597,7 +600,7 @@ Character Names/Titles:
 	- One-armed Scout, Bandit Queen
 	- Formerly a masterful archer for the realm, she is significantly weaker having lost her arm and now wields a crossbow.
 	- "Kneel when you speak to her." - One of her loyal followers.
-13. ???, Bard, Minstrel
+13. ???, Bard, Minstrel (Edwyn?)
 	* Note: He's not meant to be a 'Moralizing Mike' character that shows up at the end and relays to the player all the 'bad' things they've done.
 	* He's meant to point out the futility of saving a world that the player themselves is actively destroying. And his disatisfaction with having to live in the remains.
 	* He's meant to humanize the world a bit. To add someone that responds to the sheer violence of the world around them.
@@ -2392,6 +2395,20 @@ Concepts:
 	- Farmer: "Most the folks 'round here won't make it past winter..."
 	- Farmer: "And the bandits won't make it much longer after that."
 	- Farmer: "Maybe we should salt the earth. Perhaps then they'd understand their predicament..."
+155. Rhymes from the Bard
+	- Note: This feels more Hip Hop style in the line construction, which might not be fitting for the Bard's demeanor.
+	Bard: "She put the Realm in a vice, bet she never thought twice,"
+		"Shanked her way to the top, she ain't here to play nice."
+	Bard: "Heard tales of the horrors, bestowed by her blade,"
+		"They pale in comparision to the terrors erased."
+	Bard: "Stranger to the people, she was born from zero,"
+		"Danger to the feeble, her scorn unlike a hero."
+156. Notes on the Fishing Village
+	- Add details from surrounding and previous areas about rumors in the fishing village.
+	- Have one core rumor be that it's an evacuation point from the mainland.
+		~ People are boarding boats casting off to islands in the surrounding area.
+	- Have there some truth to these claims, but by the time you arrive all the boats have left.
+	- Hence the mass suicide by those forced to remain.
 
 Combat System Ideas:
 ====================
