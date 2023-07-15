@@ -375,6 +375,8 @@ X. Alexandros (Recruit and save the wizard Alexandros.)
 		"I wonder what secrets his anguish revealed to him."
 X. His Lordship (Fight and kill the Lord, Velazquez.)
 	- Write this
+X. The Artist (Meet and talk with Giovanni)
+	- Write this. Detail his insights into rationalizing the Mad Wizard's actions/supposed destruction of the Great Tower. 
 X. Monastery (Reach the Monastery)
 	- Write this
 X. High Priest (Hunted and slew the High Priest)
@@ -1138,6 +1140,13 @@ Max line length is 39 characters.
 4. Forest
 	a. "The `Great War`? Nothing great about it. Just a lot of pain. And even more bodies we had to bury. "
 		"Didn't even get a chance to celebrate our meager victory."
+	b. Bandit: "You don't know of hardship. We had to pick over our comrade's bones for scraps and rations."
+		- Bandit: "Were it not for Vivian's guidance, most of us would've been lost in the ruins."
+		- Aylmera: "So you went from robbing the dead to robbing the living?"
+		- Bandit: "Pfft. You can't steal from those who hoard. You can only redistribute."
+		- Jester: "Do you think the vulture also rationalizes his actions to himself?"
+		- Bandit is angered.
+		- Bandit: "Bite your tongue, Jester! I know firsthand of your betrayal."
 5. Bandit Camp
 6. Caves
 7. Lost City
@@ -1150,6 +1159,9 @@ Max line length is 39 characters.
 		"People become resistant to predation when they feel safe."
 		"Of course, the opposite is also true."
 			- https://www.youtube.com/watch?v=8St36RjHd2E @ 38:39
+	c. Villagers discussing the "civility" and "order" provided by Velazquez
+		"It is oft civility which betrays our deepest hostilities. " "Don't you agree?"
+			- Misc line. It means that when someone is civil is when they're typically being the most hostile and aggressive.
 10. Western Lordship's Lands
 11. Lordship's Keep
 	a. "Never engage in a fair fight."
@@ -1164,6 +1176,7 @@ Max line length is 39 characters.
 13. Eastern Lordship's Lands
 	a. Maddened Enemy: "My tears couldn't wash away the guilt... but your blood might!"
 	b. Rivers running red with blood during a battle, which left behind a now beautiful stretch of flowers on either side of the bank.
+	c. Could have Giovanni (the artist) live in the outskirts here.
 14. Monastery
 	a. Threat from Neera to enemies:
 		Neera: "I had to lose an eye before the hidden truths revealed themselves to me."
@@ -1201,6 +1214,48 @@ Max line length is 39 characters.
 		- As such, the Priestess feels it's a good omen, and is eager to hear the spirit out.
 21. Aether Wasteland
 22. The Garrison
+	a. A conversation with the Eastern Coalition guardsmen on the opposite end of the Aether Ruins
+		Called out from the garrison: "What the... You there! HALT! Don't take another step forward."
+		*Aylmera stops walking* *Party appears from her, flanking her sides*
+		Guardsman: "Who are you? What do you want?"
+		Aylmera: "We're... just travelers." "We come on behalf of the Crown."
+		Guardsman: "..."
+		Guardsman: "Stay put. I'm coming down."
+		Guardsman: "*muffled* ...And don't open it again unless I give the word..."
+		*Large garrison door creaks open, with a single man exiting, before it promptly shuts behind him* (have sound effects for both opening and closing)
+		Guardsman: "*The man looks you up and down, with a discerning eye.* " "I ask again: What do you want?"
+		Aylmera: "I'm sorry, I don't understand... How... are you here?"
+		Guardsman: "How are we here?! How are YOU here? WHY are you here?"
+		Aylmera: "I- uh. We're just passing through."
+		Guardsman: "I don't know where the hell you're from, but no one simply 'passes through' the hellscape that is West of this garrison."
+			"So. Again: What. Are. You. Doing here?"
+		Aylmera: "I suppose we were hoping to... travel past your garrison?"
+		Guardsman: "No. Absolutely not."
+		Guardsman: "I've been stationed here since the day your tower erupted into blue flames."
+			"And in all those years, not a SINGLE lucid soul has ever approached this gate from the West."
+		Guardsman: "But now, all of a sudden, four people walk out from that wasteland as though it were nothing."
+			"And they want to pass through my gate?"
+			"You're a dangerous bunch. The door stays closed."
+		[You fear us?]
+			Guardsman: "Not while we're on this side of the garrison."
+				"And not with a dozen of my men aiming arrows at your skulls as we speak."
+		[We come in peace.]
+			Guardsman: "Peace? Is that how you refer to your genocide of a civil war?"
+				"A peaceful skirmish? You're beyond delusional."
+		Guardsman: "If, as you so boldy claim, you truly serve the Crown, then allow me to relay him a message."
+			"A message, in fact, from the Eastern Coalition:"
+		Guardsman: "He has failed to commune with the other member states by way of raven for well over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
+		Guardsman: "AND he has failed to contain the conflicts of his Kingdom to the confines of his own borders."
+		Guardsman: "Therefore, the coalition made a unanimous decision to excommunicate he and his lineage."
+		Guardsman: "This renders all prior agreements null and void."
+		Guardsman: "Should he make the foolish decision to enter coalition territory, he is to be promptly captured and executed for his crimes."
+			"Any questions? Or was that all clear enough for you?"
+		[The Eastern Coalition?]
+			Guardsman: "Yes. The Coalition of nations to which your Kingdom once belonged. Before you mindlessly waged war against yourselves."
+		[Two dozen seasons?]
+			Guardsman: "Yes. More than six years. All of our hails have been met with silence."
+		Guardsman: "Do yourself a favor, friends. Admit to yourselves you're lost. This ain't your home, you're not welcome here, so go back the way you came."
+		- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
 23. Royal Cemetary
 24. Ruined Royal Castle
 
@@ -1796,46 +1851,10 @@ Concepts:
 	- Line from a misc character. The idea here is that pain BEING escapable (at least temporarily) makes its presence all the more agonizing.
 	- If it were truly inescapable, then it might be easier to deal with. As there'd be a comfort in the inability to do anything about it.
 	- The fact that it CAN be mitigated, centers blame on the individual experiencing it. Because why CAN'T they prevent their own suffering?
-105. "It is oft civility which betrays our deepest hostilities."
-	- Misc line. It means that when someone is civil is when they're typically being the most hostile and aggressive.
 106. General note on the Jester
 	- He is primarily seen as his career (Jester) before he is seen as a person (Sigmund).
 	- As such, very few characters should ever refer to him by name. Most should simply call him 'jester'.
-108. A conversation with the Eastern Coalition guardsmen on the opposite end of the Aether Ruins
-	Called out from the garrison: "What the... You there! HALT! Don't take another step forward."
-	*Aylmera stops walking* *Party appears from her, flanking her sides*
-	Guardsman: "Who are you? What do you want?"
-	Aylmera: "We're... just travelers. We come on behalf of the Crown."
-	Guardsman: "..."
-	Guardsman: "Stay put. I'm coming down."
-	Guardsman: "*muffled* ...And don't open it again unless I give the word..."
-	*Large garrison door creaks open, with a single man exiting, before it promptly shuts behind him* (have sound effects for both opening and closing)
-	Guardsman: "*The man looks you up and down, with a discerning eye.* What do you want?"
-	Aylmera: "I'm sorry, I don't understand... How... are you here?"
-	Guardsman: "How are we here?! How are YOU here? WHY are you here?"
-	Aylmera: "Like I said, we're just passing through."
-	Guardsman: "No one 'passes through' that hellscape out West. So I ask you, once again: Why. Are. You. Here?!"
-	Aylmera: "I suppose we were hoping to... enter into your garrison?"
-	Guardsman: "No. Absolutely not."
-	Guardsman: "I have been stationed here since the day your tower erupted into blue flame."
-		"And in all that time, not a SINGLE human has ever approached us from the West."
-	Guardsman: "But now, all of a sudden, four people walk out from that wasteland as though it were nothing."
-		"'Simple travelers' out on a hike. The door stays closed."
-	[You fear us?]
-		Guardsman: "Not while you're on this side of the garrison. And not with a dozen of my men aiming arrows at your skull as we speak."
-	[We come in peace.]
-		Guardsman: "Peace? Is that how you refer to your genocidal civil war? A peaceful skirmish? You're delusional."
-	Guardsman: "If, as you so boldy claim, you truly serve the Crown, then allow me to relay him a message from the Eastern Coalition:"
-	Guardsman: "He has failed to commune with us by way of raven for well over two dozen seasons." (For context, he stopped sending updates BEFORE the Great Explosion. As the Coalition disapproved of his war against the wizards.)
-	Guardsman: "AND he has failed to contain his Kingdom's conflicts to the confines of his own borders."
-	Guardsman: "Therefore, he and his lineage have been excommunicated, and all prior agreements rendered void."
-	Guardsman: "Should he make a foolish attempt to enter our borders, he is to be promptly executed for his crimes. Any questions?"
-	[The Eastern Coalition?]
-		Guardsman: "Yes. The Coalition of nations, to which your Kingdom once belonged. Before you mindlessly waged war against yourselves."
-	[Two dozen seasons?]
-		Guardsman: "Yes. A little over six years. All of our hails have been met with silence in that timeframe."
-	Guardsman: "You're lost, friend. This ain't your home, and you are NOT welcome here. Go back the way you came."
-	- Note: The Guard should stay outside the gate (leaving it shut) until you leave the zone. Upon returning, it should be closed shut, with no one outside and with no further communication possible.
+	- It's mainly the other members of the party which should refer to him by name.
 109. Side note for the Lost Paladin
 	* Note: Give the paladin a custom avatar. Make him feel important, but don't explain or elaborate on why.
 		~ A cross or bible might work well for this.
@@ -2109,13 +2128,6 @@ Concepts:
 	- Alexandros: *Pauses* (...) "I... huh..."
 	- CoM: *The man waves you away dismissively.* *He walks away.*
 	- *Alexandros rejoins the party*
-129. Bandit: "You don't know of hardship. We had to pick over our comrade's bones for scraps and rations."
-	- Bandit: "Were it not for Vivian's guidance, most of us would've been lost in the ruins."
-	- Aylmera: "So you went from robbing the dead to robbing the living?"
-	- Bandit: "Pfft. You can't steal from those who hoard. You can only redistribute."
-	- Jester: "Do you think the vulture also rationalizes his actions to himself?"
-	- Bandit is angered.
-	- Bandit: "Bite your tongue, Jester! I know firsthand of your betrayal."
 130. "I don't know what you think you're doing here, but it's not helping."
 131. Conversation about Velazquez
 	- "When the hordes first swarmed up North, most the smaller villages got swallowed up."
