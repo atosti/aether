@@ -2429,6 +2429,9 @@ Concepts:
 		~ People are boarding boats casting off to islands in the surrounding area.
 	- Have there some truth to these claims, but by the time you arrive all the boats have left.
 	- Hence the mass suicide by those forced to remain.
+157. Historical quote about esteemed warrior/general who avoided disadvantaged battles
+	- In retort to critics of his unwillingness to initially fight:
+	"I fear not the opinions of my enemies. Let them call me a coward today. For it shall sting when I defeat them tomorrow."
 
 Combat System Ideas:
 ====================
