@@ -2432,6 +2432,12 @@ Concepts:
 157. Historical quote about esteemed warrior/general who avoided disadvantaged battles
 	- In retort to critics of his unwillingness to initially fight:
 	"I fear not the opinions of my enemies. Let them call me a coward today. For it shall worsen the sting they feel when I defeat them tomorrow."
+158. Literature Checks
+	- Have certain characters or dialogue scenarios where the player is asked "Have you read X book?"
+		~ Then prompt them with "Yes" or "No", and then actually check whether they've read it to give an answer.
+		~ E.g. "You needn't lie to me, child." if they haven't and attempt to say they have.
+		~ Perhaps even perform the check prior to showing the dialogues in order to show "Yes (Lie)", etc.
+
 
 Combat System Ideas:
 ====================
