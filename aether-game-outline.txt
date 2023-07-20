@@ -2431,7 +2431,7 @@ Concepts:
 	- Hence the mass suicide by those forced to remain.
 157. Historical quote about esteemed warrior/general who avoided disadvantaged battles
 	- In retort to critics of his unwillingness to initially fight:
-	"I fear not the opinions of my enemies. Let them call me a coward today. For it shall sting when I defeat them tomorrow."
+	"I fear not the opinions of my enemies. Let them call me a coward today. For it shall worsen the sting they feel when I defeat them tomorrow."
 
 Combat System Ideas:
 ====================
@@ -2595,6 +2595,7 @@ History:
 ========
 1. Historical context for how a kingdom is run, and the chaos that ensues.
 	https://en.wikipedia.org/wiki/A_Distant_Mirror
+2. The Alexiad
 
 
 GB Studio:
