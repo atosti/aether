@@ -2437,7 +2437,34 @@ Concepts:
 		~ Then prompt them with "Yes" or "No", and then actually check whether they've read it to give an answer.
 		~ E.g. "You needn't lie to me, child." if they haven't and attempt to say they have.
 		~ Perhaps even perform the check prior to showing the dialogues in order to show "Yes (Lie)", etc.
-
+159. Jester's distress after seeing the King die and the castle fall
+	Jester: "Alexandros. Aylmera. Neera."
+	Jester: "I owe you each an apology."
+	Alexandros: *Questioningly (?)* "What ever do you mean, Sigmund?"
+	Jester: "Having seen the body of the King: I recognized something."
+	Jester: "In death, he wore a peaceful smile upon his face."
+	Jester: "An expression I hadn't seen him wear in many years."
+	Jester: "Since before the attempts on his life."
+	Jester: "Indeed, in the years after, he wore a mask of his disposition upon his face."
+	Jester: "A mask, like those of comedy and tragedy, and yet I was too blind to see it."
+	Jester: "Too driven by my prior loyalties. Too fearful of being a fool."
+	Jester: "Now I understand. His face smiled falsely, while his eyes burned with flames of hatred."
+	Jester: "In his conquest of the Wizards, he only ever sought revenge."
+	Alexandros: *Questioningly (?)* "You're too hard on yourself, Jester. Your hindsight has burdened you."
+	Jester: "No. I shouldn't have permitted him to send us on this quest."
+	Jester: "Nor should I have allowed him to wage that damned war in the first place."
+	Jester: "It's been a mistake all along."
+	Neera: *Smiles* "Indeed it may appear so. And yet..."
+	Neera: "Many things are kept from mortal sensibilities."
+	Neera: "You know, I once compelled the Lord to share with me my own destiny."
+	Neera: "At first he ignored my request. So I locked myself in my chambers and sat silently in protest."
+	Neera: "Fasting and meditating for days on end, I ignored his ramblings, instead repeating my query in the form of chant."
+	Neera: "When I had finally grown delirious, he spoke to me in the dead of night."
+	Neera: "The cacophany of his voices quieted all at once, and a single mouth spoke softly in my ear:"
+	Neera: "'Sweet daughter. To spoil thy fate would rob you of all its lessons."
+	Neera: "Were it not valuable, I shan't have sent you to fulfill it.'"
+	Neera: *Smiles warmly* "Your role in the play of life was not to halt our quest, dear Jester, but indeed to spur it."
+	Jester: *Nods/Thumbs Up* "Then we should finish what we've started. The Realm depends on us."
 
 Combat System Ideas:
 ====================
