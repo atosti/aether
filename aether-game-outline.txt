@@ -293,6 +293,12 @@ Simple things to Work On:
 231. Design the UI element for controlling player stances (Defensive/Offensive)
 	- A square in the bottom-left corner which displays either a Shield or a Sword icon.
 	- Come up with a clear/concise way to label it. Because "Stance" is likely too verbose to fit above it neatly.
+232. Create a simple HP bar or system for the player
+	- Either use hearts, or a dimishing lifebar, or something new?
+	- Would love to add flavor to this to have it represent your Morale, or Fortitude, etc.
+	- Also, aim to reduce the amount of screen space dedicated to this item.
+233. Add large boss HP bars.
+	- Dark Souls style at the top of the screen would be cool.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
