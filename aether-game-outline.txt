@@ -289,6 +289,7 @@ Simple things to Work On:
 	- Notices posted at key crossroads to warn/guide locals/travelers
 	- Book collections held by the wealthy or well-read
 		~ Giovanni could have a villa with a well-stocked library
+230. Add a music toggle variable (and menu option) that is checked prior to playing any music tracks.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
