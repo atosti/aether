@@ -290,6 +290,9 @@ Simple things to Work On:
 	- Book collections held by the wealthy or well-read
 		~ Giovanni could have a villa with a well-stocked library
 230. Add a music toggle variable (and menu option) that is checked prior to playing any music tracks.
+231. Design the UI element for controlling player stances (Defensive/Offensive)
+	- A square in the bottom-left corner which displays either a Shield or a Sword icon.
+	- Come up with a clear/concise way to label it. Because "Stance" is likely too verbose to fit above it neatly.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
