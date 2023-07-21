@@ -14798,6 +14798,14 @@
                             "id": "61b13b0e-23c5-4da4-86b8-653e01befb61"
                         },
                         {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.1,
+                                "frames": 30
+                            },
+                            "id": "cb87a954-769f-43b1-bc49-2c2e967c4f7e"
+                        },
+                        {
                             "command": "EVENT_ACTOR_SET_FRAME",
                             "args": {
                                 "actorId": "$self$",

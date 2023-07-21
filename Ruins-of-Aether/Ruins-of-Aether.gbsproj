@@ -14801,7 +14801,8 @@
                             "command": "EVENT_WAIT",
                             "args": {
                                 "time": 0.1,
-                                "frames": 30
+                                "frames": 30,
+                                "__collapse": true
                             },
                             "id": "cb87a954-769f-43b1-bc49-2c2e967c4f7e"
                         },
@@ -58343,7 +58344,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "projectiles\\swipe.png",
-            "checksum": "be779d6d6c0c66369dc765b250af43d0d2c1019a",
+            "checksum": "de33216ea40da71b23b243dcdf6aad997e626391",
             "width": 48,
             "height": 64,
             "states": [
@@ -58558,34 +58559,7 @@
                             "frames": [
                                 {
                                     "id": "0573e4c3-a846-4c83-b35a-d88ca4bfaecc",
-                                    "tiles": [
-                                        {
-                                            "id": "fb7c32dc-dcd1-4f70-abda-22b39fdf47e4",
-                                            "x": -8,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "46734ebe-0861-4bb8-98f3-de0d7601d69b",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        }
-                                    ]
+                                    "tiles": []
                                 }
                             ]
                         },
@@ -58603,34 +58577,7 @@
                             "frames": [
                                 {
                                     "id": "ccc87516-f175-4a46-a3e9-2ab8af509e78",
-                                    "tiles": [
-                                        {
-                                            "id": "1af46c2a-ad05-48ab-93c8-a471a48dd33e",
-                                            "x": -8,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "0eb0faec-7a22-4d36-9a7c-12784430c0d6",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        }
-                                    ]
+                                    "tiles": []
                                 }
                             ]
                         },
@@ -58639,34 +58586,7 @@
                             "frames": [
                                 {
                                     "id": "e1932207-56bb-4e8e-a59c-715523499b9f",
-                                    "tiles": [
-                                        {
-                                            "id": "28da6f03-fc22-42ba-a13f-463d67e16228",
-                                            "x": -8,
-                                            "y": 0,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "68986f3d-8649-475f-a48d-f8da8628c8d1",
-                                            "x": 0,
-                                            "y": 0,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        }
-                                    ]
+                                    "tiles": []
                                 },
                                 {
                                     "id": "e9f2af03-fcdf-4f41-8e85-4fa35bd20368",
