@@ -2490,7 +2490,7 @@ Concepts:
 	- Aylmera: "Aren't you at least worried about tending to your fields?"
 	- Farmer: "Pfft. You nobles drown yourselves in wine and delicacies for decades without issue."
 	- Farmer: "Draining US of everything we've ever worked for."
-	- Farmer: "But the moment a working man takes a day to himself, indulging in life's... finer things..."
+	- Farmer: "But the moment a farmer takes a day to himself, indulging in life's... finer things..."
 	- Farmer: "Then, suddenly it's the business of the Crown!"
 	- Farmer: *Mockingly* "Suddenly, the nobles become experts on the specifics of agriculture!"
 	- Farmer: *Pauses (...)*
