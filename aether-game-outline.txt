@@ -299,7 +299,30 @@ Simple things to Work On:
 	- Also, aim to reduce the amount of screen space dedicated to this item.
 233. Add large boss HP bars.
 	- Dark Souls style at the top of the screen would be cool.
-234. Create an emote for drunkenness
+		~ But screen-length bars are too massive in terms of sprite count.
+	- Consider how you want a player to recognize that damage is dealt.
+		a. A noise is played when an enemy is hit.
+		b. The enemy flashes all white for a brief moment? (With an outline, though.)
+			~ This requires sprites for all of their stances to be drawn as outlines as well.
+			~ Consider how the LoZ handled this by reversing color schemes.
+			~ Maybe simply a sprite palette swap for a moment is better. It involves SIGNIFICANTLY less sprites.
+		c. The HP bar should also flash, or have some sort of feedback.
+			~ Modern bosses tend to have the tip of the remaining HP flash.
+		d. How much should an HP bar chunk down at a time? Can I show all miniscule damage, or only once it's reached milestones (1/10th, 1/2, etc.)?
+			~ If damage is ever received, the HP bar needs some sort of visual feedback (even if it doesn't visually move), such as flashing all white for a moment.
+		e. Is there a way to NOT have an HP bar, but still communicate damage?
+			~ Having an enemy get progressively more bloodied/beaten would be cool, but would AGAIN, require lots of duplicate sprites.
+		f. Also, consider designing for multi-phased bosses.
+			~ This will add a lot of depth to the fights as well as add a sense of progression.
+234. Design/Draw sprites for the player's attack and guard types
+	Attack Types
+	a. Quick swing/swipe, Left to right (Tap A)
+	b. Slower overhead swing, Raise sword over right shoulder, then Right to Left swing downward (Forward + A)
+	Guard Types
+	* This needs work, direction + B can't be roll, because then how would you approach while holding a guard? Unless guarding is just a quick parry or a dodge roll.
+	a. (Tap/Hold B)
+	b. Dive roll in a direction, character locked into animation during/after (Direction + B?)
+235. Create an emote for drunkenness
 	- Maybe like Flushed cheeks?
 	- A bottle?
 	- Something that seems reminiscent of hiccups?
@@ -1148,6 +1171,32 @@ Max line length is 39 characters.
 		- "This is my funny little emotional support guy."
 		- Perhaps reveal this at a later point? Via documents or stories from others/Sigmund himself?
 2. Farmlands
+	a. A drunk farmer's self-reflection
+		* Aylmera/Jester approach a happy, drunken man in the Farmlands' pub.
+		- Aylmera: "You seem rather jovial. What's the occasion?"
+		- Farmer: "The occasion? I suppose I'm celebrating the end of times."
+		- Farmer: *Smiles softly*
+		- Jester: "That's something worth celebrating?"
+		- Farmer: "Why the hell wouldn't it be? I'm living to see it!"
+		- Farmer: "You expect me to pick up a sword and change things? I've no interest in fighting another man's war."
+		- Aylmera: "Aren't you at least worried about tending to your fields?"
+		- Farmer: "Pfft. You nobles drown yourselves in wine and delicacies for decades without issue."
+		- Farmer: "Draining US of everything we've ever worked for."
+		- Farmer: "But the moment a farmer takes a day to himself, indulging in life's... finer things..."
+		- Farmer: "Then, suddenly it's the business of the Crown!"
+		- Farmer: *Mockingly* "Suddenly, the nobles become experts on the specifics of agriculture!"
+		- Farmer: *Pauses (...)*
+		- Farmer: "You really wanna know what my fields are like?"
+		[Yes.]
+			- Farmer: "The best of this year's harvest was wilted and shriveling long before ever being ripe."
+			- Farmer: "I left the rest to rot on the vine."
+		[No.]
+			- Farmer: "Well aren't you an asshole. At least you're honest about it."
+		- Farmer: "All anyone's got left is what we wisely fermented some winters ago..."
+		- Farmer: *The man raises his glass in your direction.* "So, cheers! To the longevity of the Realm, and its dishonorable King!"
+		- Farmer: *Laughs*
+		- Aylmera: "Whatever you say, friend."
+		(Upon talking again after) *You decide not to bother him further. There's no point in disrupting his joy.*
 3. Village
 	a. "For some, hope is the only form of survival."
 	b. A scene (cut-away to a full portrait) of a pig laying down in the grass drinking a beer.
@@ -2479,32 +2528,6 @@ Concepts:
 	Neera: "Were it not valuable, I shan't have sent you to fulfill it.'"
 	Neera: *Smiles warmly* "Your role in the play of life was not to halt our quest, dear Jester, but indeed to spur it."
 	Jester: *Nods/Thumbs Up* "Then we should finish what we've started. The Realm depends on us."
-151. A drunk farmer's self-reflection
-	* Aylmera/Jester approach a happy, drunken man in the Farmlands' pub.
-	- Aylmera: "You seem rather jovial. What's the occasion?"
-	- Farmer: "The occasion? I suppose I'm celebrating the end of times."
-	- Farmer: *Smiles softly*
-	- Jester: "That's something worth celebrating?"
-	- Farmer: "Why the hell wouldn't it be? I'm living to see it!"
-	- Farmer: "You expect me to pick up a sword and change things? I've no interest in fighting another man's war."
-	- Aylmera: "Aren't you at least worried about tending to your fields?"
-	- Farmer: "Pfft. You nobles drown yourselves in wine and delicacies for decades without issue."
-	- Farmer: "Draining US of everything we've ever worked for."
-	- Farmer: "But the moment a farmer takes a day to himself, indulging in life's... finer things..."
-	- Farmer: "Then, suddenly it's the business of the Crown!"
-	- Farmer: *Mockingly* "Suddenly, the nobles become experts on the specifics of agriculture!"
-	- Farmer: *Pauses (...)*
-	- Farmer: "You really wanna know what my fields are like?"
-	[Yes.]
-		- Farmer: "The best of this year's harvest was wilted and shriveling long before ever being ripe."
-		- Farmer: "I left the rest to rot on the vine."
-	[No.]
-		- Farmer: "Well aren't you an asshole. At least you're honest about it."
-	- Farmer: "All anyone's got left is what we wisely fermented some winters ago..."
-	- Farmer: *The man raises his glass in your direction.* "So, cheers! To the longevity of the Realm, and its dishonorable King!"
-	- Farmer: *Laughs*
-	- Aylmera: "Whatever you say, friend."
-	(Upon talking again after) *You decide not to bother him further. There's no point in disrupting his joy.*
 152. Consider adding an encounter or world-lore about Drunken wolf attacks
 	- Just like in real life, this would be a result of farmer's leaving fruits (e.g. grapes) on the vine, them starting to rot/ferment, and wild wolves eating them.
 	- The result would be an enemy type, AND that some locals are fearful of being attacked. Or even barricading themselves in their homes.
