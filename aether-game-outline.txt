@@ -316,11 +316,15 @@ Simple things to Work On:
 			~ This will add a lot of depth to the fights as well as add a sense of progression.
 234. Design/Draw sprites for the player's attack and guard types
 	Attack Types
+	-------------
 	a. Quick swing/swipe, Left to right (Tap A)
 	b. Slower overhead swing, Raise sword over right shoulder, then Right to Left swing downward (Forward + A)
 	Guard Types
+	-------------
 	* This needs work, direction + B can't be roll, because then how would you approach while holding a guard? Unless guarding is just a quick parry or a dodge roll.
-	a. (Tap/Hold B)
+	a. Lift sword into a guard stance for a minimum amount of time, then can be held indefinitely. (Tap/Hold B)
+		- If sword raised within a certain time from of an attack landing on the player, then they parry, and get invuln frames allowing them to move forward?
+		- Otherwise, it blocks damage, but pushes the player AWAY from the direction of the attack (and their opponent).
 	b. Dive roll in a direction, character locked into animation during/after (Direction + B?)
 235. Create an emote for drunkenness
 	- Maybe like Flushed cheeks?
