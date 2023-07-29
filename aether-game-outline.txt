@@ -2574,7 +2574,7 @@ Concepts:
 		- LN: "Thanks, stranger. My name's Eustace, by the way."
 		- Aylmera: "I'm Aylmera." *smiles*
 	[Absolutely not.]
-		- LN: "Hm. Guess it was a long shot anyhow. Regardless..."
+		- LN: "Hm. I guess it was a long shot anyhow..."
 	- LN: "Its been a pleasure speaking with you."
 	- LN: "I hope you find whatever it is you're looking for all the way out here."
 
