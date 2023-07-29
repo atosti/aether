@@ -2535,6 +2535,48 @@ Concepts:
 152. Consider adding an encounter or world-lore about Drunken wolf attacks
 	- Just like in real life, this would be a result of farmer's leaving fruits (e.g. grapes) on the vine, them starting to rot/ferment, and wild wolves eating them.
 	- The result would be an enemy type, AND that some locals are fearful of being attacked. Or even barricading themselves in their homes.
+153. Nobles, their influence, and their opinions.
+	- Nobles should be encountered throughout the lands.
+	- They are concerned with bottom lines: Stability, money, and luxury.
+	- But they're also individuals, who are always considering their loyalties.
+154. Leper Noble
+	- LN: "Traveler. Could you spare a coin?"
+	- Aylmera: "Sorry. I've nothing on me."
+	- LN: "Ah. Then we've more in common than I thought."
+	- LN: *Warm smile*
+	- LN: "You know, I wasn't always the beggar you see before you."
+	- LN: "Prior to my own family exiling me from my home, I was quite wealthy."
+	- LN: "For many decades I ran some of the most successful vineyards in the realm."
+	- Aylmera: "They exiled you just for being a leper?"
+	- LN: *Laughs* "Hahaha. No, of course not. Well... maybe it played a role."
+	- LN: "It certainly gave them a great excuse. But they'd wanted to oust me for years."
+	- LN: "At least they had the honor not to slash my throat."
+	- LN: *Pauses (...)*
+	- LN: "Though I would've appreciated some more coin in my pocket before I left."
+	- Aylmera: "So why did they oust you, then?"
+	- LN: "Same reasons anyone does. Money and power. Plus the extent of my lands."
+	- LN: "You see, my sister married a conniving knight. A real snake of a man."
+	- LN: "As her brother, I thought her loyalties would lay with me when our father died."
+	- LN: "But alas, she'd foolishly succumbed to her husband's charm."
+	- LN: "And made plans to depose me."
+	- LN: "Thus, when I fell ill, they were quick to banish me."
+	- LN: "Bastards didn't even let me take some books with me."
+	- Aylmera: "That's awful. I wouldn't know what to think of my family were I in your place."
+	- LN: "Indeed. I've had many years to think all manner of ways about it."
+	- LN: "Were my body not so destroyed, I might seek out revenge."
+	- LN: *Has an idea (Lightbulb!)*
+	- LN: "Actually, perhaps you could assist me with that..."
+	- LN: "Should you find yourself in the Calloway manor, steal my copy of 'The Centennial King'."
+	- LN: "Out of my entire library, that was my most prized possession."
+	- LN: "Keep it, burn it, pawn it. It doesn't matter."
+	- LN: "As long as it's kept from my sister's undeserving hands."
+	[Absolutely.]
+		- LN: "Thanks, stranger. My name's Eustace, by the way."
+		- Aylmera: "I'm Aylmera." *smiles*
+	[Absolutely not.]
+		- LN: "Hm. Guess it was a long shot anyhow. Regardless..."
+	- LN: "Its been a pleasure speaking with you."
+	- LN: "I hope you find whatever it is you're looking for all the way out here."
 
 Combat System Ideas:
 ====================
