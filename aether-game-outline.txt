@@ -2283,31 +2283,31 @@ Concepts:
 	[You're cursed.]
 		~ Neera: "I admire your doubt, but I'm already certain of my role in this matter."
 137. Confrontation with an adversary
-	- Enemy: "Where were you to proselytize when I murdered for sport?"
-	- Enemy: "You should be wary of scolding those who wish you harm."
-	- Enemy: "Shall I teach you such a valuable lesson?"
+	- Enemy: "Ha! Where were you to proselytize when I murdered for sport?"
+	- Enemy: "You should be wary of scolding those who pose a threat. 'Never poke a sleeping bear'?"
+	- Enemy: "Allow me to teach you such a valuable lesson!"
 138. Mindset of the bandits
 	- Aylmera: *Refers to the opposition as 'bandits'*
-	- Bandit: "You call us bandits. Yet I doubt you know what such a word even means."
-	- Bandit: "It stems from 'to be banished'. Sometimes we're called outlaws. Those 'outside the law'."
-	- Bandit: "And yet... we are far from lawless."
+	- Bandit: "You call us 'bandits'. Yet I doubt you know what such a word even entails."
+	- Bandit: "It stems from 'one who is banished'. Others tend to call us outlaws. You know, those 'outside the law'."
+	- Bandit: "And yet... we are far from lawless. And we are far from banished."
 	- Bandit: "Indeed the Crown has denounced us. But under what authority does he rule?"
 	- Bandit: "He leads a broken kingdom lacking morals. Even the wizards saw that."
 	- Bandit: "And now we hear rumors from up North. They say the priests no longer hear the voice of God."
-	- Bandit: "I think even the almighty is having doubts."
-	- Aylmera: "You sound like little more than selfish opportunists."
-	- Bandit: *Angry frown*
-	- Bandit: "It's a shame you're so blinded by your loyalties. We're making real progress here.'"
-	- Bandit: "Nevertheless, you'll understand in due time."
+	- Bandit: "See, I think even the almighty is having doubts about our leadership."
+	- Aylmera: "Nonsense. You sound like little more than selfish opportunists."
+	- Bandit: *Angrily frowns*
+	- Bandit: "It's a shame you're so blinded by your loyalties. We're on the verge of making real progress here.'"
+	- Bandit: "Nevertheless, you'll understand in due time. Our Queen will usher in an era of stability and abundance."
 139. Aylmera's questions about her revivial
 	- Aylmera: "Wizard. What do you know of the ritual that summoned me?!"
-	- Aylmera: "My limbs ache! My body fails me. And my memories are scattered at best."
-	- Aylmera: "I'm owed an explanation. Tell me what you know."
+	- Aylmera: "My limbs ache! My body fails me as my eyes stream blood! And my memories have become scattered."
+	- Aylmera: "I'm owed an explanation! Tell me what you know."
 140. The Butcher
-	- Player: "I heard your enemies call you 'The Butcher'.
-	- Butcher: "No. They don't. My friends call me that."
+	- Player: "I heard your enemies call you a vile name: 'The Butcher'.
+	- Butcher: "No. You've misheard. My enemies don't call me that. But my friends do."
 		~ Alternately: "You heard wrong. It's my friends who call me that."
-	- Butcher: "My enemies know me by many other names: Killer. Cannibal. Rapist."
+	- Butcher: "No... My enemies know me by many other names. Killer. Cannibal. Rapist."
 	- Butcher: "Given the opportunity... I wonder which title you'll choose for me." *Smiles wickedly*
 	* Engages the player, triggering battle *
 141. Lone Ramparts Guard
@@ -2365,57 +2365,58 @@ Concepts:
 	[Elif Accept.]
 		Hermit: "I know you can't possibly be him, yet... you bear his remarkable stench."
 145. Vivian on the night of the Great Explosion
-	- Vivian: "You can't imagine the death that I saw. That WE saw. We followed that idiot King and his son into a brutal war. And what was our prize?"
-		"My arm still lies on that battlefield, along with the bones of my brethren."
-   		"Nothing you say can excuse those facts. The King's wishes brought us to the precipe of ruin."
-		"If you truly serve him, then you must be stopped."
+	- Vivian: "You can't imagine the death that I saw. That WE saw. As we followed that idiot King and his foolish son into a brutal war. And what was our grand prize?"
+		"No victory. No medals. Not even a break from the bloodshed."
+		"My arm still lies on that battlefield, along with the shattered bones of my brethren."
+   		"Nothing you say will excuse those facts. The King's wishes brought us to the precipe of ruin."
+		"So... if you truly serve him, then you must be stopped."
 146. Jester's relationship with the King and comments on Morcant
-	- Jester: "I've known the King a long time... I consider him one of my closest friends. But after his son was born, I saw a glimpse of something even better than he."
-	"A brighter future for us all. That boy grew into a man more capable and noble than even his father. His intuition was unrivaled, and his heart pure."
-	"The King could see it. And it filled him with immense pride. But that same pride is what led the King astray."
-	"He couldn't be dissuaded from war with the wizards. And his son, eager to please his father, led the final charge. The one that blew up the Tower."
-	"I saw the destruction it wrought, not just on the Realm, but on the King himself. He tried to reassemble the crumbling pieces, but, much like a broken mirror: the pieces could no longer be made whole again."
-	"He lacks the resources... and the prowess... to remedy this situation. I sometimes wish the Prince were here in his stead."
-	"The Aether robbed us of a deserving King. Of one who could fix this mess."
+	- Jester: "I've known the King a long time... I consider him my closest friend. But after his son was born, I saw a glimpse of something even better than he."
+	"A brighter future for us all. That boy grew into a man more capable and noble than even his father. With intuition unrivaled, and a heart so pure."
+	"The King could see it too. It filled him with immense pride. But that same pride is what led him astray."
+	"He couldn't be dissuaded from war with the wizards. And his son, eager to please father, led the final charge. The one that felled the Tower."
+	"I saw the destruction it wrought, not just on the Realm, but on the King himself. He tried to reassemble the crumbling pieces, but much like a broken mirror: the picture could no longer be made whole."
+	"And now he lacks the resources, and prowess, to remedy this situation. I think he sometimes wishes the Prince were here in his stead."
+	"The Aether robbed us of a deserving King. Of one who could remedy this whole mess."
 		- The Jester coming to terms with how the King is unfit to rule.
 147. High Priest toward Neera
-	- High Priest: "You've proven unworthy of the gifts the Church has provided."
-	- High Priest: "You'll understand when I rip that eye from your socket."
-	- Neera: *Laughs* "I've meditated on this moment before, and God has shown me visions..."
+	- High Priest: "You've proven unworthy of the gifts the Church has bestowed you."
+	- High Priest: "I'll be sure you understand when I rip that eye from its socket."
+	- Neera: *Laughs* "I've meditated on this moment before, and God has shown me ample visions..."
 	- Neera: *Evil smile* "Of your death."
 	* Combat starts*
 148. Bard's Rhymes/Encounters
-	* He should make reference here to the ancient ritual of divine penance and resurrection (which Aylmera is taking part in, unbeknownst to her)
+	* He should make reference here to the ancient ritual of Divine Penance and resurrection (which Aylmera is taking part in, unbeknownst to her)
 	a. Bard: *Musical note* "Deep below, the spirits listen: hearing songs of old. 
-			A chant, a tale, of those forgiven, they do as they're told.
-			A chance above with newfound vision, flesh enrobes the soul.
+			A chant, a tale, of those forgiven, should they do as told.
+			A chance above with newfound vision, flesh enrobes their souls.
 			Wander free, yet not too far, for penance pays the toll."
 	   Aylmera: "You have a beautiful voice. Did you write that piece?"
-	   Bard: "No. It's a traditional tune, from long ago. Though I'm glad you enjoyed it."
-	   		 "Do you know what it's about?"
+	   Bard: "Thank you. And no. It's a traditional tune, from long ago. Though I'm glad you enjoyed it."
+	   		 "Do you think you know what it's about?"
 	   [Love.]
-			Bard: "Maybe. It sounds compassionate. Yet it's strange for them to mention penance at the end."
+			Bard: "Maybe. It certainly sounds compassionate. Yet it'd be strange for them to mention penance then, no?"
 	   [Pain.]
-		   Bard: "Hmmm. It certainly sounds somber. But the tune is rather upbeat."
-		Bard: "I think it has to do with desiring change. Everyone's following a pattern. But what if they want something else?"
-			  "I dunno. I'm just the performer. I didn't write the damn thing."
+		   Bard: "Hmmm. It certainly sounds somber. But the tune is rather upbeat for such bleak subject matter."
+		Bard: "I think it has to do with desiring change. Everyone's following a path. But what if they want something else? What if they forge anew?"
+			  "I dunno. Sometimes I spend too long with the lyrics in my mind, they poison my thoughts. I'm just the performer. I didn't write the damn thing."
 149. Reflections from a stranger
-	"When you die, and your soul awakens in whatever follows this life: What will you think of all your possessions you once held dear?"
+	"When you die, and your soul awakens in whatever follows this life: What will you think of all the possessions you once held dear?"
 150. Reflections on the Lost City
-	- Leper: "This place used to be quite impressive before it was the rubble you see before you."
-	- Leper: "The stories from the old timers are, frankly, unbelieve."
+	- Leper: "This place used to be rather impressive before it was the rubble you see before you."
+	- Leper: "The stories from the old timers are, frankly, unbelievable."
 	- Leper: "They say aqueducts brought fresh water to the door of each home."
-	- Leper: "That the buildings rose 10 stories into the air."
-	- Leper: "Described it as the most peaceful city in the Realm. A place where freedom and creativity thrived."
+	- Leper: "That some of the buildings rose as high as 10 stories!"
+	- Leper: "Consensus is it was the most peaceful city in the Realm. A place where both freedom and creativity could thrive."
 	- Aylmera: "So what happened to it?"
-	- Leper: "Same as the Great Tower. Wizards lit the place on fire. Burned it 'til it was ash."
-	- Leper: "It wasn't all at once. Took them about a fortnight to kill and route every soldier. But they did it."
-	- Aylmera: "Why'd they "
+	- Leper: "Same as the Great Tower. Wizards lit the place on fire. Burned it to little more than ash."
+	- Leper: "Not all at once, mind you. Took them about a fortnight to kill and rout every soldier. But they did it."
+	- Aylmera: "Why in the heavens would they do that?"
 	- Leper: "Beats me. Some say it was a vendetta. Others say it was a blood sacrifice for some large ritual..."
 	- Leper: *Laughs*
 	- Leper: "One story even says it was a lover's quarrel! Wouldn't that be a helluva thing?"
 	- Leper: "But, you know how people talk. Can't take anything they say at face value."
-	- Leper: "Don't matter much now. No one visits it but those with nowhere else to go."
+	- Leper: "Don't matter much now anyhow. The only visitors here are those left with nowhere else to go."
 151. Confronting Alexandros for his loyalties to the Mad Wizard
 	- Aylmera: "Alexandros. We need to talk about the Mad Wizard."
 	- Aylmera: "Why did you follow a man with such a destructive past?"
