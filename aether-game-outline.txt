@@ -571,6 +571,12 @@ Main Antagonists:
 
 Character Names/Titles:
 =============================
+Core theme: "Being forced into Nihilism."
+	- Everything should tie into this.
+		~ Trying to push yourself to do good, or do ANYTHING substantial, and being forced to face how little it matters.
+		~ Learning to evaluate what DOES matter. Reflecting on what will persist despite your efforts.
+
+
 * Denotes personality traits to assist with writing dialogue.
 	- Note: Almost everyone should have at least a tinge of defeatedness to them. This is a BROKEN world that just finished a brutal war.
 
@@ -2533,14 +2539,14 @@ Concepts:
 	Neera: "Were it not valuable, I shan't have sent you to fulfill it.'"
 	Neera: *Smiles warmly* "Your role in the play of life was not to halt our quest, dear Jester, but indeed to spur it."
 	Jester: *Nods/Thumbs Up* "Then we should finish what we've started. The Realm depends on us."
-152. Consider adding an encounter or world-lore about Drunken wolf attacks
+160. Consider adding an encounter or world-lore about Drunken wolf attacks
 	- Just like in real life, this would be a result of farmer's leaving fruits (e.g. grapes) on the vine, them starting to rot/ferment, and wild wolves eating them.
 	- The result would be an enemy type, AND that some locals are fearful of being attacked. Or even barricading themselves in their homes.
-153. Nobles, their influence, and their opinions.
+161. Nobles, their influence, and their opinions.
 	- Nobles should be encountered throughout the lands.
 	- They are concerned with bottom lines: Stability, money, and luxury.
 	- But they're also individuals, who are always considering their loyalties.
-154. Leper Noble
+162. Leper Noble
 	- LN: "Traveler. Could you spare a coin?"
 	- Aylmera: "Sorry. I've nothing on me."
 	- LN: "Ah. Then we've more in common than I thought."
@@ -2578,7 +2584,7 @@ Concepts:
 		- LN: "Hm. I guess it was a long shot anyhow..."
 	- LN: "Its been a pleasure speaking with you."
 	- LN: "I hope you find whatever it is you're looking for all the way out here."
-155. Conversations with psychos
+163. Conversations with psychos
 	a. "How Death can Chaos unite?"
 		[Excuse me?]
 		[Huh?]
