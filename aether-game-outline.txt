@@ -2580,18 +2580,55 @@ Concepts:
 	[Absolutely.]
 		- LN: "Thanks, stranger. My name's Eustace, by the way."
 		- Aylmera: "I'm Aylmera." *smiles*
+		- LN: "Well, Aylmera, it has been a pleasure speaking with you."
 	[Absolutely not.]
-		- LN: "Hm. I guess it was a long shot anyhow..."
-	- LN: "Its been a pleasure speaking with you."
+		- LN: "Oh... I guess it was a long shot anyhow."
+		- LN: "Regardless, it has been a pleasure speaking with you."
 	- LN: "I hope you find whatever it is you're looking for all the way out here."
 163. Conversations with psychos
-	a. "How Death can Chaos unite?"
+	- These should be for Aether-scarred people. How/Where should the player encounter these groups? Most in the Aether Ruins should be a wasteland.
+	- What if there was ONE guy who could be talked to with an INSANE amount of dialogue, and whenever the player decides to stop talking, combat will follow.
+		~ All these lines could be repurposed for that person.
+		~ A randomizer on their dialogue would be fantastic. Just pull a random, different thought from them on conversing.
+		~ Could even have party members come out and comment to you about what a "lost cause" this guy is after you've conversed a long time.
+		~ He should be lucid, but totally lost in his own thoughts. A person who's views are almost impossible to parse or understand.
+	aa. "How Death can Chaos unite?"
 		[Excuse me?]
 		[Huh?]
-		*Combat starts*
-		b. "Our arrows rained hell upon our enemies. Now it is God who rains hell upon us."
-		c. "To kill, to maim, to be regarded: such is not the way."
-			"The thrill, to hunt, will be rewarded: pain dispersed away."
+		"Eh. You wouldn't get it."
+	ab. "Our arrows rained hell upon our enemies. Now it is God who rains hell upon us."
+	ac. *Humming musically* "To kill, to maim, to be regarded: such is not the way."
+		"The thrill, to hunt, shall be rewarded: pain dispersed away."
+	ad. "I glimpsed the angels before they could witness me. Yet they were too quick to catch. So now I stroll among their spurned kin."
+	ae. "I used to despise the Godless. Refused most my enemies a proper burial. Now I see the irony. I was Godless all along. He has abandoned these lands."
+	af. "I was there at the beginning. Witnessed the blades that changed it all. Soft silver, stained with a thin layer of royal crimson. If only I'd been a painter..."
+		~ This is referencing witnessing the assassination attempt on the King, and how the Queen was stabbed ("royal crimson").
+	ag. "The night skies are so peaceful here. Such a stark contrast to the beautiful blue chaos of the Aether."
+	ah. "How far is too far to travel? How long is too long away from home? Feels like I've spent a lifetime here now. Far longer than I've lived anywhere else."
+	ai. "Did you hear the music of the night? Thousands wailing and groaning in unison. The undead chorus."
+	aj. "Want to know the secret to survival? Forget that you ever existed. Truly. Once you forget, so too does the entire world."
+	ak. "They used to hunt me, you know. Not sure what changed. Other than everything."
+	al. "Met an old colleague out there. I think they recognized me. Hard to be sure."
+	am. "10,000 years of aether and ash. Could you even imagine such a long time?"
+	an. "Didn't think I'd ever see the Jester return. Most wouldn't have the stomach for it."
+	ao. "Royal wizardry, huh? What's old is new. And the new, once again, relegated to being old."
+		~ Referencing how there were Royal wizards before and after the Great War (though not during, hence the civil war).
+	ap. "I can't sleep more than an hour a day anymore. I think it's the Aether. It keeps me awake at night."
+	aq. "The Aether speaks to me. Much like the rain or the wind. It has chosen me for its own purposes."
+	ar. "I used to kill them, just like you. Thought I was helping. Now... I don't know. The Aether keeps me indifferent."
+	as. "The dead don't bother me here. I could leave whenever I want. But something here is calling to me. And there's a third voice, too."
+		~ A reference to the presence of the Spirit of Aylmera being present in the Aether Ruins.
+	at. "Why did we do all this? Have we not achieved less than if we'd left it all alone? Gah."
+	au. "I used to read a lot. Now I just think. Got plenty of time for it, too. Plenty."
+	av. "There's more dead here than there used to be. I know that for a fact. It's stronger now, too."
+	aw. "Sorry for not introducing myself. Truth be told, I can't recall my own name anymore. Ha!"
+	ax. "I remember the faces of those I served with. But names? Not so much."
+	ay. "Can't remember the last time I ate. Haven't felt hungry in a while. Oh well, more time to think."
+	az. "Thanks for chatting with me. Been a while since I've met such a good conversationalist!"
+	ba. "Wonder what my father would make of all this. What was his name again...?"
+	bb. "Have you been here long? Ah, probably not. Stupid question."
+	bc. "Sometimes I go for walks around the ashes. It really puts my mind in touch with things around here."
+	bd. 
 
 Combat System Ideas:
 ====================
