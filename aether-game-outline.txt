@@ -2589,6 +2589,9 @@ Concepts:
 		[Excuse me?]
 		[Huh?]
 		*Combat starts*
+		b. "Our arrows rained hell upon our enemies. Now it is God who rains hell upon us."
+		c. "To kill, to maim, to be regarded: such is not the way."
+			"The thrill, to hunt, will be rewarded: pain dispersed away."
 
 Combat System Ideas:
 ====================
