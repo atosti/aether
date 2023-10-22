@@ -2626,9 +2626,13 @@ Concepts:
 	ay. "Can't remember the last time I ate. Haven't felt hungry in a while. Oh well, more time to think."
 	az. "Thanks for chatting with me. Been a while since I've met such a good conversationalist!"
 	ba. "Wonder what my father would make of all this. What was his name again...?"
-	bb. "Have you been here long? Ah, probably not. Stupid question."
+	bb. "Have you been here long? Ah, probably not. It was a dumb question..."
 	bc. "Sometimes I go for walks around the ashes. It really puts my mind in touch with things around here."
-	bd. 
+	bd. "The experienced soldiers told us it would be tough out here. How right there were!"
+	be. "When I dream, I can hear the buzz of the Aether. It's often so loud that it wakes me right up."
+	bf. "Started a new habit of daydreaming a lot more. Really helps me understand the plan out here."
+	bg. "Blue fire, blue fire, blue fire. And yet it's not hot."
+	bh. "Some of the wildlife startled me the other day. But they had Aether-filled eyes, so they didn't bother me none."
 
 Combat System Ideas:
 ====================
