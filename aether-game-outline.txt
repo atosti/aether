@@ -2648,14 +2648,20 @@ Concepts:
 	bt. "I don't understand it. Not fully. But I don't have to."
 	bu. "I've changed a lot since coming here. There's still more to come."
 	bv. "Were you called here? Or did you come by choice?"
-	bw. "Shame you brought such a posse. I'd show you things, but not with *them* watching me."
+	bw. "Shame you brought such a posse. I'd show you truths, but not with *them* watching me."
 		- At first glance this is about the player's party, but in reality it's his ability to "see" the entities in the afterlife.
 	bx. "I was told there'd be others. Not like you, though."
 	by. "Strange. I expected the people from the East to come through first. The kingdom is full of surprises."
 	bz. "I'm happy to chat, but I can't help you any more than that. Got my own thing going on."
 	ca. "Do you listen to much music? I used to have a couple favorite tunes. Wish I remembered how they went..."
 	cb. "Death, death, death. You think it'll ever end?"
-
+	cc. "The unknown of my fate used to bother me. Not anymore."
+	cd. "You're a dangerous sort. Have you considered what that really means?"
+	ce. "The death of the world didn't stop any of them, did it? They just went right back to scheming..."
+	cf. "Do you know what you'll say when you get there? Ahahaha! Of course you don't!"
+	cg. "Crestfallen wretches. The whole lot of them."
+	ch. "Do you think more could've been spared if they just stayed? Sometimes I don't fully trust what I hear..."
+	ci. "Anguish. That's killed more men than any war ever has. Still today it claims lives."
 164. "Your ears are drowned out by the screams of the dead. You only see red."
 	- Text before a key encounter in a cursed zone. Swap the palette to be entirely shades of red for the fight.
 	- Follows the vibe of the sampled screams at 1:10 in this track:
