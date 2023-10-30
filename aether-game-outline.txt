@@ -2633,6 +2633,11 @@ Concepts:
 	bf. "Started a new habit of daydreaming a lot more. Really helps me understand the plan out here."
 	bg. "Blue fire, blue fire, blue fire. And yet it's not hot."
 	bh. "Some of the wildlife startled me the other day. But they had Aether-filled eyes, so they didn't bother me none."
+	bi. "Do you think we'll remember what Death remembers of us?"
+	bj. "I wandered the pale earth until my legs could no longer bear my weight. Was it my own weakness that gave way? Or my guilt?"
+	bk. "Used to know why I decided to stay. Can't recall anymore. Must not have been important."
+	bl. "Do you know what season it is? The days all run into one another here. I've lost track of time."
+
 
 Combat System Ideas:
 ====================
