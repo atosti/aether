@@ -2637,7 +2637,22 @@ Concepts:
 	bj. "I wandered the pale earth until my legs could no longer bear my weight. Was it my own weakness that gave way? Or my guilt?"
 	bk. "Used to know why I decided to stay. Can't recall anymore. Must not have been important."
 	bl. "Do you know what season it is? The days all run into one another here. I've lost track of time."
-
+164. "Your ears are drowned out by the screams of the dead. You only see red."
+	- Text before a key encounter in a cursed zone. Swap the palette to be entirely shades of red for the fight.
+	- Follows the vibe of the sampled screams at 1:10 in this track:
+		https://www.youtube.com/watch?v=a2gBcWdt7lo
+165. Encounter at a gravesite
+	NPC: "Are you here to pay your respects?"
+	[Yes.]
+		NPC: "Then kneel and pray."
+	[No.]
+		NPC: "Kneel and pray."
+	[*Kneel*]
+		NPC: "How did you know them?"
+		Player: "I didn't."
+	[Refuse.]
+	NPC: "How dare you mock me!"
+	*Combat starts*
 
 Combat System Ideas:
 ====================
