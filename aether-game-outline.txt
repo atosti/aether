@@ -2590,6 +2590,7 @@ Concepts:
 	- What if there was ONE guy who could be talked to with an INSANE amount of dialogue, and whenever the player decides to stop talking, combat will follow.
 		~ All these lines could be repurposed for that person.
 		~ A randomizer on their dialogue would be fantastic. Just pull a random, different thought from them on conversing.
+			~ Try to avoid having repetition, with some final line if the player TRULY exhausts them all.
 		~ Could even have party members come out and comment to you about what a "lost cause" this guy is after you've conversed a long time.
 		~ He should be lucid, but totally lost in his own thoughts. A person who's views are almost impossible to parse or understand.
 	aa. "How Death can Chaos unite?"
@@ -2637,6 +2638,24 @@ Concepts:
 	bj. "I wandered the pale earth until my legs could no longer bear my weight. Was it my own weakness that gave way? Or my guilt?"
 	bk. "Used to know why I decided to stay. Can't recall anymore. Must not have been important."
 	bl. "Do you know what season it is? The days all run into one another here. I've lost track of time."
+	bm. "I met God once. He laughed at me."
+	bn. "If you could witness what my eyes have seen, you too would forget your past."
+	bo. "You have an aura of whispers about you. They speak when they think no one is watching."
+	bp. "Why are you still here? Have you nowhere to call home?"
+	bq. "Strange to encounter a nomad these days. Most are trying to find a place to call home."
+	br. "Would you believe your own eyes if they showed you the impossible? Or would you dismiss it with some excuse?"
+	bs. "I spent a lifetime being apart. Now I'm a part of something bigger."
+	bt. "I don't understand it. Not fully. But I don't have to."
+	bu. "I've changed a lot since coming here. There's still more to come."
+	bv. "Were you called here? Or did you come by choice?"
+	bw. "Shame you brought such a posse. I'd show you things, but not with *them* watching me."
+		- At first glance this is about the player's party, but in reality it's his ability to "see" the entities in the afterlife.
+	bx. "I was told there'd be others. Not like you, though."
+	by. "Strange. I expected the people from the East to come through first. The kingdom is full of surprises."
+	bz. "I'm happy to chat, but I can't help you any more than that. Got my own thing going on."
+	ca. "Do you listen to much music? I used to have a couple favorite tunes. Wish I remembered how they went..."
+	cb. "Death, death, death. You think it'll ever end?"
+
 164. "Your ears are drowned out by the screams of the dead. You only see red."
 	- Text before a key encounter in a cursed zone. Swap the palette to be entirely shades of red for the fight.
 	- Follows the vibe of the sampled screams at 1:10 in this track:
