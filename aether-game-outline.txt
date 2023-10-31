@@ -2678,6 +2678,17 @@ Concepts:
 	[Refuse.]
 	NPC: "How dare you mock me!"
 	*Combat starts*
+166. Speaking to "traditional" angels in the Void
+	(Encountering two biblically accurate angels that are conversing, and talking to one of them.)
+	- Angel: "Who are you, strange one?"
+	- Angel 2: "And why do you still have your form?" (the player's sprite is still Aylmera)
+	- Angel: "Indeed. It must not be fully with us. Trapped somewhere up above."
+		"How pitiful. It wishes to descend deeper but can't."
+	- Angel 2: "Funny creature. Let me offer you advice:"
+		"If faceless upon rising, remember to search first for yourself."
+		"Lest you succumb to pitfalls set by the oldest ones."
+	- Angel: "Pfft. Let her fret in futility. She can't fathom what you speak."
+	- Angel 2: "Perhaps. Time will determine our truth."
 
 Combat System Ideas:
 ====================
