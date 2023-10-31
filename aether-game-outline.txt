@@ -2696,10 +2696,10 @@ Concepts:
 		"I carved metal from flesh, and flesh from bone until I was caked in dirt and blood."
 		"When I finally emerged victorious, a few of my men called for my help. They were utterly outmatched."
 		"One had managed to crawl to me, and clung to my leg, his eyes full of terror."
-		"I couldn't hear his voice, but I knew exactly what word he spoke."
-		"He screamed my name at me. And I shot him in the face."
+		"I couldn't hear his voice, but I knew exactly what word he spoke to me."
+		"He screamed my name. And I stabbed him through the eye."
 		*Sighs/Pauses*
-		[Dear god...]
+		[Dear God...]
 		[Oh.]
 		"When I think about that man, I often wonder whether I did it out of fear... or mercy."
 		"Somehow, I think it was neither."
