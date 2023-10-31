@@ -2689,22 +2689,32 @@ Concepts:
 		"Lest you succumb to pitfalls set by the oldest ones."
 	- Angel: "Pfft. Let her fret in futility. She can't fathom what you speak."
 	- Angel 2: "Perhaps. Time will determine our truth."
-167. Comments from a survivor of the Great Explosion
-	[Tell me about the Great Explosion.]
-	- Ex-Soldier: "A foolish endeavor. You wish to dig up my memories like a dog at a fresh grave. But so be it."
-		"Chaos, agony, and fear ruled my every nerve that night. I swung sword and grit teeth until my body was numb with pain. Yet I persisted through it."
-		"I carved metal from flesh, and flesh from bone until I was caked in dirt and blood."
-		"When I finally emerged victorious, a few of my men called for my help. They were utterly outmatched."
-		"One had managed to crawl to me, and clung to my leg, his eyes full of terror."
-		"I couldn't hear his voice, but I knew exactly what word he spoke to me."
-		"He screamed my name. And I stabbed him through the eye."
-		*Sighs/Pauses*
-		[Dear God...]
-		[Oh.]
-		"When I think about that man, I often wonder whether I did it out of fear... or mercy."
-		"Somehow, I think it was neither."
-		*Pause (...)*
-		"I'd like you to leave now."
+167. Comments from survivors of the Great Explosion
+	- Stopped by a concerned soldier near the Aether border
+		Ex-Soldier 1: "Oi! You're going *in* to the Aether, why?"
+		"It's nothing but a mass grave. A violent, roaming mass grave."
+		[King's business.]
+		[Mind your business.]
+		Ex-Soldier 1: "Whatever. You're fucking nuts to even try it."
+			"Don't expect *my* ass to dig you a grave."
+	- Asking a soldier about their experience at the Great Explosion
+	[Tell me about the explosion.]
+	Ex-Soldier 2: "What a foolish endeavor. You wish to dig up my memories like a dog sniffing at a fresh grave."
+	"But so be it."
+	"Chaos, agony, and fear ruled my every nerve that night. I swung sword and fired arrow until my body was numb with pain. Yet I persisted through it."
+	"I carved metal from flesh, and flesh from bone until I was caked in blood."
+	"When I finally emerged victorious, a few of my men signaled me for help."
+	"They were utterly outmatched."
+	"One had managed to crawl to me, and clung to my leg, his eyes full of terror."
+	"I couldn't hear his voice, but I knew exactly what word he spoke to me."
+	"He screamed my name. And I shot him in the face."
+	*Sighs/Pauses*
+	[Dear God...]
+	[Oh.]
+	"When I think about that man, I often wonder whether I killed him out of fear... or mercy."
+	"Somehow, I think it was neither."
+	*Pause (...)*
+	"I'd like you to leave now."
 
 
 Combat System Ideas:
