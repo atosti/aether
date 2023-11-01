@@ -2690,6 +2690,8 @@ Concepts:
 	- Angel: "Pfft. Let her fret in futility. She can't fathom what you speak."
 	- Angel 2: "Perhaps. Time will determine our truth."
 167. Comments from survivors of the Great Explosion
+	* This comments from a small contingent of ex-soldiers who have stayed at the edge of the ramparts keeping the undead at bay.
+		~ They're here of their own accord, and serve no master, ideology, or ruler. Instead, they focus on doing the right thing to protect the realm. Though their numbers dwindle.
 	- Stopped by a concerned soldier near the Aether border
 		Ex-Soldier 1: "Oi! You're going *in* to the Aether, why?"
 		"It's nothing but a mass grave. A violent, roaming mass grave."
@@ -2715,6 +2717,23 @@ Concepts:
 	"Somehow, I think it was neither."
 	*Pause (...)*
 	"I'd like you to leave now."
+	- Asking about why they don't leave.
+	[Why not leave this place?]
+		Ex-soldier 3: "And go where exactly? If we walk away, the whole Realm falls."
+	[Did the King send you?]
+		*Laughs*
+		Ex-soldier 3: "Ahahaha! Hell no!"
+		"His men don't have the stomach for this place."
+		"They're happy to make war, but not to clean up their messes."
+		"We have no leader. But we do have a mission."
+		"To hold the wall. For as long as we can."
+	[Sounds foolish.]
+		Ex-soldier 3: "It's hardly more foolish than anything West of here."
+		"You should consider doing Good, instead of just doing well."
+	[Sounds admirable.]
+		Ex-soldier 3: "I don't do it for your admiration. None of us do."
+		"We do it because we understand the stakes."
+		"If you really want to show thanks, learn to see things our way."
 
 
 Combat System Ideas:
