@@ -330,6 +330,9 @@ Simple things to Work On:
 	- Maybe like Flushed cheeks?
 	- A bottle?
 	- Something that seems reminiscent of hiccups?
+236. Create Vivian's first battle scene, the dialogue lead-up and the battle itself.
+	- Vivian's theme: Signs of Trouble
+	- Player arrives from the South to a makeshift throne with Vivian sitting atop it. As they stop, several bandits emerge from the bushes/sides and flank Aylmera + the Jester.
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
@@ -756,29 +759,62 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ Though they claim to wish to uplift everyone when in power, they have yet to do any of it. No praxis, eh?
 7. At the heart of the forest (in a clearing) is the bandit camp. A circle of caravan wagons. It's here they encounter the bandit leader.
 	- She wears a hood and has long, shoulder length hair. Notably, she has only one arm. Her right arm. Vivian, the one-armed ranger.
-	- Before engaging the party in battle, she just has a large poncho over herself, only after conversing does she open it up, revealing that she only has one arm.
-		~ "It's rare for someone to enter our camp uninvited. Judging by the amount of trouble you've been causing, I was certain there were more than two of you." Vivian sneers.
-		~ "We only want to pass through. We're here on behalf of the Realm." Aylmera replies.
-		~ "And which Realm is it that you serve? The one that's out in the fields working themselves to death. Or the one who sits idly atop a throne?" - Vivian
-		~ "The Realm encompasses everyone. Even the poor saps you rip off daily." the Jester chimes in.
-		~ "As if the Crown doesn't pillage this land for his own benefit. Only when he does it, the law is on his side. You're Aether-maddened if you can't see that." - Vivian
 	- Vivian is a former ranger of the Realm who was present at the Great Explosion. She wishes to overthrow the king and is using the elemental stone as leverage.
-		~ "Jester, you intrigue me. You know what my comrades told me? That you were at the explosion. Same as many of us. You saw the chaos, the death... the pain. And yet you still ran back to that wretched King for protection." - Vivian
-		~ "I admit, I snorted when I first heard it. Couldn't believe it. Even for a fool, that's pretty dumb." - Vivian laughs
-		~ The Jester gets visible frustrated. (Angry or nervous or sad emote)
-		~ "As if you could have foretold what would happen! And what are you doing to remedy it? Warring with the peasantry?!" - The Jester
-		~ "How do you know these people? What explosion is she talking about?" - Aylmera
-		~ "Huh? What goddamn rock have you been living under? THE explosion. The Great one! The one that sent shockwaves out across the entire realm?!" - Vivian
-		~ Aylmera is visibly confused (''...'' emote)
-		~ "I hate you fucking nobles. Bet you were too drunk to even notice the earth rumbling beneath your feet. Well. I'll never forget it. I'm not allowed to." - Vivian
-		~ Vivian throws her poncho open, revealing her lack of an arm.
-		~ "Look at me! A world-class ranger, reduced to a cripple in an instant. And for what? Some royal's pursuit of ego." - Vivian shouts, sighing.
-		~ "But in the aftermath of that explosion, I found my true companions. Those who stayed behind, rescuing survivors and fending off the damned." - Vivian
-		~ "So, after returning home, when the Crown closed his gates to us, I knew where things stood." - Vivian
-		~ "Though he sits atop a throne, its foundation is built on ash and blood. Even Morcant couldn't rectify such a thing." - Vivian
+	- Before engaging the party in battle, she just has a large poncho over herself, only after conversing does she throw it off into the air, revealing her singular arm and crossbow.
+		Vivian: "It's rare for anyone to enter our camp uninvited. With the amount of trouble you've been causing, I was certain there were more than just two of you."
+			"Here to slaughter more of my comrades? Or are you perhaps here to face me?"
+		*Vivian sneers.*
+		Aylmera: "Neither."
+		"All we seek is passage through these- *your* woods."
+		"There's no need for further conflict."
+		Vivian: "I wonder what my slain brethren would say about that."
+		Aylmera: "We're here on behalf of the Realm. It's important we continue North."
+		Vivian: "Mmmm. And which members of the Realm would it be it that you serve?"
+			"The ones that're out in those fields working themselves to death?"
+			"Or the ones who sit idly in a castle, sealing themselves away from reality?"
+		*Jester gets angered.*
+		Jester: "The Realm includes us all. Even the peasants your 'comrades' raid on the regular."
+		*Vivian is unimpressed (bored).*
+		Vivian: "Oh please. As if the Crown doesn't pillage these lands for his own benefit."
+		"The difference is, when he does it, the law is on his side."
+		"But unlike him, our actions will lead to a better life for *everyone* in the Realm."
+		"You'd have to be Aether-maddened not to see that."
+		*Vivian pauses (...)*
+		Vivian: "I must admit, Jester. You intrigue me."
+		*Jester questions this (?)*
+		Vivian: "You know what some of my scouts told me?"
+			"Said they served with you the night of The Explosion."
+			"That you're the same as many of us. Witnessing firsthand all the chaos, death, and pain of that night."
+			"Yet you still retreated back into the arms of that wretched King."
+			"Even for a fool, that's pretty dumb."
+		*Vivian laughs*
+		*Jester is pissed off (?!)*
+		Jester: "As if anyone could have predicted what would happen!"
+			"Meanwhile you sit here idly, poaching our men and doing nothing to remedy the situation!"
+			"All in the great pursuit of what? Warring with the peasantry?!"
+		Aylmera: "Uhh. Jester? What the hell are talking about?"
+			"What explosion do you know these bandits from?"
+		*Vivian is confused (?)*
+		Vivia: "Huh? What underside of a rock did you find this bitch under?"
+			"THE explosion! The one that ended the war? The one that sent shockwaves out for miles?!"
+		~ Aylmera is visibly confused ('...')
+		*Vivian is enraged*
+		Vivian: "I DESPISE you nobles! Stewing in your ignorance while the rest of us suffer under your thumb!"
+			"You might not give a fuck about that night, but *I'll* never forget it: I'm not allowed to!"
+		*Vivian throws her poncho open, revealing her lack of an arm.*
+		Vivian: "Look at my arm! I was a world-class ranger, reduced to a cripple in an instant!!!"
+			"And for what? Some noble's ego?!"
+			"But what I- what *WE* lost in that explosion, we gained tenfold through kinship."
+			"We stayed for WEEKS in that hell, combing through it for survivors while fending off the damned."
+		*Vivian pauses(...)*
+		Vivian: "So when we returned home, and the Crown closed his gates on us... I knew where we stood."
+			"He may sit atop a throne, but its foundations are of blood and ash."
+			"Even Morcant couldn't rectify such a thing."
 	- Vivian suddenly fires the first shot (a crossbow bolt) that collides with the player sprite, triggering the battle scene.
+		~ Would be SICK if the scene quickly transitions into battle where the player must immediately dodge left or right to avoid the same arrow that was fired in the overworld.
 	- Vivian should use a crossbow (one-handed) during her fight.
 		~ She should also summon bandits to assist her in some way during the fight.
+		~ What if she shot projectiles that bounced off the back/side walls.
 8-A. Aylmera defeats Vivian, but Vivian is able to escape in a smokescreen (from a smokebomb) before she is defeated.
 	- Due to her quick getaway, Vivian drops the first of the elemental stones (Fire).
 	- Most of the bandits clear out, through fear. Maybe a few on the outskirts are left? Bitter toward you, but non-violent.
