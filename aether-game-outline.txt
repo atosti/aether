@@ -2727,6 +2727,8 @@ Concepts:
 	dd. "Was this what was meant to happen from the first dagger plunged? Or did we choose this path?"
 	de. "I wonder why you're here. You probably wonder about me."
 		"Let's agree not to talk about it."
+	df. "They say the hair and fingernails of the dead continue to grow after death. Not here, though."
+		- The dead are not continuing to age, the Aether seems to freeze them in time partially.
 164. "Your ears are drowned out by the screams of the dead. You see only red."
 	- Text before a key encounter in a cursed zone. Swap the palette to be entirely shades of red for the fight.
 	- Follows the vibe of the sampled screams at 1:10 in this track:
