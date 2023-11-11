@@ -742,14 +742,16 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ People who insult the King often face verbal backlash from the Jester. Despite their differences, the two are good friends.
 4. Begin heading West through the surrounding farmland, sticking to the main road, while being mindful of the bandits.
 	- Begin hearing rumors about the banditry planning something big.
-5. Find many farmsteads destroyed or abandoned. Those that remain are powerless to protect themselves.
+	- There are rumors of revolution.
+	- There is a feeling of despair, and a lack of options.
+5. Find many farmsteads in disrepair or abandonment. The farmers who remain are powerless to protect themselves.
 	- Some live day-to-day and hope neither the undead nor the bandits kill them.
-		~ "I fear the undead most of all. A bandit can be negotiated with."
+		~ "I fear the undead most of all. At least a bandit can be negotiated with."
 		~ "My great great grandfather built this farmstead. It's been in our family for generations. Don't see any reason why that should change now. Bandits are nothing new."
 	- Others have given up, spending their days drinking as they feel the end is near, so what's the point any more?
 	- The pubs are full, but hardly jovial. They have a more depressed aire to them.
 6. Aylmera and crew make their way through the farmland outskirts and into the Forest. This is bandit territory and they fight their way deep inside.
-	- Forced to take this route, as other pathways (e.g. bridges) have been sabotaged by the bandits.
+	- Forced to take this route, as other pathways (e.g. bridges) have been sabotaged by the bandits. Or are raised pre-emptively by towns across the waters.
 		~ Perhaps a bridge is kept raised by people on the other side of the river for fear of the bandits.
 		~ As such, when the bandits are defeated, this bridge can be lowered (for faster travel to older zones).
 		~ And this allows, narratively, other characters to more easily move around the world (e.g. the Bard and his circus).
@@ -761,55 +763,62 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 	- She wears a hood and has long, shoulder length hair. Notably, she has only one arm. Her right arm. Vivian, the one-armed ranger.
 	- Vivian is a former ranger of the Realm who was present at the Great Explosion. She wishes to overthrow the king and is using the elemental stone as leverage.
 	- Before engaging the party in battle, she just has a large poncho over herself, only after conversing does she throw it off into the air, revealing her singular arm and crossbow.
-		Vivian: "It's rare for anyone to enter our camp uninvited. With the amount of trouble you've been causing, I was certain there were more than just two of you."
-			"Here to slaughter more of my comrades? Or are you perhaps here to face me?"
+		Vivian: "It's rare for anyone to enter our camp uninvited."
+			"With the trouble you've been causing, I was certain there'd be more than just the pair of you."
+			"Here to slaughter more of my comrades? Or are you perhaps here to challenge *me*?"
 		*Vivian sneers.*
 		Aylmera: "Neither."
-		"All we seek is passage through these- *your* woods."
-		"There's no need for further conflict."
-		Vivian: "I wonder what my slain brethren would say about that."
-		Aylmera: "We're here on behalf of the Realm. It's important we continue North."
-		Vivian: "Mmmm. And which members of the Realm would it be it that you serve?"
-			"The ones that're out in those fields working themselves to death?"
+		"All we seek is passage through these woods."
+		"There's no need for further violence."
+		Vivian: "Oh really? I wonder what my slain brethren would think of that proposition."
+		Aylmera: "We're here on behalf of the Realm. It's vital we continue North."
+		Vivian: "Hmph. And which members of the Realm would it be it that you serve?"
+			"The ones in the fields working themselves to death?"
 			"Or the ones who sit idly in a castle, sealing themselves away from reality?"
-		*Jester gets angered.*
-		Jester: "The Realm includes us all. Even the peasants your 'comrades' raid on the regular."
+		*Jester interjects (perhaps steps forward one square)*
+		Jester: "The Realm includes us all. Even the peasants your 'comrades' like to raid."
 		*Vivian is unimpressed (bored).*
 		Vivian: "Oh please. As if the Crown doesn't pillage these lands for his own benefit."
-		"The difference is, when he does it, the law is on his side."
-		"But unlike him, our actions will lead to a better life for *everyone* in the Realm."
+		"The only difference is he does it with the blessing of the law."
+		"Unlike him, our actions have the blessing of morality. A war against the oppressor."
+		"Our actions will lead to a better life for *all* in the Realm."
 		"You'd have to be Aether-maddened not to see that."
 		*Vivian pauses (...)*
-		Vivian: "I must admit, Jester. You intrigue me."
+		Vivian: "You know, Jester, I must admit: You intrigue me."
 		*Jester questions this (?)*
-		Vivian: "You know what some of my scouts told me?"
-			"Said they served with you the night of The Explosion."
-			"That you're the same as many of us. Witnessing firsthand all the chaos, death, and pain of that night."
-			"Yet you still retreated back into the arms of that wretched King."
+		Vivian: "One of my scouts said they served with you the night of The Explosion."
+			"That you're the same as many of us."
+			"Witnessed firsthand the chaos, misery, and death of that painful night."
+			"Yet you still kneel at the feet of that wretched King."
 			"Even for a fool, that's pretty dumb."
 		*Vivian laughs*
-		*Jester is pissed off (?!)*
-		Jester: "As if anyone could have predicted what would happen!"
-			"Meanwhile you sit here idly, poaching our men and doing nothing to remedy the situation!"
-			"All in the great pursuit of what? Warring with the peasantry?!"
-		Aylmera: "Uhh. Jester? What the hell are talking about?"
-			"What explosion do you know these bandits from?"
-		*Vivian is confused (?)*
-		Vivia: "Huh? What underside of a rock did you find this bitch under?"
-			"THE explosion! The one that ended the war? The one that sent shockwaves out for miles?!"
+		*Jester is enraged*
+		Jester: "As if anyone could have predicted the outcome of that war!"
+			"His Grace still serves the Realm as best he can."
+			"Meanwhile you sit here idly, poaching our men and waging war with the peasantry!"
+		*Aylmera is confused (?)*
+		Aylmera: "Jester, what the hell is this?"
+			"You know these people? What explosion is she talking about?"
+		*Vivian is confused and pissed (?!)*
+		Vivia: "Are you nobles that out of touch?!"
+			"THE explosion! The one that marked the end of the Great War!"
+			"The one that sent shockwaves out for miles!"
 		~ Aylmera is visibly confused ('...')
 		*Vivian is enraged*
-		Vivian: "I DESPISE you nobles! Stewing in your ignorance while the rest of us suffer under your thumb!"
-			"You might not give a fuck about that night, but *I'll* never forget it: I'm not allowed to!"
+		Vivian: "Pfft. It's like you don't even remember it."
+			"You nobles are all the same! Stewing in ignorance while the rest of us die under your misguidance!"
+			"You might not give a damn about that night, but *I'll* never forget it: I'm not allowed to!"
 		*Vivian throws her poncho open, revealing her lack of an arm.*
-		Vivian: "Look at my arm! I was a world-class ranger, reduced to a cripple in an instant!!!"
+		Vivian: "Look upon my arm! I was the best ranger in the land, reduced to a cripple in an instant!"
 			"And for what? Some noble's ego?!"
-			"But what I- what *WE* lost in that explosion, we gained tenfold through kinship."
-			"We stayed for WEEKS in that hell, combing through it for survivors while fending off the damned."
+			"But what I-"
+			"What *WE* lost in that explosion, we gained tenfold through kinship and comradery."
+			"We stayed for DAYS in that hell, combing through it for survivors while fending off the damned."
 		*Vivian pauses(...)*
-		Vivian: "So when we returned home, and the Crown closed his gates on us... I knew where we stood."
-			"He may sit atop a throne, but its foundations are of blood and ash."
-			"Even Morcant couldn't rectify such a thing."
+		Vivian: "Yet when we returned home, we found the Crown had closed his gates to us..."
+			"And that's when we knew where we stood."
+			"Your King sits atop a throne, but it rests on foundation of blood and ash."
+			"Even Morcant couldn't rectify such a thing!"
 	- Vivian suddenly fires the first shot (a crossbow bolt) that collides with the player sprite, triggering the battle scene.
 		~ Would be SICK if the scene quickly transitions into battle where the player must immediately dodge left or right to avoid the same arrow that was fired in the overworld.
 	- Vivian should use a crossbow (one-handed) during her fight.
@@ -817,6 +826,15 @@ Music to write to: https://www.youtube.com/watch?v=XIX1lWOUaGQ&list=PLw1SQn79wR4
 		~ What if she shot projectiles that bounced off the back/side walls.
 8-A. Aylmera defeats Vivian, but Vivian is able to escape in a smokescreen (from a smokebomb) before she is defeated.
 	- Due to her quick getaway, Vivian drops the first of the elemental stones (Fire).
+		Jester: *cough cough* "Shit. She disappeared into the woods..."
+		Aylmera: "She dropped something."
+		*Aylmera walks forward and crouches down briefly*
+		*Elemental Stone of Fire acquired.*
+		Aylmera: "Is this-?"
+		*Jester (?!)*
+		Jester: "One of the stones! What was she doing with that?"
+			"At least it's in our hands now."
+		~ Notes in her tent/campsite reveal she had plans to 
 	- Most of the bandits clear out, through fear. Maybe a few on the outskirts are left? Bitter toward you, but non-violent.
 	- The stray bandits can mention how they heard stories of Aylmera's heroism. But that they don't see any of that now. It must've been lies.
 8-B. The player is given a chance to ask the Jester about what Vivian mentioned. (Notably, he leaves OUT any details of himself having seen the undead and knowing they're real.)
