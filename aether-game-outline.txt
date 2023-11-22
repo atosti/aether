@@ -333,6 +333,8 @@ Simple things to Work On:
 236. Create Vivian's first battle scene, the dialogue lead-up and the battle itself.
 	- Vivian's theme: Signs of Trouble
 	- Player arrives from the South to a makeshift throne with Vivian sitting atop it. As they stop, several bandits emerge from the bushes/sides and flank Aylmera + the Jester.
+237. Create the basics of fluid souls-like movement (as close as you can) in GB studio. Just use placeholder images, it's fine.
+	- Dodging, blocking, heavy attack, light attack, parrying?
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
