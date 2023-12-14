@@ -2824,7 +2824,13 @@ Concepts:
 		Ex-soldier 3: "I don't do it for your admiration. None of us do."
 		"We do it because we understand the stakes."
 		"If you really want to show thanks, learn to see things our way."
-
+168. Doubt of the Elders
+	NPC: "The doubt of the elders grows with each day."
+169. Mad Wizard's Philosophy
+	- The grand city to the northwest was razed by his own hand.
+	- Because he knew what beauty would sprout in its place.
+	- He didn't just believe in this cause... he was certain of it.
+	- And how right he was to let it blossom.
 
 Combat System Ideas:
 ====================
