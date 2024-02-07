@@ -2831,6 +2831,34 @@ Concepts:
 	- Because he knew what beauty would sprout in its place.
 	- He didn't just believe in this cause... he was certain of it.
 	- And how right he was to let it blossom.
+170. Someone has written "Kill the Masters" across the wall, in dark, thick letters.
+	- Do you think they knew what they meant by this?
+	[Yes.]
+		Then so do you.
+	[No.]
+		It's likely you don't either.
+171. A man recalls his experience bleeding out in the Aether wasteland and almost dying.
+	- If you're heading East, you should know I almost died out there.
+	- Traded blows with one of those monsters while I was scouting. Had a mean gash in my abdomen.
+	- For a long time I lie on the ground, my eyes closed, as the warmth of my blood spilled across my body.
+	- I was half asleep. And half dead.
+	- Waiting for another monster to come finish me.
+	- Or for my blood to finally run dry...
+	- Yet neither came.
+	- It was in these ambiguous moments where I finally witnessed what I hadn't seen before.
+	- My mind staring into the great beyond, I watched as solid darkness ate away at endless nothingness.
+	- And I began to understand.
+	- Even the great darkness was the presence of something. Whereas the nothingness could only be consumed.
+	- Thus, to wallow in the nothingness was the only true path to darkness.
+	- And it was the moment I understood this, when I woke up.
+	Aylmera: "Why are you telling me this?"
+	- Because fighting into the wasteland requires we purge it of darkness.
+	- Which leaves behind nothing.
+	- You must be certain to replace that darkness with something. Anything.
+	- Lest the darkness creeps back in to fill the void you left behind.
+	* The man nods at you politely. He has nothing more to say. *
+	[Of course.]
+	[*Say nothing.*]
 
 Combat System Ideas:
 ====================
