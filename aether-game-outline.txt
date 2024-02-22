@@ -2859,6 +2859,101 @@ Concepts:
 	* The man nods at you politely. He has nothing more to say. *
 	[Of course.]
 	[*Say nothing.*]
+172. Conversation with a man on the edge of the Aether
+	Aylmera: "Excuse me, sir? I've been wondering something."
+	Man: "Oh yeah?"
+	Aylmera: "Why do you stationed here? Why not retreat further from the aether? Certainly it's safer to the West?"
+	Man: "Retreat. Yeah! That's a good idea!"
+	*The man laughs.*
+	Man: "I don't retreat. Because the poor folks out East can't retreat either. Not once the aether gets hold of them."
+	Man: "Lost my best friend, Miguel, the first few weeks. Saw him reanimate in front of my eyes."
+	*The man pauses (...)*
+	Man: "I felled him. But his body was too heavy for me to carry out alone."
+	Man: "So I stationed myself here. Recruited some help. Then carried him out a while after."
+	Man: "That was a couple years back. We buried him up on the hill, along with the others."
+	Man: "He rests easy now."
+	*Aylmera is questioning (?)*
+	Aylmera: "I'm afraid I don't understand. If you got your friend out years ago, isn't that less of a reason to stay now?"
+	Man: "Well, you see, I lost one friend in that hellhole, but gained a whole lot more because of it."
+	Man: "They're swell guys 'round here. The type to trust with both your coinpurse and your life."
+	Man: "'Course for a while I did plead with them. Begged 'em to leave it behind."
+	Man: "But they all have their own reasons for staying..."
+	Man: "And I can't bear the idea of them sharing the same fate as my buddy!"
+	Man: "So I stay. I stay to serve my friends. "
+	Man: "Until we get all our guys out from out East."
+	Man: "Say, do you know who you serve?"
+	[Myself.]
+		Man: "Haha. That's what I thought too, hon!"
+		Man: "But it couldn't be further from the truth."
+		Man: "Take my word for it. You don't even want the solo path."
+		Man: "It's a hollow existence."
+	[I don't know.]
+		Man: "Yeah. I remember when I felt that way."
+		Man: "You want some advice?"
+		[Yes.]
+			Man: "Find something bigger than yourself. Let it inspire you."
+			Man: "And soon enough, you'll inspire it."
+		[No.]
+			Man: "Suit yourself. It's no sweat off my back."
+	Man: "Anyhow. I've been yapping too much."
+	Man: "If you're all truly headed East, do yourselves a favor."
+	Man: "Ensure you *all* make it back in one piece."
+	Man: "You won't forgive yourselves otherwise."
+	*The man nods at you, purposefully.*
+	[Nod back.]
+	[Smile politely.]
+173. The fortification of soldiers bordering the Aether has a graveyard on the hill where they're buried their dead.
+	- Many of them stay, because they want to kill and bury their reanimated friends. They want them to find peace.
+174. Conversation with a wizard at the camp at the edge of the Aether
+	- The team is surprised (especially Alexandros), that the wizard is welcomed among the soldiers at the camp.
+	- But the wizard gets along with them, and shares a common purpose with them. She's also working to stop and bury the dead.
+	- She describes how they're all unified, and dedicated to burying the dead (regardless of their side in the conflict).
+	- Unexpectedly, at the edge of chaos is the only place that peace has truly blossomed.
+	Alexandros: "How is it possible that these soldiers let you join their ranks?"
+	Alexandros: "Why didn't they attack you when they saw the sigil on your robes?"
+	Wizard: "I don't know. I guess they just took pity on me."
+	*She smiles, politely.*
+	*Alexandros frowns*
+	Alexandros: "Come on now... We both know that's ridiculous."
+	Alexandros: "I was there."
+	Alexandros: "I saw how they slaughtered us. Even after the explosion."
+	*Her eyes narrow*
+	Wizard: "Oh. So then you know... yeah."
+	Wizard: "Those first few days were so... Brutal."
+	Wizard: "Can't say I blame them. I fought tooth and nail to stay alive, too."
+	Wizard: "Killed undead and soldier alike. It was all the same."
+	Wizard: "Fought until my body was long fatigued, and my mind emaciated."
+	Wizard: "At some point I was just wandering through the darkness, slowly freezing to death from the harsh winds."
+	Wizard: "Even now... I can *feel* just how cold I was."
+	Wizard: "All I wanted was to warm myself by a fire."
+	Wizard: "So when I saw some soldiers camping nearby, I resolved myself to sit beside them."
+	Wizard: "Figured death by their hands would at least be more merciful than any other way to go."
+	Alexandros: "And then?"
+	Wizard: "As I approached, some of the men rose and unsheathed their blades."
+	Wizard: "I just stumbled toward them, collapsing to my knees beside their fire. My eyes fixated on the hot coals."
+	*She pauses (...)*
+	Wizard: "In that moment, I prayed for one final comfort."
+	Wizard: "A quick death."
+	Wizard: "And as though to grant my wish, one of the men came up from behind me."
+	Wizard: "And then he..."
+	*Her eyes well up with tears*
+	Wizard: "He draped his cloak around my shoulders... Then returned to his seat."
+	Wizard: "My eyes must have been full of tears, as they are now."
+	Wizard: "And no one spoke a word the whole time. We just sat with the weight of it all."
+	Wizard: "That must have been the day we understood all that was lost in the war."
+	*Alexandros pauses (...)*
+	Alexandros: "I'm so sorry..."
+	Alexandros: "I didn't mean... to upset you."
+	*She shakes her head, smiling tearfully.*
+	Wizard: "No. Don't be."
+	Wizard: "It was the best day of my life."
+	Wizard: "His gentle kindness saved me."
+	Wizard: "It saved all of us, really."
+	* She pauses again.*
+	Wizard: "You know, I've never told anyone else that story before."
+	Wizard: "Thank you for listening to it."
+	*She smiles warmly at the four of you.*
+
 
 Combat System Ideas:
 ====================
