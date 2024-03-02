@@ -2953,6 +2953,55 @@ Concepts:
 	Wizard: "You know, I've never told anyone else that story before."
 	Wizard: "Thank you for listening to it."
 	*She smiles warmly at the four of you.*
+175. Conversation with a mystic/psychic
+	Mystic: "In your wake, you leave death. Do you know what fills in that void?"
+	[Chaos.]
+	[Fear.]
+	Mystic: "It's both."
+	Aylmera: "Huh? I only said one thing."
+	Mystic: "Yet you thought of two."
+	Mystic: "The mind betrays truths about itself to the careful observer."
+	Mystic: "Do I frighten you?"
+	[Yes.]
+	[No.]
+	Mystic: "I believe you. Just make sure you believe yourself as well."
+176. Conversation with soldiers from up North
+	Aylmera: "Excuse me. I was wondering about the soldiers stationed here."
+	Aylmera: "There's so many of you. How did you all manage to survive the Great Explosion?"
+	Knight: "That old mess..."
+	Knight: "It's because our Lord wisely deduced the tower's inherent danger."
+	Knight: "A wicked citadel perched atop the hill. Like a preserved, ancient deadfall trap."
+	Knight: "Our leader prevented us from being lured into its proximity."
+	Aylmera: "Are you suggesting he knew it would explode ahead of time?"
+	Knight: "Of course not. But in some ways, yes."
+	Knight: "I doubt he foretold the particulars, but he saw that war for what it was."
+	Knight: "A petty squabble between weak men. The only outcome involved no winners."
+	Knight: "So, when our reserves were called to duty, he ensured we were stationed far from the frontlines."
+	Knight: "Most the men you see here were protecting supply lines."
+	Knight: "Thus, we avoided the initial blast and all its miserable fallout."
+	[Sounds cowardly.]
+		Knight: "The meek often use that word. Strange to hear it from a warrior..."
+		Knight: "Take heed of the order that's been preserved here. The freedoms you enjoy are a merely privilege."
+		Knight: "One which is bought through our sacrifice."
+		Knight: "Meanwhile the South and East bleed together into one, miserable mass."
+	[Sounds lucky.]
+		Knight: "Not at all. It wasn't luck that led to our salvation."
+		Knight: "It was experience. And wisdom. The wisdom of our Lord."
+		Knight: "His careful actions protected us. And now we protect his lands."
+		Knight: "It's a simple cycle. One that can self perpetuate in the right hands."
+	Aylmera: "Do you feel you owe a debt to your Lord?"
+	Knight: "Absolutely. We all do. For the very honor to engage in such a free and just society."
+	Knight: "You foreigners especially. You haven't earned these rights through service, yet he still bestows them upon you."
+	Knight: "You should be grateful for the privilege to frolick in our lands."
+	*The Knight spits on the ground.*
+	Knight: "...Are you?"
+	[Yes.]
+		Knight: "A liar from the South. You folk really are a reflection of your King."
+	[No.]
+		Knight: "Honesty. That's surprising, since you folk have such little respect for our values."
+	*He just stares at you, unwilling to engage further. You've clearly disappointed him.*
+
+
 
 
 Combat System Ideas:
