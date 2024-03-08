@@ -2909,50 +2909,72 @@ Concepts:
 	- But the wizard gets along with them, and shares a common purpose with them. She's also working to stop and bury the dead.
 	- She describes how they're all unified, and dedicated to burying the dead (regardless of their side in the conflict).
 	- Unexpectedly, at the edge of chaos is the only place that peace has truly blossomed.
+	- Perhaps she (and all small NPCs) should have a name(s). Maybe Cassandra?
 	Alexandros: "How is it possible that these soldiers let you join their ranks?"
 	Alexandros: "Why didn't they attack you when they saw the sigil on your robes?"
 	Wizard: "I don't know. I guess they just took pity on me."
 	*She smiles, politely.*
 	*Alexandros frowns*
-	Alexandros: "Come on now... We both know that's ridiculous."
-	Alexandros: "I was there."
-	Alexandros: "I saw how they slaughtered us. Even after the explosion."
+	Alexandros: "Come on now. We both know that's preposterous."
+	Alexandros: "I was there, you know. Witnessed the carnage firsthand."
+	*Alexandros lowers his voice*
+	Alexandros: "...I saw how they slaughtered our kin."
+	Alexandros: "Even after the explosion."
 	*Her eyes narrow*
-	Wizard: "Oh. So then you know... yeah."
-	Wizard: "Those first few days were so... Brutal."
-	Wizard: "Can't say I blame them. I fought tooth and nail to stay alive, too."
-	Wizard: "Killed undead and soldier alike. It was all the same."
-	Wizard: "Fought until my body was long fatigued, and my mind emaciated."
-	Wizard: "At some point I was just wandering through the darkness, slowly freezing to death from the harsh winds."
-	Wizard: "Even now... I can *feel* just how cold I was."
-	Wizard: "All I wanted was to warm myself by a fire."
-	Wizard: "So when I saw some soldiers camping nearby, I resolved myself to sit beside them."
-	Wizard: "Figured death by their hands would at least be more merciful than any other way to go."
+	Wizard: "Oh. Oh... Then you know. Yeah. Those first few days were so brutal."
+	Wizard: "But you were there, it was chaos. "
+	Wizard: "I've never blamed them for killing us in the aftermath."
+	Wizard: "I fought tooth and nail to stay alive, too, you know."
+	Wizard: "Killed undead and man alike."
+	Wizard: "It was all the same in that wretched darkness."
+	Wizard: "Even now, my memories are flashes of fire from my fingertips and the smell of scorched flesh."
+	Wizard: "Only the stars bore witness to the atrocities."
+	Alexandros: "So what changed your mind? Why did you stop fighting?"
+	Wizard: "Well, because I fought long past my limit."
+	Wizard: "My body was so fatigued. And my mind so emaciated that I could no longer focus."
+	Wizard: "After a while, I found myself just wandering through the darkness."
+	Wizard: "Slowly freezing to death in the harsh winds."
+	Wizard: "Even now... I can *feel* how cold I was. Like my soul was frigid."
+	Wizard: "All I could think was to warm myself by a fire."
+	Wizard: "And then, as though some miracle, I saw some soldiers camping in the distance."
+	Wizard: "With a roaring fire between them."
+	Wizard: "And I resolved myself to sit beside it."
+	Alexandros: "You weren't concerned for your safety?"
+	Wizard: "It must sound outlandish, but with my mind so battered, all I could think of was that fire."
 	Alexandros: "And then?"
-	Wizard: "As I approached, some of the men rose and unsheathed their blades."
-	Wizard: "I just stumbled toward them, collapsing to my knees beside their fire. My eyes fixated on the hot coals."
+	Wizard: "As I approached, some of the men rose to their feet, unsheathing their blades."
+	Wizard: "But I just stumbled forward, collapsing to my knees beside their fire."
+	Wizard: "My eyes staying fixated on the hot coals."
 	*She pauses (...)*
-	Wizard: "In that moment, I prayed for one final comfort."
-	Wizard: "A quick death."
-	Wizard: "And as though to grant my wish, one of the men came up from behind me."
+	Wizard: "In that moment, I admit that I prayed for a final comfort."
+	Wizard: "I asked God for a quick death."
+	Wizard: "And as though to grant my wish, one of the men came up behind me."
 	Wizard: "And then he..."
 	*Her eyes well up with tears*
-	Wizard: "He draped his cloak around my shoulders... Then returned to his seat."
-	Wizard: "My eyes must have been full of tears, as they are now."
-	Wizard: "And no one spoke a word the whole time. We just sat with the weight of it all."
-	Wizard: "That must have been the day we understood all that was lost in the war."
+	Wizard: "Draped his cloak gently around my shoulders."
+	* She cries *
+	Wizard: "For some reason, it reminded me of my father."
+	* She laughs *
+	Wizard: "Something about the way he used to wrap me in blankets as a child."
+	Wizard: "And that was it. The others sheathed their blades and sat back down, as did the man."
+	Wizard: "My eyes must have been full of tears, just as they are now."
+	Wizard: "Yet none of us spoke. We just sat under the weight of the stars."
+	Wizard: "That was the day we understood what the war had stolen from us:"
+	Wizard: "Our empathy."
 	*Alexandros pauses (...)*
-	Alexandros: "I'm so sorry..."
+	Alexandros: "I'm sorry to have brought this all up."
 	Alexandros: "I didn't mean... to upset you."
 	*She shakes her head, smiling tearfully.*
-	Wizard: "No. Don't be."
-	Wizard: "It was the best day of my life."
-	Wizard: "His gentle kindness saved me."
-	Wizard: "It saved all of us, really."
+	Wizard: "No, no. There's no need to be."
+	Wizard: "I recognize now that it was the best day of my life."
+	Wizard: "His kindness saved me. It saved us all, really."
+	Wizard: "Because he dreamt of a different world, and then had *us* realize it."
+	Wizard: "That's more imaginative than even the brightest artist."
 	* She pauses again.*
-	Wizard: "You know, I've never told anyone else that story before."
+	Wizard: "I realized I've never told anyone that story before. To anyone."
 	Wizard: "Thank you for listening to it."
-	*She smiles warmly at the four of you.*
+	Alexandros: "I assure you, the pleasure was all ours."
+	*She smiles warmly at the four of you. You can't help but smile back. *
 175. Conversation with a mystic/psychic
 	Mystic: "In your wake, you leave death. Do you know what fills in that void?"
 	[Chaos.]
