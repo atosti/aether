@@ -3022,7 +3022,48 @@ Concepts:
 	[No.]
 		Knight: "Honesty. That's surprising, since you folk have such little respect for our values."
 	*He just stares at you, unwilling to engage further. You've clearly disappointed him.*
+177. Encounter with a psychopath
+	- This occurs when Aylmera is separated from her party, after falling into the river. She is ambushed while alone.
+	* Aylmera approaches a dead end clearing in the forest. *
+	* A man approaches from the direction she entered, cutting off her only exit.*
+	Man: "That's unusual armor you're wearing."
+	* Aylmera is startled, and turns to face him. *
+	Man: "Looks exotic. I imagine its come a long way to reach me."
+	Aylmera: "It has."
+	Man: "Bet it'd fetch a hefty price at auction. Especially in such *good* condition."
+	* The man smiles forcefully, in an exaggerated manner. *
+	Aylmera: "I'll keep that in mind."
+	* Aylmera steps toward him, to leave. *
+	Man: "Y'know what?"
+	Man: "I'll buy it off you. Right here and now."
+	Man: "Got the coin for it on me. I'm an honest sort, I'll give you a fair deal."
+	Man: "Just take it off and we'll make the exchange."
+	Aylmera: "..."
+	* The man is upset that his ploy is failing so miserably. (bored face?) *
+	Man: "Oh. Come now, miss. Don't think so low of me. I've no foul intentions."
+	Man: "I'd just like to personally inspect the goods... personally."
+	[Confront him.]
+		Aylmera: "There's nothing honest about you."
+	[Ignore his foolishness.]
+		Aylmera: "How 'bout you step aside, instead?"
+		* The man laughs *
+		Man: "Yeah. I do, actually."
+	Man: "Now, I don't like repeating myself..."
+	Aylmera: "Then don't."
+	Aylmera: "Draw your weapon. And let's be done with it."
+	* The man is furious. *
+	Man: "How dare you command me!"
+	* He draws his weapon in anger. *
+	* Aylmera smiles softly. *
+	Aylmera: "Coward."
+	* She charges him, triggering combat. *
 
+	Custom death message after this encounter (if lost):
+	"The man's movements are gentle and calculated. Yet his work is messy and grotesque. Working diligently, he mutilates your corpse with care. Your flesh and bones are soon unrecognizeable. Just another body hidden beneath the dense thicket of the forest."
+178. Conversation with a spirit 
+	Spirit: "It's just us now. You needn't fear any longer."
+	Aylmera: "The only thing I fear..."
+	Aylmera: "Is that the ability to fear left me long, long ago."
 
 
 
