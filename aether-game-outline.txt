@@ -2670,7 +2670,7 @@ Concepts:
 	an. "Didn't think I'd ever see the Jester return. Most wouldn't have the stomach for it."
 	ao. "Royal wizardry, huh? What's old is new. And the new, once again, relegated to being old."
 		~ Referencing how there were Royal wizards before and after the Great War (though not during, hence the civil war).
-	ap. "I can't sleep more than an hour a day anymore. I think it's the Aether. It keeps me awake at night."
+	ap. "I can't sleep more than an hour a day anymore. I think it's the Aether. It keeps me awake through the night."
 	aq. "The Aether speaks to me. Much like the rain or the wind. It has chosen me for its own purposes."
 	ar. "I used to kill them, just like you. Thought I was helping. Now... I don't know. The Aether keeps me indifferent."
 	as. "The dead don't bother me here. I could leave whenever I want."
@@ -2679,15 +2679,16 @@ Concepts:
 		~ A reference to the presence of the Spirit of Aylmera being present in the Aether Ruins.
 	at. "Why did we do all this? Have we not achieved less than if we'd left it all alone? Gah."
 	au. "I used to read a lot. Now I just think. Got plenty of time for it, too. Plenty."
-	av. "There's more dead here than there used to be. I know that for a fact. It's stronger now, too."
+	av. "There's more dead here than there used to be. I know that for a fact. They're stronger now, and so too is it."
 	aw. "Sorry for not introducing myself. Truth be told, I can't recall my own name anymore. Ha!"
 	ax. "I remember the faces of those I served with. But names? Not so much."
 	ay. "Can't remember the last time I ate. Haven't felt hungry in a while. Oh well, more time to think."
-	az. "Thanks for chatting with me. Been a while since I've met such a good conversationalist!"
+	az. "Thanks for chatting with me. Been a while since I've met such a good conversationalist!" * He immediately laughs at his own joke. (as these are all one-sided converations) *
+	--------- (Implemented up to this point, continue below) ----------
 	ba. "Wonder what my father would make of all this. What was his name again...?"
 	bb. "Have you been here long? Ah, probably not. It was a dumb question..."
 	bc. "Sometimes I go for walks around the ashes. It really puts my mind in touch with things around here."
-	bd. "The experienced soldiers told us it would be tough out here. How right there were!"
+	bd. "The veteran soldiers told us it would be tough out here. How right there were!"
 	be. "When I dream, I can hear the buzz of the Aether. It's often so loud that it wakes me right up."
 	bf. "Started a new habit of daydreaming a lot more. Really helps me understand the plan out here."
 	bg. "Blue fire, blue fire, blue fire. And yet it's not hot."
@@ -2729,9 +2730,9 @@ Concepts:
 	co. "I could feel you coming this way. Though I thought you were at least a half dozen strong. Guess my count was off..."
 	cp. "Seems more and more my hairs stand on end."
 	cq. "At night you can still see flickers of those early flames. A vibrant blue fire that burns cold like ice."
-	cr. "Did you think they'd treat you different out here? Cause you're undead like them? I wouldn't count on it."
-		Player: *?!* "How do you know that about me?"
-		"Huh? Doesn't everyone know?"
+	cr. "Did you think they'd treat you differently out here? Because you're undead like them? I sure wouldn't count on it."
+		Player: *?!* "How could you know that about me?"
+		"Huh? Doesn't everyone?"
 	cs. "Oh! Be careful not to..."
 		"I don't remember what I was going to say. Forget it."
 	ct. "You've seen the two sides all along, huh? Of course you have. But your friends don't know that, do they? Heheheh."
@@ -2751,7 +2752,7 @@ Concepts:
 	de. "I wonder why you're here. You probably wonder about me."
 		"Let's agree not to talk about it."
 	df. "They say the hair and fingernails of the dead continue to grow after death. Not here, though."
-		- The dead are not continuing to age, the Aether seems to freeze them in time partially.
+		- The dead are not continuing to age, the Aether seems to freeze them in time.
 164. "Your ears are drowned out by the screams of the dead. You see only red."
 	- Text before a key encounter in a cursed zone. Swap the palette to be entirely shades of red for the fight.
 	- Follows the vibe of the sampled screams at 1:10 in this track:

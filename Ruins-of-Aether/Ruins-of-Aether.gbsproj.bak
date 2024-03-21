@@ -1,8 +1,8 @@
 {
     "name": "Ruins-of-Aether",
     "author": "Antonio Tosti",
-    "_version": "3.1.0",
-    "_release": "3",
+    "_version": "3.2.0",
+    "_release": "1",
     "scenes": [
         {
             "name": "Title",
@@ -1167,7 +1167,7 @@
                 {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "153527c2-2335-4f5c-aaad-bdfffd3ba9b7",
+                        "sceneId": "561f6d4e-ecab-40db-a15f-4a3a110848ae",
                         "x": 9,
                         "y": 11,
                         "direction": "down",
@@ -23333,6 +23333,1408 @@
             "playerHit3Script": [],
             "autoFadeEventCollapse": true,
             "labelColor": "yellow"
+        },
+        {
+            "name": "Battle New",
+            "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "74ba6f50-04ea-43e7-b055-9e770fe51b5d",
+            "symbol": "scene_26",
+            "x": 1085.6000000000006,
+            "y": 30.800000000000015,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "16cb61f8-5d45-4fb1-b335-5428e97219fd",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_28",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8b25c120-f8a0-45ac-9e90-f477d419c811",
+                    "x": 9,
+                    "y": 5
+                },
+                {
+                    "name": "Battle Manager",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "509f3ba7-a57f-4abc-bfad-774f0238ec26",
+                    "direction": "left",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": true,
+                    "collisionGroup": "",
+                    "symbol": "actor_29",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Attach button scripts",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Movements",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "left"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    },
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "a80eb3b5-6e06-46bf-a6e2-153f815674fa"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "86b20935-e276-4c6a-b8ee-3f18c07e7f97"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "f82ceefd-a804-430a-ab06-106925f2684f"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "up"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    },
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "5c7b1dcb-4ea3-4f3f-b597-1be6bf179157"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "10b3e987-fad6-461e-a5b7-ec79ce220de8"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "1baf61d2-82c8-460e-ba9a-d885ab613057"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "down"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    },
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "7590a5d5-c1c2-4114-a1db-237c1a383f24"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "46c6d571-c97d-4155-88ab-95b979e9bcc7"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "97d48ecd-ba7a-465d-9abd-8fa731e77ff8"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "right"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    },
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "ea2472ec-872c-4b91-99ec-1a9d4691284b"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_SHOW",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "1d96719a-0a5f-4597-bf58-fcdb5e4fe990"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "24a8af0e-a9cd-4cdb-8187-2494981d038f"
+                                                }
+                                            ]
+                                        },
+                                        "id": "92fc2724-5666-4a8d-9e4c-af16caf33991"
+                                    },
+                                    {
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Buttons",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "a"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": false
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "deb000cf-f3e1-4812-ad45-f221e6ab4b2f"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "edbb5026-7349-4037-b434-dfbde473d6ef"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "eb208c1e-b7f5-427b-9cea-daae28c9b2e9"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "b"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_EMOTE",
+                                                                "args": {
+                                                                    "actorId": "player",
+                                                                    "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "a8644fb0-5137-4da7-ab37-a324dd2f0c99"
+                                                            },
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "d91decba-f37e-4515-bd0f-5350131f94c0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "bfa38e4c-5c01-47ef-8fb6-01d01bdfd049"
+                                                },
+                                                {
+                                                    "command": "EVENT_SET_INPUT_SCRIPT",
+                                                    "args": {
+                                                        "input": [
+                                                            "select"
+                                                        ],
+                                                        "override": true,
+                                                        "__scriptTabs": "press",
+                                                        "__collapse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "038bb79a-00f6-4a04-816a-97571d2b2211"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "id": "435843ff-01c6-48ea-914c-6061bee3a88a"
+                                                }
+                                            ]
+                                        },
+                                        "id": "6a5f314a-a4f6-4182-9fa3-2a70b2c56e1f"
+                                    }
+                                ]
+                            },
+                            "id": "a4fa8e7b-01e2-4320-aa3f-4ae9bcf3c6b5"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c54cbd06-96ba-431c-8e03-c6a8b8ac56ea",
+                    "x": 18,
+                    "y": 1
+                },
+                {
+                    "name": "Combo Inputs",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_30",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "$self$",
+                                "__collapse": true
+                            },
+                            "id": "aa0e2331-88ab-40ae-8314-aa051aeb293a"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                    "x": 16,
+                    "y": 16
+                }
+            ],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "args": {
+                        "actorId": "$self$",
+                        "direction": {
+                            "type": "direction",
+                            "value": "up"
+                        },
+                        "__collapse": true
+                    },
+                    "id": "f6d06858-b269-4fb4-87ef-312ac6cf762c"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "Aether-scarred Dialogue",
+            "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "561f6d4e-ecab-40db-a15f-4a3a110848ae",
+            "symbol": "scene_27",
+            "x": 1273.5999999999997,
+            "y": 221.20000000000005,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "75c0b1ff-6580-498f-8d28-7e61a3621aff",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_27",
+                    "script": [
+                        {
+                            "command": "EVENT_RNG_SEED",
+                            "args": {
+                                "__collapse": true
+                            },
+                            "id": "efbfe767-fb5d-46c5-b013-25a4df92a46c"
+                        },
+                        {
+                            "command": "EVENT_VARIABLE_MATH",
+                            "args": {
+                                "vectorX": "T0",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "L0",
+                                "value": "0",
+                                "minValue": "0",
+                                "maxValue": 24,
+                                "clamp": false,
+                                "__collapse": false
+                            },
+                            "id": "2a714f93-a402-46fd-b142-ac3ca1128fca"
+                        },
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Random Line"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 0,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "How Death can Chaos unite?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "3da3796a-0a6b-4eb8-9d2a-194555d15d6b"
+                                                },
+                                                {
+                                                    "command": "EVENT_CHOICE",
+                                                    "args": {
+                                                        "variable": "T1",
+                                                        "trueText": "Excuse me?",
+                                                        "falseText": "Huh?",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "6f5a8d03-0121-4194-bd40-456c6e728a6d"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Eh. You wouldn't get it."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "b391bc43-34af-43d0-8a77-13ab7b756762"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "48ab873b-20a4-418f-9d59-cae4a762b32d"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "597d1cf5-b826-41c2-988b-9f0478a6b023"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 1,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Our arrows rained hell upon our enemies.",
+                                                            "Now it is God who rains hell upon us."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "108f85be-9cea-4da2-8f04-fa8d5cbc0376"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4441020c-5a0e-4d16-964e-80b47c300bc3"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "d6fbcd3b-860c-4508-bf63-3c4bd619c10e"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 2,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "2b78b7c2-6327-4e45-a519-6bf78567485e"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "To kill, to maim, to be regarded:\nSuch is not the way!",
+                                                            "The thrill, to hunt, shall be rewarded:\nPain dispersed away!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "9eba0a35-da33-4ac8-9fad-6beb9c8538c8"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "45a60790-b905-43f7-be80-ab38600be4b9"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "d4abd9fa-1bea-4ead-952b-ccb01aa9b443"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 3,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I glimpsed the angels before they could\nwitness me.",
+                                                            "Yet they were too quick to catch. So now\nI stroll among their spurned kin."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "09a8d860-12d0-4b46-8c09-48f202b99e4a"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4b6faeef-3a76-4fe3-be00-db14658fd91d"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "888952f3-48c8-4fb5-8706-c47bbb005e0c"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 4,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I used to despise the Godless. Refused\nmost my enemies a proper burial.",
+                                                            "Now I see the irony: I was Godless all\nalong."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "32387b68-ad34-4937-995a-92f23a205e4b"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "218fd9a3-9485-4574-828a-ce1ef53467a2"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "ae8a617b-c3da-4741-a07c-fe38364eb412"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 5,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I was there at the beginning. Witnessed\nthe blades that changed it all.",
+                                                            "Soft silver, stained with a thin layer of\nroyal crimson.",
+                                                            "If only I'd been a painter..."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "12fab6e8-dea8-44d9-b1e7-48bf5b257ff8"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e3768655-4ae0-4ca1-a3cf-82f15c091bf1"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "ec04bb86-8782-4339-8983-d09ad15accc6"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 6,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "The night skies are so peaceful here.",
+                                                            "Such a stark contrast to the beautiful\nblue chaos of the Aether."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "bd120878-16f7-469f-b13a-56bbf87c1797"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "f27d5754-b523-4a73-a186-4290ca4ff3a0"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "c9425ddd-f1c1-46a4-b7e2-04abd138e9b7"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 7,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "How far is too far to travel? How long is\ntoo long away from home?",
+                                                            "Feels like I've spent a lifetime here now.\nFar longer than I've lived anywhere else."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "c356ca54-0844-4b11-b345-ce123a7ac67d"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "de71107e-eeb8-4343-a824-071492e4484e"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "cee9e293-4332-4711-8ac2-d74c1fa2e44d"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 8,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Did you hear the music of the night?\nThousands wailing and groaning in unison.",
+                                                            "I like to think of it as the undead chorus."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "f64a70c6-0de4-4f9f-be40-04eda9c18a58"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "2df0ad9f-ff2a-4643-a671-d5383c1afc95"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "5b8db75e-17f6-476a-81ab-081c1c2f7093"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 9,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Want to know the secret to survival?",
+                                                            "Forget that you ever existed. Truly.",
+                                                            "Once you forget, so too does the entire\nworld."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "51d1f3cf-c6c6-41ac-929d-d9f709d525ab"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4e1d4240-6c9b-42d2-a261-a51c6da9d98d"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "a43a3da2-f636-4560-aa03-cfb82675b09b"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 10,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "They used to hunt me, you know. Not sure\nwhat changed.",
+                                                            "Other than everything, of course."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "d4293f13-c4ea-4c71-8f31-60303240c046"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "e5633e7d-8825-460e-8637-ff6c0c897b04"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "7fb11ee8-2387-4286-9082-f4e4af1eb600"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 11,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Met an old colleague out there. I think\nthey recognized me.",
+                                                            "It was hard to be sure."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "ea5cbd70-58b4-4a43-83b4-d3add2f324cc"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "03900b68-03af-4a24-8742-77ec596a892b"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "8f208b37-2780-4056-bdf5-38f92ef69756"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 12,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "10,000 years of aether and ash. Can you\neven imagine such a long time?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "b798d623-07be-42df-b56b-51b7a1c9dd07"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "12165d6f-d5fb-4dcc-bd81-e74f79af5438"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "55c7fdfc-f4c3-4744-9a1e-4bbe4e41c736"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 13,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Didn't think I'd ever see the Jester return.",
+                                                            " Most wouldn't have the stomach for it."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "d7a02d2b-d6cd-488a-84b2-d8e4f7ed9ba2"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "a5ec9836-3efd-416b-bbed-597a28810b31"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "58a6267e-f709-4b7a-9099-459dbfb09819"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 14,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Royal wizardry, huh? What's old is new\nagain!",
+                                                            "And the new, once again, relegated to\nbeing the old."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4355e36b-4bc3-473e-8b48-559e81a0a46f"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "2395889d-0b77-4d3a-aa7e-2c8928f0b18d"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "e65a8134-85d1-4f2f-9521-502e9555d721"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 15,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I can't sleep more than a few hours a day\nanymore.",
+                                                            "I think it's the Aether. It keeps me\nawake through the night."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "7a3b4757-8867-491c-a91b-1ce85726a087"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "a99c8967-a4d3-4433-a7a0-9cf72209b4bf"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "919692b6-e9ec-4401-9635-f4e2a4bb1205"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 16,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I used to kill them, just like you. Thought\nI was helping.",
+                                                            "Now... I don't know. The Aether keeps me\nindifferent."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "28882d06-dd39-4f17-9a76-c386c3b02bda"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "718ee5d6-c4de-4745-9c78-1a1a0c86ebf2"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "1917cf60-2354-42d6-aa3f-20a4a6077f3f"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 17,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "The dead don't bother me here. I could\nleave whenever I want.",
+                                                            "But something here is calling to me...",
+                                                            "And there's a second voice out there, too."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "8a306c04-a1f9-427d-be20-cf36cecbd463"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "3e619cc4-e6a3-4681-8b75-a50b1f0bf4fc"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "02f7048e-b6ea-4f21-9a03-e3c02cb1ed6c"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 18,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Why did we do all this? Have we not\nachieved less than if we'd left it all alone?"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "73573ca7-fb9c-4fc5-8d1e-c09899f5cd43"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "632d8a00-fa06-4bcb-968a-ed9d791d66d2"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "4eaffdc2-3f9d-4d17-89e3-27e3479594fe"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 19,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I used to read a lot. Now I just tend to\nthink.",
+                                                            "Got plenty of time for it, too.",
+                                                            "...Plenty."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "7ba1a926-db89-4431-a821-41bf3ad9d59f"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "0de35112-7fd9-4232-97ce-10e4e0e830d1"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "0ffb2b01-7182-45b3-ae55-67e5ee3f798b"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 20,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "There's more dead here than there used\nto be. I know that for a fact.",
+                                                            "They're stronger now. And so, too is it."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "304f2c13-ff62-4cf7-b0a1-300ca2a3e565"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "6be9a225-e4bf-4719-a481-97bc67aab77f"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "104082c9-fa52-4b10-98d0-6540adf7ec9e"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 21,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Sorry for not introducing myself.",
+                                                            "Truth be told, I can't recall my own name\nanymore. Ha!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "5e630e6c-8930-45b3-86dc-a8798c125bcf"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "82e6d65f-1032-47a2-bc61-c13f68606411"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "c20435dc-13e7-4621-9c94-82c120f9f789"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 22,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "I remember the faces of those I served\nwith. But names? Not so much."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "769e5d5b-cd32-409e-8c5e-debd258ed919"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "6ec3f610-20bf-4463-9f08-95117582927f"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "d6ceb58d-d438-4598-afe6-07f23131a8e4"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 23,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Can't remember the last time I ate.\nHaven't felt hungry in a while.",
+                                                            "Oh well, more time to think."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "4898f070-3481-451c-9cf4-06a06db87235"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "62363a4c-470f-40eb-adc1-07a09dc7cb6f"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "90e6c3a9-5f5b-4132-b43a-ef30680565ec"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 24,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Thanks for chatting with me. Been a while\nsince I've met such a conversationalist!"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "412d5348-1b38-4e53-892e-3a844d33ac25"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "3d576102-1dc0-47d0-90cc-c3a522c37e35"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "48f26f6f-d918-4bce-91ce-e3956b3eb606"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "ae677003-7eab-4f9e-8cdb-a2f0596921ee"
+                                    }
+                                ]
+                            },
+                            "id": "60557d16-14e0-4a00-b43a-cbd4c4346518"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ac954025-7e2c-452f-9f66-0ea5ee172f59",
+                    "x": 9,
+                    "y": 7
+                }
+            ],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -28136,13 +29538,13 @@
         },
         {
             "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
-            "name": "portraits/lords-portrait",
+            "name": "portraits\\lords-portrait",
             "symbol": "bg_portraits_lords_portrait",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/lords-portrait.png",
+            "filename": "portraits\\lords-portrait.png",
             "tileColors": [
                 0,
                 0,
@@ -28508,13 +29910,13 @@
         },
         {
             "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
-            "name": "portraits/tower-landscape",
+            "name": "portraits\\tower-landscape",
             "symbol": "bg_portraits_tower_landscap",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "portraits/tower-landscape.png",
+            "filename": "portraits\\tower-landscape.png",
             "tileColors": [
                 5,
                 5,
@@ -28880,13 +30282,13 @@
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "name": "premades/placeholder",
+            "name": "premades\\placeholder",
             "symbol": "bg_premades_placeholder",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "premades/placeholder.png",
+            "filename": "premades\\placeholder.png",
             "tileColors": []
         },
         {
@@ -31086,13 +32488,13 @@
         },
         {
             "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
-            "name": "startup/intro-eyes",
+            "name": "startup\\intro-eyes",
             "symbol": "bg_startup_intro_eyes",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/intro-eyes.png",
+            "filename": "startup\\intro-eyes.png",
             "tileColors": [
                 0,
                 0,
@@ -31458,24 +32860,24 @@
         },
         {
             "id": "2fd5ee1e-ca1b-49ad-ac9e-238210216ab6",
-            "name": "startup/made-in-gb-studio",
+            "name": "startup\\made-in-gb-studio",
             "symbol": "bg_startup_made_in_gb_studi",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/made-in-gb-studio.png",
+            "filename": "startup\\made-in-gb-studio.png",
             "tileColors": []
         },
         {
             "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
-            "name": "startup/title",
+            "name": "startup\\title",
             "symbol": "bg_startup_title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "startup/title.png",
+            "filename": "startup\\title.png",
             "tileColors": [
                 0,
                 0,
@@ -34055,7 +35457,7 @@
             "symbol": "sprite_characters_alexandro",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/alexandros.png",
+            "filename": "characters\\alexandros.png",
             "checksum": "667625c4af12cf0eae4fce8dc502fbd2b70c356c",
             "width": 48,
             "height": 64,
@@ -34744,7 +36146,7 @@
             "symbol": "sprite_characters_arrow_ico",
             "numFrames": 2,
             "type": "animated",
-            "filename": "characters/arrow-icon.png",
+            "filename": "characters\\arrow-icon.png",
             "checksum": "b6c08ca3e87afed07379b18fa2ce8e59c8e8a56a",
             "width": 32,
             "height": 8,
@@ -34895,7 +36297,7 @@
             "symbol": "sprite_characters_aylmera_b",
             "numFrames": 16,
             "type": "animated",
-            "filename": "characters/aylmera-battle.png",
+            "filename": "characters\\aylmera-battle.png",
             "checksum": "f2cc4ae32a73c8ce8e3f64cbdf30f26c8065a85f",
             "width": 256,
             "height": 64,
@@ -36348,7 +37750,7 @@
             "symbol": "sprite_characters_chef_4til",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/chef-4t.png",
+            "filename": "characters\\chef-4t.png",
             "checksum": "1ed5808b3a56464b6a9801e1737f97f7655c1522",
             "width": 64,
             "height": 16,
@@ -36557,7 +37959,7 @@
             "symbol": "sprite_characters_cloud",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/cloud.png",
+            "filename": "characters\\cloud.png",
             "checksum": "208777ea13982e122b6b90c3f3ace55cff2d7063",
             "width": 64,
             "height": 16,
@@ -36778,7 +38180,7 @@
             "symbol": "sprite_characters_jester",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/jester.png",
+            "filename": "characters\\jester.png",
             "checksum": "b19be410dc59dd54ecfd1a806e2ede17d0c865a9",
             "width": 48,
             "height": 64,
@@ -37467,7 +38869,7 @@
             "symbol": "sprite_characters_king_4t",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/king-4t.png",
+            "filename": "characters\\king-4t.png",
             "checksum": "78427928deed92629d6ab147cd262a2f2f649e71",
             "width": 64,
             "height": 16,
@@ -37676,7 +39078,7 @@
             "symbol": "sprite_characters_neera",
             "numFrames": 3,
             "type": "actor",
-            "filename": "characters/neera.png",
+            "filename": "characters\\neera.png",
             "checksum": "0f50fb73cb326d0cf1d2ad72d9efb5da0cc7f8ab",
             "width": 48,
             "height": 64,
@@ -38365,7 +39767,7 @@
             "symbol": "sprite_characters_player",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/player.png",
+            "filename": "characters\\player.png",
             "checksum": "3356fffbe085d17dac8e9380af38bf1fbac7a391",
             "width": 64,
             "height": 64,
@@ -39236,7 +40638,7 @@
             "symbol": "sprite_characters_waving_fl",
             "numFrames": 4,
             "type": "animated",
-            "filename": "characters/waving-flag.png",
+            "filename": "characters\\waving-flag.png",
             "checksum": "09ec4ceb4e0436fd180353f97d31d5bafd0e8808",
             "width": 64,
             "height": 16,
@@ -39457,7 +40859,7 @@
             "symbol": "sprite_premades_2bit_an0000",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0000060100_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0000060100_gbs_anim.png",
             "checksum": "dcbe61ec8d151a8e543890c7c200627f70cc1c68",
             "width": 96,
             "height": 16,
@@ -39813,7 +41215,7 @@
             "symbol": "sprite_premades_2bit_an0010",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0010070004_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0010070004_gbs_anim.png",
             "checksum": "7ca4a33d628ae17fde34fd596f982d9638953eda",
             "width": 96,
             "height": 16,
@@ -40169,7 +41571,7 @@
             "symbol": "sprite_premadesbit_an0010_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0010070302_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0010070302_gbs_anim.png",
             "checksum": "ac850b924a73b64385c770ff59ee06628648766a",
             "width": 96,
             "height": 16,
@@ -40525,7 +41927,7 @@
             "symbol": "sprite_premades_2bit_an0100",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0100210102_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0100210102_gbs_anim.png",
             "checksum": "79f99c179faed4370d9c339f54037d89be5950c5",
             "width": 96,
             "height": 16,
@@ -40881,7 +42283,7 @@
             "symbol": "sprite_premades_2bit_an0102",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0102050003_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0102050003_gbs_anim.png",
             "checksum": "a1991533de6d8f9e1a201ab3f54e8bbd01bf6ecf",
             "width": 96,
             "height": 16,
@@ -41237,7 +42639,7 @@
             "symbol": "sprite_premades_2bit_an0103",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0103010401_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0103010401_gbs_anim.png",
             "checksum": "cd9f3051720f1289bb7e06906375828d83112914",
             "width": 96,
             "height": 16,
@@ -41593,7 +42995,7 @@
             "symbol": "sprite_premadesbit_an0103_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0103050100_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0103050100_gbs_anim.png",
             "checksum": "5caace6ac3b680712b53258b66d977ab5456253f",
             "width": 96,
             "height": 16,
@@ -41949,7 +43351,7 @@
             "symbol": "sprite_premades_2bit_an0106",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0106200200_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0106200200_gbs_anim.png",
             "checksum": "bdf818b6ee5cde0b57309828b4e882e9184c6684",
             "width": 96,
             "height": 16,
@@ -42305,7 +43707,7 @@
             "symbol": "sprite_premadesbit_an0106_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0106220704_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0106220704_gbs_anim.png",
             "checksum": "0f633a3561a5e057cd103783a0a711a77e4a7ffb",
             "width": 96,
             "height": 16,
@@ -42661,7 +44063,7 @@
             "symbol": "sprite_premades_2bit_an0108",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0108050004_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0108050004_gbs_anim.png",
             "checksum": "d52741f75056656cbabc6d9eb2221ba8dfe23ebc",
             "width": 96,
             "height": 16,
@@ -43017,7 +44419,7 @@
             "symbol": "sprite_premades_2bit_an0110",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0110110503_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0110110503_gbs_anim.png",
             "checksum": "b10633731d715ef947bd43d28a15b1429598b5cf",
             "width": 96,
             "height": 16,
@@ -43373,7 +44775,7 @@
             "symbol": "sprite_premades_2bit_an0200",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0200040003_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0200040003_gbs_anim.png",
             "checksum": "d820f4f48da7ccae0afc692a1d209c2c165b785c",
             "width": 96,
             "height": 16,
@@ -43729,7 +45131,7 @@
             "symbol": "sprite_premades_2bit_an0201",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0201010703_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0201010703_gbs_anim.png",
             "checksum": "1dee5c9d283fff89e503edc901b135c108d06720",
             "width": 96,
             "height": 16,
@@ -44085,7 +45487,7 @@
             "symbol": "sprite_premades_2bit_an0202",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0202100400_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0202100400_gbs_anim.png",
             "checksum": "7cb0044993ce40bb9572730e45e7d2a4e751128e",
             "width": 96,
             "height": 16,
@@ -44441,7 +45843,7 @@
             "symbol": "sprite_premadesbit_an0202_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0202100401_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0202100401_gbs_anim.png",
             "checksum": "0f2322172da75370ee87a43a1bc667e1fa4eb5c1",
             "width": 96,
             "height": 16,
@@ -44797,7 +46199,7 @@
             "symbol": "sprite_premades_2bit_an0203",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0203040304_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0203040304_gbs_anim.png",
             "checksum": "f4648a6ee593047d6b314ec5c2512845f49bfe21",
             "width": 96,
             "height": 16,
@@ -45153,7 +46555,7 @@
             "symbol": "sprite_premades_2bit_an0205",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0205110204_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0205110204_gbs_anim.png",
             "checksum": "c19c85e4ba0234ca87ca5bbc4186cc91bbcfb76b",
             "width": 96,
             "height": 16,
@@ -45509,7 +46911,7 @@
             "symbol": "sprite_premades_2bit_an0206",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0206040201_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0206040201_gbs_anim.png",
             "checksum": "bc213a1b89e4f3d9988aacf504581727b028bd5b",
             "width": 96,
             "height": 16,
@@ -45865,7 +47267,7 @@
             "symbol": "sprite_premades_2bit_an0207",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0207030701_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0207030701_gbs_anim.png",
             "checksum": "94a933465c0cd98ee5cd180741ebebef2adf4d7f",
             "width": 96,
             "height": 16,
@@ -46221,7 +47623,7 @@
             "symbol": "sprite_premades_2bit_an0208",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0208080504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0208080504_gbs_anim.png",
             "checksum": "5b00a433963952cde507ed5ed2c9a117eb0f2ee5",
             "width": 96,
             "height": 16,
@@ -46577,7 +47979,7 @@
             "symbol": "sprite_premades_2bit_an0209",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209010500_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209010500_gbs_anim.png",
             "checksum": "7585e719c2da61daf890b3fa8c4abb3b5223e0f8",
             "width": 96,
             "height": 16,
@@ -46933,7 +48335,7 @@
             "symbol": "sprite_premadesbit_an0209_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209110602_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209110602_gbs_anim.png",
             "checksum": "9b033b9327f0688ef08b9365047a67ab75ffcaa8",
             "width": 96,
             "height": 16,
@@ -47289,7 +48691,7 @@
             "symbol": "sprite_premadesbit_an0209_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0209120802_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0209120802_gbs_anim.png",
             "checksum": "594ef446b1bd22d9cb772ef5adbad3fdc076f5c3",
             "width": 96,
             "height": 16,
@@ -47645,7 +49047,7 @@
             "symbol": "sprite_premades_2bit_an0301",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0301160600_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0301160600_gbs_anim.png",
             "checksum": "545c981bba6e870852df3a7d38f5ca53c17540d2",
             "width": 96,
             "height": 16,
@@ -48001,7 +49403,7 @@
             "symbol": "sprite_premades_2bit_an0306",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0306060101_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0306060101_gbs_anim.png",
             "checksum": "cb3c4354c1acc2dcbacb4eaee3d98969dcf760b7",
             "width": 96,
             "height": 16,
@@ -48357,7 +49759,7 @@
             "symbol": "sprite_premades_2bit_an0309",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0309090802_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0309090802_gbs_anim.png",
             "checksum": "4d244bd4633fb625e1d92c3f46ada20cf7d3377a",
             "width": 96,
             "height": 16,
@@ -48713,7 +50115,7 @@
             "symbol": "sprite_premades_2bit_an0402",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402090303_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402090303_gbs_anim.png",
             "checksum": "db4f7eef5b56e3b938d2387ba67091c1f7826d12",
             "width": 96,
             "height": 16,
@@ -49069,7 +50471,7 @@
             "symbol": "sprite_premadesbit_an0402_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402100200_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402100200_gbs_anim.png",
             "checksum": "42f69db725d38fa8ece0e9151d96aeaf5437444d",
             "width": 96,
             "height": 16,
@@ -49425,7 +50827,7 @@
             "symbol": "sprite_premadesbit_an0402_1",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402190604_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402190604_gbs_anim.png",
             "checksum": "30c3f7b88fa53074ac0057868de996eeb4100b51",
             "width": 96,
             "height": 16,
@@ -49781,7 +51183,7 @@
             "symbol": "sprite_premadesbit_an0402_2",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0402210504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0402210504_gbs_anim.png",
             "checksum": "3dda08fa08ca91fdd437196c30c049f5131244f5",
             "width": 96,
             "height": 16,
@@ -50137,7 +51539,7 @@
             "symbol": "sprite_premades_2bit_an0404",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0404070103_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0404070103_gbs_anim.png",
             "checksum": "ab15c10b8931604855d598a45af3c7b94171d8aa",
             "width": 96,
             "height": 16,
@@ -50493,7 +51895,7 @@
             "symbol": "sprite_premadesbit_an0404_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0404070400_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0404070400_gbs_anim.png",
             "checksum": "91c075506b992ec0b6fb915c181ca3888d29e19f",
             "width": 96,
             "height": 16,
@@ -50849,7 +52251,7 @@
             "symbol": "sprite_premades_2bit_an0406",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0406000701_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0406000701_gbs_anim.png",
             "checksum": "509c5f8463acd0d096556ff6ceb5f9b32786831a",
             "width": 96,
             "height": 16,
@@ -51205,7 +52607,7 @@
             "symbol": "sprite_premades_2bit_an0407",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0407070502_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0407070502_gbs_anim.png",
             "checksum": "2a59bde48cf04035c71d5ac92396232a9fa0fa8b",
             "width": 96,
             "height": 16,
@@ -51561,7 +52963,7 @@
             "symbol": "sprite_premades_2bit_an0410",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0410100304_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0410100304_gbs_anim.png",
             "checksum": "68bbb445ca083a768eb23271f8d18ff052f1b033",
             "width": 96,
             "height": 16,
@@ -51917,7 +53319,7 @@
             "symbol": "sprite_premades_2bit_an0502",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0502050500_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0502050500_gbs_anim.png",
             "checksum": "afc2e3c434dc944051f373b2bdfc0f8b177eec19",
             "width": 96,
             "height": 16,
@@ -52273,7 +53675,7 @@
             "symbol": "sprite_premades_2bit_an0506",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0506120105_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0506120105_gbs_anim.png",
             "checksum": "d367388052d78ba246b1de7c145b3130deaceb61",
             "width": 96,
             "height": 16,
@@ -52629,7 +54031,7 @@
             "symbol": "sprite_premades_2bit_an0510",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0510000700_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0510000700_gbs_anim.png",
             "checksum": "ca70d25e459569881a83b677f5a2a3d495213ee4",
             "width": 96,
             "height": 16,
@@ -52985,7 +54387,7 @@
             "symbol": "sprite_premades_2bit_an0602",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0602080205_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0602080205_gbs_anim.png",
             "checksum": "1651009b0f121c5d9125498a9bd7482dd78a3b49",
             "width": 96,
             "height": 16,
@@ -53341,7 +54743,7 @@
             "symbol": "sprite_premades_2bit_an0603",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0603200300_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0603200300_gbs_anim.png",
             "checksum": "178604fa48b22761007a1af2c1030b383a12fb32",
             "width": 96,
             "height": 16,
@@ -53697,7 +55099,7 @@
             "symbol": "sprite_premadesbit_an0603_0",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0603210501_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0603210501_gbs_anim.png",
             "checksum": "5a912dcb62c43d750c671f7c2a959cabfa8915e8",
             "width": 96,
             "height": 16,
@@ -54053,7 +55455,7 @@
             "symbol": "sprite_premades_2bit_an0604",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0604110002_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0604110002_gbs_anim.png",
             "checksum": "ae2c7d77518e9be7b8dd72a2d01ea977363f0c8f",
             "width": 96,
             "height": 16,
@@ -54409,7 +55811,7 @@
             "symbol": "sprite_premades_2bit_an0605",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0605050700_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0605050700_gbs_anim.png",
             "checksum": "eb23e1453734da0c054ba6210617acfc17c873ff",
             "width": 96,
             "height": 16,
@@ -54765,7 +56167,7 @@
             "symbol": "sprite_premades_2bit_an0608",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0608000504_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0608000504_gbs_anim.png",
             "checksum": "ef846d56f1dceb10397a2c525c7b081b79e27820",
             "width": 96,
             "height": 16,
@@ -55121,7 +56523,7 @@
             "symbol": "sprite_premades_2bit_an0610",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/2bit/aN0610010402_gbs_anim.png",
+            "filename": "premades\\2bit\\aN0610010402_gbs_anim.png",
             "checksum": "7ac9fc852007cfb29c21f256c87b09707dea3d44",
             "width": 96,
             "height": 16,
@@ -55477,7 +56879,7 @@
             "symbol": "sprite_premades_8_direction",
             "numFrames": 24,
             "type": "animated",
-            "filename": "premades/8-direction-gibbongl.png",
+            "filename": "premades\\8-direction-gibbongl.png",
             "checksum": "39862d2c400b71d659a50476392be7b9fc124584",
             "width": 384,
             "height": 384,
@@ -55578,7 +56980,7 @@
             "symbol": "sprite_premades_rpg_exterio",
             "numFrames": 12,
             "type": "animated",
-            "filename": "premades/RPG_exterior.png",
+            "filename": "premades\\RPG_exterior.png",
             "checksum": "e23f5216f1395536bc85cfdc9ebb1313f3397d34",
             "width": 192,
             "height": 136,
@@ -55679,7 +57081,7 @@
             "symbol": "sprite_premades_rpg_exterio_0",
             "numFrames": 24,
             "type": "animated",
-            "filename": "premades/RPG_exterior_example.png",
+            "filename": "premades\\RPG_exterior_example.png",
             "checksum": "27e347aa8d2f908bf729c12d590cc657e15d6eda",
             "width": 384,
             "height": 192,
@@ -55780,7 +57182,7 @@
             "symbol": "sprite_premades_rpg_interio",
             "numFrames": 20,
             "type": "animated",
-            "filename": "premades/RPG_interior _example.png",
+            "filename": "premades\\RPG_interior _example.png",
             "checksum": "2f164dac8b10ddce43ef2735c209445b1312c8eb",
             "width": 320,
             "height": 144,
@@ -55881,7 +57283,7 @@
             "symbol": "sprite_premades_rpg_interio_0",
             "numFrames": 11,
             "type": "animated",
-            "filename": "premades/RPG_interior.png",
+            "filename": "premades\\RPG_interior.png",
             "checksum": "e11760d9f78d5bfdb0fc8a7d96beaf4dd72c10f6",
             "width": 176,
             "height": 104,
@@ -55982,7 +57384,7 @@
             "symbol": "sprite_premades_actor",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/actor.png",
+            "filename": "premades\\actor.png",
             "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
             "width": 48,
             "height": 16,
@@ -56164,7 +57566,7 @@
             "symbol": "sprite_premades_actor_anima",
             "numFrames": 6,
             "type": "actor_animated",
-            "filename": "premades/actor_animated.png",
+            "filename": "premades\\actor_animated.png",
             "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
             "width": 96,
             "height": 16,
@@ -56520,7 +57922,7 @@
             "symbol": "sprite_premades_cat",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/cat.png",
+            "filename": "premades\\cat.png",
             "checksum": "b043d62597e5be563b43a54be9d29deebbb165c1",
             "width": 16,
             "height": 16,
@@ -56648,7 +58050,7 @@
             "symbol": "sprite_premades_character0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character0.png",
+            "filename": "premades\\character0.png",
             "checksum": "e3cb9c3af37cabae26cebf61cc347f869012122b",
             "width": 16,
             "height": 16,
@@ -56776,7 +58178,7 @@
             "symbol": "sprite_premades_character1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character1.png",
+            "filename": "premades\\character1.png",
             "checksum": "49131ef5b2d20d5432572c4053ffc2b0a536f08d",
             "width": 16,
             "height": 16,
@@ -56904,7 +58306,7 @@
             "symbol": "sprite_premades_character2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character2.png",
+            "filename": "premades\\character2.png",
             "checksum": "65136775c01ebcb8a90392a236314a398e74fb17",
             "width": 16,
             "height": 16,
@@ -57032,7 +58434,7 @@
             "symbol": "sprite_premades_character3",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/character3.png",
+            "filename": "premades\\character3.png",
             "checksum": "aaa8f06f105b27e744a6d6ef946f84ad815d75a8",
             "width": 16,
             "height": 16,
@@ -57160,7 +58562,7 @@
             "symbol": "sprite_premades_enemy0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy0.png",
+            "filename": "premades\\enemy0.png",
             "checksum": "bfa9cb107e9f1d58ab9896b49bd93145b4a1f385",
             "width": 16,
             "height": 16,
@@ -57288,7 +58690,7 @@
             "symbol": "sprite_premades_enemy1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy1.png",
+            "filename": "premades\\enemy1.png",
             "checksum": "7c045dc66819f9590918b7f12447b5b38496591e",
             "width": 16,
             "height": 16,
@@ -57416,7 +58818,7 @@
             "symbol": "sprite_premades_enemy2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/enemy2.png",
+            "filename": "premades\\enemy2.png",
             "checksum": "dad68b4af478d5bfe2a731c4a4e0800e369120d7",
             "width": 16,
             "height": 16,
@@ -57544,7 +58946,7 @@
             "symbol": "sprite_premades_fire",
             "numFrames": 4,
             "type": "animated",
-            "filename": "premades/fire.png",
+            "filename": "premades\\fire.png",
             "checksum": "da92212c3c424721b2535a2e85e0f6f5ed010f74",
             "width": 64,
             "height": 16,
@@ -57765,7 +59167,7 @@
             "symbol": "sprite_premades_heart0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart0.png",
+            "filename": "premades\\heart0.png",
             "checksum": "7656680fbd3e7d49ec127260e3aa61bd0c881872",
             "width": 16,
             "height": 16,
@@ -57893,7 +59295,7 @@
             "symbol": "sprite_premades_heart1",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart1.png",
+            "filename": "premades\\heart1.png",
             "checksum": "042388ba8b04f51ea9881672317e39ca52508853",
             "width": 16,
             "height": 16,
@@ -58021,7 +59423,7 @@
             "symbol": "sprite_premades_heart2",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/heart2.png",
+            "filename": "premades\\heart2.png",
             "checksum": "b917659130116c7bef29dba42e486b1a5ee05640",
             "width": 16,
             "height": 16,
@@ -58149,7 +59551,7 @@
             "symbol": "sprite_premades_item0",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/item0.png",
+            "filename": "premades\\item0.png",
             "checksum": "e418a68b729e26a82de13a110d9aee240a03472e",
             "width": 16,
             "height": 16,
@@ -58277,7 +59679,7 @@
             "symbol": "sprite_premades_npc001",
             "numFrames": 3,
             "type": "actor",
-            "filename": "premades/npc001.png",
+            "filename": "premades\\npc001.png",
             "checksum": "41238f54ad45b3503b77c7b126916ae0a30420be",
             "width": 48,
             "height": 16,
@@ -58459,7 +59861,7 @@
             "symbol": "sprite_premades_poloviiinki",
             "numFrames": 32,
             "type": "animated",
-            "filename": "premades/poloviiinkin-8.png",
+            "filename": "premades\\poloviiinkin-8.png",
             "checksum": "3e2c22411ef7302793539535c934f780da742928",
             "width": 512,
             "height": 512,
@@ -58560,7 +59962,7 @@
             "symbol": "sprite_premades_rohangb_til",
             "numFrames": 12,
             "type": "animated",
-            "filename": "premades/rohangb-Tileset.png",
+            "filename": "premades\\rohangb-Tileset.png",
             "checksum": "e7a6c323a4c393a8c3809464f85772ef0e779068",
             "width": 192,
             "height": 160,
@@ -58661,7 +60063,7 @@
             "symbol": "sprite_premades_static",
             "numFrames": 1,
             "type": "static",
-            "filename": "premades/static.png",
+            "filename": "premades\\static.png",
             "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8",
             "width": 16,
             "height": 16,
@@ -58789,7 +60191,7 @@
             "symbol": "sprite_projectiles_invisble",
             "numFrames": 1,
             "type": "static",
-            "filename": "projectiles/invisible.png",
+            "filename": "projectiles\\invisible.png",
             "checksum": "02193b15355a52fd63cf83e17fea58206bc4ae59",
             "width": 16,
             "height": 16,
@@ -58917,7 +60319,7 @@
             "symbol": "sprite_projectiles_swipe",
             "numFrames": 3,
             "type": "actor",
-            "filename": "projectiles/swipe.png",
+            "filename": "projectiles\\swipe.png",
             "checksum": "de33216ea40da71b23b243dcdf6aad997e626391",
             "width": 48,
             "height": 64,
@@ -60719,137 +62121,137 @@
         },
         {
             "id": "b5b4bf30-118e-4bb3-a454-1e68e0c32647",
-            "name": "daniel/amble",
+            "name": "daniel\\amble",
             "symbol": "song_daniel_amble",
-            "filename": "daniel/amble.uge",
+            "filename": "daniel\\amble.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "3d485c8e-e73b-40cd-ab18-9e247e42d8f5",
-            "name": "daniel/ascent",
+            "name": "daniel\\ascent",
             "symbol": "song_daniel_ascent",
-            "filename": "daniel/ascent.uge",
+            "filename": "daniel\\ascent.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "c8d30eee-fc54-4972-a009-bce37917f396",
-            "name": "daniel/bad",
+            "name": "daniel\\bad",
             "symbol": "song_daniel_bad",
-            "filename": "daniel/bad.uge",
+            "filename": "daniel\\bad.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "e5532690-6df4-4051-97db-ba1400c441fa",
-            "name": "daniel/daniels-song",
+            "name": "daniel\\daniels-song",
             "symbol": "song_daniel_daniels_song",
-            "filename": "daniel/daniels-song.uge",
+            "filename": "daniel\\daniels-song.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "4b0286dd-05e6-4308-ba2b-f6f7373e5714",
-            "name": "daniel/echo",
+            "name": "daniel\\echo",
             "symbol": "song_daniel_echo",
-            "filename": "daniel/echo.uge",
+            "filename": "daniel\\echo.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "791617c0-80fa-4560-b125-ec104bd0ff7e",
-            "name": "daniel/ehh",
+            "name": "daniel\\ehh",
             "symbol": "song_daniel_ehh",
-            "filename": "daniel/ehh.uge",
+            "filename": "daniel\\ehh.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "f5d8c583-fff9-4841-b6b6-959efd4712c3",
-            "name": "daniel/fancy",
+            "name": "daniel\\fancy",
             "symbol": "song_daniel_fancy",
-            "filename": "daniel/fancy.uge",
+            "filename": "daniel\\fancy.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "124310be-90e7-4ed2-8d72-c639d4aed883",
-            "name": "daniel/fun",
+            "name": "daniel\\fun",
             "symbol": "song_daniel_fun",
-            "filename": "daniel/fun.uge",
+            "filename": "daniel\\fun.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "e5ed0321-7307-436d-af05-2e45a31ca017",
-            "name": "daniel/gallop",
+            "name": "daniel\\gallop",
             "symbol": "song_daniel_gallop",
-            "filename": "daniel/gallop.uge",
+            "filename": "daniel\\gallop.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "18e0f8f8-345e-4682-9d7a-54ae2cbb08c8",
-            "name": "daniel/heavy-metal",
+            "name": "daniel\\heavy-metal",
             "symbol": "song_daniel_heavy_metal",
-            "filename": "daniel/heavy-metal.uge",
+            "filename": "daniel\\heavy-metal.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "29e84069-b0e7-4d6a-aee5-b43338e9b068",
-            "name": "daniel/idk",
+            "name": "daniel\\idk",
             "symbol": "song_daniel_idk",
-            "filename": "daniel/idk.uge",
+            "filename": "daniel\\idk.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "aa3817e6-4779-41fa-b6e1-2de2d535d94a",
-            "name": "daniel/march",
+            "name": "daniel\\march",
             "symbol": "song_daniel_march",
-            "filename": "daniel/march.uge",
+            "filename": "daniel\\march.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "fdf3d8f0-702b-455b-be26-e827d26b29fc",
-            "name": "daniel/spider",
+            "name": "daniel\\spider",
             "symbol": "song_daniel_spider",
-            "filename": "daniel/spider.uge",
+            "filename": "daniel\\spider.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "d979e7d2-c309-4260-b279-a933bad661a1",
-            "name": "daniel/three-notes",
+            "name": "daniel\\three-notes",
             "symbol": "song_daniel_three_notes",
-            "filename": "daniel/three-notes.uge",
+            "filename": "daniel\\three-notes.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "4b440187-10f1-4ff4-af7d-254a862ae3ae",
-            "name": "daniel/upbeat",
+            "name": "daniel\\upbeat",
             "symbol": "song_daniel_upbeat",
-            "filename": "daniel/upbeat.uge",
+            "filename": "daniel\\upbeat.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "659c0bf3-a172-4f69-96e8-fe441321db14",
-            "name": "daniel/violin",
+            "name": "daniel\\violin",
             "symbol": "song_daniel_violin",
-            "filename": "daniel/violin.uge",
+            "filename": "daniel\\violin.uge",
             "settings": {},
             "type": "uge"
         },
         {
             "id": "6b4c506f-3757-478f-8eee-9748f0493760",
-            "name": "daniel/walk",
+            "name": "daniel\\walk",
             "symbol": "song_daniel_walk",
-            "filename": "daniel/walk.uge",
+            "filename": "daniel\\walk.uge",
             "settings": {},
             "type": "uge"
         },
@@ -60866,6 +62268,158 @@
             "name": "enemy-approaches",
             "symbol": "song_enemy_approaches",
             "filename": "enemy-approaches.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "74893f36-79c3-4994-b2b8-2db0d50980c6",
+            "name": "fanfares\\bonus",
+            "symbol": "song_fanfares_bonus",
+            "filename": "fanfares\\bonus.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "dfb4758f-f210-4b8b-ae3b-ea694cd2b864",
+            "name": "fanfares\\boss_appears",
+            "symbol": "song_fanfares_boss_appears",
+            "filename": "fanfares\\boss_appears.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "a987e633-c7d5-4602-935d-d59c9e606c6f",
+            "name": "fanfares\\charge",
+            "symbol": "song_fanfares_charge",
+            "filename": "fanfares\\charge.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "da429c96-2ac9-4658-b22b-8e82ad395fdc",
+            "name": "fanfares\\creepy_organ",
+            "symbol": "song_fanfares_creepy_organ",
+            "filename": "fanfares\\creepy_organ.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "731ea39e-2234-40a7-8e5b-7a8f556f86a5",
+            "name": "fanfares\\distant_flute",
+            "symbol": "song_fanfares_distant_flute",
+            "filename": "fanfares\\distant_flute.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "5f71354f-2d2e-4c78-90ae-5988d0980a61",
+            "name": "fanfares\\echoes",
+            "symbol": "song_fanfares_echoes",
+            "filename": "fanfares\\echoes.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "7f189313-52ff-4dc4-92c2-67b35ee19729",
+            "name": "fanfares\\failure",
+            "symbol": "song_fanfares_failure",
+            "filename": "fanfares\\failure.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "f7123412-61f2-44fa-8532-be2f75c75377",
+            "name": "fanfares\\game_over",
+            "symbol": "song_fanfares_game_over",
+            "filename": "fanfares\\game_over.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "6a63eaa8-d43d-4573-a782-8955a334564c",
+            "name": "fanfares\\happy_ending",
+            "symbol": "song_fanfares_happy_ending",
+            "filename": "fanfares\\happy_ending.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "2a92dcb8-882c-4371-9753-eb73b3f3fa30",
+            "name": "fanfares\\jump_scare",
+            "symbol": "song_fanfares_jump_scare",
+            "filename": "fanfares\\jump_scare.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "640c7dde-7f8e-459d-8457-9f472ff911f0",
+            "name": "fanfares\\level_start",
+            "symbol": "song_fanfares_level_start",
+            "filename": "fanfares\\level_start.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "c0dfde84-9b5c-4fb8-878d-ee6c299d40a1",
+            "name": "fanfares\\marching_fanfare",
+            "symbol": "song_fanfares_marching_fanf",
+            "filename": "fanfares\\marching_fanfare.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "5b086cc2-8295-4b75-9189-f5e5a23fe8cf",
+            "name": "fanfares\\reveal",
+            "symbol": "song_fanfares_reveal",
+            "filename": "fanfares\\reveal.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "86d196f1-2726-4478-9619-6bd0ba510bd1",
+            "name": "fanfares\\scary",
+            "symbol": "song_fanfares_scary",
+            "filename": "fanfares\\scary.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "2add838a-6e6c-473a-a9a1-69efe24f0f60",
+            "name": "fanfares\\slow_swell",
+            "symbol": "song_fanfares_slow_swell",
+            "filename": "fanfares\\slow_swell.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "be765962-f4d9-48ee-a002-ff22f12de2b9",
+            "name": "fanfares\\startling_news",
+            "symbol": "song_fanfares_startling_new",
+            "filename": "fanfares\\startling_news.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "80461264-c360-43c6-bd6b-59035aa5dce8",
+            "name": "fanfares\\time_running_out",
+            "symbol": "song_fanfares_time_running_",
+            "filename": "fanfares\\time_running_out.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "49eedd33-d811-4992-96ec-306c3c839d98",
+            "name": "fanfares\\treasure",
+            "symbol": "song_fanfares_treasure",
+            "filename": "fanfares\\treasure.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
+            "id": "58204827-1a66-43b3-99fa-41e81f551d18",
+            "name": "fanfares\\victory",
+            "symbol": "song_fanfares_victory",
+            "filename": "fanfares\\victory.uge",
             "settings": {},
             "type": "uge"
         },
@@ -61041,290 +62595,290 @@
     "sounds": [
         {
             "id": "f763c38d-33f8-4f6f-8612-7c9485c9e177",
-            "name": "SweetSounds_SFX/Naked_VGM/Bottle_Break.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
             "symbol": "sound_sweetsounds_sfx_naked",
-            "filename": "SweetSounds_SFX/Naked_VGM/Bottle_Break.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Bottle_Break.vgm",
             "type": "vgm",
-            "inode": "5622081",
+            "inode": "66991044457277190",
             "_v": 1676424898787
         },
         {
             "id": "52113f27-7546-4990-883c-23869816876d",
-            "name": "SweetSounds_SFX/Naked_VGM/Bump.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_0",
-            "filename": "SweetSounds_SFX/Naked_VGM/Bump.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Bump.vgm",
             "type": "vgm",
-            "inode": "5622082",
+            "inode": "6755399441196492",
             "_v": 1676424898859
         },
         {
             "id": "b73ce20a-0e4f-4a87-9f47-c1a253a4a724",
-            "name": "SweetSounds_SFX/Naked_VGM/Cancel.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_1",
-            "filename": "SweetSounds_SFX/Naked_VGM/Cancel.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Cancel.vgm",
             "type": "vgm",
-            "inode": "5622083",
+            "inode": "47569271064241394",
             "_v": 1676424898787
         },
         {
             "id": "758f4615-be9d-41fa-a467-9368d917f4b5",
-            "name": "SweetSounds_SFX/Naked_VGM/Cat_Meow.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_2",
-            "filename": "SweetSounds_SFX/Naked_VGM/Cat_Meow.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Cat_Meow.vgm",
             "type": "vgm",
-            "inode": "5622084",
+            "inode": "13510798882252520",
             "_v": 1676424898787
         },
         {
             "id": "2db92a23-2f7c-4e6d-bcd8-c402829cb13e",
-            "name": "SweetSounds_SFX/Naked_VGM/Click.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_3",
-            "filename": "SweetSounds_SFX/Naked_VGM/Click.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Click.vgm",
             "type": "vgm",
-            "inode": "5622085",
+            "inode": "14918173765805610",
             "_v": 1676424898751
         },
         {
             "id": "46aa51de-cd46-4140-a631-700c13e2d4d2",
-            "name": "SweetSounds_SFX/Naked_VGM/Confirm.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Confirm.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_4",
-            "filename": "SweetSounds_SFX/Naked_VGM/Confirm.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Confirm.vgm",
             "type": "vgm",
-            "inode": "5622086",
+            "inode": "54324670505297003",
             "_v": 1676424898859
         },
         {
             "id": "6402a11a-e377-43de-8a6d-84f933fce3a9",
-            "name": "SweetSounds_SFX/Naked_VGM/Crunch.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_5",
-            "filename": "SweetSounds_SFX/Naked_VGM/Crunch.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Crunch.vgm",
             "type": "vgm",
-            "inode": "5622087",
+            "inode": "99079191802292363",
             "_v": 1676424898859
         },
         {
             "id": "dd1ede7b-ad31-48d9-a329-b3ed8617fb8e",
-            "name": "SweetSounds_SFX/Naked_VGM/Digital_Alarm.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_6",
-            "filename": "SweetSounds_SFX/Naked_VGM/Digital_Alarm.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Digital_Alarm.vgm",
             "type": "vgm",
-            "inode": "5622088",
+            "inode": "10133099161724686",
             "_v": 1676424898859
         },
         {
             "id": "9415a177-8e06-40d2-bf78-f5d31f5ad416",
-            "name": "SweetSounds_SFX/Naked_VGM/Dog_Bark.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_7",
-            "filename": "SweetSounds_SFX/Naked_VGM/Dog_Bark.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Dog_Bark.vgm",
             "type": "vgm",
-            "inode": "5622089",
+            "inode": "14355223812384477",
             "_v": 1676424898859
         },
         {
             "id": "ec407d12-f711-4075-9549-6956cac1cabf",
-            "name": "SweetSounds_SFX/Naked_VGM/Door_Slow_Open.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_8",
-            "filename": "SweetSounds_SFX/Naked_VGM/Door_Slow_Open.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Door_Slow_Open.vgm",
             "type": "vgm",
-            "inode": "5622090",
+            "inode": "28147497671206806",
             "_v": 1676424898859
         },
         {
             "id": "14adc62b-01a2-4e58-bc03-46a84067eef4",
-            "name": "SweetSounds_SFX/Naked_VGM/Drink.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Drink.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_9",
-            "filename": "SweetSounds_SFX/Naked_VGM/Drink.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Drink.vgm",
             "type": "vgm",
-            "inode": "5622091",
+            "inode": "11821949021988586",
             "_v": 1676424899005
         },
         {
             "id": "6638692a-cc05-4d03-b27a-25138ae15cb7",
-            "name": "SweetSounds_SFX/Naked_VGM/Evil_Laugh.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Evil_Laugh.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_10",
-            "filename": "SweetSounds_SFX/Naked_VGM/Evil_Laugh.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Evil_Laugh.vgm",
             "type": "vgm",
-            "inode": "5622092",
+            "inode": "14073748835673809",
             "_v": 1676424899005
         },
         {
             "id": "4b6be5ef-1a9d-43dc-981b-aaf8f574c0c6",
-            "name": "SweetSounds_SFX/Naked_VGM/Explosion.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_11",
-            "filename": "SweetSounds_SFX/Naked_VGM/Explosion.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Explosion.vgm",
             "type": "vgm",
-            "inode": "5622093",
+            "inode": "90353467524261668",
             "_v": 1676424899005
         },
         {
             "id": "d584baa4-e970-4694-90ac-226920ac33b3",
-            "name": "SweetSounds_SFX/Naked_VGM/Gun.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_12",
-            "filename": "SweetSounds_SFX/Naked_VGM/Gun.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Gun.vgm",
             "type": "vgm",
-            "inode": "5622094",
+            "inode": "33776997205419554",
             "_v": 1676424899005
         },
         {
             "id": "977b35ef-b317-475b-b187-afb808bf6ae0",
-            "name": "SweetSounds_SFX/Naked_VGM/Hurt.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_13",
-            "filename": "SweetSounds_SFX/Naked_VGM/Hurt.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Hurt.vgm",
             "type": "vgm",
-            "inode": "5622095",
+            "inode": "43065671436870952",
             "_v": 1676424899005
         },
         {
             "id": "19ab3ff7-1f71-491c-8ca2-6e7f2bc915e6",
-            "name": "SweetSounds_SFX/Naked_VGM/Jump.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_14",
-            "filename": "SweetSounds_SFX/Naked_VGM/Jump.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Jump.vgm",
             "type": "vgm",
-            "inode": "5622096",
+            "inode": "66428094503855360",
             "_v": 1676424899005
         },
         {
             "id": "ab2e5004-acf8-43ed-95e7-bec61337a25c",
-            "name": "SweetSounds_SFX/Naked_VGM/Laser_Gun.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_15",
-            "filename": "SweetSounds_SFX/Naked_VGM/Laser_Gun.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Laser_Gun.vgm",
             "type": "vgm",
-            "inode": "5622097",
+            "inode": "7318349394618130",
             "_v": 1676424899005
         },
         {
             "id": "ac416366-121a-4e32-984a-d06f9d038f46",
-            "name": "SweetSounds_SFX/Naked_VGM/Low_Health.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Low_Health.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_16",
-            "filename": "SweetSounds_SFX/Naked_VGM/Low_Health.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Low_Health.vgm",
             "type": "vgm",
-            "inode": "5622098",
+            "inode": "68961369294251813",
             "_v": 1676424899005
         },
         {
             "id": "a080dab7-27ca-45b9-b518-649008388dd9",
-            "name": "SweetSounds_SFX/Naked_VGM/Menu_In.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Menu_In.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_17",
-            "filename": "SweetSounds_SFX/Naked_VGM/Menu_In.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Menu_In.vgm",
             "type": "vgm",
-            "inode": "5622099",
+            "inode": "8162774324750080",
             "_v": 1676424899005
         },
         {
             "id": "bb26507b-61ce-4fc4-8ac4-3f309e8ca059",
-            "name": "SweetSounds_SFX/Naked_VGM/Menu_Out.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Menu_Out.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_18",
-            "filename": "SweetSounds_SFX/Naked_VGM/Menu_Out.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Menu_Out.vgm",
             "type": "vgm",
-            "inode": "5622100",
+            "inode": "8444249301460741",
             "_v": 1676424899187
         },
         {
             "id": "6635784a-a24d-42c1-963a-f9058f84da92",
-            "name": "SweetSounds_SFX/Naked_VGM/Monster_Scream.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Monster_Scream.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_19",
-            "filename": "SweetSounds_SFX/Naked_VGM/Monster_Scream.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Monster_Scream.vgm",
             "type": "vgm",
-            "inode": "5622101",
+            "inode": "73464968921622260",
             "_v": 1676424899187
         },
         {
             "id": "fe15f4b9-18b2-495b-b1a3-e45a34be8f74",
-            "name": "SweetSounds_SFX/Naked_VGM/Notso_Confirm.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_20",
-            "filename": "SweetSounds_SFX/Naked_VGM/Notso_Confirm.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Notso_Confirm.vgm",
             "type": "vgm",
-            "inode": "5622102",
+            "inode": "54043195528586417",
             "_v": 1676424899187
         },
         {
             "id": "40faac93-4591-41ad-9828-8bda4295b06f",
-            "name": "SweetSounds_SFX/Naked_VGM/Pause.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_21",
-            "filename": "SweetSounds_SFX/Naked_VGM/Pause.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Pause.vgm",
             "type": "vgm",
-            "inode": "5622103",
+            "inode": "51509920738191256",
             "_v": 1676424899187
         },
         {
             "id": "96960453-1a36-480f-9bbb-fe8915b6625a",
-            "name": "SweetSounds_SFX/Naked_VGM/Phone_Ring.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Phone_Ring.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_22",
-            "filename": "SweetSounds_SFX/Naked_VGM/Phone_Ring.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Phone_Ring.vgm",
             "type": "vgm",
-            "inode": "5622104",
+            "inode": "13510798882252535",
             "_v": 1676424899187
         },
         {
             "id": "89b68297-1352-43d7-8e3d-4489d502965f",
-            "name": "SweetSounds_SFX/Naked_VGM/Powerdown.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Powerdown.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_23",
-            "filename": "SweetSounds_SFX/Naked_VGM/Powerdown.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Powerdown.vgm",
             "type": "vgm",
-            "inode": "5622105",
+            "inode": "70368744177804682",
             "_v": 1676424899187
         },
         {
             "id": "149073db-6e16-420d-a37c-0d020359292d",
-            "name": "SweetSounds_SFX/Naked_VGM/Powerup.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_24",
-            "filename": "SweetSounds_SFX/Naked_VGM/Powerup.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Powerup.vgm",
             "type": "vgm",
-            "inode": "5622106",
+            "inode": "70931694131225934",
             "_v": 1676424899187
         },
         {
             "id": "4098fd32-0bd0-4a62-be83-b39b597eefbe",
-            "name": "SweetSounds_SFX/Naked_VGM/Siren.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_25",
-            "filename": "SweetSounds_SFX/Naked_VGM/Siren.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Siren.vgm",
             "type": "vgm",
-            "inode": "5622107",
+            "inode": "5910974511064842",
             "_v": 1676424899187
         },
         {
             "id": "5382f040-6d1d-4621-9000-8b316abb20d4",
-            "name": "SweetSounds_SFX/Naked_VGM/Steps.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Steps.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_26",
-            "filename": "SweetSounds_SFX/Naked_VGM/Steps.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Steps.vgm",
             "type": "vgm",
-            "inode": "5622108",
+            "inode": "30962247438313249",
             "_v": 1676424899187
         },
         {
             "id": "e9e09eae-c21c-4d88-b29f-b301550a7fdc",
-            "name": "SweetSounds_SFX/Naked_VGM/Sword_Slash.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_27",
-            "filename": "SweetSounds_SFX/Naked_VGM/Sword_Slash.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Sword_Slash.vgm",
             "type": "vgm",
-            "inode": "5622109",
+            "inode": "38843546786211441",
             "_v": 1676424899187
         },
         {
             "id": "b332df92-5a6f-4d3f-9e02-bc12b01f40a0",
-            "name": "SweetSounds_SFX/Naked_VGM/Thunder.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Thunder.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_28",
-            "filename": "SweetSounds_SFX/Naked_VGM/Thunder.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Thunder.vgm",
             "type": "vgm",
-            "inode": "5622110",
+            "inode": "68679894317541415",
             "_v": 1676424899187
         },
         {
             "id": "a034ee70-0078-4200-bb7b-c38746ebbe89",
-            "name": "SweetSounds_SFX/Naked_VGM/Trampoline.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_29",
-            "filename": "SweetSounds_SFX/Naked_VGM/Trampoline.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Trampoline.vgm",
             "type": "vgm",
-            "inode": "5622111",
+            "inode": "15762598695937663",
             "_v": 1676424899187
         },
         {
             "id": "be2557c0-d94d-4a3d-a12b-c174108a9c57",
-            "name": "SweetSounds_SFX/Naked_VGM/Water_Splash.vgm",
+            "name": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
             "symbol": "sound_sweetsounds_sfx_naked_30",
-            "filename": "SweetSounds_SFX/Naked_VGM/Water_Splash.vgm",
+            "filename": "SweetSounds_SFX\\Naked_VGM\\Water_Splash.vgm",
             "type": "vgm",
-            "inode": "5622112",
+            "inode": "120471290032301389",
             "_v": 1676424899187
         }
     ],
@@ -61681,6 +63235,11 @@
             "symbol": "var_castleinteractions"
         },
         {
+            "id": "8",
+            "name": "BattleMovement",
+            "symbol": "var_battlemovement"
+        },
+        {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
             "name": "Local 1",
             "symbol": "var_local_1"
@@ -61829,11 +63388,6 @@
             "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
             "name": "Local 0",
             "symbol": "var_local_10"
-        },
-        {
-            "id": "8",
-            "name": "BattleMovement",
-            "symbol": "var_battlemovement"
         }
     ],
     "engineFieldValues": [
@@ -61851,9 +63405,11 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2443,
-        "worldScrollY": 3,
-        "zoom": 225,
+        "showCollisionSlopeTiles": false,
+        "showCollisionExtraTiles": false,
+        "worldScrollX": 1456,
+        "worldScrollY": 40,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
