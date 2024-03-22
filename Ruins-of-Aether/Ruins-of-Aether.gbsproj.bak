@@ -24536,7 +24536,7 @@
                                             "comparator": 20,
                                             "__collapseElse": false,
                                             "__disableElse": true,
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
                                         "children": {
                                             "true": [
@@ -24548,7 +24548,7 @@
                                                             "They're stronger now. And so, too is it."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "304f2c13-ff62-4cf7-b0a1-300ca2a3e565"
                                                 },

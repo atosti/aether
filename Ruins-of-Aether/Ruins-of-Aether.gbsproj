@@ -62528,6 +62528,14 @@
             "type": "uge"
         },
         {
+            "id": "89547f6f-f527-45ac-8d4d-ba96b8fbbda0",
+            "name": "song_template 4",
+            "symbol": "song_song_template_4",
+            "filename": "song_template 4.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "c5a76335-220a-4776-a8c3-32d527e1dfc7",
             "name": "song_template 5",
             "symbol": "song_song_template_5",
@@ -63407,8 +63415,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1456,
-        "worldScrollY": 40,
+        "worldScrollX": 619,
+        "worldScrollY": 45,
         "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
