@@ -3070,6 +3070,31 @@ Concepts:
 
 Combat System Ideas:
 ====================
+March 2024:
+------------
+A new idea permeates. Helldivers-esque combos that the player inputs on the control pad, and confirms with an A press.
+The player is fixed in place, they can only dodge backward with the B button (which also cancels the active chain of directional inputs, canceling their current attack they're queueing.)
+The enemy is also fixed, moving through its own chain of randomized attacks and breaks. Certain attacks and moments will have weaknesses, allow certain damage types to be more or less effective.
+	- E.g. Enemy attacks to your right? Hit him from the left!
+The player can input a chain of directions (e.g ->,->,-> = A simple rightward slash), then confirm it with A to add it to a combo queue.
+	- If it's an invalid combo, nothing gets added (display this to the player, but don't punish them with time loss. Maybe use an emote above the player character.)
+Pressing B will cancel the current active attack inputs. Pressing it while no combo is active will trigger a backward dodge instead (similar to that present in Punch Out).
+	- The player will be locked into a brief animation while this dodge occurs, but be immune to damage for the duration.
+	- There should be a small cooldown on dodging, so that players are punished for dodging too early, or constantly.
+Once the player has built up a queued combo, they can unleash it with the Select button.
+	- This can cause one of two things (I need to decide):
+	1. All the queued attacks rattle off automatically, one by one. The player is not immune during this duration.
+	2. The player character assumes a different stance, now they are attacking, and each A press will trigger their next attack in the queue (FIFO) until they run out.
+		- Once out of attacks, they return to the planning state, where they are assembling a queue of attacks.
+
+TBD:
+-------
+1. Think of an elegant way (within sprite limits) to show the current combo to the player.
+	- What about a row of small, unique icons for each attack in the queue?
+2. Think of an elegant way to show all the combos that can be performed (ideally WHILE they're inputting them, but that's tricky).
+	- Consider using the Menu layer for this?
+	- A simple solution would be to show all possible attacks on the pause menu (accessed via Start), which could overlay the whole screen. But that definitely feels clunky.
+
 Late Feb 2023:
 --------------
 More developments. Focus for a Mike Tyson's Punch-Out! style of fighting. Emphasis on a few key enemies (mainly singular bosses) that must be attacked/dodged with tight timing and patterns.

@@ -436,7 +436,8 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "f028e552-12f0-42fa-a075-a8efc40849e2",
-                        "__collapse": true
+                        "__collapse": true,
+                        "__comment": true
                     },
                     "id": "a020c631-b455-40d2-a6ce-3b991c8955fb"
                 },
@@ -1167,9 +1168,9 @@
                 {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "561f6d4e-ecab-40db-a15f-4a3a110848ae",
+                        "sceneId": "74ba6f50-04ea-43e7-b055-9e770fe51b5d",
                         "x": 9,
-                        "y": 11,
+                        "y": 12,
                         "direction": "down",
                         "fadeSpeed": "2",
                         "__comment": false,
@@ -9297,7 +9298,8 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Excuse us?! Do you mind stepping aside?\nWe're having a conversation here!"
+                                                "Excuse you! Do you mind stepping aside?!",
+                                                "We're having a conversation here!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -9401,12 +9403,13 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Excuse us?! Do you mind stepping aside?\nWe're having a conversation here!"
+                                                "Excuse you! Do you mind stepping aside?!",
+                                                "We're having a conversation here!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": false
+                                            "__collapse": true
                                         },
-                                        "id": "21468944-8198-4dad-9bed-a25f9587c0d9"
+                                        "id": "cb74a5b2-7da2-423c-a4b7-ca42217873e2"
                                     }
                                 ],
                                 "false": [
@@ -23572,6 +23575,14 @@
                                                     "children": {
                                                         "true": [
                                                             {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "edbb5026-7349-4037-b434-dfbde473d6ef"
+                                                            },
+                                                            {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "player",
@@ -23579,14 +23590,6 @@
                                                                     "__collapse": true
                                                                 },
                                                                 "id": "deb000cf-f3e1-4812-ad45-f221e6ab4b2f"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_ACTOR_HIDE",
-                                                                "args": {
-                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "edbb5026-7349-4037-b434-dfbde473d6ef"
                                                             }
                                                         ]
                                                     },
@@ -23600,10 +23603,18 @@
                                                         ],
                                                         "override": true,
                                                         "__scriptTabs": "press",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "d91decba-f37e-4515-bd0f-5350131f94c0"
+                                                            },
                                                             {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
@@ -23612,14 +23623,6 @@
                                                                     "__collapse": true
                                                                 },
                                                                 "id": "a8644fb0-5137-4da7-ab37-a324dd2f0c99"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_ACTOR_HIDE",
-                                                                "args": {
-                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "d91decba-f37e-4515-bd0f-5350131f94c0"
                                                             }
                                                         ]
                                                     },
@@ -63415,9 +63418,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 619,
-        "worldScrollY": 45,
-        "zoom": 125,
+        "worldScrollX": 1708,
+        "worldScrollY": 0,
+        "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
