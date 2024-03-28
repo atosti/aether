@@ -2195,30 +2195,75 @@ Concepts:
 	- Would be difficult to elegantly incorporate these notes into the world, though.
 124. Conversation with the Bandit Queen (Vivian) at the end (Finale)
 	* She sits atop the throne, flanked by some of her bandits.
-	- Vivian: "Welcome, warrior. I had high hopes you would return to me. My scouts tell me you ventured into the Aether Ruins."
-	- Vivian: "Tell me. What were you doing that far East?"
-	- Aylmera: "Nothing important to you."
-	- Vivian: "... Still playing hard to get?"
-	- Vivian: "Before his demise, the late King told me of your quest."
-	- Vivian: "Seems it was a resounding success, given you're still in one piece."
-	- Aylmera: "I don't care. You got both your revenge and control of the Kingdom. What do you want with us?"
-	- Vivian: "I'm offering you... and your friends... a partnership. With the undead threat handled, we can work together to restore order to this realm."
-	- Jester: *Laughing* "Ahahaha! AHAHAHAHA! She doesn't know! Tell her Aylmera! Hahaha!!!"
-	- Jester: *Crying* "Tell her how she'll BURN along with this castle."
-	* Vivian is angrily confused (?!)*
-	- Aylmera: "Vivian... It doesn't work like that. The undead are still out there. Their numbers might not be growing, but..."
-	- Alexandros: "There's no one left, Bandit. Whose soldiers would you call upon to protect this ruined castle? Every last army is scattered."
-	- Neera: "He's right. Your militia is no doubt weakened, the royal guard's decimated, the Lord's army is reeling. Even the monastery monks had their ranks broken."
-	- Neera: "You've nowhere to possibly draw soldiers from against the remaining undead horde."
-	- Vivian: "What?! Nonsense! You speak lies. These foolish intimidation games won't work on me!"
-	- Aylmera: "It's no trick, Vivian. You thought yourself fit to rule, and now you must carry the burden of that crown."
-	*Aylmera smiles*
-	- Aylmera: "So what say you, oh magnificent Queen of all that is to be Dust and Ash? What is your first royal decree?"
-	*Vivian is angry*
-	- Vivian: "..."
-	- Vivian: "To purge my throne of heretics."
+	Vivian: "Ah! Welcome, warrior! I had high hopes you would return to me."
+	Vivian: "Your significance was lost on me during our first encounter."
+	Vivian: "But hearing of your handiwork across the realm has left me impressed!"
+	Vivian: "The death left in your wake gave us the perfect opportunity to overthrow that despicable king."
+	* She smiles, in a forced manner. *
+	Vivian: "But I'm afraid that's where the pleasantries cease."
+	Vivian: "You see, ever since my scouts reported you venturing deep into the Aether."
+	Vivian: "I've had only one question on my mind:"
+	Vivian: "What did you find that far East?"
+	Aylmera: "I don't know... Misery."
+	Vivian: *Confusion (?)*
+	Vivian: "What do you mean?"
+	* The jester cracks a smile. *
+	Jester: "Nonsense, Aylmera! We found Fear by the bushel!"
+	Alexandros: "And droves of Death!"
+	Neera: "And so, *so* much Chaos! Hahaha!"
+	* The party all burst out laughing. *
+	* Vivian gets annoyed. *
+	Vivian: "Have you all gone mad?!"
+	Vivian: "Or do you wish to mock me?"
+	Aylmera: "Oh brave Warrior..."
+	Aylmera: "We could not mock you more greatly than you have yourself."
+	Aylmera: "The moment you sat atop that ridiculous throne."
+	Jester: "You've spent too long away from home."
+	Neera: "Too long in the silence."
+	Alexandros: "Too long as the enemy."
+	Aylmera: "You've forgotten your purpose."
+	Aylmera: "And now is the time for the world to forget you."
+	Vivian: "Tch."
+	Vivian: "You seek to challenge me?"
+	Aylmera: "We don't have to. This castle will fall regardless."
+	Vivian: "Whatever do you mean? My men are fortifying it as we speak."
+	Vivian: "You've slain every other army in the region."
+	Vivian: "I can finally usher in an era of abundance, and peace! The Realm can be allowed to flourish!"
+	* Aylmera gets resolutely sad/somber *
+	Aylmera: "No. It cannot."
+	Vivian: "Why must you continue to stand in my way?"
+	Vivian: "Can you not envision the future I wish to build for us?!"
+	* Aylmera shouts, stepping forward. *
+	Aylmera: "BECAUSE YOU SPEAK FOOLISHNESS!"
+	* Aylmera starts coughing and is forced to kneel from it (cough, cough). *
+	* Neera steps forward and turns toward Aylmera, comforting her. *
+	Jester: "Your army is hardly large enough to man this structure."
+	Jester: "The undead will breach these walls in a few months time."
+	* Vivian is taken aback ?! *
+	Vivian: "I thought your mission was to stave off the hordes."
+	Vivian: "The King felt adamant of your success."
+	Vivian: "There were reports of a bright blue light seen across the wasteland."
+	Vivian: "And you returned from the Aether unscathed."
+	Vivian: "How has that not managed to stop the threat?"
+	* Aylmera, bloody mouthed and out of breath. *
+	Aylmera: "Vivian... we stemmed their growth, but..."
+	Neera: "But the undead are still out there."
+	Jester: "Admit defeat, Bandit. There's no one left to defend you."
+	Jester: "Whose soldiers would you call upon to protect this ruined castle?"
+	Jester: "Like you said. Every last army is slain."
+	Alexandros: "You've nowhere to possibly draw soldiers from against the remaining horde."
+	Vivian: "What?! Nonsense! You all speak lies!"
+	Vivian: "These foolish intimidation games won't work on me!"
+	Aylmera: "...It's no trick, Vivian."
+	Aylmera: "You thought yourself fit to rule, and now you carry the burden of the crown."
+	*Aylmera smiles, standing up. *
+	Aylmera: "So what say you, oh magnificent Queen of all that is to be Dust and Ash?"
+	Aylmera: "What is your first royal decree?"
+	*Vivian is furious*
+	Vivian: "..."
+	Vivian: "To purge my throne of heretics."
 	* Vivian charges down the stairs, triggering combat/Engagement *
-125. Piece of lore for a fight
+125. Historical lore about a famous fight
 	- Two warriors are fighting one another, they are evenly matched opponents. Enemies for a long time.
 	- They engage in an honorable fight, one on one, and intend to fight to the death to finish their dispute.
 	- One of the warriors loses the upperhand and is about to be slain by his opponent.
@@ -2236,30 +2281,30 @@ Concepts:
 	* This person should call out Alexandros IN or close to the Lord's city, where wizards are actively hunted.
 	* This critic calls him out, and openly talks about his ideology, but doesn't alert the guards. His comments are cruel, but his actions are oddly empathetic to Alexandros' struggle.
 
-	- Critic of Magic: "Hmm. You're a student of the Great Tower, aren't you?"
-	- Alexandros: "...You must have me mistaken with someone else."
-	- Com: "There's no need to be coy about it."
-	- Alexandros: "I'm not here to cause trouble."
-	- CoM: *Smiles* "The fact that you think that is part of the problem."
-	- Alexandros: *Confused(?)*
-	- CoM: "I've seen some of what your kind can do. Your magick would certainly progress things for the Realm."
-	- CoM: "Yet, progress is often coupled with cruelty, isn't it? Cruelty imposed by the powerful to preserve their rule."
-	- Alexandros: "What's your point? You think I'm here to oppress you?"
-	- CoM: "Well, any significant change to life in the Realm would upset the current balance of power. Disturbing whatever organization happens to be in control."
-	- CoM: "One might argue the very introduction of change is... a violent one. No?"
-	- CoM: "So what do these organizations do when presented with such hostilities? They retaliate. With a greater amount of violence."
-	- CoM: "After all, humans are just packs of animals. And there's not an animal in the world that turns meek when cornered."
-	- Alexandros: "So you think 'my kind' is to blame for the atrocities that others commit? That's rich."
-	- CoM: "Of course not. But you need to recognize your role in this as a violent one, lest you worsen things for us all."
-	- CoM: "Treat your ideology as the violence it is, and you'll be prepared for the hostility it invites."
-	- CoM: "Fail to do so and well... it'll be weaponized against you."
-	- Alexandros: "That just sounds like an excuse to be another hateful, cruel oppressor."
-	- CoM: "Well, you saw what happened to your ideologically-pure brethren. They got cornered first. And their prize was a mass grave."
-	- Alexandros: "That's a cruel thing to say to someone who lost all his friends."
-	- CoM: "Mmm. Indeed. And now you see how the game is played. Just remember: You gamble with more than just your own fate when you upset power."
-	- Alexandros: *Pauses* (...) "I... huh..."
-	- CoM: *The man waves you away dismissively.* *He walks away.*
-	- *Alexandros rejoins the party*
+	Critic of Magic: "Hmm. You're a student of the Great Tower, aren't you?"
+	Alexandros: "...You must have me mistaken with someone else."
+	Com: "There's no need to be coy about it."
+	Alexandros: "I'm not here to cause you trouble."
+	CoM: *Smiles* "The fact that you think that *is* the trouble."
+	Alexandros: *Confused(?)*
+	CoM: "I've seen some of what your kind can do. Your magicks would certainly usher in a wave of progress for the Realm."
+	CoM: "Yet, progress is often coupled with cruelty, isn't it? Cruelty imposed by the powerful to preserve their rule."
+	Alexandros: "So you think I'm here to oppress you?"
+	CoM: "Well, significant changes to life in the Realm would upset the current balance of power. Disturbing whatever organizations are in control."
+	CoM: "One might argue the very introduction of change is... a violent one. No?"
+	CoM: "So what do these organizations do when presented with such hostilities? They retaliate. With a greater amount of violence."
+	CoM: "After all, humans are just packs of animals. And there's not an animal in the world that turns meek when cornered."
+	Alexandros: "So you think 'my kind' is to blame for the atrocities that others commit? That's rich."
+	CoM: "Of course not. But you need to recognize your role in this as a violent one, lest you worsen things for us all."
+	CoM: "Treat your ideology as the violence it is, and you'll be prepared for the hostility it invites."
+	CoM: "Fail to do so and well... it'll be weaponized against you."
+	Alexandros: "That just sounds like an excuse to be another hateful, cruel oppressor."
+	CoM: "Well, you saw what happened to your ideologically-pure brethren. They got cornered first. And their prize was a mass grave."
+	Alexandros: "...That's a cruel thing to say to a man who watched all his friends die."
+	CoM: "And now you see how the game is played. Just remember: You gamble with more than your own fate when you upset power."
+	Alexandros: *Pauses* (...) "..."
+	CoM: *The man waves you away dismissively.* *He walks away.*
+	*Alexandros rejoins the party*
 130. "I don't know what you think you're doing here, but it's not helping."
 131. Conversation about Velazquez
 	- "When the hordes first swarmed up North, most the smaller villages got swallowed up."
@@ -2272,11 +2317,9 @@ Concepts:
 	- "Without him and his men we wouldn't have any of it anyway. We'd be nothing more than fertilizer for them fields."
 	- "Most folks rationalize it to themselves. Say the knights earned it. Like it's a debt of sorts."
 	- "Guess the world has a cruel way of keeping balance, eh?"
-	[Nature is cruel.]
-	- "Nature ain't got nothing to do with it. Least in my view."
-	[Man is cruel.]
-	- "Maybe. Still, they saved our hides. We'd be fools to forget that."
-	- "Just try to stay outta there way. We got a good thing going here, even if you don't see it."
+	Aylmera: "It's mankind who's cruel. Not nature."
+		- "Maybe. Still, they saved our hides. We'd be fools to forget that."
+	- "Just try to stay outta their way. We got a good thing going here, even if you don't see it that way."
 132. Rejoining Neera and Sigmund (the Jester)
 	- Jester: "Aylmera!"
 	- Jester: "*He hugs you tenderly*"
@@ -3065,7 +3108,10 @@ Concepts:
 	Spirit: "It's just us now. You needn't fear any longer."
 	Aylmera: "The only thing I fear..."
 	Aylmera: "Is that the ability to fear left me long, long ago."
-
+179. Neera's Foresight abandoning her
+	Upon leaving the Aether, Neera should have a small cutscene with the party, where she is surprised to still not hear the voice of God.
+	This both distresses and disappoints her, as she is uncertain whether God has abandoned her.
+	In this way, she, too is a character who finds herself lost and abandoned by the ideals she once held so strongly.
 
 
 Combat System Ideas:
