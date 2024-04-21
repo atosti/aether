@@ -3112,7 +3112,11 @@ Concepts:
 	Upon leaving the Aether, Neera should have a small cutscene with the party, where she is surprised to still not hear the voice of God.
 	This both distresses and disappoints her, as she is uncertain whether God has abandoned her.
 	In this way, she, too is a character who finds herself lost and abandoned by the ideals she once held so strongly.
-
+180. Ramblings of the devout (hostile religious zealot)
+	Devoted: "Look into my eyes and witness God!"
+	Aylmera: "Nay. It's time you be purged of your lucidity, wretch."
+	Devoted: "Were you only able to meditate upon your own reflection, you would not be a heretic."
+	* Aylmera initiates combat *
 
 Combat System Ideas:
 ====================
