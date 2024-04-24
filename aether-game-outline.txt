@@ -3117,6 +3117,70 @@ Concepts:
 	Aylmera: "Nay. It's time you be purged of your lucidity, wretch."
 	Devoted: "Were you only able to meditate upon your own reflection, you would not be a heretic."
 	* Aylmera initiates combat *
+181. The King has already been dethroned from his castle
+	- The castle the player awakens in as actually not the King's original castle. It is merely a large keep.
+		~ In fact, it is the keep having belonged to the Lord.
+	- Following the Great Explosion, the Lord's army (being further from the conflict), sent a regiment to the castle.
+		~ There, his men conquered it easily, while the main army was away.
+		~ The King was deployed closer to the battlefield at the time, preventing him from defending it.
+		~ Moreover, the Lord's troops were directly in the way of any counter offensive.
+		~ In the weeks following, the King took the last of his army and seized the Lord's keep.
+			~ This was an act of both revenge, and necessity, as he needed a defensible position.
+		~ With the decimation of his army abroad, and the loss of his castle at home, the King now barely has an army.
+	- This explains the presence of the oubliette and other unsavory things in the initial castle.
+	- This allows the Northern castle to be significantly larger than the initial one.
+	- This explains the additional cruelty of the soldiers toward the peasants in the past (as noted by the locals).
+	- This allows documents detailing core parts of what happened in the Great Explosion to be found in the Northern castle, further into the game.
+182. Conversation with Alexandros on religion
+	Alexandros: "Maybe you've heard of this one, Aylmera:"
+	Alexandros: " 'God no longer walks among the living, because he lives in *fear* of his own creation.' "
+	Neera: *Laughs to herself*
+	Alexandros: "Oh? It seems Neera's familiar with it."
+	Neera: "Hardly. But I'm familiar enough with God."
+	Neera: "And he's certainly never shared such a feeling with me."
+	Alexandros: *Rolls his eyes*
+	Alexandros: "You trust him to be truthful to you about all things?"
+	Neera: "Absolutely not. But I've known both fear and the fearful."
+	Neera: "He exhibits the traits of neither."
+	Alexandros: "You're unable to see clearly on such matters. Besides..."
+	Alexandros: "I want to hear Aylmera's take on it."
+	Alexandros: "Who do you think is more dangerous: Man, or God?"
+	[Man.]
+	Alexandros: "I agree. If he doesn't, God should fear us."
+	Alexandros: "He has good reason to."
+	[God.]
+	Alexandros: "Really?"
+	Alexandros: "Then you must blame the almighty for at least some of the atrocities we've witnessed."
+	Alexandros: "Suppose it's at least a comforting thought."
+	Alexandros: "The idea that we aren't the only ones responsible for our horrors."
+	* Alexandros pauses (...) *
+	Alexandros: "Sorry to bring down the mood. Perhaps the Jester could brighten our spirits?"
+	Jester: TBD
+183. Jester and Alexandros talking about their shared trauma
+	Jester: "Alexandros. I've been meaning to ask you:"
+	Jester: "Do you often dream? Of the night of the explosion?"
+	*Alexandros looks sullen/somber *
+	Alexandros: "I wouldn't call them dreams. But certainly nightmares."
+	Jester: "Yes. That's something we can definitely agree on."
+	Jester: "Do you also see the faces of your comrades?"
+	Alexandros: "I see them in pieces. Both literally and figuratively."
+	Alexandros: "It's strange though... each time the memory shifts a little."
+	Alexandros: "I remember the faces of so many dead. Yet in my dreams they now fade... one by one."
+	* Jester is shocked (!) *
+	Jester: "Indeed! I've witnessed the same!"
+	Jester: "I remember one man in particular... A vassal with whom I was barely acquainted."
+	* Jester laughs *
+	Jester: "But he had such a funny moustache, that he always stuck out to me. Even when alive."
+	Jester: "I remember seeing his mangled face in the mud. The blue flames illuminating his features..."
+	Jester: "Yet when I dream of it. Stepping foot into the memory itself, his face is blank. Almost smooth, like marble."
+	* Alexandros nods *
+	Alexandros: "What strange coincidence... I've experienced the same. With most the faces I'd known."
+	Alexandros: "They used to be so many. Now they're so few. Each time I dream of them, there's fewer."
+	- This is all a reference to the strange effect that being in the Aether at all (e.g. during the initial blast) has had.
+	- The faces of the dead disappearing from their memories
+184. Comment on the sailors fleeing by ship to the North
+	- "They traded one deep blue for another. May the sea be more gentle to them than the Aether."
+
 
 Combat System Ideas:
 ====================
