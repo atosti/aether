@@ -23575,6 +23575,14 @@
                                                     "children": {
                                                         "true": [
                                                             {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "edbb5026-7349-4037-b434-dfbde473d6ef"
+                                                            },
+                                                            {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
                                                                     "actorId": "player",
@@ -23582,14 +23590,6 @@
                                                                     "__collapse": true
                                                                 },
                                                                 "id": "deb000cf-f3e1-4812-ad45-f221e6ab4b2f"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_ACTOR_HIDE",
-                                                                "args": {
-                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "edbb5026-7349-4037-b434-dfbde473d6ef"
                                                             }
                                                         ]
                                                     },
@@ -23603,10 +23603,18 @@
                                                         ],
                                                         "override": true,
                                                         "__scriptTabs": "press",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_HIDE",
+                                                                "args": {
+                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                                    "__collapse": true
+                                                                },
+                                                                "id": "d91decba-f37e-4515-bd0f-5350131f94c0"
+                                                            },
                                                             {
                                                                 "command": "EVENT_ACTOR_EMOTE",
                                                                 "args": {
@@ -23615,14 +23623,6 @@
                                                                     "__collapse": true
                                                                 },
                                                                 "id": "a8644fb0-5137-4da7-ab37-a324dd2f0c99"
-                                                            },
-                                                            {
-                                                                "command": "EVENT_ACTOR_HIDE",
-                                                                "args": {
-                                                                    "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                                    "__collapse": true
-                                                                },
-                                                                "id": "d91decba-f37e-4515-bd0f-5350131f94c0"
                                                             }
                                                         ]
                                                     },
@@ -63418,7 +63418,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
+        "worldScrollX": 1708,
         "worldScrollY": 0,
         "zoom": 225,
         "customColorsEnabled": true,

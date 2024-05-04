@@ -3184,6 +3184,59 @@ Concepts:
 
 Combat System Ideas:
 ====================
+May 2024:
+----------
+Conceptually need to do all these things, but within the control scheme of the Gameboy:
+1. Assemble combos (up to some max based on icon limits)
+2. Trigger an attack sequence
+3. Dodge
+4. Cancel a partially-built combo
+5. Cancel an entire combo chain (or maybe just pop attacks one-by-one from the list?)
+6. Dodge mid-way through a combo assembly (perhaps this clears the active combo chain)
+7. Healing in combat?
+	- Could be done via successfully landing combos. Essentially lifesteal. "HP" meter could be stylized as "Morale".
+8. Visually show when an attack is locked in succesfully (and added to the combo list)
+9. Show when an input attack is not a valid attack chain, and show it either failing to be added to the combo (or being added as a bad attack)
+10. Show when a combo is maxed out, and no further attacks can be added to it.
+	- Perhaps the list of directions could jiggle with the last entered input, signaling that nothing further can be added.
+11. A simple health bar, which depletes as the player is hit by enemy attacks.
+12. Consider showing a frame of the player posing in the attack once it's added to the combo chain.
+	- E.g. If an Overhead slash was locked in, flash the player in the first frame of that attack for a moment to visually signal it being locked in.
+
+Two separate things could be communicated on screen via icons:
+	a. The current attack (denoted by some directional combo, e.g. -> <- -> ->)
+	b. The current Combo (a collection of attacks) denoted by different icons (e.g. a single tile for each one representing the type of attack)
+		- This would be a list of individual attacks: Uppercut, Stab, Slash, Overhead, etc.
+			~ Each of these attacks would likely need an animation.
+			~ The attack animation could be timed to dodge certain enemy attacks? Or is that insane to ask a player to pull off?
+
+Consider having part of the Combo give the player invulnerability during its execution as a reward.
+	- For example, the final hit of the combo could do this, so it could trade with opponents.
+Increase the damage dealt by attacks which are part of an attack combo.
+
+Actual implementation:
+	Arrow Keys: Show the last input entered in the bottom right. It determines the player's current attack.
+		- A list of the most recent handful of directions is also shown in the top left as a list?
+	Select: Triggers the combo chain, unleashing a string of attacks against the opponent.
+	A Button: Saves the active attack chain to a combo chain. To be triggered later by the player with the Select button.
+		- If it's a valid attack chain, it's added to the combo.
+		- If it's an invalid attack chain, it's ignored. And the attack chain is set back to an empty list.
+	B Button: Dodge (Backstep) to avoid enemy attacks. Similar to how the player moves in Punch Out.
+		- Ideally have a short and long backstep, depending on how long the button is held (up to a maximum length).
+		- Cancels all active attack chains, but leaves the combo chain (locked in attacks) unchanged.
+	Start: Pause (if I can afford to reserve this space)
+		- Provide a way to show all the combos to the player here. A visual representation of how to active them via the arrow keys.
+
+(This is OK so far. But I feel like primarily using the arrow keys won't FEEL like you're fighting. You need to use both hands.)
+	- Can I incorporate a way to have combos be both arrow keys AND A or B?
+	- Maybe it's fine. Just ponder whether there's a nice way to get more utility out of button combinations.
+
+Button combination ideas:
+	A + B:
+	B + UP:
+	B + DOWN: Delete the active attack chain without triggering a dodge. (Useful for players wanting to restart a combo without being punished.)
+
+
 March 2024:
 ------------
 A new idea permeates. Helldivers-esque combos that the player inputs on the control pad, and confirms with an A press.
