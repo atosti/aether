@@ -3180,6 +3180,18 @@ Concepts:
 	- The faces of the dead disappearing from their memories
 184. Comment on the sailors fleeing by ship to the North
 	- "They traded one deep blue for another. May the sea be more gentle to them than the Aether."
+185. Allow the player to inspect mass graves outside in the initial castle, and then return to the King to confront him about it.
+	- He'll admit, reluctantly, that they're the bodies of his enemies. That he claimed the keep from his enemies to the North. Former allies.
+	- Regardless, he doubles down on Aylmera's necessity to his cause, and urges her to complete the mission.
+186. Adjust the plot slightly. Alexandros must go to the Northern castle to retrieve the Orb there, but it's known to be dangerous.
+	- He's infiltrating with a small group of soldiers to perform a heist of sorts.
+	- This, of course, fails. Resulting in his crew being tortured and killed. Thus, the player must rescue him.
+187. Neera's perspective on the sins of the modern priesthood
+	- Neera: "Your sins are beyond absolution. To smite you has become necessity."
+	- Priest: "Nonsense. Your madness has made you blind to the faith."
+	- Priest: "God absolves through the Sacrament's confession."
+	- Neera: "No. His whispers were clear upon my ears."
+	- Neera: "Your behaviors are more grave than even Mortal sins. Such acts cannot be forgiven."
 
 
 Combat System Ideas:
@@ -3235,7 +3247,11 @@ Button combination ideas:
 	A + B:
 	B + UP:
 	B + DOWN: Delete the active attack chain without triggering a dodge. (Useful for players wanting to restart a combo without being punished.)
+	A + SELECT:
+	B + SELECT: 
 
+* Alternate idea: Select toggles between "Dodge" mode and "Attack" mode.
+	- The other buttons are used in forming combos, or dodging certain attacks (Jump, backstep, dodge left, dodge right, etc.)
 
 March 2024:
 ------------

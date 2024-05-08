@@ -1171,7 +1171,7 @@
                         "sceneId": "74ba6f50-04ea-43e7-b055-9e770fe51b5d",
                         "x": 9,
                         "y": 12,
-                        "direction": "down",
+                        "direction": "up",
                         "fadeSpeed": "2",
                         "__comment": false,
                         "__collapse": false
@@ -23394,7 +23394,7 @@
                             "command": "EVENT_GROUP",
                             "args": {
                                 "__label": "Attach button scripts",
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
@@ -23670,7 +23670,7 @@
                     "y": 1
                 },
                 {
-                    "name": "Combo Inputs",
+                    "name": "Combo Inputs Arrow",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
@@ -23703,21 +23703,17 @@
                 }
             ],
             "triggers": [],
-            "script": [
+            "script": [],
+            "playerHit1Script": [
                 {
-                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "actorId": "$self$",
-                        "direction": {
-                            "type": "direction",
-                            "value": "up"
-                        },
-                        "__collapse": true
+                        "customEventId": "4f2ba215-a723-446e-b257-74a2b1d8aebe",
+                        "$actor[65171768-f81c-4981-8572-8b5cd7e483d4]$": "65171768-f81c-4981-8572-8b5cd7e483d4"
                     },
-                    "id": "f6d06858-b269-4fb4-87ef-312ac6cf762c"
+                    "id": "094eb845-96ee-4ec9-8777-66461bc544b1"
                 }
             ],
-            "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "autoFadeEventCollapse": true
@@ -62079,6 +62075,338 @@
             "actors": {},
             "symbol": "script_0",
             "script": []
+        },
+        {
+            "id": "4f2ba215-a723-446e-b257-74a2b1d8aebe",
+            "name": "Combat Scenario",
+            "description": "The script for combat scenes. Involves logic for forming combos and handling combat.",
+            "variables": {},
+            "actors": {
+                "65171768-f81c-4981-8572-8b5cd7e483d4": {
+                    "id": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                    "name": "Actor A"
+                }
+            },
+            "symbol": "script_1",
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Button Scripts",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Movement",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "left"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "direction": {
+                                                                "type": "direction",
+                                                                "value": "left"
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "b478dc3f-50e0-4d13-8c0c-1104996e87c9"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SHOW",
+                                                        "args": {
+                                                            "actorId": "player",
+                                                            "__collapse": false
+                                                        },
+                                                        "id": "a2d6e529-9fdf-40ec-bf78-15ea1270878b"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "d27ce5ff-1286-4241-8766-f41440e2acd1"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "up"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "direction": {
+                                                                "type": "direction",
+                                                                "value": "up"
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "86a986b1-00cc-479a-93d8-884307066451"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SHOW",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "842fb494-81f7-4632-b00d-25ca14b78d61"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "a011d1c5-a3c5-48e9-ac2f-e066974cbf29"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "down"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "direction": {
+                                                                "type": "direction",
+                                                                "value": "down"
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "45d9ae8e-dd99-4620-ad77-4ecff147ed35"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SHOW",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "32c21b1a-c775-4ad5-b993-a96695a416cb"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "51c1be49-2e92-4bfb-a01b-e8d07dd44b7b"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "right"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "direction": {
+                                                                "type": "direction",
+                                                                "value": "right"
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "78fa05b5-4343-40ad-8c7e-3a93e7213459"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SHOW",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": false
+                                                        },
+                                                        "id": "933192cb-04c3-4641-b6f5-afc0c6f85f81"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_SHOW",
+                                                        "args": {
+                                                            "actorId": "$self$"
+                                                        },
+                                                        "id": "c09e91c5-5971-4572-be0b-a78821d38031"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "86bc9645-048f-4d6c-aee7-ca505662fbbb"
+                                        }
+                                    ]
+                                },
+                                "id": "eb0f2d4c-b098-4858-91fd-812f71a3a0c6"
+                            },
+                            {
+                                "command": "EVENT_GROUP",
+                                "args": {
+                                    "__label": "Buttons",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "a"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false,
+                                                "__label": "A Button"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_HIDE",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "e8dd698f-4c59-4e53-8dda-4932b76851cb"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                        "args": {
+                                                            "actorId": "player",
+                                                            "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "e8584f4b-7275-4aaa-91c1-e081a74271bc"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "b9e0dd20-a112-4de4-b59f-94f6036ae69a"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "b"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false,
+                                                "__label": "B Button"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_HIDE",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "902bef82-6a68-461c-8832-807cc7d09925"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_ACTOR_EMOTE",
+                                                        "args": {
+                                                            "actorId": "player",
+                                                            "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "3a2b04cd-4b37-4ef3-82b4-7bace9ddbe29"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "ce27cc3a-9785-42fa-b3a6-c975e4326cb6"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "args": {
+                                                "input": [
+                                                    "select"
+                                                ],
+                                                "override": true,
+                                                "__scriptTabs": "press",
+                                                "__collapse": false,
+                                                "__label": "Select"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_HIDE",
+                                                        "args": {
+                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "e4f13329-45e8-413c-bedb-1466226e1ee8"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "2c7759e4-28cf-46f0-9b5c-cee336502962"
+                                        },
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Pause"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_SET_INPUT_SCRIPT",
+                                                        "args": {
+                                                            "input": [
+                                                                "start"
+                                                            ],
+                                                            "override": true,
+                                                            "__scriptTabs": "press",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_AWAIT_INPUT",
+                                                                    "args": {
+                                                                        "input": [
+                                                                            "start"
+                                                                        ],
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "745626a4-6a48-4897-9b82-4400508bd362"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "91decc0f-dea2-48fb-b0d2-8dd008b74ecf"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "293cd4c5-4362-4bfe-9057-d732329cfa3b"
+                                        }
+                                    ]
+                                },
+                                "id": "a978bc8d-5568-4a5c-b732-695d6107c812"
+                            }
+                        ]
+                    },
+                    "id": "8c480414-c167-4d57-b6f1-44f41fc85fb1"
+                }
+            ]
         }
     ],
     "music": [
@@ -63330,7 +63658,8 @@
             "EVENT_WAIT",
             "EVENT_CALL_CUSTOM_EVENT",
             "EVENT_REMOVE_INPUT_SCRIPT",
-            "EVENT_ACTOR_MOVE_RELATIVE"
+            "EVENT_ACTOR_MOVE_RELATIVE",
+            "EVENT_GROUP"
         ],
         "defaultFadeStyle": "white",
         "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
