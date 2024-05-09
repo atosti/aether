@@ -3198,6 +3198,55 @@ Combat System Ideas:
 ====================
 May 2024:
 ----------
+Moves, their Combos, and their Icons:
+(Would love a combination of up to 5 attacks in a combo chain. 4 could do if necessary. 3 feels like the minimum.)
+	- So it's X many combos to the power of 5 options on the individual sprite sheet.
+	- As many as something like 8 possible inputs per attack seems reasonable. 10 is probably the upper limit you can expect someone to remember at ALL.
+		~ Obviously have easier ones that are less and easier to remember. The longer it is, the more situational it should perhaps be.
+		~ Though quick things which are situational allows fast reflexes to apply them to a combo.
+
+This needs some ideas for how to draw all the necessary info to screen. Perhaps showing the chain of inputs is unrealistic.
+	- Still, one arrow icon "dancing" as each input is entered could provide valuable info to the player.
+	- Then, when an attack is locked in, it can simply have a unique icon show what type of attack is locked in.
+
+Right now, the enemy will be attacking and having certain attacks, which require the player to pay attention and dodge during.
+	- This will lead to enemy exhaustion phases, where a player can more easily focus SOLELY on comboing and attacking with little to no threats to dodge.
+	- However, a strong player can input combos WHILE dodging, allowing them to take further advantage of the exhaustion period.
+
+
+1. Left Slash
+	- Combo: Left, Left, Left
+	- Icon:
+
+2. Right Slash
+	- Combo: Right, Right, Right,
+	- Icon: 
+
+4. Underhand (Underhaw)
+	- Combo: Down, Down, Up, Left, Right, Up
+	- Icon: A single U, for "Underhand"
+
+5. Forward Thrust (Stab)
+	- Combo: Down, Down, Up
+		~ Mimics pulling the sword back toward yourself, then ramming it forward in a straight line.
+	- Icon: A bunch of arrows point toward the center of the icon (like many spear tips), or a singular spear tip that seems to be moving "upward" in the icon.
+
+6. Right Diagonal Slash (Overhead)
+	- Combo:  Up, Up, Left, Right, Down, Right, Down
+		~ Mimics hoisting a sword up to the leftside of your body before striking down to the right.
+	- Icon: 
+
+7. Left Diagonal Slash (Overhead)
+	- Combo: Up, Up, Right, Left, Down, Left, Down
+		~ Mimics hoisting a sword up to the rightside of your body before striking down to the left.
+	- Icon: 
+
+8. Spinning Slash
+	- Combo: Left, Down, Right, Up, Left, Down, Right, Up
+		~ Mimics spinning around in 2 circles
+	- Icon:
+
+
 Conceptually need to do all these things, but within the control scheme of the Gameboy:
 1. Assemble combos (up to some max based on icon limits)
 2. Trigger an attack sequence
