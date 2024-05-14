@@ -3192,6 +3192,19 @@ Concepts:
 	- Priest: "God absolves through the Sacrament's confession."
 	- Neera: "No. His whispers were clear upon my ears."
 	- Neera: "Your behaviors are more grave than even Mortal sins. Such acts cannot be forgiven."
+188. The Jester and Alexandros disagreeing on their past politics
+	- Alexandros blames the King for initiating the conflict, despite the Wizards overtly making an assassination attempt first.
+	- Moreover, a conversation about their disagreements over how things are reflected in history.
+	- Jester: "Though the King doesn't regard the Great War as a mistake, you must admire his consideration for the future."
+	- Jester: "The undead threaten us all. And works on behalf of all the Realm to save it, regardless of their side in the conflict."
+	- Jester: "Could the same be said for the Mad Wizard?"
+	- Alexandros: "Who's to say?"
+	- Alexandros: "Your King has the privilege of being alive, and choosing to refine his political will."
+	- Alexandros: "My liege is not afforded such an opportunity due to his death."
+	- Alexandros: "To paint him as a warmonger both before and after the war is neither fair, nor rational."
+	- Alexandros: "Were he to see things as they are now, certainly his views would be amended in *some* manner."
+	- Alexandros: "After all, these are unprecendented times. The significance of such events was never lost on him."
+	- Alexandros: "Even at his least lucid, his mentality was grounded."
 
 
 Combat System Ideas:
