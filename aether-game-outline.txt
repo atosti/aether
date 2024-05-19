@@ -3133,9 +3133,9 @@ Concepts:
 	- This allows documents detailing core parts of what happened in the Great Explosion to be found in the Northern castle, further into the game.
 182. Conversation with Alexandros on religion
 	Alexandros: "Maybe you've heard of this one, Aylmera:"
-	Alexandros: " 'God no longer walks among the living, because he lives in *fear* of his own creation.' "
+	Alexandros: "'God no longer walks among the living, because he lives in *fear* of his own creation.' "
 	Neera: *Laughs to herself*
-	Alexandros: "Oh? It seems Neera's familiar with it."
+	Alexandros: "Oh? It seems Neera is familiar with it."
 	Neera: "Hardly. But I'm familiar enough with God."
 	Neera: "And he's certainly never shared such a feeling with me."
 	Alexandros: *Rolls his eyes*
@@ -3146,16 +3146,16 @@ Concepts:
 	Alexandros: "I want to hear Aylmera's take on it."
 	Alexandros: "Who do you think is more dangerous: Man, or God?"
 	[Man.]
-	Alexandros: "I agree. If he doesn't, God should fear us."
-	Alexandros: "He has good reason to."
+		Alexandros: "I agree. If he doesn't, God should fear us."
+		Alexandros: "He has good reason to."
 	[God.]
-	Alexandros: "Really?"
-	Alexandros: "Then you must blame the almighty for at least some of the atrocities we've witnessed."
-	Alexandros: "Suppose it's at least a comforting thought."
-	Alexandros: "The idea that we aren't the only ones responsible for our horrors."
+		Alexandros: "Really?"
+		Alexandros: "Then you must blame the almighty for at least some of the atrocities we've witnessed."
+		Alexandros: "Suppose it's at least a comforting thought."
+		Alexandros: "The idea that we aren't the only ones responsible for our horrors."
 	* Alexandros pauses (...) *
 	Alexandros: "Sorry to bring down the mood. Perhaps the Jester could brighten our spirits?"
-	Jester: TBD
+	Jester: "You're on your own this time."
 183. Jester and Alexandros talking about their shared trauma
 	Jester: "Alexandros. I've been meaning to ask you:"
 	Jester: "Do you often dream? Of the night of the explosion?"
@@ -3205,12 +3205,27 @@ Concepts:
 	- Alexandros: "Were he to see things as they are now, certainly his views would be amended in *some* manner."
 	- Alexandros: "After all, these are unprecendented times. The significance of such events was never lost on him."
 	- Alexandros: "Even at his least lucid, his mentality was grounded."
+	"He has the luxury of changing his mind (because he's alive)."
 
 
 Combat System Ideas:
 ====================
 May 2024:
 ----------
+Have HP increased by learning lore or exploring the world, directly.
+	- E.g. "Your Compassion has increased."
+	- Could also tie different emotions to each character's HP bar, so different characters can be buffed based on player choice.
+	- Rewards the player for learning different things about the world. 
+
+Select should lock in your attack chain (current move), and HOLDING it will purge your whole combo chain.
+	- This will allow your left hand to be entirely responsible for creating and locking in combos, and free up the A button.
+Holding B could swap between characters?
+Consider a UI overlay for showing health and/or current attack combo (arrows) at the bottom of the screen.
+Also consider ways to change between characters to fight as mid combat.
+	- Should be able to "overload" the player sprite with "Change Spritesheet" events.
+	- "SEEMLESS REAL TIME ANIMATIONSHEET CHANGE" on GB Studio discord has more info.
+Could draw combo chain icons to the background tiles (as they're static on the screen), and wipe/redraw them as needed via Tile swapping.
+
 Moves, their Combos, and their Icons:
 (Would love a combination of up to 5 attacks in a combo chain. 4 could do if necessary. 3 feels like the minimum.)
 	- So it's X many combos to the power of 5 options on the individual sprite sheet.
