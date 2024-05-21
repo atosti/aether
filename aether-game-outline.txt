@@ -3209,6 +3209,41 @@ Concepts:
 189. Consider having the Garrison destroyed after you perform the stabilization ritual
 	- This would be a result of you hassling the horde. A thing which the leaders of the Garrison could warn you about.
 	- As such, the only colony that's remotely moral and just would be defeated as well. Indirectly by your hands.
+190. Conversation with Neera after falling into the River
+	* Perhaps Neera has an odd reaction to you falling, such as laughing. Or a non-chalant, "Goodbye" with a smile, whereas the Jester shouts something like, "Aylmera! Wait!"
+	Aylmera: "Neera. There's something I have to ask you."
+	Aylmera: "When I fell from the bridge, you showed no surprise."
+	Aylmera: "How did you know I would fall? Why let it happen?"
+	Neera: (*smirks*)
+	Neera: "The better question is how did I know you would return?"
+	Neera: "While I don't share everything I see, I've never once lied to you."
+	Neera: "To *either* of you. *She shoots a glance in the Jester's direction.*"
+	Neera: "Had I warned you of the danger on the bridge, it's true you would not have fallen into the waters below."
+	Neera: "Instead you would have fallen in battle outside the castle walls."
+	Neera: "I've no explanation for how those outcomes were connected."
+	Neera: "But I can tell you that our separation was a necessity for your survival."
+	Neera: "I've meditated extensively about that bridge, and it was the safest solution."
+	Neera: "Viewing thousands of scenarios where my intervention meant your death: my mind had reached a consensus."
+	Neera: "Given so many trials, wouldn't you agree your safety was almost a certainty?"
+	Jester: "If I may interject for a moment, Aylmera."
+	Jester: "In your absence, Neera insisted to me that you would return."
+	Jester: "Despite my protests to search the shoreline for you. Or to assemble a search party."
+	Jester: "She remained entirely certain of your survival."
+	Jester: "She even managed to predict your arrival within the hour."
+	Jester:  *Sighs*
+	Jester: "I've no explanation for it aside from her alleged visions."
+	Jester: "But I know for certain that fall would have killed or maimed most the soldiers I've met."
+	Jester: "Yet you've returned to us in one piece. Perhaps she really did protect you."
+	Aylmera: *Thinking* (...)
+	Aylmera: "Since I can't force you share all you that know, Neera..."
+	Aylmera: "I'll only insist on one thing: From here on out, you-"
+	Neera: "Never separate the group again."
+	Aylmera: *Frowns*
+	Aylmera: "Precisely. And don't finish my sentences anymore, either."
+	Neera: *Laughs*
+	Neera: "I can abide by your requests."
+	Neera: "And I doubt you'll believe me, but it's good to have you back."
+
 
 Combat System Ideas:
 ====================
