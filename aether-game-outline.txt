@@ -3206,7 +3206,9 @@ Concepts:
 	- Alexandros: "After all, these are unprecendented times. The significance of such events was never lost on him."
 	- Alexandros: "Even at his least lucid, his mentality was grounded."
 	"He has the luxury of changing his mind (because he's alive)."
-
+189. Consider having the Garrison destroyed after you perform the stabilization ritual
+	- This would be a result of you hassling the horde. A thing which the leaders of the Garrison could warn you about.
+	- As such, the only colony that's remotely moral and just would be defeated as well. Indirectly by your hands.
 
 Combat System Ideas:
 ====================
