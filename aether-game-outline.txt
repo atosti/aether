@@ -2963,18 +2963,18 @@ Concepts:
 	Alexandros: "I was there, you know. Witnessed the carnage firsthand."
 	*Alexandros lowers his voice*
 	Alexandros: "...I saw how they slaughtered our kin."
-	Alexandros: "Even after the explosion."
+	Alexandros: "Even *after* the explosion."
 	*Her eyes narrow*
 	Wizard: "Oh. Oh... Then you know. Yeah. Those first few days were so brutal."
-	Wizard: "But you were there, it was chaos. "
+	Wizard: "But you were there, you understand the chaos."
 	Wizard: "I've never blamed them for killing us in the aftermath."
-	Wizard: "I fought tooth and nail to stay alive, too, you know."
-	Wizard: "Killed undead and man alike."
+	Wizard: "I fought tooth and nail to stay alive amidst the shadows, too, you know."
+	Wizard: "Killing undead and man alike."
 	Wizard: "It was all the same in that wretched darkness."
-	Wizard: "Even now, my memories are flashes of fire from my fingertips and the smell of scorched flesh."
-	Wizard: "Only the stars bore witness to the atrocities."
+	Wizard: "Even now, my memories are mostly flashes of fire from my fingertips and the smell of scorched flesh."
+	Wizard: "Only the stars bore witness to the atrocities we committed."
 	Alexandros: "So what changed your mind? Why did you stop fighting?"
-	Wizard: "Well, because I fought long past my limit."
+	Wizard: "Well, because I fought long past my limits."
 	Wizard: "My body was so fatigued. And my mind so emaciated that I could no longer focus."
 	Wizard: "After a while, I found myself just wandering through the darkness."
 	Wizard: "Slowly freezing to death in the harsh winds."
@@ -2988,7 +2988,7 @@ Concepts:
 	Alexandros: "And then?"
 	Wizard: "As I approached, some of the men rose to their feet, unsheathing their blades."
 	Wizard: "But I just stumbled forward, collapsing to my knees beside their fire."
-	Wizard: "My eyes staying fixated on the hot coals."
+	Wizard: "My eyes fixated on the hot coals."
 	*She pauses (...)*
 	Wizard: "In that moment, I admit that I prayed for a final comfort."
 	Wizard: "I asked God for a quick death."
@@ -2997,7 +2997,7 @@ Concepts:
 	*Her eyes well up with tears*
 	Wizard: "Draped his cloak gently around my shoulders."
 	* She cries *
-	Wizard: "For some reason, it reminded me of my father."
+	Wizard: "For some reason, it reminded me of my father!"
 	* She laughs *
 	Wizard: "Something about the way he used to wrap me in blankets as a child."
 	Wizard: "And that was it. The others sheathed their blades and sat back down, as did the man."
@@ -3011,14 +3011,14 @@ Concepts:
 	*She shakes her head, smiling tearfully.*
 	Wizard: "No, no. There's no need to be."
 	Wizard: "I recognize now that it was the best day of my life."
-	Wizard: "His kindness saved me. It saved us all, really."
+	Wizard: "His kindness saved me, you see. It saved us all, really."
 	Wizard: "Because he dreamt of a different world, and then had *us* realize it."
 	Wizard: "That's more imaginative than even the brightest artist."
 	* She pauses again.*
-	Wizard: "I realized I've never told anyone that story before. To anyone."
-	Wizard: "Thank you for listening to it."
-	Alexandros: "I assure you, the pleasure was all ours."
-	*She smiles warmly at the four of you. You can't help but smile back. *
+	Wizard: "I realize I've never told anyone that story before. To anyone."
+	Wizard: "So thank you for listening to it."
+	Alexandros: "I assure you, miss, the pleasure was all ours."
+	*She smiles warmly at the four of you, and you can't help but smile back.*
 175. Conversation with a mystic/psychic
 	Mystic: "In your wake, you leave death. Do you know what fills in that void?"
 	[Chaos.]
