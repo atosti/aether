@@ -3243,6 +3243,37 @@ Concepts:
 	Neera: *Laughs*
 	Neera: "I can abide by your requests."
 	Neera: "And I doubt you'll believe me, but it's good to have you back."
+191. A discussion about societal healing
+	Attempting to get past a knight who's standing guard in the Lord's Castle.
+	Knight: "Halt! Heretics aren't permitted inside the gate. Return from whence you came."
+	Neera: "And why is it we're not allowed inside?"
+	Knight: "Because you're a risk to our peace. You don't share our values."
+	Neera: "Is that so? So it's a philosophical difference? Hm."
+	Neera: "You know, the truth of our predicament is quite simple."
+	Neera: "The best possible outcome for everyone would be to reconcile."
+	Neera: "To find a common ground wherein we could heal."
+	Neera: "To melt our hatred of one another away as we form a common bond."
+	Neera: "Such an experience is to witness *true* beauty."
+	*Neera pauses (...)*
+	Neera: "Yet few ever make it far enough to even glimpse such a chance."
+	Neera: "Fewer still will ever face it."
+	Neera: "For most of us, healing in this way is an impossibility."
+	Neera: "Because it requires an immense level of self-reflection."
+	Neera: "An ability to empathize with your own soul as much as that of an enemy."
+	Neera: "To us rabble, acknowleding the pain we've caused is simply a burden too great to face."
+	Neera: "Our revulsion to our sins blinds us with shame."
+	Neera: "Thus, most are left right where we find ourselves now."
+	Neera: "Stuck. Stubborn. And Stoic."
+	*Neera smiles, pleased with herself.*
+	*Knight takes a defensive stance, on their backfoot.*
+	Knight: "Just what are you insinuating, priestess?"
+	Neera: "Are you so blind? There's only one pathway forward for both of us."
+	Aylmera: "Through one another."
+	Aylmera:"And *we're* unwavering. Are you?"
+	*Knight is terrified (disturbed? agitated?)*
+	Knight: "Keep your distance, witch!" (bruja? should Velazquez's men reference Spanish)
+	*Aylmera charges into combat*
+
 
 
 Combat System Ideas:
