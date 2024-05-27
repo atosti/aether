@@ -3280,6 +3280,50 @@ Combat System Ideas:
 ====================
 May 2024:
 ----------
+Characters and their attacks:
+1. Aylmera
+	- High damage, and High HP. Decent defense.
+	- Uses large 2h bastard sword.
+	- Offensive attacks. Slashes, stabs, overheads, and underhands.
+2. Jester
+	- Medium damage. Medium HP. Decent defense.
+	- Uses a Misericorde (dagger for finishing off the wounded) and a lute for playing music (buffs).
+		~ Can apply poison via the dagger with some attacks.
+	- Has a combination of stabbing attacks, a few buffs (to increase damage, or to weaken enemy damage) 
+3. Neera
+	- Low damage. Low HP. Low defense.
+	- Wields a cross and holy bible. Low HP.
+	- Heals and buffs the rest of the party (or everyone, with a tiny bit for herself). Applies holy DoTs to enemies (which is strong against undead).
+		~ Perhaps totally unable to damage enemies, or only very few attacks.
+		~ Or moves where the main effect is a status effect, and there's a small bit of damage added additionally or over time.
+		~ If she's squishy, with limited ways to assist herself, then pulling her out to play is risky, preventing turtling on her for long periods.
+4. Alexandros
+	- High damage. Medium HP. Low defense.
+	- Magical spells.  His arms should ideally match the arrows being pressed when a cast is 
+		~ Attacks often cause a DoT in addition to damage (such as fireballs).
+		~ Has access to many different elemental attacks, allowing for more nuance in addressing enemy weaknesses. (Earth, Water, Wind, Fire)
+
+* While the goal is to encourage a mixed playstyle of all the characters, if a player's good enough with one, they should be able to prioritize using them.
+	- Keep in mind the option to win no matter the character selected.
+* Will all the combos for all 4 characters simply be too much shit to memorize?
+	- Aim to reuse Attack Combos between characters, but change what is done.
+	- This would reduce the amount a player is required to learn in order to play effectively.
+
+Keybinds:
+-----------
+Arrow keys = Attack chains
+A = Lock in Attack to Combo
+Hold A = Activate Combo
+Select = Pop most recent Attack off combo chain
+	- Simply tapping this a few times could be used to clear combos instead of a "full clear" button elsewhere
+Hold Select = Swap character forward (next character)
+Start = Pause
+B = Dodge
+Hold B = Swap characater backward (previous character)
+* Swapping a character clears your combo as well. As the new character has different attacks.
+* Ideally, each character has a different healthbar.
+	- Once all active party members are dead, it's game over.
+
 Have HP increased by learning lore or exploring the world, directly.
 	- E.g. "Your Compassion has increased."
 	- Could also tie different emotions to each character's HP bar, so different characters can be buffed based on player choice.

@@ -23636,7 +23636,7 @@
                                                         ],
                                                         "override": true,
                                                         "__scriptTabs": "press",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "children": {
                                                         "true": [
@@ -63754,8 +63754,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1971,
-        "worldScrollY": 0,
+        "worldScrollX": 2396,
+        "worldScrollY": 8,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -63785,7 +63785,7 @@
         "playerPaletteId": "",
         "navigatorSplitSizes": [
             30,
-            897,
+            888,
             30
         ],
         "showNavigator": true,
