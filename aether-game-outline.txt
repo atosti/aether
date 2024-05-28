@@ -3308,6 +3308,7 @@ Characters and their attacks:
 * Will all the combos for all 4 characters simply be too much shit to memorize?
 	- Aim to reuse Attack Combos between characters, but change what is done.
 	- This would reduce the amount a player is required to learn in order to play effectively.
+* Draw HP bars as background tiles
 
 Keybinds:
 -----------
@@ -3316,10 +3317,32 @@ A = Lock in Attack to Combo
 Hold A = Activate Combo
 Select = Pop most recent Attack off combo chain
 	- Simply tapping this a few times could be used to clear combos instead of a "full clear" button elsewhere
-Hold Select = Swap character forward (next character)
+Hold Select = Swap character backward (previous character)
 Start = Pause
 B = Dodge
-Hold B = Swap characater backward (previous character)
+Hold B = Swap character forward (next character)
+	- When the B button is held:
+		- If (next character exists & next character not dead)
+			- Then swap to next character.
+			- Else, check for the next character in the chain.
+			- If the next character is the current character, don't swap, and exit this logic chain. 
+
+* PartyConfig and determining the active members in the party
+	Possible team comps:
+		1. Aylmera alone
+		2. Aylmera + Jester
+		3. Aylmera + Jester + Neera
+		4. Aylmera + Jester + Neera + Alexandros
+	- Should I simply design it to allow for all possible combos? Nah. That feels like over designing.
+
+* CurrentCharacter values:
+	0 = Aylmera (default)
+		- Think of how to save this value. Initialize it perhaps when starting a new game.
+		- I would love it if the last character used could be saved. But ensure that it never gets desynced from who is in the active party.
+	1 = Jester
+	2 = Neera
+	3 = Alexandros
+
 * Swapping a character clears your combo as well. As the new character has different attacks.
 * Ideally, each character has a different healthbar.
 	- Once all active party members are dead, it's game over.

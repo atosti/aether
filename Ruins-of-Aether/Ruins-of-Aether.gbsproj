@@ -1015,7 +1015,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Scene Setup",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1057,7 +1057,7 @@
                             "\n                          ....A R I S E....\n"
                         ],
                         "avatarId": "",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "60b2cc05-84a9-4f73-bfbb-7a17c2a0483d"
                 },
@@ -1065,7 +1065,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Eyes Opening Cinematic",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -23570,7 +23570,61 @@
                             "id": "a4fa8e7b-01e2-4320-aa3f-4ae9bcf3c6b5"
                         }
                     ],
-                    "updateScript": [],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Check for all party deaths",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": []
+                            },
+                            "id": "b8ab2baa-da7f-4aed-ab4e-3db742912ee7"
+                        },
+                        {
+                            "command": "EVENT_IF_INPUT",
+                            "args": {
+                                "input": [
+                                    "b"
+                                ],
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_GROUP",
+                                        "args": {
+                                            "__label": "Cycle to Next Character"
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_IF_VALUE_COMPARE",
+                                                    "args": {
+                                                        "vectorX": "9",
+                                                        "operator": "==",
+                                                        "vectorY": "L0",
+                                                        "__collapseElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [],
+                                                        "false": []
+                                                    },
+                                                    "id": "0296eefe-90f0-4012-8a46-c37dd214939f"
+                                                }
+                                            ]
+                                        },
+                                        "id": "192b0c27-b9c2-4f0e-93b9-fe1404fb5cfc"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "9c4b888f-f98d-406b-a1c7-6def215c7ddd"
+                        }
+                    ],
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
@@ -23608,21 +23662,61 @@
                     "hit3Script": [],
                     "id": "65171768-f81c-4981-8572-8b5cd7e483d4",
                     "x": 16,
-                    "y": 16
+                    "y": 15
                 }
             ],
             "triggers": [],
-            "script": [],
-            "playerHit1Script": [
+            "script": [
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
-                        "customEventId": "4f2ba215-a723-446e-b257-74a2b1d8aebe",
-                        "$actor[65171768-f81c-4981-8572-8b5cd7e483d4]$": "65171768-f81c-4981-8572-8b5cd7e483d4"
+                        "customEventId": "b09617b5-7810-4599-a5e8-b256f1e07a12",
+                        "__collapse": true,
+                        "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "14"
+                        },
+                        "$variable[V1]$": {
+                            "type": "variable",
+                            "value": "0"
+                        },
+                        "$variable[V2]$": {
+                            "type": "variable",
+                            "value": "2"
+                        },
+                        "$variable[V3]$": {
+                            "type": "variable",
+                            "value": "1"
+                        }
                     },
-                    "id": "094eb845-96ee-4ec9-8777-66461bc544b1"
+                    "id": "0034cb61-50c9-4549-bd10-5626af7c45ae"
+                },
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Set controlled character to Aylmera",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "9",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "081890e5-5086-4cb9-a492-4e38206e1978"
+                            }
+                        ]
+                    },
+                    "id": "ca660767-28f0-42c4-80ab-5f097d272377"
                 }
             ],
+            "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
             "autoFadeEventCollapse": true
@@ -61928,6 +62022,15 @@
             "symbol": "script_11",
             "script": [
                 {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "0",
+                        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                        "__collapse": true
+                    },
+                    "id": "e53a1a3f-eaa6-4685-aa7c-abf3b62b8d61"
+                },
+                {
                     "command": "EVENT_SOUND_PLAY_EFFECT",
                     "args": {
                         "type": "6638692a-cc05-4d03-b27a-25138ae15cb7",
@@ -61940,15 +62043,6 @@
                         "__collapse": true
                     },
                     "id": "74579698-34d7-4072-82c8-7f5e2216c7bb"
-                },
-                {
-                    "command": "EVENT_ACTOR_EMOTE",
-                    "args": {
-                        "actorId": "0",
-                        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
-                        "__collapse": true
-                    },
-                    "id": "e53a1a3f-eaa6-4685-aa7c-abf3b62b8d61"
                 }
             ]
         },
@@ -61977,343 +62071,509 @@
             ]
         },
         {
-            "id": "7966f297-75c7-4608-84d8-a9f3bde494f2",
-            "name": "Update Memories",
-            "description": "",
-            "variables": {},
-            "actors": {},
-            "symbol": "script_0",
-            "script": []
-        },
-        {
-            "id": "4f2ba215-a723-446e-b257-74a2b1d8aebe",
-            "name": "Combat Scenario",
-            "description": "UNUSED. Current issues with modifying actors other than the player on script attachments make this script difficult (or impossible) to elegantly implement. The script for combat scenes. Involves logic for forming combos and handling combat.",
-            "variables": {},
-            "actors": {
-                "65171768-f81c-4981-8572-8b5cd7e483d4": {
-                    "id": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                    "name": "Actor A"
+            "id": "3af97135-1e33-4529-a730-a31ebc43d846",
+            "name": "Battle - Check for party wipe",
+            "description": "Checks HP values for all active party members. If they're all zero (dead), then trigger a game over screen.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrentCharacter",
+                    "passByReference": true
                 }
             },
+            "actors": {},
+            "symbol": "script_2",
+            "script": [
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "10",
+                        "operator": "<",
+                        "comparator": "0",
+                        "__collapseElse": true,
+                        "__collapse": true,
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "11",
+                                    "operator": "<",
+                                    "comparator": "0",
+                                    "__collapseElse": true,
+                                    "__collapse": false,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "12",
+                                                "operator": "<",
+                                                "comparator": "0",
+                                                "__collapseElse": true,
+                                                "__collapse": false,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "13",
+                                                            "operator": "<",
+                                                            "comparator": "0",
+                                                            "__collapseElse": true,
+                                                            "__collapse": false,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                                                    "args": {
+                                                                        "type": "52113f27-7546-4990-883c-23869816876d",
+                                                                        "priority": "medium",
+                                                                        "pitch": 4,
+                                                                        "frequency": 200,
+                                                                        "duration": 0.5,
+                                                                        "wait": true,
+                                                                        "effect": 0
+                                                                    },
+                                                                    "id": "140e2d9c-5759-4230-8994-9cb5b0b2bfde"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_TEXT",
+                                                                    "args": {
+                                                                        "text": [
+                                                                            "Your party crumples..."
+                                                                        ],
+                                                                        "avatarId": "",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "071a3bc1-2c56-4b73-86e5-51d896441743"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_SWITCH_SCENE",
+                                                                    "args": {
+                                                                        "sceneId": "94ebeb0f-db97-4fbd-be91-7059aa564bec",
+                                                                        "x": 0,
+                                                                        "y": 0,
+                                                                        "direction": "",
+                                                                        "fadeSpeed": "2",
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "28748a2b-4142-44bd-b439-eb36a8b97beb"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "775d3821-a7b9-4925-8b64-90b437fef042"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "f1d22e46-5e75-41f9-9562-22da4e44fc5e"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "9714335b-9768-4c96-bec5-ddf63cc8f988"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "b29178ae-8772-4d3a-ab77-0f1cc1fa612f"
+                },
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "V0",
+                        "operator": "==",
+                        "comparator": "0",
+                        "__collapseElse": true,
+                        "__collapse": false,
+                        "__label": "If CurrCharacter is Aylmera",
+                        "__disableElse": true
+                    },
+                    "children": {
+                        "true": [],
+                        "false": []
+                    },
+                    "id": "3d272bd8-67e4-4ecc-b709-4fdfcb45530a"
+                }
+            ]
+        },
+        {
+            "id": "b09617b5-7810-4599-a5e8-b256f1e07a12",
+            "name": "Battle - Determine Recruited Party Members (set PartyConfig)",
+            "description": "Checks for which characters are currently recruited into the party, and sets the PartyConfig variable accordingly. Used by other scripts.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "PartyConfig",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "JesterRecruited",
+                    "passByReference": true
+                },
+                "V2": {
+                    "id": "V2",
+                    "name": "NeeraRecruited",
+                    "passByReference": true
+                },
+                "V3": {
+                    "id": "V3",
+                    "name": "AlexandrosRecruited",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
             "symbol": "script_1",
             "script": [
                 {
                     "command": "EVENT_GROUP",
                     "args": {
-                        "__label": "Button Scripts",
-                        "__collapse": false
+                        "__label": "Aylmera Alone (PartyConfig = 0)",
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
                             {
-                                "command": "EVENT_GROUP",
+                                "command": "EVENT_IF_FALSE",
                                 "args": {
-                                    "__label": "Movement",
-                                    "__collapse": true
-                                },
-                                "children": {
-                                    "true": [
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "left"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "direction": {
-                                                                "type": "direction",
-                                                                "value": "left"
-                                                            },
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "b478dc3f-50e0-4d13-8c0c-1104996e87c9"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SHOW",
-                                                        "args": {
-                                                            "actorId": "player",
-                                                            "__collapse": false
-                                                        },
-                                                        "id": "a2d6e529-9fdf-40ec-bf78-15ea1270878b"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "d27ce5ff-1286-4241-8766-f41440e2acd1"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "up"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "direction": {
-                                                                "type": "direction",
-                                                                "value": "up"
-                                                            },
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "86a986b1-00cc-479a-93d8-884307066451"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SHOW",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "842fb494-81f7-4632-b00d-25ca14b78d61"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "a011d1c5-a3c5-48e9-ac2f-e066974cbf29"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "down"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "direction": {
-                                                                "type": "direction",
-                                                                "value": "down"
-                                                            },
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "45d9ae8e-dd99-4620-ad77-4ecff147ed35"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SHOW",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "32c21b1a-c775-4ad5-b993-a96695a416cb"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "51c1be49-2e92-4bfb-a01b-e8d07dd44b7b"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "right"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "direction": {
-                                                                "type": "direction",
-                                                                "value": "right"
-                                                            },
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "78fa05b5-4343-40ad-8c7e-3a93e7213459"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SHOW",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": false
-                                                        },
-                                                        "id": "933192cb-04c3-4641-b6f5-afc0c6f85f81"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SHOW",
-                                                        "args": {
-                                                            "actorId": "$self$"
-                                                        },
-                                                        "id": "c09e91c5-5971-4572-be0b-a78821d38031"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "86bc9645-048f-4d6c-aee7-ca505662fbbb"
-                                        }
-                                    ]
-                                },
-                                "id": "eb0f2d4c-b098-4858-91fd-812f71a3a0c6"
-                            },
-                            {
-                                "command": "EVENT_GROUP",
-                                "args": {
-                                    "__label": "Buttons",
+                                    "variable": "V1",
+                                    "__collapseElse": true,
+                                    "__disableElse": true,
                                     "__collapse": false
                                 },
                                 "children": {
                                     "true": [
                                         {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
+                                            "command": "EVENT_IF_FALSE",
                                             "args": {
-                                                "input": [
-                                                    "a"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false,
-                                                "__label": "A Button"
+                                                "variable": "V2",
+                                                "__collapseElse": true,
+                                                "__disableElse": true
                                             },
                                             "children": {
                                                 "true": [
                                                     {
-                                                        "command": "EVENT_ACTOR_HIDE",
+                                                        "command": "EVENT_IF_FALSE",
                                                         "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "e8dd698f-4c59-4e53-8dda-4932b76851cb"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_EMOTE",
-                                                        "args": {
-                                                            "actorId": "player",
-                                                            "emoteId": "9c0b6324-9d4f-4ef4-86cf-2f28fc7e6056",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "e8584f4b-7275-4aaa-91c1-e081a74271bc"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "b9e0dd20-a112-4de4-b59f-94f6036ae69a"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "b"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false,
-                                                "__label": "B Button"
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_HIDE",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "902bef82-6a68-461c-8832-807cc7d09925"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_EMOTE",
-                                                        "args": {
-                                                            "actorId": "player",
-                                                            "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "3a2b04cd-4b37-4ef3-82b4-7bace9ddbe29"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "ce27cc3a-9785-42fa-b3a6-c975e4326cb6"
-                                        },
-                                        {
-                                            "command": "EVENT_SET_INPUT_SCRIPT",
-                                            "args": {
-                                                "input": [
-                                                    "select"
-                                                ],
-                                                "override": true,
-                                                "__scriptTabs": "press",
-                                                "__collapse": false,
-                                                "__label": "Select"
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_ACTOR_HIDE",
-                                                        "args": {
-                                                            "actorId": "65171768-f81c-4981-8572-8b5cd7e483d4",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "e4f13329-45e8-413c-bedb-1466226e1ee8"
-                                                    }
-                                                ]
-                                            },
-                                            "id": "2c7759e4-28cf-46f0-9b5c-cee336502962"
-                                        },
-                                        {
-                                            "command": "EVENT_GROUP",
-                                            "args": {
-                                                "__label": "Pause"
-                                            },
-                                            "children": {
-                                                "true": [
-                                                    {
-                                                        "command": "EVENT_SET_INPUT_SCRIPT",
-                                                        "args": {
-                                                            "input": [
-                                                                "start"
-                                                            ],
-                                                            "override": true,
-                                                            "__scriptTabs": "press",
-                                                            "__collapse": true
+                                                            "variable": "V3",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
                                                         },
                                                         "children": {
                                                             "true": [
                                                                 {
-                                                                    "command": "EVENT_AWAIT_INPUT",
+                                                                    "command": "EVENT_SET_VALUE",
                                                                     "args": {
-                                                                        "input": [
-                                                                            "start"
-                                                                        ],
+                                                                        "variable": "V0",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 0
+                                                                        },
                                                                         "__collapse": true
                                                                     },
-                                                                    "id": "745626a4-6a48-4897-9b82-4400508bd362"
+                                                                    "id": "4a6330d4-df5b-4d86-8517-072cb3748e46"
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "false": []
                                                         },
-                                                        "id": "91decc0f-dea2-48fb-b0d2-8dd008b74ecf"
+                                                        "id": "7c8e46fc-e354-48ca-8002-e99a0af19fab"
                                                     }
-                                                ]
+                                                ],
+                                                "false": []
                                             },
-                                            "id": "293cd4c5-4362-4bfe-9057-d732329cfa3b"
+                                            "id": "8af049c9-daab-48b6-ad57-8bfa74f00091"
                                         }
-                                    ]
+                                    ],
+                                    "false": []
                                 },
-                                "id": "a978bc8d-5568-4a5c-b732-695d6107c812"
+                                "id": "186d10dd-6453-4f73-b615-23b781f4588e"
                             }
                         ]
                     },
-                    "id": "8c480414-c167-4d57-b6f1-44f41fc85fb1"
+                    "id": "ce182091-15d0-49a2-ba93-45abe24707ef"
+                },
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Aylmera + Jester (PartyConfig = 1)",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "V1",
+                                    "__collapseElse": true,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_FALSE",
+                                            "args": {
+                                                "variable": "V2",
+                                                "__collapseElse": true,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_FALSE",
+                                                        "args": {
+                                                            "variable": "V3",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SET_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 1
+                                                                        },
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "1900d02b-968d-48c1-8773-28ffe8d6d2be"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "b65ae3a9-6eaa-4e85-9ac9-915643283e77"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "76c367ac-78a5-4353-8027-30e215aba4ff"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "711a5433-65a1-415e-b6fe-4c75d071df46"
+                            }
+                        ]
+                    },
+                    "id": "2e5441aa-93a6-49b3-921f-96156c1dd630"
+                },
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Aylmera + Jester + Neera (PartyConfig = 2)",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "V1",
+                                    "__collapseElse": true,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_TRUE",
+                                            "args": {
+                                                "variable": "V2",
+                                                "__collapseElse": true,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_FALSE",
+                                                        "args": {
+                                                            "variable": "V3",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SET_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 2
+                                                                        },
+                                                                        "__collapse": true
+                                                                    },
+                                                                    "id": "0247cf95-c4f0-47d6-80ac-d09021160aa7"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "413ebda5-842d-4ab3-8d33-9ee92732423f"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "5e5f8240-35c5-4e11-ad82-cb5ce748c3a0"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "0fd82d20-acf7-44cb-bec3-b7f1ef9c1dc2"
+                            }
+                        ]
+                    },
+                    "id": "b91bd7d1-64c2-42cb-9f60-acc46e387dbf"
+                },
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Aylmera + Jester + Neera + Alexandros (PartyConfig = 3)",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_TRUE",
+                                "args": {
+                                    "variable": "V1",
+                                    "__collapseElse": true,
+                                    "__disableElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_TRUE",
+                                            "args": {
+                                                "variable": "V2",
+                                                "__collapseElse": true,
+                                                "__disableElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_TRUE",
+                                                        "args": {
+                                                            "variable": "V3",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SET_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 3
+                                                                        }
+                                                                    },
+                                                                    "id": "a02a4f11-e669-45a6-8040-8686d3b923b5"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "61145e5a-00c3-44f3-b547-482b84c16e94"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "7ccd9c6a-1f1c-42d0-b14f-8a11cd1befc8"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "fed5f2bf-7592-45e4-b705-f856e65f0a0b"
+                            }
+                        ]
+                    },
+                    "id": "f1ecf8ff-cf52-444f-8aac-3edf63f86766"
+                }
+            ]
+        },
+        {
+            "id": "0c06f147-8242-403f-9c38-085098952d46",
+            "name": "!!!!TBD!!!! Battle - Cycling characters",
+            "description": "Determine which characters to cycle to/from based on the value of PartyConfig. Ensure PartyConfig is set before running this script. This needs to be attached to Hold events nested within button press scripts on init in battle screens.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "PartyConfig",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_0",
+            "script": [
+                {
+                    "command": "EVENT_IF_INPUT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "__collapseElse": true,
+                        "__disableElse": true,
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "V0",
+                                    "operator": "<=",
+                                    "comparator": "0",
+                                    "__collapseElse": false,
+                                    "__disableElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Do nothing (Aylmera's alone)",
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": []
+                                            },
+                                            "id": "084d0987-359e-4b48-9424-63f5855d56db"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "V0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [],
+                                                "false": []
+                                            },
+                                            "id": "8003b7ff-20c1-4278-8127-ef8542f8f737"
+                                        }
+                                    ]
+                                },
+                                "id": "b7aca346-5250-478c-8c98-e1b09d3c4db9"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "aa4575be-8598-4733-a31b-ac17ca7dd1c0"
                 }
             ]
         }
@@ -63644,6 +63904,36 @@
             "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
             "name": "Local 0",
             "symbol": "var_local_10"
+        },
+        {
+            "id": "9",
+            "name": "CurrentBattleCharacter",
+            "symbol": "var_currentbattlecharacter_0"
+        },
+        {
+            "id": "10",
+            "name": "AylmeraHP",
+            "symbol": "var_aylmerahp"
+        },
+        {
+            "id": "11",
+            "name": "SigmundHP",
+            "symbol": "var_sigmundhp"
+        },
+        {
+            "id": "12",
+            "name": "NeeraHP",
+            "symbol": "var_neerahp"
+        },
+        {
+            "id": "13",
+            "name": "AlexandrosHP",
+            "symbol": "var_alexandroshp"
+        },
+        {
+            "id": "14",
+            "name": "PartyConfig",
+            "symbol": "var_partyconfig"
         }
     ],
     "engineFieldValues": [
@@ -63663,8 +63953,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2251,
-        "worldScrollY": 53,
+        "worldScrollX": 2007,
+        "worldScrollY": 0,
         "zoom": 225,
         "customColorsEnabled": true,
         "sgbEnabled": false,
