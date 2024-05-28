@@ -63756,6 +63756,36 @@
             "symbol": "var_battlemovement"
         },
         {
+            "id": "9",
+            "name": "CurrentBattleCharacter",
+            "symbol": "var_currentbattlecharacter_"
+        },
+        {
+            "id": "10",
+            "name": "AylmeraHP",
+            "symbol": "var_aylmerahp"
+        },
+        {
+            "id": "11",
+            "name": "SigmundHP",
+            "symbol": "var_sigmundhp"
+        },
+        {
+            "id": "12",
+            "name": "NeeraHP",
+            "symbol": "var_neerahp"
+        },
+        {
+            "id": "13",
+            "name": "AlexandrosHP",
+            "symbol": "var_alexandroshp"
+        },
+        {
+            "id": "14",
+            "name": "PartyConfig",
+            "symbol": "var_partyconfig"
+        },
+        {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
             "name": "Local 1",
             "symbol": "var_local_1"
@@ -63904,36 +63934,6 @@
             "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
             "name": "Local 0",
             "symbol": "var_local_10"
-        },
-        {
-            "id": "9",
-            "name": "CurrentBattleCharacter",
-            "symbol": "var_currentbattlecharacter_0"
-        },
-        {
-            "id": "10",
-            "name": "AylmeraHP",
-            "symbol": "var_aylmerahp"
-        },
-        {
-            "id": "11",
-            "name": "SigmundHP",
-            "symbol": "var_sigmundhp"
-        },
-        {
-            "id": "12",
-            "name": "NeeraHP",
-            "symbol": "var_neerahp"
-        },
-        {
-            "id": "13",
-            "name": "AlexandrosHP",
-            "symbol": "var_alexandroshp"
-        },
-        {
-            "id": "14",
-            "name": "PartyConfig",
-            "symbol": "var_partyconfig"
         }
     ],
     "engineFieldValues": [

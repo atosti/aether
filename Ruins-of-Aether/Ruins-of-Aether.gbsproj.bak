@@ -62505,7 +62505,7 @@
         {
             "id": "0c06f147-8242-403f-9c38-085098952d46",
             "name": "!!!!TBD!!!! Battle - Cycling characters",
-            "description": "Determine which characters to cycle to/from based on the value of PartyConfig. Ensure PartyConfig is set before running this script. This needs to be attached to Hold events nested within button press scripts on battle initialization.",
+            "description": "Determine which characters to cycle to/from based on the value of PartyConfig. Ensure PartyConfig is set before running this script. This needs to be attached to Hold events nested within button press scripts on init in battle screens.",
             "variables": {
                 "V0": {
                     "id": "V0",
