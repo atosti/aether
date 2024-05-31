@@ -3299,7 +3299,7 @@ Characters and their attacks:
 		~ If she's squishy, with limited ways to assist herself, then pulling her out to play is risky, preventing turtling on her for long periods.
 4. Alexandros
 	- High damage. Medium HP. Low defense.
-	- Magical spells.  His arms should ideally match the arrows being pressed when a cast is 
+	- Magical spells.  His arms should ideally match the arrows being pressed when a spell is cast 
 		~ Attacks often cause a DoT in addition to damage (such as fireballs).
 		~ Has access to many different elemental attacks, allowing for more nuance in addressing enemy weaknesses. (Earth, Water, Wind, Fire)
 
