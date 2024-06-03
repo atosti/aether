@@ -3732,6 +3732,13 @@ GB Studio:
 
 Soundtrack:
 ============
+Instruments I'd like to create:
+1. Chants/Wailing
+	- E.g. Gregorian chants
+2. Violins
+
+
+Inspiration for tracks:
 0. Introduction/Prologue
 	https://en.wikipedia.org/wiki/Charon%27s_obol
 	- Draw a few third-person images of the player's body into a scene, then show dialogue and a black screen to the player.
@@ -3881,5 +3888,5 @@ XVI. Ideas for music to Create
 	- A theme for each main character
 		~ Alternately, just play a series of notes as a sound effect matching the instrument/theme of the character being swapped in.
 		~ Outline the emotions of each character to better craft their themes.
-XVII: Idea for early combat theme (sounds heroic)
+XVII. Idea for early combat theme (sounds heroic)
 	- https://soundcloud.com/kembe_x/cozy-forever-1
