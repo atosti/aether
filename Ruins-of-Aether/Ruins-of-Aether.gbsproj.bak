@@ -23668,10 +23668,125 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Dummy Init HP",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "10",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 100
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "1db47b27-b87c-40a7-a96a-137aec725328"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "11",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 100
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "8eff3a50-d577-492e-88e9-52db213d1928"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "12",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 100
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "eefd576d-2a26-440c-8a45-02b4ab9d79fc"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "13",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 100
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "2e75db14-5bd0-480e-88f4-fa64891fbcb9"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "15",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 100
+                                    }
+                                },
+                                "id": "61283573-a778-4ad8-a461-0a042da1d414"
+                            }
+                        ]
+                    },
+                    "id": "4b9e0dfe-18ed-4f84-80cf-e8b39c70fddb"
+                },
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Dummy Init Recruited",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "0"
+                                },
+                                "id": "8b24d5e6-0bdb-4953-b8e6-44b1eb77b340"
+                            },
+                            {
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "1"
+                                },
+                                "id": "2276d8db-ddc9-4035-84e6-412f9f72282b"
+                            },
+                            {
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "2"
+                                },
+                                "id": "33ce6f4f-b60d-42d7-80f4-ee526ce7f633"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "14",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 3
+                                    }
+                                },
+                                "id": "5007be88-8202-4552-8b6a-3a3b1e9cf427"
+                            }
+                        ]
+                    },
+                    "id": "4148bce7-f37f-4430-8409-cab4af267e33"
+                },
+                {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "b09617b5-7810-4599-a5e8-b256f1e07a12",
-                        "__collapse": true,
+                        "__collapse": false,
                         "$variable[V0]$": {
                             "type": "variable",
                             "value": "14"
@@ -23687,7 +23802,8 @@
                         "$variable[V3]$": {
                             "type": "variable",
                             "value": "1"
-                        }
+                        },
+                        "__comment": true
                     },
                     "id": "0034cb61-50c9-4549-bd10-5626af7c45ae"
                 },
@@ -23695,7 +23811,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Set controlled character to Aylmera",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -23707,13 +23823,64 @@
                                         "type": "number",
                                         "value": 0
                                     },
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "081890e5-5086-4cb9-a492-4e38206e1978"
                             }
                         ]
                     },
                     "id": "ca660767-28f0-42c4-80ab-5f097d272377"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                "args": {
+                                    "customEventId": "0c06f147-8242-403f-9c38-085098952d46",
+                                    "$variable[V0]$": {
+                                        "type": "variable",
+                                        "value": "14"
+                                    },
+                                    "$variable[V1]$": {
+                                        "type": "variable",
+                                        "value": "9"
+                                    },
+                                    "$variable[V2]$": {
+                                        "type": "variable",
+                                        "value": "11"
+                                    },
+                                    "$variable[V3]$": {
+                                        "type": "variable",
+                                        "value": "10"
+                                    },
+                                    "$variable[V4]$": {
+                                        "type": "variable",
+                                        "value": "12"
+                                    },
+                                    "$variable[V5]$": {
+                                        "type": "variable",
+                                        "value": "13"
+                                    },
+                                    "$variable[V6]$": {
+                                        "type": "variable",
+                                        "value": "15"
+                                    }
+                                },
+                                "id": "4b332758-9162-44d9-906b-70cea6583ed8"
+                            }
+                        ]
+                    },
+                    "id": "179c79f1-0f2d-4d3f-bf1d-db91d15b7318"
                 }
             ],
             "playerHit1Script": [],
@@ -62072,7 +62239,7 @@
         },
         {
             "id": "3af97135-1e33-4529-a730-a31ebc43d846",
-            "name": "Battle - Check for party wipe",
+            "name": "!!! - TBD !!! Battle - Check for party wipe",
             "description": "Checks HP values for all active party members. If they're all zero (dead), then trigger a game over screen.",
             "variables": {
                 "V0": {
@@ -62209,7 +62376,7 @@
         },
         {
             "id": "b09617b5-7810-4599-a5e8-b256f1e07a12",
-            "name": "Battle - Determine Recruited Party Members (set PartyConfig)",
+            "name": "Battle - Initialize Party Members (set PartyConfig)",
             "description": "Checks for which characters are currently recruited into the party, and sets the PartyConfig variable accordingly. Used by other scripts.",
             "variables": {
                 "V0": {
@@ -62219,7 +62386,7 @@
                 },
                 "V1": {
                     "id": "V1",
-                    "name": "JesterRecruited",
+                    "name": "SigmundRecruited",
                     "passByReference": true
                 },
                 "V2": {
@@ -62240,7 +62407,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Aylmera Alone (PartyConfig = 0)",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -62307,7 +62474,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Aylmera + Jester (PartyConfig = 1)",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -62373,7 +62540,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Aylmera + Jester + Neera (PartyConfig = 2)",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -62439,7 +62606,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Aylmera + Jester + Neera + Alexandros (PartyConfig = 3)",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -62504,12 +62671,42 @@
         },
         {
             "id": "0c06f147-8242-403f-9c38-085098952d46",
-            "name": "!!!!TBD!!!! Battle - Cycling characters",
-            "description": "Determine which characters to cycle to/from based on the value of PartyConfig. Ensure PartyConfig is set before running this script. This needs to be attached to Hold events nested within button press scripts on init in battle screens.",
+            "name": "Battle - Cycle Chars Forward",
+            "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running this script. Attach this to B Button Hold press events during battle screen Init.",
             "variables": {
                 "V0": {
                     "id": "V0",
                     "name": "PartyConfig",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V2": {
+                    "id": "V2",
+                    "name": "SigmundHP",
+                    "passByReference": true
+                },
+                "V3": {
+                    "id": "V3",
+                    "name": "AylmeraHP",
+                    "passByReference": true
+                },
+                "V4": {
+                    "id": "V4",
+                    "name": "NeeraHP",
+                    "passByReference": true
+                },
+                "V5": {
+                    "id": "V5",
+                    "name": "AlexandrosHP",
+                    "passByReference": true
+                },
+                "V6": {
+                    "id": "V6",
+                    "name": "CurrHP",
                     "passByReference": true
                 }
             },
@@ -62517,13 +62714,381 @@
             "symbol": "script_0",
             "script": [
                 {
-                    "command": "EVENT_IF_INPUT",
+                    "command": "EVENT_GROUP",
                     "args": {
-                        "input": [
-                            "b"
-                        ],
-                        "__collapseElse": true,
-                        "__disableElse": true,
+                        "__label": "Cycle Forward",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "b"
+                                    ],
+                                    "__collapseElse": true,
+                                    "__disableElse": true,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "V0",
+                                                "operator": "==",
+                                                "comparator": "0",
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Aylmera Alone",
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": true,
+                                                                        "__label": "Do nothing"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": []
+                                                                    },
+                                                                    "id": "59d669ce-1ba0-4129-984f-5db3be31bc1e"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "084d0987-359e-4b48-9424-63f5855d56db"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V0",
+                                                            "operator": "==",
+                                                            "comparator": 1,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "e99199cb-db77-440f-aaed-ce181ce563de",
+                                                                        "__collapse": false,
+                                                                        "$variable[V0]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V1"
+                                                                        },
+                                                                        "$variable[V1]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V2"
+                                                                        },
+                                                                        "$variable[V2]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V3"
+                                                                        },
+                                                                        "$variable[V3]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V6"
+                                                                        }
+                                                                    },
+                                                                    "id": "21d9bd1e-a425-4055-8f33-989049adccd6"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "operator": "==",
+                                                                        "comparator": 2,
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "82c2764e-f36f-4c44-80df-ebf91b0d4fda",
+                                                                                    "$variable[V0]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V1"
+                                                                                    },
+                                                                                    "$variable[V1]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V2"
+                                                                                    },
+                                                                                    "$variable[V2]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V4"
+                                                                                    },
+                                                                                    "$variable[V3]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V3"
+                                                                                    },
+                                                                                    "$variable[V4]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V6"
+                                                                                    }
+                                                                                },
+                                                                                "id": "54cb69a0-9eac-4e91-8380-461741106240"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V0",
+                                                                                    "operator": "==",
+                                                                                    "comparator": 3,
+                                                                                    "__collapseElse": true,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "a8e978eb-d06d-4732-ae85-75f01a437c30",
+                                                                                                "$variable[V0]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V1"
+                                                                                                },
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V2"
+                                                                                                },
+                                                                                                "$variable[V2]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V4"
+                                                                                                },
+                                                                                                "$variable[V3]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V5"
+                                                                                                },
+                                                                                                "$variable[V4]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V3"
+                                                                                                },
+                                                                                                "$variable[V5]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V6"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "80afbb5a-599f-46d0-bf50-31fa13cc679f"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": []
+                                                                                },
+                                                                                "id": "3bbc6ff0-93a1-471e-9cc1-66cb1e16d3fb"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "fcace56f-ba4c-48cc-a86b-46c6892edde1"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "8003b7ff-20c1-4278-8127-ef8542f8f737"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "b7aca346-5250-478c-8c98-e1b09d3c4db9"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "aa4575be-8598-4733-a31b-ac17ca7dd1c0"
+                            }
+                        ]
+                    },
+                    "id": "53720598-1477-448e-8f3d-d1e8c4d4b775"
+                }
+            ]
+        },
+        {
+            "id": "e99199cb-db77-440f-aaed-ce181ce563de",
+            "name": "Battle - Swap Chars Forward/Back (Duo)",
+            "description": "Requires CurrCharacter to be set before running this script.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "SigmundHP",
+                    "passByReference": true
+                },
+                "V2": {
+                    "id": "V2",
+                    "name": "AylmeraHP",
+                    "passByReference": true
+                },
+                "V3": {
+                    "id": "V3",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_13",
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Duo (Aylmera, Jester)"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "V0",
+                                    "operator": "==",
+                                    "comparator": "0",
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Currently Aylmera"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V1",
+                                                            "operator": ">",
+                                                            "comparator": "0",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                        "__collapse": false,
+                                                                        "$variable[V1]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V3"
+                                                                        }
+                                                                    },
+                                                                    "id": "8eaf4dee-6356-459b-9b1d-16214fbb07ef"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "d79e13f4-1136-4779-b67e-8c31377df0ea"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "f1a60569-70b4-45ba-b5e1-cbe4ea5fee1d"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Currently Jester"
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V2",
+                                                            "operator": ">",
+                                                            "comparator": "0",
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                        "__collapse": false,
+                                                                        "$variable[V1]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V3"
+                                                                        }
+                                                                    },
+                                                                    "id": "d5a46005-8aad-493a-8dd2-d9dc90f68ca9"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "62ad4533-ee26-457a-8968-b513605ce4a3"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "4630502f-fcfc-4a1f-a524-0068c9693a53"
+                                        }
+                                    ]
+                                },
+                                "id": "24cf71b2-c3db-4db1-8b62-0e3c23861261"
+                            }
+                        ]
+                    },
+                    "id": "d41ef3d8-8d12-49ff-b63d-2c8236e15b77"
+                }
+            ]
+        },
+        {
+            "id": "82c2764e-f36f-4c44-80df-ebf91b0d4fda",
+            "name": "Battle - Swap Chars Forward (Trio)",
+            "description": "Requires CurrCharacter to be set before running this script.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "SigmundHP",
+                    "passByReference": true
+                },
+                "V2": {
+                    "id": "V2",
+                    "name": "NeeraHP",
+                    "passByReference": true
+                },
+                "V3": {
+                    "id": "V3",
+                    "name": "AylmeraHP",
+                    "passByReference": true
+                },
+                "V4": {
+                    "id": "V4",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_14",
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Trio (Aylmera, Jester, Neera)",
                         "__collapse": false
                     },
                     "children": {
@@ -62532,23 +63097,80 @@
                                 "command": "EVENT_IF_VALUE",
                                 "args": {
                                     "variable": "V0",
-                                    "operator": "<=",
+                                    "operator": "==",
                                     "comparator": "0",
                                     "__collapseElse": false,
-                                    "__disableElse": false
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
                                         {
                                             "command": "EVENT_GROUP",
                                             "args": {
-                                                "__label": "Do nothing (Aylmera's alone)",
-                                                "__collapse": true
+                                                "__label": "Currently Aylmera",
+                                                "__collapse": false
                                             },
                                             "children": {
-                                                "true": []
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V1",
+                                                            "operator": ">",
+                                                            "comparator": "0",
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                        "__collapse": true,
+                                                                        "$variable[V1]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V4"
+                                                                        }
+                                                                    },
+                                                                    "id": "06c62dea-0ca2-4a77-9993-058c3c9cf5cb"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V2",
+                                                                        "operator": ">",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": true,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                                                    "__collapse": true,
+                                                                                    "$variable[V1]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V4"
+                                                                                    }
+                                                                                },
+                                                                                "id": "5455eb5a-db46-4873-af9a-e0e32942a9e9"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "fb619f71-a02f-4b6e-b1b3-dcb3b8149f41"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "78702acd-ae62-4681-bff8-5963c2b1c4d0"
+                                                    }
+                                                ]
                                             },
-                                            "id": "084d0987-359e-4b48-9424-63f5855d56db"
+                                            "id": "d5796cce-fbb6-429b-806b-32a2f1ffb03a"
                                         }
                                     ],
                                     "false": [
@@ -62558,22 +63180,1024 @@
                                                 "variable": "V0",
                                                 "operator": "==",
                                                 "comparator": 1,
-                                                "__collapseElse": true
+                                                "__collapseElse": false
                                             },
                                             "children": {
-                                                "true": [],
-                                                "false": []
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Currently Jester",
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V2",
+                                                                        "operator": ">",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                                                    "__collapse": false,
+                                                                                    "$variable[V1]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V4"
+                                                                                    }
+                                                                                },
+                                                                                "id": "299086c7-5335-4911-a544-066ae0dceb52"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V3",
+                                                                                    "operator": ">",
+                                                                                    "comparator": "0",
+                                                                                    "__collapseElse": true,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                                                "__collapse": false,
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V4"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "e6525143-3e10-427d-b0b0-6b161e2182bc"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": []
+                                                                                },
+                                                                                "id": "3cc9f80c-edac-4f96-8856-f38a3ee0a5bc"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "3e61d0e5-69f2-402a-a1fc-f746bb271f13"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "0c1af681-7b11-46c9-860b-4507a32187d1"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V0",
+                                                            "operator": "==",
+                                                            "comparator": 2,
+                                                            "__collapseElse": true,
+                                                            "__disableElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Currently Neera"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V3",
+                                                                                    "operator": ">",
+                                                                                    "comparator": "0",
+                                                                                    "__collapseElse": false
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                                                "__collapse": false,
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V4"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "a08cae55-cfd0-4591-aebd-80caba0011cf"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "command": "EVENT_IF_VALUE",
+                                                                                            "args": {
+                                                                                                "variable": "V1",
+                                                                                                "operator": ">",
+                                                                                                "comparator": "0",
+                                                                                                "__collapseElse": true,
+                                                                                                "__disableElse": true
+                                                                                            },
+                                                                                            "children": {
+                                                                                                "true": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                        "args": {
+                                                                                                            "__collapse": false,
+                                                                                                            "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                                                            "$variable[V1]$": {
+                                                                                                                "type": "variable",
+                                                                                                                "value": "V4"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "id": "a7187c96-c4ff-44c5-a008-51f5d150f652"
+                                                                                                    }
+                                                                                                ],
+                                                                                                "false": []
+                                                                                            },
+                                                                                            "id": "d020154b-d122-4473-9dc6-1eccfffaabd5"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "id": "c3d7e05f-04d0-4fe4-aa06-2ee3ada32075"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "d3e7557b-08c4-4cfc-8227-a33141834247"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "73c2e2e0-19d2-45fa-ab71-adbf3dc5afa9"
+                                                    }
+                                                ]
                                             },
-                                            "id": "8003b7ff-20c1-4278-8127-ef8542f8f737"
+                                            "id": "49e20cce-9db7-4737-8581-1d0de305942e"
                                         }
                                     ]
                                 },
-                                "id": "b7aca346-5250-478c-8c98-e1b09d3c4db9"
+                                "id": "6a7c9192-bb44-47ce-b896-5453340538ac"
                             }
-                        ],
-                        "false": []
+                        ]
                     },
-                    "id": "aa4575be-8598-4733-a31b-ac17ca7dd1c0"
+                    "id": "411675b0-e2af-423a-b2e9-3017992c0b1e"
+                }
+            ]
+        },
+        {
+            "id": "a8e978eb-d06d-4732-ae85-75f01a437c30",
+            "name": "Battle - Swap Chars Forward (Full Party)",
+            "description": "Requires CurrCharacter to be set before running this script.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "SigmundHP",
+                    "passByReference": true
+                },
+                "V2": {
+                    "id": "V2",
+                    "name": "NeeraHP",
+                    "passByReference": true
+                },
+                "V3": {
+                    "id": "V3",
+                    "name": "AlexandrosHP",
+                    "passByReference": true
+                },
+                "V4": {
+                    "id": "V4",
+                    "name": "AylmeraHP",
+                    "passByReference": true
+                },
+                "V5": {
+                    "id": "V5",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_15",
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Full Party (Aylmera, Jester, Neera, Alexandros)"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "V0",
+                                    "operator": "==",
+                                    "comparator": "0",
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_GROUP",
+                                            "args": {
+                                                "__label": "Currently Aylmera",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V1",
+                                                            "operator": ">",
+                                                            "comparator": "0",
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                        "__collapse": false,
+                                                                        "$variable[V1]$": {
+                                                                            "type": "variable",
+                                                                            "value": "V5"
+                                                                        }
+                                                                    },
+                                                                    "id": "05871a85-94a7-4c08-89f4-977f355c36f9"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V2",
+                                                                        "operator": ">",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                                                    "__collapse": false,
+                                                                                    "$variable[V1]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V5"
+                                                                                    }
+                                                                                },
+                                                                                "id": "f388d034-7349-4e0c-86ee-a494319661f0"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V3",
+                                                                                    "operator": ">",
+                                                                                    "comparator": "0",
+                                                                                    "__collapseElse": true,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                                                                                "__collapse": false,
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V5"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "f5d236b4-80b8-4aee-b288-85db0f0397b4"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": []
+                                                                                },
+                                                                                "id": "6235991e-5df7-4ba6-93dc-7b1807f5e038"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "7ccfd77d-52e9-471a-bc18-82d59a15a531"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "87968c04-dd51-4b43-af22-d25d1373ade0"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "95759b16-c334-4c16-8c4e-f4d4e51193fc"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "V0",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Currently Jester",
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V2",
+                                                                        "operator": ">",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                                                    "__collapse": false,
+                                                                                    "$variable[V1]$": {
+                                                                                        "type": "variable",
+                                                                                        "value": "V5"
+                                                                                    }
+                                                                                },
+                                                                                "id": "6e763ddf-6d7d-4fb0-84ba-48363e64375c"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V3",
+                                                                                    "operator": ">",
+                                                                                    "comparator": "0",
+                                                                                    "__collapseElse": false
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                                                                                "__collapse": false,
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V5"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "4d00fb1f-f68a-4f6c-9e8f-c8a5db58b08c"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "command": "EVENT_IF_VALUE",
+                                                                                            "args": {
+                                                                                                "variable": "V4",
+                                                                                                "operator": ">",
+                                                                                                "comparator": "0",
+                                                                                                "__collapseElse": true,
+                                                                                                "__disableElse": true
+                                                                                            },
+                                                                                            "children": {
+                                                                                                "true": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                        "args": {
+                                                                                                            "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                                                            "__collapse": false,
+                                                                                                            "$variable[V1]$": {
+                                                                                                                "type": "variable",
+                                                                                                                "value": "V5"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "id": "d52d85d4-e90a-49ba-8a3e-d29ed2ba74f5"
+                                                                                                    }
+                                                                                                ],
+                                                                                                "false": []
+                                                                                            },
+                                                                                            "id": "f8d902b0-631f-4b54-8448-e6084881e7ff"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "id": "ebb0ca0c-5f1e-444f-b8f8-42d4a6e02d85"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "966e1fe5-0998-475f-9f01-2fa46cf4b74f"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "68a057a5-2aa8-4f61-9058-323695748378"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V0",
+                                                            "operator": "==",
+                                                            "comparator": 2,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__label": "Currently Neera",
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V3",
+                                                                                    "operator": ">",
+                                                                                    "comparator": "0",
+                                                                                    "__collapseElse": false
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                                                                                "__collapse": false,
+                                                                                                "$variable[V1]$": {
+                                                                                                    "type": "variable",
+                                                                                                    "value": "V5"
+                                                                                                }
+                                                                                            },
+                                                                                            "id": "265233b4-7a28-4cb6-98d0-41f88b80eb80"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": [
+                                                                                        {
+                                                                                            "command": "EVENT_IF_VALUE",
+                                                                                            "args": {
+                                                                                                "variable": "V4",
+                                                                                                "operator": ">",
+                                                                                                "comparator": "0",
+                                                                                                "__collapseElse": false
+                                                                                            },
+                                                                                            "children": {
+                                                                                                "true": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                        "args": {
+                                                                                                            "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                                                            "__collapse": false,
+                                                                                                            "$variable[V1]$": {
+                                                                                                                "type": "variable",
+                                                                                                                "value": "V5"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "id": "30bf897f-42bf-4a5d-899d-1dcb17ca922f"
+                                                                                                    }
+                                                                                                ],
+                                                                                                "false": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                                        "args": {
+                                                                                                            "variable": "V1",
+                                                                                                            "operator": ">",
+                                                                                                            "comparator": "0",
+                                                                                                            "__collapseElse": true,
+                                                                                                            "__disableElse": true
+                                                                                                        },
+                                                                                                        "children": {
+                                                                                                            "true": [
+                                                                                                                {
+                                                                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                                    "args": {
+                                                                                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                                                                        "__collapse": false,
+                                                                                                                        "$variable[V1]$": {
+                                                                                                                            "type": "variable",
+                                                                                                                            "value": "V5"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "id": "13974a04-9ee7-4ec7-bf65-246bde614300"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "false": []
+                                                                                                        },
+                                                                                                        "id": "22dec306-a737-4d1c-86a7-31672c281099"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            "id": "7fb6c448-7db9-4c36-95d3-ed462bb911db"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "id": "51876dac-b49c-487a-be50-670e5fcc7f08"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "80a4a5d0-97d6-4e5c-a90d-d3f48f955ca9"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "operator": "==",
+                                                                        "comparator": 3,
+                                                                        "__collapseElse": false,
+                                                                        "__disableElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_GROUP",
+                                                                                "args": {
+                                                                                    "__label": "Currently Alexandros",
+                                                                                    "__collapse": false
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_IF_VALUE",
+                                                                                            "args": {
+                                                                                                "variable": "V4",
+                                                                                                "operator": ">",
+                                                                                                "comparator": "0",
+                                                                                                "__collapseElse": false
+                                                                                            },
+                                                                                            "children": {
+                                                                                                "true": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                        "args": {
+                                                                                                            "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                                                                            "__collapse": false,
+                                                                                                            "$variable[V1]$": {
+                                                                                                                "type": "variable",
+                                                                                                                "value": "V5"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        "id": "a8fd09d9-6dae-4410-b4fc-5fd1888ff891"
+                                                                                                    }
+                                                                                                ],
+                                                                                                "false": [
+                                                                                                    {
+                                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                                        "args": {
+                                                                                                            "variable": "V1",
+                                                                                                            "operator": ">",
+                                                                                                            "comparator": "0",
+                                                                                                            "__collapseElse": false
+                                                                                                        },
+                                                                                                        "children": {
+                                                                                                            "true": [
+                                                                                                                {
+                                                                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                                    "args": {
+                                                                                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                                                                                        "__collapse": false,
+                                                                                                                        "$variable[V1]$": {
+                                                                                                                            "type": "variable",
+                                                                                                                            "value": "V5"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "id": "0003d243-978c-4457-a405-a0efa23a82bb"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "false": [
+                                                                                                                {
+                                                                                                                    "command": "EVENT_IF_VALUE",
+                                                                                                                    "args": {
+                                                                                                                        "variable": "V2",
+                                                                                                                        "operator": ">",
+                                                                                                                        "comparator": "0",
+                                                                                                                        "__collapseElse": true,
+                                                                                                                        "__disableElse": true
+                                                                                                                    },
+                                                                                                                    "children": {
+                                                                                                                        "true": [
+                                                                                                                            {
+                                                                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                                                                "args": {
+                                                                                                                                    "__collapse": false,
+                                                                                                                                    "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                                                                                                    "$variable[V1]$": {
+                                                                                                                                        "type": "variable",
+                                                                                                                                        "value": "V5"
+                                                                                                                                    }
+                                                                                                                                },
+                                                                                                                                "id": "a08cfa51-e5e9-4a56-a22c-872eb448352a"
+                                                                                                                            }
+                                                                                                                        ],
+                                                                                                                        "false": []
+                                                                                                                    },
+                                                                                                                    "id": "a6cb7db3-ea88-4630-a716-7d93bfc5f868"
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        },
+                                                                                                        "id": "72e0b162-edc8-4b96-a737-8be0ad007c76"
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            "id": "5824c36f-fe5f-4f17-86df-4c5265c638d0"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "id": "a9fd96a1-3d2a-4338-aeaa-cd41158d96a7"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "d364ae65-ac69-4d83-9a56-d81886d3a1cf"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "0090aeb5-6161-4dae-9fca-38d5a27b89fa"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "3ba013c4-9e4d-40ef-ab32-3a7211e57613"
+                                        }
+                                    ]
+                                },
+                                "id": "79a7b5be-12e6-4a1f-9535-74764c97316e"
+                            }
+                        ]
+                    },
+                    "id": "844d297f-3d43-4aae-b9e2-87a307dd8b05"
+                }
+            ]
+        },
+        {
+            "id": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+            "name": "Battle - Become Sigmund",
+            "description": "Switches the player character to be Sigmund during a battle screen.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_16",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "V0",
+                        "value": {
+                            "type": "number",
+                            "value": 1
+                        },
+                        "__collapse": false
+                    },
+                    "id": "10bfc6ee-a3c9-4c22-bcb8-609d04bbb3e5"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+                        "__collapse": false
+                    },
+                    "id": "7de16ff9-9db4-4ec4-9dbc-6a3ea5d0fda6"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "args": {
+                        "variable": "V1",
+                        "expression": "$11$"
+                    },
+                    "id": "587f7e06-17b4-4307-8f5c-6e9c745c495d"
+                }
+            ]
+        },
+        {
+            "id": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+            "name": "Battle - Become Aylmera",
+            "description": "Switches the player character to be Aylmera during a battle screen.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_17",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "V0",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "d6ff2d34-c866-49ad-8f8e-74c34d418846"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+                    },
+                    "id": "b1f7e27d-aeaf-4682-849f-47eb15f4cdbc"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "args": {
+                        "variable": "V1",
+                        "expression": "$10$"
+                    },
+                    "id": "0bc281d3-a53d-4e79-bba9-05a53022f373"
+                }
+            ]
+        },
+        {
+            "id": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+            "name": "Battle - Become Neera",
+            "description": "Switches the player character to be Neera during a battle screen.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_18",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "V0",
+                        "value": {
+                            "type": "number",
+                            "value": 2
+                        }
+                    },
+                    "id": "eb9f8d95-8289-4dd4-9d22-4a7301be4462"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_SPRITE",
+                    "args": {
+                        "actorId": "$self$",
+                        "spriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d"
+                    },
+                    "id": "48d6f05a-cd01-4357-9bb6-019b4c9c5b0e"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "args": {
+                        "variable": "V1",
+                        "expression": "$12$"
+                    },
+                    "id": "a19489d8-715e-4e53-a643-09840fc631c9"
+                }
+            ]
+        },
+        {
+            "id": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+            "name": "Battle - Become Alexandros",
+            "description": "Switches the player character to be Alexandros during a battle screen.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "CurrCharacter",
+                    "passByReference": true
+                },
+                "V1": {
+                    "id": "V1",
+                    "name": "CurrHP",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_19",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "V0",
+                        "value": {
+                            "type": "number",
+                            "value": 3
+                        }
+                    },
+                    "id": "16300c7b-8b07-4a79-83fd-6e3792fd9cff"
+                },
+                {
+                    "command": "EVENT_PLAYER_SET_SPRITE",
+                    "args": {
+                        "spriteSheetId": "b1e0a6e1-d092-4fed-855b-12563faad575",
+                        "persist": false
+                    },
+                    "id": "601eb1c0-28c7-46d0-80e8-0182e6abe29e"
+                },
+                {
+                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "args": {
+                        "variable": "V1",
+                        "expression": "$13$"
+                    },
+                    "id": "d39f4650-0d7b-476d-a40d-30ae68016681"
+                }
+            ]
+        },
+        {
+            "id": "7e304b2a-089d-4d34-a2cf-7cd0eeb4525b",
+            "name": "!!! - TBD !!! Battle - Cycle Chars Backward",
+            "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running this script. Attach this to SELECT Button Hold press events during battle screen Init.",
+            "variables": {
+                "V0": {
+                    "id": "V0",
+                    "name": "Variable A",
+                    "passByReference": true
+                }
+            },
+            "actors": {},
+            "symbol": "script_20",
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {
+                        "__label": "Cycle Forward",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_INPUT",
+                                "args": {
+                                    "input": [
+                                        "select"
+                                    ],
+                                    "__collapseElse": true,
+                                    "__disableElse": true,
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "V0",
+                                                "operator": "<=",
+                                                "comparator": "0",
+                                                "__collapseElse": false,
+                                                "__disableElse": false,
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_GROUP",
+                                                        "args": {
+                                                            "__label": "Aylmera Alone",
+                                                            "__collapse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_GROUP",
+                                                                    "args": {
+                                                                        "__collapse": true,
+                                                                        "__label": "Do nothing"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": []
+                                                                    },
+                                                                    "id": "2a1af2ff-109a-4bd4-8650-07bf29f04561"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "bf1ec291-bf5d-405a-985b-71dfbd8dd250"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "V0",
+                                                            "operator": "==",
+                                                            "comparator": 1,
+                                                            "__collapseElse": false
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                    "args": {
+                                                                        "customEventId": "e99199cb-db77-440f-aaed-ce181ce563de",
+                                                                        "__collapse": false
+                                                                    },
+                                                                    "id": "f3f379a5-6596-4ede-bc01-9919824282ce"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "V0",
+                                                                        "operator": "==",
+                                                                        "comparator": 2,
+                                                                        "__collapseElse": false
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                "args": {
+                                                                                    "customEventId": "e99199cb-db77-440f-aaed-ce181ce563de"
+                                                                                },
+                                                                                "id": "0a0a0db5-c514-42bb-9bcf-89ad3ff38c34"
+                                                                            }
+                                                                        ],
+                                                                        "false": [
+                                                                            {
+                                                                                "command": "EVENT_IF_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "V0",
+                                                                                    "operator": "==",
+                                                                                    "comparator": 3,
+                                                                                    "__collapseElse": true,
+                                                                                    "__disableElse": true
+                                                                                },
+                                                                                "children": {
+                                                                                    "true": [
+                                                                                        {
+                                                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                                                            "args": {
+                                                                                                "customEventId": "a8e978eb-d06d-4732-ae85-75f01a437c30"
+                                                                                            },
+                                                                                            "id": "95040447-fbdd-4093-b43b-f78a85f5af97"
+                                                                                        }
+                                                                                    ],
+                                                                                    "false": []
+                                                                                },
+                                                                                "id": "3dccfbb7-48cd-4855-89f6-e8ccddaf1e03"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "id": "0393665c-4d7a-48b1-81e8-8ee81f9b2a7b"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "adb50499-cf67-4db4-b481-12fd47e1467f"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "49cd3eb3-c154-4aae-8ed0-ddfbddd9545d"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "9f3061e3-62b7-4a24-83f0-36428d672a86"
+                            }
+                        ]
+                    },
+                    "id": "df1f5d9b-4f90-4daf-b952-9505aa2c8edc"
                 }
             ]
         }
@@ -63712,18 +65336,18 @@
     "variables": [
         {
             "id": "0",
-            "name": "JesterRecruited",
-            "symbol": "var_jesterrecruited"
+            "name": "SigmundRecruited",
+            "symbol": "var_sigmundrecruited"
         },
         {
             "id": "1",
-            "name": "WizardRecruited",
-            "symbol": "var_wizardrecruited"
+            "name": "AlexandrosRecruited",
+            "symbol": "var_alexandrosrecruited"
         },
         {
             "id": "2",
-            "name": "PriestessRecruited",
-            "symbol": "var_priestessrecruited"
+            "name": "NeeraRecruited",
+            "symbol": "var_neerarecruited"
         },
         {
             "id": "3",
@@ -63754,6 +65378,36 @@
             "id": "8",
             "name": "BattleMovement",
             "symbol": "var_battlemovement"
+        },
+        {
+            "id": "9",
+            "name": "CurrentCharacter",
+            "symbol": "var_currentcharacter"
+        },
+        {
+            "id": "10",
+            "name": "AylmeraHP",
+            "symbol": "var_aylmerahp"
+        },
+        {
+            "id": "11",
+            "name": "SigmundHP",
+            "symbol": "var_sigmundhp"
+        },
+        {
+            "id": "12",
+            "name": "NeeraHP",
+            "symbol": "var_neerahp"
+        },
+        {
+            "id": "13",
+            "name": "AlexandrosHP",
+            "symbol": "var_alexandroshp"
+        },
+        {
+            "id": "14",
+            "name": "PartyConfig",
+            "symbol": "var_partyconfig"
         },
         {
             "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
@@ -63906,34 +65560,9 @@
             "symbol": "var_local_10"
         },
         {
-            "id": "9",
-            "name": "CurrentBattleCharacter",
-            "symbol": "var_currentbattlecharacter_0"
-        },
-        {
-            "id": "10",
-            "name": "AylmeraHP",
-            "symbol": "var_aylmerahp"
-        },
-        {
-            "id": "11",
-            "name": "SigmundHP",
-            "symbol": "var_sigmundhp"
-        },
-        {
-            "id": "12",
-            "name": "NeeraHP",
-            "symbol": "var_neerahp"
-        },
-        {
-            "id": "13",
-            "name": "AlexandrosHP",
-            "symbol": "var_alexandroshp"
-        },
-        {
-            "id": "14",
-            "name": "PartyConfig",
-            "symbol": "var_partyconfig"
+            "id": "15",
+            "name": "CurrentHP",
+            "symbol": "var_currenthp"
         }
     ],
     "engineFieldValues": [
