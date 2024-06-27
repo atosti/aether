@@ -2953,72 +2953,79 @@ Concepts:
 	- But the wizard gets along with them, and shares a common purpose with them. She's also working to stop and bury the dead.
 	- She describes how they're all unified, and dedicated to burying the dead (regardless of their side in the conflict).
 	- Unexpectedly, at the edge of chaos is the only place that peace has truly blossomed.
-	- Perhaps she (and all small NPCs) should have a name(s). Maybe Cassandra?
-	Alexandros: "How is it possible that these soldiers let you join their ranks?"
+	- Perhaps she (and all small NPCs) should have a name(s). Maybe Cassandra for her?
+	Alexandros: "I simply must ask: How is it possible that these soldiers let you join their ranks?"
 	Alexandros: "Why didn't they attack you when they saw the sigil on your robes?"
-	Wizard: "I don't know. I guess they just took pity on me."
+	Wizard: "I don't know. I guess they just took pity on a gal like me."
 	*She smiles, politely.*
 	*Alexandros frowns*
-	Alexandros: "Come on now. We both know that's preposterous."
-	Alexandros: "I was there, you know. Witnessed the carnage firsthand."
+	Alexandros: "Come now, Miss... We both know that's preposterous."
+	Alexandros: "Look at my robes. I was there that night. Same as you. I witnessed the barbary firsthand."
 	*Alexandros lowers his voice*
-	Alexandros: "...I saw how they slaughtered our kin."
-	Alexandros: "Even *after* the explosion."
+	Alexandros: "...how they slaughtered our kin. Even after the explosion had ended the battle."
 	*Her eyes narrow*
-	Wizard: "Oh. Oh... Then you know. Yeah. Those first few days were so brutal."
+	Wizard: "Oh. Oh..."
+	Wizard: "Then you already know. What's there to even say?"
+	Wizard: "Those first few nights were so brutal."
 	Wizard: "But you were there, you understand the chaos."
-	Wizard: "I've never blamed them for killing us in the aftermath."
-	Wizard: "I fought tooth and nail to stay alive amidst the shadows, too, you know."
-	Wizard: "Killing undead and man alike."
-	Wizard: "It was all the same in that wretched darkness."
+	Wizard: "It probably sounds odd, but I never blamed them for killing us in the aftermath."
+	Wizard: "There was so much anger in that war."
+	Wizard: "Besides, I fought tooth and nail to stay alive, too, y'know?"
+	Wizard: "Killing undead and man alike. They all burned the same."
+	Wizard: "It made no difference in that wretched darkness."
 	Wizard: "Even now, my memories are mostly flashes of fire from my fingertips and the smell of scorched flesh."
 	Wizard: "Only the stars bore witness to the atrocities we committed."
-	Alexandros: "So what changed your mind? Why did you stop fighting?"
+	Alexandros: "I don't understand. What changed your mind? Why did you stop fighting?"
 	Wizard: "Well, because I fought long past my limits."
-	Wizard: "My body was so fatigued. And my mind so emaciated that I could no longer focus."
+	Wizard: "Days of spell casting left my body fatigued. I had emaciated my mind to where I could no longer focus."
 	Wizard: "After a while, I found myself just wandering through the darkness."
-	Wizard: "Slowly freezing to death in the harsh winds."
-	Wizard: "Even now... I can *feel* how cold I was. Like my soul was frigid."
-	Wizard: "All I could think was to warm myself by a fire."
-	Wizard: "And then, as though some miracle, I saw some soldiers camping in the distance."
+	Wizard: "Aimless. And slowly freezing to death in the harsh winds."
+	* She glances into the distance for a moment, her eyes locked in place. *
+	Wizard: "Even now... I can *feel* how cold I was. As though my soul itself was frigid."
+	Wizard: "All I could think was 'I need to warm myself by a fire.'"
+	Wizard: "And then, as though a miracle, I spotted some soldiers camping in the distance."
 	Wizard: "With a roaring fire between them."
-	Wizard: "And I resolved myself to sit beside it."
+	Wizard: "So I resolved myself to sit beside it."
 	Alexandros: "You weren't concerned for your safety?"
-	Wizard: "It must sound outlandish, but with my mind so battered, all I could think of was that fire."
+	Wizard: "It sounds outlandish, but no. With my mind so battered, all I could think of was that fire."
 	Alexandros: "And then?"
-	Wizard: "As I approached, some of the men rose to their feet, unsheathing their blades."
-	Wizard: "But I just stumbled forward, collapsing to my knees beside their fire."
-	Wizard: "My eyes fixated on the hot coals."
-	*She pauses (...)*
-	Wizard: "In that moment, I admit that I prayed for a final comfort."
-	Wizard: "I asked God for a quick death."
+	Wizard: "As I approached, a few of the men rose to their feet, unsheathing their blades."
+	Wizard: "I just stumbled forward. Collapsing to my knees in front of their fire."
+	Wizard: "My eyes fixated on those red hot coals."
+	* She pauses (...) *
+	Wizard: "I admit in that moment I prayed for one final comfort."
+	Wizard: "I asked God for the soldiers to grant me a quick death."
 	Wizard: "And as though to grant my wish, one of the men came up behind me."
-	Wizard: "And then he..."
-	*Her eyes well up with tears*
-	Wizard: "Draped his cloak gently around my shoulders."
+	Wizard: "Then he..."
+	* Her eyes well up with tears *
+	Wizard: "He took the cloak from his shoulders and gently draped it around me."
 	* She cries *
-	Wizard: "For some reason, it reminded me of my father!"
-	* She laughs *
+	Wizard: "For some reason it filled me with nostalgia."
+	Wizard: "I think it reminded me of my father."
 	Wizard: "Something about the way he used to wrap me in blankets as a child."
-	Wizard: "And that was it. The others sheathed their blades and sat back down, as did the man."
+	* She laughs *
+	Wizard: "And then that was it. He stoked the fire and sat back down across from me."
+	Wizard: "The others sheathed their blades and joined us around the fire."
 	Wizard: "My eyes must have been full of tears, just as they are now."
-	Wizard: "Yet none of us spoke. We just sat under the weight of the stars."
+	Wizard: "Yet none of us spoke. We just sat under the stars, bearing the weight of what we'd become."
+	* She nods slowly to herself. *
 	Wizard: "That was the day we understood what the war had stolen from us:"
 	Wizard: "Our empathy."
-	*Alexandros pauses (...)*
+	* Alexandros pauses (...) *
 	Alexandros: "I'm sorry to have brought this all up."
-	Alexandros: "I didn't mean... to upset you."
-	*She shakes her head, smiling tearfully.*
-	Wizard: "No, no. There's no need to be."
-	Wizard: "I recognize now that it was the best day of my life."
-	Wizard: "His kindness saved me, you see. It saved us all, really."
-	Wizard: "Because he dreamt of a different world, and then had *us* realize it."
+	Alexandros: "I really didn't mean to upset you..."
+	* She shakes her head, smiling tearfully. *
+	Wizard: "No, no. Not at all."
+	Wizard: "I recognize now that was the best day of my life."
+	Wizard: "His kindness saved me, you see. It saved us all."
+	Wizard: "Because he dreamt of a different world. One free from our violence."
+	Wizard: "And with a single action, he had *us* realize it as well."
 	Wizard: "That's more imaginative than even the brightest artist."
-	* She pauses again.*
-	Wizard: "I realize I've never told anyone that story before. To anyone."
-	Wizard: "So thank you for listening to it."
-	Alexandros: "I assure you, miss, the pleasure was all ours."
-	*She smiles warmly at the four of you, and you can't help but smile back.*
+	* She pauses again. *
+	Wizard: "You know? I realize I've never told that story before. To anyone."
+	Wizard: "So thank you all for listening to it."
+	Alexandros: "I assure you, miss, the pleasure was most certainly ours."
+	* She smiles warmly at the four of you, and you can't help but smile back. *
 175. Conversation with a mystic/psychic
 	Mystic: "In your wake, you leave death. Do you know what fills in that void?"
 	[Chaos.]
@@ -3109,73 +3116,83 @@ Concepts:
 	Aylmera: "The only thing I fear..."
 	Aylmera: "Is that the ability to fear left me long, long ago."
 179. Neera's Foresight abandoning her
-	Upon leaving the Aether, Neera should have a small cutscene with the party, where she is surprised to still not hear the voice of God.
-	This both distresses and disappoints her, as she is uncertain whether God has abandoned her.
-	In this way, she, too is a character who finds herself lost and abandoned by the ideals she once held so strongly.
+	- Upon leaving the Aether, Neera should have a small cutscene with the party, where she is surprised to still not hear the voice of God.
+	- This both distresses and disappoints her, as she is uncertain whether God has abandoned her.
+	- In this way she, too, is a character who finds herself lost and abandoned by the ideals she once held so strongly.
+		~ But like everyone else, her fate is left unknown.
 180. Ramblings of the devout (hostile religious zealot)
 	Devoted: "Look into my eyes and witness God!"
 	Aylmera: "Nay. It's time you be purged of your lucidity, wretch."
 	Devoted: "Were you only able to meditate upon your own reflection, you would not be a heretic."
 	* Aylmera initiates combat *
 181. The King has already been dethroned from his castle
-	- The castle the player awakens in as actually not the King's original castle. It is merely a large keep.
+	- The castle the player awakens in is actually not the King's original castle. It is merely a large keep.
 		~ In fact, it is the keep having belonged to the Lord.
 	- Following the Great Explosion, the Lord's army (being further from the conflict), sent a regiment to the castle.
 		~ There, his men conquered it easily, while the main army was away.
 		~ The King was deployed closer to the battlefield at the time, preventing him from defending it.
 		~ Moreover, the Lord's troops were directly in the way of any counter offensive.
 		~ In the weeks following, the King took the last of his army and seized the Lord's keep.
-			~ This was an act of both revenge, and necessity, as he needed a defensible position.
-		~ With the decimation of his army abroad, and the loss of his castle at home, the King now barely has an army.
+			~ This was an act of both revenge, and necessity, as he needed a defensible position to fortify.
+		~ With the decimation of his army abroad, and the loss of his castle at home, the King now barely has any influence.
 	- This explains the presence of the oubliette and other unsavory things in the initial castle.
 	- This allows the Northern castle to be significantly larger than the initial one.
 	- This explains the additional cruelty of the soldiers toward the peasants in the past (as noted by the locals).
 	- This allows documents detailing core parts of what happened in the Great Explosion to be found in the Northern castle, further into the game.
 182. Conversation with Alexandros on religion
-	Alexandros: "Maybe you've heard of this one, Aylmera:"
-	Alexandros: "'God no longer walks among the living, because he lives in *fear* of his own creation.' "
+	Alexandros: "Forgive me Neera, but theology is the waste of an educated man's talents."
+	Alexandros: "It concerns itself with whimsical questions that lack concrete answers."
+	Alexandros: "For example, maybe you've heard of this one, Aylmera:"
+	Alexandros: "'They say God no longer walks among the living, for he lives in *fear* of his own creation.'"
 	Neera: *Laughs to herself*
 	Alexandros: "Oh? It seems Neera is familiar with it."
-	Neera: "Hardly. But I'm familiar enough with God."
+	Neera: "Hardly. But I'm familiar enough with God himself."
 	Neera: "And he's certainly never shared such a feeling with me."
 	Alexandros: *Rolls his eyes*
-	Alexandros: "You trust him to be truthful to you about all things?"
+	Alexandros: "And you trust him to be truthful to you about all things?"
 	Neera: "Absolutely not. But I've known both fear and the fearful."
-	Neera: "He exhibits the traits of neither."
-	Alexandros: "You're unable to see clearly on such matters. Besides..."
-	Alexandros: "I want to hear Aylmera's take on it."
+	Neera: "And he exhibits the traits of neither."
+	Alexandros: "I'm not sure you're qualified to see such matters without bias. Besides..."
+	Alexandros: "I want to hear Aylmera's opinion on the matter."
 	Alexandros: "Who do you think is more dangerous: Man, or God?"
 	[Man.]
-		Alexandros: "I agree. If he doesn't, God should fear us."
+		Alexandros: "I agree. If he doesn't already, God should most certainly fear us."
 		Alexandros: "He has good reason to."
 	[God.]
 		Alexandros: "Really?"
 		Alexandros: "Then you must blame the almighty for at least some of the atrocities we've witnessed."
-		Alexandros: "Suppose it's at least a comforting thought."
-		Alexandros: "The idea that we aren't the only ones responsible for our horrors."
+		Alexandros: "Suppose it's a comforting thought, at least."
+		Alexandros: "That we aren't the only ones responsible for the horrors around us."
 	* Alexandros pauses (...) *
 	Alexandros: "Sorry to bring down the mood. Perhaps the Jester could brighten our spirits?"
-	Jester: "You're on your own this time."
+	Jester: "Sure, I've got one."
+	Jester: "Knock, Knock."
+	Alexandros: "Who's there?"
+	Jester: "The consequences of your own actions."
+	* Alexandros frowns, slightly embarrassed (:/) *
 183. Jester and Alexandros talking about their shared trauma
 	Jester: "Alexandros. I've been meaning to ask you:"
 	Jester: "Do you often dream? Of the night of the explosion?"
 	*Alexandros looks sullen/somber *
-	Alexandros: "I wouldn't call them dreams. But certainly nightmares."
-	Jester: "Yes. That's something we can definitely agree on."
-	Jester: "Do you also see the faces of your comrades?"
-	Alexandros: "I see them in pieces. Both literally and figuratively."
-	Alexandros: "It's strange though... each time the memory shifts a little."
-	Alexandros: "I remember the faces of so many dead. Yet in my dreams they now fade... one by one."
+	Alexandros: "I wouldn't call them dreams. But certainly nightmares, yes."
+	Jester: "Mmm. That's something we can definitely agree on."
+	Jester: "Do you see the faces of your comrades as well?"
+	Alexandros: "Somewhat. I see them in pieces. Both literally and figuratively."
+	Alexandros: "It's strange though. Each time it's as though my memory... shifts. A little bit."
+	Alexandros: "I remember the names of so many dead. Yet in my dreams their faces fade one-by-one."
 	* Jester is shocked (!) *
-	Jester: "Indeed! I've witnessed the same!"
+	Jester: "Indeed! I've witnessed the same with my mind."
+	Jester: "It's comforting to hear your similar experience. For many years I thought it was just my poor memory."
 	Jester: "I remember one man in particular... A vassal with whom I was barely acquainted."
 	* Jester laughs *
-	Jester: "But he had such a funny moustache, that he always stuck out to me. Even when alive."
-	Jester: "I remember seeing his mangled face in the mud. The blue flames illuminating his features..."
-	Jester: "Yet when I dream of it. Stepping foot into the memory itself, his face is blank. Almost smooth, like marble."
+	Jester: "He had such a strange moustache. Waxed and curled twice at the tips."
+	Jester: "I remember pulling him from the muck of battle, checking him for breath: his face a mangled mess of ash and blood."
+	Jester: "And I remember how it felt, seeing his contorted features illuminated in the blue flames of the night."
+	* Jester pauses *
+	Jester: "But when I *dream* of that night, and step foot into the memory, his face is empty. Dark, with a smoothness like marble."
 	* Alexandros nods *
-	Alexandros: "What strange coincidence... I've experienced the same. With most the faces I'd known."
-	Alexandros: "They used to be so many. Now they're so few. Each time I dream of them, there's fewer."
+	Alexandros: "It's haunting. And certainly no coincidence. I've experienced much the same: it's exactly as you describe."
+	Alexandros: "Their faces used to number so many. And now they're so few. With each night containing fewer and fewer."
 	- This is all a reference to the strange effect that being in the Aether at all (e.g. during the initial blast) has had.
 	- The faces of the dead disappearing from their memories
 184. Comment on the sailors fleeing by ship to the North
@@ -3195,15 +3212,15 @@ Concepts:
 188. The Jester and Alexandros disagreeing on their past politics
 	- Alexandros blames the King for initiating the conflict, despite the Wizards overtly making an assassination attempt first.
 	- Moreover, a conversation about their disagreements over how things are reflected in history.
-	- Jester: "Though the King doesn't regard the Great War as a mistake, you must admire his consideration for the future."
-	- Jester: "The undead threaten us all. And works on behalf of all the Realm to save it, regardless of their side in the conflict."
-	- Jester: "Could the same be said for the Mad Wizard?"
-	- Alexandros: "Who's to say?"
-	- Alexandros: "Your King has the privilege of being alive, and choosing to refine his political will."
-	- Alexandros: "My liege is not afforded such an opportunity due to his death."
-	- Alexandros: "To paint him as a warmonger both before and after the war is neither fair, nor rational."
+	- Jester: "Though the King doesn't regard the Great War as a mistake, you must admire his consideration for our future."
+	- Jester: "The undead threaten us all. Thus he commits himself to preserving every citizen of the Realm, regardless of their prior loyalties."
+	- Jester: "Could the same be said for your mad leader?"
+	- Alexandros: "Pfft. Who's to say?"
+	- Alexandros: "Your King has the privilege of being alive and choosing to refine his political will."
+	- Alexandros: "My liege is not afforded such an opportunity in death."
+	- Alexandros: "To paint him as a warmonger regardless of circumstance is neither fair, nor rational."
 	- Alexandros: "Were he to see things as they are now, certainly his views would be amended in *some* manner."
-	- Alexandros: "After all, these are unprecendented times. The significance of such events was never lost on him."
+	- Alexandros: "These are unprecendented times, after all. The significance of such events was never lost on him."
 	- Alexandros: "Even at his least lucid, his mentality was grounded."
 	"He has the luxury of changing his mind (because he's alive)."
 189. Consider having the Garrison destroyed after you perform the stabilization ritual
@@ -3269,11 +3286,26 @@ Concepts:
 	Knight: "Just what are you insinuating, priestess?"
 	Neera: "Are you so blind? There's only one pathway forward for both of us."
 	Aylmera: "Through one another."
-	Aylmera:"And *we're* unwavering. Are you?"
+	Aylmera: "And *we're* unwavering. Are you?"
 	*Knight is terrified (disturbed? agitated?)*
 	Knight: "Keep your distance, witch!" (bruja? should Velazquez's men reference Spanish)
 	*Aylmera charges into combat*
-
+192. Stranger reflecting on their distaste for the new leadership in the Capital City Castle
+	Stranger: "We aren't alike, you and I. I'm a stranger in my homeland. You're but a stranger visting my homeland."
+	Stranger: "Can you understand what I mean?"
+193. Deeper Morality and Reasoning of the Bandit Queen (Vivian)
+	- Help the player understand their side more, even if it's wrong.
+	- Their cardinal flaw is they're short-sighted and self-centered. Focused solely on themselves and their own goals.
+	- When first meeting the bandits, they fight you because they feel you're a spy sent by the King.
+		~ They're unwilling to trust you, despite your protests, making them unable to move past the mistakes of the past.
+		~ They fail to imagine the stakes have changed. Although they're outsiders to the initial conflict (Wizards vs. Soldiers),
+		they still are fighting for the results of THAT previous conflict. Attempting to dethrone a King who has already given up.
+		~ As such, they stand in the way of true progress, of recognizing the sincere, significant threats coming for them (namely Aether).
+	- END GAME: The Bandit Queen wants to fight you only after you reveal she has no remaining outs, and chide her for it.
+		~ Until this point, she is actively trying to recruit you. Still driven by her own goals and conquest.
+		~ The bandits want to unify the Realm for reasons that are only relevant to the war which has already ended.
+	- This personal criticism of her incompetence is what ultimately unveils her rage and triggers the final fight.
+	- Despite all her talk of revolution, she is ultimately vain and short-sighted. A ruler most unfit for the throne.
 
 
 Combat System Ideas:
