@@ -3306,7 +3306,53 @@ Concepts:
 		~ The bandits want to unify the Realm for reasons that are only relevant to the war which has already ended.
 	- This personal criticism of her incompetence is what ultimately unveils her rage and triggers the final fight.
 	- Despite all her talk of revolution, she is ultimately vain and short-sighted. A ruler most unfit for the throne.
-
+194. Neera sharing more about her background in the church
+	Aylmera: "Neera. The Pope knew you by your first name."
+	Aylmera: "What exactly is your history with the church?"
+	Neera: "Well, I've been a member since I was a child."
+	Neera: "You see, I spent much of my youth bed-ridden and ailing."
+	Neera: "Though born to nobility, my bloodline was tainted with disease."
+	Neera: "My family paid many doctors and apothecaries to treat my illness, but none had long-term remedies."
+	Neera: "Out of desperation they turned to the church, introducing me to the clergy."
+	Neera: "I couldn't say why, but the rituals of the church healed me."
+	Neera: "God has ignored my questions on the matter, so I presume it to be his intervention."
+	Neera: "Regardess, having spent many years locked in my room alone, I learned to read at a very young age."
+	Neera: "Once I had healed enough to leave my bed, the priests took note and welcomed me into the clergy."
+	Neera: "By my 12th birthday, I was sent as a ward to the priesthood."
+	Aylmera: "You still haven't mentioned how the Pope knew you directly."
+	Neera: "That's because for many years... I was an inquisitor."
+	* Aylmera is surprised (?!) *
+	Aylmera: "You *killed* for these people?"
+	Neera: "No! Not at all!"
+	Neera: "Believe it or not, we used to be committed to non-violence."
+	Neera: "My specialty was in research. I was an interrogator, yes. But of facts."
+	Neera: "However, under the authority of the latest Pope, our duties shifted."
+	Neera: "Now he teaches compliance and violence."
+	Aylmera: "Why would the Pope advocate for violence? And why would the church agree to that?"
+	Aylmera: "Does it not conflict directly with the word of your holy texts?"
+	Neera: "If you read the text at face-value, it most certainly does."
+	Neera: "As such, many of the old texts have been redacted and revised."
+	Neera: "You see, the role of the papacy is unique in its ability to modify God's teachings."
+	Neera: "The Pope is to be the right hand of God. Listening to his word directly, and diseminating new teachings to the rest of the church."
+	* The Jester laughs (snorts?) *
+	Sigmund: "Give me a break..."
+	Sigmund: "That definition would make *you* the rightful Pope, would it not?"
+	* Neera leers at the Jester *
+	Neera: "Indeed it would."
+	Neera: "Impressive how you find comedy amidst my tragedy."
+	Neera: "I'm sure your King misses your antics greatly, jester."
+	Neera: "Nevertheless, due to his proximity to the almighty, the word of the Pope and the word of God are treated one and the same."
+	Alexandros: "Yet if God speaks to the Pope now, how can you be certain who you hear is truly the voice of the almighty?"
+	* Neera smiles, genuinely *
+	Neera: "Because it's been an open secret in the church for years now."
+	Neera: "The Pope no longer hears the voice of God."
+	Neera: "He communes in silence."
+	Aylmera: "And what is his reasoning for usurping the almighty? For modifying the holy text of his own accord?"
+	Neera: "I am not privy to the secrets of any man's mind."
+	Neera: "But if I had to guess, he believes himself honestly doing the work of God."
+	Neera: "How is a man amidst the fear and uncertainty of civil war to interpret silence?"
+	Neera: "Make no doubt. He is a cruel, and evil man. But he believes himself righteous."
+	Neera: "I needn't ask God for certainty on that."
 
 Combat System Ideas:
 ====================
