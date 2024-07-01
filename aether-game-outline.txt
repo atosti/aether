@@ -3353,6 +3353,11 @@ Concepts:
 	Neera: "How is a man amidst the fear and uncertainty of civil war to interpret silence?"
 	Neera: "Make no doubt. He is a cruel, and evil man. But he believes himself righteous."
 	Neera: "I needn't ask God for certainty on that."
+195. Encounter (with the bloodhound?) at the Fishing Village
+	- The player should encounter him staring out (UP on the screen) at the sea. The gentle noise of the ocean, as he happily admires the natural beauty.
+	- This is in stark, and direct contrast to the massive pile of corpses from the group suicide that's directly nearby. Perhaps even in frame (or just out of frame).
+	- This enounter should feel peaceful, it's about someone finding stillness, and calmness amidst chaos.
+		~ As reacting to chaos with stillness is a common response.
 
 Combat System Ideas:
 ====================
