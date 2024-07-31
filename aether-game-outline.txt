@@ -3358,6 +3358,11 @@ Concepts:
 	- This is in stark, and direct contrast to the massive pile of corpses from the group suicide that's directly nearby. Perhaps even in frame (or just out of frame).
 	- This enounter should feel peaceful, it's about someone finding stillness, and calmness amidst chaos.
 		~ As reacting to chaos with stillness is a common response.
+196. Many of the soldiers (across the realm) should fall into conspiratorial idolatry of their leaders
+	- This is a trait that is exhibited even today in many political groups.
+	- Individuals conflate themselves with their leaders, and are unable to imagine that their goals or ideals might diverge from that of their leaders.
+	- Thus, they super-impose their ego onto their leaders and view them as near-infallible.
+
 
 Combat System Ideas:
 ====================
