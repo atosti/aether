@@ -3375,6 +3375,27 @@ Concepts:
 	- This is a trait that is exhibited even today in many political groups.
 	- Individuals conflate themselves with their leaders, and are unable to imagine that their goals or ideals might diverge from that of their leaders.
 	- Thus, they super-impose their ego onto their leaders and view them as near-infallible.
+197. Regretful warrior
+	- Man: "Used to think I had it all figured out."
+	- Man: "Kept the peace, maintained order. Fought only when necessary."
+	- Man: "Carried myself with dignity. Followed a code. Even allowed myself the sin of Pride."
+	- Man: "Then one day, some bandit had the audacity to question my morality."
+	- Man: "Said the steel in my sword would've been better used as a plowshare. Hmph."
+	- Man: "He lamented what I'd become. What this world had molded me into."
+	- Man: "When he first spoke the words, I didn't hear them."
+	- Man: "But my pride certainly did."
+	- Man: "I shoved my blade through his throat as soon as the words left his mouth."
+	- Man: "But it was too late. He'd planted the idea in my head."
+	- Man: "And my sword couldn't silence the echoes of his wisdom."
+	- Man: "Now every day I suffer, because of his spoken truth."
+	- Man: "All while that lucky bastard rests easy in some grave."
+	- Man: "Stupid son of a bitch knew me better than I knew myself..."
+	*The man pauses, thinking for a moment. (...)*
+	- Man: "Have you ever doubted the path you're on?"
+	[Yes.]
+	- Man: "Then you know my pain."
+	[No.]
+	- Man: "Give it some time. You'll come around."
 
 
 Combat System Ideas:
@@ -3991,3 +4012,6 @@ XVI. Ideas for music to Create
 		~ Outline the emotions of each character to better craft their themes.
 XVII. Idea for early combat theme (sounds heroic)
 	- https://soundcloud.com/kembe_x/cozy-forever-1
+XVIII. Track for ambient unease, but a groove. Aether vibes?
+	- Gaslamp Killer - Nerf
+	- https://www.youtube.com/watch?v=2H9O7ZPuVQQ

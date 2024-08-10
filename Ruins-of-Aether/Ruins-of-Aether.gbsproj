@@ -24576,7 +24576,7 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "b09617b5-7810-4599-a5e8-b256f1e07a12",
-                        "__collapse": false,
+                        "__collapse": true,
                         "$variable[V0]$": {
                             "type": "variable",
                             "value": "14"
@@ -24950,7 +24950,7 @@
                                 "vectorY": "L0",
                                 "value": "0",
                                 "minValue": "0",
-                                "maxValue": 24,
+                                "maxValue": 26,
                                 "clamp": false,
                                 "__collapse": false
                             },
@@ -24959,7 +24959,8 @@
                         {
                             "command": "EVENT_GROUP",
                             "args": {
-                                "__label": "Random Line"
+                                "__label": "Random Voiceline",
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -25208,10 +25209,11 @@
                                                     "args": {
                                                         "text": [
                                                             "I used to despise the Godless. Refused\nmost my enemies a proper burial.",
-                                                            "Now I see the irony: I was Godless all\nalong."
+                                                            "Now I see the irony: For I was Godless all\nalong.",
+                                                            "A hearty heathen!"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                     },
                                                     "id": "32387b68-ad34-4937-995a-92f23a205e4b"
                                                 },
@@ -25256,7 +25258,8 @@
                                                         "text": [
                                                             "I was there at the beginning. Witnessed\nthe blades that changed it all.",
                                                             "Soft silver, stained with a thin layer of\nroyal crimson.",
-                                                            "If only I'd been a painter..."
+                                                            "Their hands more deft and precise than\nthose of a painter...",
+                                                            "And an immensely stunning choice of canvas."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -25302,11 +25305,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "The night skies are so peaceful here.",
-                                                            "Such a stark contrast to the beautiful\nblue chaos of the Aether."
+                                                            "The night sky is so peaceful here. Wouldn't you agree?",
+                                                            "It's in such stark contrast to the\nbeautiful blue chaos of the Aether."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "bd120878-16f7-469f-b13a-56bbf87c1797"
                                                 },
@@ -25349,11 +25352,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "How far is too far to travel? How long is\ntoo long away from home?",
-                                                            "Feels like I've spent a lifetime here now.\nFar longer than I've lived anywhere else."
+                                                            "How far is too far to go? How long is\ntoo long away from home?",
+                                                            "Even the sciences have no unit to measure\nsuch things."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "c356ca54-0844-4b11-b345-ce123a7ac67d"
                                                 },
@@ -25397,10 +25400,10 @@
                                                     "args": {
                                                         "text": [
                                                             "Did you hear the music of the night?\nThousands wailing and groaning in unison.",
-                                                            "I like to think of it as the undead chorus."
+                                                            "The agony of restless souls repurposed\ninto an undead chorus."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "f64a70c6-0de4-4f9f-be40-04eda9c18a58"
                                                 },
@@ -25444,11 +25447,12 @@
                                                     "args": {
                                                         "text": [
                                                             "Want to know the secret to survival?",
-                                                            "Forget that you ever existed. Truly.",
-                                                            "Once you forget, so too does the entire\nworld."
+                                                            "Forget that *you* ever existed. Kill the\n*you* that exists in your mind.",
+                                                            "Once you forget about yourself, so too will\nthe entire world.",
+                                                            "And in that void, you'll be free to become\na vessel for whatever you desire."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "51d1f3cf-c6c6-41ac-929d-d9f709d525ab"
                                                 },
@@ -25491,11 +25495,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "They used to hunt me, you know. Not sure\nwhat changed.",
+                                                            "The dead used to hunt me, you know. Can't\nsay what changed their minds.",
                                                             "Other than everything, of course."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "d4293f13-c4ea-4c71-8f31-60303240c046"
                                                 },
@@ -25539,7 +25543,7 @@
                                                     "args": {
                                                         "text": [
                                                             "Met an old colleague out there. I think\nthey recognized me.",
-                                                            "It was hard to be sure."
+                                                            "Admittedly, it's hard to be sure."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": false
@@ -25585,10 +25589,14 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "10,000 years of aether and ash. Can you\neven imagine such a long time?"
+                                                            "This Aether will last 10,000 more years.\nThat's what the ashes whisper to me.",
+                                                            "How lucky we are to witness the beginning\nof such an immense era!",
+                                                            "Can you even comprehend such a long\nspan of time?!",
+                                                            "It will last longer than all the strongest\ndynasties combined!",
+                                                            "And how fitting that ashes will be the ones\nto outlive kings."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "b798d623-07be-42df-b56b-51b7a1c9dd07"
                                                 },
@@ -25631,13 +25639,59 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Didn't think I'd ever see the Jester return.",
-                                                            " Most wouldn't have the stomach for it."
+                                                            "Didn't expect to see the Jester ever\nreturn to these wastes again.",
+                                                            "How'd he muster up the stomach for it?",
+                                                            "All the rumors I ever heard said he was\nlittle more than a coward."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "d7a02d2b-d6cd-488a-84b2-d8e4f7ed9ba2"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Bite your tongue! You know nothing of\nthe hardships I've endured!"
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "1a76f47b-afd6-4a1b-b532-5b2e718db808"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "*The man hums to himself. Seemingly\nunaware of the words he just spoke.*"
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "5c050a00-0903-4da7-8161-c77daa776386"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Sigmund... I don't think he meant it.\nHe seems hardly lucid."
+                                                        ],
+                                                        "avatarId": "89d9de79-935b-482e-93a3-e221a652d501",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "ea80e4d8-8c53-4205-ab5d-c18662758455"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Hmph. So be it. But I don't like his\nremarks either way.",
+                                                            "We shouldn't stay here any longer\nthan we have to."
+                                                        ],
+                                                        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "4f0a2614-dbde-4e37-af6c-44581b7e2f5f"
                                                 },
                                                 {
                                                     "command": "EVENT_STOP",
@@ -25659,7 +25713,7 @@
                                             "comparator": 14,
                                             "__collapseElse": false,
                                             "__disableElse": true,
-                                            "__collapse": true,
+                                            "__collapse": false,
                                             "condition": {
                                                 "type": "eq",
                                                 "valueA": {
@@ -25678,13 +25732,33 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Royal wizardry, huh? What's old is new\nagain!",
-                                                            "And the new, once again, relegated to\nbeing the old."
+                                                            "Royal wizardry returning to the site of\nthe Great Tower.",
+                                                            "Was the first time not enough for you,\nyoung wizard? ",
+                                                            "Hell-bent on blowing it up a second time?\nSurely that couldn't hurt!"
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
                                                     },
                                                     "id": "4355e36b-4bc3-473e-8b48-559e81a0a46f"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_EMOTE",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "8186cd54-6e5c-41fb-8f85-0850877baaf8"
+                                                },
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "What a weirdo..."
+                                                        ],
+                                                        "avatarId": "900ed0c4-35d8-4cee-9c17-fc9cf4e31ab6"
+                                                    },
+                                                    "id": "99f04bca-2337-4890-8760-610b89f80f6c"
                                                 },
                                                 {
                                                     "command": "EVENT_STOP",
@@ -25726,7 +25800,7 @@
                                                     "args": {
                                                         "text": [
                                                             "I can't sleep more than a few hours a day\nanymore.",
-                                                            "I think it's the Aether. It keeps me\nawake through the night."
+                                                            "I think it's the Aether. It keeps me\nawake through these long nights."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -25772,11 +25846,12 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "I used to kill them, just like you. Thought\nI was helping.",
-                                                            "Now... I don't know. The Aether keeps me\nindifferent."
+                                                            "I used to kill the lot of them. Just like you.\nThought it was the right move.",
+                                                            "Now... I'm not so sure.",
+                                                            "The Aether handles that for me. It\ninsists on my indifference. So I abide."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "28882d06-dd39-4f17-9a76-c386c3b02bda"
                                                 },
@@ -25819,12 +25894,13 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "The dead don't bother me here. I could\nleave whenever I want.",
-                                                            "But something here is calling to me...",
-                                                            "And there's a second voice out there, too."
+                                                            "The dead don't bother me here. In truth, I\ncould leave at my leisure.",
+                                                            "But there's something out in these wastes\ncalling to me... calling to... my soul.",
+                                                            "And when I sit. Listening very closely, I\nhear something else.",
+                                                            "A second voice emanating out. Weaker\nthan the first. But just as persistent."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "8a306c04-a1f9-427d-be20-cf36cecbd463"
                                                 },
@@ -25867,10 +25943,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Why did we do all this? Have we not\nachieved less than if we'd left it all alone?"
+                                                            "Why did they all do this? Have they not\nachieved less than if they'd left it alone?"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "73573ca7-fb9c-4fc5-8d1e-c09899f5cd43"
                                                 },
@@ -25913,9 +25989,9 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "I used to read a lot. Now I just tend to\nthink.",
+                                                            "I used to read a lot. Now I just sit and\nthink.",
                                                             "Got plenty of time for it, too.",
-                                                            "...Plenty."
+                                                            "Plenty. Of. Time..."
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -25961,11 +26037,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "There's more dead here than there used\nto be. I know that for a fact.",
-                                                            "They're stronger now. And so, too is it."
+                                                            "There's more dead here than ever before.\nI know it for certain.",
+                                                            "And they're getting stronger, too. They\nfeed off it. And it returns the favor."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "304f2c13-ff62-4cf7-b0a1-300ca2a3e565"
                                                 },
@@ -26008,8 +26084,9 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Sorry for not introducing myself.",
-                                                            "Truth be told, I can't recall my own name\nanymore. Ha!"
+                                                            "I apologize for not properly introducing\nmyself.",
+                                                            "Truth be told, I can't recall my own name\nanymore.",
+                                                            "Ha! How worthless is that?"
                                                         ],
                                                         "avatarId": "",
                                                         "__collapse": true
@@ -26055,10 +26132,10 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "I remember the faces of those I served\nwith. But names? Not so much."
+                                                            "I remember the faces of those I served\nwith. But the names? Not so much."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "769e5d5b-cd32-409e-8c5e-debd258ed919"
                                                 },
@@ -26101,11 +26178,11 @@
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "Can't remember the last time I ate.\nHaven't felt hungry in a while.",
-                                                            "Oh well, more time to think."
+                                                            "Can't remember the last time I ate\nsomething. Haven't felt hungry in a while.",
+                                                            "Oh well. Gives me more time to ponder."
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "4898f070-3481-451c-9cf4-06a06db87235"
                                                 },
@@ -26151,7 +26228,7 @@
                                                             "Thanks for chatting with me. Been a while\nsince I've met such a conversationalist!"
                                                         ],
                                                         "avatarId": "",
-                                                        "__collapse": true
+                                                        "__collapse": false
                                                     },
                                                     "id": "412d5348-1b38-4e53-892e-3a844d33ac25"
                                                 },
@@ -26175,6 +26252,100 @@
                                             "false": []
                                         },
                                         "id": "ae677003-7eab-4f9e-8cdb-a2f0596921ee"
+                                    },
+                                    {
+                                        "command": "EVENT_IF",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 24,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": true,
+                                            "condition": {
+                                                "type": "eq",
+                                                "valueA": {
+                                                    "type": "variable",
+                                                    "value": "T0"
+                                                },
+                                                "valueB": {
+                                                    "type": "number",
+                                                    "value": 25
+                                                }
+                                            }
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Feels like I've been here a lifetime. Far\nlonger than I've lived anywhere else."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "e6c95757-9e43-415d-b7a7-d8a9075f9eb9"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ce95ba99-8afe-4c4c-8276-3df989aefdf4"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "a8bcb8ca-8832-40c9-b817-37665f6956e0"
+                                    },
+                                    {
+                                        "command": "EVENT_IF",
+                                        "args": {
+                                            "variable": "T0",
+                                            "operator": "==",
+                                            "comparator": 24,
+                                            "__collapseElse": false,
+                                            "__disableElse": true,
+                                            "__collapse": false,
+                                            "condition": {
+                                                "type": "eq",
+                                                "valueA": {
+                                                    "type": "variable",
+                                                    "value": "T0"
+                                                },
+                                                "valueB": {
+                                                    "type": "number",
+                                                    "value": 26
+                                                }
+                                            }
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_TEXT",
+                                                    "args": {
+                                                        "text": [
+                                                            "Look at you! Scurrying like little rats\namidst the ashes.",
+                                                            "Didn't anyone warn you about this place?",
+                                                            "Everything of value was destroyed!\nThere's nothing left to gain. Only to lose."
+                                                        ],
+                                                        "avatarId": "",
+                                                        "__collapse": false
+                                                    },
+                                                    "id": "3b0414ab-0311-405d-ad68-39519e9398c8"
+                                                },
+                                                {
+                                                    "command": "EVENT_STOP",
+                                                    "args": {
+                                                        "__collapse": true
+                                                    },
+                                                    "id": "ce7826ab-f500-45ac-9028-2d094d3afc7f"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "32b7a2bc-65f3-4414-a951-50bc09f314fb"
                                     }
                                 ]
                             },
@@ -68479,9 +68650,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2153,
-        "worldScrollY": 0,
-        "zoom": 225,
+        "worldScrollX": 1123,
+        "worldScrollY": 200,
+        "zoom": 125,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
