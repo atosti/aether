@@ -3851,6 +3851,11 @@ GB Studio:
 	https://benjaminno.itch.io/sweet-sounds-sfx-pack
 29. Guide for creating instruments
 	https://www.gbstudio.dev/docs/assets/music/music-huge#instruments
+30. Idea for character change animation
+	- Flash a white silhouette outline of a generic human inbetween
+	- Similar to this:
+		https://x.com/puking_rabbit/status/1804516457780555901
+
 
 Soundtrack:
 ============
