@@ -3457,7 +3457,9 @@ Concepts:
 199. Try designing a picture in frame of a hand gripping the hilt of their sword more tightly.
 	- Could be used mid-dialogue to demonstrating rising tension between characters.
 	- Or simply to demonstrate when Aylmera is nervous/stressed by a line of questioning.
-
+200. Chat with a zealot
+	- "Do you not see God in yourself?"
+	- "No. I see myself in God."
 
 Combat System Ideas:
 ====================
