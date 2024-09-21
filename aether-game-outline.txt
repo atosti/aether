@@ -3460,6 +3460,23 @@ Concepts:
 200. Chat with a zealot
 	- "Do you not see God in yourself?"
 	- "No. I see myself in God."
+201. Conversation with a non-believer
+	- NB: "Have you heard the rumors?"
+	- NB: "Some say we're not the first of God's children to inhabit this Earth."
+	- NB: "That others lived and died long before we ever did."
+	- Neera: "The scriptures are quite clear about the beginning of man."
+	- Neera: "I could suggest you some passages if you'd like."
+	- NB: "Indeed. I've heard much of the holy book through the clergy."
+	- NB: "But what of our history remembers such events?"
+	- NB: "Isn't it possible we came along much later?"
+	- Aylmera: "If all our ancestors died off, where do you think we came from?"
+	- NB: "They didn't die off. They were *killed* off. By God himself."
+	- NB: "Wiped away in a wave of holy fire."
+	- NB: "Then he went and created us afterward."
+	- NB: "An attempt to fix something he'd gotten wrong the first time."
+	- Neera: *Apprehensively* "And why would God do such a thing to his own creation?"
+	- NB: "Because they wouldn't stop fighting."
+	- NB: "Sometimes it's easier to just start over."
 
 Combat System Ideas:
 ====================
