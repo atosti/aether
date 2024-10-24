@@ -3558,6 +3558,7 @@ Concepts:
 	* His teeth are now gritted together. *
 	Alexandros: "Without you, I'll die. FIND me!"
 	* Aylmera awakens from the dream in a coughing spasm. *
+	(For clarity on the lore, I imagine that Alexandros' magical background allows him to meditate and attempt communication with those dreaming.)
 
 Combat System Ideas:
 ====================
