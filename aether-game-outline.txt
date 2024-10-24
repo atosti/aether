@@ -3507,6 +3507,57 @@ Concepts:
 	"Well, may the Divine bless you for sharing it with me."
 	"Nevertheless. Be wary of the men in that castle."
 	"They know far more about suffering than you or I ever could..."
+204. Design a scene or moment where Aylmera (and the player) must face an enemy eye-to-eye
+	- Draw this scene from a first-person POV, with her gaze rising to look an enemy in the eye.
+	- "To meet his gaze requires great courage. To look away: shame." (Quote from Oneirology)
+205. Wisdom from the ancients
+	- Many a man has been forced to choose between the path of uncertainty, and the path of mediocrity. (Quote from Oneirology)
+206. Centering multiple elements of the characters and the story-telling around eyes seems consequential.
+207. Consider telling the story as a series of disconnected vignettes with dream sequences interspersed.
+	- Since many of the ideas here are centered around emotion and feeling, this might make more sense.
+	- Moreover, it could add a confused feeling to both the player AND Aylmera.
+		~ To everyone else she could literally be disassociating. Meanwhile, she is confused how she gets from one place to the next.
+	- The dream sequences should have a cloudy tileset, as though everything is apparated out of or amidst clouds.
+	- Over time, Aylmera could slip into these more frequently, causing distress to her party and their ability to defend themselves.
+208. Could have 3 recurring characters in the dream states (brothers of the dreamstate from Ovid's Metamorphoses)
+	- Phobetor (appears only in nightmares, feeds off human fear)
+		~ Described as appearing as the manifestation of terror.
+		~ Aylmera could develop the courage to face him without waking, and learn to converse with him.
+		~ "He appeared in dreams 'in the form of beast or bird or the long serpent'." (from Wikipedia)
+	- Phantasos (appears as inanimate objects)
+		~ Could make him very strange objects that are absurdly out-of-place. E.g. A palm tree.
+		~ Could have him initially not say anything, but can be conversed with as the dreams progress.
+	- Morpheus (appears in human form)
+	- They are the sons of Somnus. One of his thousands of sons.
+209. Alexandros in the dreamscape
+	* This could be before the party saves him from Velazquez.
+	* Alexandros approaches the player toward the end of a dream sequence *
+	???: "Aylmera! I've finally found you!"
+	* Aylmera is surprised (?!) *
+	[Alexander?!]
+		* Alexandros is disappointed (:/) *
+		Alexandros: "Figures you wouldn't remember my name."
+	[Alexandros?!]
+		Alexandros: "Yes! It's me!"
+	Alexandros: "I'm in trouble. You and the jester need to come find me. NOW."
+	Aylmera: "What do you mean? How did you find me here? How are *you* even here?!"
+	Alexandros: "LISTEN TO ME!"
+	Alexandros: "The Lord isn't pleased with us. You must save me."
+	Alexandros: "I'm in a cell, but I know there isn't much time."
+	Alexandros: "You need to wake up and get moving."
+	Aylmera: "And how do you expect me to do that?"
+	Alexandros: "Fear usually works wonders."
+	Aylmera: "What do you- *Hngh*"
+	* He grasps your throat tightly with both of his hands *
+	Aylmera: "S-stop..." (she mutters)
+	* You desperately try to claw at his fingertips, but it's no use. His grip is incredibly tight. *
+	Alexandros: "Look at me."
+	* He stares intensely into your eyes, never blinking. *
+	* A single tear falls from his right eye, gently rolling down his cheek. *
+	* You feel yourself fading as his grip continues to tighten. *
+	* His teeth are now gritted together. *
+	Alexandros: "Without you, I'll die. FIND me!"
+	* Aylmera awakens from the dream in a coughing spasm. *
 
 Combat System Ideas:
 ====================
