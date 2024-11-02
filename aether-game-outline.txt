@@ -3532,33 +3532,52 @@ Concepts:
 209. Alexandros in the dreamscape
 	* This could be before the party saves him from Velazquez.
 	* Alexandros approaches the player toward the end of a dream sequence *
-	???: "Aylmera! I've finally found you!"
+	???: "WAIT! Aylmera! What are you doing here?!"
 	* Aylmera is surprised (?!) *
-	[Alexander?!]
+	[Alexander?]
 		* Alexandros is disappointed (:/) *
-		Alexandros: "Figures you wouldn't remember my name."
-	[Alexandros?!]
-		Alexandros: "Yes! It's me!"
-	Alexandros: "I'm in trouble. You and the jester need to come find me. NOW."
-	Aylmera: "What do you mean? How did you find me here? How are *you* even here?!"
+		Alexandros: "Couldn't be bothered to remember my name?"
+	[Alexandros?]
+		Alexandros: "Who else would it be?"
+	Alexandros: "Look, things haven't gone to plan. You and that jester need to come find me. NOW."
+	Aylmera: "What are you talking about? How did you find me? How are you even here?"
 	Alexandros: "LISTEN TO ME!"
-	Alexandros: "The Lord isn't pleased with us. You must save me."
-	Alexandros: "I'm in a cell, but I know there isn't much time."
-	Alexandros: "You need to wake up and get moving."
+	Alexandros: "We've displeased the Lord. You must save us."
+	Alexandros: "We're in chains. He'll execute us the next chance he gets."
+	Alexandros: "Stop dawdling and come get us."
 	Aylmera: "And how do you expect me to do that?"
-	Alexandros: "Fear usually works wonders."
-	Aylmera: "What do you- *Hngh*"
-	* He grasps your throat tightly with both of his hands *
-	Aylmera: "S-stop..." (she mutters)
-	* You desperately try to claw at his fingertips, but it's no use. His grip is incredibly tight. *
+	Alexandros: "Fear works wonders."
+	Aylmera: "What do y- *Hngh*"
+	* He grasps your throat tightly with his bare hands. *
+	Aylmera: "S-stop..." (you mutter)
+	* You try to pry his hands from your neck, but his grip is too tight. *
+	* Ignoring your pleas, he stares deeply into your eyes. *
 	Alexandros: "Look at me."
-	* He stares intensely into your eyes, never blinking. *
-	* A single tear falls from his right eye, gently rolling down his cheek. *
-	* You feel yourself fading as his grip continues to tighten. *
-	* His teeth are now gritted together. *
-	Alexandros: "Without you, I'll die. FIND me!"
-	* Aylmera awakens from the dream in a coughing spasm. *
-	(For clarity on the lore, I imagine that Alexandros' magical background allows him to meditate and attempt communication with those dreaming.)
+	* You notice a single tear welling in his right eye. *
+	Alexandros: "Fail me and I'll haunt you from the afterlife."
+	* His teeth are gritted together as he utters the words. *
+	Alexandros: "FIND ME!"
+	* The screen fades to white. *
+	* Aylmera awakens from the dream in a coughing fit. *
+	(For clarity on the lore, I imagine that Alexandros' magical knowledge allows him to meditate and attempt communication with other realms, such as those of dreams.)
+210. Conversation inside the Dream Realm (perhaps with Morpheus)
+	Aylmera: "Tell me spirit, am I undead?"
+	Aylmera: "Cursed like the Aether-stricken, but somehow lucid?"
+	Spirit: "No. Your ailment differs from theirs significantly."
+	Spirit: "They are unified with Death."
+	Spirit: "Whereas you are Deathless."
+	Aylmera: "What does that mean?"
+	Spirit: "That we cannot claim you until the time is right."
+	Aylmera: "So I'm... immortal?"
+	Spirit: "Do you feel immortal?"
+	Aylmera: "Hardly. I feel weak."
+	Spirit: "Precisely. Because your time runs low."
+	Spirit: "Finish your business topside. Then return to us here."
+211. Realization bestowed upon Aylmera after many dream sequences
+	Aylmera: "They cannot reap my soul before my time is up."
+	Aylmera: "They called me 'Deathless'."
+212. Why was the Great Tower originally built?
+	- TBD
 
 Combat System Ideas:
 ====================
