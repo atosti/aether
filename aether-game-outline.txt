@@ -3227,39 +3227,45 @@ Concepts:
 	- This would be a result of you hassling the horde. A thing which the leaders of the Garrison could warn you about.
 	- As such, the only colony that's remotely moral and just would be defeated as well. Indirectly by your hands.
 190. Conversation with Neera after falling into the River
-	* Perhaps Neera has an odd reaction to you falling, such as laughing. Or a non-chalant, "Goodbye" with a smile, whereas the Jester shouts something like, "Aylmera! Wait!"
+	* Perhaps Neera has an odd reaction to you falling, such as laughing. Or a non-chalant, "Goodbye" with a smile, whereas the Jester shouts something like, "Aylmera! No!"
 	Aylmera: "Neera. There's something I have to ask you."
-	Aylmera: "When I fell from the bridge, you showed no surprise."
-	Aylmera: "How did you know I would fall? Why let it happen?"
+	Aylmera: "When I fell from the bridge, you showed little concern. And no surprise."
+	Aylmera: "How did you know I would fall? And why let it happen?"
 	Neera: (*smirks*)
-	Neera: "The better question is how did I know you would return?"
+	Neera: "The better question is how I knew you would return."
 	Neera: "While I don't share everything I see, I've never once lied to you."
-	Neera: "To *either* of you. *She shoots a glance in the Jester's direction.*"
+	Neera: "To *either* of you." *She shoots a glance in the Jester's direction.*
 	Neera: "Had I warned you of the danger on the bridge, it's true you would not have fallen into the waters below."
-	Neera: "Instead you would have fallen in battle outside the castle walls."
-	Neera: "I've no explanation for how those outcomes were connected."
+	Neera: "Instead you would have fallen in battle shortly after. Just outside the city walls."
+	Neera: "I've no explanation for how those outcomes are connected."
 	Neera: "But I can tell you that our separation was a necessity for your survival."
-	Neera: "I've meditated extensively about that bridge, and it was the safest solution."
-	Neera: "Viewing thousands of scenarios where my intervention meant your death: my mind had reached a consensus."
+	Aylmera: "Is that so? Seems awfully convenient."
+	Neera: "I've meditated extensively on that bridge. I assure you, it was the safest solution."
+	Neera: "After viewing hundreds of scenarios where my intervention meant your death: my mind reached a consensus."
 	Neera: "Given so many trials, wouldn't you agree your safety was almost a certainty?"
-	Jester: "If I may interject for a moment, Aylmera."
-	Jester: "In your absence, Neera insisted to me that you would return."
-	Jester: "Despite my protests to search the shoreline for you. Or to assemble a search party."
-	Jester: "She remained entirely certain of your survival."
-	Jester: "She even managed to predict your arrival within the hour."
+	Aylmera: "You know that trust is *earned* and not given, yes?"
+	Jester: "Aylmera. If I may interject for a moment."
+	Jester: "In your absence, I protested against Neera's insistence to move forward."
+	Jester: "I suggested we search the riverbank for you. Or assemble a search party."
+	Jester: "But she was certain you would return to us on your own."
+	Jester: "She made no hesitations as we progressed, and dare I say..."
+	Jester: "She even predicted your arrival to the hour."
 	Jester:  *Sighs*
-	Jester: "I've no explanation for it aside from her alleged visions."
-	Jester: "But I know for certain that fall would have killed or maimed most the soldiers I've met."
-	Jester: "Yet you've returned to us in one piece. Perhaps she really did protect you."
+	Jester: "I don't like it any more than you. And I'm hesitant to believe in some alleged 'visions'."
+	Jester: "But I feel certain that fall would have killed anyone else."
+	Jester: "Yet you've returned to us largely unharmed. Just as the priestess described."
+	Jester: "Perhaps she really did protect you. And our mission."
 	Aylmera: *Thinking* (...)
-	Aylmera: "Since I can't force you share all you that know, Neera..."
-	Aylmera: "I'll only insist on one thing: From here on out, you-"
+	Aylmera: "Since I can't force you to share all you that know, Neera."
+	Aylmera: "I'll only insist on one thing:"
+	Aylmera: "From here on out, you-"
 	Neera: "Never separate the group again."
-	Aylmera: *Frowns*
-	Aylmera: "Precisely. And don't finish my sentences anymore, either."
+	Aylmera: *(?!) She's taken aback. *
+	Neera: "Is that enough evidence of my gifts?"
 	Neera: *Laughs*
-	Neera: "I can abide by your requests."
-	Neera: "And I doubt you'll believe me, but it's good to have you back."
+	Neera: "I'll abide your request."
+	Neera: "And for what it's worth: it's good to be reunited."
+	* The party rejoins into Aylmera. *
 191. A discussion about societal healing
 	Attempting to get past a knight who's standing guard in the Lord's Castle.
 	Knight: "Halt! Heretics aren't permitted inside the gate. Return from whence you came."
@@ -3289,6 +3295,7 @@ Concepts:
 	Aylmera: "And *we're* unwavering. Are you?"
 	*Knight is terrified (disturbed? agitated?)*
 	Knight: "Keep your distance, witch!" (bruja? should Velazquez's men reference Spanish)
+	Aylmera: "Make me."
 	*Aylmera charges into combat*
 192. Stranger reflecting on their distaste for the new leadership in the Capital City Castle
 	Stranger: "We aren't alike, you and I. I'm a stranger in my homeland. You're but a stranger visting my homeland."
@@ -3529,7 +3536,7 @@ Concepts:
 		~ Could have him initially not say anything, but can be conversed with as the dreams progress.
 	- Morpheus (appears in human form)
 	- They are the sons of Somnus. One of his thousands of sons.
-209. Alexandros in the dreamscape
+209. Alexandros in the dreamscape (consider making this encounter more abstract)
 	* This could be before the party saves him from Velazquez.
 	* Alexandros approaches the player toward the end of a dream sequence *
 	???: "Aylmera! I've finally found you!"
@@ -3559,6 +3566,25 @@ Concepts:
 	Alexandros: "Without you, I'll die. FIND me!"
 	* Aylmera awakens from the dream in a coughing spasm. *
 	(For clarity on the lore, I imagine that Alexandros' magical background allows him to meditate and attempt communication with those dreaming.)
+	(Could also have it be something the real Alexandros is totally unaware of. That the representation of him in the dream is some other force making you aware of his predicament.)
+
+Names for Chapters/Sections:
+==============================
+* These can be banners displayed on screen once as parts of the story are reached.
+	- Ideally, each one should be truncated by either a dream sequence or a large event/arrival at a location.
+Ch. 1: Awakening -> Castle + Outskirts + Forest
+	- Ending: Choked out by smoke from the Bandit Queens escape (smokebombs + fire)
+Ch. 2: Adrift -> Northward Journey + Lepers + Falling into River
+	- Ending: Sinking to the bottom of the river after breaking through bridge
+Ch. 3: Savior -> City Outskirts + Dungeons + Throne Room
+	- Ending: Arriving at the entrance to the Monastery after fleeing the burning city.
+Ch. 4: Faithful -> Monastery + Seaside Village + Ramparts
+	- Ending: Finding the community of Rebels holding back the horde.
+Ch. 5: Ashes -> Aether Camp + Aether + Aether Ruins
+	- Ending: Beginning the return to the castle and staring out at its burning ruins from a distant hilltop.
+Ch. 6: Atonement -> Journey Home + Showdown in the Burnt Castle + Final dreams with the entities from the intro
+	- Ending: Aylmera slumped at the foot of the throne, bleeding out and asking to either be Cremated or Buried.
+		~ At this moment, the friendship and comradery of the party should be realized in full.
 
 Combat System Ideas:
 ====================
