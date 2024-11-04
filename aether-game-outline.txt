@@ -3585,6 +3585,10 @@ Concepts:
 	Aylmera: "They called me 'Deathless'."
 212. Why was the Great Tower originally built?
 	- TBD
+213. Reason for the Fire Stone being in the Bandit Queen's possession
+	- It was being transported by the last of the King's men to him. But was intercepted enroute.
+	- Simply put: She stole it. And because it seemed important, she kept it.
+	- This should probably also be the first direction that the King points you in for your mission.
 
 Names for Chapters/Sections:
 ==============================
