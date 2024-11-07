@@ -3589,6 +3589,13 @@ Concepts:
 	- It was being transported by the last of the King's men to him. But was intercepted enroute.
 	- Simply put: She stole it. And because it seemed important, she kept it.
 	- This should probably also be the first direction that the King points you in for your mission.
+214. Enemy/Villain defending themselves and their actions
+	Enemy: "They are monsters. I am merely monstrous." (The implication being the monsters (likely the undead) are monsters ALL the time. This person is merely engaged in a moment of being a monster.)
+	Enemy: "There will be a day your delusion fades."
+	Enemy: "And on that day you'll inherit my perspective."
+	Enemy: "But I can see it on your face."
+	Enemy: "You don't believe such a thing is possible."
+	Enemy: "Your preconceptions are the chains which bind you."
 
 Names for Chapters/Sections:
 ==============================
