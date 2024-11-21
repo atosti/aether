@@ -3596,6 +3596,11 @@ Concepts:
 	Enemy: "But I can see it on your face."
 	Enemy: "You don't believe such a thing is possible."
 	Enemy: "Your preconceptions are the chains which bind you."
+215. Zealots who voluntarilty undergo torture while meditating	
+	- They see it as a way to truly achieve zen. Being able to pray and be at peace even when you're physically harmed.
+	- An extreme form of mind over matter.
+216. "Suicide of the Goddess"
+	- An idea for a famous statue or painting in the game, depicting a beloved goddess ending her own life due to her suffering.
 
 Names for Chapters/Sections:
 ==============================
