@@ -3601,6 +3601,17 @@ Concepts:
 	- An extreme form of mind over matter.
 216. "Suicide of the Goddess"
 	- An idea for a famous statue or painting in the game, depicting a beloved goddess ending her own life due to her suffering.
+217. Bossfight Heartbeats
+	- Each boss will have a custom theme song. This theme will be sped up as the battle goes on, and they take more damage.
+		~ This is referred to as the enemy's "heartbeat" in the game/gameplay lore.
+	- Vibe that works great sped up/slowed down for an example:
+		https://www.youtube.com/watch?v=BALyx58_K-Y
+		~ I like it at 1.5x as a baseline (battle start), 0.75x as a defeated tone (battle end), and 2.0x as high intensity (last half or quarter of enemy HP bar remaining)
+	- When the boss is finally defeated (or their last few hitpoints), the song should be slowed down significantly (0.5x or 0.25x).
+		~ This slowed heartbeat should then play ominously in the background as the combat ends, and the boss says their final dialogue.
+		~ It should be a tragic and haunting reminder of each Boss' unique identity.
+	- Ideally, the speed of attacks should correspond to the speed of the music.
+		~ Thus, a player would have to adjust their rhythm and timing of attacks to match the current music speed.
 
 Names for Chapters/Sections:
 ==============================
