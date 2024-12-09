@@ -1,0 +1,44 @@
+{
+  "_resourceType": "scene",
+  "id": "a389b380-24f7-4990-93fc-3789c5de2c5e",
+  "_index": 12,
+  "type": "TOPDOWN",
+  "name": "Kitchen",
+  "symbol": "scene_kitchen",
+  "x": 60,
+  "y": 205,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "c40d633b-fdb2-4a3e-9696-ef3490db34a4",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "5e6ba1be-9deb-4132-bd92-3a49971761db",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "efce5957-ee91-4387-9b57-10313ab12f51"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29+00!0f6+002+0f8+00!0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+005+0f8+005+0f2+0012+0f2+0010+0f4+0010+0f6+002+0f5f+"
+}

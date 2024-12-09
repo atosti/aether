@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "4f2c173c-b43b-463e-bfac-c3a8cc02fd80",
+  "name": "Violin_example",
+  "symbol": "song_violin_example",
+  "filename": "Violin_example.uge",
+  "settings": {},
+  "type": "uge"
+}

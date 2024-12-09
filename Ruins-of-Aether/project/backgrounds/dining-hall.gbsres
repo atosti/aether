@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "43d9f9c0-7013-42f9-ad19-21c5b2f078c5",
+  "name": "dining-hall",
+  "symbol": "bg_dining_hall",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "dining-hall.png",
+  "tileColors": "016+03!016+03!0146+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+018+00c+0140+",
+  "autoColor": false
+}

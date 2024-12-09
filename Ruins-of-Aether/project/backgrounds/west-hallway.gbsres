@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e769d8d7-b808-4836-a154-e48b6e0af974",
+  "name": "west-hallway",
+  "symbol": "bg_west_hallway",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "west-hallway.png",
+  "tileColors": "012a+042+01c+042+03!012+03!042+012+042+03!002+03!042+012+042+014+042+01c+042+014+042+012+042+01!002+01!042+012+042+01a+022+0170+0024+013+0026+01!0050+01!0026+013+0024+01f2+",
+  "autoColor": false
+}

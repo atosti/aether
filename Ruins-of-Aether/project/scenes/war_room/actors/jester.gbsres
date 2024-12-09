@@ -1,0 +1,450 @@
+{
+  "_resourceType": "actor",
+  "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c",
+  "_index": 0,
+  "symbol": "actor_jester_0",
+  "prefabId": "",
+  "name": "Jester",
+  "x": 10,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__disableElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh my, I see Alexandros continues to\nbe full of surprises!",
+                "Rather impressive he managed to\nbreathe life into your corpse.",
+                "Fighting the undead with one of their\nown...",
+                "If I didn't know better, I'd think\nthe King was mad with treachery!"
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": true
+            },
+            "id": "b06266be-d695-49b2-8ac5-e04b5a7e02ef"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+              "__collapse": true
+            },
+            "id": "e35867ce-a802-4fb1-9e2d-f291adf19b60"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Still... I recognize your lack of choice\nin this matter.",
+                "So I'd like to apologize for involving\nyou in this mess. Truly.",
+                "It's a harrowing position the Crown \nhas found himself in.",
+                "I know he wouldn't take such drastic\naction were that not the case."
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": false
+            },
+            "id": "b5028c4b-a0de-45a3-b9fa-52fd27e1b37a"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
+              "__collapse": true
+            },
+            "id": "ec468e14-88aa-4bcd-b3bd-9ce7b0aecfc8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "If it's any consolation, I argued\nagainst your revival.",
+                "Though, clearly, my input on the\nmatter was overruled.",
+                "Those wizards were just so damn\neager. And the King so desperate..."
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": true
+            },
+            "id": "9e02ec08-289d-45b8-be00-da50529fcf0f"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "You hate wizards?",
+              "falseText": "Why am I here?",
+              "__collapse": false
+            },
+            "id": "aa386f81-f549-408b-b077-06cc29bf0fe2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "No. I wouldn't go so far as to say \nthat. They're amicable enough.",
+                      "We just have a difficult past. And  I\nwonder how long this peace between\nour peoples will last.",
+                      "Up until a few years ago, we  were\nengaged in a long and bloody conflict\nwith the Realm's wizardry.",
+                      "Were it not for the chaos resulting\nfrom that conflict, we'd likely still\nbe at war with one another."
+                    ],
+                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                    "__collapse": false
+                  },
+                  "id": "9a1d7949-c531-4789-8af7-ba43db9e9cb7"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                    "__collapse": true
+                  },
+                  "id": "e5ba428c-55cd-43aa-9c98-68bad57e8bb6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "But I shouldn't trouble you with our\nwicked history. I must prepare you \nfor your journey ahead."
+                    ],
+                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                    "__collapse": false
+                  },
+                  "id": "fa4f0609-b2cb-49a1-91d8-d1015c5b1018"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Straight to the point. I admire that.",
+                      "It's a trait that gets rarer with each\npassing day."
+                    ],
+                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                    "__collapse": false
+                  },
+                  "id": "9b85303e-72cf-4e84-9630-76be86a042a1"
+                }
+              ]
+            },
+            "id": "7494beb4-b9b4-4c89-846d-18f2bdc3494f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Before your revival, our Kingdom's\nRoyal Army was engaged in a war \nagainst the Royal Wizardry.",
+                "That 'Great War' came to an abrupt\nend when, mid-siege, the wizards'\ntower exploded into Aetherial flames.",
+                "It killed most of its inhabitants, and \nrained hellfire down onto our armies\nwhich had surrounded the tower.",
+                "But far from dormant, that Aetherial\nenergy leapt from the carnage and\nfrenzied any corpse it could touch.",
+                "The result was thousands of dead\nsuddenly returning to life. All insane,\nand frothing like rabid dogs.",
+                "That untamed energy still emanates\nfrom the battlefield to the East. As\ndo the swarms of undead.",
+                "And their numbers are growing, as \nthey slowly wander closer to our\nlands. Killing all they encounter.",
+                "But, that's where you come into the\npicture, Aylmera."
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": false
+            },
+            "id": "3356e953-652f-416b-b066-bab16a9b9254"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+              "__collapse": true
+            },
+            "id": "1f5c29ec-b427-4b4f-b470-479682206731"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The Crown has requested your \nassistance in restoring elemental\nbalance to the Realm.",
+                "Based on scrolls procured by the\nwizards, we believe the undead\nfrenzy can be halted.",
+                "It requires the realignment of the 5\nmain elements, and their\ncorresponding elemental stones.",
+                "These are of course: Fire, Air, Earth,\nWater, and Aether.",
+                "You've been recruited to locate these\n5 stones, and then bring them to the\nsite of the Great Explosion.",
+                "Once there, you'll perform a ritual to\nrebalance the energies. Which should\nstop the Aether frenzy.",
+                "I know this is a lot to take in, but do\nyou have any initial questions about\nthe task at hand?"
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": false
+            },
+            "id": "2d87acfe-87ab-4a6d-a675-e6e6c921ca11"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "Why pick me?",
+              "falseText": "'Should' stop it?",
+              "__collapse": false
+            },
+            "id": "8c32967e-5c8e-4215-8094-6a9c5cf7e97c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                    "__collapse": true
+                  },
+                  "id": "c1cf5fc6-fc52-4f95-a17b-1027b4c1294a"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Oh my. Well... How can I put this\nelegantly...",
+                      "There really isn't anyone else up to\nthe task. The castle is staffed by\na skeleton crew.",
+                      "What remains is little more than\nremnants of the royal guard, and\nseveral dozen nobles.",
+                      "There quite simply *is* no other\nwarrior fit for such an immense\ntask.",
+                      "But have no doubt, the Crown and all\nits resources are firmly behind you."
+                    ],
+                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                    "__collapse": false
+                  },
+                  "id": "752236e0-cdb5-46c4-a5de-807b2b385825"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Yes. It *should*. We're working in a\nworld of uncertainty now.",
+                      "Truthfully, it's a miracle we've\ngotten this far along in the plan.",
+                      "Even reviving you was something we\nhadn't fully counted on.",
+                      "But have no doubt, the Crown and all\nits resources are firmly behind you."
+                    ],
+                    "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                    "__collapse": false
+                  },
+                  "id": "b72628e0-33c9-49f7-acd5-fb1a23928779"
+                }
+              ]
+            },
+            "id": "6c9edf14-ded3-4bd7-a137-a4d394a7293d"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": true
+            },
+            "id": "e5613301-99a8-4670-bd71-1d2b8dcf7cdf"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh! One last thing before you go. Both\nAlexandros and myself have\nvolunteered to accompany you.",
+                "After all, a journey as long as this \nwould grow tiresome without some\nform of companionship."
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": false
+            },
+            "id": "c5926242-f871-4ad1-942e-d70061934d0d"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
+              "__collapse": true
+            },
+            "id": "91e57f2d-cbbe-463f-a7bc-dd0c2973dc58"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "We should return to the King before\nmaking our departure. I'm sure\nhe'd like to send us off."
+              ],
+              "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+              "__collapse": true
+            },
+            "id": "db06a65d-23d9-44c8-9cbf-265dd9896bdc"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
+              "__collapse": true,
+              "$variable[0]$": "T0",
+              "$variable[1]$": "T1"
+            },
+            "id": "931492db-004f-4409-bdca-161d3fd5a494"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "24682f98-58c3-4234-8fef-f4f102702194",
+              "__collapse": true
+            },
+            "id": "dbc4a449-070a-4f37-bef5-b2f19ed26233"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Sigmund the Jester has joined your party!"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "1425cfc9-044e-4f95-9f04-65ef22f412dd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "13a37da7-9bfe-45a3-829b-b1bcc4a5f628"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "4",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": true,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "bed66405-95ed-4d73-837e-63c25cff4197"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": true,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "d370b4c9-b10d-4ec6-8709-c16ffe193cbb"
+          }
+        ],
+        "false": []
+      },
+      "id": "1ccb4af3-a184-4cde-9142-4ad08613fb20"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__collapse": true,
+        "__comment": false,
+        "__disableElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "5976bf03-b5f7-4f5c-b530-f9bb3049c44d"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "d7232860-d883-482c-b79a-db8dcc650877"
+          }
+        ],
+        "false": []
+      },
+      "id": "5d0222ba-8ed9-4afb-b0b2-2af19820e0ad"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

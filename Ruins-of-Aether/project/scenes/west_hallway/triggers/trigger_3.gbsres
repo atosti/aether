@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "2aaaebcd-55c8-4ae3-976f-402f84792d54",
+  "_index": 2,
+  "symbol": "trigger_5",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 3,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "These shelves were moved recently by\nsomeone careless. They left the floor\nmarred with nicks and scratches."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "b20665a7-d6df-4bfb-9510-5c42ddf62021"
+          }
+        ]
+      },
+      "id": "73286240-5382-472a-8d36-715e70953a9e"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "0cfa4ad6-c2bf-4c7c-ade5-9cdaf6d463c7"
+    }
+  ]
+}

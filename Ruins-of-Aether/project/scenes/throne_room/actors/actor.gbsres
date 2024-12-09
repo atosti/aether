@@ -1,0 +1,91 @@
+{
+  "_resourceType": "actor",
+  "id": "00bdc192-361c-4272-8fea-29288a5b8889",
+  "_index": 1,
+  "symbol": "actor_9",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 34,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "3896a9ee-0f57-42e8-9e94-f6e74a04ef44"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "7",
+              "flag": 6,
+              "__collapseElse": false,
+              "__disableElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "e3a8cd89-11b0-47ae-895f-d4e6bcdb324e"
+                },
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "8a64695a-fa68-4008-9355-89776b2f6dde"
+                }
+              ],
+              "false": []
+            },
+            "id": "f2513dac-a34e-4283-a947-1121a61c5f1e"
+          }
+        ],
+        "false": []
+      },
+      "id": "1d95cf32-0a29-49a2-bb4c-b9f254181d8d"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

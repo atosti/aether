@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4f8f9952-c885-4d1a-89b8-2492b5441026",
+  "name": "hidden-alcove",
+  "symbol": "bg_hidden_alcove",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "hidden-alcove.png",
+  "tileColors": "013f+042+012+042+014+042+018+042+012+042+014+042+01a+034+022+012+022+01a+034+026+032+016+038+022+034+016+022+03c+016+022+03c+016+03!022+03b+016+03!024+034+022+033+016+033+022+034+022+033+0110+042+0112+042+0141+",
+  "autoColor": false
+}

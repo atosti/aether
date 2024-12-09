@@ -1,0 +1,277 @@
+{
+  "_resourceType": "actor",
+  "id": "d363c909-7882-417f-a488-06ccc9ee465e",
+  "_index": 0,
+  "symbol": "actor_11",
+  "prefabId": "",
+  "name": "",
+  "x": 30,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0e8a3fa9-3c61-4c9e-97bf-b4b33cc74e2b",
+  "paletteId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Viewed painting?"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "7",
+              "flag": 3,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Talked about painting?",
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF_FLAGS_COMPARE",
+                        "args": {
+                          "variable": "7",
+                          "flag": 4,
+                          "__collapseElse": false,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "*Sigh* You want my advice? Put down the\nsword and pick up a paintbrush.",
+                                  "Only the arts have a chance at enduring\nthe infinite cruelty of man."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                              },
+                              "id": "1b50f5dc-2b6b-4a32-80c7-7218d08d7d3a"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ADD_FLAGS",
+                              "args": {
+                                "variable": "7",
+                                "flag1": false,
+                                "flag2": false,
+                                "flag3": false,
+                                "flag4": false,
+                                "flag5": true,
+                                "flag6": false,
+                                "flag7": false,
+                                "flag8": false,
+                                "flag9": false,
+                                "flag10": false,
+                                "flag11": false,
+                                "flag12": false,
+                                "flag13": false,
+                                "flag14": false,
+                                "flag15": false,
+                                "flag16": false,
+                                "__collapse": true
+                              },
+                              "id": "5f4c4f89-72c0-446f-968d-989065cba13d"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "I saw you admiring that painting of the\nGreat Tower. Beautiful, isn't it?",
+                                  "A damn shame that's the only way to see\nit anymore..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                              },
+                              "id": "1dba908a-ee48-44ae-8535-445e6d98c634"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "T0",
+                                "trueText": "What happened?",
+                                "falseText": "Who painted it?",
+                                "__collapse": true
+                              },
+                              "id": "ca09c642-5dcd-45cf-b39e-770543db544b"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "T0",
+                                "__collapseElse": false,
+                                "__collapse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "T0"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                      "__collapse": false
+                                    },
+                                    "id": "d1c41b0f-708e-44a6-a222-12be7e657097"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "What do you mean? That's a painting of\nthe Great Tower.",
+                                        "It's the one that fool of a Mad Wizard\nwent and blew up.",
+                                        "Took most of the Royal army along with\nhim, too!",
+                                        "Like it wasn't enough we had to bury\nthousands of our own dead...",
+                                        "Now we have to mourn the death of our\nculture at the same time!"
+                                      ],
+                                      "avatarId": "",
+                                      "__collapse": false
+                                    },
+                                    "id": "ff483b3f-d04a-4ba7-92d3-6c0fc45e3115"
+                                  },
+                                  {
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "emoteId": "4a9d7eb4-a89b-4c61-9ee1-20885ac690de",
+                                      "__collapse": true
+                                    },
+                                    "id": "9686dac2-7705-46c4-9fd1-1908f826cdd7"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "People say I'm a fool for wanting peace...",
+                                        "But look at what war has wrought us!\nChaos and famine all across the Realm!"
+                                      ],
+                                      "avatarId": "",
+                                      "__collapse": false
+                                    },
+                                    "id": "3c2570d7-cc06-4295-864a-09bb4975fcb4"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "That would be a fella by the name of\nGiovanni. Talented young man. Or, he was.",
+                                        "Suppose he's a lot older now. Been some\ndecades since he painted it.",
+                                        "He must've been... 19? Maybe 20? So\nincredibly gifted for his age.",
+                                        "Rumor is he got a personal tour of the\nTower around the time he painted it.",
+                                        "I can't imagine how gorgeous the interior\nmust have been!"
+                                      ],
+                                      "avatarId": "",
+                                      "__collapse": false
+                                    },
+                                    "id": "8055c5ce-57c5-4047-827d-78c562e04dae"
+                                  },
+                                  {
+                                    "command": "EVENT_ACTOR_EMOTE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                      "__collapse": true
+                                    },
+                                    "id": "9024784a-d089-4541-be29-801644160dfb"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Now all that's left of it is that single\npainting...",
+                                        "A ghost of the past, reminding us about\nthe horrors of the present."
+                                      ],
+                                      "avatarId": "",
+                                      "__collapse": false
+                                    },
+                                    "id": "dc7d4151-d0aa-488f-819e-137c83d90fab"
+                                  }
+                                ]
+                              },
+                              "id": "d1545085-d891-471e-84cf-38ffcc1ef496"
+                            }
+                          ]
+                        },
+                        "id": "5e70f6b2-1763-4182-8a5e-b936ee8b1c30"
+                      }
+                    ]
+                  },
+                  "id": "135474c1-f665-4fbc-b59e-e71199cab143"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "57764f0b-8093-4dd1-9376-db7ee3412284"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "*The man is trying to focus on the pages\nin his book, but seems distracted.*",
+                      "*He occasionally glances at the painting\non the wall before continuing to read.*"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "79a5b098-65a1-4fad-8454-df3e924dacc2"
+                }
+              ]
+            },
+            "id": "34fd2a24-bbac-4782-bf33-0692b0f0898c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "8620fc88-c10c-4127-a06e-8a2138a80434"
+          }
+        ]
+      },
+      "id": "25c19024-c3d1-4bb5-8a07-13fa95efb630"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

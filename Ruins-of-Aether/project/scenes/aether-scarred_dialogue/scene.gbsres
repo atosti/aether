@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "561f6d4e-ecab-40db-a15f-4a3a110848ae",
+  "_index": 26,
+  "type": "TOPDOWN",
+  "name": "Aether-scarred Dialogue",
+  "symbol": "scene_27",
+  "x": 1273.5999999999997,
+  "y": 221.20000000000005,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,0 +1,80 @@
+{
+  "_resourceType": "script",
+  "id": "5c2109d7-5201-470f-b202-b19b8e40492e",
+  "name": "Save Data",
+  "symbol": "script_save_data",
+  "description": "Saves the game's data.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Would you like to save your progress?"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "4a0dd32f-a22f-4f90-8421-d0787220a8d8"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "V0",
+        "trueText": "Yes.",
+        "falseText": "No.",
+        "__collapse": true
+      },
+      "id": "ebe054cf-a9c9-4197-b690-138b29fd5fa4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "V0",
+        "__collapseElse": true,
+        "__collapse": true,
+        "condition": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Progress saved successfully!"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "da30eeaa-5358-4559-a60f-15cf0774bead"
+                }
+              ]
+            },
+            "id": "74dfddf0-108f-424a-b879-81fbd0818719"
+          }
+        ],
+        "false": []
+      },
+      "id": "4643a383-9f8e-4058-83f3-a3b4085c13ed"
+    }
+  ]
+}

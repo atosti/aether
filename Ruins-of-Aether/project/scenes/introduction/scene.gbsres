@@ -1,0 +1,216 @@
+{
+  "_resourceType": "scene",
+  "id": "115d3949-295d-41d6-a8a0-3e62e172e6c2",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "Introduction",
+  "symbol": "scene_introduction",
+  "labelColor": "yellow",
+  "x": 241.59999999999934,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
+  "tilesetId": "",
+  "paletteIds": [
+    "d9361714-77c0-45be-aa31-2e90a89d0b99",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Scene Setup",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "3086788a-5963-4df0-a5aa-1118d2866e0f"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "8f96dba1-6274-48a6-b880-bf9979e210e9"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "7ff7c0bd-7d39-4b69-a7c5-00af3d2e392e"
+          }
+        ]
+      },
+      "id": "af9419b3-a591-40e6-964f-565dedaf2751"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ye whose bones belong as dust and ash.\nThe living scream your wretched name \ninto this miserable void...",
+          "Adorned with flesh, seek out their\nvoices. And silence their burdens. Only\nthen can you return to the fold.",
+          "Fulfill your duty as you walk this \npath, or be forced back unto us: \nA horrid creature unable to...",
+          "\n                          ....A R I S E....\n"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "60b2cc05-84a9-4f73-bfbb-7a17c2a0483d"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Eyes Opening Cinematic",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "3b01d62e-4f79-47f3-b87c-9d8090470578",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "9e4b677d-87b5-472d-b458-ba7f62ac37fe"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "431796b5-9589-41c3-b835-13963647eb72"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "00dbb63a-43d5-475c-b92a-2c91cd78fadb",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "5e0a8785-6aef-464e-9308-51e40afae3f0"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "29889de1-18c9-4d8a-bdbe-5c5c4d8140d6"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "6ebfab5f-7aba-4a0c-a38e-0e4742ea931a",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "dcf800e9-fe0a-48a5-80ce-2690d364bec6"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "0c014044-4433-4083-b13b-5b67f529ca02"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "a46ddd4d-188e-4255-a470-e994da20d5e6",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "2e528097-f319-4bc8-b50b-66f3386510a8"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "2b6da5b0-be2f-4069-94b3-fa0917124da0"
+          }
+        ]
+      },
+      "id": "64b33068-f609-4132-b072-f855e5eac20a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "74ba6f50-04ea-43e7-b055-9e770fe51b5d",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "0cd1d452-bd99-40bf-a93a-0a81e714493b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

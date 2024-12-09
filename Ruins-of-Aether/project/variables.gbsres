@@ -1,0 +1,240 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "SigmundRecruited",
+      "symbol": "var_sigmundrecruited"
+    },
+    {
+      "id": "1",
+      "name": "AlexandrosRecruited",
+      "symbol": "var_alexandrosrecruited"
+    },
+    {
+      "id": "2",
+      "name": "NeeraRecruited",
+      "symbol": "var_neerarecruited"
+    },
+    {
+      "id": "3",
+      "name": "ViewedTowerLandscape",
+      "symbol": "var_viewedtowerlandscape"
+    },
+    {
+      "id": "4",
+      "name": "Memories-Page1",
+      "symbol": "var_memories_page1"
+    },
+    {
+      "id": "5",
+      "name": "NewMemories",
+      "symbol": "var_newmemories"
+    },
+    {
+      "id": "6",
+      "name": "StartMenuSelection",
+      "symbol": "var_startmenuselection"
+    },
+    {
+      "id": "7",
+      "name": "CastleInteractions",
+      "symbol": "var_castleinteractions"
+    },
+    {
+      "id": "8",
+      "name": "BattleMovement",
+      "symbol": "var_battlemovement"
+    },
+    {
+      "id": "9",
+      "name": "CurrentCharacter",
+      "symbol": "var_currentcharacter"
+    },
+    {
+      "id": "10",
+      "name": "AylmeraHP",
+      "symbol": "var_aylmerahp"
+    },
+    {
+      "id": "11",
+      "name": "SigmundHP",
+      "symbol": "var_sigmundhp"
+    },
+    {
+      "id": "12",
+      "name": "NeeraHP",
+      "symbol": "var_neerahp"
+    },
+    {
+      "id": "13",
+      "name": "AlexandrosHP",
+      "symbol": "var_alexandroshp"
+    },
+    {
+      "id": "14",
+      "name": "PartyConfig",
+      "symbol": "var_partyconfig"
+    },
+    {
+      "id": "15",
+      "name": "CurrentHP",
+      "symbol": "var_currenthp"
+    },
+    {
+      "id": "16",
+      "name": "HoldBLength",
+      "symbol": "var_holdblength"
+    },
+    {
+      "id": "a5142ea2-6506-496d-a7d3-6979073baab3__L1",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L0",
+      "name": "Pet",
+      "symbol": "var_pet"
+    },
+    {
+      "id": "e9bb22aa-d099-42cb-b2d9-5baa104ed16e__L1",
+      "name": "Local 1",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L0",
+      "name": "HateWizards",
+      "symbol": "var_hatewizards"
+    },
+    {
+      "id": "9236618d-98dd-4749-b395-78713f8ed69f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "7cf252df-0c9a-4e0a-b2c9-95a4575bd13d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L0",
+      "name": "Response",
+      "symbol": "var_response_4"
+    },
+    {
+      "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L1",
+      "name": "Response 2",
+      "symbol": "var_response_5"
+    },
+    {
+      "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L2",
+      "name": "SpokenWith",
+      "symbol": "var_spokenwith_2"
+    },
+    {
+      "id": "81a3ac5c-c30a-4f54-bf46-36149fe4ecff__L3",
+      "name": "Response 3",
+      "symbol": "var_response_6"
+    },
+    {
+      "id": "2abe3744-accf-470a-b352-7c766789bc0d__L0",
+      "name": "Eavesdropping",
+      "symbol": "var_eavesdropping"
+    },
+    {
+      "id": "2abe3744-accf-470a-b352-7c766789bc0d__L1",
+      "name": "SpokenWithGossiper",
+      "symbol": "var_spokenwithgossiper"
+    },
+    {
+      "id": "7214118e-17e7-426b-a213-c6c5266bf74e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "94ebeb0f-db97-4fbd-be91-7059aa564bec__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "a7cc6137-2e00-4d41-a237-07c6ecf9a54a__L0",
+      "name": "CoffinOpened",
+      "symbol": "var_coffinopened"
+    },
+    {
+      "id": "3f9dab08-fb94-4940-9e16-2d371a0ec2b3__L0",
+      "name": "CoffinOpened",
+      "symbol": "var_coffinopened_0"
+    },
+    {
+      "id": "3b1c6d4a-f11b-48be-8cdc-e6e05ada23f2__L0",
+      "name": "Local0",
+      "symbol": "var_local0"
+    },
+    {
+      "id": "9cc494af-4aef-48b7-813d-e89aa4219a63__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "d363c909-7882-417f-a488-06ccc9ee465e__L1",
+      "name": "SpokenAboutPainting",
+      "symbol": "var_spokenaboutpainting"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L0",
+      "name": "PlayerX",
+      "symbol": "var_playerx_0"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L1",
+      "name": "PlayerY",
+      "symbol": "var_playery"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L2",
+      "name": "ActorX",
+      "symbol": "var_actorx_0"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L3",
+      "name": "ActorY",
+      "symbol": "var_actory"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L4",
+      "name": "Pause",
+      "symbol": "var_pause"
+    },
+    {
+      "id": "952d7da3-4bf6-431b-9896-0d476ddce786__L5",
+      "name": "AttackTimer",
+      "symbol": "var_attacktimer"
+    },
+    {
+      "id": "35823845-a07e-4beb-93ca-b5fb81cc44a3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
+    },
+    {
+      "id": "129db9ff-1b79-41d2-9bc3-3c94694f868c__L1",
+      "name": "WhyMe",
+      "symbol": "var_whyme"
+    },
+    {
+      "id": "45e976cf-3894-47de-8dab-2387f26a42e2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "777f8a55-6fab-4eac-8c90-84469ccfba8a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "0c00ce55-56a2-4695-a6e7-c6424cd46edd__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
+    }
+  ]
+}

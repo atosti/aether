@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "04e34671-21a8-4051-89d5-8aca0ca8def1",
+  "_index": 0,
+  "symbol": "actor_13",
+  "prefabId": "",
+  "name": "",
+  "x": 22,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Welcome to the Royal Garden, Milady.\nIt's courtesy of her late majesty.",
+          "Even in death she still bestows us with\nsuch kindness. God bless her soul."
+        ],
+        "avatarId": ""
+      },
+      "id": "c9981adc-1f3b-4ff5-b25b-25cd1813c799"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

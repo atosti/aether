@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "301f3e48-ad25-4509-9a09-b67daf6728cd",
+  "name": "silence",
+  "symbol": "emote_silence",
+  "width": 16,
+  "height": 16,
+  "filename": "silence.png"
+}

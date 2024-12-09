@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "74c01323-865a-4a94-a074-7294a1c5e5b3",
+  "name": "memories",
+  "symbol": "bg_memories",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "memories.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "script",
+  "id": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+  "name": "Battle - Become Alexandros",
+  "symbol": "script_19",
+  "description": "Switches the player character to be Alexandros during a battle screen.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "16300c7b-8b07-4a79-83fd-6e3792fd9cff"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "b1e0a6e1-d092-4fed-855b-12563faad575",
+        "persist": false
+      },
+      "id": "601eb1c0-28c7-46d0-80e8-0182e6abe29e"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "15",
+        "expression": "$13$"
+      },
+      "id": "d39f4650-0d7b-476d-a40d-30ae68016681"
+    }
+  ]
+}

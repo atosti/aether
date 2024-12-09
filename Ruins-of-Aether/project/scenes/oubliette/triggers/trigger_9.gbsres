@@ -1,0 +1,53 @@
+{
+  "_resourceType": "trigger",
+  "id": "6d8e2bb6-33b0-4fcd-ac13-6e3cbb4642fb",
+  "_index": 8,
+  "symbol": "trigger_36",
+  "prefabId": "",
+  "name": "",
+  "x": 11,
+  "y": 3,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You take a book off the shelf and crack\nopen its dusty carapace. It fills your\nnostrils with a stagnant aroma.",
+                "Inside are an assortment of diagrams\nand figures. The accompanying notes are\nwritten in a language you don't recognize.",
+                "The images seem to depict human bodies\nat varying levels of decay. Though it's\nimpossible to decipher any further."
+              ],
+              "avatarId": ""
+            },
+            "id": "4e392841-db91-419a-8585-97138a46e6e5"
+          }
+        ]
+      },
+      "id": "58071286-2917-4b58-b6ec-199fad6914d3"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "dbac9cb0-7782-43e7-ab95-3ce49fdfa76e"
+    }
+  ]
+}

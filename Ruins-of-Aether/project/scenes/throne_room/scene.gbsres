@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "cb9c3257-9cae-4e76-8d30-eb3199d6b6f6",
+  "_index": 4,
+  "type": "TOPDOWN",
+  "name": "Throne Room",
+  "symbol": "scene_throne_room",
+  "x": 592.1000000000001,
+  "y": 215.59999999999974,
+  "width": 20,
+  "height": 36,
+  "backgroundId": "2911d21b-698f-43b0-af8c-a9765f48f51e",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "5e6ba1be-9deb-4132-bd92-3a49971761db",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "1026d12f-15bb-4cab-a6a3-5de23c47dac5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f17+002+0f10+0012+0f2+0012+0f2+007+0f4+007+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f8+006+0f8+0012+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+0012+0f2+0012+0f!0028+0f!0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+003+0f2+008+0f2+003+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f9+004+0f10+004+0f8+"
+}

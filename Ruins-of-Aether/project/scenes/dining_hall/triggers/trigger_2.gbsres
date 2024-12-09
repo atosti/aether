@@ -1,0 +1,53 @@
+{
+  "_resourceType": "trigger",
+  "id": "ae644e78-2282-4b88-b604-23c81d7eed6c",
+  "_index": 1,
+  "symbol": "trigger_15",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 1,
+  "width": 4,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A collection of portraits and paintings\nhang on the wall of the dining hall. Each\none captures a moment of revelry.",
+                "There's images of knights, jesters, bards,\nkings, queens, and everything in between.\nAll eating, drinking, and dancing.",
+                "Clearly a memorial of better times. These\npaintings are well-maintained. The Crown\nmust hold them in high esteem."
+              ],
+              "avatarId": ""
+            },
+            "id": "6a56bd82-4b12-45f8-9224-d493bd9306aa"
+          }
+        ]
+      },
+      "id": "a6e3f629-5aa2-4a18-9db3-d95fbe0e2ac4"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "67e21eec-762e-4690-bae6-35847112ec91"
+    }
+  ]
+}

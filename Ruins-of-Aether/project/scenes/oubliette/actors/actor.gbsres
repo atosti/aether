@@ -1,0 +1,68 @@
+{
+  "_resourceType": "actor",
+  "id": "1b76ea3f-0698-41eb-b49e-45b15b4e36a4",
+  "_index": 0,
+  "symbol": "actor_0",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 11,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c66d6813-bcbb-4789-af37-7bd1d2cb3147",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Glad to see you're still holding up. I must\nadmit, I'm envious of your physique! We\ntoiled greatly to bring you back..."
+              ],
+              "avatarId": ""
+            },
+            "id": "6512a8e0-0a0e-4c66-b7fb-6d3af0a2cc9e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "My hands are still shaking... The Ritual\nworked! All our toiling finally paid off!"
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "1083faab-807f-4135-85df-c8e9e75da5d9"
+          }
+        ]
+      },
+      "id": "bd71be06-075a-4c76-8c1f-d8099c38dd8e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

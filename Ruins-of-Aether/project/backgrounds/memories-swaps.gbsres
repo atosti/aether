@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c046ecb3-5901-43f0-9d6d-900f5174b29c",
+  "name": "memories-swaps",
+  "symbol": "bg_memories_swaps",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "memories-swaps.png",
+  "tileColors": "",
+  "autoColor": false
+}

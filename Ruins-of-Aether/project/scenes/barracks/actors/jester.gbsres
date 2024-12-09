@@ -1,0 +1,44 @@
+{
+  "_resourceType": "actor",
+  "id": "456114a4-1d24-46ac-9d1c-b974e57ff8f4",
+  "_index": 1,
+  "symbol": "actor_16",
+  "prefabId": "",
+  "name": "Jester",
+  "x": 38,
+  "y": 1,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "3bc48f33-654b-49d5-8615-7371a1578375"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "64dc7a33-f72c-4487-8fcf-e532a9a79205"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

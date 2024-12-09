@@ -1,0 +1,41 @@
+{
+  "_resourceType": "actor",
+  "id": "948b2b05-f56e-4029-86c6-cbd487811479",
+  "_index": 0,
+  "symbol": "actor_22",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "032bbe25-685e-4696-a78e-2d3a1da41208",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The key to any delicious meal lies in a\nrobust mixture of herbs and spices.",
+          "But with our trade routes now cut-off,\nI've been forced to make substitutions.",
+          "Our Majesty has a very refined palate, so\nI'm hoping he doesn't notice a difference."
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "1cc5349e-8706-44d0-98aa-ee86f5f93220"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

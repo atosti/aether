@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+  "name": "bored",
+  "symbol": "emote_bored",
+  "width": 16,
+  "height": 16,
+  "filename": "bored.png"
+}

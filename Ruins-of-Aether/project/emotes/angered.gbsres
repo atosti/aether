@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "fd077bc0-c02b-4abd-9f01-fb11796a18b8",
+  "name": "angered",
+  "symbol": "emote_angered",
+  "width": 16,
+  "height": 16,
+  "filename": "angered.png"
+}

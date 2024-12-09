@@ -1,0 +1,115 @@
+{
+  "_resourceType": "actor",
+  "id": "04a160fa-e125-428a-bfff-9409660924eb",
+  "_index": 1,
+  "symbol": "actor_12",
+  "prefabId": "",
+  "name": "",
+  "x": 9,
+  "y": 14,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d2f21470-a6c6-4b59-a460-e13902065b3c",
+  "paletteId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Excuse you! Do you mind stepping aside?!",
+                "We're having a conversation here!"
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "cb74a5b2-7da2-423c-a4b7-ca42217873e2"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "1440d7bb-a6f0-4de6-93c9-bf3a6f14ad5a"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "1a3b6ed5-b104-4485-a3c0-1035647964aa",
+              "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+              "__collapse": true
+            },
+            "id": "ad456b3c-4030-4812-ac09-413f90530b99"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The Crown's been more irritable lately...\nSomeone needs to say something to him!\nHe hasn't been himself since, well..."
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "8d432b60-c299-46f0-b715-feb3196740c4"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "901861f3-3e2d-4e4e-a6c8-118b11d20a87",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": true
+            },
+            "id": "b4079968-fe45-4ea8-a6fb-32c71fb35f77"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Shush! You want him to hear you?! The\nlast thing we need is dissent among our\nranks. He'll have a plan in due time..."
+              ],
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "e1932bac-9923-4db3-b328-dd41d4653089"
+          }
+        ]
+      },
+      "id": "9a90b57d-13f4-40c0-b272-53108ff2da1c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

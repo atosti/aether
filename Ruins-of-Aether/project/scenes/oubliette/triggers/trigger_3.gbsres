@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "37b782b4-8a0f-4adb-93a7-c1b7260250e7",
+  "_index": 2,
+  "symbol": "trigger_26",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 3,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A decrepit iron maiden stands before you.\nIt has a soft, remorseful face, as though\npitying its victims. It's remarkably eerie."
+              ],
+              "avatarId": ""
+            },
+            "id": "edd8d364-4cc7-4945-89b6-0fc7918a3432"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "4",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "f58e88d3-98e1-40ff-a702-09d7c7fe0ef2"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": false,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "5f7a2f93-5df8-4236-96a9-a52432bc66c4"
+          }
+        ]
+      },
+      "id": "ab0302d9-f8df-4868-a6df-f363da17b0ec"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "57c52efd-9a2d-4d84-b944-be4d5a153460"
+    }
+  ]
+}

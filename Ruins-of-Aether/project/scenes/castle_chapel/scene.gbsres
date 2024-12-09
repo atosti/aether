@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "8d97d096-5b37-4353-b3c1-b8726b11f220",
+  "_index": 17,
+  "type": "TOPDOWN",
+  "name": "Castle Chapel",
+  "symbol": "scene_18",
+  "x": 838.0000000000007,
+  "y": 200.6666666666667,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

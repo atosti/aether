@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2911d21b-698f-43b0-af8c-a9765f48f51e",
+  "name": "throne-room",
+  "symbol": "bg_throne_room",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "throne-room.png",
+  "tileColors": "0116+03!012+03!018+03!012+03!01bd+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+01e+006+011b+",
+  "autoColor": false
+}

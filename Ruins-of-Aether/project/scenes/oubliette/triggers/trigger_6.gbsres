@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "58a05fae-b65f-4c95-b7eb-0c368ba3c618",
+  "_index": 5,
+  "symbol": "trigger_27",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 2,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A small drainage tunnel caked with\ndecades of dried blood. It's too dark to\nsee where it leads."
+              ],
+              "avatarId": ""
+            },
+            "id": "3c6a38e5-995c-43e5-b2be-df06fd7e22f7"
+          }
+        ]
+      },
+      "id": "cb8b7378-4258-4b38-b59a-0498ef772793"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "184de193-2ab6-47b4-854e-56594c3b6df6"
+    }
+  ]
+}

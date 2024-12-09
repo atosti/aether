@@ -1,0 +1,89 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "a5142ea2-6506-496d-a7d3-6979073baab3",
+  "startX": 18,
+  "startY": 17,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "down",
+  "showCollisionExtraTiles": false,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "fb1b7084-30db-49a4-8167-f082eabaae55",
+    "f3c4c2d0-d047-4227-91b5-09c6b12986c0",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-bg-6",
+    "e59d21b3-99d8-4b6c-8458-99d057e1062f"
+  ],
+  "defaultSpritePaletteIds": [
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "3438e7f9-855f-4d00-9278-ed02a76d5bd6",
+    "e624a14a-ca6a-4d15-885d-b4f144aecc2f",
+    "73ffde98-ebbe-4d9c-896a-5a012265fb77",
+    "56fc328b-1a5d-4ad3-b307-535010a19717",
+    "f3c4c2d0-d047-4227-91b5-09c6b12986c0"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "default-ui",
+  "playerPaletteId": "",
+  "defaultFontId": "6cdfb218-1b00-4c52-894a-6e7c00d4c27b",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+    "PLATFORM": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+    "ADVENTURE": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+    "SHMUP": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+    "POINTNCLICK": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+    "LOGO": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "mixed",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {},
+  "scriptEventDefaultPresets": {}
+}

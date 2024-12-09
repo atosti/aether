@@ -1,0 +1,130 @@
+{
+  "_resourceType": "trigger",
+  "id": "3f9dab08-fb94-4940-9e16-2d371a0ec2b3",
+  "_index": 4,
+  "symbol": "trigger_30",
+  "prefabId": "",
+  "name": "",
+  "x": 1,
+  "y": 13,
+  "width": 5,
+  "height": 3,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "An old, splintered coffin lies before you.\nLooking at it fills you with an immense\nfeeling of comfort and warmth."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "69452681-37dc-46b3-bcb0-169da3721bea"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Peek inside?"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "8e3dc3f6-4594-4864-846a-26f9a4ab6537"
+                },
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L0",
+                    "trueText": "Absolutely.",
+                    "falseText": "Absolutely not.",
+                    "__collapse": false
+                  },
+                  "id": "82e77eb2-bd8c-4fd0-9359-8336e7e0582b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "L0",
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "__collapse": true,
+                    "condition": {
+                      "type": "variable",
+                      "value": "L0"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "The lid opens with a low, soft creak. \nAmidst the dust you find two oddly \nfamiliar coins. You pocket them.",
+                            "TBD - Add Charon's Obol to the player's \ninventory."
+                          ],
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "39527d0a-e894-4caf-9df7-8f5c00911dc9"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "2bb7b339-a0b5-49a5-afd7-66b157bc3cb1"
+                }
+              ],
+              "false": []
+            },
+            "id": "0322a9ff-d64a-46cb-9c79-e77eb83e9d7a"
+          }
+        ]
+      },
+      "id": "a7ea1392-5d2a-4112-a307-65dc5ebda27b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "39cf1d8f-12c6-46ea-a5f8-b8bcc5147c70"
+    }
+  ]
+}

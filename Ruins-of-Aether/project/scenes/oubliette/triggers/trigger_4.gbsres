@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "5d3ec5d9-fbb3-445f-8701-dc5e0f3c7ed4",
+  "_index": 3,
+  "symbol": "trigger_28",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 2,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "There is a slight breeze coming from the\nmouth of this tunnel. Listening closely you\nhear the distant scurrying of rats."
+              ],
+              "avatarId": ""
+            },
+            "id": "bd8117d0-429a-40ae-8648-3da048656a9b"
+          }
+        ]
+      },
+      "id": "4bda9164-fa50-4525-ac74-fa6a2d1f9db3"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "50aa548d-2bfb-4fa8-b391-5c1fd80a7be5"
+    }
+  ]
+}

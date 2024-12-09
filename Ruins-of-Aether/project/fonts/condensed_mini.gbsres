@@ -1,0 +1,13 @@
+{
+  "_resourceType": "font",
+  "id": "6cdfb218-1b00-4c52-894a-6e7c00d4c27b",
+  "name": "Condensed Mini",
+  "symbol": "font_condensed_mini",
+  "width": 128,
+  "height": 112,
+  "filename": "condensed-mini.png",
+  "mapping": {
+    "Œ": 140,
+    "œ": 156
+  }
+}

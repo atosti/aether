@@ -1,0 +1,58 @@
+{
+  "_resourceType": "scene",
+  "id": "8f207906-efe2-499f-95d7-58d29d1036d8",
+  "_index": 3,
+  "type": "TOPDOWN",
+  "name": "West Hallway",
+  "symbol": "scene_west_hallway",
+  "x": 259.95299145299117,
+  "y": 389.74700854700797,
+  "width": 40,
+  "height": 18,
+  "backgroundId": "e769d8d7-b808-4836-a154-e48b6e0af974",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "22b6a428-d602-487a-9d0a-646dc0cb5405",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "default-bg-1",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "",
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6b4c506f-3757-478f-8eee-9748f0493760",
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "afbbdf79-f7b4-445b-b584-9ed442762d84"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "6ba84afc-3907-48de-865b-bce552b532b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f30+002+0f1f+005+0f2+002+0f4+004+0f4+0011+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f!0050+0f!0026+0f2+0026+0f2+0026+0f2+004+0f5+0014+0f5+004+0f2+0026+0f2+0026+0f2+0026+0f29+"
+}

@@ -1,0 +1,44 @@
+{
+  "_resourceType": "scene",
+  "id": "ae03d3db-80b5-4fdd-a11d-0e40fbdbdd53",
+  "_index": 11,
+  "type": "TOPDOWN",
+  "name": "Dining Hall",
+  "symbol": "scene_dining_hall",
+  "x": 63.05882352941177,
+  "y": 390.9084967320259,
+  "width": 20,
+  "height": 36,
+  "backgroundId": "43d9f9c0-7013-42f9-ad19-21c5b2f078c5",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "e3f58961-70fb-42b1-9f8b-999bfbb77182"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2+002+0f11+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+008+0f2+008+0f2+0012+0f2+0012+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+008+0f!007+0f4+008+0f!007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+007+0f4+007+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f15+"
+}

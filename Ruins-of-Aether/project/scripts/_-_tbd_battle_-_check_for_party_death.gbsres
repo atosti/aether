@@ -1,0 +1,199 @@
+{
+  "_resourceType": "script",
+  "id": "3af97135-1e33-4529-a730-a31ebc43d846",
+  "name": "!!! - TBD !!! Battle - Check for party death",
+  "symbol": "script_2",
+  "description": "Checks HP values for all active party members. If they're all zero (dead), then trigger a game over screen.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "CurrentCharacter",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "10",
+        "operator": "<",
+        "comparator": "0",
+        "__collapseElse": true,
+        "__collapse": true,
+        "__disableElse": true,
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "11",
+              "operator": "<",
+              "comparator": "0",
+              "__collapseElse": true,
+              "__collapse": false,
+              "__disableElse": true,
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "11"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "12",
+                    "operator": "<",
+                    "comparator": "0",
+                    "__collapseElse": true,
+                    "__collapse": false,
+                    "__disableElse": true,
+                    "condition": {
+                      "type": "lt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "12"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "13",
+                          "operator": "<",
+                          "comparator": "0",
+                          "__collapseElse": true,
+                          "__collapse": false,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "lt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "13"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SOUND_PLAY_EFFECT",
+                              "args": {
+                                "type": "52113f27-7546-4990-883c-23869816876d",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0
+                              },
+                              "id": "140e2d9c-5759-4230-8994-9cb5b0b2bfde"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Your party crumples..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": true
+                              },
+                              "id": "071a3bc1-2c56-4b73-86e5-51d896441743"
+                            },
+                            {
+                              "command": "EVENT_SWITCH_SCENE",
+                              "args": {
+                                "sceneId": "94ebeb0f-db97-4fbd-be91-7059aa564bec",
+                                "x": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "direction": "",
+                                "fadeSpeed": "2",
+                                "__collapse": true
+                              },
+                              "id": "28748a2b-4142-44bd-b439-eb36a8b97beb"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "775d3821-a7b9-4925-8b64-90b437fef042"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f1d22e46-5e75-41f9-9562-22da4e44fc5e"
+                }
+              ],
+              "false": []
+            },
+            "id": "9714335b-9768-4c96-bec5-ddf63cc8f988"
+          }
+        ],
+        "false": []
+      },
+      "id": "b29178ae-8772-4d3a-ab77-0f1cc1fa612f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "V0",
+        "operator": "==",
+        "comparator": "0",
+        "__collapseElse": true,
+        "__collapse": false,
+        "__label": "If CurrCharacter is Aylmera",
+        "__disableElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "3d272bd8-67e4-4ecc-b709-4fdfcb45530a"
+    }
+  ]
+}

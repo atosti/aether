@@ -1,0 +1,221 @@
+{
+  "_resourceType": "script",
+  "id": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
+  "name": "Split Party Member 1",
+  "symbol": "script_split_party_member_1",
+  "description": "Allows a Party member to walk out from the Player for cutscenes. Follows the sequence: (2, P, 1, 3). Requires a hidden actor whose collisions are disabled.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "V0",
+        "vectorY": "V1"
+      },
+      "id": "817d443a-c5f2-4bd6-b689-228e73bca1a1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "__collapse": false
+      },
+      "id": "5f77967c-9974-4730-a78d-787823cc68bd"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "0",
+        "__collapse": true
+      },
+      "id": "34f8d4b8-6977-4c68-a6ec-dc1a6e8d5537"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "ec740938-4d17-4c8d-8ded-983fafadf0ea"
+          }
+        ],
+        "false": []
+      },
+      "id": "4647e33e-c4e2-42e3-b3d0-7129c3f81997"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "ca4ffc32-548f-4b5d-98a7-61b95c611521"
+          }
+        ],
+        "false": []
+      },
+      "id": "812acd01-dfa7-4633-a1fc-e7672a181db2"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": -2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "ccb66d08-6a8b-45fe-9a74-77d9fcd77392"
+          }
+        ],
+        "false": []
+      },
+      "id": "eef006fb-cd95-4139-ac5e-f156b80a64cd"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "0",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "ad18fc25-9dd2-4898-8502-31e2c56b7845"
+          }
+        ],
+        "false": []
+      },
+      "id": "6b5cf624-f449-48db-895d-51bdf3081b11"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "property",
+          "target": "player",
+          "property": "direction"
+        },
+        "__collapse": true
+      },
+      "id": "145ccbc6-2a02-436c-9f42-9555fa475c09"
+    }
+  ]
+}

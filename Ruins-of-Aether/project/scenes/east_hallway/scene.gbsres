@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "eaff1842-faf4-4837-87b0-9291a9f8da23",
+  "_index": 7,
+  "type": "TOPDOWN",
+  "name": "East Hallway",
+  "symbol": "scene_east_hallway",
+  "x": 761.3222222222223,
+  "y": 389.1111111111112,
+  "width": 40,
+  "height": 18,
+  "backgroundId": "124778fe-36ac-423e-93e1-a7f44f146539",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "default-bg-1",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "dec4c194-c8ff-4fee-b8d2-569d2f6bde5c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f31+002+0f12+002+0fa+0011+0f4+0011+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f!0050+0f!0026+0f2+0026+0f2+0026+0f2+001d+0f5+004+0f2+0026+0f2+0026+0f2+0026+0f29+"
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "458c2abf-e4b8-4591-9fac-777627a66c54",
+  "_index": 21,
+  "type": "TOPDOWN",
+  "name": "Royal Courtyard East",
+  "symbol": "scene_22",
+  "x": 925.6000000000003,
+  "y": 620.8000000000006,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

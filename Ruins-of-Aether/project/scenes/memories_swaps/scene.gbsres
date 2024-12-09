@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fb2f9c3b-4ef7-4f62-bb63-fcf657e4c5df",
+  "_index": 23,
+  "type": "TOPDOWN",
+  "name": "Memories Swaps",
+  "symbol": "scene_25",
+  "x": 1448.8000000000002,
+  "y": 406.39999999999986,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "c046ecb3-5901-43f0-9d6d-900f5174b29c",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "9588518f-f876-4056-ab60-5d2703e0bf61",
+  "name": "premades/RPG_exterior",
+  "symbol": "sprite_premades_rpg_exterio_0",
+  "numFrames": 12,
+  "filename": "premades/RPG_exterior.png",
+  "checksum": "e23f5216f1395536bc85cfdc9ebb1313f3397d34",
+  "width": 192,
+  "height": 136,
+  "states": [
+    {
+      "id": "c7f0e78d-eb61-48d6-8d32-e1939b6f33f8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "fe4839c1-f0fb-4fae-a8b9-648a7dee0cb7",
+          "frames": [
+            {
+              "id": "1fdc494d-0df1-4ff6-bb84-0bc979ab54d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "506486d7-e166-497d-9dd9-a63eccd12192",
+          "frames": [
+            {
+              "id": "c648a2d5-afe0-456c-9e62-90abd73d5fc3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e264516d-4de2-4e7b-8339-ad7a61a16705",
+          "frames": [
+            {
+              "id": "9d7f504f-6e49-427f-a461-6adccee0f0e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "564b74d3-1e26-420a-8275-e4a26891f612",
+          "frames": [
+            {
+              "id": "690d7cda-6656-4132-a7a6-485ab33244ef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "22655458-3bc8-4c20-bb43-69551320224a",
+          "frames": [
+            {
+              "id": "4ddefc65-3693-4e1c-aff6-a0b02aecfce0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2729fde8-b5f1-4880-b76f-fbf195796289",
+          "frames": [
+            {
+              "id": "2325d25b-66aa-45c1-a488-2d609091047e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6cd0ce09-5ecd-40ea-87f7-18b50f6763c8",
+          "frames": [
+            {
+              "id": "453b5c23-d514-404f-81f5-9931ef98d550",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a6f1b5b2-3937-4cc6-b178-a3fbd1beb666",
+          "frames": [
+            {
+              "id": "331d7dc8-8907-4141-ba80-9f421aa12a78",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

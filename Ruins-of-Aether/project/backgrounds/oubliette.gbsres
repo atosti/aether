@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8babce70-e3bf-4260-99a9-e3cbd4fef521",
+  "name": "oubliette",
+  "symbol": "bg_oubliette",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "oubliette.png",
+  "tileColors": "0168+023+013+02!01a+02!013+02!014+022+019+02!013+022+01b+02!012+02!01!02!01!023+01a+02!014+025+01a+02!015+024+013+025+012+02!015+024+018+02!01!02!014+02!012+022+013+02!014+02!01a+022+013+022+0123+023+0130+",
+  "autoColor": false
+}

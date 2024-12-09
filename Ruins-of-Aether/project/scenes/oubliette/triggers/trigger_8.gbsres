@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "20f9a213-9a49-44be-9719-b7aacf6a2d1a",
+  "_index": 7,
+  "symbol": "trigger_32",
+  "prefabId": "",
+  "name": "",
+  "x": 5,
+  "y": 9,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A large, bloodied rune is carved into the\nfloor. Its complicated web of markings all\nconverge at a single, central point. "
+              ],
+              "avatarId": ""
+            },
+            "id": "2c9efe67-76eb-4223-bec5-2ad28b2b684d"
+          }
+        ]
+      },
+      "id": "dc3ee3af-4787-4307-89a0-2a00a6469546"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "8f6ac154-7cfa-4441-8e02-750569b8d38d"
+    }
+  ]
+}

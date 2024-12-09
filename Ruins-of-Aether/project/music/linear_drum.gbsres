@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "9c2b53fc-a780-4583-b6b8-a0d5c9788d66",
+  "name": "linear_drum",
+  "symbol": "song_linear_drum",
+  "filename": "linear_drum.uge",
+  "settings": {},
+  "type": "uge"
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "script",
+  "id": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+  "name": "Battle - Become Aylmera",
+  "symbol": "script_17",
+  "description": "Switches the player character to be Aylmera during a battle screen.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "d6ff2d34-c866-49ad-8f8e-74c34d418846"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8"
+      },
+      "id": "b1f7e27d-aeaf-4682-849f-47eb15f4cdbc"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "15",
+        "expression": "$10$"
+      },
+      "id": "0bc281d3-a53d-4e79-bba9-05a53022f373"
+    }
+  ]
+}

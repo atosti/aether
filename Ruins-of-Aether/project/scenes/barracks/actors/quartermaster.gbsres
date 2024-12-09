@@ -1,0 +1,252 @@
+{
+  "_resourceType": "actor",
+  "id": "a120d660-598d-48a8-b920-252642694ecd",
+  "_index": 0,
+  "symbol": "actor_15",
+  "prefabId": "",
+  "name": "Quartermaster",
+  "x": 19,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
+        "$actor[0]$": "456114a4-1d24-46ac-9d1c-b974e57ff8f4",
+        "__collapse": true,
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L1"
+        }
+      },
+      "id": "76cad40f-2d52-4384-91bb-6ef0823ee6aa"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+        "__collapse": true
+      },
+      "id": "b471ae54-5d55-49a9-9d2d-07fb9e1596d1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Son of a bitch! That scrawny wizard \nwasn't kidding. He really did bring her\nback from the dead."
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "2a6f1811-8e9e-4d91-9e9a-f35d19881dea"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Indeed. And she's in need of some \nsparring practice before we set off\non our journey."
+        ],
+        "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+        "__collapse": true
+      },
+      "id": "af079e1f-d186-45fd-be3e-7207c770741d"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "ef42a15e-c4cf-4fea-8b62-bd11cc19c7f9",
+        "__collapse": true
+      },
+      "id": "2e83f871-3db0-480f-aa81-9096b89f1f8d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Pfft. Isn't it enough I wasted a sword and \nsuit of armor on this walking corpse?",
+          "Give it a week, Jester, she'll be back\nunder the earth where she belongs."
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "0329bdc3-edae-42d2-a6cc-4667b26162b4"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "456114a4-1d24-46ac-9d1c-b974e57ff8f4",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+        "__collapse": true
+      },
+      "id": "448eb1f9-a81f-4a48-a28c-cf3464369dd4"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L3",
+        "trueText": "You jealous?",
+        "falseText": "Spar me, coward.",
+        "__collapse": true
+      },
+      "id": "75d13d8e-cb04-40bb-9b16-abce9cd0b255"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "L3",
+        "__collapseElse": true,
+        "__collapse": true,
+        "condition": {
+          "type": "variable",
+          "value": "L3"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ha! Jealous? Of a putrid corpse \npretending she's a war hero? No, I don't\nlong to be a wannabe such as yourself."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "98cdd2dc-a17e-4e88-9767-a4704573b658"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "But, fine. I'll spar you. Only because I\ndon't want to see my gear go to waste.\nShow me how you hold that sword."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "80c6d927-53bd-4b38-ac89-1d988bde97c7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "e589dc88-c9bb-41d6-9be9-337d1d09d6ee",
+              "__collapse": true
+            },
+            "id": "984f3864-4e40-4806-9a72-0ebacf1da066"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You know what? I might actually enjoy\nsmacking some sense into you. Show me\nhow you hold that sword."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "2dab0ad6-7581-404b-b35e-36b7024fa8db"
+          }
+        ]
+      },
+      "id": "a18d7375-2baf-41a5-9986-80a66071dc3a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "player",
+        "spriteStateId": "Sword Drawn",
+        "__collapse": true
+      },
+      "id": "7f523be6-6a79-4578-9aa9-94db282b5697"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "fa2a7162-c38b-4c3f-bdd2-b44617cc955a"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+        "__collapse": true
+      },
+      "id": "758250ca-5d99-407a-8b70-bf5d0bb2fd14"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...Seriously? It's like you've never held a \ngreatsword before. You're gonna swing it\nall wrong.",
+          "Here. Hold it like so... Use your top hand to\npush, and let your bottom hand pull. That'll\nlend strength to your swings.",
+          "You know why they call these things\nbastard swords, right?"
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "eeeec804-be9c-4fe2-9d68-152f6b42b8cc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Can't say I do. How'd they earn that\nnickname?"
+        ],
+        "avatarId": "89d9de79-935b-482e-93a3-e221a652d501",
+        "__collapse": true
+      },
+      "id": "478182f4-946f-43dd-8dd6-43e0ffc38083"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "cd7af2e6-0c23-4768-b2ea-84a586be2de0"
+      },
+      "id": "cc491b43-079f-4930-9199-bfc0161647b9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Because one mistake with it, and you'll \nleave your sons fatherless. I mean... not\nin *your* case. But you get the idea.",
+          "Anyhow. Let's try out that new grip.\nRemember not to hold back, lord knows\nyour opponents sure won't."
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "da489b71-e3ed-4cef-b923-965110656485"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "player",
+        "spriteStateId": "",
+        "__collapse": true
+      },
+      "id": "acf2343f-791b-4090-806b-0b29bf64058d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

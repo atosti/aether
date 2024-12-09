@@ -1,0 +1,51 @@
+{
+  "_resourceType": "trigger",
+  "id": "5c79b782-7d07-4b97-a435-e3ee5ceb555d",
+  "_index": 2,
+  "symbol": "trigger_33",
+  "prefabId": "",
+  "name": "",
+  "x": 7,
+  "y": 4,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "An old cloth canvas hangs from the wall.\nIt looks as though it hasn't been washed in\nyears."
+              ],
+              "avatarId": ""
+            },
+            "id": "6e11da53-289e-4e35-a730-4f3b14bf53b7"
+          }
+        ]
+      },
+      "id": "72cb9e57-4f93-49e4-9bd1-78bc919743ae"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "f9c46261-7f48-45fa-92db-79baedcf448d"
+    }
+  ]
+}

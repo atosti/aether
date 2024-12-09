@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "d3000380-c6cd-4664-bfcd-4f6e1f42e236",
+  "_index": 2,
+  "symbol": "trigger_35",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 3,
+  "width": 4,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A flyer sits on the shelf, titled, \"The \nWizard Menace\". Would you like to\nread it?"
+              ],
+              "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
+            },
+            "id": "12c732d9-2a4b-4726-909e-5d8e9a18ef7d"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "Yes.",
+              "falseText": "No.",
+              "__collapse": true
+            },
+            "id": "a5ecc67f-8e26-4a85-8b45-c960034d73ba"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": true,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "It reads: \"Calling all able-bodied men!\nLoathsome wizards squat on our land\nto the East, defiling our dead with",
+                      "their wicked necromancy. The\nransacking of our Kingdom's\ncatacombs should not be tolerated.",
+                      "These perpetrators must be held\naccountable, and their sovereignty\nrevoked. Lest their tyranny prevails.",
+                      "Enlist with the Crown today! Fight for\na better tomorrow! Protect the\nRealm as it has protected you.\""
+                    ],
+                    "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+                    "__collapse": false
+                  },
+                  "id": "d8398e65-83f5-4565-a813-da36a32e5c86"
+                }
+              ],
+              "false": []
+            },
+            "id": "54320299-fb54-4131-a34c-25797032885f"
+          }
+        ]
+      },
+      "id": "b7c5827a-e6e6-45df-b2e3-ba334e316731"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "807aaaf9-9f5c-460c-b6d2-9a57f6335803"
+    }
+  ]
+}

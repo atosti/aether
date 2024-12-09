@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a987284d-f6a8-42ca-9242-a79c9e4f8679",
+  "name": "kings-chambers",
+  "symbol": "bg_kings_chambers",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "kings-chambers.png",
+  "tileColors": "017+03!014+03!01!042+01c+054+012+042+01c+054+0110+054+0110+054+01d+00a+01a+00a+01a+00a+01a+00a+01a+00a+01a+00a+01a+00a+017d+",
+  "autoColor": false
+}

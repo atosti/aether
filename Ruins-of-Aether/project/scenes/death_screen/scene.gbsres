@@ -1,0 +1,372 @@
+{
+  "_resourceType": "scene",
+  "id": "94ebeb0f-db97-4fbd-be91-7059aa564bec",
+  "_index": 16,
+  "type": "TOPDOWN",
+  "name": "Death Screen",
+  "symbol": "scene_death_screen",
+  "x": 1272,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "b7af1903-f2f4-490f-ab6b-5c7d583721e7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_RNG_SEED",
+            "args": {
+              "__collapse": true
+            },
+            "id": "67bac4c2-edb3-47de-8566-4e349768e6e7"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "T0",
+              "operation": "set",
+              "other": "rnd",
+              "vectorY": "L0",
+              "value": "0",
+              "minValue": "0",
+              "maxValue": 6,
+              "clamp": false,
+              "__collapse": false
+            },
+            "id": "66a752d7-15f9-493a-8089-d109c28a6a92"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 0,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "And so she failed in her mission. A hopeful\ndream snuffed out, like a candle in the\nnight."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "113f522c-e902-4c23-89a8-38ddfad086e4"
+                }
+              ],
+              "false": []
+            },
+            "id": "09975fb5-cf6a-4b0d-9773-9110741bf034"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 1,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "And so it was that the Realm finally fell\ninto total ruin. Bickering and fighting until\nthe bitter end."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "d16b55a4-1bfc-447f-adb8-c13689c887dc"
+                }
+              ],
+              "false": []
+            },
+            "id": "7c307a21-88b7-48d4-90cf-327a6a1272fb"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 2,
+              "__collapseElse": true,
+              "__collapse": false,
+              "__disableElse": true,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "As the last of your energy fades from \nyour body, a voice enters your mind: \n'Ye. Have. Failed us.'"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "2eee41a2-f15c-45da-9ed9-6328ce537183"
+                }
+              ],
+              "false": []
+            },
+            "id": "2cf245d0-e164-4567-8c07-62566b2cdccf"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 3,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You collapse into a despicable pile of flesh\nand bone. At least you're spared from\nthe agonizing undeath of the Aether."
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "4a3927a2-9bf6-44bd-91e8-e2c00596c36d"
+                }
+              ],
+              "false": []
+            },
+            "id": "79e62f44-a46f-495e-b262-f71bb24ce742"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 4,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\"Such miserable failure. Ye must pray\nthat God forgive thee. We certainly don't.\""
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "70989b34-b0ab-40cb-894a-cf92e41751ff"
+                }
+              ],
+              "false": []
+            },
+            "id": "209332ce-80db-4265-bdca-4f94d9f324fe"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 5,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 5
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Your body collapses as the thought of \ndeath permeates your mind. Everyone in\nthe Realm now shares this same fate."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "4cf310ba-2255-4ce4-ba9a-d5415615a805"
+                }
+              ],
+              "false": []
+            },
+            "id": "74920278-0aae-4022-8511-966c52b7363e"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "operator": "==",
+              "comparator": 5,
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "T0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 5
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Chaos loomed, as you drew your last\nbreath. A sobering reminder of the fate\nthat awaits us all."
+                    ],
+                    "avatarId": "",
+                    "__collapse": false
+                  },
+                  "id": "f84f6992-1f28-4cb7-8df7-2eb5c50e7428"
+                }
+              ],
+              "false": []
+            },
+            "id": "10115035-b20e-4087-9bf1-9e86b1e2c8a3"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a5142ea2-6506-496d-a7d3-6979073baab3",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "b4b31333-d0b3-4c00-90a9-6c02bba7825a"
+          }
+        ]
+      },
+      "id": "eea5346a-0b55-4e7c-9d8c-81b6ae58dc71"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

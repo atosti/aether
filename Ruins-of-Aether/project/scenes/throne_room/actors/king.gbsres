@@ -1,0 +1,560 @@
+{
+  "_resourceType": "actor",
+  "id": "c1c66f5a-4fa3-48b4-bf2b-b72737df4182",
+  "_index": 0,
+  "symbol": "actor_king",
+  "prefabId": "",
+  "name": "King",
+  "x": 8,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "16cb61f8-5d45-4fb1-b335-5428e97219fd",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Spoken with King after meeting Jester?",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "7",
+                    "flag": 6,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Go, Aylmera. The fate of the Realm \ndepends upon your haste!"
+                          ],
+                          "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                          "__collapse": true
+                        },
+                        "id": "fa3f0eec-754c-4988-97d9-675f92b032a2"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "fb9d751e-94ff-4b51-9a41-5be0b345bc6e",
+                          "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                          "__collapse": true,
+                          "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "T0"
+                          },
+                          "$variable[V1]$": {
+                            "type": "variable",
+                            "value": "T1"
+                          }
+                        },
+                        "id": "bf597aee-2c94-49d6-a1ea-93e9427d7a18"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "ef196ee5-8238-406e-a005-35fccf1b9c2f",
+                          "__collapse": true
+                        },
+                        "id": "ecfcb6a8-097b-4af2-a03c-b00263914253"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Splendid! I'm glad to see you two are\nalready getting well acquainted.",
+                            "I've arranged for you to spar with\nthe Quartermaster in the armory.",
+                            "Only if you feel the need to refresh\nyour skills in battle, of course.",
+                            "The two of you have a long, harsh\njourney ahead of yourselves."
+                          ],
+                          "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                          "__collapse": false
+                        },
+                        "id": "286de3ff-1432-4a20-9777-bc6971883f77"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                          "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                          "__collapse": true
+                        },
+                        "id": "0fa1ff9c-f92d-40cc-9dfb-836a94a9ca51"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "The two of us? My King, I thought we\nhad discussed a party of three.",
+                            "Alexandros's expertise is necessary\nfor us to restore the elements."
+                          ],
+                          "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                          "__collapse": false
+                        },
+                        "id": "dcae0010-8f68-40b0-a050-f27b0e828f8f"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Indeed his skill will be vital, which is\nwhy he remains part of the plan.",
+                            "I've simply sent him ahead of you\ntwo. To the lands in the North.",
+                            "He'll procure the elemental stone\noverseen by Lord Velazquez."
+                          ],
+                          "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                          "__collapse": false
+                        },
+                        "id": "1829f3c9-466e-4c1f-99c2-3a82f0d11148"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                          "emoteId": "9c889f80-d9e5-4795-8508-574ca67eca6d",
+                          "__collapse": true
+                        },
+                        "id": "1aee459d-0bf1-47bb-b40f-3f6a69233a40"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Your Majesty! Certainly you see the \nrisk in such an endeavor...",
+                            "Sending Alexandros alone is unwise,\nHis Lordship has a reputation for-"
+                          ],
+                          "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                          "__collapse": false
+                        },
+                        "id": "45156c0a-7077-4ea2-b75f-51a079e84ebc"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                          "__collapse": true
+                        },
+                        "id": "3cab082b-3205-4b6c-a5c2-e4f7c9e2deb3"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Silence! The two of you will suffice\nfor the first leg of the journey.",
+                            "As for your concerns about safety, \nSigmund, I took them to heart.",
+                            "Which is why I didn't send Alexandros\nalone...",
+                            "He's accompanied by 3 members of\nthe Royal Guard. Elite soldiers.",
+                            "Besides, I'm confident in Velazquez's\ncontinued loyalty to the Kingdom.",
+                            "That and Alexandros assured me of\nour new Hero's talents.",
+                            "You should have no issues acquiring\nthe first stone by yourselves.",
+                            "That is, unless you're unable to trust\nin your own capabilities, Jester."
+                          ],
+                          "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                          "__collapse": false
+                        },
+                        "id": "142f20c0-0a1c-4f0a-80a1-b6b23226a571"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                          "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
+                          "__collapse": true
+                        },
+                        "id": "055d32ea-052d-4924-ba16-0f768e51f8bd"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Understood, your majesty...",
+                            "We'll rendezvous with Alexandros\nat Lord Velazquez's keep later on."
+                          ],
+                          "avatarId": "b0d0792c-0d66-4f9a-b3b9-79b181c34bd7",
+                          "__collapse": false
+                        },
+                        "id": "c7d3a61b-bb8a-4b41-82c6-15c74ac87aea"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Precisely. Once rejoined, you can\nlocate the remaining 2 stones.",
+                            "Don't forget the importance of your\nmission.",
+                            "We're all reliant on your unwaivering\nvictory."
+                          ],
+                          "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                          "__collapse": false
+                        },
+                        "id": "ce116db1-6c69-41d0-855c-6d9d7052ffa2"
+                      },
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "T0",
+                          "trueText": "Absolutely.",
+                          "falseText": "No guarantees.",
+                          "__collapse": false
+                        },
+                        "id": "070adaf9-909e-4ee7-b2c4-54c9df3e54ad"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "T0",
+                          "__collapseElse": false,
+                          "__collapse": false,
+                          "condition": {
+                            "type": "variable",
+                            "value": "T0"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                "__collapse": true
+                              },
+                              "id": "62706fb2-4407-441c-83fc-292432568d62"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "May God guide you to victory,\nAylmera. Heaven knows we need it..."
+                                ],
+                                "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                "__collapse": true
+                              },
+                              "id": "9ffb5ff1-27cd-4c12-9771-560ea1cd7da8"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                "__collapse": true
+                              },
+                              "id": "0404647d-9acc-45cd-8f77-75ea3a1ed8e7"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Keep an eye on her, Sigmund..."
+                                ],
+                                "avatarId": "a2dc5561-9d6f-42f4-9e9d-7967b7360135",
+                                "__collapse": true
+                              },
+                              "id": "1bd04431-7138-43bd-88ec-c2f81a39fdf3"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                                "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+                                "__collapse": true
+                              },
+                              "id": "84f78793-9437-4dcf-8c3d-feb2650909ce"
+                            }
+                          ]
+                        },
+                        "id": "d745e909-ace6-4f24-9c69-17519901aa43"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "a56f10cc-cc82-47c3-b556-87b83b7a003a",
+                          "$actor[0]$": "134d841a-6b46-4bd2-94f2-90c4be4c0275",
+                          "__collapse": true
+                        },
+                        "id": "75648b34-4785-40f9-be56-083d11e88877"
+                      },
+                      {
+                        "command": "EVENT_ADD_FLAGS",
+                        "args": {
+                          "variable": "7",
+                          "flag1": false,
+                          "flag2": false,
+                          "flag3": false,
+                          "flag4": false,
+                          "flag5": false,
+                          "flag6": false,
+                          "flag7": true,
+                          "flag8": false,
+                          "flag9": false,
+                          "flag10": false,
+                          "flag11": false,
+                          "flag12": false,
+                          "flag13": false,
+                          "flag14": false,
+                          "flag15": false,
+                          "flag16": false,
+                          "__collapse": true
+                        },
+                        "id": "0e92c680-e55f-4d8d-8359-07c10632ce90"
+                      }
+                    ]
+                  },
+                  "id": "5f82c0f2-ed88-446d-8890-224177a9dfd3"
+                }
+              ]
+            },
+            "id": "65733fee-fa2a-4470-8f22-cee83ee76202"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Spoken with the King Solo?",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "7",
+                    "flag": 5,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                          "__collapse": true
+                        },
+                        "id": "72e03b36-4fa0-403d-b00c-fe38739ce9a1"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Alexandros sent word of his success,\nbut to see you with my own eyes...",
+                            "It's truly a privilege, Aylmera. Even the\nlegends don't do your presence justice.",
+                            "Regretably, I wish our paths could cross \nunder more favorable circumstances.",
+                            "You see, my kingdom lies at a crossroads.\nIndeed, I face many an ultimatum.",
+                            "My only heir is slain. My armies are\ndecimated. And now the undead horde...",
+                            "It encroaches from the East. Drawing\nnearer to the castle every day..."
+                          ],
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "9838c632-8a6f-46f1-8b7f-7b2c57538fb3"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "8cf44d2b-d597-4df0-9816-0d9665af449a",
+                          "__collapse": true
+                        },
+                        "id": "4c236c69-cb3f-4a77-9f6a-5bb00502619f"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Alas. I'm a man of few options. Hence\nwhy I've chosen to revive you.",
+                            "You served my royal bloodline ages ago\nduring a time of great rebellion.",
+                            "And though I fear our situation now is\neven more dire...",
+                            "I know that you are a Hero capable of\nrising to the occasion.",
+                            "I must ask for your assistance in \nstemming the threat of the undead.",
+                            "This is why I've brought you back.\nTo save not only my Kingdom...",
+                            "But to save the Realm itself.",
+                            "Aylmera, I must humbly ask you to take up\narms as you did many years ago.",
+                            "Join me. And fight once more on behalf of\nthis glorious Realm."
+                          ],
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "4297328e-3f17-460d-b520-1a7e7d251bb4"
+                      },
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "T0",
+                          "trueText": "I'd be honored.",
+                          "falseText": "And if I refuse?",
+                          "__collapse": true
+                        },
+                        "id": "42292b46-db38-48e2-be84-ad7b55a56f7f"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "T0",
+                          "__collapseElse": false,
+                          "__collapse": true,
+                          "condition": {
+                            "type": "variable",
+                            "value": "T0"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "7f3650de-b852-4356-a0b8-b7b68109927b",
+                                "__collapse": true
+                              },
+                              "id": "da87de20-4a78-4589-b0c3-f5d0802aeac5"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "You impress me, Hero. I'm sure you'll\nmake a fine addition to our ranks.",
+                                  "I'll send word to my soldiers of your\nenthusiasm!"
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                              },
+                              "id": "ea7764ed-de75-4a51-b6fa-72bc6fa78d1a"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+                                "__collapse": false
+                              },
+                              "id": "ad22f281-fa61-49c3-9124-6428266a7c7d"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Then you'd be a fool and a traitor.",
+                                  "My resources have long run thin. And my \npatience was the first thing to go..."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                              },
+                              "id": "9dff63a3-4bb3-433a-a908-843d465b7993"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+                                "__collapse": true
+                              },
+                              "id": "352b4212-fdb3-46c9-996b-9fb5c210d4cb"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "Let me give you some advice my father\nshared with me while on his deathbed:",
+                                  "\"Make friends before making enemies.\"",
+                                  "You'd do well to remember that."
+                                ],
+                                "avatarId": "",
+                                "__collapse": false
+                              },
+                              "id": "b6608cdb-6a21-4c1c-9030-64b1a0bc3b99"
+                            }
+                          ]
+                        },
+                        "id": "2be8daaf-7256-4e94-9480-72e55adf8ae2"
+                      },
+                      {
+                        "command": "EVENT_ADD_FLAGS",
+                        "args": {
+                          "variable": "7",
+                          "flag1": false,
+                          "flag2": false,
+                          "flag3": false,
+                          "flag4": false,
+                          "flag5": false,
+                          "flag6": true,
+                          "flag7": false,
+                          "flag8": false,
+                          "flag9": false,
+                          "flag10": false,
+                          "flag11": false,
+                          "flag12": false,
+                          "flag13": false,
+                          "flag14": false,
+                          "flag15": false,
+                          "flag16": false,
+                          "__collapse": true
+                        },
+                        "id": "b990bb16-85c3-4dab-8242-328d03989654"
+                      }
+                    ]
+                  },
+                  "id": "1623bf78-8f06-4f40-89a1-06f6f64b63ed"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "That's all I have for you. Seek the Jester\nin the War Room to the East.",
+                      "He'll brief you on the details of your \ncoming journey."
+                    ],
+                    "avatarId": "",
+                    "__collapse": true
+                  },
+                  "id": "a80eac46-e166-4d72-9029-ebc500e37a45"
+                }
+              ]
+            },
+            "id": "ca6cb0b9-28ae-42fb-8517-764067405eb7"
+          }
+        ]
+      },
+      "id": "be8712fd-f79d-4010-87ab-2fb1ffc84d8e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

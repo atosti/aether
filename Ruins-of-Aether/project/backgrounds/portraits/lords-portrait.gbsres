@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "dab350c5-db6c-4b60-9696-7964ab76fd7f",
+  "name": "portraits/lords-portrait",
+  "symbol": "bg_portraits_lords_portrait",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "portraits/lords-portrait.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

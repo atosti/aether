@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "ba4d6200-9d8e-4e8d-bc58-d99e3533b5f0",
+  "name": "sad",
+  "symbol": "emote_frown",
+  "width": 16,
+  "height": 16,
+  "filename": "sad.png"
+}

@@ -1,0 +1,39 @@
+{
+  "_resourceType": "script",
+  "id": "0fa458e7-a0b9-4ae2-8e90-81bd0ba5f192",
+  "name": "Laugh (w/Sound)",
+  "symbol": "script_11",
+  "description": "A laugh emote with the associated sound effect.",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "0",
+        "emoteId": "e72229ed-167f-4998-8e4f-63f65ac75ac4",
+        "__collapse": true
+      },
+      "id": "e53a1a3f-eaa6-4685-aa7c-abf3b62b8d61"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "6638692a-cc05-4d03-b27a-25138ae15cb7",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "74579698-34d7-4072-82c8-7f5e2216c7bb"
+    }
+  ]
+}

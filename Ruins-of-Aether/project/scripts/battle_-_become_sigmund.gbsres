@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+  "name": "Battle - Become Sigmund",
+  "symbol": "script_16",
+  "description": "Switches the player character to be Sigmund during a battle screen.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "10bfc6ee-a3c9-4c22-bcb8-609d04bbb3e5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "40c23348-44f0-4b33-9f1b-2e30a1ca02e5",
+        "__collapse": false
+      },
+      "id": "7de16ff9-9db4-4ec4-9dbc-6a3ea5d0fda6"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "15",
+        "expression": "$11$"
+      },
+      "id": "587f7e06-17b4-4307-8f5c-6e9c745c495d"
+    }
+  ]
+}

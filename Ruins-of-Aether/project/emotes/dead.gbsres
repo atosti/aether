@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "590a848f-e826-4966-a034-63475be3a2c7",
+  "name": "dead",
+  "symbol": "emote_dead",
+  "width": 16,
+  "height": 16,
+  "filename": "dead.png"
+}

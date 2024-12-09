@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0c83a7df-787f-41e9-a6c7-b8d145fe393f",
+  "name": "barracks",
+  "symbol": "bg_armory",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "barracks.png",
+  "tileColors": "01125+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+011a+00e+01265+",
+  "autoColor": false
+}

@@ -1,0 +1,119 @@
+{
+  "_resourceType": "script",
+  "id": "e8a572ad-bdfe-452d-9535-ac18190f9623",
+  "name": "Title Screen",
+  "symbol": "script_title_screen",
+  "description": "Controls whether or not to show the new game menu.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ],
+        "__collapse": true
+      },
+      "id": "f013657e-cb12-4234-a4a3-b425104018c3"
+    },
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "V0",
+                    "trueText": "New Game",
+                    "falseText": "Continue",
+                    "__collapse": true
+                  },
+                  "id": "2f7e12bd-c2a8-4153-bd2d-bd8ae96e1244"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V0",
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "condition": {
+                      "type": "variable",
+                      "value": "V0"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "115d3949-295d-41d6-a8a0-3e62e172e6c2",
+                          "x": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 0
+                          },
+                          "direction": "",
+                          "fadeSpeed": 4,
+                          "__collapse": true
+                        },
+                        "id": "af1b8724-f107-4f0b-b889-cf2f8d34a702"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_LOAD_DATA",
+                        "args": {
+                          "saveSlot": 0,
+                          "__collapse": true
+                        },
+                        "id": "de33e23b-80c2-40fd-9d49-f011bd26606f"
+                      }
+                    ]
+                  },
+                  "id": "48450e4c-78aa-442d-a008-35817cfa718e"
+                }
+              ]
+            },
+            "id": "b7a42fc6-8d8c-4f8f-bd8d-0b967f5d755a"
+          }
+        ],
+        "false": []
+      },
+      "id": "5344ca61-52bd-481b-8422-caf926be5ac7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Starting your journey..."
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "9b6c4fee-c6dc-49ad-ae6d-70fda4674ed4"
+    }
+  ]
+}

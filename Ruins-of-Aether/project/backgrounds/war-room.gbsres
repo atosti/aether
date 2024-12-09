@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "43155b1e-b465-4e0d-a57b-729ba49835cf",
+  "name": "war-room",
+  "symbol": "bg_war_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "war-room.png",
+  "tileColors": "0119+03!018+03!016d+00c+018+00c+018+00c+018+00c+0190+",
+  "autoColor": false
+}

@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "7c420210-82c1-4909-ad2b-bd536c9acf16",
+  "_index": 3,
+  "symbol": "trigger_10",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 2,
+  "width": 4,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A large shield is hung on the wall, with\ntwo spears crossed behind it. Gazing up\nat it fills you with a deep, longing sorrow."
+              ],
+              "avatarId": ""
+            },
+            "id": "e064491c-04aa-4799-9ddc-a6fea78daf6e"
+          }
+        ]
+      },
+      "id": "dc42831b-a3a3-465f-903c-a18cad5d31c5"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "e8a0b81f-de46-4b8b-acbf-6e5e2aa0a3b9"
+    }
+  ]
+}

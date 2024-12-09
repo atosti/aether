@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
+  "name": "startup/intro-eyes",
+  "symbol": "bg_startup_intro_eyes",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "startup/intro-eyes.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "fcc43364-ba25-4cfc-9234-8eb5f870a86f",
+  "_index": 8,
+  "type": "TOPDOWN",
+  "name": "War Room",
+  "symbol": "scene_war_room",
+  "x": 1100.433333333334,
+  "y": 389.97777777777765,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "43155b1e-b465-4e0d-a57b-729ba49835cf",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "22b6a428-d602-487a-9d0a-646dc0cb5405",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "678c3f70-7e8f-4039-b789-8af42c4e012c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29+00!0f2+002+0fc+00!0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f!006+0f8+005+0f!006+0f8+005+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0fb+003+0f5+00!0fb+003+0f5+00!0fb+003+0f1b+"
+}

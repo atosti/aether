@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "4f8b22e1-3731-454a-975b-09cf814838af",
+  "_index": 22,
+  "type": "TOPDOWN",
+  "name": "Royal Courtyard Southeast",
+  "symbol": "scene_23",
+  "x": 912,
+  "y": 936.0000000000003,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1a5d7ad8-10ae-49bc-a20e-ef83581b6767",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

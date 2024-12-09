@@ -1,0 +1,36 @@
+{
+  "_resourceType": "actor",
+  "id": "65171768-f81c-4981-8572-8b5cd7e483d4",
+  "_index": 2,
+  "symbol": "actor_30",
+  "prefabId": "",
+  "name": "Combo Inputs Arrow",
+  "x": 16,
+  "y": 15,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9d3f01de-fa4a-4fb5-b9ed-4c5e09abbac9",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "aa0e2331-88ab-40ae-8314-aa051aeb293a"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

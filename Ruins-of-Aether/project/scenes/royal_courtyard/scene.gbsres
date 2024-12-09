@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "9d65d892-4ff9-4ac7-8168-f90a98f1766f",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "Royal Courtyard",
+  "symbol": "scene_royal_courtyard",
+  "x": 516.0888888888887,
+  "y": 562.2124183006547,
+  "width": 40,
+  "height": 36,
+  "backgroundId": "264fbe39-603f-46ed-bfab-7870aaf7d5e7",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "19a5f91b-c0f5-41f9-8a31-2f8f0080e8a2"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "6bc6f97c-467b-4f70-9ff7-4b62c08ebead"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f11+04!004+08!0f22+04!004+08!0f14+01e+006+0111+0f3+0025+0f3+0025+0f3+0025+0f3+002+0f2+0021+0f3+002+012+002+0f2+001d+0f3+006+012+001d+0f3+0025+0f3+0025+0f3+003+0f2+0020+0f3+003+012+0014+02!0f2+02!004+02!0f2+02!0f3+0019+0f4+004+0f7+0019+0f4+004+0f7+0019+014+004+014+0f3+0025+0f3+00c5+0f3+0025+0f3+0025+0f3+0019+02!0f2+02!004+02!0f2+02!0f3+0019+0f4+004+0f7+0019+0f4+004+0f7+003+0f7+00f+014+004+014+0f3+003+0f7+001b+0f3+003+0f7+0012+0f2+007+0f3+003+0f7+0012+012+007+0f3+003+0f7+001b+0f3+003+0f7+001b+0f3+003+0f7+001b+0f3+0025+0f3+0025+"
+}

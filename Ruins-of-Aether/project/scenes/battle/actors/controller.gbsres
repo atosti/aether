@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "f6aa7afe-b725-4cf8-a910-c4d2fa681bd5",
+  "_index": 1,
+  "symbol": "actor_26",
+  "prefabId": "",
+  "name": "Controller",
+  "x": 17,
+  "y": 1,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "509f3ba7-a57f-4abc-bfad-774f0238ec26",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_SET_FLAGS",
+      "args": {
+        "variable": "8",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "ccac8654-de8a-4357-bc80-c484026e6fdc"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30,
+        "units": "time",
+        "__collapse": true
+      },
+      "id": "d8166393-6104-42bd-82b3-b8172b1e6b95"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "script",
+  "id": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+  "name": "Battle - Become Neera",
+  "symbol": "script_18",
+  "description": "Switches the player character to be Neera during a battle screen.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "eb9f8d95-8289-4dd4-9d22-4a7301be4462"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "866fadfb-012c-45de-b764-92b476c38e3d"
+      },
+      "id": "48d6f05a-cd01-4357-9bb6-019b4c9c5b0e"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "15",
+        "expression": "$12$"
+      },
+      "id": "a19489d8-715e-4e53-a643-09840fc631c9"
+    }
+  ]
+}

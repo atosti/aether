@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "e0fa7070-f937-4bd3-9aec-4045246c4e70",
+  "name": "annoyed",
+  "symbol": "emote_annoyed",
+  "width": 16,
+  "height": 16,
+  "filename": "annoyed.png"
+}

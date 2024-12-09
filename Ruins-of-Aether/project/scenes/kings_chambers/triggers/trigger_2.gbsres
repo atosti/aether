@@ -1,0 +1,133 @@
+{
+  "_resourceType": "trigger",
+  "id": "7214118e-17e7-426b-a213-c6c5266bf74e",
+  "_index": 1,
+  "symbol": "trigger_25",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 2,
+  "width": 3,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A handwritten note lies on the shelf. \nIt's titled, \"Morcant's Eulogy\". \nWould you like to read it?"
+              ],
+              "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+              "__collapse": true
+            },
+            "id": "26c72497-7d6a-4c71-a078-3ea0750bdb62"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "Yes.",
+              "falseText": "No.",
+              "__collapse": true
+            },
+            "id": "a78c6c25-2728-44f1-ae1b-971e748538ea"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": true,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\"Morcant was a remarkable man. \nStrong, charismatic, and driven. All \nwho knew him were impressed by",
+                      "his honesty and conviction. And so,\nhis passing fills us with great\nsadness. Fathers are not meant to",
+                      "bury sons, just as Kingdoms are not \nmeant to bury their problems. Thus, \nour reality persists through",
+                      "tragedy. We must draw from his \ndeath the lessons which he would\nbestow upon us, were he here now.",
+                      "We must all find the strength to \npersevere. To rise as never before,\nunifed and with the conviction to",
+                      "never give up. The enemy we now\nface is unlike anything we've ever\nknown. But we will prevail. For",
+                      "ourselves. And for Prince Morcant.\" \nThe whole thing reads more like a \nrousing speech than a euology..."
+                    ],
+                    "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
+                  },
+                  "id": "cff2b66d-4197-4361-a63e-b4172e0c3d96"
+                }
+              ],
+              "false": []
+            },
+            "id": "00a55d8a-0f38-4203-9e1e-46e09b0e5a68"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "4",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": true,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "7edd2635-7550-4f69-9fc2-61e645c96323"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "__collapse": true,
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "2dfe311c-53ad-4c81-8eed-16fb7f6a5c40"
+          }
+        ]
+      },
+      "id": "bbca318b-4177-4cf2-a0e2-367e0f25bc99"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "836459f9-fc85-4551-9bb5-0c8bf8c83456"
+    }
+  ]
+}

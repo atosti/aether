@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c66a580d-bdd8-4ae5-9515-65900f2f40a8",
+  "name": "side-chamber",
+  "symbol": "bg_side_chamber",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "side-chamber.png",
+  "tileColors": "01140+042+0126+042+01166+",
+  "autoColor": false
+}

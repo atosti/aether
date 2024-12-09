@@ -1,0 +1,91 @@
+{
+  "_resourceType": "actor",
+  "id": "1fb2b1c5-2517-4e9f-ae80-257a13b6d070",
+  "_index": 4,
+  "symbol": "actor_10",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 34,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "We can't let you through, Milady. We're\nunder strict orders from the King to\nprevent your passage."
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "c4f6744a-f674-4f8f-8dd0-358b43704a9c"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "7",
+              "flag": 6,
+              "__collapseElse": false,
+              "__disableElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "90df3d47-0a9c-4f70-83e8-ced151f8ae5f"
+                },
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "7cc0bd4d-2cf8-4af6-b7c3-e2e76e08e5f0"
+                }
+              ],
+              "false": []
+            },
+            "id": "023c8f93-838a-4d1a-bb28-2ee45d7a7a78"
+          }
+        ],
+        "false": []
+      },
+      "id": "e1bb1f21-0683-4968-b590-6c096f9a76c6"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

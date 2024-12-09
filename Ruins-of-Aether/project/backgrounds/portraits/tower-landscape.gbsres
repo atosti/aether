@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
+  "name": "portraits/tower-landscape",
+  "symbol": "bg_portraits_tower_landscap",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "portraits/tower-landscape.png",
+  "tileColors": "0513+01!0512+012+05!0212+01!05!02!0110+02!01!05!02!0110+02!01!05!02!0110+02!01!05!02!0110+02!01!05!02!0110+02!01!05!02!00c+014+02!01!05!02!0010+02!01!05!02!0010+02!01!05!02!0010+02!01!05!02!0010+02!01!05!02!0010+02!052+02!0010+02!052+0212+0529+",
+  "autoColor": false
+}

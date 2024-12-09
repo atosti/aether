@@ -1,0 +1,105 @@
+{
+  "_resourceType": "scene",
+  "id": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "Tower Landscape",
+  "symbol": "scene_portrait_1",
+  "labelColor": "purple",
+  "x": 257.7,
+  "y": 569.9598290598288,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "f31acd5a-a36b-4dae-a1ef-ae8ad315ffba",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "54582a86-316c-499b-9481-2592998aca59"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A strikingly large tower sits atop a cliff.\nIt overlooks an expansive valley below.",
+                "The tower feels out of place, its presence\nboth somber and comforting."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "2cccc808-153b-43bb-969d-5481b536e976"
+          },
+          {
+            "command": "EVENT_AWAIT_INPUT",
+            "args": {
+              "input": [
+                "a",
+                "b",
+                "start",
+                "select"
+              ],
+              "__collapse": false
+            },
+            "id": "4dea2e21-c667-454b-a3b0-d49b66f3c4db"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8f207906-efe2-499f-95d7-58d29d1036d8",
+              "x": {
+                "type": "number",
+                "value": 29
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "up",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "054fb3f3-6a53-4688-9500-53d68fb813c8"
+          }
+        ]
+      },
+      "id": "da97377a-5d21-4cf8-835f-7730827b8d95"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

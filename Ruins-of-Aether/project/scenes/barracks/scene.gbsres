@@ -1,0 +1,36 @@
+{
+  "_resourceType": "scene",
+  "id": "ca5301e5-dfe0-4229-a913-120ad2e9c03b",
+  "_index": 18,
+  "type": "TOPDOWN",
+  "name": "Barracks",
+  "symbol": "scene_19",
+  "x": 166.3,
+  "y": 760.9,
+  "width": 40,
+  "height": 36,
+  "backgroundId": "0c83a7df-787f-41e9-a6c7-b8d145fe393f",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        },
+        "__collapse": true
+      },
+      "id": "deabfd79-0e2a-467c-823b-3fad46ac2bb1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa1+00!0f2+012+00!0f2+012+007+014+00!012+006+016+002+0f2+00!0f2+003+0f2+001e+0f2+00!012+003+012+0014+0f!008+0f3+001c+0f2+006+0f4+001c+012+006+012+0fb+001d+0fb+001d+0fb+001d+0fc+001a+0f4+00!0f2+012+00!0f2+012+001a+0f4+00!0f2+003+0f2+001c+012+0f2+00!012+003+012+001f+0f!0027+0f!0027+0f!0027+0fa+001b+0fd+001b+0fd+001b+012+0fc+001c+0f2+00!0f2+012+00!0f2+012+001c+0f2+00!0f2+003+0f2+0012+0f8+004+0f2+00!012+003+012+0012+0f8+004+0f2+001a+018+004+0f2+0026+0f2+0026+0f4+0024+0f4+0024+0f6+0013+0f!007+0f!006+0f6+0013+0f!007+0f!006+0f8+002+0f2+00d+0f17+002+0f2+00d+0f38+"
+}

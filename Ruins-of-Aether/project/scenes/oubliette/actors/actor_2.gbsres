@@ -1,0 +1,68 @@
+{
+  "_resourceType": "actor",
+  "id": "bc67f177-c830-4721-8331-bbc5c64345fe",
+  "_index": 2,
+  "symbol": "actor_4",
+  "prefabId": "",
+  "name": "",
+  "x": 1,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c66d6813-bcbb-4789-af37-7bd1d2cb3147",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You're looking for Alexandros? After your\nrevival he left in a hurry. He mentioned\nhaving some business with the King."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "d0b244bf-903e-4a7a-b2a2-7ee5aa8ed447"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Unbelievable... and to think I doubted \nAlexandros' findings..."
+              ],
+              "avatarId": ""
+            },
+            "id": "abad71e3-9173-406d-9336-69fb605f6918"
+          }
+        ]
+      },
+      "id": "40183f10-72c1-4fa6-99f5-fc4c2acde696"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

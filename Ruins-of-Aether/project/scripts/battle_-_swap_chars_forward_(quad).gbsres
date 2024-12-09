@@ -1,0 +1,652 @@
+{
+  "_resourceType": "script",
+  "id": "a8e978eb-d06d-4732-ae85-75f01a437c30",
+  "name": "Battle - Swap Chars Forward (Quad)",
+  "symbol": "script_15",
+  "description": "Requires $CurrentCharacter to be set before running this script.",
+  "variables": {
+    "V5": {
+      "id": "V5",
+      "name": "Variable F",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Forward Quad (Aylmera, Jester, Neera, Alexandros)"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "9",
+              "operator": "==",
+              "comparator": "0",
+              "__collapseElse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Currently Aylmera",
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "11",
+                          "operator": ">",
+                          "comparator": "0",
+                          "__collapseElse": false,
+                          "condition": {
+                            "type": "gt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "11"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                "__collapse": false,
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "V5"
+                                }
+                              },
+                              "id": "05871a85-94a7-4c08-89f4-977f355c36f9"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "12",
+                                "operator": ">",
+                                "comparator": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "gt",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "12"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 0
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                    "args": {
+                                      "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                      "__collapse": false,
+                                      "$variable[V1]$": {
+                                        "type": "variable",
+                                        "value": "V5"
+                                      }
+                                    },
+                                    "id": "f388d034-7349-4e0c-86ee-a494319661f0"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "13",
+                                      "operator": ">",
+                                      "comparator": "0",
+                                      "__collapseElse": true,
+                                      "__disableElse": true,
+                                      "condition": {
+                                        "type": "gt",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "13"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 0
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_CALL_CUSTOM_EVENT",
+                                          "args": {
+                                            "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                            "__collapse": false,
+                                            "$variable[V1]$": {
+                                              "type": "variable",
+                                              "value": "V5"
+                                            }
+                                          },
+                                          "id": "f5d236b4-80b8-4aee-b288-85db0f0397b4"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "6235991e-5df7-4ba6-93dc-7b1807f5e038"
+                                  }
+                                ]
+                              },
+                              "id": "7ccfd77d-52e9-471a-bc18-82d59a15a531"
+                            }
+                          ]
+                        },
+                        "id": "87968c04-dd51-4b43-af22-d25d1373ade0"
+                      }
+                    ]
+                  },
+                  "id": "95759b16-c334-4c16-8c4e-f4d4e51193fc"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "9",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "9"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__label": "Currently Jester",
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "12",
+                                "operator": ">",
+                                "comparator": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "gt",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "12"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 0
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                    "args": {
+                                      "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                      "__collapse": false,
+                                      "$variable[V1]$": {
+                                        "type": "variable",
+                                        "value": "V5"
+                                      }
+                                    },
+                                    "id": "6e763ddf-6d7d-4fb0-84ba-48363e64375c"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "13",
+                                      "operator": ">",
+                                      "comparator": "0",
+                                      "__collapseElse": false,
+                                      "condition": {
+                                        "type": "gt",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "13"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 0
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_CALL_CUSTOM_EVENT",
+                                          "args": {
+                                            "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                            "__collapse": false,
+                                            "$variable[V1]$": {
+                                              "type": "variable",
+                                              "value": "V5"
+                                            }
+                                          },
+                                          "id": "4d00fb1f-f68a-4f6c-9e8f-c8a5db58b08c"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "variable": "10",
+                                            "operator": ">",
+                                            "comparator": "0",
+                                            "__collapseElse": true,
+                                            "__disableElse": true,
+                                            "condition": {
+                                              "type": "gt",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "10"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 0
+                                              }
+                                            }
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                "args": {
+                                                  "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                  "__collapse": false,
+                                                  "$variable[V1]$": {
+                                                    "type": "variable",
+                                                    "value": "V5"
+                                                  }
+                                                },
+                                                "id": "d52d85d4-e90a-49ba-8a3e-d29ed2ba74f5"
+                                              }
+                                            ],
+                                            "false": []
+                                          },
+                                          "id": "f8d902b0-631f-4b54-8448-e6084881e7ff"
+                                        }
+                                      ]
+                                    },
+                                    "id": "ebb0ca0c-5f1e-444f-b8f8-42d4a6e02d85"
+                                  }
+                                ]
+                              },
+                              "id": "966e1fe5-0998-475f-9f01-2fa46cf4b74f"
+                            }
+                          ]
+                        },
+                        "id": "68a057a5-2aa8-4f61-9058-323695748378"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "9",
+                          "operator": "==",
+                          "comparator": 2,
+                          "__collapseElse": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "9"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 2
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_GROUP",
+                              "args": {
+                                "__label": "Currently Neera",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "13",
+                                      "operator": ">",
+                                      "comparator": "0",
+                                      "__collapseElse": false,
+                                      "condition": {
+                                        "type": "gt",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "13"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 0
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_CALL_CUSTOM_EVENT",
+                                          "args": {
+                                            "customEventId": "2f38c923-65ad-4a7c-8838-96c8f77f5866",
+                                            "__collapse": false,
+                                            "$variable[V1]$": {
+                                              "type": "variable",
+                                              "value": "V5"
+                                            }
+                                          },
+                                          "id": "265233b4-7a28-4cb6-98d0-41f88b80eb80"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "variable": "10",
+                                            "operator": ">",
+                                            "comparator": "0",
+                                            "__collapseElse": false,
+                                            "condition": {
+                                              "type": "gt",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "10"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 0
+                                              }
+                                            }
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                "args": {
+                                                  "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                  "__collapse": false,
+                                                  "$variable[V1]$": {
+                                                    "type": "variable",
+                                                    "value": "V5"
+                                                  }
+                                                },
+                                                "id": "30bf897f-42bf-4a5d-899d-1dcb17ca922f"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "variable": "11",
+                                                  "operator": ">",
+                                                  "comparator": "0",
+                                                  "__collapseElse": true,
+                                                  "__disableElse": true,
+                                                  "condition": {
+                                                    "type": "gt",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "11"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 0
+                                                    }
+                                                  }
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                      "args": {
+                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                        "__collapse": false,
+                                                        "$variable[V1]$": {
+                                                          "type": "variable",
+                                                          "value": "V5"
+                                                        }
+                                                      },
+                                                      "id": "13974a04-9ee7-4ec7-bf65-246bde614300"
+                                                    }
+                                                  ],
+                                                  "false": []
+                                                },
+                                                "id": "22dec306-a737-4d1c-86a7-31672c281099"
+                                              }
+                                            ]
+                                          },
+                                          "id": "7fb6c448-7db9-4c36-95d3-ed462bb911db"
+                                        }
+                                      ]
+                                    },
+                                    "id": "51876dac-b49c-487a-be50-670e5fcc7f08"
+                                  }
+                                ]
+                              },
+                              "id": "80a4a5d0-97d6-4e5c-a90d-d3f48f955ca9"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "9",
+                                "operator": "==",
+                                "comparator": 3,
+                                "__collapseElse": false,
+                                "__disableElse": true,
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "9"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 3
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_GROUP",
+                                    "args": {
+                                      "__label": "Currently Alexandros",
+                                      "__collapse": false
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "variable": "10",
+                                            "operator": ">",
+                                            "comparator": "0",
+                                            "__collapseElse": false,
+                                            "condition": {
+                                              "type": "gt",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "10"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 0
+                                              }
+                                            }
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                "args": {
+                                                  "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                                  "__collapse": false,
+                                                  "$variable[V1]$": {
+                                                    "type": "variable",
+                                                    "value": "V5"
+                                                  }
+                                                },
+                                                "id": "a8fd09d9-6dae-4410-b4fc-5fd1888ff891"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "variable": "11",
+                                                  "operator": ">",
+                                                  "comparator": "0",
+                                                  "__collapseElse": false,
+                                                  "condition": {
+                                                    "type": "gt",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "11"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 0
+                                                    }
+                                                  }
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                      "args": {
+                                                        "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                                        "__collapse": false,
+                                                        "$variable[V1]$": {
+                                                          "type": "variable",
+                                                          "value": "V5"
+                                                        }
+                                                      },
+                                                      "id": "0003d243-978c-4457-a405-a0efa23a82bb"
+                                                    }
+                                                  ],
+                                                  "false": [
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "variable": "12",
+                                                        "operator": ">",
+                                                        "comparator": "0",
+                                                        "__collapseElse": true,
+                                                        "__disableElse": true,
+                                                        "condition": {
+                                                          "type": "gt",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "12"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 0
+                                                          }
+                                                        }
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                                            "args": {
+                                                              "__collapse": false,
+                                                              "customEventId": "6d3e34e2-e776-4813-bc07-dbfb9b0a75ec",
+                                                              "$variable[V1]$": {
+                                                                "type": "variable",
+                                                                "value": "V5"
+                                                              }
+                                                            },
+                                                            "id": "a08cfa51-e5e9-4a56-a22c-872eb448352a"
+                                                          }
+                                                        ],
+                                                        "false": []
+                                                      },
+                                                      "id": "a6cb7db3-ea88-4630-a716-7d93bfc5f868"
+                                                    }
+                                                  ]
+                                                },
+                                                "id": "72e0b162-edc8-4b96-a737-8be0ad007c76"
+                                              }
+                                            ]
+                                          },
+                                          "id": "5824c36f-fe5f-4f17-86df-4c5265c638d0"
+                                        }
+                                      ]
+                                    },
+                                    "id": "a9fd96a1-3d2a-4338-aeaa-cd41158d96a7"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "d364ae65-ac69-4d83-9a56-d81886d3a1cf"
+                            }
+                          ]
+                        },
+                        "id": "0090aeb5-6161-4dae-9fca-38d5a27b89fa"
+                      }
+                    ]
+                  },
+                  "id": "3ba013c4-9e4d-40ef-ab32-3a7211e57613"
+                }
+              ]
+            },
+            "id": "79a7b5be-12e6-4a1f-9535-74764c97316e"
+          }
+        ]
+      },
+      "id": "844d297f-3d43-4aae-b9e2-87a307dd8b05"
+    }
+  ]
+}

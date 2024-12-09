@@ -1,0 +1,380 @@
+{
+  "_resourceType": "script",
+  "id": "b09617b5-7810-4599-a5e8-b256f1e07a12",
+  "name": "Battle - Initialize Party Members (set PartyConfig)",
+  "symbol": "script_1",
+  "description": "Checks for which characters are currently recruited into the party, and sets the PartyConfig variable accordingly. Used by other scripts.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "PartyConfig",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "SigmundRecruited",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "NeeraRecruited",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "AlexandrosRecruited",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Aylmera Alone (PartyConfig = 0)",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V1",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V1"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V2",
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V2"
+                      },
+                      "valueB": {
+                        "type": "false"
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "V3",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V3"
+                            },
+                            "valueB": {
+                              "type": "false"
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "__collapse": true
+                              },
+                              "id": "4a6330d4-df5b-4d86-8517-072cb3748e46"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "7c8e46fc-e354-48ca-8002-e99a0af19fab"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "8af049c9-daab-48b6-ad57-8bfa74f00091"
+                }
+              ],
+              "false": []
+            },
+            "id": "186d10dd-6453-4f73-b615-23b781f4588e"
+          }
+        ]
+      },
+      "id": "ce182091-15d0-49a2-ba93-45abe24707ef"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Aylmera + Jester (PartyConfig = 1)",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V1",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "V1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V2",
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V2"
+                      },
+                      "valueB": {
+                        "type": "false"
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "V3",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V3"
+                            },
+                            "valueB": {
+                              "type": "false"
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 1
+                                },
+                                "__collapse": true
+                              },
+                              "id": "1900d02b-968d-48c1-8773-28ffe8d6d2be"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "b65ae3a9-6eaa-4e85-9ac9-915643283e77"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "76c367ac-78a5-4353-8027-30e215aba4ff"
+                }
+              ],
+              "false": []
+            },
+            "id": "711a5433-65a1-415e-b6fe-4c75d071df46"
+          }
+        ]
+      },
+      "id": "2e5441aa-93a6-49b3-921f-96156c1dd630"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Aylmera + Jester + Neera (PartyConfig = 2)",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V1",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "V1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V2",
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "condition": {
+                      "type": "variable",
+                      "value": "V2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "V3",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V3"
+                            },
+                            "valueB": {
+                              "type": "false"
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 2
+                                },
+                                "__collapse": true
+                              },
+                              "id": "0247cf95-c4f0-47d6-80ac-d09021160aa7"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "413ebda5-842d-4ab3-8d33-9ee92732423f"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "5e5f8240-35c5-4e11-ad82-cb5ce748c3a0"
+                }
+              ],
+              "false": []
+            },
+            "id": "0fd82d20-acf7-44cb-bec3-b7f1ef9c1dc2"
+          }
+        ]
+      },
+      "id": "b91bd7d1-64c2-42cb-9f60-acc46e387dbf"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Aylmera + Jester + Neera + Alexandros (PartyConfig = 3)",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V1",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "V1"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V2",
+                    "__collapseElse": true,
+                    "__disableElse": true,
+                    "condition": {
+                      "type": "variable",
+                      "value": "V2"
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "V3",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "variable",
+                            "value": "V3"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "V0",
+                                "value": {
+                                  "type": "number",
+                                  "value": 3
+                                }
+                              },
+                              "id": "a02a4f11-e669-45a6-8040-8686d3b923b5"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "61145e5a-00c3-44f3-b547-482b84c16e94"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "7ccd9c6a-1f1c-42d0-b14f-8a11cd1befc8"
+                }
+              ],
+              "false": []
+            },
+            "id": "fed5f2bf-7592-45e4-b705-f856e65f0a0b"
+          }
+        ]
+      },
+      "id": "f1ecf8ff-cf52-444f-8aac-3edf63f86766"
+    }
+  ]
+}

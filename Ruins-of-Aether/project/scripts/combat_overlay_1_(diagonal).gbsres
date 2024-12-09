@@ -1,0 +1,69 @@
+{
+  "_resourceType": "script",
+  "id": "4d5f8d87-d4f9-438a-98bc-74424d616576",
+  "name": "Combat Overlay 1 (Diagonal)",
+  "symbol": "script_10",
+  "description": "Covers the screen in black with a diagonal draw pattern.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 19,
+        "y": 17,
+        "__collapse": false
+      },
+      "id": "76d8b8a6-ef04-49cf-8345-3a160b302804"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 18,
+        "y": 16,
+        "__comment": true
+      },
+      "id": "4da62630-cbb2-4cdc-b721-7c1ff5849408"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 17,
+        "y": 15,
+        "__comment": true
+      },
+      "id": "68fa92bd-e8cc-4bcb-be08-caf0ac9098d5"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 16,
+        "y": 14,
+        "__comment": true
+      },
+      "id": "da95b8ee-1c0f-4cee-bada-de1e7ae4998d"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 20,
+        "y": 18
+      },
+      "id": "ed5acbc5-f3d7-4c31-9956-5921f4340f55"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 0,
+        "speed": 0
+      },
+      "id": "38bf924b-157f-4a6b-a396-4b14406c78d2"
+    }
+  ]
+}

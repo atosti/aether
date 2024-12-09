@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "236415cd-aca0-4e39-9351-818c95b2a205",
+  "_index": 13,
+  "type": "TOPDOWN",
+  "name": "Hidden Alcove",
+  "symbol": "scene_hidden_alcove",
+  "x": 419.30341880341877,
+  "y": 206.80769230769232,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "4f8f9952-c885-4d1a-89b8-2492b5441026",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "3acf9d84-ffaa-4cd5-abbe-f3bb3ca870ec",
+    "5e6ba1be-9deb-4132-bd92-3a49971761db",
+    "default-bg-1",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    "56fc328b-1a5d-4ad3-b307-535010a19717"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "7d0ffefd-546f-4276-9a89-f0b665bb15f9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003d+0f12+002+0f2+006+0fa+002+0f2+006+0f6+002+0f2+002+0f2+006+012+0f2+012+002+0f2+002+0f2+008+012+004+0f2+002+0f4+00c+0f2+002+0f4+00c+0f2+002+0f2+00!0f2+00b+0f2+002+0f2+00!0f4+004+0f2+003+0f2+002+0f2+003+0f2+004+0f2+003+0f2+002+0fe+002+0f2+002+0f12+003d+"
+}

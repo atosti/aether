@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "d9ef77de-f479-4ff3-9bb8-6dfa69c48852",
+  "_index": 2,
+  "symbol": "actor_2",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e514035f-8564-4ba3-a86c-dd9e9c186d6e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sometimes I think my calling in life was to\nbe a gardener.",
+          "At least I get to spend so much time\noutdoors when guarding."
+        ],
+        "avatarId": ""
+      },
+      "id": "93fc9fd3-ccee-4814-b16a-ceb15bf25624"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

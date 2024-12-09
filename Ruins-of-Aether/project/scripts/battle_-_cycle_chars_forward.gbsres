@@ -1,0 +1,246 @@
+{
+  "_resourceType": "script",
+  "id": "0c06f147-8242-403f-9c38-085098952d46",
+  "name": "Battle - Cycle Chars Forward",
+  "symbol": "script_0",
+  "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running this script. Attach this to B Button Hold press events during battle screen Init.",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "PartyConfig",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Cycle Forward",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "V0",
+              "operator": "<=",
+              "comparator": "0",
+              "__collapseElse": false,
+              "__disableElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "lte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Aylmera Alone",
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__collapse": true,
+                          "__label": "Do nothing"
+                        },
+                        "children": {
+                          "true": []
+                        },
+                        "id": "59d669ce-1ba0-4129-984f-5db3be31bc1e"
+                      }
+                    ]
+                  },
+                  "id": "084d0987-359e-4b48-9424-63f5855d56db"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "V0",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "V0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "e99199cb-db77-440f-aaed-ce181ce563de",
+                          "__collapse": false,
+                          "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "9"
+                          },
+                          "$variable[V1]$": {
+                            "type": "variable",
+                            "value": "11"
+                          },
+                          "$variable[V2]$": {
+                            "type": "variable",
+                            "value": "10"
+                          },
+                          "$variable[V3]$": {
+                            "type": "variable",
+                            "value": "15"
+                          }
+                        },
+                        "id": "21d9bd1e-a425-4055-8f33-989049adccd6"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "V0",
+                          "operator": "==",
+                          "comparator": 2,
+                          "__collapseElse": false,
+                          "__collapse": false,
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "V0"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 2
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "82c2764e-f36f-4c44-80df-ebf91b0d4fda",
+                                "$variable[V0]$": {
+                                  "type": "variable",
+                                  "value": "9"
+                                },
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "11"
+                                },
+                                "$variable[V2]$": {
+                                  "type": "variable",
+                                  "value": "12"
+                                },
+                                "$variable[V3]$": {
+                                  "type": "variable",
+                                  "value": "10"
+                                },
+                                "$variable[V4]$": {
+                                  "type": "variable",
+                                  "value": "15"
+                                }
+                              },
+                              "id": "54cb69a0-9eac-4e91-8380-461741106240"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "V0",
+                                "operator": ">=",
+                                "comparator": 3,
+                                "__collapseElse": true,
+                                "__disableElse": true,
+                                "condition": {
+                                  "type": "gte",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "V0"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 3
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                    "args": {
+                                      "customEventId": "a8e978eb-d06d-4732-ae85-75f01a437c30",
+                                      "$variable[V0]$": {
+                                        "type": "variable",
+                                        "value": "9"
+                                      },
+                                      "$variable[V1]$": {
+                                        "type": "variable",
+                                        "value": "11"
+                                      },
+                                      "$variable[V2]$": {
+                                        "type": "variable",
+                                        "value": "12"
+                                      },
+                                      "$variable[V3]$": {
+                                        "type": "variable",
+                                        "value": "13"
+                                      },
+                                      "$variable[V4]$": {
+                                        "type": "variable",
+                                        "value": "10"
+                                      },
+                                      "$variable[V5]$": {
+                                        "type": "variable",
+                                        "value": "15"
+                                      }
+                                    },
+                                    "id": "80afbb5a-599f-46d0-bf50-31fa13cc679f"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "3bbc6ff0-93a1-471e-9cc1-66cb1e16d3fb"
+                            }
+                          ]
+                        },
+                        "id": "fcace56f-ba4c-48cc-a86b-46c6892edde1"
+                      }
+                    ]
+                  },
+                  "id": "8003b7ff-20c1-4278-8127-ef8542f8f737"
+                }
+              ]
+            },
+            "id": "b7aca346-5250-478c-8c98-e1b09d3c4db9"
+          }
+        ]
+      },
+      "id": "53720598-1477-448e-8f3d-d1e8c4d4b775"
+    }
+  ]
+}

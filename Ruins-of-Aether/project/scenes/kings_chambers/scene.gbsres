@@ -1,0 +1,44 @@
+{
+  "_resourceType": "scene",
+  "id": "c9c5ebc2-c52b-43e6-a6a9-6a6eb73ba26c",
+  "_index": 15,
+  "type": "TOPDOWN",
+  "name": "King's Chambers",
+  "symbol": "scene_king_s_chambers",
+  "x": 594,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a987284d-f6a8-42ca-9242-a79c9e4f8679",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "3d678cbc-06c2-4973-9f0e-e8125ab00751",
+    "default-bg-1",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "62b0dd7c-05e1-4069-b0d2-4025572041b8",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "2028c0a4-ed18-40a2-bba5-37b3db4f9e4d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29+007+0f4+007+0f2+007+0f4+007+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f4+002+0ff+"
+}

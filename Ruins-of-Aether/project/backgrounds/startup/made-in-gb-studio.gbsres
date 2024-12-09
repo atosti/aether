@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2fd5ee1e-ca1b-49ad-ac9e-238210216ab6",
+  "name": "startup/made-in-gb-studio",
+  "symbol": "bg_startup_made_in_gb_studi",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "startup/made-in-gb-studio.png",
+  "tileColors": "",
+  "autoColor": false
+}

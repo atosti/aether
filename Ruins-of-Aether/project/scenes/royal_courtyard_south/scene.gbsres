@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "83caf5a4-9029-4eb8-9c42-d090e9ecf3fc",
+  "_index": 20,
+  "type": "TOPDOWN",
+  "name": "Royal Courtyard South",
+  "symbol": "scene_21",
+  "x": 522.2222222222229,
+  "y": 898.5777777777781,
+  "width": 40,
+  "height": 36,
+  "backgroundId": "bad6370a-cc1b-430f-8864-ecae91d2796e",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "366ce98b-c2cc-430f-83f4-dcf5913ae282",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "6"
+        }
+      },
+      "id": "41af144a-fa32-43fc-a44a-7e5d9f7a6ec4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00c+02!0f2+02!008+02!0f2+02!0018+0f4+008+0f4+0018+0f4+008+0f4+00e+02!0f2+02!006+014+008+014+00e+0f4+0024+0f4+0024+014+0056+02!0f2+02!008+02!0f2+02!0018+0f4+008+0f4+0018+0f4+008+0f4+0018+014+008+014+0028+02!0f2+02!004+02!0f2+02!005+0f2+0015+0f4+004+0f4+005+012+0015+0f4+004+0f4+001c+014+004+014+005b+02!0f2+02!0024+0f4+0024+0f4+0024+014+0085+02!0f2+02!004+02!0f2+02!001c+0f4+004+0f4+001c+0f4+004+0f4+001c+014+004+014+0028+0f2+00a+02!0f2+02!008+02!0f2+02!00c+012+00a+0f4+008+0f4+0018+0f4+008+0f4+0018+014+008+014+0034+0f11+006+0f22+006+0f11+"
+}

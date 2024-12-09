@@ -1,0 +1,99 @@
+{
+  "_resourceType": "trigger",
+  "id": "9d4e5c77-24e3-4fb5-90d3-091c62051869",
+  "_index": 1,
+  "symbol": "trigger_17",
+  "prefabId": "",
+  "name": "",
+  "x": 12,
+  "y": 3,
+  "width": 3,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Notes are scattered across the\ntable's surface. One bears a unique \nwax seal. Would you like to read it?"
+              ],
+              "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+              "__collapse": false
+            },
+            "id": "86927d54-eb5f-4914-a5af-fe329722bbff"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "Yes.",
+              "falseText": "No.",
+              "__collapse": false
+            },
+            "id": "cf1307c0-7aed-467b-96e3-3d250f63943b"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": true,
+              "__collapse": false,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\"To his Majesty: The situation at the \nfrontline grows dire, as  the wizards\nrefuse to surrender.",
+                      "Lacking the supplies to starve them \nout, we've begun considering \nimmediate action.",
+                      "Our interrogations revealed their \nranks to be remarkably loyal. Thus,\nmutiny is an unlikely outcome.",
+                      "As such, we believe a direct \nassassination is one of our only \nopportunities for success.",
+                      "Eliminating the Mad Wizard will\nplunge his followers into chaos, \nleading to possible surrender.",
+                      "My soldiers and I stand ready for \nbattle, eagerly awaiting your \ncommand.",
+                      "May victory bless the Crown.\n- Prince Morcant\"."
+                    ],
+                    "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
+                  },
+                  "id": "9f864d23-8e01-4c8e-b0b6-4d316fbcd68b"
+                }
+              ],
+              "false": []
+            },
+            "id": "35e50587-8698-4735-9ef4-0ac593a9dbb3"
+          }
+        ]
+      },
+      "id": "54bf0eee-4270-47c8-93a3-d6ee16f7481a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "117a45f3-dec5-42bc-811a-69b5d29da427"
+    }
+  ]
+}

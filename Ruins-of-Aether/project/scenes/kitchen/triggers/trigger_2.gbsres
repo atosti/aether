@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "ea4309bb-0c46-45e2-ba3b-e75ebb5d5236",
+  "_index": 1,
+  "symbol": "trigger_29",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 2,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "An assortment of meats and herbs are\nhung here. Their smell is divine."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "8d0a9f31-29df-4eb6-9f36-fd60885133be"
+          }
+        ]
+      },
+      "id": "073661a0-cc1b-4ed2-a33d-f4d33148e9c1"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "1c54cb6f-8350-41f9-b8fd-b9deccd8dc0b"
+    }
+  ]
+}

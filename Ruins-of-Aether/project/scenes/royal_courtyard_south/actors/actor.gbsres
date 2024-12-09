@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actor",
+  "id": "a3daf34e-c7b6-4026-a138-9813ca13c65e",
+  "_index": 0,
+  "symbol": "actor_5",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 33,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "73d1c4d9-fc47-4b98-b5e5-2523246f64ba",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+        "__collapse": true
+      },
+      "id": "7861588f-d016-437a-a749-d04359f9f57d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You're heading outside the gates, huh?\nSometimes I wish I had that much nerve.",
+          "Friendly word of advice, though. Should \nyou get injured out there, don't return to",
+          "the gates. The guards are paranoid these\ndays. Unless you've got supplies, they",
+          "won't open that gate back up. It's a \none-way trip for sure."
+        ],
+        "avatarId": ""
+      },
+      "id": "8e396a82-e33a-41a7-b5d1-adeec864527d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

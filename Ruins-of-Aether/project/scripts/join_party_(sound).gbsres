@@ -1,0 +1,25 @@
+{
+  "_resourceType": "script",
+  "id": "24682f98-58c3-4234-8fef-f4f102702194",
+  "name": "Join Party (Sound)",
+  "symbol": "script_12",
+  "description": "Plays the noise for when a party member joins the party.",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "149073db-6e16-420d-a37c-0d020359292d",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "0b9cee01-4d31-4d21-b85f-df6e052dd981"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "_resourceType": "script",
+  "id": "e99199cb-db77-440f-aaed-ce181ce563de",
+  "name": "Battle - Swap Chars Forward/Back (Duo)",
+  "symbol": "script_13",
+  "description": "Requires $CurrentCharacter to be set before running this script.",
+  "variables": {
+    "V3": {
+      "id": "V3",
+      "name": "Variable D",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Duo (Aylmera, Jester)"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "9",
+              "operator": "<=",
+              "comparator": "0",
+              "__collapseElse": false,
+              "condition": {
+                "type": "lte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Currently Aylmera"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "11",
+                          "operator": ">",
+                          "comparator": "0",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "gt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "11"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "39273f84-c04b-4e20-9cad-6b96c3119d73",
+                                "__collapse": false,
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "V3"
+                                }
+                              },
+                              "id": "8eaf4dee-6356-459b-9b1d-16214fbb07ef"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "d79e13f4-1136-4779-b67e-8c31377df0ea"
+                      }
+                    ]
+                  },
+                  "id": "f1a60569-70b4-45ba-b5e1-cbe4ea5fee1d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "Currently Jester"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "10",
+                          "operator": ">",
+                          "comparator": "0",
+                          "__collapseElse": true,
+                          "__disableElse": true,
+                          "condition": {
+                            "type": "gt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "10"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 0
+                            }
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "2b52ea3d-ae2f-4791-b0eb-2d4341914678",
+                                "__collapse": false,
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "V3"
+                                }
+                              },
+                              "id": "d5a46005-8aad-493a-8dd2-d9dc90f68ca9"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "62ad4533-ee26-457a-8968-b513605ce4a3"
+                      }
+                    ]
+                  },
+                  "id": "4630502f-fcfc-4a1f-a524-0068c9693a53"
+                }
+              ]
+            },
+            "id": "24cf71b2-c3db-4db1-8b62-0e3c23861261"
+          }
+        ]
+      },
+      "id": "d41ef3d8-8d12-49ff-b63d-2c8236e15b77"
+    }
+  ]
+}

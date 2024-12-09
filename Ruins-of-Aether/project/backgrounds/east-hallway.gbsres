@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "124778fe-36ac-423e-93e1-a7f44f146539",
+  "name": "east-hallway",
+  "symbol": "bg_east_hallway",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "east-hallway.png",
+  "tileColors": "012a+042+012+042+03!012+03!042+012+042+014+042+012+042+03!012+03!042+012+042+014+042+012+042+014+042+012+042+014+042+012+042+014+042+012+042+017c+0024+013+0026+01!0050+01!0026+013+0024+01f2+",
+  "autoColor": false
+}

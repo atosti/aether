@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "9b1a416b-59be-45b8-8439-88ee492218f7",
+  "_index": 2,
+  "symbol": "trigger_20",
+  "prefabId": "",
+  "name": "",
+  "x": 11,
+  "y": 3,
+  "width": 3,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The well-worn cookbook is open to a page\ndetailing a recipe for Beef Wellington."
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "eadfec37-2bdc-414e-9554-0e95d4e85bca"
+          }
+        ]
+      },
+      "id": "d5cb4153-954d-4ebe-9f3c-dfe9869764e7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "1070fadf-63be-483f-bc3a-b88554d744f9"
+    }
+  ]
+}

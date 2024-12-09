@@ -1,0 +1,93 @@
+{
+  "_resourceType": "trigger",
+  "id": "777f8a55-6fab-4eac-8c90-84469ccfba8a",
+  "_index": 2,
+  "symbol": "trigger_44",
+  "prefabId": "",
+  "name": "",
+  "x": 6,
+  "y": 3,
+  "width": 4,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You find a book titled, \"The 36\nStratagems\". Would you like to read\nit?"
+              ],
+              "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1"
+            },
+            "id": "5f381e46-9e20-4378-879f-1b4c2af3a0e1"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "T0",
+              "trueText": "Yes.",
+              "falseText": "No.",
+              "__collapse": true
+            },
+            "id": "54122e3c-bb7a-4aef-9c2f-ec54902bc6e2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "T0",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The pages are well-worn, and \ntattered. You turn to one that's been\ndog-eared by a previous reader.",
+                      "\"Chapter 3: Offensive Strategems.\nBorrow a corpse to resurrect the\nsoul. Take an institution, a ",
+                      "technology, a method, or even an\nideology that has been forgotten or\ndiscarded and appropriate it for",
+                      "one's own purposes.\" It goes on to\ndetail other strategies also focused\non deception and opportunism."
+                    ],
+                    "avatarId": "b861e477-1f6d-468f-b9ed-8de16fb22ab1",
+                    "__collapse": false
+                  },
+                  "id": "8cf26d3f-c72b-41b5-b9c0-63797d7585ff"
+                }
+              ],
+              "false": []
+            },
+            "id": "ec2b8bce-e63a-4a42-8dd2-e93466d23c5c"
+          }
+        ]
+      },
+      "id": "a2278ffa-5d77-45ed-975e-75aa4dfea3c0"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "0cd3ce31-326d-4cc0-9916-4ae286a3ff8b"
+    }
+  ]
+}

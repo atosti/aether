@@ -1,0 +1,13 @@
+{
+  "_resourceType": "font",
+  "id": "8a40a88a-0edc-4bcf-a6a6-755fff4fd5bf",
+  "name": "Condensed",
+  "symbol": "font_condensed",
+  "width": 128,
+  "height": 112,
+  "filename": "condensed.png",
+  "mapping": {
+    "Œ": 140,
+    "œ": 156
+  }
+}

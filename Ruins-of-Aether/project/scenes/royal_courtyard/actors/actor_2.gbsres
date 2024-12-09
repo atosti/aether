@@ -1,0 +1,40 @@
+{
+  "_resourceType": "actor",
+  "id": "21bf293e-3c25-4ccf-8fbb-1f42b0afe320",
+  "_index": 1,
+  "symbol": "actor_14",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 25,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f6352084-4033-49ad-8b28-a50eb5b83f5c",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Some of the soldiers say we might begin\nrationing soon.",
+          "I hope it's just rumors..."
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "b239ee90-d952-442b-beb1-374bc46c2ac6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

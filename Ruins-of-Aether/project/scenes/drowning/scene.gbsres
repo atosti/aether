@@ -1,0 +1,195 @@
+{
+  "_resourceType": "scene",
+  "id": "b7310dbe-06ec-4b5d-bf0e-9c41206ba8fa",
+  "_index": 24,
+  "type": "TOPDOWN",
+  "name": "Drowning",
+  "symbol": "scene_0",
+  "labelColor": "yellow",
+  "x": 580.7999999999998,
+  "y": 1280.4000000000008,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "281cd6d0-f39c-441e-bc8e-c7a0cf4e6c4c",
+  "tilesetId": "",
+  "paletteIds": [
+    "d9361714-77c0-45be-aa31-2e90a89d0b99",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "autoFadeEventCollapse": true,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Scene Setup",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "6fe3ffcb-f746-4189-b61e-29bd79137ef1"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "37063a22-d6e4-4856-b2e6-2544a0bc4e73"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "f92d63ea-0fac-45b8-816d-e63a5f05cc52"
+          }
+        ]
+      },
+      "id": "a615f868-b620-4c5c-b5cb-08e136613edd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The wretched one returns to us.\nMuch sooner than envisioned.",
+          "Is she eager to rejoin the fold?\nWhile still burning with ambition.",
+          "No. She has made a fatal mistake.\nHow shameful she must feel.",
+          "And our mercy only makes it worse.\nPitiful the misery she will endure.",
+          "If only she could glimpse our vision.\nTo see through the eyes within.",
+          "She would refuse again to resurface.\nShe would refuse again to..",
+          "\n                          ....A R I S E...."
+        ],
+        "avatarId": "",
+        "__collapse": true
+      },
+      "id": "23689afd-87e7-47ac-a747-05f00bcbc91e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Eyes Opening Cinematic",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "3b01d62e-4f79-47f3-b87c-9d8090470578",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "00a7dcbd-408c-42e1-b118-8d1dc16b91d3"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "5a07496f-1d03-49aa-a387-f3cab5b29d27"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "00dbb63a-43d5-475c-b92a-2c91cd78fadb",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "52384470-3366-451b-bbf7-77dad173acff"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "8ffa3c97-7bb1-4811-873f-60a47f135321"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "6ebfab5f-7aba-4a0c-a38e-0e4742ea931a",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "f8cc98a3-e85b-46b0-8602-045611c7b152"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "__collapse": true
+            },
+            "id": "3633863c-e61f-4221-ba38-077ca1e7cec0"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "a46ddd4d-188e-4255-a470-e994da20d5e6",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "keep",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "1c6ef17a-a577-4d1b-91a5-2fdb903d4e3c"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2",
+              "__collapse": true
+            },
+            "id": "80e4bd35-82e2-4bb4-b3a5-1ef8e1d2cd73"
+          }
+        ]
+      },
+      "id": "09cd50d1-475a-4ccd-bf28-e77a2aad9c60"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "TBD - Transition in/out of this scene"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "96942af1-7127-44ab-bf34-cf26b255505d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

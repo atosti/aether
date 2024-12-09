@@ -1,0 +1,94 @@
+{
+  "_resourceType": "trigger",
+  "id": "ee11834d-99ee-41ad-b491-aef40a94227e",
+  "_index": 4,
+  "symbol": "trigger_34",
+  "prefabId": "",
+  "name": "",
+  "x": 29,
+  "y": 2,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Viewed the painting"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "7",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": true,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": false,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false,
+                    "__collapse": true
+                  },
+                  "id": "f031ca77-11d0-40ac-9d89-d731c03ed91c"
+                }
+              ]
+            },
+            "id": "9e071548-a6e0-4680-b1f5-b27de93e64ec"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ddbea29e-c552-4c4b-a976-dfa4c8509331",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "366744da-d7cf-4e62-864f-63b9f0c94657"
+          }
+        ]
+      },
+      "id": "7b0c68f8-d461-424c-8586-b27baf1e3013"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "44549742-d7db-4ad3-9a9f-3e605eeb6ba2"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64b2eeda-752d-400d-b0a9-bb253c6a631c",
+  "name": "startup/title",
+  "symbol": "bg_startup_title",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "startup/title.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}
