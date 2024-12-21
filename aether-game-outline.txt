@@ -3555,7 +3555,7 @@ Concepts:
 	Aylmera: "And how do you expect me to do that?"
 	Alexandros: "Fear works wonders."
 	Aylmera: "What do y- *Hngh*"
-	* He grasps your throat tightly with his bare hands. *
+	* He grasps your throat tightly with his hands. *
 	Aylmera: "S-stop..." (you mutter)
 	* You try to pry his hands from your neck, but his grip is too tight. *
 	* Ignoring your pleas, he stares deeply into your eyes. *
@@ -3596,7 +3596,7 @@ Concepts:
 	Enemy: "But I can see it on your face."
 	Enemy: "You don't believe such a thing is possible."
 	Enemy: "Your preconceptions are the chains which bind you."
-215. Zealots who voluntarilty undergo torture while meditating	
+215. Zealots who voluntarilty undergo torture while meditating
 	- They see it as a way to truly achieve zen. Being able to pray and be at peace even when you're physically harmed.
 	- An extreme form of mind over matter.
 216. "Suicide of the Goddess"
@@ -3612,13 +3612,15 @@ Concepts:
 		~ It should be a tragic and haunting reminder of each Boss' unique identity.
 	- Ideally, the speed of attacks should correspond to the speed of the music.
 		~ Thus, a player would have to adjust their rhythm and timing of attacks to match the current music speed.
+218. Oil head on fire (Aetherial fire)
+
 
 Names for Chapters/Sections:
 ==============================
 * These can be banners displayed on screen once as parts of the story are reached.
 	- Ideally, each one should be truncated by either a dream sequence or a large event/arrival at a location.
 Ch. 1: Awakening -> Castle + Outskirts + Forest
-	- Ending: Choked out by smoke from the Bandit Queens escape (smokebombs + fire)
+	- Ending: Choked out by smoke from the Bandit Queen's escape (smokebombs + fire)
 Ch. 2: Adrift -> Northward Journey + Lepers + Falling into River
 	- Ending: Sinking to the bottom of the river after breaking through bridge
 Ch. 3: Savior -> City Outskirts + Dungeons + Throne Room
