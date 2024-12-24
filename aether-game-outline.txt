@@ -3612,8 +3612,51 @@ Concepts:
 		~ It should be a tragic and haunting reminder of each Boss' unique identity.
 	- Ideally, the speed of attacks should correspond to the speed of the music.
 		~ Thus, a player would have to adjust their rhythm and timing of attacks to match the current music speed.
-218. Oil head on fire (Aetherial fire)
-
+218. Visual of an oil well head on fire buring endlessly, but it's a spout of Aetherial fire
+	- Not sure if it works with how I want events to unfold, but it's certainly a striking image for the site of the Great Explosion.
+219. Comments from the Zealots
+	- "God abandoned these people, and you want to turn your back on them as well?"
+	  "There's no honor in your bones."
+	- "Once the wizards had established themselves, our demonologists prepared us for all manner of things to spill out of that tower."
+	  "And yet none of them ever came."
+	  "Instead the undead mass simply writhed and grew."
+	  "The worst creature it ever manifested were Wizards."
+	  "And they were far more vicious than we had ever imagined."
+	- "It has become necessity to burn their books."
+	  "It's too powerful"
+220. Conversation with Alexandros about the nature of the Great Tower
+	Jester: "What did you all spend your time doing in that Tower?"
+	Jester: "For months at a time not a soul would enter or leave."
+	Alexandros: "You didn't know what was inside?"
+	Jester: "Our intel suggested it served as the headquarters for your war effort."
+	Jester: "But we didn't know much beyond that."
+	* Alexandros laughs *
+	Alexandros: "Well certainly once we'd become seiged that was true."
+	Alexandros: "But we were academics. You don't spend years toiling over old scrolls for some imagined glory."
+	Alexandros: "It was actually incredibly hard to rally enough people to assemble battleplans, let alone carry them out."
+	Jester: "How did you manage to defend yourselves for so long? Did you institute a draft?"
+	* Alexandros scoffs * 
+	Alexandros: "The only thing more ancient than most our tomes were our members. A draft was not a realistic possibility."
+	Alexandros: "Though in those final months, there was lots of internal sabotage."
+	Alexandros: "Books being stolen, reagents misplaced, experiments ruined."
+	Alexandros: "Anything to force attention back to the war effort."
+	Alexandros: "For what it's worth, it did start to have an effect toward the end."
+	Alexandros: "But as is often the case, the most eager fighters tended to be the youngest."
+	Alexandros: "So our youngest members were sent into the field and slain in skirmishes surrounding the tower."
+	Alexandros: "Victims of their own inexperience as much as their own vanity."
+	Jester: "Spoken like a seasoned commander."
+	Jester: "I take it you've lost good men who followed your plans?"
+	* Alexandros laughs *
+	Alexandros: "My friend. You misunderstand me entirely."
+	Alexandros: "I was one of the bastards doing experiments despite it all."
+	Alexandros: "I couldn't give a damn about that petty war."
+	Alexandros: "How else do you think I mastered so many magicks?"
+	* Alexandros smiles indifferently *
+221. How did Alexandros survive the explosion?
+	- Perhaps he was sent deep into the basement by the the Mad Wizard in pursuit of some asinine task at the time of the explosion, thus saving him.
+		~ Maybe he fetches the stone of Aether from the basement for the Mad Wizard, but is scolded and told he forgot some other thing as soon as it's delivered.
+		~ The Mad Wizard is IRATE, and insists he must return to the catacombs below and fetch it immediately.
+		~ Later, obviously, Alexandros realized this was a ruse to save him. Now he wonders why he was spared.
 
 Names for Chapters/Sections:
 ==============================
