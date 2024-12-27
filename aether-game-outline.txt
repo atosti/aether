@@ -3650,7 +3650,7 @@ Concepts:
 	Jester: "So there was in-fighting?"
 	Alexandros: "Somewhat. We were still aligned in our ideological goals."
 	Alexandros: "The disruptions intended to force attention onto the war effort."
-	Alexandros: "You see, we were disadvantaged by one of our core tenets: Radical Autonomy."
+	Alexandros: "You see, we were disadvantaged by one of our core tenets: Pure Autonomy."
 	Jester: "What does that entail?"
 	Alexandros: "Simply put: No member could force another to do anything against their will."
 	Alexandros: "Any action, as simple as fetching a tome for an elder, was purely voluntary."
