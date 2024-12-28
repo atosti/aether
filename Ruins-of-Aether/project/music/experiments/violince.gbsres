@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3a457696-b268-4ed0-aa11-e57739f678c4",
+  "name": "experiments/violince",
+  "symbol": "song_violince",
+  "filename": "experiments/violince.uge",
+  "settings": {},
+  "type": "uge"
+}
