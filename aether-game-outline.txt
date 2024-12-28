@@ -3763,6 +3763,18 @@ Characters and their attacks:
 
 Keybinds:
 -----------
+Consider what is supposed to be the most fun aspect of this game as both the micro (second to second) and the macro (defeating bosses).
+	- The base idea is a JRPG 4-person team, but with a twist.
+	- I want things to be rhythm based (or rhythm-lite perhaps) where the intensity of the music matches the intensity of the gameplay.
+	- Need the ability to cycle between 4 characters
+		~ Each character should have a unique playstyle. Perhaps each one almost has a different feel for their own rhythm
+		~ Each character should have different strengths/weaknesses in combat or phases of a fight
+	- The fight should be real time, perhaps only interrupted by dialogue or combat changes (e.g. new enemies spawned)
+
+Main phases of Player action:
+	1. Pause/Unpause = Start
+	
+
 Arrow keys = Attack chains
 A = Lock in Attack to Combo
 Hold A = Activate Combo
