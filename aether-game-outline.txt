@@ -3717,6 +3717,8 @@ Concepts:
 	Neera: "It is always our own chains which bind us more firmly than any other."
 	Neera: "Remember that the next time you encounter an evil person."
 	Neera: "Ultimately, they've chosen such a form."
+223. Quote to include
+	"What a complicated animal man is. He’s both smart and stupid." - Pepe Mujica
 
 Names for Chapters/Sections:
 ==============================
