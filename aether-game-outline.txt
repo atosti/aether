@@ -3738,6 +3738,22 @@ Ch. 6: Atonement -> Journey Home + Showdown in the Burnt Castle + Final dreams w
 	- Ending: Aylmera slumped at the foot of the throne, bleeding out and asking to either be Cremated or Buried.
 		~ At this moment, the friendship and comradery of the party should be realized in full.
 
+Conversation System Ideas:
+==========================
+Goals:
+	1. I would like the ability for players to have somewhat unique responses for a given playthrough.
+		- These don't have to be significantly different, but just dialogue that reveals slightly different details to the player.
+	2. I would like players to want to ask/say multiple things, but be forced to only say a few.
+		- Thus, it's important they state the MOST important lines to them (in regards to what they'll learn).
+	3. This system should have little bearing on determining the decisions Aylmera and the team make.
+		- It is not about player morality.
+		- It is not about "relationship scores" with each NPC.
+	4. The player should feel satisfied with the answer they receive, but dissatisfied that it's the only one they get.
+	5. Conversations should always provide insight into ALL parties talking.
+		- This is often about the player party vs. the NPC/group.
+		- Avoid it simply being a way for an NPC to list information.
+	6. The goal is NOT to have a dialogue tree which is fully exhausted.
+
 Combat System Ideas:
 ====================
 May 2024:
