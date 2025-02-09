@@ -3719,6 +3719,11 @@ Concepts:
 	Neera: "Ultimately, they've chosen such a form."
 223. Quote to include
 	"What a complicated animal man is. He’s both smart and stupid." - Pepe Mujica
+224. One particularly monstrous character should NOT have their eyes shown on starting combat.
+	- Perhaps the monstrous man in the forest (when Aylmera's alone)
+	= INSTEAD, his overlay should pan to his mouth, which wickedly smiles.
+	- Only a SINGLE character in the entire game should have this effect.
+	- Their eyes should forever be hidden, because they don't make eye contact with the player.
 
 Names for Chapters/Sections:
 ==============================
@@ -3753,6 +3758,16 @@ Goals:
 		- This is often about the player party vs. the NPC/group.
 		- Avoid it simply being a way for an NPC to list information.
 	6. The goal is NOT to have a dialogue tree which is fully exhausted.
+
+Eyes Overlay:
+=============
+Guide for GBVM HUDs
+	- https://gbstudiolab.neocities.org/guides/gbvm-submaps
+
+Design a system which allows a thin rectangle of overlay to be drawn and animated overtop the screen.
+	- This system will be used to show a "camera" pan up on a character, revealing their eyes/face at the end.
+		~ Then, they should have a slight animation showing their emotion about the fight (grinning, squinting, focusing, crying, getting angry, blank blink, etc.)
+	- This is a minor detail, but KEY to establishing the emotional stakes of each encounter.	
 
 Combat System Ideas:
 ====================

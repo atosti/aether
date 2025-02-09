@@ -1,0 +1,69 @@
+{
+  "_resourceType": "script",
+  "id": "7fb82f32-41f6-4ac6-8d70-f2dbb26a810f",
+  "name": "Conversation",
+  "description": "WIP - This is meant to be a system that allows for multiple dialogue options. Selecting a single one advances dialogue, and as such not all questions can ever be answered in a single playthrough.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_23",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "This is a test.",
+        "x": 0,
+        "y": 1,
+        "location": "overlay"
+      },
+      "id": "776eca33-6f28-46e1-bc30-2f815989ebb5"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "white",
+        "x": 0,
+        "y": 0
+      },
+      "id": "8e806095-71e1-4b1e-884f-7925e7d7f8f1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "1137b72d-4234-4baf-b57f-7f555c7fe6fc"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "e368de70-8c1b-4882-b486-677507b54b4c"
+    },
+    {
+      "command": "EVENT_OVERLAY_SET_SCANLINE_CUTOFF",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 150
+        }
+      },
+      "id": "0137ebe1-706c-4591-8b7d-0acf4f1696d1"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 0,
+        "speed": 0
+      },
+      "id": "cb0dd2a3-fede-44cc-8121-2865b0820109"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SET_MAP"
+      },
+      "id": "b11bb8f6-a4f5-4ba6-b352-a59ac4a6ec50"
+    }
+  ]
+}

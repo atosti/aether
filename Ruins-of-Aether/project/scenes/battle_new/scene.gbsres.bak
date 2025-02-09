@@ -20,7 +20,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Dummy Init HP",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -92,7 +92,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set currently controlled character to Aylmera",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -116,7 +116,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Dummy Init Recruited",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

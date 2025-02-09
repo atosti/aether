@@ -3,7 +3,7 @@
   "id": "7e304b2a-089d-4d34-a2cf-7cd0eeb4525b",
   "name": "Battle - Cycle Chars Backward",
   "symbol": "script_20",
-  "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running. Attach to SELECT Button Hold press events during battle screen Init.",
+  "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running. Attach to SELECT Button Hold events during battle screen Init.",
   "variables": {
     "V0": {
       "id": "V0",

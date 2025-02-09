@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "34d28609-a684-4c5c-a2f9-6c0812df0b22",
+  "name": "experiments/enemy_approaches",
+  "symbol": "song_enemy_approaches",
+  "filename": "experiments/enemy_approaches.uge",
+  "settings": {},
+  "type": "uge"
+}

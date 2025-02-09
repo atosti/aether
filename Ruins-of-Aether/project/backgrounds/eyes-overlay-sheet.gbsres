@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e064a7d3-4f66-4c5f-bd1d-7e8760dd4786",
+  "name": "Eyes-Overlay-Sheet",
+  "symbol": "bg_eyes_overlay_sheet",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "Eyes-Overlay-Sheet.png",
+  "tileColors": ""
+}

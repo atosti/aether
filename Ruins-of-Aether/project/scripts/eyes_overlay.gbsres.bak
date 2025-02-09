@@ -1,0 +1,19 @@
+{
+  "_resourceType": "script",
+  "id": "7fb82f32-41f6-4ac6-8d70-f2dbb26a810f",
+  "name": "Eyes Overlay",
+  "description": "WIP - This is meant to draw a character's eyes over the top of screen, signaling the start of a fight. This should be able to happen while the background (hopefully) can have actions happen during (or immediately after). Then fade to black/white and begin a combat scene.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_23",
+  "script": [
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_OVERLAY_SET_SUBMAP 21, 0, 18, 10, 0, 0\nVM_OVERLAY_SHOW 0, 16, .UI_COLOR_WHITE, 0",
+        "__comment": false
+      },
+      "id": "b11bb8f6-a4f5-4ba6-b352-a59ac4a6ec50"
+    }
+  ]
+}

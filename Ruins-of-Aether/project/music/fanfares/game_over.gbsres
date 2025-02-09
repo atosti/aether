@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "0d6ae8a5-574f-4e8c-8734-980792c14d2f",
+  "name": "fanfares/game_over",
+  "symbol": "song_fanfares_game_over",
+  "filename": "fanfares/game_over.uge",
+  "settings": {},
+  "type": "uge"
+}

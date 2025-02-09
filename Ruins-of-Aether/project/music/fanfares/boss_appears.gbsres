@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "eb50e17a-92db-458c-abc4-60ffe297e73e",
+  "name": "fanfares/boss_appears",
+  "symbol": "song_fanfares_boss_appears",
+  "filename": "fanfares/boss_appears.uge",
+  "settings": {},
+  "type": "uge"
+}

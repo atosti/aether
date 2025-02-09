@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "45e56b6b-1ccf-45ab-b9ad-4c2e4a7a48cf",
+  "_index": 27,
+  "name": "Conversation / Eyes Combat Trigger Test",
+  "backgroundId": "e064a7d3-4f66-4c5f-bd1d-7e8760dd4786",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0014+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0013+0f15+002bb+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 832,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

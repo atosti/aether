@@ -81,7 +81,7 @@
           "\n                          ....A R I S E....\n"
         ],
         "avatarId": "",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "60b2cc05-84a9-4f73-bfbb-7a17c2a0483d"
     },
@@ -192,14 +192,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "74ba6f50-04ea-43e7-b055-9e770fe51b5d",
+        "sceneId": "45e56b6b-1ccf-45ab-b9ad-4c2e4a7a48cf",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
-          "value": 12
+          "value": 13
         },
         "direction": "up",
         "fadeSpeed": "2",

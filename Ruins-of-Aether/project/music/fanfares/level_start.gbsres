@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "deb5f1eb-743c-4815-bc62-540108ed1ef7",
+  "name": "fanfares/level_start",
+  "symbol": "song_fanfares_level_start",
+  "filename": "fanfares/level_start.uge",
+  "settings": {},
+  "type": "uge"
+}

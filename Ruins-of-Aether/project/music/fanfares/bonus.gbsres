@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3f4c3501-a53b-48c9-b869-a0f23c6f7e2f",
+  "name": "fanfares/bonus",
+  "symbol": "song_fanfares_bonus",
+  "filename": "fanfares/bonus.uge",
+  "settings": {},
+  "type": "uge"
+}

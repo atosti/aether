@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "7e0f01e5-6690-4b67-b60a-5dbfb2da496e",
+  "name": "experiments/irregularity",
+  "symbol": "song_irregularity",
+  "filename": "experiments/irregularity.uge",
+  "settings": {},
+  "type": "uge"
+}

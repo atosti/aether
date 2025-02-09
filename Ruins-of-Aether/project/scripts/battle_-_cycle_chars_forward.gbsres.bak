@@ -3,7 +3,7 @@
   "id": "0c06f147-8242-403f-9c38-085098952d46",
   "name": "Battle - Cycle Chars Forward",
   "symbol": "script_0",
-  "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running this script. Attach this to B Button Hold press events during battle screen Init.",
+  "description": "Determine which characters to cycle to/from based on the value of PartyConfig and party member HP. This script requires PartyConfig to be set before running. Attach to B Button Hold events during battle screen Init.",
   "variables": {
     "V0": {
       "id": "V0",

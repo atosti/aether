@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "45e56b6b-1ccf-45ab-b9ad-4c2e4a7a48cf",
+  "_index": 27,
+  "name": "Conversation Test",
+  "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 832,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7fb82f32-41f6-4ac6-8d70-f2dbb26a810f",
+        "__collapse": true
+      },
+      "id": "40949ac5-f24a-4c60-ac24-532ec00a8e38"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
