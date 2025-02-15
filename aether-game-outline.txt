@@ -335,6 +335,12 @@ Simple things to Work On:
 	- Player arrives from the South to a makeshift throne with Vivian sitting atop it. As they stop, several bandits emerge from the bushes/sides and flank Aylmera + the Jester.
 237. Create the basics of fluid souls-like movement (as close as you can) in GB studio. Just use placeholder images, it's fine.
 	- Dodging, blocking, heavy attack, light attack, parrying?
+238. Begin assembling the dialogue into which game map it belongs in.
+	- Then begin assigning it to characters and scenes in that zone.
+	- Start implementing "walky talky" zones.
+		~ The combat and UI systems can follow later.
+	- Would love to design a slightly more robust conversation system, but 2 options is def do-able.
+		~ Could just have branching paths so you're locked out of certain questions if you asked other things prior (in a given scene).
 
 * Understand that a lot of things will be placeholder for now. Come back to polishing later. Get the core ideas and screens built.
 
