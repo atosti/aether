@@ -3801,7 +3801,11 @@ Concepts:
 		~ Seriously ignoring the fact that Aylmera was a warrior from hundreds of years ago.
 	- It should really be revealed piece-meal that you're not even from the same era.
 	- When it's finally revealed to you in full, your character should feel betrayed by the party.
-		~ They ALL conceal it from you. Because they prioritize their own goals over you. 
+		~ They ALL conceal it from you. Because they prioritize their own goals over you.
+	- There should maybe be more hints of people using you overtly.
+		~ The player should have doubts about whether you're even working with a morally Good group.
+		~ Or whether they're even being honest with you.
+		~ You're just forced to do their bidding from the start.
 228. Consider referring to "Aylmera" as "You" while in the Void
 	- This is to further signal that you, and thus your soul, does NOT belong to Aylmera.
 
