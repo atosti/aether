@@ -3730,6 +3730,80 @@ Concepts:
 	= INSTEAD, his overlay should pan to his mouth, which wickedly smiles.
 	- Only a SINGLE character in the entire game should have this effect.
 	- Their eyes should forever be hidden, because they don't make eye contact with the player.
+225. Conversation with void-beings on entering Void for the first time
+	You: "Where am I? How did I get here?"
+	VB: "You are far away. Incredibly distant from where you once existed."
+	You: "I've traveled a great distance?"
+	VB: "Do you recall traveling a great distance?"
+	You: "No. I recall... falling unconscious."
+	VB: "What does that tell you?"
+	[This is a dream.]
+	[I have been transported somewhere.]
+	VB: "The answer lies somewhere inbetween the two."
+	You are perplexed (?)
+	You: "Are you reading my thoughts?"
+	VB: "The important ones."
+	You: "Are you taunting me?"
+	VB: "Focus your perplexities less on the 'How'."
+	VB: "It is the 'Why' which will bring answers you seek."
+	You: "So why am I here?"
+	VB: "To ask that very question."
+	VB: "Don't disappoint."
+	* Player switches from black dialogue screen to playable void-space interlude. *
+226. Later interaction with void-beings during dream sequence
+	VB: "Welcome back, estranged one."
+	You: "Tell me."
+	You: "How many times have I been here before now?"
+	VB: "More relevant would be how long you've spent here."
+	You: "And how long is that?"
+	VB: "We lack celestial bodies to measure it accurately."
+	You: "Just answer me."
+	VB: "Several lifetimes, at least."
+	You: "What? How have I been here that long? I was in my body mere moments ago."
+	VB: "You say such confused things. I don't know how to correct you." (Because time isn't suspended here, NOR is the player in Aylmera's body)
+	VB: "Try thinking back to your earliest memory. What is it?"
+	You: "I don't know... I can't remember anything before my revival."
+	You: "It must have been when I trained under King Oswald IV, years ago." (Makes reference to a learned fact about Aylmera and her life as a youth)
+	VB: "Ponder it a while more."
+	* You think long and hard about your past experiences. *
+	* At first there's nothing. Just the darkness of your mind. *
+	* But then you glimpse something. Like a memory of a memory. *
+	* You're on the roadside. Caked in filth. Your clothes are ragged. *
+	* A woman rides by on horseback, but she stops for you. *
+	* Reaching into her bag she pulls out a loaf of bread and hands it to you. *
+	* It's fresh. With a warmth just like her smile. *
+	* And then she rides into the distance. Fading away, just like your memory of her. *
+	VB: "Now you begin to understand."
+	VB: "Did you recognize the woman on horseback?"
+	You: "Yes... Her armor was so distinct..."
+	VB: "It was identical to the set adorning you now."
+	You: "And her hair..."
+	You: "She was Aylmera!"
+	You: "Why would I remember someone else's memory of me?"
+	VB: "Have you forgotten the experience of dying?" (it's hinting that you should remember dying as someone else)
+	You: "What does that have to do with anything?"
+	VB: "Seems rather hard to forget."
+	You: "I don't understand these games!"
+	You: "Say what you mean!"
+	VB: "My words have never been anything but honest."
+	VB: "It's incredibly unusual for one to be revived so long after death."
+	VB: "It's why you've been treated with such grace and leniency."
+	VB: "So ask me what's actually on your mind."
+	You: "..."
+	["Who am I?"] (not sure if only one option is allowed, but allow only 1 response here)
+	VB: "You're not her."
+	You: "..."
+	VB: "Now go finish what was started for you."
+	* The player fades into the next scene, reawakening in the real world. *
+227. Notes on Player's backstory/intro
+	- The more I think about it, the more I think everyone around you should just glaze over resurrection in the first Act.
+	- They should just describe you as "one of their greatest warriors" whom they revived.
+		~ Seriously ignoring the fact that Aylmera was a warrior from hundreds of years ago.
+	- It should really be revealed piece-meal that you're not even from the same era.
+	- When it's finally revealed to you in full, your character should feel betrayed by the party.
+		~ They ALL conceal it from you. Because they prioritize their own goals over you. 
+228. Consider referring to "Aylmera" as "You" while in the Void
+	- This is to further signal that you, and thus your soul, does NOT belong to Aylmera.
 
 Names for Chapters/Sections:
 ==============================

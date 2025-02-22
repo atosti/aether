@@ -15,8 +15,32 @@
   "symbol": "scene_28",
   "x": 832,
   "y": 32,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CAMERA_PROPERTY_SET",
+      "args": {
+        "property": "camera_deadzone_x",
+        "value": {
+          "type": "number",
+          "value": -10
+        }
+      },
+      "id": "759408cf-b3a3-4ae4-9afb-925e1580b16a"
+    },
+    {
+      "command": "EVENT_CAMERA_PROPERTY_SET",
+      "args": {
+        "property": "camera_offset_x",
+        "value": {
+          "type": "number",
+          "value": -9
+        }
+      },
+      "id": "c367ff7d-4356-4507-bcc5-13345278007a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

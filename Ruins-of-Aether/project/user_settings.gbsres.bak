@@ -25,7 +25,7 @@
     "EVENT_ACTOR_MOVE_RELATIVE",
     "EVENT_GROUP"
   ],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

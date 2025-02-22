@@ -3,20 +3,44 @@
   "id": "45e56b6b-1ccf-45ab-b9ad-4c2e4a7a48cf",
   "_index": 27,
   "name": "Conversation / Eyes Combat Trigger Test",
-  "backgroundId": "32900e3f-4d9b-4a63-b0ef-780abb634439",
+  "backgroundId": "e064a7d3-4f66-4c5f-bd1d-7e8760dd4786",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
-  "type": "TOPDOWN",
+  "width": 40,
+  "height": 36,
+  "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0014+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0013+0f15+002bb+",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
   "x": 832,
   "y": 32,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CAMERA_PROPERTY_SET",
+      "args": {
+        "property": "camera_deadzone_x",
+        "value": {
+          "type": "number",
+          "value": -10
+        }
+      },
+      "id": "759408cf-b3a3-4ae4-9afb-925e1580b16a"
+    },
+    {
+      "command": "EVENT_CAMERA_PROPERTY_SET",
+      "args": {
+        "property": "camera_offset_x",
+        "value": {
+          "type": "number",
+          "value": -9
+        }
+      },
+      "id": "c367ff7d-4356-4507-bcc5-13345278007a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }
