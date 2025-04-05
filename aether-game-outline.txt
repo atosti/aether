@@ -3810,6 +3810,8 @@ Concepts:
 	- This is to further signal that you, and thus your soul, does NOT belong to Aylmera.
 229. "I've seen a lot in my life. But never before have I witnessed a headless snake fight."
 	- In regards to individuals fighting after the head of their organization has just died.
+230. Absurd welcoming phrase
+	- "Hello Bastards and Bastardesses. Welcome!"
 
 Names for Chapters/Sections:
 ==============================
