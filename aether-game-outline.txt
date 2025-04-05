@@ -3816,6 +3816,70 @@ Concepts:
 	- "I am the SOLE perpetrator of Justice in the entire realm! And look upon me, NO ONE is pleased with my results."
 	- "Justice itself is out of favor. Such is a sign of the times."
 	- Could be a phrase spoken by either the player character or by someone else. Regardless, should be someone with many kills.
+232. Ancient history
+	Person A: "Ancient texts speak of the angels who first descended to the lands of the Realm."
+	Person B: "The Archangels."
+	Person A: "Yes. I'm impressed you know that. Do you know what they encountered when they first arrived?"
+	Person B: "Misfortune. And hatred of their master."
+	Person A: "True. But also the bones of their predecessors."
+	Person A: "Creatures from long ago. Bones made brittle by time."
+	Person B: "Who were they?"
+	Person A: "Nomads. The same as you and I. And the angels."
+	Person A: "Cast into exile on the path of decay."
+233. Someone's opinion on hatred
+	Person: "Outward hatred shapes a man more than his inner grief."
+234. Converation with Vivian (Bandit Queen)
+	- She should try to ally with the player, inviting them to a conversation (or series of conversations) before deciding to fight them.
+	Vivian: "You dispatched many of my finest with great ease. I see potential in you."
+	Vivian: "It's not my goal to exploit you. I want to work as a team. As comrades."
+	Aylmera: "And what would we work on?"
+	Vivian: "Our business is to the East. Back the way you came."
+	Aylmera: "Far East? The way of the Aether? I too have business that way."
+	Vivian: *Chuckle* "No sweetie. Not that far East. To the castle you came from."
+	Aylmera: "What makes you certain I came from there?"
+	Vivian: *Fully laughs*
+	Vivian: "Even if my spies hadn't informed me of your movements, it's pretty obvious..."
+	Vivian: "You even have the court's jester in tow. Doesn't take much deduction after that."
+	Jester: *Shrugs* "Can't argue with reason. What's your angle, Vivian?"
+	Vivian: *Sharply snaps* "I wasn't aware I was addressing you. Juggler."
+	Vivian: "What say you, Aylmera? Join us. Let this *fool* return home."
+	Aylmera: "I'm afraid my business is East."
+	Vivian: "Yes. As is mine."
+	Aylmera: "You speak more than you listen. There's a name for that." (implying Dictator)
+	Aylmera: "And it's not Comrade."
+	Aylmera: "Let us pass through, and we can all be on our way. No animosity."
+	* Note: This is the point where Vivian becomes offended in the conversation. *
+	Vivian: "You seem to be confused about your direction. My lands are clearly lie West. Not to your East."
+	Jester: "A wise man controls not his path, but instead his destination." *Smiles politely*
+	Vivian: *Mildly upset* "Do you like when he speaks for you?"
+	Aylmera: "Unlike your followers, he's entitled to his own opinions."
+	Aylmera: "It's not my business whether he shares them."
+235. More ancient history
+	* Note: One core detail to emerge here is that the Royal Wizardry had a HUGE wealth of knowledge. But due to disinterest and disorganization, it largely hoarded it from others.
+	Alexandros: "In the tower my first book of study was actually a diary."
+	Alexandros: "Written by the first cultural anthropologist of our era. He sought to understand our origins."
+	Aylmera: "The origins of the wizardry?"
+	Alexandros: "The origins of *humanity*."
+	Aylmera: "Oh. And what did he find?"
+	Alexandros: "Whispers of what had come before. Echoes of a people who worshipped different gods."
+	Jester: "Like the gods Neera communes with?"
+	Neera: "No. My God has many voices, but exists in only one form."
+	Alexandros: "I wouldn't get too hung up on the details. His work didn't cover much on the gods anyhow."
+	Alexandros: "His focus was on the *people* who worshipped those gods. He believed them to be our TRUE ancestors."
+	Aylmera: "Whereas the Church believes we're descended from angels?"
+	Neera: "Which we are."
+	Aylmera: "Well... What did this anthropologist discover?"
+	Alexandros: "Largely he aimed to translate old engravings. The language of those people."
+	Alexandros: "He died before he could finish it, though."
+	Aylmera: "So no one knows what they wrote?"
+	Alexandros: "No. Some colleagues of mine completed the translation years ago."
+	Jester: "What? What had they written?!"
+	Alexandros: "Couldn't tell you. They only translated the words. Never went back and analyzed all the engravings."
+	Jester: "Certainly you're joking... right?"
+	Alexandros: "Nope. Guy who spearheaded the effort did it just to prove he could. No one followed up his research."
+	Alexandros: "Don't get too flustered. It's all burnt up now anyway."
+	* A cynical silence spreads among the party. *
+	(Conversation ends)
 
 Names for Chapters/Sections:
 ==============================
