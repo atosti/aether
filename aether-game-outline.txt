@@ -3812,6 +3812,10 @@ Concepts:
 	- In regards to individuals fighting after the head of their organization has just died.
 230. Absurd welcoming phrase
 	- "Hello Bastards and Bastardesses. Welcome!"
+231. Passionate self-righteous examination
+	- "I am the SOLE perpetrator of Justice in the entire realm! And look upon me, NO ONE is pleased with my results."
+	- "Justice itself is out of favor. Such is a sign of the times."
+	- Could be a phrase spoken by either the player character or by someone else. Regardless, should be someone with many kills.
 
 Names for Chapters/Sections:
 ==============================
